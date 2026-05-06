@@ -2,24 +2,14 @@
 <html class="no-js" lang="en">
 <head>
 
-    <!-- title -->
-    <title>POFO – Creative Agency, Corporate and Portfolio Multi-purpose Template</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
-    <meta name="author" content="ThemeZaa">
-    <!-- description -->
-    <meta name="description"
-        content="POFO is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose agency and portfolio HTML5 template with 25 ready home page demos.">
-    <!-- keywords -->
+<?php include_once ("includes/header.php"); ?>
 
+    <!-- <include src="includes/linked-files.html"></include> -->
 
-    <include src="includes/linked-files.html"></include>
-
-    <script>document.addEventListener("DOMContentLoaded", function () {
+    <!-- <script>document.addEventListener("DOMContentLoaded", function () {
             let e = document.getElementsByTagName("include"); for (var t = 0; t < e.length; t++) { let a = e[t]; n(e[t].attributes.src.value, function (e) { a.insertAdjacentHTML("afterend", e), a.remove() }) } function n(e, t) { fetch(e).then(e => e.text()).then(e => t(e)) }
         });
-    </script>
+    </script> -->
 
 </head>
 
@@ -28,9 +18,8 @@
     <!-- start header -->
             <!-- <global-navigation></global-navigation> -->
             <!-- <div class="global-nav"></div> -->
-
-            <include src="includes/global-nav.html"></include>
-
+            <!-- <include src="includes/global-nav.html"></include> -->
+            <?php include_once ("includes/global-nav.php"); ?>
     <!-- end header -->
 
 

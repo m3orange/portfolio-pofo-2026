@@ -18,6 +18,7 @@
                             <ul id="accordion" class="nav navbar-nav no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
                                 <li class="dropdown megamenu-fw"><a href="#">Home</a></li>
                                 <li class="dropdown megamenu-fw"><a href="#">Inside Include</a></li>
+                                <li class="dropdown megamenu-fw"><a href="#">Using the Include Tag</a></li>
                             </ul>
                         </div>
                     </div>
