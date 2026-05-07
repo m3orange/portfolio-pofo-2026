@@ -1,3 +1,9 @@
+    
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+
+    
     <!-- title -->
     <title>POFO – Creative Agency, Corporate and Portfolio Multi-purpose Template</title>
     <meta charset="utf-8">
@@ -36,10 +42,7 @@
     <!--[if IE]>
             <script src="js/html5shiv.js"></script>
         <![endif]-->
+<link rel="stylesheet" href="_projects.css" />
+<link rel="stylesheet" href="_style-overwrites.css" />
 
-
-    <!-- <script type="text/javascript" src="js/main.js"></script>
-        <script src="includes/global-nav.js"></script> -->
-
-
-
+</head>
