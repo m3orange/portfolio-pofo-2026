@@ -287,10 +287,12 @@ $(document).ready(function () {
         return false;
     });
 
+    /* M3 - Where I removed the auto play in the intro slider */
+
     /* ===================================
      swiper slider
      ====================================== */
-    var swiperFull = new Swiper('.swiper-full-screen', {
+    var swiperFull = new Swiper('.swiper-full-screen, .swiper-cb-fullwidth-screens', {
         loop: true,
         slidesPerView: 1,
         preventClicks: false,
@@ -299,9 +301,13 @@ $(document).ready(function () {
             el: '.swiper-full-screen-pagination',
             clickable: true
         },
+/* M3 - Where the autoplay in the intro slider is disabled */
+/*
         autoplay: {
             delay: 5000
         },
+
+*/
         keyboard: {
             enabled: true
         },
