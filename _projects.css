@@ -2,8 +2,8 @@
 
 
 
-.citybox #block-intro-slider section{
-
+#block-intro-slider{
+    height: 70vh;
 
 }
 
@@ -16,7 +16,7 @@
 }
 
 .citybox #block-01 .grid-lines .col{
-    border: 1px solid #cacaca!important;
+    /* border: 1px solid #cacaca!important; */
 }
 
 

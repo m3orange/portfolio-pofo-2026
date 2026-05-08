@@ -1,28 +1,21 @@
-    <section id="block-intro-slider" class="wow fadeIn p-0 parallax sm-background-image-center" data-stellar-background-ratio="0.5"
-        style="background-image: url('http://placehold.it/1920x1100')">
-        <div class="opacity-extra-medium bg-black"></div>
-        <div class="container-fluid position-relative full-screen">
-            <div class="slider-typography">
-                <div class="slider-text-middle-main">
-                    <div class="slider-text-bottom">
-                        <div
-                            class="col col-12 col-xl-6 col-lg-7 float-right bg-deep-pink-opacity padding-six-lr lg-padding-seven-lr padding-five-tb sm-padding-30px-all last-paragraph-no-margin">
-                            <div
-                                class="box-separator-line width-180px bg-white lg-width-120px md-width-90px d-none d-lg-block">
-                            </div>
-                            <h1 class="font-weight-600 alt-font text-white-2 width-95 md-width-100">We combine design,
-                                thinking and technical.</h1>
-                            <p
-                                class="text-large font-weight-300 text-white-2 width-75 lg-width-85 md-width-95 sm-width-100 d-none d-md-block">
-                                We are a full-service digital agency. Everything you could possibly want it to do and
-                                not only that, beautifully carefully designed.</p>
-                            <a href="https://themeforest.net/item/pofo-creative-agency-corporate-and-portfolio-multipurpose-template/20645944?ref=themezaa"
-                                target="_blank"
-                                class="btn btn-medium btn-white margin-40px-top text-link-deep-pink sm-margin-10px-top">Purchase
-                                Pofo</a>
+<section id="block-intro-slider" class="wow fadeIn p-0 parallax sm-background-image-center"
+    data-stellar-background-ratio="0.5" style="background-image: url('projects/citybox/cb-hero-section.png');">
+    <div class="opacity-extra-medium bg-black"></div>
+    <div class="container-fluid position-relative full-screen">
+        <div class="slider-typography">
+                <div class="slider-typography text-left">
+                    <div class="slider-text-middle-main">
+                        <div class="slider-text-middle padding-ten-left sm-padding-five-left">
+                            <span
+                                class="text-middle-line text-deep-pink d-block width-20 md-text-middle-line sm-width-50">Branding
+                                and Identity</span>
+                            <span
+                                class="title-large alt-font text-extra-dark-gray font-weight-700 width-25 margin-40px-tb sm-margin-20px-tb d-block letter-spacing-minus-2 md-width-60">Rubber
+                                Design</span>
+                            <a href="single-project-page-01.html" class="btn btn-small btn-dark-gray">Explore Work</a>
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
-    </section>
+    </div>
+</section>

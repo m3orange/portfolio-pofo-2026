@@ -24,22 +24,23 @@
     <section id="block-01">
         <div class="container">
             <div class="row grid-lines">
-                <div class="col col-12 text-left margin-100px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
-                    <h4 class="font-weight-300 text-extra-dark-gray margin-15px-bottom">Atlas UI</h4>
+                <div class="col col-12 text-left margin-40px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
+                    <h4 class="text-extra-dark-gray margin-15px-bottom">Atlas UI</h4>
                 </div>
                 <div
                     class="col col-12 col-lg-6 line-height-28 last-paragraph-no-margin md-margin-50px-bottom sm-margin-30px-bottom wow fadeIn">
-                    <h6 class="font-weight-300 text-extra-dark-gray">Lorem Ipsum is simply dummy text of the printing
+                    <h6 class="font-weight-400 text-extra-dark-gray">Lorem Ipsum is simply dummy text of the printing
                         and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
                         1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
                         book. It has survived not only five centuries, but also the leap into electronic typesetting,
                         remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
                         sheets containing Lorem Ipsum passages.</h6>
                 </div>
-                <div class="col col-12 col-lg-4 offset-lg-1 line-height-26 wow fadeIn">
-                    <ul class="list-style-6 margin-twelve-left">
-                        <li class="margin-5px-bottom"><label class="width-30 d-inline-block">Client:</label>Jason
-                            Richardson</li>
+                <div class="col col-12 col-lg-4 offset-lg-2 line-height-26 wow fadeIn">
+                    <ul class="list-style-6 margin-twelve-left alt-font">
+                        <li class="margin-5px-bottom weight-600 ">
+                            <label class="width-30 d-inline-block weight-800">Client:</label>Jason RRRRRichardson
+                        </li>
                         <li class="margin-5px-bottom"><label class="width-30 d-inline-block">Industry:</label>Adventure
                             / Travel</li>
                         <li class="margin-5px-bottom"><label class="width-30 d-inline-block">Services:</label>Design,
@@ -65,22 +66,19 @@
     <section id="block-02">
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row margin-10px-bottom">
-                <div class="col col-4 col-lg-4 col-md-12 col-sm-12 sm-margin-30px-bottom wow fadeInUp"
-                    data-wow-delay="0.0s">
+                <div class="col col-4 col-lg-4 col-md-12 col-sm-12 sm-margin-30px-bottom wow fadeInUp" data-wow-delay="0.4s">
                     <div class="gallery-item"><img src="projects/citybox/cb-discovery-grid-squares-01.png"></div>
                 </div>
-                <div class="col col-4 col-lg-4 col-md-12 col-sm-12 sm-margin-30px-bottom wow fadeInUp"
-                    data-wow-delay="0.2s">
+                <div class="col col-4 col-lg-4 col-md-12 col-sm-12 sm-margin-30px-bottom wow fadeInUp" data-wow-delay="0.6s">
                     <div class="gallery-item"><img src="projects/citybox/cb-discovery-grid-squares-02.png"></div>
                 </div>
-                <div class="col col-4 col-lg-4 col-md-12 col-sm-12 sm-margin-30px-bottom wow fadeInUp"
-                    data-wow-delay="0.4s">
+                <div class="col col-4 col-lg-4 col-md-12 col-sm-12 sm-margin-30px-bottom wow fadeInUp" data-wow-delay="0.8s">
                     <div class="gallery-item"><img src="projects/citybox/cb-discovery-grid-squares-03.png"></div>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col col-12 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="col col-12 wow fadeIn" data-wow-delay="1.1s">
                     <div class="gallery-item"><img src="projects/citybox/cb-discovery-grid-squares-04-fullwidth.png">
                     </div>
                 </div>
@@ -108,7 +106,7 @@
 
                 <div class="col-12 blog-post-content text-center text-md-center" style="padding-right: 0px; padding-left: 0px;">
 
-                    <div class="swiper-full-screen swiper-cb-screens swiper-container white-move" 
+                    <div class="swiper-full-screen swiper-cb-fullwidth-screens swiper-container white-move" 
                     data-slider-options='{ 
                     "loop": true, 
                     "slidesPerView": "1", 
@@ -162,10 +160,10 @@
         <div class="container">
             <div class="row margin-eight-bottom md-margin-50px-bottom sm-margin-20px-bottom">
                 <div class="col-12 col-lg-6 last-paragraph-no-margin md-margin-30px-bottom wow fadeInUp">
-                    <h5 class="font-weight-300 text-extra-dark-gray">Holistic brand redesign focusing product design,
+                    <h5 class=" text-extra-dark-gray">Holistic brand redesign focusing product design,
                         interface design, studio photograph style, icon design, editorial design, web design & motion
                         design.</h5>
-                    <p class="font-weight-300 text-medium text-medium-gray">- Paul Randddddd / Creative Director</p>
+                    <p class=" text-medium text-medium-gray">- Paul Randddddd / Creative Director</p>
                 </div>
                 <div class="col-12 col-lg-5 offset-lg-1 wow fadeInUp" data-wow-delay="0.2s">
                     <p>Koordinaten bilden die Grundlage für Einsatz des Produktes ausgerichtete Corporate Design. Reale

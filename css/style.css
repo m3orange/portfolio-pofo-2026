@@ -48,16 +48,66 @@ Table of contents
 /* =================================== Resets ====================================== */
 
 /* Global declaration */
+
 :root {
   --primary-color: #FF5D00!important;
   --primary-accent: blue;
+  --ibm-sans-headers-01: "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif!important; font-weight: 700!important;
+  --ibm-sans-body-01:    "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif!important; font-weight: 400!important;
+  --ibm-sans-body-02:    "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif!important; font-weight: 300!important;
+  --font-ibm-mono-01:    "IBM Plex Mono", "SF Mono", "Consolas", ui-monospace!important; font-weight: 500!important;
+
+}
+
+
+
+/* .ibm-plex-sans-300 {
+  font-family: "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif;
+  font-optical-sizing: auto; font-style: normal; font-variation-settings: "wdth" 100;
+  font-weight: 300;
+
+
+.ibm-plex-sans-400 {
+  font-family: "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif;
+  font-optical-sizing: auto; font-style: normal; font-variation-settings: "wdth" 100;
+  font-weight: 400;
+}
+
+  .ibm-plex-sans-500 {
+  font-family: "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif;
+  font-optical-sizing: auto; font-style: normal; font-variation-settings: "wdth" 100;
+  font-weight: 500;
 }
 
 
 
 
-html { font-size: 15px; }
-body{ font-family: 'Roboto', sans-serif; -webkit-font-smoothing: antialiased;  font-smoothing: antialiased; font-size:14px; color:#6f6f6f; font-weight: 400;line-height: 24px;}
+.ibm-plex-mono-400 {
+  font-family: "IBM Plex Mono", IBM Plex, Mono, "SF Mono", "Consolas", ui-monospace;
+  font-optical-sizing: auto; font-style: normal; font-variation-settings: "wdth" 100;
+  font-weight: 400;
+}
+
+.ibm-plex-mono-500 {
+  font-family: "IBM Plex Mono", "SF Mono", "Consolas", ui-monospace;
+  font-optical-sizing: auto; font-style: normal; font-variation-settings: "wdth" 100;
+  font-weight: 500;
+}
+
+
+.ibm-plex-mono-600 {
+  font-family: "IBM Plex Mono", "SF Mono", "Consolas", ui-monospace;
+  font-optical-sizing: auto; font-style: normal; font-variation-settings: "wdth" 100;
+  font-weight: 600;
+}
+
+} */
+
+
+
+
+html { font-size: 16px; }
+body{ font-family: var(--ibm-sans-body-01); -webkit-font-smoothing: antialiased;  font-smoothing: antialiased; font-size:16px; color:#6f6f6f; font-weight: 400;line-height: 24px;}
 body, html { height: 100%; -moz-osx-font-smoothing: grayscale;}
 a, a:active, a:focus { color: #6f6f6f; text-decoration: none; }
 a:hover, a:active{color: var(--primary-color); text-decoration: none;}
@@ -89,18 +139,23 @@ ul, ol, dl {list-style-position: outside; margin-bottom: 25px}
 ====================================== */
 
 /* font family */
-.alt-font {font-family: 'Montserrat', sans-serif; font-weight: 500}
-.main-font {font-family: 'Roboto', sans-serif;}
+
+.main-font {font-family: var(--ibm-sans-body-01), sans-serif!important;}
+.alt-font  {font-family: var(--font-ibm-mono-01), sans-serif!important; }
+
 
 /* heading */
-h1, h2, h3, h4, h5, h6 {margin:0 0 25px; padding:0; letter-spacing: 0; font-weight: 400;}
-h1 {font-size:70px; line-height: 70px;}
-h2 {font-size:55px; line-height:60px}
-h3 {font-size:48px; line-height:54px}
-h4 {font-size:40px; line-height:46px}
-h5 {font-size:32px; line-height:40px}
-h6 {font-size:25px; line-height:30px}
+h1, h2, h3, h4, h5, h6 {
 
+    margin:0 0 25px; padding:0; letter-spacing: 0; font-weight: 400!important;
+}
+
+h1 {font-size:70px; line-height: 1.4em;}
+h2 {font-size:55px; line-height: 1.4em;}
+h3 {font-size:48px; line-height: 1.4em;}
+h4 {font-size:40px; line-height: 1.4em;}
+h5 {font-size:32px; line-height: 1.4em;}
+h6 {font-size:25px; line-height: 1.4em;}
 /* text size */
 .text-extra-small {font-size:11px; line-height:14px}
 .text-small {font-size:12px; line-height:20px}
