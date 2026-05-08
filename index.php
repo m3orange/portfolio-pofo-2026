@@ -83,6 +83,23 @@
         <div class="container"><h6>Design System</h6></div>
     </section>
 
+        <section class="wow animate__fadeIn last-paragraph-no-margin" style="visibility: visible; animation-name: fadeIn;">
+            <div class="container">
+                <div class="row">              
+                    <div class="col-md-4 wow animate__fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+                        <img src="projects/citybox/cb-discovery-squares-01.png" alt="" class="border-radius-0" data-no-retina="">
+                    </div>
+                    <div class="col-md-4 wow animate__fadeIn" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeIn;">
+                        <img src="projects/citybox/cb-discovery-squares-02.png" alt="" class="border-radius-0 sm-w-100" data-no-retina="">
+                    </div>
+
+                    <div class="col-md-4 wow animate__fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">
+                        <img src="projects/citybox/cb-discovery-squares-03.png" alt="" class="border-radius-0 sm-w-100" data-no-retina="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
      <!-- start fullwidth slider - from blog-standard-full-width-->
         <section id="block-02">
@@ -124,17 +141,22 @@
         <div class="row">
 
 
-                        <div class="col-12 blog-post-content margin-60px-bottom sm-margin-30px-bottom text-center text-md-center">
+                        <div class="col-12 blog-post-content  text-center text-md-center">
                             <div class="swiper-full-screen swiper-container white-move">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide"><img src="projects/citybox/cb-wires-to-design-01b.png"></div>
-                                    <div class="swiper-slide"><img src="projects/citybox/cb-wires-to-design-01b.png"></div>
-                                    <div class="swiper-slide"><img src="projects/citybox/cb-wires-to-design-01b.png"></div>
 
+                                
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="projects/citybox/cb-screens-browser-padding-01.png"></div>
+                                    <div class="swiper-slide"><img src="projects/citybox/cb-screens-browser-padding-02.png"></div>
+                                   <div class="swiper-slide"><img src="projects/citybox/cb-screens-browser-padding-03.png"></div>
+                                    <div class="swiper-slide"><img src="projects/citybox/cb-screens-browser-padding-04.png"></div>
+                                    <div class="swiper-slide"><img src="projects/citybox/cb-screens-browser-padding-05.png"></div>
+                                    <div class="swiper-slide"><img src="projects/citybox/cb-screens-browser-padding-06.png"></div>
                                 </div>  
                                 <div class="swiper-pagination swiper-pagination-square swiper-pagination-white swiper-full-screen-pagination"></div>
-                                <div class="swiper-button-next swiper-button-black-highlight"></div>
                                 <div class="swiper-button-prev swiper-button-black-highlight"></div>
+                                <div class="swiper-button-next swiper-button-black-highlight"></div>
+
                             </div> 
                         </div>
 

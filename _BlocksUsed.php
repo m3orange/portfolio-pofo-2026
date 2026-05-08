@@ -450,39 +450,20 @@
         </div>
     </section>
     <!-- end product post section -->
-    <!-- start blog navigation bar section -->
-    <section class="wow fadeIn border-top border-color-medium-gray no-padding">
-        <div class="container-fluid p-0">
-            <div class="row justify-content-between align-items-center no-gutters padding-30px-lr md-padding-15px-lr">
-                <div class="width-45 text-left">
-                    <div class="blog-nav-link blog-nav-link-prev text-extra-dark-gray">
-                        <span class="text-medium-gray text-extra-small text-uppercase d-none d-md-block">Previous
-                            Project</span>
-                        <a href="single-project-page-08.html">
-                            <i class="ti-arrow-left blog-nav-icon"></i>
-                            Spice Blends
-                        </a>
+
+    <section class="wow animate__fadeIn last-paragraph-no-margin" style="visibility: visible; animation-name: fadeIn;">
+            <div class="container">
+                <div class="row margin-eight-bottom md-margin-30px-bottom">              
+                    <div class="col-md-8 sm-margin-15px-bottom wow animate__fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                        <img src="projects/citybox/cb-discovery-squares-01.png" alt="" class="border-radius-6" data-no-retina="">
                     </div>
-                </div>
-                <div class="width-10 text-center">
-                    <a href="portfolio-boxed-grid-overlay.html" class="blog-nav-link blog-nav-home"><i
-                            class="ti-layout-grid2-alt"></i></a>
-                </div>
-                <div class="width-45 text-right">
-                    <div class="blog-nav-link blog-nav-link-next text-extra-dark-gray">
-                        <span class="text-medium-gray text-extra-small text-uppercase d-none d-md-block">Next
-                            Project</span>
-                        <a href="single-project-page-02.html">
-                            <i class="ti-arrow-right blog-nav-icon"></i>
-                            Filamento Lamps
-                        </a>
+                    <div class="col-md-4 wow animate__fadeInRight" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
+                        <img src="projects/citybox/cb-discovery-squares-02.png" alt="" class="border-radius-6 sm-w-100" data-no-retina="">
                     </div>
                 </div>
             </div>
+        </section>
 
-        </div>
-    </section>
-    <!-- end blog navigation bar section -->
     <!-- start footer -->
     <footer class="footer-standard-dark bg-extra-dark-gray">
         <div class="footer-widget-area padding-five-tb sm-padding-30px-tb">
