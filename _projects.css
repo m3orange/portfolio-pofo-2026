@@ -1,7 +1,14 @@
 @charset "utf-8";
 
 
+
 .citybox #block-01{
-    /* background-color: #143272; */
+    background-color: #020634!important;
     /* border: 10px solid orange; */
 }
+
+.citybox #block-03{
+    background-color: #565555 !important;
+    /* border: 10px solid orange; */
+}
+

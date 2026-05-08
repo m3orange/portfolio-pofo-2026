@@ -79,19 +79,13 @@
     <!-- end product information section -->
 
 
-        <section id="block-01">
-            <div class="container">
-                <div class="row">
-                    <img src="projects/citybox/citybox-design-system.jpg" alt="" />
-                </div>
-            </div>
-        </section>
-
-
+    <section class="section-divider">
+        <div class="container"><h6>Design System</h6></div>
+    </section>
 
 
      <!-- start fullwidth slider - from blog-standard-full-width-->
-        <section style="background-color: #444;">
+        <section id="block-02">
         <div class="container">
         <div class="row">
 
@@ -99,12 +93,8 @@
                         <div class="col-12 blog-post-content margin-60px-bottom sm-margin-30px-bottom text-center text-md-center">
                             <div class="swiper-full-screen swiper-container white-move">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide"><img src="projects/citybox/cb-screens-browser-01.png"></div>
-                                    <div class="swiper-slide"><img src="projects/citybox/cb-screens-browser-02.png"></div>
-                                    <div class="swiper-slide"><img src="projects/citybox/cb-screens-browser-03.png"></div>
-                                    <div class="swiper-slide"><img src="projects/citybox/cb-screens-browser-04.png"></div>
-                                    <div class="swiper-slide"><img src="projects/citybox/cb-screens-browser-05.png"></div>
-
+                                    <div class="swiper-slide"><img src="projects/citybox/cb-discovery-01.png"></div>
+                                    <div class="swiper-slide"><img src="projects/citybox/cb-discovery-02.png"></div>
                                 </div>  
                                 <div class="swiper-pagination swiper-pagination-square swiper-pagination-white swiper-full-screen-pagination"></div>
                                 <div class="swiper-button-next swiper-button-black-highlight"></div>
@@ -121,31 +111,48 @@
 
 
 
-     <!-- start gallery section - from lightbox-gallery-->
-    <section class="bg-extra-dark-gray">
-        <div class="containerfluid padding-five-lr md-padding-30px-lr">
-            <div class="row">
-                <!-- start product item -->
-                <div class="col-12 col-md-5 last-paragraph-no-margin md-margin-30px-bottom wow fadeInUp">
-                    <h5 class="font-weight-300 text-white">Holistic brand redesign focusing product design,
-                        interface design, studio photograph style, icon design, editorial design, web design & motion
-                        design.</h5>
-                    <p class="font-weight-300 text-medium text-medium-gray">- Paul Rand / Creative Director</p>
-                </div>
-                <!-- end product item -->
-                <!-- start product item -->
-                <div class="col-12 col-md-7 sm-margin-30px-bottom wow fadeInUp" data-wow-delay="0.2s">
-                    <img src="images-fpo/fpo-800x800.jpg" />
-                </div>
-                <!-- end product item -->
 
-            </div>
-        </div>
+
+    <section class="section-divider">
+    <div class="container"><h6>Design Specs</h6></div>
     </section>
+
+
+     <!-- start fullwidth slider - from blog-standard-full-width-->
+        <section id="block-03">
+        <div class="container">
+        <div class="row">
+
+
+                        <div class="col-12 blog-post-content margin-60px-bottom sm-margin-30px-bottom text-center text-md-center">
+                            <div class="swiper-full-screen swiper-container white-move">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="projects/citybox/cb-wires-to-design-01b.png"></div>
+                                    <div class="swiper-slide"><img src="projects/citybox/cb-wires-to-design-01b.png"></div>
+                                    <div class="swiper-slide"><img src="projects/citybox/cb-wires-to-design-01b.png"></div>
+
+                                </div>  
+                                <div class="swiper-pagination swiper-pagination-square swiper-pagination-white swiper-full-screen-pagination"></div>
+                                <div class="swiper-button-next swiper-button-black-highlight"></div>
+                                <div class="swiper-button-prev swiper-button-black-highlight"></div>
+                            </div> 
+                        </div>
+
+
+        </div>
+        </div>
+        </section>
+
+<!-- end fullwidth slider - from blog-standard-full-width-->
+
+    <section class="section-divider">
+    <div class="container"><h6>Design Specs</h6></div>
+    </section>
+
  
         <section class="wow fadeIn">
             <div class="container">
-                            <div class="row margin-eight-bottom md-margin-50px-bottom sm-margin-20px-bottom">
+            <div class="row margin-eight-bottom md-margin-50px-bottom sm-margin-20px-bottom">
                 <div class="col-12 col-lg-6 last-paragraph-no-margin md-margin-30px-bottom wow fadeInUp">
                     <h5 class="font-weight-300 text-extra-dark-gray">Holistic brand redesign focusing product design,
                         interface design, studio photograph style, icon design, editorial design, web design & motion
@@ -166,11 +173,10 @@
                 <div class="row mx-0">
                     <ul class="portfolio-grid work-3col hover-option2 gutter-large w-100">
                         <li class="grid-sizer"></li>
-                        <!-- start image gallery item -->
                         <li class="grid-item grid-item-double  wow fadeInUp"> <!--grid-item-double-->
-                            <a href="projects/citybox/cb-specs-indiv-01.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
+                            <a href="projects/citybox/cb-specs-01.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
                                 <figure>
-                                    <div class="portfolio-img bg-extra-dark-gray"><img src="projects/citybox/cb-specs-indiv-01.png" alt="" class="project-img-gallery"/></div>
+                                    <div class="portfolio-img bg-extra-dark-gray"><img src="projects/citybox/cb-specs-01.png" class="project-img-gallery"/></div>
                                     <figcaption>
                                         <div class="portfolio-hover-main text-center">
                                             <div class="portfolio-hover-box vertical-align-middle">
@@ -183,12 +189,11 @@
                                 </figure>
                             </a>
                         </li>
-                        <!-- end image gallery item -->
-                        <!-- start image gallery item -->
-                        <li class="grid-item wow fadeInUp">
-                            <a href="projects/citybox/cb-specs-indiv-02-horiz.png"  data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
+
+                    <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
+                            <a href="projects/citybox/cb-specs-02.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
                                 <figure>
-                                    <div class="portfolio-img bg-extra-dark-gray"><img src="projects/citybox/cb-specs-indiv-02-horiz.png" alt="" class="project-img-gallery"/></div>
+                                    <div class="portfolio-img bg-extra-dark-gray"><img src="projects/citybox/cb-specs-02.png" class="project-img-gallery"/></div>
                                     <figcaption>
                                         <div class="portfolio-hover-main text-center">
                                             <div class="portfolio-hover-box vertical-align-middle">
@@ -201,12 +206,10 @@
                                 </figure>
                             </a>
                         </li>
-                        <!-- end image gallery item -->
-                        <!-- start image gallery item -->
-                        <li class="grid-item wow fadeInUp">
-                            <a href="projects/citybox/cb-specs-indiv-03.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
+                                                <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
+                            <a href="projects/citybox/cb-specs-03.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
                                 <figure>
-                                    <div class="portfolio-img bg-extra-dark-gray"><img src="projects/citybox/cb-specs-indiv-03.png" alt="" class="project-img-gallery"/></div>
+                                    <div class="portfolio-img bg-extra-dark-gray"><img src="projects/citybox/cb-specs-03.png" class="project-img-gallery"/></div>
                                     <figcaption>
                                         <div class="portfolio-hover-main text-center">
                                             <div class="portfolio-hover-box vertical-align-middle">
@@ -219,13 +222,10 @@
                                 </figure>
                             </a>
                         </li>
-                        <!-- end image gallery item -->
-                                                 <!-- start image gallery item -->
-                        <li class="grid-item wow fadeInUp">
-                            <a href="projects/citybox/cb-specs-indiv-04.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
-                            <a href="projects/citybox/cb-specs-indiv-04.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
+                                                <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
+                            <a href="projects/citybox/cb-specs-04.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
                                 <figure>
-                                    <div class="portfolio-img bg-extra-dark-gray"><img src="projects/citybox/cb-specs-indiv-04.png" alt="" class="project-img-gallery"/></div>
+                                    <div class="portfolio-img bg-extra-dark-gray"><img src="projects/citybox/cb-specs-04.png" class="project-img-gallery"/></div>
                                     <figcaption>
                                         <div class="portfolio-hover-main text-center">
                                             <div class="portfolio-hover-box vertical-align-middle">
@@ -238,7 +238,8 @@
                                 </figure>
                             </a>
                         </li>
-                        <!-- end image gallery item -->
+
+
 
                     </ul>
                 </div>
@@ -303,68 +304,7 @@
     <!-- start footer -->
      <?php include_once ("includes/global-footer.php"); ?>
 
-    <!-- end footer -->
-    <!-- start scroll to top -->
-    <a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
-    <!-- end scroll to top  -->
-    <!-- javascript libraries -->
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/modernizr.js"></script>
-    <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
-    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="js/skrollr.min.js"></script>
-    <script type="text/javascript" src="js/smooth-scroll.js"></script>
-    <script type="text/javascript" src="js/jquery.appear.js"></script>
-    <!-- menu navigation -->
-    <script type="text/javascript" src="js/bootsnav.js"></script>
-    <script type="text/javascript" src="js/jquery.nav.js"></script>
-    <!-- animation -->
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <!-- page scroll -->
-    <script type="text/javascript" src="js/page-scroll.js"></script>
-    <!-- swiper carousel -->
-    <script type="text/javascript" src="js/swiper.min.js"></script>
-    <!-- counter -->
-    <script type="text/javascript" src="js/jquery.count-to.js"></script>
-    <!-- parallax -->
-    <script type="text/javascript" src="js/jquery.stellar.js"></script>
-    <!-- magnific popup -->
-    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-    <!-- portfolio with shorting tab -->
-    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
-    <!-- images loaded -->
-    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-    <!-- pull menu -->
-    <script type="text/javascript" src="js/classie.js"></script>
-    <script type="text/javascript" src="js/hamburger-menu.js"></script>
-    <!-- counter  -->
-    <script type="text/javascript" src="js/counter.js"></script>
-    <!-- fit video  -->
-    <script type="text/javascript" src="js/jquery.fitvids.js"></script>
-    <!-- skill bars  -->
-    <script type="text/javascript" src="js/skill.bars.jquery.js"></script>
-    <!-- justified gallery  -->
-    <script type="text/javascript" src="js/justified-gallery.min.js"></script>
-    <!--pie chart-->
-    <script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
-    <!-- retina -->
-    <script type="text/javascript" src="js/retina.min.js"></script>
-    <!-- revolution -->
-    <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
-    <!-- revolution slider extensions (load below extensions JS files only on local file systems to make the slider work! The following part can be removed on server for on demand loading) -->
-    <!--<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>-->
-    <!-- setting -->
-
-        <script type="text/javascript" src="js/main.js"></script>
+ 
 </body>
 
 </html>
