@@ -12,7 +12,7 @@
 
 
 .section-divider-dark,
-.section-divider-light h6{
+.section-divider-light {
     margin-bottom: 0px!important;
 }
 
@@ -22,10 +22,12 @@
 
     margin-top: 40px;
     padding: 40px 0;
+    font-size: 22px;
 }
 .section-divider-dark{
-        border-top: 1px solid rgba(0,0,0,1);
+        border-top: 1px solid rgba(0,0,0,0.8);
     color: rgba(0,0,0,1);
+    /* background-color: rgba(0,0,0,0.04); */
 }
 
 

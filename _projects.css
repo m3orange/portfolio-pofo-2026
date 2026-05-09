@@ -9,8 +9,16 @@
     align-items: flex-start;
 
 }
-.page-title{
-    font-weight: 500!important;
+
+#block-01 .page-title{
+
+
+    border: 1px solid purple;
+}
+
+#block-01 .page-title h3{
+    font-weight: 600!important;
+        color: #333!important;
 }
 
 

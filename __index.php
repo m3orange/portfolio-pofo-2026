@@ -25,8 +25,7 @@
         <div class="container">
             <div class="row grid-lines">
                 <div class="col col-12 text-left margin-40px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
-                    <h3 class="text-extra-dark-gray margin-15px-bottom">
-                        <div class="page-title">Atlas UI</div></h3>
+                    <div class="page-title font-weight-500"><h3>Atlas UI</h3></div>
                 </div>
                 <div
                     class="col col-12 col-lg-6 line-height-28 last-paragraph-no-margin md-margin-50px-bottom sm-margin-30px-bottom wow fadeIn">
@@ -61,9 +60,10 @@
     <!-- end product information section -->
 
 
-    <!-- <section class="section-divider-light">
-        <div class="container"><h6>Design System</h6></div>
-    </section> -->
+    <!-- start section divider -->
+    <?php include ("includes/cb-section-divider.php"); ?>
+    <!-- endt section divider -->
+
 
     <!--begin - image grid - from single-project-page-01-->
     <section id="block-02">
@@ -98,11 +98,9 @@
 
     <!-- start fullwidth slider - from blog-standard-full-width-->
     <section id="block-03">
-                        <section class="section-divider-light">
-        <div class="container">
-            <h6>Design System</h6>
-        </div>
-    </section>
+        <section class="section-divider-light">
+        <div class="container">Design System</div>
+        </section>
         <div class="container-fluid"  style="padding-right: 0px; padding-left: 0px;">
 
 
@@ -149,20 +147,18 @@
 
     <!-- end fullwidth slider - from blog-standard-full-width-->
 
-    <section id="block-04" class="section-divider-dark">
-        <div class="container">
-            <h6>Design Specs</h6>
-        </div>
-    </section>
 
 
-    <section class="wow fadeIn">
+    <!-- start section divider -->
+    <?php include ("includes/cb-section-divider.php"); ?>
+    <!-- endt section divider -->
+
+
+    <section id="block-04" class="wow fadeIn">
         <div class="container">
             <div class="row margin-eight-bottom md-margin-50px-bottom sm-margin-20px-bottom">
                 <div class="col-12 col-lg-6 last-paragraph-no-margin md-margin-30px-bottom wow fadeInUp">
-                    <h5 class=" text-extra-dark-gray">Holistic brand redesign focusing product design,
-                        interface design, studio photograph style, icon design, editorial design, web design & motion
-                        design.</h5>
+                    <h5 class=" text-extra-dark-gray">Holistic brand redesign focusing product design,interface design, studio photograph style, icon design, editorial design, web design & motion design.</h5>
                     <p class=" text-medium text-medium-gray">- Paul Randddddd / Creative Director</p>
                 </div>
                 <div class="col-12 col-lg-5 offset-lg-1 wow fadeInUp" data-wow-delay="0.2s">

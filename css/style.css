@@ -27,13 +27,17 @@ Version: 2.3
     --ibm-sans-body-02:    "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif!important; font-weight: 300!important;
     --font-ibm-mono-01:    "IBM Plex Mono", "SF Mono", "Consolas", ui-monospace!important; font-weight: 500!important;
     --alt-text:    "IBM Plex Mono", "SF Mono", "Consolas", ui-monospace!important; font-weight: 400!important;
+    --archivo-headers-01:     "Archivo", Archivo, "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif!important; font-weight: 400!important;
+
+
+
 
     --text-black: #000000!important;
     --text-white: #FFFFFF!important;
     
 }
 
-
+/* Headers Archivo 400 */
 
 
 
@@ -88,15 +92,17 @@ ul, ol, dl {list-style-position: outside; margin-bottom: 25px}
 /* heading */
 h1, h2, h3, h4, h5, h6 {
 
-    margin:0 0 25px; padding:0; letter-spacing: 0; font-weight: 300;
+    margin:0 0 25px; padding:0; letter-spacing: 0; 
+    font-weight: 300; 
+    font-family: var(--archivo-headers-01);
 }
 
-h1 {font-size:70px; line-height: 1.4em;}
-h2 {font-size:55px; line-height: 1.4em;}
-h3 {font-size:48px; line-height: 1.4em;}
-h4 {font-size:40px; line-height: 1.2em;}
-h5 {font-size:32px; line-height: 1.2em;}
-h6 {font-size:25px; line-height: 1.2em;}
+h1 {font-size:70px; line-height: 1.4em; font-family: var(--archivo-headers-01);}
+h2 {font-size:55px; line-height: 1.4em; font-family: var(--archivo-headers-01);}
+h3 {font-size:48px; line-height: 1.4em; font-family: var(--archivo-headers-01);}
+h4 {font-size:40px; line-height: 1.3em; font-family: var(--archivo-headers-01);}
+h5 {font-size:32px; line-height: 1.3em; font-family: var(--archivo-headers-01); font-weight: 400!important;}
+h6 {font-size:25px; line-height: 1.3em; font-family: var(--archivo-headers-01);}
 /* text size */
 .text-extra-small {font-size:11px; line-height:14px}
 .text-small {font-size:12px; line-height:20px}
@@ -3962,3 +3968,10 @@ aside .latest-post li figure {width: 75px;}
 }
 
 } */
+
+.archivo-400 {
+  font-family: "Archivo", Archivo, "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif;
+  font-optical-sizing: auto; font-style: normal; font-variation-settings: "wdth" 100;
+  font-weight: 400;
+}
+
