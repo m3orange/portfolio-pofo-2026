@@ -70,22 +70,24 @@
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row margin-10px-bottom">
                 <div class="col col-4 col-lg-4 col-md-12 col-sm-12 sm-margin-30px-bottom wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="gallery-item"><img src="projects/citybox/cb-discovery-grid-squares-01.png"></div>
+                    <div class="gallery-item"><img src="projects/citybox/cb-discovery-tryptic-grid-01.png"></div>
                 </div>
                 <div class="col col-4 col-lg-4 col-md-12 col-sm-12 sm-margin-30px-bottom wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="gallery-item"><img src="projects/citybox/cb-discovery-grid-squares-02.png"></div>
+                    <div class="gallery-item"><img src="projects/citybox/cb-discovery-tryptic-grid-02.png"></div>
                 </div>
                 <div class="col col-4 col-lg-4 col-md-12 col-sm-12 sm-margin-30px-bottom wow fadeInUp" data-wow-delay="0.8s">
-                    <div class="gallery-item"><img src="projects/citybox/cb-discovery-grid-squares-03.png"></div>
+                    <div class="gallery-item"><img src="projects/citybox/cb-discovery-tryptic-grid-03.png"></div>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col col-12 wow fadeIn" data-wow-delay="1.1s">
-                    <div class="gallery-item"><img src="projects/citybox/cb-discovery-grid-squares-04-fullwidth.png">
+                    <div class="gallery-item">
+                        <img src="projects/citybox/cb-discovery-grid-squares-04-fullwidth.png">
                     </div>
                 </div>
             </div>
+            Add link to Design System page
         </div>
     </section>
     <!--end - image grid - from single-project-page-01-->

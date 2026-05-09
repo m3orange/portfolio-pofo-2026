@@ -49,16 +49,15 @@ video {
 
 
 .citybox #block-02 .gallery-item{
-background-color: #4C4C4C !important;
+    background-color: #EDEDED!important;
 }
-    .citybox #block-02 .col{
-        position: relative;
-    width: 100%;
-    padding: 0 5px;
-    /* padding-right: 10px!important;
-    padding-left: 10px!important; */
-
-    }
+        .citybox #block-02 .col{
+            position: relative;
+        width: 100%;
+        padding: 0 5px;
+        /* padding-right: 10px!important;
+        padding-left: 10px!important; */
+        }
 
 
 .citybox #block-02 .gallery-item img{
@@ -77,7 +76,7 @@ background-color: #4C4C4C !important;
 
 }
 
-.citybox #block-03 .swiper-slide{
+/* .citybox #block-03 .swiper-slide{
     padding-left: 30px!important;
     padding-right: 30px!important;
 }
@@ -85,7 +84,7 @@ background-color: #4C4C4C !important;
 .citybox #block-03 .swiper-button-prev,
 .citybox #block-03 .swiper-button-next{
 
-        /* margin: 10px 0 0 0; */
+
 
     height: 40px !important;
     width: 40px !important;
@@ -97,16 +96,38 @@ background-color: #4C4C4C !important;
 }
 
 .citybox #block-03 .swiper-button-prev {
-    /* margin: -15px 10px 0 0; */
      margin-left: 20px!important;
              background-image: url(../images/swiper-black-button-prev.png) !important;
+             
+} */
+
+.citybox #block-03 .swiper-slide{
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+}
+.citybox #block-03 .swiper-button-prev,
+.citybox #block-03 .swiper-button-next{
+
+    height: 80px !important;
+    width: 80px !important;
+    padding: 0px !important;
+    background-size: cover;
+    background-color: unset!important;
+    opacity: 0.75!important;
+
+}
+
+.citybox #block-03 .swiper-button-prev {
+    /* margin: -15px 10px 0 0; */
+     margin-left: 20px!important;
+             background-image: url(../images/swiper-button-alpha-90px-prev.png) !important;
              
 }
 
 .citybox #block-03 .swiper-button-next {
     /* margin: 10px 0  0 0; */
      margin-right: 20px!important;
-             background-image: url(../images/swiper-black-button-next.png) !important;
+             background-image: url(../images/swiper-button-alpha-90px-next.png) !important;
 }
 
 .citybox #block-03  .swiper-button-next.swiper-button-black-highlight, .swiper-button-prev.swiper-button-black-highlight {
