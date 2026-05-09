@@ -25,16 +25,19 @@
         <div class="container">
             <div class="row grid-lines">
                 <div class="col col-12 text-left margin-40px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
-                    <h4 class="text-extra-dark-gray margin-15px-bottom">Atlas UI</h4>
+                    <h3 class="text-extra-dark-gray margin-15px-bottom">
+                        <div class="page-title">Atlas UI</div></h3>
                 </div>
                 <div
                     class="col col-12 col-lg-6 line-height-28 last-paragraph-no-margin md-margin-50px-bottom sm-margin-30px-bottom wow fadeIn">
-                    <h6 class="font-weight-400 text-extra-dark-gray">Lorem Ipsum is simply dummy text of the printing
+                    <h6>Lorem Ipsum is simply dummy text of the printing
                         and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
                         1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
                         book. It has survived not only five centuries, but also the leap into electronic typesetting,
                         remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                        sheets containing Lorem Ipsum passages.</h6>
+                        sheets containing Lorem Ipsum passages.
+                    </h6>
+                    <div>Modifications have been made to preserve confidentiality.</div>
                 </div>
                 <div class="col col-12 col-lg-4 offset-lg-2 line-height-26 wow fadeIn">
                     <ul class="list-style-6 margin-twelve-left alt-font">
@@ -91,15 +94,17 @@
 
 
 
-    <section class="section-divider-light">
+
+
+    <!-- start fullwidth slider - from blog-standard-full-width-->
+    <section id="block-03">
+                        <section class="section-divider-light">
         <div class="container">
             <h6>Design System</h6>
         </div>
     </section>
-
-    <!-- start fullwidth slider - from blog-standard-full-width-->
-    <section id="block-03">
         <div class="container-fluid"  style="padding-right: 0px; padding-left: 0px;">
+
 
             <div class="row">
 
@@ -120,18 +125,13 @@
 
 
                         <div class="swiper-wrapper">    
-                            <div class="swiper-slide"><img src="projects/citybox/cb-screens-browser-padding-01.png">
-                            </div>
-                            <div class="swiper-slide"><img src="projects/citybox/cb-screens-browser-padding-02.png">
-                            </div>
-                            <div class="swiper-slide"><img src="projects/citybox/cb-screens-browser-padding-03.png">
-                            </div>
-                            <div class="swiper-slide"><img src="projects/citybox/cb-screens-browser-padding-04.png">
-                            </div>
-                            <div class="swiper-slide"><img src="projects/citybox/cb-screens-browser-padding-05.png">
-                            </div>
-                            <div class="swiper-slide"><img src="projects/citybox/cb-screens-browser-padding-06.png">
-                            </div>
+                            <div class="swiper-slide "><img class="cb-screens" src="projects/citybox/cb-screens-browser-01.png"></div>
+                            <div class="swiper-slide "><img class="cb-screens" src="projects/citybox/cb-screens-browser-02.png"></div>
+                            <div class="swiper-slide "><img class="cb-screens" src="projects/citybox/cb-screens-browser-03.png"></div>
+                            <div class="swiper-slide "><img class="cb-screens" src="projects/citybox/cb-screens-browser-04.png"></div>
+                            <div class="swiper-slide "><img class="cb-screens" src="projects/citybox/cb-screens-browser-05.png"></div>
+                            <div class="swiper-slide "><img class="cb-screens" src="projects/citybox/cb-screens-browser-06   .png"></div>
+
                         </div>
                         <div
                             class="swiper-pagination swiper-pagination-square swiper-pagination-white swiper-full-screen-pagination">

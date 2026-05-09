@@ -5,38 +5,7 @@
 Name: style.css
 Version: 2.3
 
--------------------------------------
-
-Table of contents
-        
-    01. Google font
-    02. Reset
-    03. Typography
-    04. Background color
-    05. Custom
-    06. Button
-    07. Border
-    08. Aside style
-    09. Video
-    10. Background image
-    11. Icon
-    12. Magnific popup
-    13. Header
-    14. Page title
-    15. Swiper carousel
-    16. Slider and parallax typography
-    17. Portfolio
-    18. Elements
-    19. Blog
-    20. Footer
-    21. Home page
-    22. Others
-
-
-    ff214f
-
-*/
-
+------------------------------------- */
 
 
 
@@ -50,64 +19,36 @@ Table of contents
 /* Global declaration */
 
 :root {
-  --primary-color: #FF5D00!important;
-  --primary-accent: blue;
-  --ibm-sans-headers-01: "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif!important; font-weight: 700!important;
-  --ibm-sans-body-01:    "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif!important; font-weight: 400!important;
-  --ibm-sans-body-02:    "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif!important; font-weight: 300!important;
-  --font-ibm-mono-01:    "IBM Plex Mono", "SF Mono", "Consolas", ui-monospace!important; font-weight: 500!important;
 
-}
+    --primary-color: #FF5D00!important;
+    /* --primary-accent: blue; */
+    --ibm-sans-headers-01: "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif!important; font-weight: 500!important;
+    --ibm-sans-body-01:    "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif!important; font-weight: 400!important;
+    --ibm-sans-body-02:    "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif!important; font-weight: 300!important;
+    --font-ibm-mono-01:    "IBM Plex Mono", "SF Mono", "Consolas", ui-monospace!important; font-weight: 500!important;
+    --alt-text:    "IBM Plex Mono", "SF Mono", "Consolas", ui-monospace!important; font-weight: 400!important;
 
-
-
-/* .ibm-plex-sans-300 {
-  font-family: "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif;
-  font-optical-sizing: auto; font-style: normal; font-variation-settings: "wdth" 100;
-  font-weight: 300;
-
-
-.ibm-plex-sans-400 {
-  font-family: "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif;
-  font-optical-sizing: auto; font-style: normal; font-variation-settings: "wdth" 100;
-  font-weight: 400;
-}
-
-  .ibm-plex-sans-500 {
-  font-family: "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif;
-  font-optical-sizing: auto; font-style: normal; font-variation-settings: "wdth" 100;
-  font-weight: 500;
+    --text-black: #000000!important;
+    --text-white: #FFFFFF!important;
+    
 }
 
 
 
 
-.ibm-plex-mono-400 {
-  font-family: "IBM Plex Mono", IBM Plex, Mono, "SF Mono", "Consolas", ui-monospace;
-  font-optical-sizing: auto; font-style: normal; font-variation-settings: "wdth" 100;
-  font-weight: 400;
+
+
+html { font-size: 20px; line-height: 1.4em; }
+body{ 
+    font-family: var(--ibm-sans-body-01); 
+        -webkit-font-smoothing: antialiased;  
+        font-smoothing: antialiased; 
+    font-size:20px; 
+    font-weight: 400;
+    line-height: 1.4em;
+    color:#111; 
 }
 
-.ibm-plex-mono-500 {
-  font-family: "IBM Plex Mono", "SF Mono", "Consolas", ui-monospace;
-  font-optical-sizing: auto; font-style: normal; font-variation-settings: "wdth" 100;
-  font-weight: 500;
-}
-
-
-.ibm-plex-mono-600 {
-  font-family: "IBM Plex Mono", "SF Mono", "Consolas", ui-monospace;
-  font-optical-sizing: auto; font-style: normal; font-variation-settings: "wdth" 100;
-  font-weight: 600;
-}
-
-} */
-
-
-
-
-html { font-size: 16px; }
-body{ font-family: var(--ibm-sans-body-01); -webkit-font-smoothing: antialiased;  font-smoothing: antialiased; font-size:16px; color:#6f6f6f; font-weight: 400;line-height: 24px;}
 body, html { height: 100%; -moz-osx-font-smoothing: grayscale;}
 a, a:active, a:focus { color: #6f6f6f; text-decoration: none; }
 a:hover, a:active{color: var(--primary-color); text-decoration: none;}
@@ -147,15 +88,15 @@ ul, ol, dl {list-style-position: outside; margin-bottom: 25px}
 /* heading */
 h1, h2, h3, h4, h5, h6 {
 
-    margin:0 0 25px; padding:0; letter-spacing: 0; font-weight: 400!important;
+    margin:0 0 25px; padding:0; letter-spacing: 0; font-weight: 300;
 }
 
 h1 {font-size:70px; line-height: 1.4em;}
 h2 {font-size:55px; line-height: 1.4em;}
 h3 {font-size:48px; line-height: 1.4em;}
-h4 {font-size:40px; line-height: 1.4em;}
-h5 {font-size:32px; line-height: 1.4em;}
-h6 {font-size:25px; line-height: 1.4em;}
+h4 {font-size:40px; line-height: 1.2em;}
+h5 {font-size:32px; line-height: 1.2em;}
+h6 {font-size:25px; line-height: 1.2em;}
 /* text size */
 .text-extra-small {font-size:11px; line-height:14px}
 .text-small {font-size:12px; line-height:20px}
@@ -341,7 +282,7 @@ section {padding: 130px 0; overflow: hidden;}
 section.big-section {padding:160px 0;}
 section.extra-big-section {padding:200px 0;}
 section.half-section {padding:80px 0;}
-label { margin-bottom: 5px; font-weight: 700; }
+label { margin-bottom: 5px; font-weight: 600; color: var(--text-black); }
 .overlap-section {margin-top:-14%; position: relative}
 .col-2-nth .col-md-6:nth-child(2n+1) {clear: left;}
 .col-2-nth .col-sm-6:nth-child(2n+1) {clear: left;}
@@ -2372,7 +2313,7 @@ header.sticky nav.header-light-transparent .logo .logo-light, header.sticky nav.
 .navbar-top-scroll {position: absolute; top: 0; z-index: 5;}
 header.sticky nav.navbar-top-scroll {background-color: inherit;}
 header a.logo {display: inline-block; vertical-align: middle;}
-header a.logo img {max-height:26px;}
+header a.logo img {max-height:80px;}
 header .left-nav .sidebar-part1 a.logo img {max-height:inherit;}
 .logo-holder img {max-height: 26px;}
 
@@ -3978,3 +3919,46 @@ aside .latest-post li figure {width: 75px;}
 .buy-theme:hover i, .all-demo:hover i {color: #fff}
 .buy-theme a, .all-demo a { color: #232323; font-size: 10px; text-transform: uppercase; padding:2px 10px; display: block; text-decoration: none; font-weight: 500 }
 .all-demo {transition-timing-function: ease-in-out; -moz-transition-timing-function: ease-in-out; -webkit-transition-timing-function: ease-in-out; -o-transition-timing-function: ease-in-out; transition-duration: .2s; -moz-transition-duration: .2s; -webkit-transition-duration: .2s; -o-transition-duration: .2s; position:fixed; top:172px; right: -105px; background: #fff; z-index: 1000; -moz-box-shadow:0 0 10px rgba(0,0,0,0.2);-webkit-box-shadow:0 0 10px rgba(0,0,0,0.2);box-shadow:0 0 10px rgba(0,0,0,0.2); z-index: 9999}
+
+
+/* .ibm-plex-sans-300 {
+  font-family: "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif;
+  font-optical-sizing: auto; font-style: normal; font-variation-settings: "wdth" 100;
+  font-weight: 300;
+
+
+.ibm-plex-sans-400 {
+  font-family: "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif;
+  font-optical-sizing: auto; font-style: normal; font-variation-settings: "wdth" 100;
+  font-weight: 400;
+}
+
+  .ibm-plex-sans-500 {
+  font-family: "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif;
+  font-optical-sizing: auto; font-style: normal; font-variation-settings: "wdth" 100;
+  font-weight: 500;
+}
+
+
+
+
+.ibm-plex-mono-400 {
+  font-family: "IBM Plex Mono", IBM Plex, Mono, "SF Mono", "Consolas", ui-monospace;
+  font-optical-sizing: auto; font-style: normal; font-variation-settings: "wdth" 100;
+  font-weight: 400;
+}
+
+.ibm-plex-mono-500 {
+  font-family: "IBM Plex Mono", "SF Mono", "Consolas", ui-monospace;
+  font-optical-sizing: auto; font-style: normal; font-variation-settings: "wdth" 100;
+  font-weight: 500;
+}
+
+
+.ibm-plex-mono-600 {
+  font-family: "IBM Plex Mono", "SF Mono", "Consolas", ui-monospace;
+  font-optical-sizing: auto; font-style: normal; font-variation-settings: "wdth" 100;
+  font-weight: 600;
+}
+
+} */

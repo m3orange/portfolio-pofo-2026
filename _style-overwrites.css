@@ -31,7 +31,8 @@
 
 
             .citybox .section-divider-light{
-        border-bottom: 1px solid rgba(255,255,255,0.5)!important;
+                margin-top: 10px!important;
+        border-top: 1px solid rgba(255,255,255,0.5)!important;
     color: rgba(255,255,255,1)!important;
     
             }
@@ -49,8 +50,12 @@
 
 
 
-.section-divider h6 {
+.section-divider-light h6,
+.section-divider-dark h6 {
+    font-family: var(--alt-text);
+    letter-spacing: -0.03em!important;
+    font-weight: 400!important;
 
-    font-weight: 500;
+
 
 }

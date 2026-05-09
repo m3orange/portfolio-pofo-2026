@@ -4,7 +4,10 @@
                 <div class="container nav-header-container">
                     <!-- start logo -->
                     <div class="col-auto pl-lg-0">
-                        <a href="index.php" title="Pofo" class="logo"><img src="images/m3orange-logo-orange.png" data-rjs="images/m3orange-logo-orange@2x.png" class="logo-dark" alt="Pofo"><img src="images/logo-white.png" data-rjs="images/logo-white@2x.png" alt="Pofo" class="logo-light default"></a>
+                        <a href="index.php" title="M3Orange.com" class="logo">
+                            <img src="images/m3orange-logo-orange.png" data-rjs="images/m3orange-logo-orange@2x.png" class="logo-dark" alt="M3Orange.com">
+                            <img src="images/m3orange-logo-white.png" data-rjs="images/m3orange-logo-white@2x.png" class="logo-light default" alt="M3Orange.com">
+                        </a>
                     </div>
                     <!-- end logo -->
                     <div class="col accordion-menu pr-0 pr-md-3">

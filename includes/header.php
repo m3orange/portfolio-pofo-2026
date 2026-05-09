@@ -49,7 +49,7 @@
     <!--[if IE]>
             <script src="js/html5shiv.js"></script>
         <![endif]-->
-<link rel="stylesheet" href="_projects.css" />
-<link rel="stylesheet" href="_style-overwrites.css" />
 
+<link rel="stylesheet" href="_style-overwrites.css" />
+<link rel="stylesheet" href="_projects.css" />
 </head>

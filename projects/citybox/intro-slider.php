@@ -1,8 +1,16 @@
-<section id="block-intro-slider" class="wow fadeIn p-0 parallax sm-background-image-center"
-    data-stellar-background-ratio="0.5" style="background-image: url('projects/citybox/cb-hero-section.png');">
-    <div class="opacity-extra-medium bg-black"></div>
-    <div class="container-fluid position-relative full-screen">
-        <div class="slider-typography">
+<section id="block-intro-slider" class="wow fadeIn p-0 " >
+
+        <video autoplay loop muted playsinline class="hero-video-cb">
+            <source src="projects/citybox/citybox-screens-in-laptop.mp4" type="video/mp4">  
+        </video>    
+            
+
+
+
+</section>
+
+
+        <!-- <div class="slider-typography">
                 <div class="slider-typography text-left">
                     <div class="slider-text-middle-main">
                         <div class="slider-text-middle padding-ten-left sm-padding-five-left">
@@ -16,6 +24,4 @@
                         </div>
                     </div>
                 </div>
-        </div>
-    </div>
-</section>
+        </div> -->
