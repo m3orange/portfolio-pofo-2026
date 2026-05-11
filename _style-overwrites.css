@@ -2,62 +2,301 @@
 
 
 
+.container {
+    max-width: 90% !important;
+}
+
+.grid-col-padding .col{
+    padding: 20px;
+}
+
+
+.gl-t{
+    border-top: 1px solid #999;
+}
+
+.gl-r{
+    border-right: 1px solid #999;
+}
+
+.gl-b{
+    border-bottom: 1px solid #999;
+}
+
+.gl-l{
+    border-left: 1px solid #999;
+}
+
+
+.navbar-nav>li>a {
+    font-family: var(--archivo-headers-01);
+    color: #232323;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    margin: 0 20px;
+    padding: 5px 0px 5px;
+    text-transform: unset !important;
+    letter-spacing: 0.015em;
+}
+
+.hamburger-menu {
+    align-items: center;
+    display: flex;
+}
+
+nav.navbar.bootsnav .navbar-toggle {
+    top: 0px !important;
+}
+
+footer, footer a{
+    color: #999!important;
+}
 
 
 
-
-.container{
-    max-width: 90%!important;
+.section-divider-dark,
+.section-divider-light {
+    margin-bottom: 0px !important;
 }
 
 
 .section-divider-dark,
 .section-divider-light {
-    margin-bottom: 0px!important;
+
+    margin-top: 0px;
+    padding: 40px 0 80px 0;
+    font-size: 20px;
+  font-family: var(--ibm-mono-01);
+  font-weight: 500;
 }
 
 
-.section-divider-dark,
-.section-divider-light {
-
-    margin-top: 40px;
-    padding: 40px 0;
-    font-size: 22px;
-}
-.section-divider-dark{
-        border-top: 1px solid rgba(0,0,0,0.8);
-    color: rgba(0,0,0,1);
-    /* background-color: rgba(0,0,0,0.04); */
+.section-divider-dark {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 1);
+      font-weight: 400!important;
 }
 
 
 
-            .citybox .section-divider-light{
-                margin-top: 10px!important;
-        border-top: 1px solid rgba(255,255,255,0.5)!important;
-    color: rgba(255,255,255,1)!important;
-    
-            }
+.citybox .section-divider-light {
+    margin-top: 10px !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.5) !important;
+    color: rgba(255, 255, 255, 1) !important;
 
-
-
+}
 
 
 .citybox #block-03,
-.citybox .section-divider-light{
-    background-color: #858586!important;
-    /* border: 10px solid orange; */
+.citybox .section-divider-light {
+    background-color: #858586 !important;
 }
-
-
 
 
 .section-divider-light h6,
 .section-divider-dark h6 {
     font-family: var(--alt-text);
-    letter-spacing: -0.03em!important;
-    font-weight: 400!important;
+    letter-spacing: -0.03em !important;
+    font-weight: 400 !important;
 
 
 
+}
+
+.footer-nav-links{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.footer-col-1{
+    min-height: 300px;
+}
+
+.footer-logo img{
+    max-height: 80px;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+        justify-content: space-between;
+}
+
+
+/*---------------Projects ------------------*/
+
+
+
+#block-intro-slider {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+#block-01 .page-title {
+    /* border: 1px solid purple; */
+}
+
+.project-details-table{
+    font-size: 16px !important;
+    font-family: var(--alt-text);
+}
+
+.confidentiality-note{
+    font-size: 16x !important;
+
+}
+
+#block-01 .page-title h3 {
+    font-weight: 600 !important;
+    color: #333 !important;
+}
+
+
+video {
+    background-size: cover;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+#block-intro-slider video {
+    height: 100% !important;
+    max-height: 1000px !important;
+    /* border: 3px solid red; */
+}
+
+#block-intro-slider {
+    background-color: #666 !important;
+}
+
+.citybox #block-01 {
+    padding: 130px 0 0 0 !important;
+}
+
+.citybox #block-01 .grid-lines .col {
+    /* border: 1px solid #cacaca!important; */
+}
+    .citybox .gallery-prject-description{
+        padding: 12px 40px 12px 2px;
+        font-size: 16px;
+        font-family: var(--ibm-mono-01);
+        line-height: 1.3em;
+        color: #555;
+
+
+    }
+
+    .citybox .link-to-project-page{
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #FFF ;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 20px 40px;
+
+            display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    }
+
+    .link-to-project-page, .link-to-project-page a{
+ color: #FFF ;
+    }
+
+
+
+.citybox #block-02 .gallery-item {
+    background-color: #EDEDED !important;
+}
+
+.citybox #block-02 .col {
+    position: relative;
+    width: 100%;
+    padding: 0 5px;
+}
+
+
+.citybox #block-02 .gallery-item img {
+    max-width: 100% !important;
+
+}
+
+
+
+.citybox #block-03 .cb-screens {
+    max-height: 800px !important;
+    max-width: 90% !important;
+
+}
+
+#block-03{
+    padding: 80px 0 130px 0!important  ;
+}
+
+/* -------------------------------
+
+.citybox #block-03 .swiper-slide{
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+}
+
+.citybox #block-03 .swiper-button-prev,
+.citybox #block-03 .swiper-button-next{
+    height: 40px !important;
+    width: 40px !important;
+    padding: 0px !important;
+    background-size: cover;
+    background-color: unset!important;
+    opacity: 0.75!important;
+
+}
+
+.citybox #block-03 .swiper-button-prev {
+     margin-left: 20px!important;
+             background-image: url(../images/swiper-black-button-prev.png) !important;
+             
+} 
+------------------------------- */
+
+.citybox #block-03 .swiper-slide {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.citybox #block-03 .swiper-button-prev,
+.citybox #block-03 .swiper-button-next {
+
+    height: 80px !important;
+    width: 80px !important;
+    padding: 0px !important;
+    background-size: cover;
+    background-color: unset !important;
+    opacity: 0.75 !important;
+
+}
+
+.citybox #block-03 .swiper-button-prev {
+    /* margin: -15px 10px 0 0; */
+    margin-left: 20px !important;
+    background-image: url(../images/swiper-button-alpha-90px-prev.png) !important;
+
+}
+
+.citybox #block-03 .swiper-button-next {
+    /* margin: 10px 0  0 0; */
+    margin-right: 20px !important;
+    background-image: url(../images/swiper-button-alpha-90px-next.png) !important;
+}
+
+.citybox #block-03 .swiper-button-next.swiper-button-black-highlight,
+.swiper-button-prev.swiper-button-black-highlight {
+    border-radius: 0px;
 }

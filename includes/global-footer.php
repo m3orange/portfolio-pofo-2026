@@ -1,153 +1,48 @@
-    <footer class="footer-standard-dark bg-extra-dark-gray">
-        <div class="footer-widget-area padding-five-tb sm-padding-30px-tb">
-            <div class="container">
-                <div class="row">
-                    <div
-                        class="col-lg-3 col-md-6 widget border-right border-color-medium-dark-gray md-no-border-right md-margin-30px-bottom sm-text-center">
-                        <!-- start logo -->
-                        <a href="index.html" class="margin-20px-bottom d-inline-block"><img class="footer-logo"
-                                src="images/logo-white.png" data-rjs="images/logo-white@2x.png" alt=""></a>
-                        <!-- end logo -->
-                        <p class="text-small width-95 sm-width-100">Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry.</p>
-                        <!-- start social media -->
-                        <div class="social-icon-style-8 d-inline-block vertical-align-middle">
-                            <ul class="small-icon no-margin-bottom">
-                                <li><a class="facebook text-white-2" href="https://www.facebook.com/" target="_blank"><i
-                                            class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                                <li><a class="twitter text-white-2" href="https://twitter.com/" target="_blank"><i
-                                            class="fab fa-twitter"></i></a></li>
-                                <li><a class="google text-white-2" href="https://plus.google.com" target="_blank"><i
-                                            class="fab fa-google-plus-g"></i></a></li>
-                                <li><a class="instagram text-white-2" href="https://instagram.com/" target="_blank"><i
-                                            class="fab fa-instagram no-margin-right" aria-hidden="true"></i></a></li>
+        <!-- start footer --> 
+        <footer class="footer-modern-dark bg-extra-dark-gray padding-five-tb sm-padding-30px-tb">
+            <div class="footer-widget-area gl-t gl-b">
+                <div class="container">
+                    <div class="row grid-col-padding">
+                        <!-- start slogan -->
+                        <div class="col col-lg-7  col-md-12 col-sm-12 text-center text-md-left md-margin-three-bottom sm-margin-20px-bottom footer-logo footer-col-1">
+                        <a href="./index.php">
+                            <img src="images/m3orange-logo-no-padding-white.png" data-rjs="images/m3orange-logo-no-padding-white@2x.png" alt="M3Orange.com"/>
+                        </a>
+                            <!-- <span class="display-block"> HC2-9123,Guaynabo<br>Puerto Rico 00971</span> -->
+
+                        </div>
+                        <!-- end slogan -->
+                        <!-- start contact information -->
+                        <div class="col col-lg-5 col-md-12 col-sm-12 text-center text-md-left sm-margin-20px-bottom footer-col-1">
+
+
+                        <div>
+                            <ul id="accordion" class="nav navbar-nav footer-nav-links no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
+                                <li><a href="#">Work</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact</a></li>
                             </ul>
                         </div>
+                        </div>
+                        <!-- end contact information -->
+                        <!-- start social media -->
                         <!-- end social media -->
                     </div>
-                    <!-- start additional links -->
-                    <div
-                        class="col-lg-3 col-md-6 widget border-right border-color-medium-dark-gray padding-45px-left md-padding-15px-left md-no-border-right md-margin-30px-bottom text-center text-md-left">
-                        <div
-                            class="widget-title alt-font text-small text-medium-gray text-uppercase margin-10px-bottom font-weight-600">
-                            Additional Links</div>
-                        <ul class="list-unstyled">
-                            <li><a class="text-small" href="home-classic-corporate.html">Home Classic Corporate</a></li>
-                            <li><a class="text-small" href="home-creative-business.html">Home Creative Business</a></li>
-                            <li><a class="text-small" href="home-creative-designer.html">Home Creative Designer</a></li>
-                            <li><a class="text-small" href="home-portfolio-minimal.html">Home Portfolio Minimal</a></li>
-                            <li><a class="text-small" href="home-portfolio-parallax.html">Home Portfolio parallax</a>
-                            </li>
-                            <li><a class="text-small" href="home-portfolio-personal.html">Home Portfolio Personal</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- end additional links -->
-                    <!-- start contact information -->
-                    <div
-                        class="col-lg-3 col-md-6 widget border-right border-color-medium-dark-gray padding-45px-left md-padding-15px-left md-clear-both md-no-border-right sm-margin-30px-bottom text-center text-md-left">
-                        <div
-                            class="widget-title alt-font text-small text-medium-gray text-uppercase margin-10px-bottom font-weight-600">
-                            Contact Info</div>
-                        <p class="text-small d-block margin-15px-bottom width-80 sm-width-100">POFO Design Agency<br>
-                            301 The Greenhouse, Custard Factory, London, E2 8DY.</p>
-                        <div class="text-small">Email: <a href="mailto:sales@domain.com">sales@domain.com</a></div>
-                        <div class="text-small">Phone: +44 (0) 123 456 7890</div>
-                        <a href="contact-us-modern.html"
-                            class="text-small text-uppercase text-decoration-underline">View Direction</a>
-                    </div>
-                    <!-- end contact information -->
-                    <!-- start instagram -->
-                    <div
-                        class="col-lg-3 col-md-6 widget padding-45px-left md-padding-15px-left text-center text-md-left">
-                        <div
-                            class="widget-title alt-font text-small text-medium-gray text-uppercase margin-20px-bottom font-weight-600">
-                            Instagram portfolio</div>
-                        <div class="instagram-follow-api">
-                            <ul id="instaFeed-footer"></ul>
-                        </div>
-                    </div>
-                    <!-- end instagram -->
                 </div>
             </div>
-        </div>
-        <div class="bg-dark-footer padding-50px-tb text-center sm-padding-30px-tb">
-            <div class="container">
-                <div class="row">
-                    <!-- start copyright -->
-                    <div class="col-md-6 text-md-left text-small text-center">&copy; 2019 POFO is Proudly Powered by <a
-                            href="http://www.themezaa.com" target="_blank" class="text-dark-gray">ThemeZaa</a></div>
-                    <div class="col-md-6 text-md-right text-small text-center">
-                        <a href="javascript:void(0);" class="text-dark-gray">Term and
-                            Condition</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:void(0);"
-                            class="text-dark-gray">Privacy Policy</a>
+            <div class="container-fluid">
+                <!-- start copyright -->
+                <div class="footer-bottom padding-40px-top sm-padding-30px-top">
+                    <div class="container">
+                    <div class="row align-items-center">
+                    <div class="col col-md-12 text-md-left text-center text-small">
+                    &copy;<?=date("Y")?>, Michelle M. Mu&ntilde;oz-Dorna and Pixelmedia Inc. All Rights Reserved. No part of this content may be used or reproduced, in part or as a whole, without the express written consent of the author.
                     </div>
-                    <!-- end copyright -->
+
+                    </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </footer>
-
-       <!-- end footer -->
-    <!-- start scroll to top -->
-    <a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
-    <!-- end scroll to top  -->
-    <!-- javascript libraries -->
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/modernizr.js"></script>
-    <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
-    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="js/skrollr.min.js"></script>
-    <script type="text/javascript" src="js/smooth-scroll.js"></script>
-    <script type="text/javascript" src="js/jquery.appear.js"></script>
-    <!-- menu navigation -->
-    <script type="text/javascript" src="js/bootsnav.js"></script>
-    <script type="text/javascript" src="js/jquery.nav.js"></script>
-    <!-- animation -->
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <!-- page scroll -->
-    <script type="text/javascript" src="js/page-scroll.js"></script>
-    <!-- swiper carousel -->
-    <script type="text/javascript" src="js/swiper.min.js"></script>
-    <!-- counter -->
-    <script type="text/javascript" src="js/jquery.count-to.js"></script>
-    <!-- parallax -->
-    <script type="text/javascript" src="js/jquery.stellar.js"></script>
-    <!-- magnific popup -->
-    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-    <!-- portfolio with shorting tab -->
-    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
-    <!-- images loaded -->
-    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-    <!-- pull menu -->
-    <script type="text/javascript" src="js/classie.js"></script>
-    <script type="text/javascript" src="js/hamburger-menu.js"></script>
-    <!-- counter  -->
-    <script type="text/javascript" src="js/counter.js"></script>
-    <!-- fit video  -->
-    <script type="text/javascript" src="js/jquery.fitvids.js"></script>
-    <!-- skill bars  -->
-    <script type="text/javascript" src="js/skill.bars.jquery.js"></script>
-    <!-- justified gallery  -->
-    <script type="text/javascript" src="js/justified-gallery.min.js"></script>
-    <!--pie chart-->
-    <script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
-    <!-- retina -->
-    <script type="text/javascript" src="js/retina.min.js"></script>
-    <!-- revolution -->
-    <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
-    <!-- revolution slider extensions (load below extensions JS files only on local file systems to make the slider work! The following part can be removed on server for on demand loading) -->
-    <!--<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>-->
-    <!-- setting -->
-
-        <script type="text/javascript" src="js/main.js"></script>
+                <!-- end copyright -->
+    </div>
+        </footer>
+        <!-- end footer -->

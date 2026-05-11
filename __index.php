@@ -27,50 +27,37 @@
                 <div class="col col-12 text-left margin-40px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
                     <div class="page-title font-weight-500"><h3>Atlas UI</h3></div>
                 </div>
-                <div
-                    class="col col-12 col-lg-6 line-height-28 last-paragraph-no-margin md-margin-50px-bottom sm-margin-30px-bottom wow fadeIn">
-                    <h6>Lorem Ipsum is simply dummy text of the printing
-                        and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-                        1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-                        book. It has survived not only five centuries, but also the leap into electronic typesetting,
-                        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                        sheets containing Lorem Ipsum passages.
-                    </h6>
-                    <div>Modifications have been made to preserve confidentiality.</div>
-                </div>
-                <div class="col col-12 col-lg-4 offset-lg-2 line-height-26 wow fadeIn">
-                    <ul class="list-style-6 margin-twelve-left alt-font">
-                        <li class="margin-5px-bottom weight-600 ">
-                            <label class="width-30 d-inline-block weight-800">Client:</label>Jason RRRRRichardson
-                        </li>
-                        <li class="margin-5px-bottom"><label class="width-30 d-inline-block">Industry:</label>Adventure
-                            / Travel</li>
-                        <li class="margin-5px-bottom"><label class="width-30 d-inline-block">Services:</label>Design,
-                            Art Direction, Website</li>
-                        <li class="margin-5px-bottom"><label class="width-30 d-inline-block">Date:</label>January 16th,
-                            2017</li>
-                        <li class="margin-5px-bottom"><label class="width-30 d-inline-block">Website:</label><a
-                                href="https://themeforest.net/item/pofo-creative-agency-corporate-and-portfolio-multipurpose-template/20645944?ref=themezaa"
-                                target="_blank">www.mammutadventure.com</a></li>
-                    </ul>
-                </div>
+                <!-- <?php include_once("projects/citybox/_intro-description.php"); ?> #M3Phase2 --> 
+
             </div>
         </div>
     </section>
     <!-- end product information section -->
 
 
-    <!-- start section divider -->
-    <?php include ("includes/cb-section-divider.php"); ?>
-    <!-- endt section divider -->
+
 
 
     <!--begin - image grid - from single-project-page-01-->
     <section id="block-02">
+
+    <!-- start section divider -->
+    <section class="section-divider-dark">
+        <div class="container">Discovery & Prototyping</div>
+    </section>
+    <!-- end section divider -->
+
+
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
-            <div class="row margin-10px-bottom">
+            <div class="row margin-40px-bottom">
+                <!-- <div class="col col-4 col-lg-4 col-md-12 col-sm-12 sm-margin-30px-bottom wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="gallery-item"> <div class="gallery-item" style="background-color: white!important;"><img src="projects/citybox/grid-text-block.png"></div></div>
+                </div> -->
                 <div class="col col-4 col-lg-4 col-md-12 col-sm-12 sm-margin-30px-bottom wow fadeInUp" data-wow-delay="0.4s">
                     <div class="gallery-item"><img src="projects/citybox/cb-discovery-tryptic-grid-01.png"></div>
+                    <div class="gallery-prject-description">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dumm
+                    </div>
                 </div>
                 <div class="col col-4 col-lg-4 col-md-12 col-sm-12 sm-margin-30px-bottom wow fadeInUp" data-wow-delay="0.6s">
                     <div class="gallery-item"><img src="projects/citybox/cb-discovery-tryptic-grid-02.png"></div>
@@ -82,12 +69,18 @@
 
             <div class="row">
                 <div class="col col-12 wow fadeIn" data-wow-delay="1.1s">
+                    <div class="link-to-project-page">
+                        <a href="projects/citybox">View the Atlas Design System in detail </a>
+
+                        <div><img src="images/swiper-button-alpha-45px-next.png"/></div>
+
+                    </div>
                     <div class="gallery-item">
                         <img src="projects/citybox/cb-discovery-grid-squares-04-fullwidth.png">
                     </div>
                 </div>
             </div>
-            Add link to Design System page
+
         </div>
     </section>
     <!--end - image grid - from single-project-page-01-->
@@ -100,9 +93,11 @@
 
     <!-- start fullwidth slider - from blog-standard-full-width-->
     <section id="block-03">
-        <section class="section-divider-light">
-        <div class="container">Design System</div>
-        </section>
+    <!-- start section divider -->
+    <section class="section-divider-light">
+        <div class="container">Final Design</div>
+    </section>
+    <!-- end section divider -->
         <div class="container-fluid"  style="padding-right: 0px; padding-left: 0px;">
 
 
@@ -130,7 +125,7 @@
                             <div class="swiper-slide "><img class="cb-screens" src="projects/citybox/cb-screens-browser-03.png"></div>
                             <div class="swiper-slide "><img class="cb-screens" src="projects/citybox/cb-screens-browser-04.png"></div>
                             <div class="swiper-slide "><img class="cb-screens" src="projects/citybox/cb-screens-browser-05.png"></div>
-                            <div class="swiper-slide "><img class="cb-screens" src="projects/citybox/cb-screens-browser-06   .png"></div>
+                            <div class="swiper-slide "><img class="cb-screens" src="projects/citybox/cb-screens-browser-06.png"></div>
 
                         </div>
                         <div
@@ -151,17 +146,19 @@
 
 
 
-    <!-- start section divider -->
-    <?php include ("includes/cb-section-divider.php"); ?>
-    <!-- endt section divider -->
-
-
     <section id="block-04" class="wow fadeIn">
+    <!-- start section divider -->
+    <section class="section-divider-dark">
+        <div class="container">Specs for Handoff</div>
+    </section>
+    <!-- end section divider -->
+
+
         <div class="container">
             <div class="row margin-eight-bottom md-margin-50px-bottom sm-margin-20px-bottom">
                 <div class="col-12 col-lg-6 last-paragraph-no-margin md-margin-30px-bottom wow fadeInUp">
                     <h5 class=" text-extra-dark-gray">Holistic brand redesign focusing product design,interface design, studio photograph style, icon design, editorial design, web design & motion design.</h5>
-                    <p class=" text-medium text-medium-gray">- Paul Randddddd / Creative Director</p>
+                    <p class=" text-medium text-medium-gray">- Paul Rand / Creative Director</p>
                 </div>
                 <div class="col-12 col-lg-5 offset-lg-1 wow fadeInUp" data-wow-delay="0.2s">
                     <p>Koordinaten bilden die Grundlage für Einsatz des Produktes ausgerichtete Corporate Design. Reale

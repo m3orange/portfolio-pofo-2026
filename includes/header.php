@@ -52,6 +52,5 @@
         <![endif]-->
 
 <link rel="stylesheet" href="_style-overwrites.css" />
-<link rel="stylesheet" href="_projects.css" />
 
 </head>
