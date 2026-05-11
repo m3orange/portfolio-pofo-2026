@@ -1,3 +1,5 @@
+<!-- This is header from GH commit 7c4d86b -->
+        
         <header>
             <!-- start navigation -->
             <nav class="navbar navbar-default bootsnav navbar-fixed-top header-light background-transparent white-link navbar-expand-lg">
@@ -19,13 +21,15 @@
                         </button>
                         <div class="navbar-collapse collapse justify-content-end" id="navbar-collapse-toggle-1">
                             <ul id="accordion" class="nav navbar-nav no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
-                                <li><a href="#">Featured Work</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Home</a></li>
+
                             </ul>
                         </div>
                     </div>
-                    <div class="col-auto pr-lg-0 hamburger-menu">
+                    <div class="col-auto pr-lg-0">
                         <div class="heder-menu-button d-none d-lg-inline-block">
                             <button class="navbar-toggle mobile-toggle right-menu-button" type="button" id="showRightPush">
                                 <span></span>

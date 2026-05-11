@@ -170,7 +170,8 @@ video {
 }
 
 #block-intro-slider {
-    background-color: #666 !important;
+    background-color: #B8B8B8 !important;
+    
 }
 
 .citybox #block-01 {
@@ -212,6 +213,9 @@ video {
     }
 
 
+.citybox #block-02{
+    padding: 130px 0 0 0 !important  ;
+}
 
 .citybox #block-02 .gallery-item {
     background-color: #EDEDED !important;

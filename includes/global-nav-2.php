@@ -1,10 +1,13 @@
         <header>
             <!-- start navigation -->
-            <nav class="navbar navbar-default bootsnav navbar-fixed-top header-light background-transparent white-link navbar-expand-lg">
+            <nav class="navbar navbar-default bootsnav background-white header-light navbar-top navbar-expand-lg">
                 <div class="container nav-header-container">
                     <!-- start logo -->
                     <div class="col-auto pl-lg-0">
-                        <a href="index.html" title="Pofo" class="logo"><img src="images/logo.png" data-rjs="images/logo@2x.png" class="logo-dark" alt="Pofo"><img src="images/logo-white.png" data-rjs="images/logo-white@2x.png" alt="Pofo" class="logo-light default"></a>
+                        <a href="index.php" title="M3Orange.com" class="logo">
+                            <img src="images/m3orange-logo-orange.png" data-rjs="images/m3orange-logo-orange@2x.png" class="logo-dark" alt="M3Orange.com">
+                            <img src="images/m3orange-logo-white.png" data-rjs="images/m3orange-logo-white@2x.png" class="logo-light default" alt="M3Orange.com">
+                        </a>
                     </div>
                     <!-- end logo -->
                     <div class="col accordion-menu pr-0 pr-md-3">
@@ -16,13 +19,13 @@
                         </button>
                         <div class="navbar-collapse collapse justify-content-end" id="navbar-collapse-toggle-1">
                             <ul id="accordion" class="nav navbar-nav no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
-                                <li><a href="#">Featured Work</a></li>
-                                <li><a href="#">Featured Work</a></li>
-                                <li><a href="#">Featured Work</a></li>
+                                <li><a href="#">Featured Workkkk</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-auto pr-lg-0">
+                    <div class="col-auto pr-lg-0 hamburger-menu">
                         <div class="heder-menu-button d-none d-lg-inline-block">
                             <button class="navbar-toggle mobile-toggle right-menu-button" type="button" id="showRightPush">
                                 <span></span>
@@ -36,8 +39,8 @@
             <!-- end navigation --> 
             <div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
                 <button class="close-button-menu side-menu-close" id="close-pushmenu"></button>
-                <div class="display-table padding-twelve-all height-100 width-100 text-center">
-                    <div class="display-table-cell vertical-align-top padding-70px-top position-relative">
+                <div class="d-table padding-twelve-all height-100 width-100 text-center">
+                    <div class="d-table-cell align-top padding-70px-top position-relative">
                         <div class="row">
                             <div class="col-lg-12 margin-70px-bottom">
                                 <img src="images/logo-black-big.png"/>
