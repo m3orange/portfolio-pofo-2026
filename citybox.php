@@ -1,12 +1,7 @@
+<!-- <?php require_once( $base_url . 'config.php' ) ?> -->
+
+
 <?php include_once("includes/header.php"); ?>
-
-<!-- <include src="includes/linked-files.html"></include> -->
-
-<!-- <script>document.addEventListener("DOMContentLoaded", function () {
-            let e = document.getElementsByTagName("include"); for (var t = 0; t < e.length; t++) { let a = e[t]; n(e[t].attributes.src.value, function (e) { a.insertAdjacentHTML("afterend", e), a.remove() }) } function n(e, t) { fetch(e).then(e => e.text()).then(e => t(e)) }
-        });
-    </script> -->
-
 
 
 <body class="citybox">
@@ -21,7 +16,7 @@
 
 
     <!-- start product information section -->
-    <section id="block-01">
+    <section class="intro-info">
         <div class="container">
             <div class="row grid-lines">
                 <div class="col col-12 text-left margin-40px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
@@ -41,7 +36,7 @@
 
 
     <!--begin - image grid - from single-project-page-01-->
-    <section id="block-02">
+    <section class="discovery-image-grid">
 
         <!-- start section divider -->
         <section class="section-divider-dark">
@@ -53,11 +48,11 @@
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row margin-40px-bottom">
                 <!-- <div class="col col-4 col-lg-4 col-md-12 col-sm-12 sm-margin-30px-bottom wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="gallery-item"> <div class="gallery-item" style="background-color: white!important;"><img src="projects/citybox/grid-text-block.png"></div></div>
+                    <div class="gallery-item"> <div class="gallery-item" style="background-color: white!important;"><img src="/projects/citybox/grid-text-block.png"></div></div>
                 </div> -->
                 <div class="col col-4 col-lg-4 col-md-12 col-sm-12 sm-margin-30px-bottom wow fadeInUp"
                     data-wow-delay="0.4s">
-                    <div class="gallery-item"><img src="projects/citybox/discovery-grid-01.png"></div>
+                    <div class="gallery-item"><img src="/projects/citybox/discovery-grid-01.png"></div>
                     <div class="gallery-prject-description">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                         the industry's standard dumm
@@ -65,11 +60,11 @@
                 </div>
                 <div class="col col-4 col-lg-4 col-md-12 col-sm-12 sm-margin-30px-bottom wow fadeInUp"
                     data-wow-delay="0.6s">
-                    <div class="gallery-item"><img src="projects/citybox/discovery-grid-02.png"></div>
+                    <div class="gallery-item"><img src="/projects/citybox/discovery-grid-02.png"></div>
                 </div>
                 <div class="col col-4 col-lg-4 col-md-12 col-sm-12 sm-margin-30px-bottom wow fadeInUp"
                     data-wow-delay="0.8s">
-                    <div class="gallery-item"><img src="projects/citybox/discovery-grid-03.png"></div>
+                    <div class="gallery-item"><img src="/projects/citybox/discovery-grid-03.png"></div>
                 </div>
             </div>
         </div>
@@ -98,12 +93,12 @@
                 <div class="col col-12 wow fadeIn" data-wow-delay="1.1s">
                     <!-- 
                     <div class="link-to-project-page">
-                        <a href="projects/citybox">View the Atlas Design System in detail </a>
+                        <a href="/projects/citybox">View the Atlas Design System in detail </a>
                         <div><img src="images/swiper-button-alpha-45px-next.png"/></div>
                     </div>
                      -->
                     <div class="gallery-item">
-                        <img src="projects/citybox/discovery-grid-04-fullwidth.png">
+                        <img src="/projects/citybox/discovery-grid-04-fullwidth.png">
                     </div>
                 </div>
             </div>
@@ -116,22 +111,19 @@
 
 
     <!-- start fullwidth slider - from blog-standard-full-width-->
-    <section id="block-03">
+    <section class="fullwidth-slider-01">
         <!-- start section divider -->
         <section class="section-divider-light">
             <div class="container">Final Design</div>
         </section>
         <!-- end section divider -->
-        <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
-
+        <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;"
 
             <div class="row">
-
-
                 <div class="col-12 blog-post-content text-center text-md-center"
                     style="padding-right: 0px; padding-left: 0px;">
 
-                    <div class="swiper-full-screen swiper-cb-fullwidth-screens swiper-container white-move"
+                    <div class="swiper-full-screen  swiper-container white-move"
                         data-slider-options='{ 
                     "loop": true, 
                     "slidesPerView": "1", 
@@ -145,17 +137,17 @@
 
                         <div class="swiper-wrapper">
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="projects/citybox/cb-screens-browser-01.png"></div>
+                                    src="/projects/citybox/cb-screens-browser-01.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="projects/citybox/cb-screens-browser-02.png"></div>
+                                    src="/projects/citybox/cb-screens-browser-02.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="projects/citybox/cb-screens-browser-03.png"></div>
+                                    src="/projects/citybox/cb-screens-browser-03.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="projects/citybox/cb-screens-browser-04.png"></div>
+                                    src="/projects/citybox/cb-screens-browser-04.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="projects/citybox/cb-screens-browser-05.png"></div>
+                                    src="/projects/citybox/cb-screens-browser-05.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="projects/citybox/cb-screens-browser-06.png"></div>
+                                    src="/projects/citybox/cb-screens-browser-06.png"></div>
 
                         </div>
                         <div
@@ -191,12 +183,13 @@
             <div class="row mx-0">
                 <ul class="portfolio-grid work-3col hover-option2 gutter-large w-100">
                     <li class="grid-sizer"></li>
+
                     <li class="grid-item grid-item-double  wow fadeInUp"> <!--grid-item-double-->
-                        <a href="projects/citybox/cb-specs-01.png" data-group="two-columns-zoom-animation"
+                        <a href="/projects/citybox/cb-specs-01.png" data-group="two-columns-zoom-animation"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray"><img
-                                        src="projects/citybox/cb-specs-01.png" class="project-img-gallery" /></div>
+                                        src="/projects/citybox/cb-specs-01.png" class="project-img-gallery" /></div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box vertical-align-middle">
@@ -211,11 +204,11 @@
                     </li>
 
                     <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
-                        <a href="projects/citybox/cb-specs-02.png" data-group="two-columns-zoom-animation"
+                        <a href="/projects/citybox/cb-specs-02.png" data-group="two-columns-zoom-animation"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray"><img
-                                        src="projects/citybox/cb-specs-02.png" class="project-img-gallery" /></div>
+                                        src="/projects/citybox/cb-specs-02.png" class="project-img-gallery" /></div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box vertical-align-middle">
@@ -229,11 +222,11 @@
                         </a>
                     </li>
                     <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
-                        <a href="projects/citybox/cb-specs-03.png" data-group="two-columns-zoom-animation"
+                        <a href="/projects/citybox/cb-specs-03.png" data-group="two-columns-zoom-animation"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray"><img
-                                        src="projects/citybox/cb-specs-03.png" class="project-img-gallery" /></div>
+                                        src="/projects/citybox/cb-specs-03.png" class="project-img-gallery" /></div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box vertical-align-middle">
@@ -247,11 +240,11 @@
                         </a>
                     </li>
                     <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
-                        <a href="projects/citybox/cb-specs-04.png" data-group="two-columns-zoom-animation"
+                        <a href="/projects/citybox/cb-specs-04.png" data-group="two-columns-zoom-animation"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray"><img
-                                        src="projects/citybox/cb-specs-04.png" class="project-img-gallery" /></div>
+                                        src="/projects/citybox/cb-specs-04.png" class="project-img-gallery" /></div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box vertical-align-middle">

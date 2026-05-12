@@ -3,7 +3,7 @@
         <video autoplay loop muted playsinline class="hero-video-cb">
             <source src="projects/citybox/citybox-screens-in-laptop.mp4" type="video/mp4">  
         </video>    
-            
+       
 
 
 

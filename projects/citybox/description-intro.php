@@ -7,7 +7,9 @@
                         remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
                         sheets containing Lorem Ipsum passages.
                     </h6>
-                    <?php include_once("includes/projects-confidentiality-note.php"); ?>
+                    
+                    <?php include ROOT_PATH . 'includes/projects-confidentiality-note.php'; ?>
+
                     
                 </div>
                 <div class="col col-12 col-lg-4 col-lmd-6 offset-lg-1 line-height-26 wow fadeIn">

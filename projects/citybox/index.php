@@ -1,7 +1,7 @@
-<?php require_once( 'config.php' ) ?>
+<?php require_once( '../../config.php' ) ?>
 
 
-<?php include_once("includes/header.php"); ?>
+<?php include ROOT_PATH . 'includes/header.php'; ?>
 
 <!-- <include src="includes/linked-files.html"></include> -->
 
@@ -11,15 +11,14 @@
     </script> -->
 
 
-
 <body class="citybox">
 
     <!-- start header -->
-    <?php include_once("includes/global-nav.php"); ?>
+     <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
     <!-- end header -->
 
     <!-- start parallax hero section -->
-    <?php include_once("projects/citybox/intro-slider.php"); ?>
+     <?php include ROOT_PATH . 'projects/citybox/intro-slider.php'; ?>
     <!-- end parallax hero section -->
 
 
@@ -32,15 +31,12 @@
                         <h3>Atlas UI</h3>
                     </div>
                 </div>
-                <!--  #M3Phase2 <?php include_once("projects/citybox/description-intro.php"); ?>  -->
+               <?php include ROOT_PATH . 'projects/citybox/description-intro.php'; ?>
 
             </div>
         </div>
     </section>
     <!-- end product information section -->
-
-
-
 
 
     <!--begin - image grid - from single-project-page-01-->
@@ -56,11 +52,11 @@
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row margin-40px-bottom">
                 <!-- <div class="col col-4 col-lg-4 col-md-12 col-sm-12 sm-margin-30px-bottom wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="gallery-item"> <div class="gallery-item" style="background-color: white!important;"><img src="/projects/citybox/grid-text-block.png"></div></div>
+                    <div class="gallery-item"> <div class="gallery-item" style="background-color: white!important;"><img src="<?= BASE_URL ?>projects/citybox/grid-text-block.png"></div></div>
                 </div> -->
                 <div class="col col-4 col-lg-4 col-md-12 col-sm-12 sm-margin-30px-bottom wow fadeInUp"
                     data-wow-delay="0.4s">
-                    <div class="gallery-item"><img src="/projects/citybox/discovery-grid-01.png"></div>
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/citybox/discovery-grid-01.png"></div>
                     <div class="gallery-prject-description">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                         the industry's standard dumm
@@ -68,11 +64,11 @@
                 </div>
                 <div class="col col-4 col-lg-4 col-md-12 col-sm-12 sm-margin-30px-bottom wow fadeInUp"
                     data-wow-delay="0.6s">
-                    <div class="gallery-item"><img src="/projects/citybox/discovery-grid-02.png"></div>
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/citybox/discovery-grid-02.png"></div>
                 </div>
                 <div class="col col-4 col-lg-4 col-md-12 col-sm-12 sm-margin-30px-bottom wow fadeInUp"
                     data-wow-delay="0.8s">
-                    <div class="gallery-item"><img src="/projects/citybox/discovery-grid-03.png"></div>
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/citybox/discovery-grid-03.png"></div>
                 </div>
             </div>
         </div>
@@ -106,7 +102,7 @@
                     </div>
                      -->
                     <div class="gallery-item">
-                        <img src="/projects/citybox/discovery-grid-04-fullwidth.png">
+                        <img src="<?= BASE_URL ?>projects/citybox/discovery-grid-04-fullwidth.png">
                     </div>
                 </div>
             </div>
@@ -148,17 +144,17 @@
 
                         <div class="swiper-wrapper">
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="/projects/citybox/cb-screens-browser-01.png"></div>
+                                    src="<?= BASE_URL ?>projects/citybox/cb-screens-browser-01.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="/projects/citybox/cb-screens-browser-02.png"></div>
+                                    src="<?= BASE_URL ?>projects/citybox/cb-screens-browser-02.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="/projects/citybox/cb-screens-browser-03.png"></div>
+                                    src="<?= BASE_URL ?>projects/citybox/cb-screens-browser-03.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="/projects/citybox/cb-screens-browser-04.png"></div>
+                                    src="<?= BASE_URL ?>projects/citybox/cb-screens-browser-04.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="/projects/citybox/cb-screens-browser-05.png"></div>
+                                    src="<?= BASE_URL ?>projects/citybox/cb-screens-browser-05.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="/projects/citybox/cb-screens-browser-06.png"></div>
+                                    src="<?= BASE_URL ?>projects/citybox/cb-screens-browser-06.png"></div>
 
                         </div>
                         <div
@@ -189,18 +185,17 @@
 
         <div class="container">
 
-        <!-- <?php include_once("projects/citybox/description-project-01.php"); ?> -->
+        <!-- <?php include_once("description-project-01.php"); ?> -->
 
             <div class="row mx-0">
                 <ul class="portfolio-grid work-3col hover-option2 gutter-large w-100">
                     <li class="grid-sizer"></li>
 
                     <li class="grid-item grid-item-double  wow fadeInUp"> <!--grid-item-double-->
-                        <a href="/projects/citybox/cb-specs-01.png" data-group="two-columns-zoom-animation"
+                        <a href="<?= BASE_URL ?>projects/citybox/cb-specs-01.png" data-group="two-columns-zoom-animation"
                             class="lightbox-group-gallery-item">
                             <figure>
-                                <div class="portfolio-img bg-extra-dark-gray"><img
-                                        src="/projects/citybox/cb-specs-01.png" class="project-img-gallery" /></div>
+                                <div class="portfolio-img bg-extra-dark-gray"><img src="<?= BASE_URL ?>projects/citybox/cb-specs-01.png" class="project-img-gallery" /></div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box vertical-align-middle">
@@ -215,11 +210,11 @@
                     </li>
 
                     <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
-                        <a href="/projects/citybox/cb-specs-02.png" data-group="two-columns-zoom-animation"
+                        <a href="<?= BASE_URL ?>projects/citybox/cb-specs-02.png" data-group="two-columns-zoom-animation"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray"><img
-                                        src="/projects/citybox/cb-specs-02.png" class="project-img-gallery" /></div>
+                                        src="<?= BASE_URL ?>projects/citybox/cb-specs-02.png" class="project-img-gallery" /></div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box vertical-align-middle">
@@ -233,11 +228,11 @@
                         </a>
                     </li>
                     <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
-                        <a href="/projects/citybox/cb-specs-03.png" data-group="two-columns-zoom-animation"
+                        <a href="<?= BASE_URL ?>projects/citybox/cb-specs-03.png" data-group="two-columns-zoom-animation"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray"><img
-                                        src="/projects/citybox/cb-specs-03.png" class="project-img-gallery" /></div>
+                                        src="<?= BASE_URL ?>projects/citybox/cb-specs-03.png" class="project-img-gallery" /></div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box vertical-align-middle">
@@ -251,11 +246,11 @@
                         </a>
                     </li>
                     <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
-                        <a href="/projects/citybox/cb-specs-04.png" data-group="two-columns-zoom-animation"
+                        <a href="<?= BASE_URL ?>projects/citybox/cb-specs-04.png" data-group="two-columns-zoom-animation"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray"><img
-                                        src="/projects/citybox/cb-specs-04.png" class="project-img-gallery" /></div>
+                                        src="<?= BASE_URL ?>projects/citybox/cb-specs-04.png" class="project-img-gallery" /></div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box vertical-align-middle">
@@ -281,8 +276,7 @@
 
 
     <!-- start footer -->
-    <?php include_once("includes/global-footer.php"); ?>
-
+    <?php include ROOT_PATH . 'includes/global-footer.php'; ?>
 
 </body>
 
