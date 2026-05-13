@@ -166,16 +166,40 @@ video {
     width: 100%;
 }
 
+
+#block-intro-slider {
+    background-color: #B8B8B8 !important;
+    
+}
+
+    .admin #block-intro-slider video{
+    max-height: 85%!important;
+    max-width: 95%;
+
+    }
+    .admin #block-intro-slider{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #535353 !important;
+    }
+
+        @media (max-width: 991px) {
+            .citybox #block-intro-slider,
+            .admin #block-intro-slider{
+            height: 40vh;
+            }
+        }
+
 #block-intro-slider video {
     height: 100% !important;
     max-height: 1000px !important;
     /* border: 3px solid red; */
 }
 
-#block-intro-slider {
-    background-color: #B8B8B8 !important;
-    
-}
+
+
 
 .citybox #block-01 {
     padding: 130px 0 0 0 !important;
@@ -238,6 +262,11 @@ video {
 
 .image-grid-discovery .gallery-item img {
     max-width: 100% !important;
+}
+
+.admin .image-grid-discovery-fullwidth{
+    background-color: #CCCCCC !important;
+    padding: 120px 40px;
 }
 
 .btn-to-full-project.row,
