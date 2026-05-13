@@ -1,6 +1,8 @@
 @charset "utf-8";
 
-
+.col-border.col{
+    border: 1px solid pink;
+}
 
 .container {
     max-width: 90% !important;
@@ -147,6 +149,7 @@ footer, footer a{
 
 .confidentiality-note{
     font-size: 16x !important;
+    line-height: 1.4em!important;
 
 }
 
@@ -235,6 +238,20 @@ video {
 
 .image-grid-discovery .gallery-item img {
     max-width: 100% !important;
+}
+
+.btn-to-full-project.row,
+.btn-to-full-project.col{
+    /* display: flex; 
+    flex-direction: row;  */
+    align-items: center!important; 
+    justify-content: space-between;
+
+}
+
+.btn-to-full-project .btn{
+    width: 100%!important;
+
 }
 
 

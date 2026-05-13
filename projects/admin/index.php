@@ -18,7 +18,7 @@
     <!-- end header -->
 
     <!-- start parallax hero section -->
-     <?php include ROOT_PATH . 'projects/citybox/intro-slider.php'; ?>
+     <?php include ROOT_PATH . 'projects/admin/intro-slider.php'; ?>
     <!-- end parallax hero section -->
 
 
@@ -28,10 +28,10 @@
             <div class="row grid-lines">
                 <div class="col col-12 text-left margin-40px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
                     <div class="page-title font-weight-500">
-                        <h3>Atlas UI</h3>
+                        <h3>Admin Module</h3>
                     </div>
                 </div>
-               <?php include ROOT_PATH . 'projects/citybox/description-intro.php'; ?>
+               <?php include ROOT_PATH . 'projects/admin/description-intro.php'; ?>
 
             </div>
         </div>
@@ -52,18 +52,25 @@
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row margin-40px-bottom">
                 <div class="col col-12 col-lg-4 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/citybox/discovery-grid-01.png"></div>
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/discovery-grid-01@0.5.png"></div>
                     <!-- <div class="gallery-prject-description">Description</div> -->
                 </div>
-                <div class="col col-12 col-lg-4 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp"
-                    data-wow-delay="0.4s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/citybox/discovery-grid-02.png"></div>
+                <div class="col col-12 col-lg-4 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/discovery-grid-02@0.5.png"></div>
                 </div>
-                <div class="col col-12 col-lg-4 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp"
-                    data-wow-delay="0.6s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/citybox/discovery-grid-03.png"></div>
+                <div class="col col-12 col-lg-4 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/discovery-grid-03@0.5.png"></div>
                 </div>
-               
+
+                <div class="col col-12 col-lg-4 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/discovery-grid-04@0.5.png"></div>
+                </div>
+                <div class="col col-12 col-lg-4 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/discovery-grid-05@0.5.png"></div>
+                </div>
+                <div class="col col-12 col-lg-4 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/discovery-grid-06@0.5.png"></div>
+                </div>              
             </div>
         </div>
     </section>
@@ -73,14 +80,13 @@
     <!--begin - image grid - from single-project-page-01-->
     <section>
 
+    
+
         <!-- start section divider -->
         <section class="section-divider-dark">
             <div class="container">
-                <div class="row btn-to-full-project">
-                    <div class="col col-12 col-lg-9 col-md-6 ">Design System</div>
-                    <div class="col col-12 col-lg-3 col-md-6">
-                        <a class="btn btn-large btn-transparent-black d-table d-lg-inline-block md-no-margin-left md-no-margin-right md-margin-20px-top" ref="#" style="text-decoration: none;">View this project in detail</a>
-                    </div>
+                <div class="row">
+                    User Journey
                 </div>
                 
 
@@ -99,7 +105,7 @@
                     </div>
                      -->
                     <div class="gallery-item">
-                        <img src="<?= BASE_URL ?>projects/citybox/discovery-grid-04-fullwidth.png">
+                        <img src="<?= BASE_URL ?>projects/admin/admin-journey-map.jpg">
                     </div>
                 </div>
             </div>

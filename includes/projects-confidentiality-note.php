@@ -1,1 +1,1 @@
-<div class="confidentiality-note">Modifications have been made to preserve confidentiality.</div>
+<div class="confidentiality-note">Due to the confidential nature of some projects, certain details have been modified.</div>
