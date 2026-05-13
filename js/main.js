@@ -2627,16 +2627,19 @@ $(document).ready(function () {
     /*==============================================================*/
     //accordion  - START CODE
     /*==============================================================*/
+
+    /* ---- M3 - Start - Where I changed the Themify plus and minus to angles/chevron---- */
+    
     $('.accordion-style1 .collapse').on('show.bs.collapse', function () {
         var id = $(this).attr('id');
         $('a[href="#' + id + '"]').closest('.panel-heading').addClass('active-accordion');
-        $('a[href="#' + id + '"] .panel-title span').html('<i class="ti-minus"></i>');
+        $('a[href="#' + id + '"] .panel-title span').html('<i class="ti-angle-up"></i>');
     });
 
     $('.accordion-style1 .collapse').on('hide.bs.collapse', function () {
         var id = $(this).attr('id');
         $('a[href="#' + id + '"]').closest('.panel-heading').removeClass('active-accordion');
-        $('a[href="#' + id + '"] .panel-title span').html('<i class="ti-plus"></i>');
+        $('a[href="#' + id + '"] .panel-title span').html('<i class="ti-angle-down"></i>');
     });
 
     $(document).on('click', '.nav.navbar-nav a.inner-link', function (e) {
@@ -2648,6 +2651,11 @@ $(document).ready(function () {
             $this.addClass('active');
         }, 1000);
     });
+
+    /* ---- M3 - End - Where I changed the Themify plus and minus to angles/chevron---- */
+
+
+
 
     $('.accordion-style2 .collapse').on('show.bs.collapse', function () {
         var id = $(this).attr('id');

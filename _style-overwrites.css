@@ -130,6 +130,85 @@ footer, footer a{
 
 
 
+.home .home-hero-area h3{
+    font-family: var(--archivo-headers-01)!important;
+    line-height: 1.1em;
+}
+
+.home .home-hero-area p,
+.home .home-hero-area h6{
+    font-family: var(--ibm-sans-body-01)!important;
+    line-height: 1.1em;
+}
+
+#home-text-intro h6 {
+    font-weight: 400!important;
+    line-height: 1.2em!important;
+}
+
+#home-text-intro li{
+    margin-bottom: 20px;
+    font-weight: 300 !important;
+    line-height: 1.3em !important;
+    font-size: 22px!important;
+}
+
+.accordion-style1{
+
+}
+
+/* 
+
+[class^="ti-"], [class*=" ti-"] {
+	font-family: 'themify';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+    content: "\e648b"!important;
+}
+
+.ti-minus{
+    content: "\e648"!important;
+}
+
+
+.ti-minus:before,
+.ti-plus:before {
+    content: "\e648"!important;
+    ti-angle-up 
+    .icon-angle-up:before {content: "\e648";}
+.icon-angle-right:before {content: "\e649";}
+.icon-angle-left:before {content: "\e64a";}
+.icon-angle-down:before {content: "\e64b";}
+}
+
+
+*/
+
+
+
+.accordion-style1 .panel-heading i {
+    font-size: 20px;
+    color: #000000;
+}
+.accordion-style1 a{
+    text-decoration: none!important;
+}
+
+.accordion-style1 .panel-title > span.float-right {
+    position: absolute;
+    right: 0;
+    top: 11px!important;
+}
+
+.accordion-style1 h5{
+    margin: 0px!important;
+}
+
+
 #block-intro-slider {
     height: 70vh;
     display: flex;
