@@ -23,7 +23,7 @@
 
 
     <!-- start product information section -->
-    <section id="block-01">
+    <section class="intro-info">
         <div class="container">
             <div class="row grid-lines">
                 <div class="col col-12 text-left margin-40px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
@@ -40,7 +40,7 @@
 
 
     <!--begin - image grid - from single-project-page-01-->
-    <section id="block-02">
+    <section  class="image-grid-discovery">
 
         <!-- start section divider -->
         <section class="section-divider-dark">
@@ -54,22 +54,23 @@
                 <!-- <div class="col col-4 col-lg-4 col-md-12 col-sm-12 sm-margin-30px-bottom wow fadeInUp" data-wow-delay="0.4s">
                     <div class="gallery-item"> <div class="gallery-item" style="background-color: white!important;"><img src="<?= BASE_URL ?>projects/citybox/grid-text-block.png"></div></div>
                 </div> -->
-                <div class="col col-4 col-lg-4 col-md-12 col-sm-12 sm-margin-30px-bottom wow fadeInUp"
-                    data-wow-delay="0.4s">
+                <div class="col col-4 col-lg-4 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp"
+                    data-wow-delay="0.2s">
                     <div class="gallery-item"><img src="<?= BASE_URL ?>projects/citybox/discovery-grid-01.png"></div>
-                    <div class="gallery-prject-description">
+                    <!-- <div class="gallery-prject-description">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                         the industry's standard dumm
-                    </div>
+                    </div> -->
                 </div>
-                <div class="col col-4 col-lg-4 col-md-12 col-sm-12 sm-margin-30px-bottom wow fadeInUp"
-                    data-wow-delay="0.6s">
+                <div class="col col-4 col-lg-4 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp"
+                    data-wow-delay="0.4s">
                     <div class="gallery-item"><img src="<?= BASE_URL ?>projects/citybox/discovery-grid-02.png"></div>
                 </div>
-                <div class="col col-4 col-lg-4 col-md-12 col-sm-12 sm-margin-30px-bottom wow fadeInUp"
-                    data-wow-delay="0.8s">
+                <div class="col col-4 col-lg-4 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp"
+                    data-wow-delay="0.6s">
                     <div class="gallery-item"><img src="<?= BASE_URL ?>projects/citybox/discovery-grid-03.png"></div>
                 </div>
+               
             </div>
         </div>
     </section>
@@ -94,7 +95,7 @@
 
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row">
-                <div class="col col-12 wow fadeIn" data-wow-delay="1.1s">
+                <div class="col col-12 wow fadeIn" data-wow-delay="0.4s">
                     <!-- 
                     <div class="link-to-project-page">
                         <a href="/projects/citybox">View the Atlas Design System in detail </a>
@@ -115,7 +116,7 @@
 
 
     <!-- start fullwidth slider - from blog-standard-full-width-->
-    <section id="block-03">
+    <section class="fullwidth-slider-01">
         <!-- start section divider -->
         <section class="section-divider-light">
             <div class="container">Final Design</div>
@@ -175,7 +176,7 @@
 
 
 
-    <section id="block-04" class="wow fadeIn">
+    <section class="wow fadeIn">
         <!-- start section divider -->
         <section class="section-divider-dark">
             <div class="container">Specs for Handoff</div>

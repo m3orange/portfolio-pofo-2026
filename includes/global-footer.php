@@ -12,11 +12,22 @@
                         <div class="col-lg-4 col-md-6 social-style-2 text-center text-md-left">
                             <div class="social-icon-style-8">
                                 <ul class="text-medium margin-20px-top sm-no-margin-bottom  p-0 mb-0 list-unstyled" style="text-align: right;">
-                                    <li class="d-inline-block margin-20px-right"><a href="#" target="_blank" title="Home">Home</a></li>
-                                    <li class="d-inline-block margin-20px-right"><a href="#" target="_blank" title="Work">Work</a></li>
-                                    <li class="d-inline-block margin-20px-right"><a href="#" target="_blank" title="About">About</a></li>
-                                    <li class="d-inline-block margin-20px-right"><a href="#" target="_blank" title="Contact">Contact</a></li>
-                                                       
+
+            <li class="d-inline-block margin-20px-right">
+                <a href="<?= BASE_URL ?>index.php" title="Home">Home</a>
+            </li>
+            <li class="d-inline-block margin-20px-right">
+                <a href="<?= BASE_URL ?>projects/citybox/index.php" title="Atlas UI">CityBox UI</a>
+            </li>
+            <li class="d-inline-block margin-20px-right">
+                <a href="<?= BASE_URL ?>projects/admin/index.php" title="Admin">Admin</a>
+            </li>    
+            <li class="d-inline-block margin-20px-right">
+                <a href="<?= BASE_URL ?>projects/atlas/index.php" title="Atlas Design System">Design System</a>
+            </li>            
+            
+
+
                                 </ul>
                             </div>
                         </div>

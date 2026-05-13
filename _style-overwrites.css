@@ -137,7 +137,7 @@ footer, footer a{
 }
 
 .intro-info .page-title {
-    /* border: 1px solid purple; */
+    border: 1px solid purple;
 }
 
 .project-details-table{
@@ -214,29 +214,33 @@ video {
     }
 
 
-.discovery-image-grid{
+.image-grid-discovery{
     padding: 130px 0 0 0 !important  ;
 }
 
-.discovery-image-grid .gallery-item {
+.image-grid-discovery .gallery-item {
     background-color: #EDEDED !important;
 }
 
-.discovery-image-grid .col {
+.image-grid-discovery .row{
+    row-gap: 10px;
+}
+
+.image-grid-discovery .col {
     position: relative;
     width: 100%;
     padding: 0 5px;
 }
 
 
-.discovery-image-grid .gallery-item img {
+.image-grid-discovery .gallery-item img {
     max-width: 100% !important;
 }
 
 
 .fullwidth-slider-01 .cb-screens {
-    max-height: 800px !important;
     max-width: 90% !important;
+
 
 }
 
