@@ -23,7 +23,7 @@
                                         <a href="<?= BASE_URL ?>projects/admin/index.php" title="Admin">Admin</a>
                                     </li>    
                                     <li class="d-inline-block margin-20px-right">
-                                        <a href="<?= BASE_URL ?>projects/atlas/index.php" title="Atlas Design System">Design System</a>
+                                        <a href="<?= BASE_URL ?>projects/atlas-design-system/index.php" title="Atlas Design System">Atlas Design System</a>
                                     </li>            
 
                                 </ul>

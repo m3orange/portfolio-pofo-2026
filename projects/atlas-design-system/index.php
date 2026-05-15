@@ -3,26 +3,17 @@
 
 <?php include ROOT_PATH . 'includes/header.php'; ?>
 
-<!-- <include src="includes/linked-files.html"></include> -->
-
-<!-- <script>document.addEventListener("DOMContentLoaded", function () {
-            let e = document.getElementsByTagName("include"); for (var t = 0; t < e.length; t++) { let a = e[t]; n(e[t].attributes.src.value, function (e) { a.insertAdjacentHTML("afterend", e), a.remove() }) } function n(e, t) { fetch(e).then(e => e.text()).then(e => t(e)) }
-        });
-    </script> -->
-
-
-<body class="citybox">
+<body class="atlas">
 
     <!-- start header -->
-     <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
+     <?php include ROOT_PATH . 'includes/global-nav-dark.php'; ?>
     <!-- end header -->
 
     <!-- start parallax hero section -->
-    <section id="block-intro-slider" class="wow fadeIn p-0 " >
-        <video autoplay loop muted playsinline class="hero-video-cb">
-            <source src="<?= BASE_URL ?>projects/citybox/citybox-screens-in-laptop.mp4" type="video/mp4">  
-        </video>
+    <section id="block-intro-slider" class="wow fadeIn" >
+        <img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-design-system-fullwidth-02.png"/>    
     </section>
+
     <!-- end parallax hero section -->
 
 
@@ -32,7 +23,7 @@
             <div class="row grid-lines">
                 <div class="col col-12 text-left margin-40px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
                     <div class="page-title font-weight-500">
-                        <h3>Atlas UI</h3>
+                        <h3>Atlas Design System</h3>
                     </div>
                 </div>
                <?php include ROOT_PATH . 'projects/citybox/description-intro.php'; ?>
@@ -55,19 +46,22 @@
 
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row margin-40px-bottom">
-                <div class="col col-12 col-lg-4 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/citybox/discovery-grid-01.png"></div>
+                <div class="col col-12 col-lg-3 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-intro-grid-01.png"></div>
                     <!-- <div class="gallery-prject-description">Description</div> -->
                 </div>
-                <div class="col col-12 col-lg-4 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp"
+                <div class="col col-12 col-lg-3 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp"
                     data-wow-delay="0.4s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/citybox/discovery-grid-02.png"></div>
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-intro-grid-02.png"></div>
                 </div>
-                <div class="col col-12 col-lg-4 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp"
+                <div class="col col-12 col-lg-3 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp"
                     data-wow-delay="0.6s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/citybox/discovery-grid-03.png"></div>
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-intro-grid-03.png"></div>
                 </div>
-               
+                <div class="col col-12 col-lg-3 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp"
+                    data-wow-delay="0.8s">
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-intro-grid-04.png"></div>
+                </div>
             </div>
         </div>
     </section>
@@ -115,59 +109,20 @@
 
 
 
+
+
     <!-- start fullwidth slider - from blog-standard-full-width-->
-    <section class="fullwidth-slider-01">
+    <section class="fullwidth-atlas-microsite-animation">
         <!-- start section divider -->
         <section class="section-divider-light">
-            <div class="container">Final Design</div>
+            <div class="container">Repository</div>
         </section>
         <!-- end section divider -->
-        <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
-
-
+        <div class="container">
             <div class="row">
-
-
-                <div class="col-12 blog-post-content text-center text-md-center"
-                    style="padding-right: 0px; padding-left: 0px;">
-
-                    <div class="swiper-full-screen swiper-cb-fullwidth-screens swiper-container white-move"
-                        data-slider-options='{ 
-                    "loop": true, 
-                    "slidesPerView": "1", 
-                    "allowTouchMove":true, 
-                    "autoplay": false, 
-                    "keyboard": { "enabled": true, "onlyInViewport": true }, 
-                    "navigation": { "nextEl": ".swiper-button-next", 
-                    "prevEl": ".swiper-button-prev" }, 
-                    "pagination": { "el": ".swiper-pagination", "clickable": true } }'>
-
-
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/citybox/cb-screens-browser-01.png"></div>
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/citybox/cb-screens-browser-02.png"></div>
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/citybox/cb-screens-browser-03.png"></div>
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/citybox/cb-screens-browser-04.png"></div>
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/citybox/cb-screens-browser-05.png"></div>
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/citybox/cb-screens-browser-06.png"></div>
-
-                        </div>
-                        <div
-                            class="swiper-pagination swiper-pagination-square swiper-pagination-white swiper-full-screen-pagination">
-                        </div>
-                        <div class="swiper-button-prev swiper-button-black-highlight"></div>
-                        <div class="swiper-button-next swiper-button-black-highlight"></div>
-
-                    </div>
+                <div class="col col-12">
+                <img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-ds-microsite-walkthrough-1300px.gif"/>
                 </div>
-
-
             </div>
         </div>
     </section>

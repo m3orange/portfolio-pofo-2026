@@ -29,6 +29,10 @@
     border-left: 1px solid #999;
 }
 
+.text-highlight-01{
+    background-color: #ffe318;
+}
+
 
 .navbar-nav>li>a {
     font-family: var(--archivo-headers-01);
@@ -131,7 +135,7 @@ footer, footer a{
 
 
 .home .home-hero-area h3{
-    font-family: var(--archivo-headers-01)!important;
+    font-family: var(--ibm-sans-headers-01)!important;
     line-height: 1.1em;
 }
 
@@ -146,15 +150,14 @@ footer, footer a{
     line-height: 1.2em!important;
 }
 
-#home-text-intro li{
-    margin-bottom: 20px;
-    font-weight: 300 !important;
-    line-height: 1.3em !important;
+
+
+.home .accordion-style1 li{
+    color: #222!important;
+        margin-bottom: 20px;
+    font-weight: 400 !important;
+    line-height: 1.4em !important;
     font-size: 22px!important;
-}
-
-.accordion-style1{
-
 }
 
 /* 
@@ -193,6 +196,7 @@ footer, footer a{
 .accordion-style1 .panel-heading i {
     font-size: 20px;
     color: #000000;
+    font-weight: 600!important;
 }
 .accordion-style1 a{
     text-decoration: none!important;
@@ -204,9 +208,25 @@ footer, footer a{
     top: 11px!important;
 }
 
-.accordion-style1 h5{
+
+.accordion-style1 h4,
+.accordion-style1 h5,
+.accordion-style1 h6{
     margin: 0px!important;
+    color: #000;
+    font-weight: 400!important;
+    line-height: 1.25em!important;
+     font-family: var(--ibm-sans-headers-01)!important;
+
+     padding: 2px 0;
 }
+
+.accordion-style1.panel-group .panel-heading {
+    border: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.75);
+}
+
+
 
 
 #block-intro-slider {
@@ -409,5 +429,96 @@ video {
 .swiper-button-prev.swiper-button-black-highlight {
     border-radius: 0px;
 }
+.fullwidth-atlas-microsite-animation{
+    background-color: #858586;
+}
+
+.fullwidth-atlas-microsite-animation img{
+    max-width: 90%!important;
+}
+
+.fullwidth-atlas-microsite-animation .col-12{
+    text-align: center!important;
+}
+
+.dark-header nav{
+    border: 2px solid red;
+}
+
+header nav.navbar-default, 
+nav.navbar.bootsnav {
+    border-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
 
 
+
+.atlas #block-intro-slider img{
+   max-width: 95%;
+
+}
+
+.atlas #block-intro-slider{
+  
+    display: flex;
+    justify-content: center;
+    align-items: flex-start!important;
+    padding:  110px 0 0 0 !important;
+
+}
+
+/*-------------------Adding grid lines ------------------*/
+
+header .col{
+          border-right: 1px solid rgba(0, 0, 0, 0.5)!important;
+              height: 100% !important;
+  
+}
+
+header nav.navbar-default, nav.navbar.bootsnav {
+    border-bottom: 0;
+    background-color: #FFFFFF !important;
+        border: 1px solid rgba(0, 0, 0, 0.5)!important;
+}
+
+.bottom-row {
+    min-height: 80px;
+}
+
+.grid-columns .col{
+            border-right: 1px solid rgba(0, 0, 0, 0.5)!important;
+            height: 100%!important;
+            display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px!important;
+
+}
+.grid-columns .container-fluid{
+        width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.grid-columns .row{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5)!important;
+    padding: 0 40px!important;
+}
+
+.grid-columns .row-grid-top{
+    height: 100px;
+}
+
+.grid-columns .row-grid-bottom{
+    height: 80px;
+        flex-direction: row!important;
+}
+
+.grid-columns.col{
+    min-height: 100%!important;
+}
+.grid-columns .navbar-nav{
+    flex-direction: row;
+}

@@ -2,7 +2,7 @@
         
         <header>
             <!-- start navigation -->
-            <nav class="navbar navbar-default bootsnav navbar-fixed-top header-light background-transparent white-link navbar-expand-lg">
+            <nav class="navbar navbar-default bootsnav navbar-fixed-top header-light white-link navbar-expand-lg">
                 <div class="container nav-header-container">
                     <!-- start logo -->
                     <div class="col-auto pl-lg-0">
@@ -21,7 +21,6 @@
                         </button>
                         <div class="navbar-collapse collapse justify-content-end" id="navbar-collapse-toggle-1">
                             <ul id="accordion" class="nav navbar-nav no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
-                                <li><a href="<?= BASE_URL ?>_navigation-with-grid-lines.php" title="Home">Grid</a></li>
                                 <li><a href="<?= BASE_URL ?>index.php" title="Home">Home</a></li>
                                 <li><a href="<?= BASE_URL ?>projects/citybox/index.php" title="Atlas UI">CityBox UI</a></li>
                                 <li><a href="<?= BASE_URL ?>projects/admin/index.php" title="Admin">Admin</a></li>

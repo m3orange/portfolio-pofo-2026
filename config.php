@@ -13,7 +13,7 @@ if ($isLocal) {
     define('ROOT_PATH', __DIR__ . '/');
 } else {
     // Production server
-    define('BASE_URL', 'https://www.m3orange.com/dev-2026/');
+    define('BASE_URL', 'https://www.m3orange.com/dev/');
     define('ROOT_PATH', __DIR__ . '/');
 }
 
