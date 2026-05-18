@@ -10,8 +10,8 @@
     <!-- end header -->
 
     <!-- start parallax hero section -->
-    <section id="block-intro-slider" class="wow fadeIn" >
-        <img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-design-system-fullwidth-02.png"/>    
+    <section id="block-intro-slider">
+        <img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-hero-opener-darker.png"/>    
     </section>
 
     <!-- end parallax hero section -->
@@ -21,7 +21,7 @@
     <section class="intro-info">
         <div class="container">
             <div class="row grid-lines">
-                <div class="col col-12 text-left margin-40px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
+                <div class="col col-12 text-left ">
                     <div class="page-title font-weight-500">
                         <h3>Atlas Design System</h3>
                     </div>
@@ -43,27 +43,47 @@
         </section>
         <!-- end section divider -->
 
+                <div class="container">
 
-        <div class="container-fluid padding-five-lr md-padding-30px-lr">
-            <div class="row margin-40px-bottom">
-                <div class="col col-12 col-lg-3 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-intro-grid-01.png"></div>
-                    <!-- <div class="gallery-prject-description">Description</div> -->
-                </div>
-                <div class="col col-12 col-lg-3 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp"
-                    data-wow-delay="0.4s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-intro-grid-02.png"></div>
-                </div>
-                <div class="col col-12 col-lg-3 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp"
-                    data-wow-delay="0.6s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-intro-grid-03.png"></div>
-                </div>
-                <div class="col col-12 col-lg-3 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp"
-                    data-wow-delay="0.8s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-intro-grid-04.png"></div>
-                </div>
+            <div class="row mx-0">
+                    <div class="col-md-12 px-3 p-md-0">
+                        <div class="filter-content overflow-hidden">
+                            <ul class="portfolio-grid work-4col hover-option4 gutter-medium">
+                                <li class="grid-sizer"></li>
+
+
+                                <li class="grid-item web branding design wow fadeIn grid-item-double">
+                                    <div class="portfolio-img bg-extra-dark-gray">
+                                        <img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-intro-grid-01.png">
+                                    </div>
+                                </li>
+
+                                <li class="grid-item web branding design wow fadeIn" data-wow-delay="0.4s">
+                                    <div class="portfolio-img bg-extra-dark-gray">
+                                        <img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-intro-grid-02.png">
+                                    </div>
+                                </li>
+                                <li class="grid-item web branding design wow fadeIn" data-wow-delay="0.4s">
+                                    <div class="portfolio-img bg-extra-dark-gray">
+                                        <img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-intro-grid-03.png">
+                                    </div>
+                                </li>
+
+                                <li class="grid-item web branding design wow fadeIn" data-wow-delay="0.4s">
+                                    <div class="portfolio-img bg-extra-dark-gray">
+                                        <img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-intro-grid-04.png">
+                                    </div>
+                                </li>
+
+                                
+                            </ul>
+                        </div>
+                    </div>
             </div>
         </div>
+
+
+
     </section>
     <!--end - image grid - from single-project-page-01-->
 
@@ -73,18 +93,10 @@
 
         <!-- start section divider -->
         <section class="section-divider-dark">
-            <div class="container">
-                <div class="row btn-to-full-project">
-                    <div class="col col-12 col-lg-9 col-md-6 ">Design System</div>
-                    <div class="col col-12 col-lg-3 col-md-6">
-                        <a class="btn btn-large btn-transparent-black d-table d-lg-inline-block md-no-margin-left md-no-margin-right md-margin-20px-top" ref="#" style="text-decoration: none;">View this project in detail</a>
-                    </div>
-                </div>
-                
-
-            </div>
+            <div class="container">Core Elements & Patterns</div>
         </section>
-        <!-- end section divider -->
+        <!-- end section-->
+
 
 
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
@@ -147,8 +159,6 @@
 
 
         <div class="container">
-
-        <!-- <?php include_once("description-project-01.php"); ?> -->
 
             <div class="row mx-0">
                 <ul class="portfolio-grid work-3col hover-option2 gutter-large w-100">

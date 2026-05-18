@@ -36,7 +36,7 @@
 
 .navbar-nav>li>a {
     font-family: var(--archivo-headers-01);
-    color: #232323;
+    color: #232323!important;
     font-size: 16px !important;
     font-weight: 500 !important;
     margin: 0 20px;
@@ -238,7 +238,7 @@ footer, footer a{
 }
 
 .intro-info .page-title {
-    border: 1px solid purple;
+
 }
 
 .project-details-table{
@@ -364,7 +364,7 @@ video {
 }
 
 .admin .image-grid-discovery-fullwidth{
-    background-color: #CCCCCC !important;
+    background-color: #616161 !important;
     padding: 120px 40px;
 }
 
@@ -378,7 +378,7 @@ video {
 }
 
 .btn-to-full-project .btn{
-    width: 100%!important;
+    /* width: 100%!important; */
 
 }
 
@@ -453,23 +453,24 @@ nav.navbar.bootsnav {
 
 
 
-.atlas #block-intro-slider img{
+/* .atlas #block-intro-slider img{
    max-width: 95%;
 
-}
+} */
 
 .atlas #block-intro-slider{
   
     display: flex;
     justify-content: center;
-    align-items: flex-start!important;
-    padding:  110px 0 0 0 !important;
+align-items: center;
+    padding:  0 !important;
+    background-color: #071f69 !important;
 
 }
 
 /*-------------------Adding grid lines ------------------*/
 
-header .col{
+.grid-test header .col{
           border-right: 1px solid rgba(0, 0, 0, 0.5)!important;
               height: 100% !important;
   
@@ -478,7 +479,7 @@ header .col{
 header nav.navbar-default, nav.navbar.bootsnav {
     border-bottom: 0;
     background-color: #FFFFFF !important;
-        border: 1px solid rgba(0, 0, 0, 0.5)!important;
+        /* border: 1px solid rgba(0, 0, 0, 0.5)!important; */
 }
 
 .bottom-row {

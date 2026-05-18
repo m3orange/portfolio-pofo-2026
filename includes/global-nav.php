@@ -26,7 +26,8 @@
                                 <li><a href="<?= BASE_URL ?>projects/citybox/index.php" title="Atlas UI">CityBox UI</a></li>
                                 <li><a href="<?= BASE_URL ?>projects/admin/index.php" title="Admin">Admin</a></li>
                                 <li><a href="<?= BASE_URL ?>projects/atlas-design-system/index.php" title="Atlas Design System">Atlas Design System</a></li>
-
+                                <li><a href="<?= BASE_URL ?>projects/atlas-design-system/index.php" title="IDD">IDD</a></li>
+                                <li><a href="<?= BASE_URL ?>projects/atlas-design-system/index.php" title="Design<>Code">Design<>Code</a></li>
                             </ul>
                         </div>
                     </div>

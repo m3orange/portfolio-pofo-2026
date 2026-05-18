@@ -18,7 +18,7 @@
     <!-- end header -->
 
     <!-- start parallax hero section -->
-    <section id="block-intro-slider" class="wow fadeIn p-0 " >
+    <section id="block-intro-slider" class="wow p-0 " >
         <video autoplay loop muted playsinline class="hero-video-cb">
             <source src="<?= BASE_URL ?>projects/citybox/citybox-screens-in-laptop.mp4" type="video/mp4">  
         </video>
@@ -30,7 +30,7 @@
     <section class="intro-info">
         <div class="container">
             <div class="row grid-lines">
-                <div class="col col-12 text-left margin-40px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
+                <div class="col col-12 text-left">
                     <div class="page-title font-weight-500">
                         <h3>Atlas UI</h3>
                     </div>
@@ -81,9 +81,11 @@
         <section class="section-divider-dark">
             <div class="container">
                 <div class="row btn-to-full-project">
-                    <div class="col col-12 col-lg-9 col-md-6 ">Design System</div>
-                    <div class="col col-12 col-lg-3 col-md-6">
-                        <a class="btn btn-large btn-transparent-black d-table d-lg-inline-block md-no-margin-left md-no-margin-right md-margin-20px-top" ref="#" style="text-decoration: none;">View this project in detail</a>
+                    <div class="col col-12 col-lg-8 col-md-6 ">Design System</div>
+                    <div class="col col-12 col-lg-4 col-md-6" style="text-align: right;">
+                        <a class="btn btn-large btn-transparent-black d-table d-lg-inline-block md-no-margin-left md-no-margin-right md-margin-20px-top"  style="text-decoration: none;"
+                        href="<?= BASE_URL ?>projects/atlas-design-system/index.php" >
+                            View the design system in detail</a>
                     </div>
                 </div>
                 

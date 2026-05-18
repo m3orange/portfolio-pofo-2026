@@ -18,7 +18,7 @@
     <!-- end header -->
 
     <!-- start parallax hero section -->
-     <section id="block-intro-slider" class="wow fadeIn p-0 " >
+     <section id="block-intro-slider" class="p-0">
         <video autoplay loop muted playsinline class="hero-video-admin">
             <source src="<?= BASE_URL ?>projects/admin/admin-demo-loop.mp4" type="video/mp4">  
         </video>    
@@ -30,7 +30,7 @@
     <section class="intro-info">
         <div class="container">
             <div class="row grid-lines">
-                <div class="col col-12 text-left margin-40px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
+                <div class="col col-12 text-left">
                     <div class="page-title font-weight-500">
                         <h3>Admin Module</h3>
                     </div>
@@ -48,7 +48,7 @@
 
         <!-- start section divider -->
         <section class="section-divider-dark">
-            <div class="container">Discovery & Prototyping</div>
+            <div class="container">Discovery</div>
         </section>
         <!-- end section divider -->
 
@@ -76,20 +76,30 @@
                     <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/discovery-grid-06@0.5.png"></div>
                 </div>              
             </div>
+        </div>
+    </section>
+    <!--end - image grid - from single-project-page-01-->
+
+
+    <section>
+
+        <!-- start section divider -->
+        <section class="section-divider-dark">
+            <div class="container">Wireframes</div>
+        </section>
+        <!-- end section divider -->
+
+        <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row">
                 <div class="col col-12">
                     <div class="image-grid-discovery-fullwidth"><img src="<?= BASE_URL ?>projects/admin/admin-wireframes.png"></div>
                 </div>
             </div>
         </div>
-    </section>
-    <!--end - image grid - from single-project-page-01-->
-
+    </section>    
 
     <!--begin - image grid - from single-project-page-01-->
     <section>
-
-    
 
         <!-- start section divider -->
         <section class="section-divider-dark">
@@ -125,70 +135,12 @@
 
 
 
-
-    <!-- start fullwidth slider - from blog-standard-full-width-->
-    <section class="fullwidth-slider-01">
-        <!-- start section divider -->
-        <section class="section-divider-light">
-            <div class="container">Stakeholder Presentation</div>
-        </section>
-        <!-- end section divider -->
-        <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
-
-
-            <div class="row">
-
-
-                <div class="col-12 blog-post-content text-center text-md-center"
-                    style="padding-right: 0px; padding-left: 0px;">
-
-                    <div class="swiper-full-screen swiper-cb-fullwidth-screens swiper-container white-move"
-                        data-slider-options='{ 
-                    "loop": true, 
-                    "slidesPerView": "1", 
-                    "allowTouchMove":true, 
-                    "autoplay": false, 
-                    "keyboard": { "enabled": true, "onlyInViewport": true }, 
-                    "navigation": { "nextEl": ".swiper-button-next", 
-                    "prevEl": ".swiper-button-prev" }, 
-                    "pagination": { "el": ".swiper-pagination", "clickable": true } }'>
-
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/admin/admin-presentation-01.png"></div>
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/admin/admin-presentation-02.png"></div>
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/admin/admin-presentation-03.png"></div>
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/admin/admin-presentation-04.png"></div>
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/admin/admin-presentation-05.png"></div>
-                        </div>
-                        <div
-                            class="swiper-pagination swiper-pagination-square swiper-pagination-white swiper-full-screen-pagination">
-                        </div>
-                        <div class="swiper-button-prev swiper-button-black-highlight"></div>
-                        <div class="swiper-button-next swiper-button-black-highlight"></div>
-
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-
-    <!-- end fullwidth slider - from blog-standard-full-width-->
-
-
-
     <section class="wow fadeIn">
         <!-- start section divider -->
         <section class="section-divider-dark">
             <div class="container">
                 <div class="row">
-                    <div class="col col-12 col-lg-8 col-md-6">Specs for Handoff</div>
+                    <div class="col col-12 col-lg-8 col-md-6">Final Designs</div>
                     <div class="col col-12 col-lg-4 col-md-6 sm-margin-20px-top" style="text-align: left; font-size: 80%;">
                         Click to view larger versions
                 </div>
@@ -299,6 +251,58 @@
     </section>
     <!-- end gallery section -->
 
+
+        <section class="fullwidth-slider-01">
+        <!-- start section divider -->
+        <section class="section-divider-light">
+            <div class="container">Stakeholder Presentation [Partial]</div>
+        </section>
+        <!-- end section divider -->
+        <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+
+
+            <div class="row">
+
+
+                <div class="col-12 blog-post-content text-center text-md-center"
+                    style="padding-right: 0px; padding-left: 0px;">
+
+                    <div class="swiper-full-screen swiper-cb-fullwidth-screens swiper-container white-move"
+                        data-slider-options='{ 
+                    "loop": true, 
+                    "slidesPerView": "1", 
+                    "allowTouchMove":true, 
+                    "autoplay": false, 
+                    "keyboard": { "enabled": true, "onlyInViewport": true }, 
+                    "navigation": { "nextEl": ".swiper-button-next", 
+                    "prevEl": ".swiper-button-prev" }, 
+                    "pagination": { "el": ".swiper-pagination", "clickable": true } }'>
+
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide "><img class="cb-screens"
+                                    src="<?= BASE_URL ?>projects/admin/admin-presentation-01.png"></div>
+                            <div class="swiper-slide "><img class="cb-screens"
+                                    src="<?= BASE_URL ?>projects/admin/admin-presentation-02.png"></div>
+                            <div class="swiper-slide "><img class="cb-screens"
+                                    src="<?= BASE_URL ?>projects/admin/admin-presentation-03.png"></div>
+                            <div class="swiper-slide "><img class="cb-screens"
+                                    src="<?= BASE_URL ?>projects/admin/admin-presentation-04.png"></div>
+                            <div class="swiper-slide "><img class="cb-screens"
+                                    src="<?= BASE_URL ?>projects/admin/admin-presentation-05.png"></div>
+                        </div>
+                        <div
+                            class="swiper-pagination swiper-pagination-square swiper-pagination-white swiper-full-screen-pagination">
+                        </div>
+                        <div class="swiper-button-prev swiper-button-black-highlight"></div>
+                        <div class="swiper-button-next swiper-button-black-highlight"></div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
 
 
 
