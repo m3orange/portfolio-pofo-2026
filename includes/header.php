@@ -13,7 +13,7 @@
     <meta name="description" content=" ">
     <meta name="keywords" content="">
 
-    <link rel="shortcut icon" href="<?= BASE_URL ?><?= BASE_URL ?>images/favicon.png">
+    <link rel="shortcut icon" href="<?= BASE_URL ?>images/favicon.png">
     <link rel="apple-touch-icon" href="<?= BASE_URL ?>images/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="72x72" href="<?= BASE_URL ?>images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="<?= BASE_URL ?>images/apple-touch-icon-114x114.png">

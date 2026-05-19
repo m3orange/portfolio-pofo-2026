@@ -280,7 +280,7 @@
             </div>
         </div>
     </section>
-    <!-- end gallery section -->
+
 
 
 

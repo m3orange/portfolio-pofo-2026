@@ -17,7 +17,7 @@
      <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
     <!-- end header -->
 
-    <!-- start parallax hero section -->
+    <!-- start parallax hero section -->`
      <section id="block-intro-slider" class="p-0">
         <video autoplay loop muted playsinline class="hero-video-admin">
             <source src="<?= BASE_URL ?>projects/admin/admin-demo-loop.mp4" type="video/mp4">  

@@ -459,13 +459,21 @@ nav.navbar.bootsnav {
 } */
 
 .atlas #block-intro-slider{
-  
-    display: flex;
-    justify-content: center;
-align-items: center;
-    padding:  0 !important;
-    background-color: #071f69 !important;
 
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding:  0 !important;
+    background: #071f69 url('projects/atlas-design-system/atlas-topo-bg-alpha.png') left no-repeat!important;
+    background-size: 70%!important;
+}
+
+.atlas #block-intro-slider img{
+    max-height: 97%;
+}
+
+.atlas .image-grid-discovery img{
+    min-width: 100%!important;
 }
 
 /*-------------------Adding grid lines ------------------*/
@@ -522,4 +530,55 @@ header nav.navbar-default, nav.navbar.bootsnav {
 }
 .grid-columns .navbar-nav{
     flex-direction: row;
+}
+
+
+
+.musicasa #block-intro-slider{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 100px 0 0 0 !important;
+    flex-direction: column;
+      padding: 130px 0 0 0 !important;
+      background-color: #484848!important;
+    /* background: #484848 url('projects/musicasa/musicasa-fullwidth-02.png') center top no-repeat!important;
+    background-size: 70%!important; */
+
+
+  
+}
+
+
+.musicasa #block-intro-slider img{
+    max-width: 90%;
+}
+
+
+.musicasa .portfolio-img{
+        background-color: #c4c4c4 !important;
+}
+
+.musicasa .fullwidth-musicasa-area img {
+    max-width: 95% !important;
+
+}
+.musicasa .fullwidth-musicasa-area {
+    background-color: rgb(133, 133, 134);
+
+}
+
+
+
+
+.musicasa video{
+    min-height: 100%;
+    border: 1px solid red;
+}
+
+
+.musicasa .workflows-area-02 .workflows-fullwidth-container{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 100px 50px;
 }

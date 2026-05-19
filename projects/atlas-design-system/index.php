@@ -6,12 +6,12 @@
 <body class="atlas">
 
     <!-- start header -->
-     <?php include ROOT_PATH . 'includes/global-nav-dark.php'; ?>
+     <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
     <!-- end header -->
 
     <!-- start parallax hero section -->
     <section id="block-intro-slider">
-        <img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-hero-opener-darker.png"/>    
+        <img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-hero-opener-alpha.png"/>    
     </section>
 
     <!-- end parallax hero section -->
@@ -245,6 +245,32 @@
     </section>
     <!-- end gallery section -->
 
+
+    <script>
+        const scrollElement = (element, scrollPosition, duration) => {
+  
+  // useful while testing to re-run it a bunch.
+  // element.removeAttribute("style"); 
+  
+  const style = element.style;
+  style.transition = duration + 's';
+  style.transitionTimingFunction = 'ease-in-out';
+  style.transform = 'translate3d(0, ' + -scrollPosition + 'px, 0)';
+}
+
+scrollElement(
+  document.body, 
+  (
+    document.body.getBoundingClientRect().height
+    -
+    document.documentElement.clientHeight
+    +
+    25
+  ),
+  5
+);
+
+    </script>
 
 
 
