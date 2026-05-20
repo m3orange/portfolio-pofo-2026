@@ -33,16 +33,57 @@
     background-color: #ffe318;
 }
 
+header nav.navbar-default, 
+nav.navbar.bootsnav {
+    border-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/*---------- First I used with white bar 
+header nav.navbar-default, nav.navbar.bootsnav {
+    border-bottom: 0;
+    background-color: #FFFFFF !important;
+}
+    ----*/
+
+
+
+header nav.navbar-default, nav.navbar.bootsnav {
+    border-bottom: 0;
+    background-color: transparent!important;
+}
+
+
+
+        header.header-appear nav.header-light, header.sticky nav.navbar-fixed-top.header-light, header.sticky nav.navbar-scroll-fixed-top.header-light {
+            background-color: #ffffff!important;
+            box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.6);
+            color: #111111;
+        }
+
+
+/* header nav.navbar .navbar-nav > li > a, nav.navbar.bootsnav ul.nav > li > a {
+color: #FFFFFF!important;
+cursor: pointer;
+} */
 
 .navbar-nav>li>a {
     font-family: var(--archivo-headers-01);
-    color: #232323!important;
+    /* color: #111111!important; */
     font-size: 16px !important;
-    font-weight: 500 !important;
+    font-weight: 400 !important;
     margin: 0 20px;
     padding: 5px 0px 5px;
     text-transform: unset !important;
     letter-spacing: 0.015em;
+}
+
+
+.navbar-nav>li>a,
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:active{
+    text-decoration: none;
+
 }
 
 .hamburger-menu {
@@ -98,14 +139,16 @@ footer, footer a{
     background-color: #858586 !important;
 }
 
+.idd .section-divider-light{
+    background-color: unse!important;
+}
+
 
 .section-divider-light h6,
 .section-divider-dark h6 {
     font-family: var(--alt-text);
     letter-spacing: -0.03em !important;
     font-weight: 400 !important;
-
-
 
 }
 
@@ -344,6 +387,10 @@ video {
     padding: 130px 0 0 0 !important  ;
 }
 
+.idd .image-grid-discovery{
+    padding: 130px 0!important  ;
+}
+
 .image-grid-discovery .gallery-item {
     background-color: #EDEDED !important;
 }
@@ -445,12 +492,6 @@ video {
     border: 2px solid red;
 }
 
-header nav.navbar-default, 
-nav.navbar.bootsnav {
-    border-bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
 
 
 /* .atlas #block-intro-slider img{
@@ -484,11 +525,8 @@ nav.navbar.bootsnav {
   
 }
 
-header nav.navbar-default, nav.navbar.bootsnav {
-    border-bottom: 0;
-    background-color: #FFFFFF !important;
-        /* border: 1px solid rgba(0, 0, 0, 0.5)!important; */
-}
+
+
 
 .bottom-row {
     min-height: 80px;
@@ -642,4 +680,24 @@ header nav.navbar-default, nav.navbar.bootsnav {
 
 .admin-journey-fullwidth{
     background-color: #3e3078;
+}
+
+.idd .fullwidth-idd-demo{
+    background-color: #444!important;
+     padding: 80px 0 130px 0!important;
+}
+
+
+.fullwidth-idd-demo .video-area{
+       display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0!important;
+}
+
+
+.fullwidth-idd-demo video{
+    width: 85%!important;
+    max-width: 1000px!important;
 }

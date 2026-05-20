@@ -7,7 +7,7 @@
 <body class="home">
 
     <!-- start header -->
-    <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
+    <?php include ROOT_PATH . 'includes/global-nav-2.php'; ?>
     <!-- end header -->
 
     <!-- start parallax hero section - from home-classic-innovation-agency-->
