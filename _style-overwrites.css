@@ -307,7 +307,7 @@ video {
 .citybox #block-01 .grid-lines .col {
     /* border: 1px solid #cacaca!important; */
 }
-    .citybox .gallery-prject-description{
+    .citybox .gallery-pr0ject-description{
         padding: 12px 40px 12px 2px;
         font-size: 16px;
         font-family: var(--ibm-mono-01);
@@ -365,7 +365,7 @@ video {
 
 .admin .image-grid-discovery-fullwidth{
     background-color: #616161 !important;
-    padding: 120px 40px;
+    padding: 120px 80px;
 }
 
 .btn-to-full-project.row,
@@ -550,15 +550,59 @@ header nav.navbar-default, nav.navbar.bootsnav {
   
 }
 
+.musicasa .image-grid-discovery{
+    padding: 130px 0!important;
+}
+
 
 .musicasa #block-intro-slider img{
     max-width: 90%;
 }
 
 
-.musicasa .portfolio-img{
-        background-color: #c4c4c4 !important;
+.fullwidth-musicasa-demo .section-divider-light{
+    background-color: unset !important;
 }
+
+
+.musicasa .fullwidth-musicasa-demo{
+    background-color: #444!important;
+     padding: 80px 0 130px 0!important;
+}
+
+.musicasa .video-area{
+       display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0!important;
+}
+
+.musicasa .fullwidth-musicasa-demo video{
+        width: 85% !important;
+    max-width: 1000px;
+}
+
+.musicasa .portfolio-img{
+        /* background-color: #c4c4c4 !important; */
+        background-color: #fab336 !important;
+        overflow: hidden!important;
+}
+
+
+
+.portfolio-img .card-description{
+    background-color: #00000080;
+    padding: 40px;
+    color: white;
+    position: absolute;
+    right: 7px;
+    margin-left: 7px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
 
 .musicasa .fullwidth-musicasa-area img {
     max-width: 95% !important;
@@ -571,14 +615,31 @@ header nav.navbar-default, nav.navbar.bootsnav {
 
 
 
-
-.musicasa video{
-    min-height: 100%;
-    border: 1px solid red;
+.musicasa .workflows-fullwidth{
+    background-color: #fcba2e !important;
+    padding: 100px 50px;
 }
 
 
-.musicasa .workflows-area-02 .workflows-fullwidth-container{
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 100px 50px;
+
+/* .musicasa #video-demo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+}
+
+.musicasa #video-demo video{
+    width: 85%!important;
+    max-width: 1000px!important;
+}
+
+.musicasa .tab-pane{
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.15);
+} */
+
+.admin-journey-fullwidth{
+    background-color: #3e3078;
 }

@@ -32,7 +32,7 @@
             <div class="row grid-lines">
                 <div class="col col-12 text-left">
                     <div class="page-title font-weight-500">
-                        <h3>Admin Module</h3>
+                        <h3>IDD</h3>
                     </div>
                 </div>
                <?php include ROOT_PATH . 'projects/admin/description-intro.php'; ?>
@@ -56,25 +56,16 @@
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row margin-40px-bottom">
                 <div class="col col-12 col-lg-4 col-md-6 col-sm-6 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.2s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/discovery-grid-01@0.5.png"></div>
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/idd/idd-journey-01.png"></div>
                     <!-- <div class="gallery-prject-description">Description</div> -->
-                </div>
-                <div class="col col-12 col-lg-4 col-md-6 col-sm-6 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.4s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/discovery-grid-02@0.5.png"></div>
-                </div>
-                <div class="col col-12 col-lg-4 col-md-6 col-sm-6 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.6s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/discovery-grid-03@0.5.png"></div>
                 </div>
 
                 <div class="col col-12 col-lg-4 col-md-6 col-sm-6 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.2s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/discovery-grid-04@0.5.png"></div>
-                </div>
-                <div class="col col-12 col-lg-4 col-md-6 col-sm-6 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.2s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/discovery-grid-05@0.5.png"></div>
-                </div>
-                <div class="col col-12 col-lg-4 col-md-6 col-sm-6 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.2s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/discovery-grid-06@0.5.png"></div>
-                </div>               
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/idd/idd-journey-02.png"></div>
+                </div>    
+                                <div class="col col-12 col-lg-4 col-md-6 col-sm-6 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.2s">
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/idd/idd-journey-02.png"></div>
+                </div>            
             </div>
         </div>
     </section>
@@ -83,8 +74,13 @@
 
     <section>
 
+        <!-- start section divider -->
+        <section class="section-divider-dark">
+            <div class="container">Wireframes</div>
+        </section>
+        <!-- end section divider -->
 
-        <div class="container-fluid padding-four-lr md-padding-30px-lr">
+        <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row">
                 <div class="col col-12">
                     <div class="image-grid-discovery-fullwidth"><img src="<?= BASE_URL ?>projects/admin/admin-wireframes.png"></div>
@@ -94,10 +90,24 @@
     </section>    
 
     <!--begin - image grid - from single-project-page-01-->
-    <section class="admin-journey-fullwidth">
+    <section>
+
+        <!-- start section divider -->
+        <section class="section-divider-dark">
+            <div class="container">
+                <div class="row">
+                    User Journey
+                </div>
+                
+
+            </div>
+        </section>
+        <!-- end section divider -->
+
+
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row">
-                <div class="col col-12" data-wow-delay="0.4s">
+                <div class="col col-12 wow fadeIn" data-wow-delay="0.4s">
                     <!-- 
                     <div class="link-to-project-page">
                         <a href="/projects/citybox">View the Atlas Design System in detail </a>
