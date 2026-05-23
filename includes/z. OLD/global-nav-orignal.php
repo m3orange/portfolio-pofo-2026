@@ -1,5 +1,5 @@
-
-        <!-- start header -->
+<!-- This is header from GH commit 7c4d86b -->
+        
         <header>
             <!-- start navigation -->
             <nav class="navbar navbar-default bootsnav navbar-fixed-top header-light background-transparent white-link navbar-expand-lg">
@@ -27,7 +27,6 @@
                                 <li><a href="<?= BASE_URL ?>projects/atlas-design-system/index.php" title="Atlas Design System">Atlas Design System</a></li>
                                 <li><a href="<?= BASE_URL ?>projects/musicasa/index.php" title="Musicasa">Musicasa</a></li>
                                 <li><a href="<?= BASE_URL ?>projects/idd/index.php" title="IDD">IDD</a></li>
-                                <li><a href="<?= BASE_URL ?>projects/map-tools/index.php" title="Map Tools">Map Tools</a></li>
                                 <li><a href="<?= BASE_URL ?>projects/atlas-design-system/index.php" title="Design<>Code">Design<>Code</a></li>
                             </ul>
                         </div>
@@ -77,4 +76,3 @@
             </div>
             <!-- end navigation -->  
         </header>
-        <!-- end header -->

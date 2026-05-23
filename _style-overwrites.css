@@ -29,9 +29,7 @@
     border-left: 1px solid #999;
 }
 
-.text-highlight-01{
-    background-color: #ffe318;
-}
+
 
 header nav.navbar-default, 
 nav.navbar.bootsnav {
@@ -51,14 +49,17 @@ header nav.navbar-default, nav.navbar.bootsnav {
 header nav.navbar-default, nav.navbar.bootsnav {
     border-bottom: 0;
     background-color: transparent!important;
+                border-bottom: 1px solid rgba(255,255,255,0.25);
 }
 
 
 
         header.header-appear nav.header-light, header.sticky nav.navbar-fixed-top.header-light, header.sticky nav.navbar-scroll-fixed-top.header-light {
             background-color: #ffffff!important;
-            box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.6);
+            /* box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.6); */
+            box-shadow: none;
             color: #111111;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.5);
         }
 
 
@@ -172,10 +173,40 @@ footer, footer a{
         justify-content: space-between;
 }
 
+/*--------------- Home ------------------*/
 
-/*---------------Projects ------------------*/
+#home-hero-opener h1,
+#home-hero-opener h3{
+    line-height: 1.2em;
+    font-family: var(--ibm-sans-headers-01)!important;
+    font-weight: 500;
+    color: #FFFFFF;
+
+}
+
+#home-hero-opener h1{
+    line-height: 1em;
+}
+
+.stats-squares{
+    border: 1px solid #FFFFFF;
+    padding: 80px;
+}
+
+.text-highlight-01{
+    background-color: #ffe318;
+}
+/* No puedo hacer highlghts. Conflicto with panel toggle. */
 
 
+
+
+
+#home-text-intro .row{
+    display: flex!important;
+        flex-direction: row!important;
+
+}
 
 .home .home-hero-area h3{
     font-family: var(--ibm-sans-headers-01)!important;
@@ -269,7 +300,23 @@ footer, footer a{
     border-bottom: 1px solid rgba(0, 0, 0, 0.75);
 }
 
+.panel-heading{
+    display: flex!important;
+    flex-direction: row!important;
+        justify-content: space-between;
 
+}
+
+.panel-heading .toggle-area{
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.panel-title{
+    width: 100%;
+}
 
 
 #block-intro-slider {
@@ -280,9 +327,9 @@ footer, footer a{
 
 }
 
-.intro-info .page-title {
+/*---------------Projects ------------------*/
 
-}
+
 
 .project-details-table{
     font-size: 16px !important;
@@ -314,19 +361,14 @@ video {
     
 }
 
-    .admin #block-intro-slider video{
-    max-height: 85%!important;
-    max-width: 95%;
-
-    }
-    .admin #block-intro-slider{
-    height: 70vh;
+.admin #block-intro-slider,
+.idd #block-intro-slider{
+    background-color: #111111!important;
+        height: 70vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #535353 !important;
-    }
-
+        align-items: flex-start;
+}
         @media (max-width: 991px) {
             .citybox #block-intro-slider,
             .admin #block-intro-slider{
@@ -334,13 +376,17 @@ video {
             }
         }
 
-#block-intro-slider video {
-    height: 100% !important;
-    max-height: 1000px !important;
+
+    .admin #block-intro-slider video,
+    .idd #block-intro-slider video{
+    /* height: 100% !important; */
+    max-width: 1200px !important;
     /* border: 3px solid red; */
-}
+
+    }
 
 
+    
 
 
 .citybox #block-01 {
@@ -509,9 +555,6 @@ video {
     background-size: 70%!important;
 }
 
-.atlas #block-intro-slider img{
-    max-height: 97%;
-}
 
 .atlas .image-grid-discovery img{
     min-width: 100%!important;
@@ -700,4 +743,23 @@ video {
 .fullwidth-idd-demo video{
     width: 85%!important;
     max-width: 1000px!important;
+}
+
+
+.map-tools .diagrams{
+    background-color: #111111;
+}
+
+.map-tools .diagrams .row{
+    margin-bottom: 60px;
+
+}
+
+.fullwidth-map-tools-animation{
+    background-color: #444444;
+
+}
+
+.fullwidth-map-tools-animation video{
+    max-height: 900px;
 }
