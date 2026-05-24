@@ -1,7 +1,4 @@
-<!-- Replit's fixed code from 260524_0947 -->
-
-
-<!-- start footer --> 
+        <!-- start footer --> 
         <footer class="footer-modern-dark bg-extra-dark-gray padding-five-tb sm-padding-30px-tb">
             <div class="footer-widget-area padding-40px-bottom sm-padding-30px-bottom">
                 <div class="container">

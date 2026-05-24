@@ -21,7 +21,7 @@
                         </button>
                         <div class="navbar-collapse collapse justify-content-end" id="navbar-collapse-toggle-1">
                             <ul id="accordion" class="nav navbar-nav no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
-                                <li><a href="<?= BASE_URL ?>index-magnific-popup.php" title="Home">Lightboxes</a></li>
+                                <li><a href="<?= BASE_URL ?>index-with-replit.php" title="Home">Lightboxes</a></li>
                                 <li><a href="<?= BASE_URL ?>index.php" title="Home">Home</a></li>
                                 <li><a href="<?= BASE_URL ?>projects/citybox/index.php" title="Atlas UI">CityBox UI</a></li>
                                 <li><a href="<?= BASE_URL ?>projects/admin/index.php" title="Admin">Admin</a></li>

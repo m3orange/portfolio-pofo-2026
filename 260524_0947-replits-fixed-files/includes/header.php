@@ -1,6 +1,4 @@
-<!-- Replit's fixed code from 260524_0947 -->
- 
-
+    
 <!doctype html>
 <html class="no-js" lang="en">
 <head>

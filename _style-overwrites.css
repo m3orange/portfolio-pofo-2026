@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+
+a{
+    cursor: pointer!important;
+}
+
 .col-border.col{
     border: 1px solid pink;
 }
@@ -325,6 +330,30 @@ footer, footer a{
     justify-content: center;
     align-items: flex-start;
 
+}
+
+.magnific-home-gallery li a{
+ /* display: block;
+    border: 1px solid blue;
+    background-color: var(--primary-color) !important; */
+    
+}
+
+.magnific-home-gallery li img{
+    width: cover;
+    overflow: hidden;
+}
+
+.magnific-home-gallery li img:hover {
+    /* border: 3px solid red; */
+    opacity: 0.15;
+        -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+filter: grayscale(100%);
+    
+ 
 }
 
 /*---------------Projects ------------------*/

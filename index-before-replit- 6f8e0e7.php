@@ -1,7 +1,5 @@
 <?php include_once("config.php"); ?>
 
-<!-- Replit's fixed code from 260524_0947 -->
-
 
 <?php include ROOT_PATH . 'includes/header.php'; ?>
 
@@ -25,7 +23,36 @@
 
                 </div>
             </div>
+            <!-- <div class="container position-relative full-screen" style="height: 1029px;">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 text-left">
+                        <span class="text-large text-very-light-gray font-weight-300 w-95 mx-auto margin-25px-bottom d-block sm-w-85">we combine design, thinking and technical craft</span>
+                        <h1 class="alt-font text-white-2 font-weight-700 w-75 sm-w-100 mx-auto margin-35px-bottom">Restaurant Photography</h1>
+
+                    </div>
+                </div>
+            </div> -->
         </section>
+
+
+    <!-- start parallax hero section - from home-classic-innovation-agency
+    <section class="wow fadeIn p-0 parallax sm-background-image-center home-hero-area" data-stellar-background-ratio="0.5" style="background-image: url('http://placehold.it/1920x1100')">
+        <div class="opacity-extra-medium bg-black"></div>
+        <div class="container-fluid position-relative full-screen">
+            <div class="slider-typography">
+                <div class="slider-text-middle-main">
+                    <div class="slider-text-bottom">
+                        <div class="col-12 col-xl-6 col-lg-7 float-right bg-orange-opacity padding-five-lr lg-padding-four-lr padding-four-tb sm-padding-30px-all last-paragraph-no-margin">
+                            <div class="box-separator-line width-180px bg-white lg-width-120px md-width-90px d-none d-lg-block"></div>
+                            <h3 class="font-weight-500 text-white-2 width-95 md-width-100 header-font">I'm a senior UX/UI [Product] Designer with a passion for human-centered design and problem solving. I have masters in both architecture and graphic design, and over 12 years of experience in interactive.</h3 >
+
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    end parallax hero section - from home-classic-innovation-agency-->
 
 
 
@@ -140,17 +167,19 @@
     </section>
     <!-- end accordions style 01 section -->
 
+
     <!-- start portfolio section --- portfolio-full-width-masonry-overlay ----->
     <section class="wow fadeIn padding-90px-top md-padding-50px-top sm-padding-30px-top">
+
         <!-- start filter content -->
-        <div class="container-fluid padding-five-lr md-padding-30px-lr">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-12 text-center margin-100px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
                     <h4 class="font-weight-400 text-extra-dark-gray margin-15px-bottom">Featured Projects</h4>
                 </div>
                 <div class="col-12 px-3 p-md-0">
                     <div class="filter-content overflow-hidden">
-                        <ul class="portfolio-grid work-2col hover-option2 gutter-medium">
+                        <ul class="portfolio-grid work-3col hover-option2 gutter-medium">
                             <li class="grid-sizer"></li>
                             <!-- start portfolio-item item -->
                             <li class="grid-item wow fadeInUp last-paragraph-no-margin">
@@ -282,124 +311,9 @@
     <!-- end portfolio section --- portfolio-full-width-masonry-overlay ----->
 
 
-
-    <section class="wow fadeIn padding-90px-top md-padding-50px-top sm-padding-30px-top magnific-home-gallery">
-
-        <!-- start filter content -->
-        <div class="container-fluid padding-five-lr md-padding-30px-lr">
-            <div class="row">
-                <div class="col-12 text-center margin-100px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
-                    <h4 class="font-weight-400 text-extra-dark-gray margin-15px-bottom">Archived Projects</h4>
-                </div>
-                <div class="col-12 px-3 p-md-0">
-                    <div class="filter-content overflow-hidden">
-                        <ul class="portfolio-grid work-3col hover-option2 gutter-medium">
-                            <li class="grid-sizer"></li>
-
-                            <li class="grid-item wow fadeInUp last-paragraph-no-margin">
-                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="c4pr">
-                                    <img src="<?= BASE_URL ?>projects-archived/c4pr/thumb.jpg"/>
-                                </a>
-                            </li>
-
-                            <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
-                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="virtualq">
-                                    <img src="<?= BASE_URL ?>projects-archived/virtualq/thumb.png"/>
-                                </a>
-                            </li>
-
-                            <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
-                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="akcsos">
-                                    <img src="<?= BASE_URL ?>projects-archived/akc-sos/thumb.jpg"/>
-                                </a>
-                            </li>
-
-                            <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
-                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="v2abrochure">
-                                    <img src="<?= BASE_URL ?>projects-archived/v2a-brochure/thumb.jpg"/>
-                                </a>
-                            </li>
-
-
-                            <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
-                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="pmmexh">
-                                    <img src="<?= BASE_URL ?>projects-archived/pmmexh/thumb.jpg"/>
-                                </a>
-                            </li>
-
-
-
-
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end filter content -->
-    </section>
-
-
-
     <!-- start footer -->
     <?php include_once("includes/global-footer.php"); ?>
 
-    <!-- Project galleries — runs after jQuery and Magnific Popup are loaded by the footer -->
-    <script type="text/javascript">
-    (function($) {
-        var collections = {
-            c4pr: [
-                { src: '<?= BASE_URL ?>projects-archived/c4pr/01.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/c4pr/02.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/c4pr/03.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/c4pr/04.jpg', }
-            ],
-            virtualq: [
-                { src: '<?= BASE_URL ?>projects-archived/virtualq/01.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/virtualq/02.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/virtualq/03.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/virtualq/04.jpg', }
-            ],
-            akcsos: [
-                { src: '<?= BASE_URL ?>projects-archived/akc-sos/01.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/akc-sos/02.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/akc-sos/03.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/akc-sos/04.jpg', }
-            ],
-            v2abrochure: [
-                { src: '<?= BASE_URL ?>projects-archived/v2a-brochure/01.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/v2a-brochure/02.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/v2a-brochure/03.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/v2a-brochure/04.jpg', }
-            ],
-            pmmexh: [
-                { src: '<?= BASE_URL ?>projects-archived/pmmexh/01.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/pmmexh/02.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/pmmexh/03.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/pmmexh/04.jpg', }
-            ],
-        };
-
-        $(document).ready(function() {
-            $('.project-gallery-trigger').on('click', function() {
-                var key = $(this).data('collection');
-                var items = $.map(collections[key], function(img) {
-                    return { src: img.src, title: img.title, type: 'image' };
-                });
-                $.magnificPopup.open({
-                    items: items,
-                    type: 'image',
-                    gallery: { enabled: true },
-                    image: {
-                        titleSrc: function(item) {
-                            return item.data.title;
-                        }
-                    }
-                });
-            });
-        });
-    })(jQuery);
-    </script>
 
 </body>
 
