@@ -121,7 +121,7 @@
                                 <div class="panel-heading">
                                     <a data-toggle="collapse" href="#design3" class="collapsed" aria-expanded="false">
                                         <div class="panel-title">
-                                            <h5>I thrive at the intersection of design and engineering, and I'm always wearing a full-stack designer hat.</h5>
+                                            <h5>I thrive at the intersection of design and engineering. I'm always wearing a full-stack designer hat.</h5>
                                             <span class="float-right"><i class="ti-angle-down"></i></span>
                                         </div>
                                     </a>
@@ -136,7 +136,7 @@
                                             <li>
                                                 I’m a fierce advocate of delivering all design information –from layouts, to specs and PRDs– as close as possible to code and the frameworks being used, to reach fidelity faster and to reduce unnecessary feedback loops that cause delays and friction.
                                             </li>
-                                            <li>
+                                            <li style="font-size: 80%!important;">
                                                 p.s. I believe in handshakes, not handoffs. Design and engineering's collaboration should start at the beginning of the project, not when Jira tickets are created. It should be a constant, symbiotic relationship, where standups and critical touchpoints can ensure that challenges are tackled early on.
                                             </li>
                                         </ul>
@@ -158,6 +158,9 @@
                             <li>1998, M.S. Visual Comm. / Pratt Institute, NYC</li>
                             <li>2000, MFA Design / School of Visual Arts (SVA), NYC</li>
                         </ul>
+
+                        <a class="btn btn-large btn-transparent-black lg-margin-15px-bottom d-table d-lg-inline-block md-margin-lr-auto w-100 margin-20px-tb" 
+                        href="#">View Resumé</a>
                     </div>
                 </div>
             </div>
@@ -306,7 +309,6 @@
             <!-- end filter content -->
         </section>
         <!-- end portfolio section --- portfolio-full-width-masonry-overlay ----->
-
 
 
     <!-- start footer -->

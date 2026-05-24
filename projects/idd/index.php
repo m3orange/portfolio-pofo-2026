@@ -3,13 +3,6 @@
 
 <?php include ROOT_PATH . 'includes/header.php'; ?>
 
-<!-- <include src="includes/linked-files.html"></include> -->
-
-<!-- <script>document.addEventListener("DOMContentLoaded", function () {
-            let e = document.getElementsByTagName("include"); for (var t = 0; t < e.length; t++) { let a = e[t]; n(e[t].attributes.src.value, function (e) { a.insertAdjacentHTML("afterend", e), a.remove() }) } function n(e, t) { fetch(e).then(e => e.text()).then(e => t(e)) }
-        });
-    </script> -->
-
 
 <body class="idd">
 
@@ -18,11 +11,13 @@
     <!-- end header -->
 
     <!-- start parallax hero section -->
-     <section id="block-intro-slider">
-        <video autoplay loop muted playsinline class="hero-video-admin">
-            <source src="<?= BASE_URL ?>projects/admin/admin-demo-loop.mp4" type="video/mp4">  
-        </video>    
+    <section class="fullwidth-idd-demo">
+        <video autoplay loop muted playsinline>
+            <source src="<?= BASE_URL ?>projects/idd/idd-demo-loop.mp4" type="video/mp4">  
+        </video>  
     </section>
+
+
     <!-- end parallax hero section -->
 
 
@@ -69,35 +64,19 @@
 
 
 
-        <!-- start section divider -->
-        <section class="section-divider-dark">
-            <div class="container">Discovery</div>
-        </section>
-        <!-- end section divider -->
-
-    <section class="fullwidth-idd-demo">
-        <div class="container">
+    <section class="all-screens-fullwidth">
+        <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row">
-                <div class="col col-12 video-area">
-                    <video autoplay loop muted playsinline>
-                        <source src="<?= BASE_URL ?>projects/idd/idd-demo-loop.mp4" type="video/mp4">  
-                    </video>
+                <div class="col col-12" data-wow-delay="0.4s">
+                    <div class="gallery-item">
+                        <img src="<?= BASE_URL ?>projects/idd/idd-all-screens.png"/>
+                    </div>
                 </div>
             </div>
+
         </div>
     </section>
 
-    <!-- <section class="fullwidth-idd-demo">
-        <div class="container">
-            <div class="row">
-                <div class="col col-12 video-area">
-                    <video autoplay loop muted playsinline>
-                        <source src="<?= BASE_URL ?>projects/idd/idd-demo-loop.mp4" type="video/mp4">  
-                    </video>
-                </div>
-            </div>
-        </div>
-    </section> -->
 
 
     

@@ -107,4 +107,7 @@
         <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>-->
     <!-- setting -->
 
+    <!-- jQuery 1.7.2+ or Zepto.js 1.0+ ---- Added for Magnific Popup--->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    
         <script type="text/javascript" src="<?= BASE_URL ?>js/main.js"></script>

@@ -179,7 +179,7 @@ footer, footer a{
 #home-hero-opener h3{
     line-height: 1.2em;
     font-family: var(--ibm-sans-headers-01)!important;
-    font-weight: 500;
+    font-weight: 400;
     color: #FFFFFF;
 
 }
@@ -320,7 +320,7 @@ footer, footer a{
 
 
 #block-intro-slider {
-    height: 70vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -364,7 +364,7 @@ video {
 .admin #block-intro-slider,
 .idd #block-intro-slider{
     background-color: #111111!important;
-        height: 70vh;
+        height: 80vh;
     display: flex;
     justify-content: center;
         align-items: flex-start;
@@ -731,7 +731,7 @@ video {
 }
 
 
-.fullwidth-idd-demo .video-area{
+.fullwidth-idd-demo {
        display: flex;
     flex-direction: row;
     justify-content: center;
@@ -741,8 +741,13 @@ video {
 
 
 .fullwidth-idd-demo video{
-    width: 85%!important;
+    width: 75%!important;
     max-width: 1000px!important;
+    border: 4px solid red;
+}
+
+.idd .all-screens-fullwidth{
+    background-color: #333333;
 }
 
 
