@@ -363,7 +363,7 @@
                 { src: '<?= BASE_URL ?>projects-archived/c4pr/03.jpg', },
                 { src: '<?= BASE_URL ?>projects-archived/c4pr/04.jpg', }
             ],          
-            c4pr: [
+            puracepa: [
                 { src: '<?= BASE_URL ?>projects-archived/puracepa/01.jpg', },
                 { src: '<?= BASE_URL ?>projects-archived/puracepa/02.jpg', },
                 { src: '<?= BASE_URL ?>projects-archived/puracepa/03.jpg', },
@@ -398,12 +398,12 @@
             ],
 
 
-            pmmexh: [
-                { src: '<?= BASE_URL ?>projects-archived/pmmexh/01.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/pmmexh/02.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/pmmexh/03.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/pmmexh/04.jpg', }
-            ],
+            // pmmexh: [
+            //     { src: '<?= BASE_URL ?>projects-archived/pmmexh/01.jpg', },
+            //     { src: '<?= BASE_URL ?>projects-archived/pmmexh/02.jpg', },
+            //     { src: '<?= BASE_URL ?>projects-archived/pmmexh/03.jpg', },
+            //     { src: '<?= BASE_URL ?>projects-archived/pmmexh/04.jpg', }
+            // ],
         };
 
         $(document).ready(function() {
