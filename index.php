@@ -302,11 +302,6 @@
                                 </a>
                             </li>
 
-                            <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
-                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="virtualq">
-                                    <img src="<?= BASE_URL ?>projects-archived/virtualq/thumb.png"/>
-                                </a>
-                            </li>
 
                             <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
                                 <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="akcsos">
@@ -327,7 +322,11 @@
                                 </a>
                             </li>
 
-
+                            <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
+                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="virtualq">
+                                    <img src="<?= BASE_URL ?>projects-archived/virtualq/thumb.png"/>
+                                </a>
+                            </li>
 
 
 
@@ -354,12 +353,6 @@
                 { src: '<?= BASE_URL ?>projects-archived/c4pr/03.jpg', },
                 { src: '<?= BASE_URL ?>projects-archived/c4pr/04.jpg', }
             ],
-            virtualq: [
-                { src: '<?= BASE_URL ?>projects-archived/virtualq/01.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/virtualq/02.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/virtualq/03.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/virtualq/04.jpg', }
-            ],
             akcsos: [
                 { src: '<?= BASE_URL ?>projects-archived/akc-sos/01.jpg', },
                 { src: '<?= BASE_URL ?>projects-archived/akc-sos/02.jpg', },
@@ -377,6 +370,12 @@
                 { src: '<?= BASE_URL ?>projects-archived/pmmexh/02.jpg', },
                 { src: '<?= BASE_URL ?>projects-archived/pmmexh/03.jpg', },
                 { src: '<?= BASE_URL ?>projects-archived/pmmexh/04.jpg', }
+            ],
+            virtualq: [
+                { src: '<?= BASE_URL ?>projects-archived/virtualq/01.jpg', },
+                { src: '<?= BASE_URL ?>projects-archived/virtualq/02.jpg', },
+                { src: '<?= BASE_URL ?>projects-archived/virtualq/03.jpg', },
+                { src: '<?= BASE_URL ?>projects-archived/virtualq/04.jpg', }
             ],
         };
 
