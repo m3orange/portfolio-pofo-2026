@@ -229,6 +229,14 @@ footer, footer a{
     line-height: 1.2em!important;
 }
 
+#home-projects-grid-01 h4,
+#home-projects-grid-02 h4{
+    font-family: var(--alt-text)!important;
+    font-weight: 500!important;
+    color: var(--primary-color) !important;
+
+}
+
 
 
 .home .accordion-style1 li{

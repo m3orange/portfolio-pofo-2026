@@ -141,19 +141,19 @@
     <!-- end accordions style 01 section -->
 
     <!-- start portfolio section --- portfolio-full-width-masonry-overlay ----->
-    <section class="wow fadeIn padding-90px-top md-padding-50px-top sm-padding-30px-top">
+    <section id="home-projects-grid-01" class="wow fadeIn padding-90px-top md-padding-50px-top sm-padding-30px-top">
         <!-- start filter content -->
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row">
                 <div class="col-12 text-center margin-100px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
-                    <h4 class="font-weight-400 text-extra-dark-gray margin-15px-bottom">Featured Projects</h4>
+                    <h4 class="font-weight-500 text-extra-dark-gray margin-15px-bottom">Featured Projects</h4>
                 </div>
                 <div class="col-12 px-3 p-md-0">
                     <div class="filter-content overflow-hidden">
                         <ul class="portfolio-grid work-2col hover-option2 gutter-medium">
                             <li class="grid-sizer"></li>
                             <!-- start portfolio-item item -->
-                            <li class="grid-item wow fadeInUp last-paragraph-no-margin">
+                            <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0s">
                                 <a href="<?= BASE_URL ?>projects/citybox/index.php">
                                     <figure>
                                         <div class="portfolio-img bg-deep-pink"><img src="<?= BASE_URL ?>projects/home-projects/home-citybox-ui.png" alt=""/></div>
@@ -213,7 +213,7 @@
                             </li>
                             <!-- end portfolio item -->
                             <!-- start portfolio-item item -->
-                            <li class="grid-item wow fadeInUp last-paragraph-no-margin">
+                            <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.6s">
                                 <a href="<?= BASE_URL ?>projects/musicasa/index.php">
                                     <figure>
                                         <div class="portfolio-img bg-deep-pink"><img src="<?= BASE_URL ?>projects/home-projects/home-musicasa.png" alt=""/></div>
@@ -233,7 +233,7 @@
                             </li>
                             <!-- end portfolio item -->
                             <!-- start portfolio item -->
-                            <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
+                            <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.8s">
                                 <a href="<?= BASE_URL ?>projects/idd/index.php">
                                     <figure>
                                         <div class="portfolio-img bg-deep-pink"><img src="<?= BASE_URL ?>projects/home-projects/home-idd.png" alt=""/></div>
@@ -253,7 +253,7 @@
                             </li>
                             <!-- end portfolio item -->
                             <!-- start portfolio item -->
-                            <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
+                            <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="1s">
                                 <a href="<?= BASE_URL ?>projects/map-tools/index.php">
                                     <figure>
                                         <div class="portfolio-img bg-deep-pink"><img src="<?= BASE_URL ?>projects/home-projects/home-map-tools.png" alt=""/></div>
@@ -283,53 +283,63 @@
 
 
 
-    <section class="wow fadeIn padding-90px-top md-padding-50px-top sm-padding-30px-top magnific-home-gallery">
+    <section id="home-projects-grid-02" class="wow fadeIn padding-90px-top md-padding-50px-top sm-padding-30px-top magnific-home-gallery">
 
         <!-- start filter content -->
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row">
                 <div class="col-12 text-center margin-100px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
-                    <h4 class="font-weight-400 text-extra-dark-gray margin-15px-bottom">Archived Projects</h4>
+                    <h4 class=" text-extra-dark-gray margin-15px-bottom alt-text font-weight-600">Archived Projects</h4>
                 </div>
                 <div class="col-12 px-3 p-md-0">
                     <div class="filter-content overflow-hidden">
                         <ul class="portfolio-grid work-3col hover-option2 gutter-medium">
                             <li class="grid-sizer"></li>
 
-                            <li class="grid-item wow fadeInUp last-paragraph-no-margin">
+                            <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0s">
                                 <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="c4pr">
                                     <img src="<?= BASE_URL ?>projects-archived/c4pr/thumb.jpg"/>
                                 </a>
                             </li>
 
-
-                            <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
-                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="akcsos">
-                                    <img src="<?= BASE_URL ?>projects-archived/akc-sos/thumb.jpg"/>
+                            <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0s">
+                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="puracepa">
+                                    <img src="<?= BASE_URL ?>projects-archived/puracepa/thumb.jpg"/>
                                 </a>
                             </li>
 
-                            <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
+
+                            <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0s">
                                 <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="v2abrochure">
                                     <img src="<?= BASE_URL ?>projects-archived/v2a-brochure/thumb.jpg"/>
                                 </a>
                             </li>
 
+                            <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0s">
+                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="koru">
+                                    <img src="<?= BASE_URL ?>projects-archived/koru/thumb.jpg"/>
+                                </a>
+                            </li>
 
-                            <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
+                            <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0s">
+                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="akcsos">
+                                    <img src="<?= BASE_URL ?>projects-archived/akc-sos/thumb.jpg"/>
+                                </a>
+                            </li>
+
+
+                            <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0s">
+                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="mecenas">
+                                    <img src="<?= BASE_URL ?>projects-archived/mecenas/thumb.jpg"/>
+                                </a>
+                            </li>
+
+                            <!-- <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
                                 <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="pmmexh">
                                     <img src="<?= BASE_URL ?>projects-archived/pmmexh/thumb.jpg"/>
                                 </a>
-                            </li>
-
-                            <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
-                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="virtualq">
-                                    <img src="<?= BASE_URL ?>projects-archived/virtualq/thumb.png"/>
-                                </a>
-                            </li>
-
-
-
+                            </li> -->
+ 
                         </ul>
                     </div>
                 </div>
@@ -352,6 +362,12 @@
                 { src: '<?= BASE_URL ?>projects-archived/c4pr/02.jpg', },
                 { src: '<?= BASE_URL ?>projects-archived/c4pr/03.jpg', },
                 { src: '<?= BASE_URL ?>projects-archived/c4pr/04.jpg', }
+            ],          
+            c4pr: [
+                { src: '<?= BASE_URL ?>projects-archived/puracepa/01.jpg', },
+                { src: '<?= BASE_URL ?>projects-archived/puracepa/02.jpg', },
+                { src: '<?= BASE_URL ?>projects-archived/puracepa/03.jpg', },
+                { src: '<?= BASE_URL ?>projects-archived/puracepa/04.jpg', }
             ],
             akcsos: [
                 { src: '<?= BASE_URL ?>projects-archived/akc-sos/01.jpg', },
@@ -359,23 +375,34 @@
                 { src: '<?= BASE_URL ?>projects-archived/akc-sos/03.jpg', },
                 { src: '<?= BASE_URL ?>projects-archived/akc-sos/04.jpg', }
             ],
+
+            koru: [
+                { src: '<?= BASE_URL ?>projects-archived/koru/01.jpg', },
+                { src: '<?= BASE_URL ?>projects-archived/koru/02.jpg', },
+                { src: '<?= BASE_URL ?>projects-archived/koru/03.jpg', },
+                { src: '<?= BASE_URL ?>projects-archived/koru/04.jpg', }
+            ],
+
             v2abrochure: [
                 { src: '<?= BASE_URL ?>projects-archived/v2a-brochure/01.jpg', },
                 { src: '<?= BASE_URL ?>projects-archived/v2a-brochure/02.jpg', },
                 { src: '<?= BASE_URL ?>projects-archived/v2a-brochure/03.jpg', },
                 { src: '<?= BASE_URL ?>projects-archived/v2a-brochure/04.jpg', }
             ],
+
+            mecenas: [
+                { src: '<?= BASE_URL ?>projects-archived/mecenas/01.png', },
+                { src: '<?= BASE_URL ?>projects-archived/mecenas/02.png', },
+                { src: '<?= BASE_URL ?>projects-archived/mecenas/03.png', },
+                { src: '<?= BASE_URL ?>projects-archived/mecenas/04.png', }
+            ],
+
+
             pmmexh: [
                 { src: '<?= BASE_URL ?>projects-archived/pmmexh/01.jpg', },
                 { src: '<?= BASE_URL ?>projects-archived/pmmexh/02.jpg', },
                 { src: '<?= BASE_URL ?>projects-archived/pmmexh/03.jpg', },
                 { src: '<?= BASE_URL ?>projects-archived/pmmexh/04.jpg', }
-            ],
-            virtualq: [
-                { src: '<?= BASE_URL ?>projects-archived/virtualq/01.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/virtualq/02.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/virtualq/03.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/virtualq/04.jpg', }
             ],
         };
 

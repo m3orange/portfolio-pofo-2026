@@ -47,6 +47,10 @@ rgba(255,93,0,1.00)
 */
 
 
+.alt-text{
+    font-family: "IBM Plex Mono", "SF Mono", "Consolas", ui-monospace!important; 
+    font-weight: 400!important;
+}
 
 
 html { font-size: 18px; line-height: 1.4em; }
