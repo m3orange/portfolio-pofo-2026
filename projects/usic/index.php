@@ -54,16 +54,34 @@
                 </div>
             </div>
 
-            <div class="row margin-40px-bottom">
-                <div class="col col-12 sm-margin-10px-bottom" data-wow-delay="0s">
-                    <div class="gallery-item kickoff-presentation">
-                        <img src="<?= BASE_URL ?>projects/usic/kickoff-presentation.png">
-                    </div>
-                </div>
+            <div class="row mx-0">
+                <ul class="portfolio-grid work-1col hover-option2 gutter-large w-100">
+                    <li class="grid-sizer"></li>
+                    <li class="grid-item grid-item-double kickoff-presentation"> <!--grid-item-double-->
+                        <a href="<?= BASE_URL ?>projects/usic/kickoff-presentation.jpg" class="lightbox-group-gallery-item">
+                            <figure>
+                                <div class="portfolio-img bg-extra-dark-gray">
+                                    <img src="<?= BASE_URL ?>projects/usic/kickoff-presentation.jpg" class="project-img-gallery" />
+                                </div>
+                                <figcaption>
+                                    <div class="portfolio-hover-main text-center">
+                                        <div class="portfolio-hover-box vertical-align-middle">
+                                            <div class="portfolio-hover-content position-relative">
+                                                <i class="ti-zoom-in text-white-2 fa-2x"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
             </div>
+
+
         </div>
 
-        <div class="container-fluid padding-five-lr md-padding-30px-lr wow fadeInUp">
+        <div class="container-fluid padding-five-lr md-padding-30px-lr wow fadeIn">
             <div class="row mx-0">
                 <h5 class="section-title">Group Exercises</h5>
             </div>
@@ -72,7 +90,7 @@
                 <ul class="portfolio-grid work-5col hover-option2 gutter-large w-100">
                     <li class="grid-sizer"></li>
                     <li class="grid-item grid-item-double"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/usic/workshop-grid/01.jpg" data-group="two-columns-zoom-animation"
+                        <a href="<?= BASE_URL ?>projects/usic/workshop-grid/01.jpg" data-group="workshop-exercises-grid"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray">
@@ -90,8 +108,8 @@
                             </figure>
                         </a>
                     </li>
-                    <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/usic/workshop-grid/02.jpg" data-group="two-columns-zoom-animation"
+                    <li class="grid-item wow"> <!--grid-item-double-->
+                        <a href="<?= BASE_URL ?>projects/usic/workshop-grid/02.jpg" data-group="workshop-exercises-grid"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray">
@@ -109,8 +127,8 @@
                             </figure>
                         </a>
                     </li>
-                    <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/usic/workshop-grid/03.jpg" data-group="two-columns-zoom-animation"
+                    <li class="grid-item wow"> <!--grid-item-double-->
+                        <a href="<?= BASE_URL ?>projects/usic/workshop-grid/03.jpg" data-group="workshop-exercises-grid"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray">
@@ -128,8 +146,8 @@
                             </figure>
                         </a>
                     </li>
-                    <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/usic/workshop-grid/04.jpg" data-group="two-columns-zoom-animation"
+                    <li class="grid-item wow"> <!--grid-item-double-->
+                        <a href="<?= BASE_URL ?>projects/usic/workshop-grid/04.jpg" data-group="workshop-exercises-grid"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray">
@@ -147,8 +165,8 @@
                             </figure>
                         </a>
                     </li>
-                    <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/usic/workshop-grid/05.jpg" data-group="two-columns-zoom-animation"
+                    <li class="grid-item wow"> <!--grid-item-double-->
+                        <a href="<?= BASE_URL ?>projects/usic/workshop-grid/05.jpg" data-group="workshop-exercises-grid"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray">
@@ -166,8 +184,8 @@
                             </figure>
                         </a>
                     </li>
-                    <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/usic/workshop-grid/06.jpg" data-group="two-columns-zoom-animation"
+                    <li class="grid-item wow"> <!--grid-item-double-->
+                        <a href="<?= BASE_URL ?>projects/usic/workshop-grid/06.jpg" data-group="workshop-exercises-grid"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray">
@@ -195,7 +213,7 @@
 
 
     <!--begin - image grid - from single-project-page-01-->
-    <section class="journey-map-fullwidth wow fadeInUp"">
+    <section class="journey-map-fullwidth"">
 
         <!-- start section divider -->
         <section class="section-divider-light" style="background-color: transparent;">
@@ -215,8 +233,6 @@
         </div>
     </section>
     <!--end - image grid - from single-project-page-01-->
-
-
 
 
     <!-- start fullwidth slider - from blog-standard-full-width-->
@@ -273,10 +289,47 @@
             </div>
         </div>
     </section>
-
     <!-- end fullwidth slider - from blog-standard-full-width-->
 
 
+        <section class="wow" style="background-color: #343434;">
+
+        <!-- start section divider -->
+        <section class="section-divider-light" style="background-color: transparent;">
+            <div class="container">Outcome: Research Readout</div>
+        </section>
+        <!-- end section divider -->
+
+        <div class="container-fluid padding-five-lr margin-six-bottom  md-padding-30px-lr wow">
+            <div class="row mx-0">
+                <ul class="portfolio-grid work-1col hover-option2 gutter-large w-100">
+                    <li class="grid-sizer"></li>
+                    <li class="grid-item grid-item-double kickoff-presentation" style="background: transparent;"> <!--grid-item-double-->
+                        <a href="<?= BASE_URL ?>projects/usic/research-readout.png" data-group="two-columns-zoom-animation"
+                            class="lightbox-group-gallery-item">
+                            <figure>
+                                <div class="portfolio-img"> <!--bg-extra-dark-gray was what added the black bg-->
+                                    <img src="<?= BASE_URL ?>projects/usic/research-readout.png" class="project-img-gallery" />
+                                </div>
+                                <figcaption>
+                                    <div class="portfolio-hover-main text-center">
+                                        <div class="portfolio-hover-box vertical-align-middle">
+                                            <div class="portfolio-hover-content position-relative">
+                                                <i class="ti-zoom-in text-white-2 fa-2x"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    
 
     <!-- start footer -->
     <?php include ROOT_PATH . 'includes/global-footer.php'; ?>
