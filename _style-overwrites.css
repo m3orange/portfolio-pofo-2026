@@ -817,7 +817,7 @@ video {
 
 
 .usic .personas-fullwidth-slider{
-    background-color: #858586 !important;
+    background-color: #666666 !important;
 }
 .usic .personas-fullwidth-slider .container{
     flex-direction: row;
@@ -845,14 +845,19 @@ video {
 
 .usic .kickoff-presentation{
    background-color: #feb54454!important;
+   padding: 40px 20px;
+   
 }
  
 
 .usic .workshop-grid .section-title{
         margin: 0 10px;
-        padding: 20px 10px;
         font-family: var(--alt-text-2);
-        font-weight: 500!important;
+        font-weight: 400!important;
+        color: var(--primary-color)!important;
+        padding: 0 6px;
+}
 
-
+.usic .workshop-grid .portfolio-grid.gutter-large {
+    margin: 0px!important;
 }

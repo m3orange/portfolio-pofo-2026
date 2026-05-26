@@ -12,9 +12,7 @@
 
     <!-- start parallax hero section -->
     <section id="block-intro-slider" class="wow p-0 " >
-        <video autoplay loop muted playsinline class="hero-video-cb">
-            <source src="<?= BASE_URL ?>projects/citybox/citybox-screens-in-laptop.mp4" type="video/mp4">  
-        </video>
+<h6>Pending</h6>
     </section>
     <!-- end parallax hero section -->
 
@@ -48,9 +46,12 @@
         </section>
         <!-- end section divider -->
 
-        <div class="container-fluid padding-five-lr md-padding-30px-lr wow fadeInUp">
-            <div class="row mx-0">
-                <h5 class="section-title">Kick Off Presentation</h5>
+        <div class="container-fluid padding-five-lr margin-six-bottom  md-padding-30px-lr wow fadeInUp">
+
+            <div class="row margin-40px-bottom">
+                <div class="col col-12 sm-margin-10px-bottom" data-wow-delay="0s">
+                        <h6 class="section-title">Kick Off Presentation</h6>
+                </div>
             </div>
 
             <div class="row margin-40px-bottom">
@@ -59,17 +60,16 @@
                         <img src="<?= BASE_URL ?>projects/usic/kickoff-presentation.png">
                     </div>
                 </div>
-
             </div>
         </div>
 
-        <div class="container wow fadeInUp">
+        <div class="container-fluid padding-five-lr md-padding-30px-lr wow fadeInUp">
             <div class="row mx-0">
                 <h5 class="section-title">Group Exercises</h5>
             </div>
                 
             <div class="row mx-0">
-                <ul class="portfolio-grid work-4col hover-option2 gutter-large w-100">
+                <ul class="portfolio-grid work-5col hover-option2 gutter-large w-100">
                     <li class="grid-sizer"></li>
                     <li class="grid-item grid-item-double"> <!--grid-item-double-->
                         <a href="<?= BASE_URL ?>projects/usic/workshop-grid/01.jpg" data-group="two-columns-zoom-animation"
@@ -275,110 +275,6 @@
     </section>
 
     <!-- end fullwidth slider - from blog-standard-full-width-->
-
-
-<!-- 
-    <section class="wow fadeIn">
-        <!-- start section divider -->
-        <section class="section-divider-dark">
-            <div class="container">
-                <div class="row">
-                    <div class="col col-12 col-lg-8 col-md-6">Client Workshop Exercises</div>
-                </div>
-            </div>
-        </section>
-        <!-- end section divider -->
-
-
-        <div class="container">
-
-        <!-- <?php include_once("description-project-01.php"); ?> -->
-
-            <div class="row mx-0">
-                <ul class="portfolio-grid work-3col hover-option2 gutter-large w-100">
-                    <li class="grid-sizer"></li>
-
-                    <li class="grid-item grid-item-double  wow fadeInUp"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/citybox/cb-specs-01.png" data-group="two-columns-zoom-animation"
-                            class="lightbox-group-gallery-item">
-                            <figure>
-                                <div class="portfolio-img bg-extra-dark-gray"><img src="<?= BASE_URL ?>projects/citybox/cb-specs-01.png" class="project-img-gallery" /></div>
-                                <figcaption>
-                                    <div class="portfolio-hover-main text-center">
-                                        <div class="portfolio-hover-box vertical-align-middle">
-                                            <div class="portfolio-hover-content position-relative">
-                                                <i class="ti-zoom-in text-white-2 fa-2x"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </li>
-
-                    <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/citybox/cb-specs-02.png" data-group="two-columns-zoom-animation"
-                            class="lightbox-group-gallery-item">
-                            <figure>
-                                <div class="portfolio-img bg-extra-dark-gray"><img
-                                        src="<?= BASE_URL ?>projects/citybox/cb-specs-02.png" class="project-img-gallery" /></div>
-                                <figcaption>
-                                    <div class="portfolio-hover-main text-center">
-                                        <div class="portfolio-hover-box vertical-align-middle">
-                                            <div class="portfolio-hover-content position-relative">
-                                                <i class="ti-zoom-in text-white-2 fa-2x"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                    <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/citybox/cb-specs-03.png" data-group="two-columns-zoom-animation"
-                            class="lightbox-group-gallery-item">
-                            <figure>
-                                <div class="portfolio-img bg-extra-dark-gray"><img
-                                        src="<?= BASE_URL ?>projects/citybox/cb-specs-03.png" class="project-img-gallery" /></div>
-                                <figcaption>
-                                    <div class="portfolio-hover-main text-center">
-                                        <div class="portfolio-hover-box vertical-align-middle">
-                                            <div class="portfolio-hover-content position-relative">
-                                                <i class="ti-zoom-in text-white-2 fa-2x"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                    <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/citybox/cb-specs-04.png" data-group="two-columns-zoom-animation"
-                            class="lightbox-group-gallery-item">
-                            <figure>
-                                <div class="portfolio-img bg-extra-dark-gray"><img
-                                        src="<?= BASE_URL ?>projects/citybox/cb-specs-04.png" class="project-img-gallery" /></div>
-                                <figcaption>
-                                    <div class="portfolio-hover-main text-center">
-                                        <div class="portfolio-hover-box vertical-align-middle">
-                                            <div class="portfolio-hover-content position-relative">
-                                                <i class="ti-zoom-in text-white-2 fa-2x"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </li>
-
-
-
-                </ul>
-            </div>
-        </div>
-    </section>
-
- -->
 
 
 
