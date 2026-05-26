@@ -152,26 +152,6 @@
                     <div class="filter-content overflow-hidden">
                         <ul class="portfolio-grid work-2col hover-option2 gutter-medium">
                             <li class="grid-sizer"></li>
-                            <!-- start portfolio-item item -->
-                            <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0s">
-                                <a href="<?= BASE_URL ?>projects/citybox/index.php">
-                                    <figure>
-                                        <div class="portfolio-img bg-deep-pink"><img src="<?= BASE_URL ?>projects/home-projects/home-citybox-ui.png" alt=""/></div>
-                                        <figcaption>
-                                            <div class="portfolio-hover-main text-left">
-                                                <div class="portfolio-hover-box align-bottom">
-                                                    <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
-                                                        <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2"></div>
-                                                        <span class="line-height-normal alt-font text-white-2 margin-one-half-bottom d-block font-weight-600">Herbal Beauty Salon</span>
-                                                        <p class="text-white-2 text-uppercase text-extra-small">Branding and Brochure</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </figcaption>
-                                    </figure>
-                                </a>
-                            </li>
-                            <!-- end portfolio item -->
                             <!-- start portfolio item -->
                             <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
                                 <a href="<?= BASE_URL ?>projects/atlas-design-system/index.php">
@@ -192,6 +172,8 @@
                                 </a>
                             </li>
                             <!-- end portfolio item -->
+
+
                             <!-- start portfolio item -->
                             <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
                                 <a href="<?= BASE_URL ?>projects/admin/index.php">
@@ -212,6 +194,29 @@
                                 </a>
                             </li>
                             <!-- end portfolio item -->
+
+                            <!-- start portfolio-item item -->
+                            <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0s">
+                                <a href="<?= BASE_URL ?>projects/citybox/index.php">
+                                    <figure>
+                                        <div class="portfolio-img bg-deep-pink"><img src="<?= BASE_URL ?>projects/home-projects/home-citybox-ui.png" alt=""/></div>
+                                        <figcaption>
+                                            <div class="portfolio-hover-main text-left">
+                                                <div class="portfolio-hover-box align-bottom">
+                                                    <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                                                        <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2"></div>
+                                                        <span class="line-height-normal alt-font text-white-2 margin-one-half-bottom d-block font-weight-600">Herbal Beauty Salon</span>
+                                                        <p class="text-white-2 text-uppercase text-extra-small">Branding and Brochure</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <!-- end portfolio item -->
+
+                            
                             <!-- start portfolio-item item -->
                             <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.6s">
                                 <a href="<?= BASE_URL ?>projects/musicasa/index.php">
