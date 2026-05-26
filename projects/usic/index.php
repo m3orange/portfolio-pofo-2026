@@ -17,12 +17,14 @@
     <!-- end parallax hero section -->
 
 
+
     <!-- start product information section -->
     <section class="intro-info">
         <div class="container">
             <div class="row grid-lines">
                 <div class="col col-12 text-left">
                     <div class="page-title font-weight-500">
+                        <div style="margin: 100px 0;">260526_1550</div>
                         <h3>Roadmap towards CX excellence</h3>
                     </div>
                 </div>
@@ -292,7 +294,7 @@
     <!-- end fullwidth slider - from blog-standard-full-width-->
 
 
-        <section class="wow" style="background-color: #343434;">
+        <section class="wow research-readout" style="background-color: #343434;">
 
         <!-- start section divider -->
         <section class="section-divider-light" style="background-color: transparent;">
@@ -304,10 +306,10 @@
             <div class="row mx-0">
                 <ul class="portfolio-grid work-1col hover-option2 gutter-large w-100">
                     <li class="grid-sizer"></li>
-                    <li class="grid-item grid-item-double kickoff-presentation" style="background: transparent;"> <!--grid-item-double-->
+                    <li class="grid-item grid-item-double" style="background: transparent!important;"> <!--grid-item-double-->
                         <a href="<?= BASE_URL ?>projects/usic/research-readout.png" data-group="two-columns-zoom-animation"
                             class="lightbox-group-gallery-item">
-                            <figure>
+                            <figure> <!-- This is the initial image that triggers the modal-->
                                 <div class="portfolio-img"> <!--bg-extra-dark-gray was what added the black bg-->
                                     <img src="<?= BASE_URL ?>projects/usic/research-readout.png" class="project-img-gallery" />
                                 </div>

@@ -855,9 +855,26 @@ video {
         font-family: var(--alt-text-2);
         font-weight: 400!important;
         color: var(--primary-color)!important;
-        padding: 0 6px;
+        padding: 0 6px; 
+} 
+
+.usic .mfp-content{
+    max-width: 85% !important ; 
+        /* border: 3px solid pink; */
 }
 
-.usic .workshop-grid .portfolio-grid.gutter-large {
-    margin: 0px!important;
+
+
+/*
+
+.research-readout .lightbox-group-gallery-item{
+    border: 4px solid green;
+     max-width: 90% !important ; 
 }
+
+.research-readout figure{
+    padding: 0 5%;
+
+}
+
+*/
