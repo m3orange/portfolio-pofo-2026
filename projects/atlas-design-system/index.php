@@ -13,7 +13,6 @@
     <section id="block-intro-slider">
         <img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-hero-opener-alpha.png"/>    
     </section>
-
     <!-- end parallax hero section -->
 
 

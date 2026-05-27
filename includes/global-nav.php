@@ -21,12 +21,14 @@
                         </button>
                         <div class="navbar-collapse collapse justify-content-end" id="navbar-collapse-toggle-1">
                             <ul id="accordion" class="nav navbar-nav no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
-                                <li><a href="<?= BASE_URL ?>projects/usic/index.php" title="USIC">USIC</a></li>
+
 
                                 <li><a href="<?= BASE_URL ?>index.php" title="Home">Home</a></li>
+                                    <li class="nav-divider"></li>
+                                <li><a href="<?= BASE_URL ?>projects/usic/index.php" title="USIC">USIC</a></li>
                                 <li><a href="<?= BASE_URL ?>projects/citybox/index.php" title="Atlas UI">CityBox UI</a></li>
                                 <li><a href="<?= BASE_URL ?>projects/admin/index.php" title="Admin">Admin</a></li>
-                                <li><a href="<?= BASE_URL ?>projects/atlas-design-system/index.php" title="Atlas Design System">Atlas Design System</a></li>
+                                <li><a href="<?= BASE_URL ?>projects/atlas-design-system/index.php" title="Atlas Design System">Atlas</a></li>
                                 <li><a href="<?= BASE_URL ?>projects/musicasa/index.php" title="Musicasa">Musicasa</a></li>
                                 <li><a href="<?= BASE_URL ?>projects/idd/index.php" title="IDD">IDD</a></li>
                                 <li><a href="<?= BASE_URL ?>projects/map-tools/index.php" title="Map Tools">Map Tools</a></li>

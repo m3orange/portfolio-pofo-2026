@@ -11,10 +11,11 @@
     <!-- end header -->
 
     <!-- start parallax hero section -->
-    <section id="block-intro-slider" class="wow p-0 " >
-<h6>Pending</h6>
+    <section id="block-intro-slider">
+        <img src="<?= BASE_URL ?>projects/usic/usic-hero-header.png"/>    
     </section>
     <!-- end parallax hero section -->
+
 
 
 
@@ -85,7 +86,7 @@
 
         <div class="container-fluid padding-five-lr md-padding-30px-lr wow fadeIn">
             <div class="row mx-0">
-                <h5 class="section-title">Group Exercises</h5>
+                <h6 class="section-title">Group Exercises</h6>
             </div>
                 
             <div class="row mx-0">

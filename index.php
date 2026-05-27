@@ -13,15 +13,28 @@
     <!-- end header -->
 
     <section id="home-hero-opener" class="p-0 full-screen position-relative wow animate__fadeIn" style="height: 1029px; visibility: visible; animation-name: fadeIn;">
+
             <div class="opacity-medium bg-extra-dark-gray z-index-0"></div>
-            <div class="container h-100">
+            <div class="container-fluid h-100">
                 <div class="row h-100">
-                    <div class="col col-9 d-flex justify-content-center flex-column text-left text-md-start">
-                        <div>
-                        <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom"> I'm a senior UX/UI [Product] Designer with a passion for human-centered design and problem solving.</h1>
-                        <h3>With masters in architecture and graphic design and over 25 of work experience, I have focused on UX/UI for the past 12 years. </h3>
+                    <div class="col col-12 d-flex justify-content-start flex-column text-left text-md-start">
+                            <div class="col col-12 col-8 offset-1 d-flex justify-content-center flex-column text-left text-md-start">
+                                <h2 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom"> 
+                                    I'm a senior UX/UI [Product] Designer with a passion for human-centered design and problem solving.
+                                </h2>
+                                <h4>With masters in architecture and graphic design and over 25 of work experience, I have focused on UX/UI for the past 12 years. </h4>
                         </div>
+                        <div class="hero-text-boxes">
+    <div class="col col-3 cards">Resumé</div>
+ <div class="col col-3 cards">Archived Work</div>
+  <div class="col col-3 cards">1</div>
+   <div class="col col-3 cards">1</div>
+Boxes
+</div>
                     </div>
+<!-- <div class="hero-text-boxes">
+Boxes
+</div> -->
 
                 </div>
             </div>
@@ -140,14 +153,35 @@
     </section>
     <!-- end accordions style 01 section -->
 
+
+
+
     <!-- start portfolio section --- portfolio-full-width-masonry-overlay ----->
     <section id="home-projects-grid-01" class="wow fadeIn padding-90px-top md-padding-50px-top sm-padding-30px-top">
         <!-- start filter content -->
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
-            <div class="row">
-                <div class="col-12 text-center margin-100px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
+            
+<div class="row numbered-dividers">
+    <div class="col col-12 col-md-1">
+        <div class="sideway-number">01</div>
+    </div>
+    <div class="col col-12 col-md-11 text-left section-name">
+        <h4 class="font-weight-500 text-extra-dark-gray margin-15px-bottom">Featured Projects</h4>
+    </div>
+</div>
+            
+
+
+
+
+
+
+
+<div class="row">
+
+                <!-- <div class="col-11 text-center margin-100px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
                     <h4 class="font-weight-500 text-extra-dark-gray margin-15px-bottom">Featured Projects</h4>
-                </div>
+                </div> -->
                 <div class="col-12 px-3 p-md-0">
                     <div class="filter-content overflow-hidden">
                         <ul class="portfolio-grid work-2col hover-option2 gutter-medium">
@@ -382,10 +416,8 @@
             ],
 
             koru: [
-                { src: '<?= BASE_URL ?>projects-archived/koru/01.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/koru/02.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/koru/03.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/koru/04.jpg', }
+                { src: '<?= BASE_URL ?>projects-archived/koru/01.png', },
+                { src: '<?= BASE_URL ?>projects-archived/koru/02.png', },
             ],
 
             v2abrochure: [
