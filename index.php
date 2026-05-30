@@ -153,9 +153,6 @@ Boxes
     </section>
     <!-- end accordions style 01 section -->
 
-
-
-
     <!-- start portfolio section --- portfolio-full-width-masonry-overlay ----->
     <section id="home-projects-grid-01" class="wow fadeIn padding-90px-top md-padding-50px-top sm-padding-30px-top">
         <!-- start filter content -->
