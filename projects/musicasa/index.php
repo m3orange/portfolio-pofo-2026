@@ -116,7 +116,7 @@
 
 
 
-<section class="wow animate__fadeIn pt-0" style="visibility: visible; animation-name: fadeInUP;" data-delay="0.5s">
+<section class="wow animate__fadeIn pt-0 pb-0" style="visibility: visible; animation-name: fadeInUP; background-color: #3b3b3b;" data-delay="0.5s">
             <div class="container-fluid padding-three-lr padding-eight-tb md-padding-30px-lr sm-padding-15px-lr">
                 <div class="row">
                     <div class="col-12 margin-35px-tb md-no-margin-top md-margin-30px-bottom workflows-fullwidth">

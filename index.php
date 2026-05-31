@@ -13,32 +13,20 @@
     <!-- end header -->
 
     <section id="home-hero-opener" class="p-0 full-screen position-relative wow animate__fadeIn" style="height: 1029px; visibility: visible; animation-name: fadeIn;">
-
             <div class="opacity-medium bg-extra-dark-gray z-index-0"></div>
-            <div class="container-fluid h-100">
+            <div class="container h-100">
                 <div class="row h-100">
-                    <div class="col col-12 d-flex justify-content-start flex-column text-left text-md-start">
-                            <div class="col col-12 col-8 offset-1 d-flex justify-content-center flex-column text-left text-md-start">
-                                <h2 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom"> 
-                                    I'm a senior UX/UI [Product] Designer with a passion for human-centered design and problem solving.
-                                </h2>
-                                <h4>With masters in architecture and graphic design and over 25 of work experience, I have focused on UX/UI for the past 12 years. </h4>
+                    <div class="col col-9 d-flex justify-content-center flex-column text-left text-md-start">
+                        <div>
+                        <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom"> I'm a senior UX/UI [Product] Designer with a passion for human-centered design and problem solving.</h1>
+                        <h3>With masters in architecture and graphic design and over 25 of work experience, I have focused on UX/UI for the past 12 years. </h3>
                         </div>
-                        <div class="hero-text-boxes">
-    <div class="col col-3 cards">Resumé</div>
- <div class="col col-3 cards">Archived Work</div>
-  <div class="col col-3 cards">1</div>
-   <div class="col col-3 cards">1</div>
-Boxes
-</div>
                     </div>
-<!-- <div class="hero-text-boxes">
-Boxes
-</div> -->
 
                 </div>
             </div>
         </section>
+
 
 
 
@@ -365,8 +353,8 @@ Boxes
 
 
                             <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0s">
-                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="mecenas">
-                                    <img src="<?= BASE_URL ?>projects-archived/mecenas/thumb.jpg"/>
+                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="ted">
+                                    <img src="<?= BASE_URL ?>projects-archived/ted/thumb.png"/>
                                 </a>
                             </li>
 
@@ -424,11 +412,11 @@ Boxes
                 { src: '<?= BASE_URL ?>projects-archived/v2a-brochure/04.jpg', }
             ],
 
-            mecenas: [
-                { src: '<?= BASE_URL ?>projects-archived/mecenas/01.png', },
-                { src: '<?= BASE_URL ?>projects-archived/mecenas/02.png', },
-                { src: '<?= BASE_URL ?>projects-archived/mecenas/03.png', },
-                { src: '<?= BASE_URL ?>projects-archived/mecenas/04.png', }
+            ted: [
+                { src: '<?= BASE_URL ?>projects-archived/ted/01.jpg', },
+                { src: '<?= BASE_URL ?>projects-archived/ted/02.jpg', },
+                { src: '<?= BASE_URL ?>projects-archived/ted/03.jpg', },
+                { src: '<?= BASE_URL ?>projects-archived/ted/04.jpg', }
             ],
 
 
