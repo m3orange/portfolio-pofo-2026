@@ -903,9 +903,10 @@ video {
 
 
 .fullwidth-idd-demo video{
-    width: 75%!important;
+    width: 50%!important;
     max-width: 1000px!important;
-    border: 4px solid red;
+    background-color: #161616;
+
 }
 
 .idd .all-screens-fullwidth{
@@ -922,13 +923,27 @@ video {
 
 }
 
+.map-tools #block-intro-slider{
+    background-color: #333;
+}
+
 .fullwidth-map-tools-animation{
-    background-color: #444444;
+    background-color: #000;
 
 }
 
-.fullwidth-map-tools-animation video{
-    max-height: 900px;
+.map-tools #block-intro-slider{
+    background-color: #666;
+    background-image: url("projects/map-tools/project-page-detail.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 100px;
+}
+
+.map-tools-detail{
+    padding: 40px 80px;
+
 }
 
 /*------------- USIC -------------*/
