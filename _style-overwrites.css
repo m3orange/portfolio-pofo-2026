@@ -937,6 +937,7 @@ video {
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: 100px;
+    height: 70vh!important;
 }
 
 .map-tools-detail{
@@ -949,8 +950,17 @@ video {
 
 .usic #block-intro-slider{
 
-    align-items: center!important;
-    background-color: #ffb115 !important;
+/* align-items: center!important; */
+background-color: #ffb115 !important;
+background: #FFB115 url(/projects/usic/usic-hero-header.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position-x: left;
+background-position-y: center;
+height: 70vh!important;
+}
+.usic-hero-image{
+    padding: 0 80px;
 }
 
 
@@ -984,16 +994,6 @@ video {
     
 }
 
-/* .usic .fullwidth-slider-01 img{
-    max-width: 90% !important;
-} */
-
-.usic .kickoff-presentation{
-   /* background-color: #feb54454!important;
-   padding: 40px 20px; */
-   
-}
- 
 
 .usic .workshop-grid .section-title{
         margin: 0 10px;

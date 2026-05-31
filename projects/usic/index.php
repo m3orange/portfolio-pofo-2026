@@ -12,7 +12,10 @@
 
     <!-- start parallax hero section -->
     <section id="block-intro-slider">
-        <img src="<?= BASE_URL ?>projects/usic/usic-hero-header.png"/>    
+        <!-- <div class="usic-hero-image">
+            <img src="<?= BASE_URL ?>projects/usic/usic-hero-header.png"/>   
+        </div> -->
+         
     </section>
     <!-- end parallax hero section -->
 
@@ -25,7 +28,6 @@
             <div class="row grid-lines">
                 <div class="col col-12 text-left">
                     <div class="page-title font-weight-500">
-                        <div style="margin: 100px 0;">260526_1555</div>
                         <h3>Roadmap towards CX excellence</h3>
                     </div>
                 </div>

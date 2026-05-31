@@ -48,6 +48,6 @@
             <script src="js/html5shiv.js"></script>
         <![endif]-->
 
-<link rel="stylesheet" href="<?= BASE_URL ?>_style-overwrites.css" />
+<link rel="stylesheet" href="<?= BASE_URL ?>_style-overwrites.css?v=1" />
 
 </head>
