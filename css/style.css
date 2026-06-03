@@ -137,6 +137,10 @@ h6 {font-size:25px; line-height: 1.3em; font-family: var(--archivo-headers-01);}
 .text-very-light-gray, .btn.text-very-light-gray {color:#ededed}
 .text-deep-pink, .btn.text-deep-pink {color:var(--primary-color)}
 
+.text-white{
+    color: #FFF;
+}
+
 /* dropcap */
 .first-letter {float: left; font-size: 50px; line-height: auto; margin: 0 20px 0 0; text-align: center; padding: 10px 0; font-weight: 600}
 .first-letter-big {float: left; font-size: 110px; line-height: 110px; margin: 0 20px 0 0; padding:0 8px;  text-align: center; font-weight: 600; position: relative;}
@@ -2409,7 +2413,7 @@ nav.navbar.bootsnav .navbar-toggle { top: 2px; }
 .sidebar-nav .mobile-toggle {display: none}
 .mobile-toggle span { display: block; width: 16px; height: 2px; background: #232323; content: ""; }
 .mobile-toggle span:nth-child(2) { margin: 3px 0px; }
-.mobile-toggle:hover span, .white-link .mobile-toggle:hover span { background-color: red}
+.mobile-toggle:hover span, .white-link .mobile-toggle:hover span { background-color: var(--primary-color); }
 .white-link .mobile-toggle span { background: #fff;}
 header nav .brand-logo { padding-top: 20px; padding-bottom: 20px;}
 header.sticky nav .brand-logo {padding-top: 15px; padding-bottom: 15px;}

@@ -18,8 +18,8 @@
                 <div class="row h-100">
                     <div class="col col-9 d-flex justify-content-center flex-column text-left text-md-start">
                         <div>
-                        <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom"> I'm a senior UX/UI [Product] Designer with a passion for human-centered design and problem solving.</h1>
-                        <h3>With masters in architecture and graphic design and over 25 of work experience, I have focused on UX/UI for the past 12 years. </h3>
+                        <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom"> I'm a senior product designer with a passion for human-centered design and usability.</h1>
+                        <h3>I'm trained in both architecture and graphic design, and have over 20 years of experience working in UX/UI.</h3>
                         </div>
                     </div>
 
@@ -105,10 +105,11 @@
                                 <h6>
                                     <ul>
                                         <li>
-                                        Having extensive hands-on coding experience, I excel at identifying risks early and am able to as a translator between design and engineering and both sides understand each other's concerns and challenges without anything getting lost in [tech] translation.
+                                            Having extensive hands-on coding experience, I excel at identifying risks early. I can act as a translator between design and engineering, and help everyone understand each other's concerns and challenges without anything getting lost in [tech] translation.
+
                                         </li>
                                         <li>
-                                            I’m a fierce advocate of delivering all design information –from layouts, to specs and PRDs– as close as possible to code and the frameworks being used, to reach fidelity faster and to reduce unnecessary feedback loops that cause delays and friction.
+                                            I’m a fierce advocate of delivering design information –from layouts, to specs and PRDs– as close as possible to code and the frameworks being used, to reach fidelity and parity faster and to reduce feedback loops that cause delays and friction.
                                         </li>
                                         <li style="font-size: 80%!important;">
                                             p.s. I believe in handshakes, not handoffs. Design and engineering's collaboration should start at the beginning of the project, not when Jira tickets are created. It should be a constant, symbiotic relationship, where standups and critical touchpoints can ensure that challenges are tackled early on.
@@ -146,33 +147,25 @@
         <!-- start filter content -->
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             
-<div class="row numbered-dividers">
-    <div class="col col-12 col-md-1">
-        <div class="sideway-number">01</div>
-    </div>
-    <div class="col col-12 col-md-11 text-left section-name">
-        <h4 class="font-weight-500 text-extra-dark-gray margin-15px-bottom">Featured Projects</h4>
-    </div>
-</div>
-            
-
-
-
-
-
-
-
-<div class="row">
-
-                <!-- <div class="col-11 text-center margin-100px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
+            <!-- <div class="row numbered-dividers">
+                <div class="col col-3 col-md-1">
+                    <div class="sideway-number">01</div>
+                </div>
+                <div class="col col-7 col-md-11 text-left section-name">
                     <h4 class="font-weight-500 text-extra-dark-gray margin-15px-bottom">Featured Projects</h4>
-                </div> -->
+                </div>
+            </div> -->
+            
+            <div class="row">
+                <div class="col-12 text-center margin-50px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
+                    <h4 class=" text-extra-dark-gray margin-15px-bottom alt-text font-weight-600">Featured Work</h4>
+                </div>
                 <div class="col-12 px-3 p-md-0">
                     <div class="filter-content overflow-hidden">
                         <ul class="portfolio-grid work-2col hover-option2 gutter-medium">
                             <li class="grid-sizer"></li>
                             <!-- start portfolio item -->
-                            <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
+                            <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0.2s">
                                 <a href="<?= BASE_URL ?>projects/atlas-design-system/index.php">
                                     <figure>
                                         <div class="portfolio-img bg-deep-pink"><img src="<?= BASE_URL ?>projects/home-projects/home-atlas.png" alt=""/></div>
@@ -194,7 +187,7 @@
 
 
                             <!-- start portfolio item -->
-                            <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
+                            <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0.2s">
                                 <a href="<?= BASE_URL ?>projects/admin/index.php">
                                     <figure>
                                         <div class="portfolio-img bg-deep-pink"><img src="<?= BASE_URL ?>projects/home-projects/home-admin.png" alt=""/></div>
@@ -215,7 +208,7 @@
                             <!-- end portfolio item -->
 
                             <!-- start portfolio-item item -->
-                            <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0s">
+                            <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0.4s">
                                 <a href="<?= BASE_URL ?>projects/citybox/index.php">
                                     <figure>
                                         <div class="portfolio-img bg-deep-pink"><img src="<?= BASE_URL ?>projects/home-projects/home-citybox-ui.png" alt=""/></div>
@@ -237,7 +230,7 @@
 
                             
                             <!-- start portfolio-item item -->
-                            <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.6s">
+                            <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0.4s">
                                 <a href="<?= BASE_URL ?>projects/musicasa/index.php">
                                     <figure>
                                         <div class="portfolio-img bg-deep-pink"><img src="<?= BASE_URL ?>projects/home-projects/home-musicasa.png" alt=""/></div>
@@ -257,7 +250,7 @@
                             </li>
                             <!-- end portfolio item -->
                             <!-- start portfolio item -->
-                            <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.8s">
+                            <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0.6s">
                                 <a href="<?= BASE_URL ?>projects/idd/index.php">
                                     <figure>
                                         <div class="portfolio-img bg-deep-pink"><img src="<?= BASE_URL ?>projects/home-projects/home-idd.png" alt=""/></div>
@@ -277,7 +270,7 @@
                             </li>
                             <!-- end portfolio item -->
                             <!-- start portfolio item -->
-                            <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="1s">
+                            <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0.6s">
                                 <a href="<?= BASE_URL ?>projects/map-tools/index.php">
                                     <figure>
                                         <div class="portfolio-img bg-deep-pink"><img src="<?= BASE_URL ?>projects/home-projects/home-map-tools.png" alt=""/></div>
@@ -307,54 +300,54 @@
 
 
 
-    <section id="home-projects-grid-02" class="wow fadeIn padding-90px-top md-padding-50px-top sm-padding-30px-top magnific-home-gallery">
+    <section id="home-projects-grid-02" class="wow fadeIn magnific-home-gallery">
 
         <!-- start filter content -->
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row">
-                <div class="col-12 text-center margin-100px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
-                    <h4 class=" text-extra-dark-gray margin-15px-bottom alt-text font-weight-600">Archived Projects</h4>
+                <div class="col-12 text-center margin-50px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
+                    <h4 class=" text-extra-dark-gray margin-15px-bottom alt-text font-weight-600" style="color: #FFF!important;">Archived Work</h4>
                 </div>
                 <div class="col-12 px-3 p-md-0">
                     <div class="filter-content overflow-hidden">
                         <ul class="portfolio-grid work-3col hover-option2 gutter-medium">
                             <li class="grid-sizer"></li>
 
-                            <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0s">
+                            <li class="grid-item wow last-paragraph-no-margin" data-wow-delay="0s">
                                 <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="c4pr">
                                     <img src="<?= BASE_URL ?>projects-archived/c4pr/thumb.jpg"/>
                                 </a>
                             </li>
 
-                            <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0s">
+                            <li class="grid-item wow last-paragraph-no-margin" data-wow-delay="0s">
                                 <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="puracepa">
                                     <img src="<?= BASE_URL ?>projects-archived/puracepa/thumb.jpg"/>
                                 </a>
                             </li>
 
 
-                            <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0s">
+                            <li class="grid-item wow last-paragraph-no-margin" data-wow-delay="0s">
                                 <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="v2abrochure">
                                     <img src="<?= BASE_URL ?>projects-archived/v2a-brochure/thumb.jpg"/>
                                 </a>
                             </li>
 
-                            <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0s">
+                            <li class="grid-item wow last-paragraph-no-margin" data-wow-delay="0s">
                                 <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="koru">
                                     <img src="<?= BASE_URL ?>projects-archived/koru/thumb.jpg"/>
                                 </a>
                             </li>
 
-                            <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0s">
+                            <li class="grid-item wow last-paragraph-no-margin" data-wow-delay="0s">
                                 <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="akcsos">
                                     <img src="<?= BASE_URL ?>projects-archived/akc-sos/thumb.jpg"/>
                                 </a>
                             </li>
 
 
-                            <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0s">
+                            <li class="grid-item wow last-paragraph-no-margin" data-wow-delay="0s">
                                 <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="ted">
-                                    <img src="<?= BASE_URL ?>projects-archived/ted/thumb.png"/>
+                                    <img src="<?= BASE_URL ?>projects-archived/ted/thumb.jpg"/>
                                 </a>
                             </li>
 
@@ -413,10 +406,10 @@
             ],
 
             ted: [
-                { src: '<?= BASE_URL ?>projects-archived/ted/01.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/ted/02.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/ted/03.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/ted/04.jpg', }
+                { src: '<?= BASE_URL ?>projects-archived/ted/01.png', },
+                { src: '<?= BASE_URL ?>projects-archived/ted/02.png', },
+                { src: '<?= BASE_URL ?>projects-archived/ted/03.png', },
+                { src: '<?= BASE_URL ?>projects-archived/ted/04.png', }
             ],
 
 
