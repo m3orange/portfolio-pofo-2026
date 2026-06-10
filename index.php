@@ -8,6 +8,8 @@
 
 <body class="home">
 
+<?php include ROOT_PATH . 'includes/grid-guide.php'; ?>
+
     <!-- start header -->
     <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
     <!-- end header -->
@@ -16,7 +18,7 @@
             <div class="opacity-medium bg-extra-dark-gray z-index-0"></div>
             <div class="container h-100">
                 <div class="row h-100">
-                    <div class="col col-9 d-flex justify-content-center flex-column text-left text-md-start">
+                    <div class="col col-12 col-xxl-8 col-xl-10 col-lg-11 col-md-11 d-flex justify-content-center flex-column text-left text-md-start">
                         <div>
                         <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom"> I'm a senior product designer with a passion for human-centered design and usability.</h1>
                         <h3>I'm trained in both architecture and graphic design, and have over 20 years of experience working in UX/UI.</h3>
@@ -26,12 +28,6 @@
                 </div>
             </div>
         </section>
-
-
-
-
-
-
 
     <!-- start accordions style 01 section -->
     <section id="home-text-intro" class="wow fadeIn">
@@ -389,8 +385,7 @@
             akcsos: [
                 { src: '<?= BASE_URL ?>projects-archived/akc-sos/01.jpg', },
                 { src: '<?= BASE_URL ?>projects-archived/akc-sos/02.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/akc-sos/03.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/akc-sos/04.jpg', }
+                { src: '<?= BASE_URL ?>projects-archived/akc-sos/03.jpg', }
             ],
 
             koru: [
