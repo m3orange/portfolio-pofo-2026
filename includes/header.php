@@ -49,6 +49,6 @@
         <![endif]-->
 
 <link rel="stylesheet" href="<?= BASE_URL ?>_style-overwrites.css?v=1" />
-<link rel="stylesheet" href="<?= BASE_URL ?>_guides.css" />
+<!-- <link rel="stylesheet" href="<?= BASE_URL ?>_guides.css" /> -->
 
 </head>

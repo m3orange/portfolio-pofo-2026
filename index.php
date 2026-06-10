@@ -8,10 +8,8 @@
 
 <body class="home">
 
-<?php include ROOT_PATH . 'includes/grid-guide.php'; ?>
-
     <!-- start header -->
-    <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
+    <?php include ROOT_PATH . 'includes/global-nav-half-panel.php'; ?>
     <!-- end header -->
 
     <section id="home-hero-opener" class="p-0 full-screen position-relative wow animate__fadeIn" style="height: 1029px; visibility: visible; animation-name: fadeIn;">
