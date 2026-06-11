@@ -29,6 +29,8 @@ Version: 2.3
     --alt-text:    "IBM Plex Mono", "SF Mono", "Consolas", ui-monospace!important; font-weight: 400!important;
     --alt-text-2:     "Archivo", Archivo, "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif!important; font-weight: 400!important;
     --archivo-headers-01:     "Archivo", Archivo, "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif!important; font-weight: 400!important;
+    --serif-text:    "IBM Plex Serif", "Garamond", "Times New Roman", serif!important; font-weight: 400!important;
+
     --default-font-color: #444444;
     --m3-orange: #FF7700;
     --text-highlight-01: #ffe318;
@@ -99,7 +101,8 @@ ul, ol, dl {list-style-position: outside; margin-bottom: 25px}
 /* font family */
 
 .main-font {font-family: var(--ibm-sans-body-01), sans-serif!important;}
-.alt-font  {font-family: var(--ibm-mono-01), sans-serif!important; }
+.alt-font, .mono-font  {font-family: var(--ibm-mono-01), sans-serif!important; }
+.serif-font {font-family: var(--serif-text), serif!important; font-weight: 500!important;}
 .header-font {font-family: var(--ibm-sans-headers-01);}
 
 /* heading */

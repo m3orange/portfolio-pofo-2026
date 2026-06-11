@@ -9,7 +9,7 @@
 <body class="home">
 
     <!-- start header -->
-    <?php include ROOT_PATH . 'includes/global-nav-half-panel.php'; ?>
+    <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
     <!-- end header -->
 
     <section id="home-hero-opener" class="p-0 full-screen position-relative wow animate__fadeIn" style="height: 1029px; visibility: visible; animation-name: fadeIn;">

@@ -35,6 +35,13 @@ a{
 }
 
 
+.m3-main-nav .opacity-light{
+        opacity: 0.8;
+}
+
+.m3-main-nav .bg-extra-dark-gray{
+      background-color: #000000;
+}
 
 header nav.navbar-default, 
 nav.navbar.bootsnav {
@@ -396,8 +403,12 @@ img.mfp-img{
         margin-bottom: 20px;
     font-weight: 400 !important;
     line-height: 1.4em !important;
-    font-size: 22px!important;
+    /* font-size: 22px!important; */
 }
+.home .accordion-style1 ul{
+padding-inline-start: 20px!important;
+}
+
 
 /* 
 
@@ -1052,3 +1063,63 @@ height: 70vh!important;
 }
 
 */
+
+.ibm-plex-serif-light {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ibm-plex-serif-regular {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-serif-medium {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ibm-plex-serif-semibold {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ibm-plex-serif-bold {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ibm-plex-serif-light-italic {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ibm-plex-serif-regular-italic {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ibm-plex-serif-medium-italic {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ibm-plex-serif-semibold-italic {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.ibm-plex-serif-bold-italic {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+}
