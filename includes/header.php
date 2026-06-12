@@ -22,7 +22,7 @@
 
 
     <link rel="stylesheet" href="<?= BASE_URL ?>css/animate.css" />
-    <link rel="stylesheet" href="<?= BASE_URL ?>css/bootstrap.min.css" />
+    <link rel="stylesheet" href="<?= BASE_URL ?>css/bootstrap.min.css" /> 
     <link rel="stylesheet" href="<?= BASE_URL ?>css/et-line-icons.css" />
     <link rel="stylesheet" href="<?= BASE_URL ?>css/font-awesome.min.css" />
     <link rel="stylesheet" href="<?= BASE_URL ?>css/themify-icons.css">
@@ -35,6 +35,19 @@
     <link rel="stylesheet" href="<?= BASE_URL ?>css/bootsnav.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>css/style.css" />
     <link rel="stylesheet" href="<?= BASE_URL ?>css/responsive.css" />
+
+
+<!-- Needed by Bootstrap tooltips - Start 
+    Global one, which the Bootstrap tooltips call for. 
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      BUT causing conflict with the local Bootstrap CSS, so commenting it for now.
+-->
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>     
+
+
+<!-- Needed by Bootstrap tooltips - End -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

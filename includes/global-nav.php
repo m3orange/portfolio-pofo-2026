@@ -40,7 +40,7 @@
                     <div class="col-md-6 p-0 bg-white full-screen text-left">
                         <div class="position-absolute height-100 width-100 overflow-auto">
                             <div class="display-table height-100 width-100">
-                                <div class="display-table-cell height-100 width-100 vertical-align-top padding-fourteen-lr alt-font link-style-2 md-padding-seven-lr sm-padding-15px-lr padding-thirty-tb">
+                                <div class="display-table-cell height-100 width-100 vertical-align-top padding-fourteen-lr alt-font link-style-2 md-padding-seven-lr sm-padding-15px-lr padding-ten-tb">
                                     <!-- start menu -->
                                     <ul class="font-weight-600 sm-no-padding-left">
                                         <li><a href="<?= BASE_URL ?>index.php" class="inner-link">Home</a></li>
@@ -50,13 +50,17 @@
                                             <a href="javascript:void(0);" data-toggle="dropdown" >Featured Work</a>
                                             <!-- <span data-toggle="dropdown" class="dropdown-toggle"></span> -->
                                             <ul class="dropdown-menu font-weight-300">
-                                                <li><a href="<?= BASE_URL ?>projects/citybox/index.php" title="Atlas UI">CityBox UI</a></li>
-                                                <li><a href="<?= BASE_URL ?>projects/musicasa/index.php" title="Musicasa">Musicasa</a></li>
-                                                <li><a href="<?= BASE_URL ?>projects/idd/index.php" title="IDD">IDD</a></li>
-                                                <li><a href="<?= BASE_URL ?>projects/map-tools/index.php" title="Map Tools">Map Tools</a></li>
+                                                <li><a href="<?= BASE_URL ?>projects/citybox/index.php"         title="Atlas UI">CityBox UI</a></li>
+                                                <li><a href="<?= BASE_URL ?>projects/atlas-design-system/index.php" title="Atlas Design System">Atlas</a></li>
+                                                <li><a href="<?= BASE_URL ?>projects/admin/index.php"           title="Admin">Admin</a></li>
+                                                <li><a href="<?= BASE_URL ?>projects/musicasa/index.php"        title="Musicasa">Musicasa</a></li>
+                                                <li><a href="<?= BASE_URL ?>projects/usic/index.php"            title="USIC">USIC</a></li>
+                                                <li><a href="<?= BASE_URL ?>projects/map-tools/index.php"       title="Map Tools">Map Tools</a></li>
+                                                <li><a href="<?= BASE_URL ?>projects/idd/index.php"             title="IDD">IDD</a></li>  
                                             </ul>
                                         </li>
                                         <!-- <li><a href="<?= BASE_URL ?>about.php" class="inner-link">Earlier Work</a></li> -->
+                                        <li><a href="<?= BASE_URL ?>archived-work.php" class="inner-link">Earlier Work</a></li>
 
 
 

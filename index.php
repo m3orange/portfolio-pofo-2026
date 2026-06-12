@@ -16,16 +16,42 @@
             <div class="opacity-medium bg-extra-dark-gray z-index-0"></div>
             <div class="container h-100">
                 <div class="row h-100">
-                    <div class="col col-12 col-xxl-8 col-xl-10 col-lg-11 col-md-11 d-flex justify-content-center flex-column text-left text-md-start">
+                    <div class="col col-12 col-xxl-8 col-xl-10 col-lg-11 col-md-11 d-flex justify-content-center flex-column text-left text-md-start"> <!--style="justify-content: space-around!important;"-->
                         <div>
-                        <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom"> I'm a senior product designer with a passion for human-centered design and usability.</h1>
-                        <h3>I'm trained in both architecture and graphic design, and have over 20 years of experience working in UX/UI.</h3>
-                        </div>
-                    </div>
 
-                </div>
+                            <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom"> 
+                                I'm a senior 
+                                <span class="mf-var-01">product designer</span> with a 
+                                <span class="mf-var-02">passion for human-centered design</span> and 
+                                <span class="mf-var-03">usability.</span></h1>
+                            <h5 class="font-weight-400">
+                            Trained in both architecture and graphic design, I have 25+ years of multidisciplinary design experience {print, brand, web}. For the past 12, I have been focused on product design and UX engineering.<sup>1</sup>
+                        </h5>
+
+                        </div>
+                        <div class="code-speak">
+                            <sup>1</sup><span class="main-font ">&lt;!--</span>
+                            <span class="archivo-font">&#x1F984; I speak code.</span>
+                            <span class="main-font ">--&gt;</span>
+                        </div>
+                    </div><!-- cols-->
+                </div><!-- row-->
+
             </div>
         </section>
+
+
+
+
+<!-- <h6 class="code-speak">
+<sup>1</sup><span class="main-font ">&lt;!--</span>
+<span class="archivo-font">&#x1F984; I speak code.</span>
+<span class="main-font ">--&gt;</span>
+</h6>
+<div class="starburst">
+<img src="<?= BASE_URL ?>images/starburst-100x100.svg" alt="Eames Starburst"/>
+</div>   -->
+
 
     <!-- start accordions style 01 section -->
     <section id="home-text-intro" class="wow fadeIn">
@@ -105,8 +131,11 @@
                                         <li>
                                             I’m a fierce advocate of delivering design information –from layouts, to specs and PRDs– as close as possible to code and the frameworks being used, to reach fidelity and parity faster and to reduce feedback loops that cause delays and friction.
                                         </li>
-                                        <li style="font-size: 80%!important;">
-                                            p.s. I believe in handshakes, not handoffs. Design and engineering's collaboration should start at the beginning of the project, not when Jira tickets are created. It should be a constant, symbiotic relationship, where standups and critical touchpoints can ensure that challenges are tackled early on.
+                                        <li style="font-size: 80%!important; list-style: none;" class="italic-ibm">
+                                            <i>
+                                                    p.s. I believe in <strong>&lt;!--handshakes, not handoffs.--&gt; </strong> Design and engineering's collaboration should start at the beginning of the project, not when Jira tickets are created. It should be a constant, symbiotic relationship, where standups and critical touchpoints can ensure that challenges are tackled early on.
+                                            </i>
+                                            
                                         </li>
                                     </ul>
                                 </h6>

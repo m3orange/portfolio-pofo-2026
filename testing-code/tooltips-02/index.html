@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    
+    <!-- title -->
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="http://localhost:8000/css/animate.css">
+    <link rel="stylesheet" href="http://localhost:8000/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="http://localhost:8000/css/et-line-icons.css">
+    <link rel="stylesheet" href="http://localhost:8000/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://localhost:8000/css/themify-icons.css">
+    <link rel="stylesheet" href="http://localhost:8000/css/swiper.min.css">
+    <link rel="stylesheet" href="http://localhost:8000/css/justified-gallery.min.css">
+    <link rel="stylesheet" href="http://localhost:8000/css/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost:8000/revolution/css/settings.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="http://localhost:8000/revolution/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost:8000/revolution/css/navigation.css">
+    <link rel="stylesheet" href="http://localhost:8000/css/bootsnav.css">
+    <link rel="stylesheet" href="http://localhost:8000/css/style.css">
+    <link rel="stylesheet" href="http://localhost:8000/css/responsive.css">
+
+
+<!-- Needed by these tooltips - Start 
+    Conflict:
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>     
+<!-- Needed by these tooltips - End -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&amp;display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+
+    <!--[if IE]>
+            <script src="js/html5shiv.js"></script>
+        <![endif]-->
+
+<link rel="stylesheet" href="http://localhost:8000/_style-overwrites.css?v=1">
+<!-- <link rel="stylesheet" href="http://localhost:8000/_guides.css" /> -->
+
+</head>
+<body>
+
+
+ <section>
+  <!-- This is https://stackoverflow.com/questions/65854934/is-a-css-only-inline-tooltip-with-html-content-inside-eg-images-possible -->
+  <div class="container" style="min-height: 400px;">
+  <div class="row">
+   <div class="col col-8">
+    <h3>Better Option</h3>
+       <div class="inline">But I am hoverable.&nbsp; 
+        <div class="content">I am tooltip content and I've got an image in me... 
+          <img src="https://picsum.photos/200"/>
+          <div>...and another div</div>
+        </div>
+      </div>
+   </div>
+  </div>
+
+    <style>
+   .inline {
+     display:inline-block;
+     position: relative;
+   }
+   .inline .content {
+     display: none;
+     position: absolute;
+     top: 1em;
+     left: 0;
+     z-index: 99999;
+     border-style: solid;
+     background-color: white;
+   }
+   .inline:hover .content {
+     display: block;
+   }
+
+   </style>
+
+ </div>
+</section>
+
+
+
+
+<section>
+ <div class="container" style="min-height: 400px;">
+
+      <div class="tooltip-container">
+       Hover over me
+       <!-- Your rich HTML tooltip content goes here -->
+       <div class="tooltip-box">
+         <h4>Tooltip Title</h4>
+         <p>This is styled text with a <a href="#">link</a>.</p>
+         <img src="https://placeholder.com" alt="Icon">
+       </div>
+      </div>
+
+    <style>
+
+    body{
+    padding: 200px;
+    }
+
+    /* The container wrapping both elements */
+    .tooltip-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    }
+
+    /* Hidden by default, absolute positioning layout */
+    .tooltip-box {
+    display: none;
+    position: absolute;
+    bottom: 125%; /* Places it above the text */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    z-index: 100;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    }
+
+    /* Inline HTML content formatting */
+    .tooltip-box a { color: #00ffff; }
+    .tooltip-box h4 { margin: 0 0 5px 0; color: #ffcc00; }
+
+    /* Show the tooltip on hover */
+    .tooltip-container:hover .tooltip-box {
+    display: block;
+    }
+    </style>
+</div>
+</section>
+
+
+</body>
+</html>
