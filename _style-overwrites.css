@@ -317,7 +317,11 @@ img.mfp-img{
 
 }
 
-#home-hero-opener .starburst{
+#home-hero-opener .starburst {
+    margin: 0 0 40px 0;
+}
+
+#home-hero-opener .starburst img{
     width: 80px;
 }
 
@@ -1074,6 +1078,38 @@ height: 70vh!important;
     max-width: 85% !important ; 
         /* border: 3px solid pink; */
 }
+
+
+
+.d2c {
+    background-color: #222222;
+}
+
+
+.d2c #block-intro-slider{
+
+    display: flex;
+    align-items: flex-start;
+    padding:  0 !important;
+    background: #155FDD url('projects/design-to-code/hero-image@0.5x.png') left no-repeat!important;
+        /* background: #155FDD url('projects/design-to-code/hero-image-02-@0.5x.png') left no-repeat!important; */
+    background-size: 100%!important;
+    background-position-x: 0px!important;
+    background-position-y: top!important;
+    /* opacity: 0.2; */
+    height: 60vh!important;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -17,23 +17,32 @@
             <div class="container h-100">
                 <div class="row h-100">
                     <div class="col col-12 col-xxl-8 col-xl-10 col-lg-11 col-md-11 d-flex justify-content-center flex-column text-left text-md-start"> <!--style="justify-content: space-around!important;"-->
-                        <div>
 
-                            <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom"> 
+
+
+<div class="row padding-10px-all">
+                                <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom"> 
                                 I'm a senior 
-                                <span class="mf-var-01">product designer</span> with a 
-                                <span class="mf-var-02">passion for human-centered design</span> and 
+                                <span class="mf-var-02">product designer</span> with a 
+                                <span class="mf-var-01">passion for human-centered design</span> and 
                                 <span class="mf-var-03">usability.</span></h1>
                             <h5 class="font-weight-400">
                             Trained in both architecture and graphic design, I have 25+ years of multidisciplinary design experience {print, brand, web}. For the past 12, I have been focused on product design and UX engineering.<sup>1</sup>
                         </h5>
+</div>
 
-                        </div>
-                        <div class="code-speak">
+
+<div class="row code-speak padding-10px-lr  padding-20px-top padding-20px-bottom">
+
                             <sup>1</sup><span class="main-font ">&lt;!--</span>
-                            <span class="archivo-font">&#x1F984; I speak code.</span>
+                            <span class="archivo-font"> I speak code. &#x1F984;</span>
                             <span class="main-font ">--&gt;</span>
-                        </div>
+
+
+</div>
+<?php include ROOT_PATH . 'includes/starburst-100x100.php'; ?>
+
+                        
                     </div><!-- cols-->
                 </div><!-- row-->
 
@@ -45,7 +54,7 @@
 
 <!-- <h6 class="code-speak">
 <sup>1</sup><span class="main-font ">&lt;!--</span>
-<span class="archivo-font">&#x1F984; I speak code.</span>
+<span class="archivo-font"> I speak code. &#x1F984;</span>
 <span class="main-font ">--&gt;</span>
 </h6>
 <div class="starburst">
@@ -100,9 +109,9 @@
                                 <div class="panel-body">
                                     <h6>
                                         <ul>
-                                            <li> I’m involved in: leading interviews and design thinking workshops with stakeholders; using AI-assisted research and synthesis to help drive discovery into ideation; prototyping ideas and testing their viability with business and engineering; shipping designs as close to code as possible, among others.</li>
+                                            <li> Some key moments where I'm involved: leading interviews and design thinking workshops with cross-functional stakeholders; using AI-assisted research and synthesis to drive discovery into ideation; prototyping ideas to test their viability with business and engineering; shipping designs as close to code as possible, among others.</li>
 
-                                            <li>I think like a detective: I gather insight on business needs, competitive models, technical constraints, and user needs and challenges, and I help teams connect the dots into cross-functional alignment on what we need to build and making sure we're building it right.</li>
+                                            <li>I think like a detective: I gather insight on business needs, technical constraints and users' needs and challenges, and I help teams connect the dots that lead to cross-functional alignment on what we need to build and making sure we're building it right.</li>
 
                                         </ul>
                                     </h6> 
@@ -129,7 +138,7 @@
 
                                         </li>
                                         <li>
-                                            I’m a fierce advocate of delivering design information –from layouts, to specs and PRDs– as close as possible to code and the frameworks being used, to reach fidelity and parity faster and to reduce feedback loops that cause delays and friction.
+                                            I’m a fierce advocate of delivering design information –from layouts, to specs and PRDs– as close as possible to code, and to the specifics frameworks being used. The goal is to reach fidelity and parity faster, mitigate tech and design debt, and to reduce feedback loops that cause delays and friction.
                                         </li>
                                         <li style="font-size: 80%!important; list-style: none;" class="italic-ibm">
                                             <i>
