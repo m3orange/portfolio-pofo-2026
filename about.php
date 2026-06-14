@@ -10,12 +10,9 @@
     <!-- end header -->
 
 
-     <!-- <section id="block-intro-slider">
+    <section id="block-intro-slider">
     
     </section>
-
-
-
 
     <section class="intro-info">
         <div class="container">
@@ -29,7 +26,7 @@
 
             </div>
         </div>
-    </section> -->
+    </section> 
 
 
 
