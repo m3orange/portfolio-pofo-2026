@@ -13,7 +13,7 @@
     <!-- start parallax hero section -->
     <section class="fullwidth-idd-demo">
         <video autoplay loop muted playsinline>
-            <source src="<?= BASE_URL ?>projects/idd/idd-demo-loop.mp4" type="video/mp4">  
+            <source src="<?= BASE_URL ?>projects/idd/assets/idd-demo-loop.mp4" type="video/mp4">  
         </video>  
     </section>
 
@@ -51,10 +51,10 @@
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row margin-40px-bottom">
                 <div class="col col-12 col-lg-5 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.2s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/idd/idd-journey-02.png"></div>
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/idd/assets/idd-journey-02.png"></div>
                 </div> 
                 <div class="col col-12 col-lg-7 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.2s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/idd/idd-journey-01.png"></div>
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/idd/assets/idd-journey-01.png"></div>
                 </div>
             </div>
         </div>
@@ -69,7 +69,7 @@
             <div class="row">
                 <div class="col col-12" data-wow-delay="0.4s">
                     <div class="gallery-item">
-                        <img src="<?= BASE_URL ?>projects/idd/idd-all-screens.png"/>
+                        <img src="<?= BASE_URL ?>projects/idd/assets/idd-all-screens.png"/>
                     </div>
                 </div>
             </div>

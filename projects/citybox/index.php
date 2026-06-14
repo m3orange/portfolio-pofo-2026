@@ -20,7 +20,7 @@
     <!-- start parallax hero section -->
     <section id="block-intro-slider" class="wow p-0 " >
         <video autoplay loop muted playsinline class="hero-video-cb">
-            <source src="<?= BASE_URL ?>projects/citybox/citybox-screens-in-laptop.mp4" type="video/mp4">  
+            <source src="<?= BASE_URL ?>projects/citybox/assets/citybox-screens-in-laptop.mp4" type="video/mp4">  
         </video>
     </section>
     <!-- end parallax hero section -->
@@ -35,7 +35,7 @@
                         <h3>Atlas UI</h3>
                     </div>
                 </div>
-               <?php include ROOT_PATH . 'projects/citybox/description-intro.php'; ?>
+               <?php include ROOT_PATH . 'projects/citybox/assets/description-intro.php'; ?>
 
             </div>
         </div>
@@ -56,16 +56,16 @@
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row margin-40px-bottom">
                 <div class="col col-12 col-lg-4 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/citybox/discovery-grid-01.png"></div>
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/citybox/assets/discovery-grid-01.png"></div>
                     <!-- <div class="gallery-prject-description">Description</div> -->
                 </div>
                 <div class="col col-12 col-lg-4 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp"
                     data-wow-delay="0.4s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/citybox/discovery-grid-02.png"></div>
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/citybox/assets/discovery-grid-02.png"></div>
                 </div>
                 <div class="col col-12 col-lg-4 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp"
                     data-wow-delay="0.6s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/citybox/discovery-grid-03.png"></div>
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/citybox/assets/discovery-grid-03.png"></div>
                 </div>
                
             </div>
@@ -105,7 +105,7 @@
                     </div>
                      -->
                     <div class="gallery-item">
-                        <img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-design-system-fullwidth.png"/>
+                        <img src="<?= BASE_URL ?>projects/atlas-design-system/assets/atlas-design-system-fullwidth.png"/>
                     </div>
                 </div>
             </div>
@@ -147,17 +147,17 @@
 
                         <div class="swiper-wrapper">
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/citybox/cb-screens-browser-01.png"></div>
+                                    src="<?= BASE_URL ?>projects/citybox/assets/cb-screens-browser-01.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/citybox/cb-screens-browser-02.png"></div>
+                                    src="<?= BASE_URL ?>projects/citybox/assets/cb-screens-browser-02.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/citybox/cb-screens-browser-03.png"></div>
+                                    src="<?= BASE_URL ?>projects/citybox/assets/cb-screens-browser-03.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/citybox/cb-screens-browser-04.png"></div>
+                                    src="<?= BASE_URL ?>projects/citybox/assets/cb-screens-browser-04.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/citybox/cb-screens-browser-05.png"></div>
+                                    src="<?= BASE_URL ?>projects/citybox/assets/cb-screens-browser-05.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/citybox/cb-screens-browser-06.png"></div>
+                                    src="<?= BASE_URL ?>projects/citybox/assets/cb-screens-browser-06.png"></div>
 
                         </div>
                         <div
@@ -202,10 +202,10 @@
                     <li class="grid-sizer"></li>
 
                     <li class="grid-item grid-item-double  wow fadeInUp"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/citybox/cb-specs-01.png" data-group="two-columns-zoom-animation"
+                        <a href="<?= BASE_URL ?>projects/citybox/assets/cb-specs-01.png" data-group="two-columns-zoom-animation"
                             class="lightbox-group-gallery-item">
                             <figure>
-                                <div class="portfolio-img bg-extra-dark-gray"><img src="<?= BASE_URL ?>projects/citybox/cb-specs-01.png" class="project-img-gallery" /></div>
+                                <div class="portfolio-img bg-extra-dark-gray"><img src="<?= BASE_URL ?>projects/citybox/assets/cb-specs-01.png" class="project-img-gallery" /></div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box vertical-align-middle">
@@ -220,11 +220,11 @@
                     </li>
 
                     <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/citybox/cb-specs-02.png" data-group="two-columns-zoom-animation"
+                        <a href="<?= BASE_URL ?>projects/citybox/assets/cb-specs-02.png" data-group="two-columns-zoom-animation"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray"><img
-                                        src="<?= BASE_URL ?>projects/citybox/cb-specs-02.png" class="project-img-gallery" /></div>
+                                        src="<?= BASE_URL ?>projects/citybox/assets/cb-specs-02.png" class="project-img-gallery" /></div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box vertical-align-middle">
@@ -238,11 +238,11 @@
                         </a>
                     </li>
                     <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/citybox/cb-specs-03.png" data-group="two-columns-zoom-animation"
+                        <a href="<?= BASE_URL ?>projects/citybox/assets/cb-specs-03.png" data-group="two-columns-zoom-animation"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray"><img
-                                        src="<?= BASE_URL ?>projects/citybox/cb-specs-03.png" class="project-img-gallery" /></div>
+                                        src="<?= BASE_URL ?>projects/citybox/assets/cb-specs-03.png" class="project-img-gallery" /></div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box vertical-align-middle">
@@ -256,11 +256,11 @@
                         </a>
                     </li>
                     <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/citybox/cb-specs-04.png" data-group="two-columns-zoom-animation"
+                        <a href="<?= BASE_URL ?>projects/citybox/assets/cb-specs-04.png" data-group="two-columns-zoom-animation"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray"><img
-                                        src="<?= BASE_URL ?>projects/citybox/cb-specs-04.png" class="project-img-gallery" /></div>
+                                        src="<?= BASE_URL ?>projects/citybox/assets/cb-specs-04.png" class="project-img-gallery" /></div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box vertical-align-middle">

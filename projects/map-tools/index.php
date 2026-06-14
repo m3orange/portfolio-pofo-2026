@@ -13,10 +13,7 @@
 
     <!-- start parallax hero section -->
      <section id="block-intro-slider">
-        <!-- <div class="map-tools-detail">
-        <img src="<?= BASE_URL ?>projects/map-tools/project-page-detail-02.png"/>
 
-        </div> -->
     </section>
     <!-- end parallax hero section -->
 
@@ -30,28 +27,37 @@
                         <div class="row">
                 <div class="col col-12 col-lg-7 offset-lg-1 wow fadeIn" data-wow-delay="0s">
                     <div class="gallery-item">
-                        <img src="<?= BASE_URL ?>projects/map-tools/map-tools-diagram-title.png"/>
+                        <img src="<?= BASE_URL ?>projects/map-tools/assets/map-tools-diagram-title.png"/>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col col-12 col-lg-8 offset-lg-1 wow fadeIn" data-wow-delay="0.2s">
                     <div class="gallery-item">
-                        <img src="<?= BASE_URL ?>projects/map-tools/map-tools-diagram-01.png"/>
+                        <img src="<?= BASE_URL ?>projects/map-tools/assets/map-tools-diagram-01.png"/>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col col-12 col-lg-8 offset-lg-4 wow fadeIn" data-wow-delay="0.4s">
                     <div class="gallery-item">
-                        <img src="<?= BASE_URL ?>projects/map-tools/map-tools-diagram-02.png"/>
+                        <img src="<?= BASE_URL ?>projects/map-tools/assets/map-tools-diagram-02.png"/>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col col-12 col-lg-9 offset-lg-1 wow fadeIn" data-wow-delay="0.6s">
                     <div class="gallery-item">
-                        <img src="<?= BASE_URL ?>projects/map-tools/map-tools-diagram-03.png"/>
+                        <img src="<?= BASE_URL ?>projects/map-tools/assets/map-tools-diagram-03.png"/>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-12 col-lg-8 offset-lg-2 wow fadeIn" data-wow-delay="0.6s">
+                    <div class="gallery-item">
+                        <video autoplay loop muted playsinline class="hero-video-cb">
+                            <source src="<?= BASE_URL ?>projects/map-tools/assets/map-tools-demo-light.mp4" type="video/mp4">  
+                        </video>                        
                     </div>
                 </div>
             </div>
@@ -63,11 +69,11 @@
     <section class="fullwidth-map-tools-animation">
         <div class="container">
             <div class="row">
-                <div class="col col-12 col-md-8 offset-md-2 ">
+                <div class="col col-12 col-md-10 offset-md-1">
 
-                       <video autoplay loop muted playsinline class="hero-video-cb">
-            <source src="<?= BASE_URL ?>projects/map-tools/map-tools-demo-dark.mp4" type="video/mp4">  
-        </video>    
+                    <video autoplay loop muted playsinline class="hero-video-cb">
+                        <source src="<?= BASE_URL ?>projects/map-tools/assets/both-demos-with-fading.mp4" type="video/mp4">  
+                    </video>    
                 </div>  
             </div>
         </div>

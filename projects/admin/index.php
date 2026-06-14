@@ -12,7 +12,7 @@
     <!-- start parallax hero section -->
      <section id="block-intro-slider">
         <video autoplay loop muted playsinline class="hero-video-admin">
-            <source src="<?= BASE_URL ?>projects/admin/admin-demo-loop.mp4" type="video/mp4">  
+            <source src="<?= BASE_URL ?>projects/admin/assets/admin-demo-loop.mp4" type="video/mp4">  
         </video>    
     </section>
     <!-- end parallax hero section -->
@@ -48,24 +48,24 @@
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row margin-40px-bottom">
                 <div class="col col-12 col-lg-4 col-md-6 col-sm-6 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.2s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/discovery-grid-01@0.5.png"></div>
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/assets/discovery-grid-01@0.5.png"></div>
                     <!-- <div class="gallery-prject-description">Description</div> -->
                 </div>
                 <div class="col col-12 col-lg-4 col-md-6 col-sm-6 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.4s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/discovery-grid-02@0.5.png"></div>
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/assets/discovery-grid-02@0.5.png"></div>
                 </div>
                 <div class="col col-12 col-lg-4 col-md-6 col-sm-6 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.6s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/discovery-grid-03@0.5.png"></div>
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/assets/discovery-grid-03@0.5.png"></div>
                 </div>
 
                 <div class="col col-12 col-lg-4 col-md-6 col-sm-6 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.2s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/discovery-grid-04@0.5.png"></div>
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/assets/discovery-grid-04@0.5.png"></div>
                 </div>
                 <div class="col col-12 col-lg-4 col-md-6 col-sm-6 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.2s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/discovery-grid-05@0.5.png"></div>
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/assets/discovery-grid-05@0.5.png"></div>
                 </div>
                 <div class="col col-12 col-lg-4 col-md-6 col-sm-6 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.2s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/discovery-grid-06@0.5.png"></div>
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/assets/discovery-grid-06@0.5.png"></div>
                 </div>               
             </div>
         </div>
@@ -79,7 +79,7 @@
         <div class="container-fluid padding-four-lr md-padding-30px-lr">
             <div class="row">
                 <div class="col col-12">
-                    <div class="image-grid-discovery-fullwidth"><img src="<?= BASE_URL ?>projects/admin/admin-wireframes.png"></div>
+                    <div class="image-grid-discovery-fullwidth"><img src="<?= BASE_URL ?>projects/admin/assets/admin-wireframes.png"></div>
                 </div>
             </div>
         </div>
@@ -97,7 +97,7 @@
                     </div>
                      -->
                     <div class="gallery-item">
-                        <img src="<?= BASE_URL ?>projects/admin/admin-journey-map.jpg">
+                        <img src="<?= BASE_URL ?>projects/admin/assets/admin-journey-map.jpg">
                     </div>
                 </div>
             </div>
@@ -132,9 +132,9 @@
                     <li class="grid-sizer"></li>
 
                     <li class="grid-item grid-item-double  wow fadeInUp" data-wow-delay="0s"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/admin/admin-screens-02.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
+                        <a href="<?= BASE_URL ?>projects/admin/assets/admin-screens-02.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
                             <figure>
-                                <div class="portfolio-img bg-extra-dark-gray"><img src="<?= BASE_URL ?>projects/admin/admin-screens-02.png" class="project-img-gallery" /></div>
+                                <div class="portfolio-img bg-extra-dark-gray"><img src="<?= BASE_URL ?>projects/admin/assets/admin-screens-02.png" class="project-img-gallery" /></div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box vertical-align-middle">
@@ -149,10 +149,10 @@
                     </li>
 
                     <li class="grid-item wow fadeInUp" data-wow-delay="0.5s">
-                        <a href="<?= BASE_URL ?>projects/admin/admin-screens-01.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
+                        <a href="<?= BASE_URL ?>projects/admin/assets/admin-screens-01.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray"><img
-                                        src="<?= BASE_URL ?>projects/admin/admin-screens-01.png" class="project-img-gallery" /></div>
+                                        src="<?= BASE_URL ?>projects/admin/assets/admin-screens-01.png" class="project-img-gallery" /></div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box vertical-align-middle">
@@ -166,10 +166,10 @@
                         </a>
                     </li>
                     <li class="grid-item wow fadeInUp" data-wow-delay="0.6s">
-                        <a href="<?= BASE_URL ?>projects/admin/admin-screens-03.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
+                        <a href="<?= BASE_URL ?>projects/admin/assets/admin-screens-03.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray"><img
-                                        src="<?= BASE_URL ?>projects/admin/admin-screens-03.png" class="project-img-gallery" /></div>
+                                        src="<?= BASE_URL ?>projects/admin/assets/admin-screens-03.png" class="project-img-gallery" /></div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box vertical-align-middle">
@@ -183,10 +183,10 @@
                         </a>
                     </li>
                     <li class="grid-item wow fadeInUp" data-wow-delay="0.6s">
-                        <a href="<?= BASE_URL ?>projects/admin/admin-screens-04.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
+                        <a href="<?= BASE_URL ?>projects/admin/assets/admin-screens-04.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray"><img
-                                        src="<?= BASE_URL ?>projects/admin/admin-screens-04.png" class="project-img-gallery" /></div>
+                                        src="<?= BASE_URL ?>projects/admin/assets/admin-screens-04.png" class="project-img-gallery" /></div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box vertical-align-middle">
@@ -200,10 +200,10 @@
                         </a>
                     </li>
                     <li class="grid-item wow fadeInUp" data-wow-delay="0.6s">
-                        <a href="<?= BASE_URL ?>projects/admin/admin-screens-05.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
+                        <a href="<?= BASE_URL ?>projects/admin/assets/admin-screens-05.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray"><img
-                                        src="<?= BASE_URL ?>projects/admin/admin-screens-05.png" class="project-img-gallery" /></div>
+                                        src="<?= BASE_URL ?>projects/admin/assets/admin-screens-05.png" class="project-img-gallery" /></div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box vertical-align-middle">
@@ -253,15 +253,15 @@
 
                         <div class="swiper-wrapper">
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/admin/admin-presentation-01.png"></div>
+                                    src="<?= BASE_URL ?>projects/admin/assets/admin-presentation-01.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/admin/admin-presentation-02.png"></div>
+                                    src="<?= BASE_URL ?>projects/admin/assets/admin-presentation-02.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/admin/admin-presentation-03.png"></div>
+                                    src="<?= BASE_URL ?>projects/admin/assets/admin-presentation-03.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/admin/admin-presentation-04.png"></div>
+                                    src="<?= BASE_URL ?>projects/admin/assets/admin-presentation-04.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/admin/admin-presentation-05.png"></div>
+                                    src="<?= BASE_URL ?>projects/admin/assets/admin-presentation-05.png"></div>
                         </div>
                         <div
                             class="swiper-pagination swiper-pagination-square swiper-pagination-white swiper-full-screen-pagination">

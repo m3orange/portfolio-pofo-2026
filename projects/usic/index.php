@@ -12,9 +12,8 @@
 
     <!-- start parallax hero section -->
     <section id="block-intro-slider">
-        <!-- <div class="usic-hero-image">
-            <img src="<?= BASE_URL ?>projects/usic/usic-hero-header.png"/>   
-        </div> -->
+
+            <img src="<?= BASE_URL ?>projects/usic/assets/usic-hero-header.png"/>   
          
     </section>
     <!-- end parallax hero section -->
@@ -31,7 +30,7 @@
                         <h3>Roadmap towards CX excellence</h3>
                     </div>
                 </div>
-               <?php include ROOT_PATH . 'projects/citybox/description-intro.php'; ?>
+               <?php include ROOT_PATH . 'projects/musicasa/assets/description-intro.php'; ?>
 
             </div>
         </div>
@@ -63,10 +62,10 @@
                 <ul class="portfolio-grid work-1col hover-option2 gutter-large w-100">
                     <li class="grid-sizer"></li>
                     <li class="grid-item grid-item-double kickoff-presentation"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/usic/kickoff-presentation.jpg" class="lightbox-group-gallery-item">
+                        <a href="<?= BASE_URL ?>projects/usic/assets/kickoff-presentation.jpg" class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray">
-                                    <img src="<?= BASE_URL ?>projects/usic/kickoff-presentation.jpg" class="project-img-gallery" />
+                                    <img src="<?= BASE_URL ?>projects/usic/assets/kickoff-presentation.jpg" class="project-img-gallery" />
                                 </div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
@@ -95,11 +94,11 @@
                 <ul class="portfolio-grid work-5col hover-option2 gutter-large w-100">
                     <li class="grid-sizer"></li>
                     <li class="grid-item grid-item-double"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/usic/workshop-grid/01.jpg" data-group="workshop-exercises-grid"
+                        <a href="<?= BASE_URL ?>projects/usic/assets/workshop-grid/01.jpg" data-group="workshop-exercises-grid"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray">
-                                    <img src="<?= BASE_URL ?>projects/usic/workshop-grid/01.jpg" class="project-img-gallery" />
+                                    <img src="<?= BASE_URL ?>projects/usic/assets/workshop-grid/01.jpg" class="project-img-gallery" />
                                 </div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
@@ -114,11 +113,11 @@
                         </a>
                     </li>
                     <li class="grid-item wow"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/usic/workshop-grid/02.jpg" data-group="workshop-exercises-grid"
+                        <a href="<?= BASE_URL ?>projects/usic/assets/workshop-grid/02.jpg" data-group="workshop-exercises-grid"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray">
-                                    <img src="<?= BASE_URL ?>projects/usic/workshop-grid/02.jpg" class="project-img-gallery" />
+                                    <img src="<?= BASE_URL ?>projects/usic/assets/workshop-grid/02.jpg" class="project-img-gallery" />
                                 </div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
@@ -133,11 +132,11 @@
                         </a>
                     </li>
                     <li class="grid-item wow"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/usic/workshop-grid/03.jpg" data-group="workshop-exercises-grid"
+                        <a href="<?= BASE_URL ?>projects/usic/assets/workshop-grid/03.jpg" data-group="workshop-exercises-grid"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray">
-                                    <img src="<?= BASE_URL ?>projects/usic/workshop-grid/03.jpg" class="project-img-gallery" />
+                                    <img src="<?= BASE_URL ?>projects/usic/assets/workshop-grid/03.jpg" class="project-img-gallery" />
                                 </div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
@@ -152,11 +151,11 @@
                         </a>
                     </li>
                     <li class="grid-item wow"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/usic/workshop-grid/04.jpg" data-group="workshop-exercises-grid"
+                        <a href="<?= BASE_URL ?>projects/usic/assets/workshop-grid/04.jpg" data-group="workshop-exercises-grid"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray">
-                                    <img src="<?= BASE_URL ?>projects/usic/workshop-grid/04.jpg" class="project-img-gallery" />
+                                    <img src="<?= BASE_URL ?>projects/usic/assets/workshop-grid/04.jpg" class="project-img-gallery" />
                                 </div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
@@ -171,11 +170,11 @@
                         </a>
                     </li>
                     <li class="grid-item wow"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/usic/workshop-grid/05.jpg" data-group="workshop-exercises-grid"
+                        <a href="<?= BASE_URL ?>projects/usic/assets/workshop-grid/05.jpg" data-group="workshop-exercises-grid"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray">
-                                    <img src="<?= BASE_URL ?>projects/usic/workshop-grid/05.jpg" class="project-img-gallery" />
+                                    <img src="<?= BASE_URL ?>projects/usic/assets/workshop-grid/05.jpg" class="project-img-gallery" />
                                 </div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
@@ -190,11 +189,11 @@
                         </a>
                     </li>
                     <li class="grid-item wow"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/usic/workshop-grid/06.jpg" data-group="workshop-exercises-grid"
+                        <a href="<?= BASE_URL ?>projects/usic/assets/workshop-grid/06.jpg" data-group="workshop-exercises-grid"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray">
-                                    <img src="<?= BASE_URL ?>projects/usic/workshop-grid/06.jpg" class="project-img-gallery" />
+                                    <img src="<?= BASE_URL ?>projects/usic/assets/workshop-grid/06.jpg" class="project-img-gallery" />
                                 </div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
@@ -230,7 +229,7 @@
             <div class="row">
                 <div class="col col-12 wow" data-wow-delay="0">
                     <div class="gallery-item">
-                        <img src="<?= BASE_URL ?>projects/usic/usic-customer-journey-process.png"/>
+                        <img src="<?= BASE_URL ?>projects/usic/assets/usic-customer-journey-process.png"/>
                     </div>
                 </div>
             </div>
@@ -268,17 +267,17 @@
 
                         <div class="swiper-wrapper">
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/usic/proto-personas-01.png"></div>
+                                    src="<?= BASE_URL ?>projects/usic/assets/proto-personas-01.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/usic/proto-personas-02.png"></div>
+                                    src="<?= BASE_URL ?>projects/usic/assets/proto-personas-02.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/usic/proto-personas-03.png"></div>
+                                    src="<?= BASE_URL ?>projects/usic/assets/proto-personas-03.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/usic/proto-personas-04.png"></div>
+                                    src="<?= BASE_URL ?>projects/usic/assets/proto-personas-04.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/usic/executive-summary-01.png"></div>
+                                    src="<?= BASE_URL ?>projects/usic/assets/executive-summary-01.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/usic/executive-summary-02.png"></div>
+                                    src="<?= BASE_URL ?>projects/usic/assets/executive-summary-02.png"></div>
 
                         </div>
                         <div
@@ -310,11 +309,11 @@
                 <ul class="portfolio-grid work-1col hover-option2 gutter-large w-100">
                     <li class="grid-sizer"></li>
                     <li class="grid-item grid-item-double" style="background: transparent!important;"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/usic/research-readout.png" data-group="two-columns-zoom-animation"
+                        <a href="<?= BASE_URL ?>projects/usic/assets/research-readout.png" data-group="two-columns-zoom-animation"
                             class="lightbox-group-gallery-item">
                             <figure> <!-- This is the initial image that triggers the modal-->
                                 <div class="portfolio-img"> <!--bg-extra-dark-gray was what added the black bg-->
-                                    <img src="<?= BASE_URL ?>projects/usic/research-readout.png" class="project-img-gallery" />
+                                    <img src="<?= BASE_URL ?>projects/usic/assets/research-readout.png" class="project-img-gallery" />
                                 </div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">

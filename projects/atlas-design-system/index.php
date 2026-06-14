@@ -11,7 +11,7 @@
 
     <!-- start parallax hero section -->
     <section id="block-intro-slider">
-        <img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-hero-opener-alpha.png"/>    
+        <img src="<?= BASE_URL ?>projects/atlas-design-system/assets/atlas-hero-opener-alpha.png"/>    
     </section>
     <!-- end parallax hero section -->
 
@@ -53,24 +53,24 @@
 
                                 <li class="grid-item web branding design wow fadeIn grid-item-double">
                                     <div class="portfolio-img bg-extra-dark-gray">
-                                        <img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-intro-grid-01.png">
+                                        <img src="<?= BASE_URL ?>projects/atlas-design-system/assets/atlas-intro-grid-01.png">
                                     </div>
                                 </li>
 
                                 <li class="grid-item web branding design wow fadeIn" data-wow-delay="0.4s">
                                     <div class="portfolio-img bg-extra-dark-gray">
-                                        <img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-intro-grid-02.png">
+                                        <img src="<?= BASE_URL ?>projects/atlas-design-system/assets/assets/atlas-intro-grid-02.png">
                                     </div>
                                 </li>
                                 <li class="grid-item web branding design wow fadeIn" data-wow-delay="0.4s">
                                     <div class="portfolio-img bg-extra-dark-gray">
-                                        <img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-intro-grid-03.png">
+                                        <img src="<?= BASE_URL ?>projects/atlas-design-system/assets/atlas-intro-grid-03.png">
                                     </div>
                                 </li>
 
                                 <li class="grid-item web branding design wow fadeIn" data-wow-delay="0.4s">
                                     <div class="portfolio-img bg-extra-dark-gray">
-                                        <img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-intro-grid-04.png">
+                                        <img src="<?= BASE_URL ?>projects/atlas-design-system/assets/atlas-intro-grid-04.png">
                                     </div>
                                 </li>
 
@@ -108,7 +108,7 @@
                     </div>
                      -->
                     <div class="gallery-item">
-                        <img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-design-system-fullwidth.png"/>
+                        <img src="<?= BASE_URL ?>projects/atlas-design-system/assets/atlas-design-system-fullwidth.png"/>
                     </div>
                 </div>
             </div>
@@ -132,7 +132,7 @@
         <div class="container">
             <div class="row">
                 <div class="col col-12">
-                <img src="<?= BASE_URL ?>projects/atlas-design-system/atlas-ds-microsite-walkthrough-1300px.gif"/>
+                <img src="<?= BASE_URL ?>projects/atlas-design-system/assets/atlas-ds-microsite-walkthrough-1300px.gif"/>
                 </div>
             </div>
         </div>

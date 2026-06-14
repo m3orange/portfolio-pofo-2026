@@ -3624,7 +3624,7 @@ figure{ margin: 0; }
 .tab-style3 .nav-tabs li {float: none; display: inline-block; vertical-align: middle; margin: 0 23px; padding: 3px 0}
 .tab-style3 .nav-tabs li a.nav-link.active {color: #232323}
 .tab-style3 .nav-tabs>li>a.nav-link, .tab-style3 .nav-tabs>li>a.nav-link:focus, .tab-style3 .nav-tabs>li>a.nav-link.active:hover, .tab-style3 .nav-tabs>li>a.nav-link:hover {background-color: transparent; border: none; padding: 0; }
-.tab-style3 .nav-tabs li a.nav-link.active, .tab-style3 .nav-tabs>li>a.nav-link.active:hover {border-bottom: 1px solid #232323; }
+
 
 /* tab style 4 */
 .tab-style4 .tab-content{padding:0 0 0 55px; border-left: 1px solid #e5e5e5; }

@@ -19,7 +19,7 @@
 
     <!-- start parallax hero section -->
     <section id="block-intro-slider">
-        <img src="<?= BASE_URL ?>projects/musicasa/musicasa-fullwidth-02.png"/>    
+        <img src="<?= BASE_URL ?>projects/musicasa/assets/musicasa-fullwidth-02.png"/>    
     </section>
     <!-- end parallax hero section -->
 
@@ -33,7 +33,7 @@
                         <h3>Musicasa</h3>
                     </div>
                 </div>
-               <?php include ROOT_PATH . 'projects/citybox/description-intro.php'; ?>
+               <?php include ROOT_PATH . 'projects/musicasa/assets/description-intro.php'; ?>
 
             </div>
         </div>
@@ -60,23 +60,23 @@
                             <li class="grid-item web branding design wow fadeIn" data-wow-delay="0.4s">
                                 <div class="portfolio-img">
                                     <!-- <div class="card-description">Name of the Project</div> -->
-                                    <img src="<?= BASE_URL ?>projects/musicasa/grid-process-01.png">
+                                    <img src="<?= BASE_URL ?>projects/musicasa/assets/grid-process-01.png">
                                 </div>
                             </li>
                             <li class="grid-item web branding design wow fadeIn" data-wow-delay="0.4s">
                                 <div class="portfolio-img">
-                                    <img src="<?= BASE_URL ?>projects/musicasa/grid-process-02.png">
+                                    <img src="<?= BASE_URL ?>projects/musicasa/assets/grid-process-02.png">
                                 </div>
                             </li>
 
                             <li class="grid-item web branding design wow fadeIn" data-wow-delay="0.4s">
                                 <div class="portfolio-img">
-                                    <img src="<?= BASE_URL ?>projects/musicasa/grid-process-03.png">
+                                    <img src="<?= BASE_URL ?>projects/musicasa/assets/grid-process-03.png">
                                 </div>
                             </li>
                             <li class="grid-item web branding design wow fadeIn" data-wow-delay="0.4s">
                                 <div class="portfolio-img">
-                                    <img src="<?= BASE_URL ?>projects/musicasa/grid-process-04.png">
+                                    <img src="<?= BASE_URL ?>projects/musicasa/assets/grid-process-04.png">
                                 </div>
                             </li>
 
@@ -99,7 +99,7 @@
             <div class="row">
                 <div class="col col-12 video-area">
                     <video autoplay loop muted playsinline>
-                        <source src="<?= BASE_URL ?>projects/musicasa/260519_1336-musicasa-demo-1000x622.mp4" type="video/mp4">  
+                        <source src="<?= BASE_URL ?>projects/musicasa/assets/260519_1336-musicasa-demo-1000x622.mp4" type="video/mp4">  
                     </video>
                 </div>
             </div>
@@ -120,13 +120,13 @@
             <div class="container-fluid padding-three-lr padding-eight-tb md-padding-30px-lr sm-padding-15px-lr">
                 <div class="row">
                     <div class="col-12 margin-35px-tb md-no-margin-top md-margin-30px-bottom workflows-fullwidth">
-                        <img src="<?= BASE_URL ?>projects/musicasa/workflow-01.png" class="w-100" data-no-retina="">
+                        <img src="<?= BASE_URL ?>projects/musicasa/assets/workflow-01.png" class="w-100" data-no-retina="">
                     </div>
                     <div class="col-12 margin-35px-tb md-no-margin-top md-margin-30px-bottom workflows-fullwidth">
-                        <img src="<?= BASE_URL ?>projects/musicasa/workflow-02.png" class="w-100" data-no-retina="">
+                        <img src="<?= BASE_URL ?>projects/musicasa/assets/workflow-02.png" class="w-100" data-no-retina="">
                     </div>
                     <div class="col-12 margin-35px-tb md-no-margin-top md-margin-30px-bottom workflows-fullwidth" style="background-color: #303030 !important;">
-                        <img src="<?= BASE_URL ?>projects/musicasa/musicasa-all-screens-25pc.png" class="w-100" data-no-retina="">
+                        <img src="<?= BASE_URL ?>projects/musicasa/assets/musicasa-all-screens-25pc.png" class="w-100" data-no-retina="">
                     </div>
                 </div>
             </div>
