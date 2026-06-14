@@ -282,20 +282,32 @@ img.mfp-img{
 
 /*--------------- Home ------------------*/
 
+
+
+/*------ This is the grid in the home hero -----*/
+
+#home-hero-opener .col,
+#home-hero-opener .row{
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.no-grid-border{
+    border: 0px!important;
+}
+
+
 #home-hero-opener h1,
 #home-hero-opener h2,
 #home-hero-opener h3,
 #home-hero-opener h4,
 #home-hero-opener h5,
 #home-hero-opener h6{
-    line-height: 1.2em!important;
+    line-height: 1.2em;
     font-family: var(--ibm-serif)!important;
-    font-weight: 400!important;
-    color: #FFFFFF!important;
+    font-weight: 400;
+    color: #FFFFFF;
 
 }
-
-
 
 #home-hero-opener {
     background-color: #000;
@@ -319,25 +331,21 @@ img.mfp-img{
 
 }
 
-#home-hero-opener .starburst-area {
-    /* margin: 0 0 40px 0; */
-}
-
 #home-hero-opener .starburst-area img{
     width: 40px;
 }
 
-        .seeking-a-position {
-            padding: 40px;
-            color: #FFF;
+.seeking-a-position {
+    padding: 40px;
+    color: #FFF;
 
-                display: flex;
+    display: flex;
     flex-direction: row;
     align-items: center;
     column-gap: 10px;
-        justify-content: flex-end;
+    justify-content: flex-start;
 
-        }
+}
 
 #home-hero-opener .h-80{
     height: 80% !important;
@@ -440,10 +448,6 @@ img.mfp-img{
 
 #home-projects-grid-02{
     background-color: #898989;
-}
-
-.no-grid-border{
-    border: 0px!important;
 }
 
 
@@ -1021,7 +1025,7 @@ video {
 
 .map-tools #block-intro-slider{
     background-color: #666;
-    background-image: url("/projects/map-tools/assets/project-page-detail.png");
+    background-image: url("/projects/map-tools/project-page-detail.png");
     background-size: 80%;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -1041,13 +1045,12 @@ video {
 
 /* align-items: center!important; */
 background-color: #ffb115 !important;
-/* background: #FFB115 url(/projects/usic/assets/usic-hero-header.png); */
+background: #FFB115 url(/projects/usic/usic-hero-header.png);
 background-size: cover;
 background-repeat: no-repeat;
 background-position-x: left;
 background-position-y: center;
 height: 70vh!important;
-padding: 0!important;
 }
 .usic-hero-image{
     padding: 0 80px;
@@ -1097,38 +1100,6 @@ padding: 0!important;
     max-width: 85% !important ; 
         /* border: 3px solid pink; */
 }
-
-
-
-.d2c {
-    background-color: #222222;
-}
-
-
-.d2c #block-intro-slider{
-
-    display: flex;
-    align-items: flex-start;
-    padding:  0 !important;
-    background: #155FDD url('projects/design-to-code/hero-image@0.5x.png') left no-repeat!important;
-        /* background: #155FDD url('projects/design-to-code/hero-image-02-@0.5x.png') left no-repeat!important; */
-    background-size: 100%!important;
-    background-position-x: 0px!important;
-    background-position-y: top!important;
-    /* opacity: 0.2; */
-    height: 60vh!important;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1204,5 +1175,28 @@ padding: 0!important;
   font-family: "IBM Plex Serif", serif;
   font-weight: 700;
   font-style: italic;
+}
+
+/* Multi-font variations for the type collage on the home page.*/
+
+.mf-var-01,
+.mf-var-02,
+.mf-var-03{
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 500;
+    font-style: italic;  
+}
+
+.mf-var-01 {color: var(--mf-tint-01) !important;}
+.mf-var-02 {color: var(--mf-tint-02) !important;}
+.mf-var-03 {color: var(--mf-tint-03) !important;}
+
+
+
+:root {
+    --mf-tint-01: rgba(255,93,0,1.0);
+    --mf-tint-02: rgba(170,50,250,1.0);
+    --mf-tint-03: rgba(0,200,230,1.0);
+
 }
 
