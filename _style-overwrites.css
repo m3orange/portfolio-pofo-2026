@@ -288,12 +288,14 @@ img.mfp-img{
 #home-hero-opener h4,
 #home-hero-opener h5,
 #home-hero-opener h6{
-    line-height: 1.2em;
+    line-height: 1.2em!important;
     font-family: var(--ibm-serif)!important;
-    font-weight: 400;
-    color: #FFFFFF;
+    font-weight: 400!important;
+    color: #FFFFFF!important;
 
 }
+
+
 
 #home-hero-opener {
     background-color: #000;
@@ -1202,28 +1204,5 @@ padding: 0!important;
   font-family: "IBM Plex Serif", serif;
   font-weight: 700;
   font-style: italic;
-}
-
-/* Multi-font variations for the type collage on the home page.*/
-
-.mf-var-01,
-.mf-var-02,
-.mf-var-03{
-    font-family: "IBM Plex Serif", serif;
-    font-weight: 500;
-    font-style: italic;  
-}
-
-.mf-var-01 {color: var(--mf-tint-01) !important;}
-.mf-var-02 {color: var(--mf-tint-02) !important;}
-.mf-var-03 {color: var(--mf-tint-03) !important;}
-
-
-
-:root {
-    --mf-tint-01: rgba(255,93,0,1.0);
-    --mf-tint-02: rgba(170,50,250,1.0);
-    --mf-tint-03: rgba(0,200,230,1.0);
-
 }
 

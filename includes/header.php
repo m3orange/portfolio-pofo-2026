@@ -33,7 +33,6 @@
     <link rel="stylesheet" type="text/css" href="<?= BASE_URL ?>revolution/css/layers.css">
     <link rel="stylesheet" type="text/css" href="<?= BASE_URL ?>revolution/css/navigation.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>css/bootsnav.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>css/style.css" />
     <link rel="stylesheet" href="<?= BASE_URL ?>css/responsive.css" />
 
 
@@ -68,5 +67,6 @@
 <!-- <link rel="stylesheet" href="<?= BASE_URL ?>_guides.css" /> -->
 
 <link rel="stylesheet" href="<?= BASE_URL ?>__about-STYLES.css?v=1" />
+    <link rel="stylesheet" href="<?= BASE_URL ?>___style.css?v=1" />
 
 </head>

@@ -3,13 +3,13 @@
 
 
 .tab-style3 .nav-tabs{
- border-bottom: 1px solid #000!important;
+ border-bottom: 2px solid #000!important;
+ /* margin-bottom: 40px; */
 }
 
 
 
 .about .tab-style3{
-  border-bottom: 1px solid rgba(0,0,0,1.0)!important;
   margin-bottom: 20px;
 }
 
@@ -20,11 +20,11 @@
 }
 
 .tab-style3 .nav-tabs li{
- padding: 0px;
+ padding: 0px!important;
 }
 
 .tab-style3 .nav-tabs li a.nav-link.active{
- border-bottom: 3px solid rgba(0,0,0,1.0);
+ border-bottom: 3px solid rgba(0,0,0,1.0)!important;
  font-weight: 600;
 }
 
@@ -49,3 +49,60 @@
 .tab-style3 .nav-tabs>li>a.nav-link, 
 .tab-style3 .nav-tabs>li>a.nav-link:focus, .tab-style3 .nav-tabs>li>a.nav-link.active:hover, .tab-style3 .nav-tabs>li>a.nav-link:hover 
 {  padding: 0 20px; }
+
+.tab-content-area{
+  background-color: #FFF;
+  padding: 50px 30px;
+
+}
+
+.unicorn-tab-area,
+.unicorn-tab-area p{
+  font-size: 22px!important;
+  line-height: 1.3em;
+}
+
+
+
+.unicorn-tab-area h1,
+.unicorn-tab-area h2,
+.unicorn-tab-area h3,
+.unicorn-tab-area h4,
+.unicorn-tab-area h5,
+.unicorn-tab-area h6,
+.unicorn-tab-area p{
+    color: #000!important;
+        line-height: 1.2em!important;
+    font-family: var(--ibm-serif)!important;
+    font-weight: 400!important;
+    
+}
+
+/* Multi-font variations for the type collage on the home page.*/
+
+.mf-var-01, .mf-var-02, .mf-var-03{
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 500;
+    line-height: 1em!important;
+}
+
+.mf-var-01 {color: var(--mf-tint-01) !important;}
+.mf-var-02 {color: var(--mf-tint-02) !important;}
+.mf-var-03 {color: var(--mf-tint-03) !important;}
+
+
+#home-hero-opener .mf-var-01, #home-hero-opener .mf-var-02, #home-hero-opener .mf-var-03
+{
+font-style: italic!important;  
+}
+    
+
+
+
+:root {
+    --mf-tint-01: rgba(255,93,0,1.0);
+    --mf-tint-02: rgba(170,50,250,1.0);
+    --mf-tint-03: rgba(0,200,230,1.0);
+
+}
+

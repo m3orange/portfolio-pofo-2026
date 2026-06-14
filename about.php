@@ -1,181 +1,226 @@
 <?php include_once("config.php"); ?>
 
+<!-- Replit's fixed code from 260524_0947 -->
+
 
 <?php include ROOT_PATH . 'includes/header.php'; ?>
 
-<body class="about">
+
+<body class="home">
 
     <!-- start header -->
-     <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
+    <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
     <!-- end header -->
 
+    <section id="home-hero-opener" class="p-0 full-screen position-relative wow animate__fadeIn"
+        style="height: 100vh; visibility: visible; animation-name: fadeIn;">
+        <div class="opacity-medium bg-extra-dark-gray z-index-0"></div>
+        <div class="container h-100">
+            <div class="row h-100">
+                <div
+                    class="col col-12 col-xxl-8 col-xl-10 col-lg-11 col-md-11 d-flex flex-column text-left text-md-start justify-content-center">
+                    <!--style="justify-content: space-evenly;"-->
 
-    <section id="block-intro-slider">
-    
+
+
+                    <div class="row padding-10px-all">
+                        <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom">
+                            I'm a senior
+                            <span class="mf-var-02">product designer</span> with a
+                            <span class="mf-var-01">passion for human-centered design</span> and
+                            <span class="mf-var-03">usability.</span>
+                        </h1>
+                        <h5 class="font-weight-400">
+                            Trained in both architecture and graphic design, I have 25+ years of multidisciplinary
+                            design experience {print, brand, web}. For the past 12, I have been focused on UX/UI.
+                            <!-- <sup>1</sup> -->
+                        </h5>
+
+                    </div>
+
+
+                    <div class="row no-grid-border">
+                        <div class="col col-12 col-xl-12 col-lg-8 no-grid-border seeking-a-position">
+
+                                        <div class="starburst-area"> <!--padding-10px-lr  padding-20px-top padding-20px-bottom-->
+                <img src="<?= BASE_URL ?>images/starburst-100x100.svg" alt="Eames Starburst"/>
+            </div> 
+                            <h4 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100" style="margin: 0px!important">
+                                I’m seeking a position in 
+                                <span class="mf-var-01">product design</span> or 
+                                <span class="mf-var-01">UX engineering.</span>
+                                
+                            </h4>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div><!-- cols-->
+            </div><!-- row-->
+        </div>
+
+
+
+        <!-- <div class="starburst-area">
+
+            <div class="starburst">
+            <img src="<?= BASE_URL ?>images/starburst-100x100.svg" alt="Eames Starburst"/>
+            </div> 
+        </div> -->
+
+
     </section>
 
-    <section class="intro-info">
-        <div class="container">
-            <div class="row grid-lines">
-                <div class="col col-12 text-left">
-                    <div class="page-title font-weight-500">
-                        <h3>Admin Module</h3>
-                    </div>
+
+
+    <section id="home-projects-grid-02" class="wow fadeIn magnific-home-gallery">
+
+        <!-- start filter content -->
+        <div class="container-fluid padding-five-lr md-padding-30px-lr">
+            <div class="row">
+                <div class="col-12 text-center margin-50px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
+                    <h4 class=" text-extra-dark-gray margin-15px-bottom alt-text font-weight-600"
+                        style="color: #FFF!important;">Archived Work</h4>
                 </div>
-               <?php include ROOT_PATH . 'projects/admin/description-intro.php'; ?>
+                <div class="col-12 px-3 p-md-0">
+                    <div class="filter-content overflow-hidden">
+                        <ul class="portfolio-grid work-3col hover-option2 gutter-medium">
+                            <li class="grid-sizer"></li>
 
-            </div>
-        </div>
-    </section> 
+                            <li class="grid-item wow last-paragraph-no-margin" data-wow-delay="0s">
+                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="c4pr">
+                                    <img src="<?= BASE_URL ?>projects-archived/c4pr/thumb.jpg" />
+                                </a>
+                            </li>
+
+                            <li class="grid-item wow last-paragraph-no-margin" data-wow-delay="0s">
+                                <a href="javascript:void(0);" class="project-gallery-trigger"
+                                    data-collection="puracepa">
+                                    <img src="<?= BASE_URL ?>projects-archived/puracepa/thumb.jpg" />
+                                </a>
+                            </li>
 
 
+                            <li class="grid-item wow last-paragraph-no-margin" data-wow-delay="0s">
+                                <a href="javascript:void(0);" class="project-gallery-trigger"
+                                    data-collection="v2abrochure">
+                                    <img src="<?= BASE_URL ?>projects-archived/v2a-brochure/thumb.jpg" />
+                                </a>
+                            </li>
 
-            <section class="wow animate__fadeIn bg-light-gray">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-lg-12 text-center tab-style3 tab-about" id="animated-tab1">
-                        <!-- start tab navigation -->
-                        <ul class="nav nav-tabs text-medium font-weight-500 justify-content-center flex-column flex-md-row"> 
-                            <li class="nav-item"><a href="#tab3_sec1" data-bs-toggle="tab" class="nav-link active">I'm a Front-End Designer</a></li>
-                            <li class="nav-item"><a href="#tab3_sec2" data-bs-toggle="tab" class="nav-link">Knowledge & Skills</a></li>
-                            <li class="nav-item"><a href="#tab3_sec3" data-bs-toggle="tab" class="nav-link">Software I'm Fluent In</a></li>
+                            <li class="grid-item wow last-paragraph-no-margin" data-wow-delay="0s">
+                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="koru">
+                                    <img src="<?= BASE_URL ?>projects-archived/koru/thumb.jpg" />
+                                </a>
+                            </li>
+
+                            <li class="grid-item wow last-paragraph-no-margin" data-wow-delay="0s">
+                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="akcsos">
+                                    <img src="<?= BASE_URL ?>projects-archived/akc-sos/thumb.jpg" />
+                                </a>
+                            </li>
+
+
+                            <li class="grid-item wow last-paragraph-no-margin" data-wow-delay="0s">
+                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="ted">
+                                    <img src="<?= BASE_URL ?>projects-archived/ted/thumb.jpg" />
+                                </a>
+                            </li>
+
+                            <!-- <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
+                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="pmmexh">
+                                    <img src="<?= BASE_URL ?>projects-archived/pmmexh/thumb.jpg"/>
+                                </a>
+                            </li> -->
 
                         </ul>
-                        <!-- end tab navigation -->
                     </div>
-                </div>
-                <!-- start tab content -->  
-                <div class="tab-content">
-                    <!-- start tab content -->
-                    <div id="tab3_sec1" class="tab-pane fade in active show"> 
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-lg-8 last-paragraph-no-margin">
-                                <img src="about/fs-designer-lifecycle.png">
-                            </div>
-                            <div class="col-12 col-lg-4 last-paragraph-no-margin">
-                              <p>Just like an architect must understand engineering principles like load bearing or material mechanics, I needed to have a detailed understanding of how my designs would actually be built, in order to make sure that my work was always rooted in reality. Therefore, I've trained myself extensively in front and back-end development and have become fluent in front-end styling (HTML/CSS/SCSS/JS), and have even worked in frameworks like React and Vue.</p>
-
-                                <p>Unlike most product designers, my skillset's range tends to be wider (people tend to call us 🦄). This knowledge affords me a more comprehensive understanding of a product's lifecycle, and I'm able to participate in more moments in the process. But more importantly, it has given me enormous insight into the minutiae in how a product is designed and the specific ways in which it will be built, and how critical is for design and engineering to be in constant communication from day one. </p>
-                            </div>
-                        </div>
-                    </div>      
-                    <!-- end tab content -->
-                    <!-- start tab content -->
-                    <div id="tab3_sec2" class="tab-pane fade in"> 
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-lg-8 last-paragraph-no-margin">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and industry. Lorem Ipsum typesetting has dummy text.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end tab content -->
-                    <!-- start tab content -->
-                    <div id="tab3_sec3" class="tab-pane fade in"> 
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-lg-8 last-paragraph-no-margin">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and industry. Lorem Ipsum typesetting has dummy text.</p>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end tab content -->
-                    <!-- start tab content -->
-                    <div id="tab3_sec4" class="tab-pane fade in"> 
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-lg-8 last-paragraph-no-margin">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and industry. Lorem Ipsum typesetting has dummy text.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end tab content -->
-                </div>
-                <!-- end tab content -->
-            </div>
-        </section>
-
-
-    <!--begin - image grid - from single-project-page-01-->
-    <section  class="image-grid-discovery">
-
-        <!-- start section divider -->
-        <section class="section-divider-dark">
-            <div class="container">Discovery</div>
-        </section>
-        <!-- end section divider -->
-
-
-        <div class="container-fluid padding-five-lr md-padding-30px-lr">
-            <div class="row margin-40px-bottom">
-                <div class="col col-12 col-md-6 col-sm-6 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.2s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/discovery-grid-01@0.5.png"></div>
-                    <!-- <div class="gallery-prject-description">Description</div> -->
-                </div>
-                <div class="col col-12 col-md-6 col-sm-6 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.4s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/discovery-grid-02@0.5.png"></div>
                 </div>
             </div>
         </div>
-    </section>
-    <!--end - image grid - from single-project-page-01-->
-
-        <section class="fullwidth-slider-01">
-        <!-- start section divider -->
-        <section class="section-divider-light">
-            <div class="container">Stakeholder Presentation [Partial]</div>
-        </section>
-        <!-- end section divider -->
-        <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
-
-
-            <div class="row">
-
-
-                <div class="col-12 blog-post-content text-center text-md-center"
-                    style="padding-right: 0px; padding-left: 0px;">
-
-                    <div class="swiper-full-screen swiper-cb-fullwidth-screens swiper-container white-move"
-                        data-slider-options='{ 
-                    "loop": true, 
-                    "slidesPerView": "1", 
-                    "allowTouchMove":true, 
-                    "autoplay": false, 
-                    "keyboard": { "enabled": true, "onlyInViewport": true }, 
-                    "navigation": { "nextEl": ".swiper-button-next", 
-                    "prevEl": ".swiper-button-prev" }, 
-                    "pagination": { "el": ".swiper-pagination", "clickable": true } }'>
-
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/admin/admin-presentation-01.png"></div>
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/admin/admin-presentation-02.png"></div>
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/admin/admin-presentation-03.png"></div>
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/admin/admin-presentation-04.png"></div>
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/admin/admin-presentation-05.png"></div>
-                        </div>
-                        <div
-                            class="swiper-pagination swiper-pagination-square swiper-pagination-white swiper-full-screen-pagination">
-                        </div>
-                        <div class="swiper-button-prev swiper-button-black-highlight"></div>
-                        <div class="swiper-button-next swiper-button-black-highlight"></div>
-
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
+        <!-- end filter content -->
     </section>
 
 
 
     <!-- start footer -->
-    <?php include ROOT_PATH . 'includes/global-footer.php'; ?>
+    <?php include_once("includes/global-footer.php"); ?>
+
+    <!-- Project galleries — runs after jQuery and Magnific Popup are loaded by the footer -->
+    <script type="text/javascript">
+        (function ($) {
+            var collections = {
+                c4pr: [
+                    { src: '<?= BASE_URL ?>projects-archived/c4pr/01.jpg', },
+                    { src: '<?= BASE_URL ?>projects-archived/c4pr/02.jpg', },
+                    { src: '<?= BASE_URL ?>projects-archived/c4pr/03.jpg', },
+                    { src: '<?= BASE_URL ?>projects-archived/c4pr/04.jpg', }
+                ],
+                puracepa: [
+                    { src: '<?= BASE_URL ?>projects-archived/puracepa/01.jpg', },
+                    { src: '<?= BASE_URL ?>projects-archived/puracepa/02.jpg', },
+                    { src: '<?= BASE_URL ?>projects-archived/puracepa/03.jpg', },
+                    { src: '<?= BASE_URL ?>projects-archived/puracepa/04.jpg', }
+                ],
+                akcsos: [
+                    { src: '<?= BASE_URL ?>projects-archived/akc-sos/01.jpg', },
+                    { src: '<?= BASE_URL ?>projects-archived/akc-sos/02.jpg', },
+                    { src: '<?= BASE_URL ?>projects-archived/akc-sos/03.jpg', }
+                ],
+
+                koru: [
+                    { src: '<?= BASE_URL ?>projects-archived/koru/01.png', },
+                    { src: '<?= BASE_URL ?>projects-archived/koru/02.png', },
+                ],
+
+                v2abrochure: [
+                    { src: '<?= BASE_URL ?>projects-archived/v2a-brochure/01.jpg', },
+                    { src: '<?= BASE_URL ?>projects-archived/v2a-brochure/02.jpg', },
+                    { src: '<?= BASE_URL ?>projects-archived/v2a-brochure/03.jpg', },
+                    { src: '<?= BASE_URL ?>projects-archived/v2a-brochure/04.jpg', }
+                ],
+
+                ted: [
+                    { src: '<?= BASE_URL ?>projects-archived/ted/01.png', },
+                    { src: '<?= BASE_URL ?>projects-archived/ted/02.png', },
+                    { src: '<?= BASE_URL ?>projects-archived/ted/03.png', },
+                    { src: '<?= BASE_URL ?>projects-archived/ted/04.png', }
+                ],
+
+
+                // pmmexh: [
+                //     { src: '<?= BASE_URL ?>projects-archived/pmmexh/01.jpg', },
+                //     { src: '<?= BASE_URL ?>projects-archived/pmmexh/02.jpg', },
+                //     { src: '<?= BASE_URL ?>projects-archived/pmmexh/03.jpg', },
+                //     { src: '<?= BASE_URL ?>projects-archived/pmmexh/04.jpg', }
+                // ],
+            };
+
+            $(document).ready(function () {
+                $('.project-gallery-trigger').on('click', function () {
+                    var key = $(this).data('collection');
+                    var items = $.map(collections[key], function (img) {
+                        return { src: img.src, title: img.title, type: 'image' };
+                    });
+                    $.magnificPopup.open({
+                        items: items,
+                        type: 'image',
+                        gallery: { enabled: true },
+                        image: {
+                            titleSrc: function (item) {
+                                return item.data.title;
+                            }
+                        }
+                    });
+                });
+            });
+        })(jQuery);
+    </script>
 
 </body>
 
