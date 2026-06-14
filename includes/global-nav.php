@@ -52,27 +52,16 @@
                                             <ul class="dropdown-menu font-weight-300">
                                                 <li><a href="<?= BASE_URL ?>projects/citybox/index.php"         title="Atlas UI">CityBox UI</a></li>
                                                 <li><a href="<?= BASE_URL ?>projects/atlas-design-system/index.php" title="Atlas Design System">Atlas</a></li>
-                                                <li><a href="<?= BASE_URL ?>projects/admin/index.php"           title="Admin Platform">Admin Platform</a></li>
+                                                <li><a href="<?= BASE_URL ?>projects/admin/index.php"           title="Admin">Admin</a></li>
                                                 <li><a href="<?= BASE_URL ?>projects/musicasa/index.php"        title="Musicasa">Musicasa</a></li>
                                                 <li><a href="<?= BASE_URL ?>projects/usic/index.php"            title="USIC">USIC</a></li>
                                                 <li><a href="<?= BASE_URL ?>projects/map-tools/index.php"       title="Map Tools">Map Tools</a></li>
                                                 <li><a href="<?= BASE_URL ?>projects/idd/index.php"             title="IDD">IDD</a></li>  
-
-                                                <li style="padding: 20px 0; border-top: 1px solid rgba(0,0,0,0.5); margin-top: 30px;">
-<a href="<?= BASE_URL ?>projects/admin/past-work.php"           title="Past Work">Past Work</a>
-</li>
                                             </ul>
-
-
-
                                         </li>
-  
-
-
-        
                                         <!-- <li><a href="<?= BASE_URL ?>about.php" class="inner-link">Earlier Work</a></li> -->
+                                        <li><a href="<?= BASE_URL ?>archived-work.php" class="inner-link">Earlier Work</a></li>
 
-                                        <li><a href="<?= BASE_URL ?>connect.php" class="inner-link">Connect</a></li>
 
 
                                     </ul>
