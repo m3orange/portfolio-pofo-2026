@@ -9,13 +9,13 @@ This is --- _style-overwrites-from-260614_1440.css
 
 .tab-style3 .nav-tabs{
  border-bottom: 2px solid #000!important;
- /* margin-bottom: 40px; */
+ margin-bottom: 20px;
 }
 
 
 
 .about .tab-style3{
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .tab-style3 a{
@@ -26,6 +26,7 @@ This is --- _style-overwrites-from-260614_1440.css
 
 .tab-style3 .nav-tabs li{
  padding: 0px!important;
+ font-weight: 500;
 }
 
 .tab-style3 .nav-tabs li a.nav-link.active{
@@ -33,10 +34,13 @@ This is --- _style-overwrites-from-260614_1440.css
  font-weight: 600;
 }
 
-.tab-style3 .nav-tabs>li>a.nav-link,
-.tab-style3 .nav-tabs li a.nav-link.active, .tab-style3 .nav-tabs>li>a.nav-link.active:hover {
-  padding-bottom: 0px;
+.tab-style3 .nav-tabs li a.nav-link,
+.tab-style3 .nav-tabs li a.nav-link.active{
+   font-size: 16px;
+
 }
+
+
 
 
 
@@ -45,26 +49,37 @@ This is --- _style-overwrites-from-260614_1440.css
 .tab-style3 .nav-tabs>li>a.nav-link.active:focus {
     border-bottom: 3px solid #000; }
 
+    .tab-style3 .nav-tabs li{
+      margin: 0px;
+    }
+
 .tab-style3 .nav-tabs>li>a.nav-link.active:hover{
   border-bottom: 3px solid var(--primary-color);
 }
 
 
+/* .tab-style3 .nav-tabs>li>a.nav-link,
+.tab-style3 .nav-tabs li a.nav-link.active, 
+.tab-style3 .nav-tabs>li>a.nav-link.active:hover {
+  padding-bottom: 8px;
+} */
+
 
 .tab-style3 .nav-tabs>li>a.nav-link, 
 .tab-style3 .nav-tabs>li>a.nav-link:focus, .tab-style3 .nav-tabs>li>a.nav-link.active:hover, .tab-style3 .nav-tabs>li>a.nav-link:hover 
-{  padding: 0 20px; }
+{  padding: 10px 20px; }
 
 .tab-content-area{
-  background-color: #FFF;
-  padding: 50px 30px;
+
 
 }
 
-.unicorn-tab-area,
-.unicorn-tab-area p{
-  font-size: 22px!important;
+.unicorn-tab-area{
+  font-size: 20px!important;
   line-height: 1.3em;
+    background-color: #FFF!important;
+  padding: 50px 30px!important;
+   
 }
 
 
@@ -78,15 +93,16 @@ This is --- _style-overwrites-from-260614_1440.css
 .unicorn-tab-area p{
     color: #000!important;
         line-height: 1.2em!important;
-    font-family: var(--ibm-serif)!important;
+    /* font-family: "IBM Plex Serif", serif!important; */
     font-weight: 400!important;
+    font-style: normal!important;
     
 }
 
 /* Multi-font variations for the type collage on the home page.*/
 
 .mf-var-01, .mf-var-02, .mf-var-03{
-    font-family: "IBM Plex Serif", serif;
+    font-family: "IBM Plex Serif", serif!important;
     font-weight: 500;
     line-height: 1em!important;
 }
@@ -102,8 +118,6 @@ font-style: italic!important;
 }
     
 
-
-
 :root {
     --mf-tint-01: rgba(255,93,0,1.0);
     --mf-tint-02: rgba(170,50,250,1.0);
@@ -111,3 +125,67 @@ font-style: italic!important;
 
 }
 
+
+
+/* .square-text-blocks{
+  line-height: 1.4em;
+  color: rgba(0,0,0,1.0);
+} */
+
+
+.square-text-blocks h3{
+  line-height: 1.1em;
+    color: red!important;
+}
+
+
+.unicorn-tab-area h5{
+    font-family: var(--ibm-sans-body-01)!important;
+    font-weight: 400;
+}
+
+.unicorn-tab-area p,
+.resume-text p{
+  font-size: 18px!important;
+  font-family: var(--ibm-sans-body-01)!important;
+  line-height: 1.4em!important;
+  color: red!important;
+}
+
+.resume-text .category,
+.resume-text h5,
+.resume-text h6{
+    font-family: var(--ibm-sans-body-01) !important;
+    font-weight: 500!important;
+      letter-spacing: 0!important;
+    color: var(--primary-color)!important;
+}
+
+.resume-text h6{
+    font-weight: 500 !important;
+    font-family: var(--ibm-sans-body-01) !important;
+    border-left: 2x solid var(--primary-color);
+        border-bottom: 2px solid var(--primary-color);
+                width: 100%;
+        padding: 6px;
+        margin: 0 0 20px 0;
+}
+
+.resume-text .category{
+    font-size: 20px;
+    font-weight: 500 !important;
+    font-family: var(--ibm-sans-body-01) !important;
+border: 0px;
+        width: 100%;
+        padding: 6px;
+        margin: 0 0 4px 0;
+}
+
+.resume-text ul{
+padding-inline-start: 30px!important;
+
+}
+
+.resume-text li{
+  margin-bottom: 4px;
+}

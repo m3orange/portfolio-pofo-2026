@@ -1,9 +1,6 @@
 <?php include_once("config.php"); ?>
 
-<!-- 
-This is the reversion to 25f0990
-
--->
+<!-- Replit's fixed code from 260524_0947 -->
 
 
 <?php include ROOT_PATH . 'includes/header.php'; ?>
@@ -17,30 +14,26 @@ This is the reversion to 25f0990
 
     <section id="home-hero-opener" class="p-0 full-screen position-relative wow animate__fadeIn" style="height: 1029px; visibility: visible; animation-name: fadeIn;">
             <div class="opacity-medium bg-extra-dark-gray z-index-0"></div>
-        <div class="container h-100">
-            <div class="row h-100">
-                <div
-                    class="col col-12 col-xxl-8 col-xl-10 col-lg-11 col-md-11 d-flex flex-column text-left text-md-start justify-content-center">
-                    <!--style="justify-content: space-evenly;"-->
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col col-12 col-xxl-8 col-xl-10 col-lg-11 col-md-11 d-flex justify-content-center flex-column text-left text-md-start"> <!--style="justify-content: space-around!important;"-->
 
-                    <div class="row padding-10px-all">
-                        <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom">
-                            I'm a
-                            <span class="mf-var-02">senior product designer</span> with a
-                            <span class="mf-var-01">passion for human-centered design</span> and
-                            <span class="mf-var-03">usability.</span>
-                        </h1>
-                        <h5 class="font-weight-400">
-                            Trained in both architecture and graphic design, I have 25+ years of multidisciplinary
-                            design experience {print, brand, web}. For the past 12, I have been focused on UX/UI.
-                            <!-- <sup>1</sup> -->
-                        </h5>
 
-                    </div>
+
+<div class="row padding-10px-all">
+<h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom"> 
+I'm a
+<span class="mf-var-02">senior product designer</span> with a 
+<span class="mf-var-01">passion for human-centered design</span> and 
+<span class="mf-var-03">usability.</span></h1>
+<h5 class="font-weight-400">
+Trained in both architecture and graphic design, I have 25+ years of multidisciplinary design experience {print, brand, web}. For the past 12, I have been focused on product design and UX engineering.<sup>1</sup>
+</h5>
+</div>
 
 
                     <div class="row no-grid-border">
-                        <div class="col col-12 col-xl-12 col-lg-8 no-grid-border seeking-a-position">
+                        <div class="col offset-lg-5 col-lg-7 no-grid-border seeking-a-position">
 
                                         <div class="starburst-area"> <!--padding-10px-lr  padding-20px-top padding-20px-bottom-->
                 <img src="<?= BASE_URL ?>images/starburst-100x100.svg" alt="Eames Starburst"/>
@@ -56,10 +49,11 @@ This is the reversion to 25f0990
 
                     </div>
 
+                        
+                    </div><!-- cols-->
+                </div><!-- row-->
 
-                </div><!-- cols-->
-            </div><!-- row-->
-        </div>
+            </div>
         </section>
 
 
@@ -67,7 +61,7 @@ This is the reversion to 25f0990
 
 <!-- <h6 class="code-speak">
 <sup>1</sup><span class="main-font ">&lt;!--</span>
-<span class="archivo-font">&#x1F984; I speak code.</span>
+<span class="archivo-font"> I speak code. &#x1F984;</span>
 <span class="main-font ">--&gt;</span>
 </h6>
 <div class="starburst">
@@ -122,9 +116,9 @@ This is the reversion to 25f0990
                                 <div class="panel-body">
                                     <h6>
                                         <ul>
-                                            <li> I’m involved in: leading interviews and design thinking workshops with stakeholders; using AI-assisted research and synthesis to help drive discovery into ideation; prototyping ideas and testing their viability with business and engineering; shipping designs as close to code as possible, among others.</li>
+                                            <li> Some key moments where I'm involved: leading interviews and design thinking workshops with cross-functional stakeholders; using AI-assisted research and synthesis to drive discovery into ideation; prototyping ideas to test their viability with business and engineering; shipping designs as close to code as possible, among others.</li>
 
-                                            <li>I think like a detective: I gather insight on business needs, competitive models, technical constraints, and user needs and challenges, and I help teams connect the dots into cross-functional alignment on what we need to build and making sure we're building it right.</li>
+                                            <li>I think like a detective: I gather insight on business needs, technical constraints and users' needs and challenges, and I help teams connect the dots that lead to cross-functional alignment on what we need to build and making sure we're building it right.</li>
 
                                         </ul>
                                     </h6> 
@@ -151,7 +145,7 @@ This is the reversion to 25f0990
 
                                         </li>
                                         <li>
-                                            I’m a fierce advocate of delivering design information –from layouts, to specs and PRDs– as close as possible to code and the frameworks being used, to reach fidelity and parity faster and to reduce feedback loops that cause delays and friction.
+                                            I’m a fierce advocate of delivering design information –from layouts, to specs and PRDs– as close as possible to code, and to the specifics frameworks being used. The goal is to reach fidelity and parity faster, mitigate tech and design debt, and to reduce feedback loops that cause delays and friction.
                                         </li>
                                         <li style="font-size: 80%!important; list-style: none;" class="italic-ibm">
                                             <i>
@@ -192,15 +186,6 @@ This is the reversion to 25f0990
         <!-- start filter content -->
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             
-            <!-- <div class="row numbered-dividers">
-                <div class="col col-3 col-md-1">
-                    <div class="sideway-number">01</div>
-                </div>
-                <div class="col col-7 col-md-11 text-left section-name">
-                    <h4 class="font-weight-500 text-extra-dark-gray margin-15px-bottom">Featured Projects</h4>
-                </div>
-            </div> -->
-            
             <div class="row">
                 <div class="col-12 text-center margin-50px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
                     <h4 class=" text-extra-dark-gray margin-15px-bottom alt-text font-weight-600">Featured Work</h4>
@@ -213,16 +198,14 @@ This is the reversion to 25f0990
                             <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0.2s">
                                 <a href="<?= BASE_URL ?>projects/atlas-design-system/index.php">
                                     <figure>
-                                        <div class="portfolio-img bg-deep-pink">
-                                            <img src="<?= BASE_URL ?>projects/home-projects/home-atlas.png" alt=""/>
-                                        </div>
+                                        <div class="portfolio-img bg-deep-pink"><img src="<?= BASE_URL ?>projects/home-projects/home-atlas.png" alt=""/></div>
                                         <figcaption>
                                             <div class="portfolio-hover-main text-left">
-                                                <div class="portfolio-hover-box align-bottom">
+                                                <div class="portfolio-hover-box align-bottom featured-work-thumbs">
                                                     <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
                                                         <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2"></div>
-                                                        <span class="line-height-normal alt-font text-white-2 margin-one-half-bottom d-block font-weight-600">Tailoring Interior</span>
-                                                        <p class="text-white-2 text-uppercase text-extra-small">Branding and Brochure</p>
+                                                        <span class="line-height-normal text-white-2 margin-5px-bottom d-block featured-work-title">Tailoring Interior</span>
+                                                        <p>Branding and Brochure</p>
                                                     </div>
                                                 </div>
                                             </div>

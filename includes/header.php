@@ -29,10 +29,13 @@
     <link rel="stylesheet" href="<?= BASE_URL ?>css/swiper.min.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>css/justified-gallery.min.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>css/magnific-popup.css" />
-    <link rel="stylesheet" type="text/css" href="<?= BASE_URL ?>revolution/css/settings.css" media="screen" />
+    <!-- <link rel="stylesheet" type="text/css" href="<?= BASE_URL ?>revolution/css/settings.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="<?= BASE_URL ?>revolution/css/layers.css">
-    <link rel="stylesheet" type="text/css" href="<?= BASE_URL ?>revolution/css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="<?= BASE_URL ?>revolution/css/navigation.css"> -->
     <link rel="stylesheet" href="<?= BASE_URL ?>css/bootsnav.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>css/font-icons.min.css">
+    <!-- <link rel="stylesheet" href="<?= BASE_URL ?>css/theme-vendors.min.css"> DO NOT USE - Breaks Admin Grid    -->
+    <link rel="stylesheet" href="<?= BASE_URL ?>_style.css" /> <!-- Keep higher than overwrites or it breaks-->
     <link rel="stylesheet" href="<?= BASE_URL ?>css/responsive.css" />
 
 
@@ -62,10 +65,11 @@
             <script src="js/html5shiv.js"></script>
         <![endif]-->
 
-<link rel="stylesheet" href="<?= BASE_URL ?>_style-overwrites.css?v=1" />
+
+
 <!-- <link rel="stylesheet" href="<?= BASE_URL ?>_guides.css" /> -->
-     <link rel="stylesheet" href="<?= BASE_URL ?>___style.css" />
-<link rel="stylesheet" href="<?= BASE_URL ?>__about-STYLES.css?v=1" />
 
 
+ <link rel="stylesheet" href="<?= BASE_URL ?>_style-overwrites.css?v=1" />
+ <link rel="stylesheet" href="<?= BASE_URL ?>__about-STYLES.css?v=1" />
 </head>

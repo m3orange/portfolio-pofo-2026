@@ -1,10 +1,5 @@
 @charset "utf-8";
 
-/* 
-This has been updated with last version before revert breakup.
-This is --- _style-overwrites-from-260614_1440.css 
-*/
-
 
 a{
     cursor: pointer!important;
@@ -293,14 +288,12 @@ img.mfp-img{
 #home-hero-opener h4,
 #home-hero-opener h5,
 #home-hero-opener h6{
-    line-height: 1.2em!important;
+    line-height: 1.2em;
     font-family: var(--ibm-serif)!important;
-    font-weight: 400!important;
-    color: #FFFFFF!important;
+    font-weight: 400;
+    color: #FFFFFF;
 
 }
-
-
 
 #home-hero-opener {
     background-color: #000;
@@ -324,25 +317,13 @@ img.mfp-img{
 
 }
 
-#home-hero-opener .starburst-area {
-    /* margin: 0 0 40px 0; */
+#home-hero-opener .starburst {
+    margin: 0 0 40px 0;
 }
 
-#home-hero-opener .starburst-area img{
-    width: 40px;
+#home-hero-opener .starburst img{
+    width: 80px;
 }
-
-        .seeking-a-position {
-            padding: 40px;
-            color: #FFF;
-
-                display: flex;
-    flex-direction: row;
-    align-items: center;
-    column-gap: 10px;
-        justify-content: flex-end;
-
-        }
 
 #home-hero-opener .h-80{
     height: 80% !important;
@@ -356,6 +337,12 @@ img.mfp-img{
 }
 #home-hero-opener .h-5{
     height: 5% !important;
+}
+
+.seeking-a-position{
+    display: flex;
+        justify-content: flex-end;
+        padding: 40px 20px;
 }
 .footnote{
     display: flex;
@@ -394,9 +381,10 @@ img.mfp-img{
     padding: 80px;
 }
 
-.col-6 {
+.col-6-checkkkkk {
     -ms-flex: 0 0 75%;
     flex: 0!important;
+    border: 4px solid green;
 }
 
 
@@ -406,7 +394,10 @@ img.mfp-img{
 /* No puedo hacer highlghts. Conflicto with panel toggle. */
 
 
-
+#home-hero-opener .col,
+#home-hero-opener .row{
+    border: 1px solid rgba(255,255,255,0.2);
+}
 
 
 #home-text-intro .row{
@@ -445,10 +436,6 @@ img.mfp-img{
 
 #home-projects-grid-02{
     background-color: #898989;
-}
-
-.no-grid-border{
-    border: 0px!important;
 }
 
 
@@ -583,6 +570,32 @@ padding-inline-start: 20px!important;
     
  
 }
+
+
+
+/*--------------- Featured Work in Homepage ------------------*/
+
+.featured-work-thumbs{
+    font-family: var(--ibm-sans-body-01);
+    color: #FFFFFF;
+    font-size: 18px!important;
+}
+
+.featured-work-thumbs .featured-work-title{
+    font-size: 20px!important;
+    font-weight: 600;
+}
+
+.featured-work-thumbs .separator-line-horrizontal-medium-light2 {
+   background-color: #FFFFFF;
+   opacity: 1.0;
+}
+
+
+
+
+
+
 
 /*---------------Projects ------------------*/
 
@@ -824,7 +837,9 @@ video {
   
 }
 
-
+.no-grid-border{
+    border: 0px!important;
+}
 
 
 .bottom-row {
@@ -1026,7 +1041,7 @@ video {
 
 .map-tools #block-intro-slider{
     background-color: #666;
-    background-image: url("/projects/map-tools/assets/project-page-detail.png");
+    background-image: url("/projects/map-tools/project-page-detail.png");
     background-size: 80%;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -1046,13 +1061,12 @@ video {
 
 /* align-items: center!important; */
 background-color: #ffb115 !important;
-/* background: #FFB115 url(/projects/usic/assets/usic-hero-header.png); */
+background: #FFB115 url(/projects/usic/usic-hero-header.png);
 background-size: cover;
 background-repeat: no-repeat;
 background-position-x: left;
 background-position-y: center;
 height: 70vh!important;
-padding: 0!important;
 }
 .usic-hero-image{
     padding: 0 80px;
@@ -1209,5 +1223,28 @@ padding: 0!important;
   font-family: "IBM Plex Serif", serif;
   font-weight: 700;
   font-style: italic;
+}
+
+/* Multi-font variations for the type collage on the home page.*/
+
+.mf-var-01,
+.mf-var-02,
+.mf-var-03{
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 500;
+    font-style: italic;  
+}
+
+.mf-var-01 {color: var(--mf-tint-01) !important;}
+.mf-var-02 {color: var(--mf-tint-02) !important;}
+.mf-var-03 {color: var(--mf-tint-03) !important;}
+
+
+
+:root {
+    --mf-tint-01: rgba(255,93,0,1.0);
+    --mf-tint-02: rgba(170,50,250,1.0);
+    --mf-tint-03: rgba(0,200,230,1.0);
+
 }
 
