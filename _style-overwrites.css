@@ -317,12 +317,12 @@ img.mfp-img{
 
 }
 
-#home-hero-opener .starburst {
-    margin: 0 0 40px 0;
+#home-hero-opener .starburst-area {
+    margin: 0 10px 0 0!important;
 }
 
-#home-hero-opener .starburst img{
-    width: 80px;
+#home-hero-opener .starburst-area img{
+    width: 70px;
 }
 
 #home-hero-opener .h-80{

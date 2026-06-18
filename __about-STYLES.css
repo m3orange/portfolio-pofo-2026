@@ -92,7 +92,7 @@ This is --- _style-overwrites-from-260614_1440.css
 .unicorn-tab-area h6,
 .unicorn-tab-area p{
     color: #000!important;
-        line-height: 1.2em!important;
+        line-height: 1.3em!important;
     /* font-family: "IBM Plex Serif", serif!important; */
     font-weight: 400!important;
     font-style: normal!important;
@@ -122,9 +122,7 @@ font-style: italic!important;
     --mf-tint-01: rgba(255,93,0,1.0);
     --mf-tint-02: rgba(170,50,250,1.0);
     --mf-tint-03: rgba(0,200,230,1.0);
-
 }
-
 
 
 /* .square-text-blocks{
@@ -133,9 +131,19 @@ font-style: italic!important;
 } */
 
 
-.square-text-blocks h3{
-  line-height: 1.1em;
+.square-text-blocks h4{
+  line-height: 1.15em;
     color: red!important;
+}
+
+.square-text-blocks .captions{
+font-family: var(--ibm-mono);
+    font-style: italic;
+    padding: 10px 20px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
 }
 
 

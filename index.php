@@ -33,7 +33,7 @@ Trained in both architecture and graphic design, I have 25+ years of multidiscip
 
 
                     <div class="row no-grid-border">
-                        <div class="col offset-lg-5 col-lg-7 no-grid-border seeking-a-position">
+                        <div class="col col-md-12 offset-lg-5 col-lg-7 no-grid-border seeking-a-position">
 
                                         <div class="starburst-area"> <!--padding-10px-lr  padding-20px-top padding-20px-bottom-->
                 <img src="<?= BASE_URL ?>images/starburst-100x100.svg" alt="Eames Starburst"/>
@@ -204,8 +204,7 @@ Trained in both architecture and graphic design, I have 25+ years of multidiscip
                                                 <div class="portfolio-hover-box align-bottom featured-work-thumbs">
                                                     <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
                                                         <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2"></div>
-                                                        <span class="line-height-normal text-white-2 margin-5px-bottom d-block featured-work-title">Tailoring Interior</span>
-                                                        <p>Branding and Brochure</p>
+                                                        <span class="line-height-normal text-white-2 margin-5px-bottom d-block featured-work-title">Atlas</span><p>Design System</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -221,13 +220,12 @@ Trained in both architecture and graphic design, I have 25+ years of multidiscip
                                 <a href="<?= BASE_URL ?>projects/admin/index.php">
                                     <figure>
                                         <div class="portfolio-img bg-deep-pink"><img src="<?= BASE_URL ?>projects/home-projects/home-admin.png" alt=""/></div>
-                                        <figcaption>
+                                         <figcaption>
                                             <div class="portfolio-hover-main text-left">
-                                                <div class="portfolio-hover-box align-bottom">
+                                                <div class="portfolio-hover-box align-bottom featured-work-thumbs">
                                                     <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
                                                         <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2"></div>
-                                                        <span class="line-height-normal alt-font text-white-2 margin-one-half-bottom d-block font-weight-600">Designblast Inc</span>
-                                                        <p class="text-white-2 text-uppercase text-extra-small">Web and Photography</p>
+                                                        <span class="line-height-normal text-white-2 margin-5px-bottom d-block featured-work-title">Admin Module</span><p>Account & user management platform</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -244,11 +242,10 @@ Trained in both architecture and graphic design, I have 25+ years of multidiscip
                                         <div class="portfolio-img bg-deep-pink"><img src="<?= BASE_URL ?>projects/home-projects/home-citybox-ui.png" alt=""/></div>
                                         <figcaption>
                                             <div class="portfolio-hover-main text-left">
-                                                <div class="portfolio-hover-box align-bottom">
+                                                <div class="portfolio-hover-box align-bottom featured-work-thumbs">
                                                     <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
                                                         <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2"></div>
-                                                        <span class="line-height-normal alt-font text-white-2 margin-one-half-bottom d-block font-weight-600">Herbal Beauty Salon</span>
-                                                        <p class="text-white-2 text-uppercase text-extra-small">Branding and Brochure</p>
+                                                        <span class="line-height-normal text-white-2 margin-5px-bottom d-block featured-work-title">Atlas UI</span><p>Geospatial imagery interface</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -266,11 +263,10 @@ Trained in both architecture and graphic design, I have 25+ years of multidiscip
                                         <div class="portfolio-img bg-deep-pink"><img src="<?= BASE_URL ?>projects/home-projects/home-musicasa.png" alt=""/></div>
                                         <figcaption>
                                             <div class="portfolio-hover-main text-left">
-                                                <div class="portfolio-hover-box align-bottom">
+                                                <div class="portfolio-hover-box align-bottom featured-work-thumbs">
                                                     <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
                                                         <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2"></div>
-                                                        <span class="line-height-normal alt-font text-white-2 margin-one-half-bottom d-block font-weight-600">Herbal Beauty Salon</span>
-                                                        <p class="text-white-2 text-uppercase text-extra-small">Branding and Brochure</p>
+                                                        <span class="line-height-normal text-white-2 margin-5px-bottom d-block featured-work-title">Musicasa</span><p>Marketplace connecting emerging musicians with home concerts</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -286,11 +282,10 @@ Trained in both architecture and graphic design, I have 25+ years of multidiscip
                                         <div class="portfolio-img bg-deep-pink"><img src="<?= BASE_URL ?>projects/home-projects/home-idd.png" alt=""/></div>
                                         <figcaption>
                                             <div class="portfolio-hover-main text-left">
-                                                <div class="portfolio-hover-box align-bottom">
+                                                <div class="portfolio-hover-box align-bottom featured-work-thumbs">
                                                     <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
                                                         <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2"></div>
-                                                        <span class="line-height-normal alt-font text-white-2 margin-one-half-bottom d-block font-weight-600">Tailoring Interior</span>
-                                                        <p class="text-white-2 text-uppercase text-extra-small">Branding and Brochure</p>
+                                                        <span class="line-height-normal text-white-2 margin-5px-bottom d-block featured-work-title">IDD</span><p>Incident management platform</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -306,11 +301,10 @@ Trained in both architecture and graphic design, I have 25+ years of multidiscip
                                         <div class="portfolio-img bg-deep-pink"><img src="<?= BASE_URL ?>projects/home-projects/home-map-tools.png" alt=""/></div>
                                         <figcaption>
                                             <div class="portfolio-hover-main text-left">
-                                                <div class="portfolio-hover-box align-bottom">
+                                                <div class="portfolio-hover-box align-bottom featured-work-thumbs">
                                                     <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
                                                         <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2"></div>
-                                                        <span class="line-height-normal alt-font text-white-2 margin-one-half-bottom d-block font-weight-600">Designblast Inc</span>
-                                                        <p class="text-white-2 text-uppercase text-extra-small">Web and Photography</p>
+                                                        <span class="line-height-normal text-white-2 margin-5px-bottom d-block featured-work-title">Map Tools</span><p>Ideal state visualization for a satellite imagery visualization tool</p>
                                                     </div>
                                                 </div>
                                             </div>
