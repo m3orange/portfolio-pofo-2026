@@ -1250,9 +1250,31 @@ height: 70vh!important;
     --mf-tint-01: rgba(255,93,0,1.0);
     --mf-tint-02: rgba(170,50,250,1.0);
     --mf-tint-03: rgba(0,200,230,1.0);
+--query-small: 576px;
 
 }
 
+
+
+/* Extra Large / Large Desktops. */
+@media (max-width: 1200px) {
+}
+
+
+/*  Large / Small Desktops  */
+@media (min-width: 992px) {
+
+}
+
+
+/* Medium / Tablets. */
+@media (min-width: 768px) {
+
+}
+
+/*  Small */
+@media (max-width: 767px){
+}
 
 
 

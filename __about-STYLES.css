@@ -178,6 +178,29 @@ font-family: var(--ibm-mono);
   color: #000;
 }
 
+
+.resume-area-grid{
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+}
+
+    @media (max-width: 1399px) {
+          .resume-area-grid{
+          display: grid;
+          grid-template-columns: 2fr 1fr;
+        }
+    }
+
+
+      @media (max-width: 1199px) {
+          .resume-area-grid{
+            display: flex;
+            flex-direction: column-reverse;
+    
+          }
+      }
+
+
 .resume-text .category,
 .resume-text h5,
 .resume-text h6{
@@ -228,14 +251,26 @@ padding-inline-start: 20px!important;
 
 .rsm-item-header{
     display: flex!important;
-    align-items: flex-end;
+    align-items: center;
     padding: 10px 0 6px 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 1)!important;
     margin: 10px 0;
     color: #000; 
-
-    
 }
+
+#work-experience-list .rsm-item-header,
+#education-list h6{
+border-bottom: 1px solid #000;
+      /* margin: 0 0 4px 0; */
+}
+  
+#education-list h6,
+#work-experience-list h6{
+    margin: 0px;
+    font-family: var(--ibm-sans-body-01);
+    font-weight: 500;
+    font-size: 20px !important;
+}
+
 
 .rsm-city-date .divider{
   font-size: 20px!important;
@@ -250,13 +285,6 @@ padding-inline-start: 20px!important;
  line-height: 1.3em;
 }
 
-
-.rsm-item-header h6{
-    margin: 0px!important;
-    font-family: var(--ibm-sans-body-01);
-    font-weight: 500;
-    font-size: 20px!important;
-}
 
 
 .rsm-item-header,
@@ -275,9 +303,47 @@ padding-inline-start: 20px!important;
     font-size: 16px;
 }
 
+      /* Large / Small Desktops. */
+      @media (max-width: 1199px) {
+        .rsm-city-date{
+          text-align: left;
+          margin-top: 4px;
+        }
+      }
+
 
 
 .header{
   display: grid;
   grid-template-columns: 2fr 1fr;
+}
+
+
+#education-list .rsm-item-header{
+    display: flex !important;
+    padding: 10px 0 6px 0;
+    margin: 10px 0 ;
+    color: #000;
+    border-bottom: 1px solid #000;
+    flex-direction: row;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+      @media (max-width: 1199px) {
+          #education-list .rsm-item-header{
+
+}
+
+      }
+
+
+
+#education-list .rsm-item-header h6{
+  border: none!important;
+}
+
+#education-list .rsm-city-date{
+  text-align: left;
 }
