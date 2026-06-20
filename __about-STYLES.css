@@ -257,6 +257,13 @@ padding-inline-start: 20px!important;
     color: #000; 
 }
 
+      @media (max-width: 1199px) {
+          #work-experience-list .rsm-item-header{
+            gap: 4px;
+        }
+
+      }
+
 #work-experience-list .rsm-item-header,
 #education-list h6{
 border-bottom: 1px solid #000;
@@ -350,13 +357,12 @@ border-bottom: 1px solid #000;
 
 /* Changin resume font sizes */
 
-.rsm-item-intro {
+
+#work-experience-list li, .rsm-item-intro , .resume-text li {
     font-size: 17px;
+    line-height: 1.3em;
 }
 
-#work-experience-list li, .resume-text li {
-    font-size: 17px;
-}
 
 #education-list h6, #work-experience-list h6 {
     font-weight: 500;
