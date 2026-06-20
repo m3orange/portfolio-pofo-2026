@@ -268,12 +268,12 @@ border-bottom: 1px solid #000;
     margin: 0px;
     font-family: var(--ibm-sans-body-01);
     font-weight: 500;
-    font-size: 20px !important;
+    font-size: 19px !important;
 }
 
 
 .rsm-city-date .divider{
-  font-size: 20px!important;
+  font-size: 19px!important;
 }
 
 .rsm-item-intro{
@@ -346,4 +346,37 @@ border-bottom: 1px solid #000;
 
 #education-list .rsm-city-date{
   text-align: left;
+}
+
+/* Changin resume font sizes */
+
+.rsm-item-intro {
+    font-size: 17px;
+}
+
+#work-experience-list li, .resume-text li {
+    font-size: 17px;
+}
+
+#education-list h6, #work-experience-list h6 {
+    font-weight: 500;
+    font-size: 18px !important;
+}
+
+.rsm-city-date {
+    font-size: 16px;
+}
+
+.education-details, education-details p{
+font-size: 17px;
+
+}
+
+
+.rsm-item-intro,#work-experience-list li, .resume-text li,
+#education-list h6, #work-experience-list h6,
+.rsm-city-date,
+.education-details, education-details p{
+/* color: purple; */
+
 }

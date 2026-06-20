@@ -35,7 +35,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 
 <section>
-    <div class="container resume-area-grid">
+    <div class="container-fluid resume-area-grid">
         <div class="item">
                 <section id="resume" class="wow fadeIn">
                     <div class="container">
@@ -63,7 +63,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <div class="rsm-item-header">
         <div class="margin-10px-right"><h6><?= $edu['degree'] ?></h6></div>
         <div class="margin-10px-right"><h6><?= $edu['institution'] ?> / <?= $edu['city'] ?></h6></div>
-        <div>[<?= $edu['date_start'] ?>-<?= $edu['date_end'] ?>]</div>
+        <div class="rsm-city-date">[<?= $edu['date_start'] ?>-<?= $edu['date_end'] ?>]</div>
 
     </div>
     <div class="education-details">
@@ -135,10 +135,10 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
             container.innerHTML = jobs.map(job => `
             <div class="row rsm-item-header">
-                <div class="col col-12 col-xl-8 col-lg-9 col-md-12 p-0">
+                <div class="col col-12 col-lg-7 col-md-12 p-0">
                     <h6>${job.company}, ${job.job_title}</h6>
                 </div>
-                <div class="col col-12 col-xl-4 col-lg-6 col-md-12 p-0 rsm-city-date">
+                <div class="col col-12 col-lg-5 col-md-12 p-0 rsm-city-date">
                     ${job.city} <span class="divider">|</span> ${job.date_start} – ${job.date_end ?? 'Present'}
                 </div>
             </div>
