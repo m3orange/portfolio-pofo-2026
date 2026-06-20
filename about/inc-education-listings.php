@@ -1,4 +1,4 @@
-    <section id="resume-2" class="wow fadeIn">
+    <!-- <section id="resume-education" class="wow fadeIn">
         <div class="container">
             <div id="education-list">
               <div class="row rsm-item-header">
@@ -13,6 +13,13 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
 
 
+    <section id="resume-2" class="wow fadeIn">
+    <div class="container">
+        <div id="education-list">
+            <!-- Education will be injected here -->
+        </div>
+    </div>
+</section>

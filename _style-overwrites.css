@@ -837,10 +837,10 @@ video {
   
 }
 
-.grid-lines .col,
+/* .grid-lines .col,
 .grid-lines .row{
     border: 1px solid #999999;
-}
+} */
 
 .no-grid-border{
     border: 0px!important;

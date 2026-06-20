@@ -25,7 +25,7 @@
                         <h3>Atlas Design System</h3>
                     </div>
                 </div>
-               <?php include ROOT_PATH . ' projects/citybox/assets/assets/description-intro.php'; ?>
+               <?php include ROOT_PATH . 'projects/atlas-design-system/assets/description-intro.php'; ?>
 
             </div>
         </div>
@@ -59,7 +59,7 @@
 
                                 <li class="grid-item web branding design wow fadeIn" data-wow-delay="0.4s">
                                     <div class="portfolio-img bg-extra-dark-gray">
-                                        <img src="<?= BASE_URL ?>projects/atlas-design-system/assets/assets/atlas-intro-grid-02.png">
+                                        <img src="<?= BASE_URL ?>projects/atlas-design-system/assets/atlas-intro-grid-02.png">
                                     </div>
                                 </li>
                                 <li class="grid-item web branding design wow fadeIn" data-wow-delay="0.4s">

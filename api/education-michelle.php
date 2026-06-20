@@ -12,7 +12,10 @@ try {
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     $stmt = $pdo->query('SELECT * FROM education ORDER BY sort_order ASC');
-    echo json_encode($stmt->fetchAll(PDO::FETCH_ASSOC));
+    $jobs = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+
+    echo json_encode($jobs);
 
 } catch (PDOException $e) {
     http_response_code(500);

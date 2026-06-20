@@ -89,6 +89,29 @@
         </div>
     </section>
 
+
+    <script>
+        async function loadEducation() {
+            const res = await fetch('/api/education.php');
+            const entries = await res.json();
+
+            const container = document.getElementById('education-list');
+
+            container.innerHTML = entries.map(e => `
+                <div class="row rsm-item-header">
+                    <div class="col col-12 col-xl-8 col-lg-12 p-0">
+                        <h6>${e.degree}, ${e.field_of_study} / ${e.institution}, ${e.city} / ${e.date_start}–${e.date_end ?? 'Present'}</h6>
+                        ${e.details ? `<div class="education-details">${e.details}</div>` : ''}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        loadEducation();
+    </script>
+
+
+
     <script>
         async function loadWorkExperience() {
             const res = await fetch('/api/work-experience.php');
@@ -124,6 +147,8 @@
 
         loadWorkExperience();
     </script>
+
+
 
     <!-- start footer -->
     <?php include ROOT_PATH . 'includes/global-footer.php'; ?>
