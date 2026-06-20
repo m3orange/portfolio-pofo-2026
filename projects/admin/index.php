@@ -1,5 +1,4 @@
 
-MySQL-Powered!
 
 <?php require_once( '../../config.php' ) ?>
 
@@ -48,15 +47,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     <!-- start product information section -->
     <section class="intro-info">
         <div class="container">
-            <div class="row grid-lines">
-                <div class="col col-12 text-left">
-                    <div class="page-title font-weight-500">
-                        <h3><?= $project['title'] ?></h3>
-                    </div>
-                </div>
-               <?php include ROOT_PATH . 'projects/admin/description-intro.php'; ?>
-
-            </div>
+            <?php include ROOT_PATH . 'projects/admin/description-intro.php'; ?>                
         </div>
     </section>
     <!-- end product information section -->

@@ -15,12 +15,6 @@
 
 
             <div class="col text-right pr-0">
-
-
-                <a class="btn btn-small btn-white lg-margin-15px-bottom d-table d-lg-inline-block md-margin-lr-auto margin-30px-right"
-                    href="<?= BASE_URL ?>claude-resume-template.php">For Claude</a>
-
-
                 <button class="navbar-toggler mobile-toggle d-inline-block" type="button" id="open-button"
                     data-toggle="collapse" data-target=".navbar-collapse">
                     <span></span>
