@@ -13,14 +13,26 @@
 
 
 
-
-<section id="resume" class="wow fadeIn">
+<section>
     <div class="container">
-        <div id="work-experience-list">
-            <!-- Jobs will be injected here -->
+        <div class="row page-grid">
+            <div class="item">
+                <section id="resume" class="wow fadeIn">
+                    <div class="container">
+                        <div id="work-experience-list">
+                            <!-- Jobs will be injected here -->
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="item">
+
+            </div>
         </div>
     </div>
 </section>
+
+
 
     <script>
     async function loadWorkExperience() {
@@ -30,18 +42,18 @@
         const container = document.getElementById('work-experience-list');
 
         container.innerHTML = jobs.map(job => `
-            <div class="row grid-lines listing-header">
-                <div class="col col-12 col-md-8">
-                    <h5>${job.company}, ${job.job_title}</h5>
+            <div class="row rsm-item-header">
+                <div class="col col-12 col-xl-9 col-lg-8 col-md-12 p-0">
+                    <h6>${job.company}, ${job.job_title}</h6>
                 </div>
-                <div class="col col-12 col-md-4">
-                    ${job.city}, ${job.date_start} – ${job.date_end ?? 'Present'}
+                <div class="col col-12 col-xl-3 col-lg-4 col-md-12 p-0 rsm-city-date">
+                    ${job.city} <span class="divider">|</span> ${job.date_start} – ${job.date_end ?? 'Present'}
                 </div>
             </div>
 
-            <div class="row grid-lines rsm-item-header">
-                <div class="col col-12 col-md-12">
-                    <div class="rsm-item-intro">
+            <div class="row rsm-item-details">
+                <div class="col col-12 col-md-10">
+                    <div class="rsm-item-intro font-weight-500">
                         ${job.intro ?? ''}
                     </div>
                     ${job.bullets && job.bullets.length ? `

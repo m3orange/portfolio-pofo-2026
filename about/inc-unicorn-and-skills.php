@@ -7,7 +7,7 @@
                     <!-- start tab navigation -->
                     <ul class="nav nav-tabs text-small font-weight-600 justify-content-center flex-column flex-md-row"> 
                         <li class="nav-item"><a href="#tab3_sec1" data-toggle="tab" class="nav-link active">I'm a Front-End Designer</a></li>
-                        <li class="nav-item"><a href="#tab3_sec2" data-toggle="tab" class="nav-link">Knowledge & Sowftware Skills</a></li>
+                        <li class="nav-item"><a href="#tab3_sec2" data-toggle="tab" class="nav-link">Knowledge & Software Skills</a></li>
                         <!-- <li class="nav-item"><a href="#tab3_sec3" data-toggle="tab" class="nav-link">Software I'm Fluent In</a></li> -->
 
                     </ul>
@@ -75,7 +75,7 @@
                 <!-- end tab content -->
                 <!-- start tab content -->
                 <div id="tab3_sec2" class="tab-pane"> 
-                    <div class="row justify-content-center resume-text">
+                    <div class="row justify-content-center resume-text unicorn-tab-area">
                         <div class="col-6 last-paragraph-no-margin">
 
 <h6>Areas of Knowledge</h6>

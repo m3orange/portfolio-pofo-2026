@@ -131,6 +131,23 @@ font-style: italic!important;
 } */
 
 
+.floating-link-widget{
+position: fixed;
+    background-color: rgba(0, 0, 0, 1);
+    right: 0px;
+    width: fit-content;
+    top: 100px;
+    width: 200px;
+    color: #FFFFFF!important;
+}
+
+
+.page-grid{
+  display: grid;
+  grid-template-columns: 2fr .5fr;
+}
+
+
 .square-text-blocks h4{
   line-height: 1.15em;
     color: red!important;
@@ -153,11 +170,12 @@ font-family: var(--ibm-mono);
 }
 
 .unicorn-tab-area p,
-.resume-text p{
-  font-size: 18px!important;
+.resume-text p,
+.resume-text li{
+  font-size: 16px!important;
   font-family: var(--ibm-sans-body-01)!important;
   line-height: 1.4em!important;
-  color: red!important;
+  color: #000;
 }
 
 .resume-text .category,
@@ -166,7 +184,8 @@ font-family: var(--ibm-mono);
     font-family: var(--ibm-sans-body-01) !important;
     font-weight: 500!important;
       letter-spacing: 0!important;
-    color: var(--primary-color)!important;
+
+  
 }
 
 .resume-text h6{
@@ -189,11 +208,76 @@ border: 0px;
         margin: 0 0 4px 0;
 }
 
+
 .resume-text ul{
 padding-inline-start: 30px!important;
 
 }
 
+#work-experience-list ul{
+padding-inline-start: 20px!important;
+
+}
+
+#work-experience-list li,
 .resume-text li{
   margin-bottom: 4px;
+}
+
+/* Resume listings */
+
+.rsm-item-header{
+    display: flex!important;
+    align-items: flex-end;
+    padding: 10px 0 6px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 1)!important;
+    margin: 10px 0;
+    color: #000; 
+
+    
+}
+
+.rsm-city-date .divider{
+  font-size: 20px!important;
+}
+
+.rsm-item-intro{
+  margin-bottom: 10px;
+}
+
+.rsm-item-header,
+.rsm-item-details{
+ line-height: 1.3em;
+}
+
+
+.rsm-item-header h6{
+    margin: 0px!important;
+    font-family: var(--ibm-sans-body-01);
+    font-weight: 500;
+    font-size: 20px!important;
+}
+
+
+.rsm-item-header,
+.rsm-item-details{
+  color: #000!important;
+}
+
+
+.rsm-item-header{
+    font-family: var(--ibm-sans-body-01);
+}
+
+.rsm-city-date{
+    text-align: right;
+    font-family: var(--ibm-mono);
+    font-size: 16px;
+}
+
+
+
+.header{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
