@@ -21,87 +21,144 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <!-- end header -->
 
     <!-- start parallax hero section -->
+<section id="home-hero-opener" class="p-0 full-screen position-relative wow animate__fadeIn" style="height: 1029px; visibility: visible; animation-name: fadeIn; min-height: 658px;">
+            <div class="opacity-medium bg-extra-dark-gray z-index-0"></div>
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col col-12 col-xxl-8 col-xl-10 col-lg-11 col-md-11 d-flex justify-content-center flex-column text-left text-md-start"> <!--style="justify-content: space-around!important;"-->
 
+
+
+<div class="row padding-10px-all">
+<h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom"> 
+
+<span class="mf-var-01">About</span>
+<h5 class="font-weight-400">
+Trained in both architecture and graphic design, I have 25+ years of multidisciplinary design experience {print, brand, web}. For the past 12, I have been focused on product design and UX engineering.
+</h5>
+</div>
+
+
+                        
+                    </div><!-- cols-->
+                </div><!-- row-->
+
+            </div>
+        </section>
     <!-- end parallax hero section -->
 
 
-    <!-- <div class="floating-link-widget">
-    <ul>
-        <li>Link 1</li>
-        <li>Link 2</li>
-    </ul>
-</div> -->
+    <div id="floating-link-widget">
+    <!-- <div><a href="#">Professional Experience & Education</a></div>
+    <div><a href="#">Knowledge & Skills</a></div> -->
+        <ul class="nav navbar-nav alt-font font-weight-700">
+            <li><a href="#anchor-work" class="inner-link">Professional Experience</a></li>
+            <li><a href="#anchor-education" class="inner-link">Education</a></li>
+            <li><a href="#knowledge"   class="inner-link">Knowledge & Skills</a></li>
+            <li><a href="#engineering" class="inner-link">UX Engineering</a></li>
+            <li><a href="#engineering" class="inner-link">Personal Interests</a></li>
+        </ul>
+
+</div>
 
 
 
 <section>
-    <div class="container-fluid resume-area-grid">
-        <div class="item">
-                <section id="resume" class="wow fadeIn">
-                    <div class="container">
-                        <div id="work-experience-list">
-                            <!-- Jobs will be injected here -->
-                        </div>
-                    </div>
-                </section>
-        </div>
-
-        <div class="item">
-
-        <!-- <section id="resume-2" class="wow fadeIn">
-                <div class="container">
-                    <div id="education-list">
-                    </div>
-                </div>
-            </section> -->
-
-             <section id="resume-2" class="wow fadeIn">
-                <div class="container">
-                    <div id="education-list">
-
-<?php foreach ($education as $edu): ?>
-    <div class="rsm-item-header">
-        <div class="margin-10px-right"><h6><?= $edu['degree'] ?></h6></div>
-        <span class="margin-10px-right"><h6><?= $edu['institution'] ?> / <?= $edu['city'] ?></h6></span><span class="rsm-city-date">[<?= $edu['date_start'] ?>-<?= $edu['date_end'] ?>]</span>
-
-    </div>
-    <div class="education-details">
-        <?= $edu['details'] ?>
-    </div>
-
-<?php endforeach; ?>
-                            
-
-                        </div><!-- education-list -->
-                    </div>
-                </div>
+    <div class="resume-area-grid">
+        <div id="anchor-work" class="item">
+            <!-- start section divider -->
+            <section class="section-divider-numbered">
+                <div class="big-number">01</div>
+                <div class="">Professional Experience</div>
             </section>
-
-
-
-
-
+            <!-- end section divider -->
+            <div id="resume" class="container">
+                <!-- <div class="rsm-section-header">Professional Experience</div> -->
+                <div id="work-experience-list">
+                    <!-- Jobs will be injected here -->
+                </div>
+            </div>
 
         </div>
-    </div>
+
+
+        <div id="anchor-education"class="item">
+            <!-- start section divider -->
+            <section class="section-divider-numbered">
+                <div class="big-number">02</div>
+                <div class="">Education</div>
+            </section>
+            <!-- end section divider -->
+            <div id="education-list" class="container">
+                <!-- <div class="rsm-section-header">Education</div> -->
+                <?php foreach ($education as $edu): ?>
+                    <div class="row rsm-item-header">
+                        <span class="margin-10px-right"><h6><?= $edu['degree'] ?>,</h6></span>
+                        <span class="margin-10px-right"><h6><?= $edu['institution'] ?> / <?= $edu['city'] ?></h6></span><span class="rsm-city-date">[<?= $edu['date_start'] ?>-<?= $edu['date_end'] ?>]</span>
+
+                    </div>
+                    <div class="education-details">
+                        <?= $edu['details'] ?>
+                    </div>
+
+                <?php endforeach; ?>
+                    
+            </div><!-- education-list -->
+        </div><!-- item-->
+
+    </div><!-- container-->
 </section>
-
-
-
-
-
-
-
-
-
-
-
 
     <?php include ROOT_PATH . 'about/inc-unicorn-and-skills.php'; ?>
 
     <?php include ROOT_PATH . 'about/inc-engineering-projects.php'; ?>
 
 
+           <section class="fullwidth-slider-01">
+        <!-- start section divider -->
+        <section class="section-divider-light">
+            <div class="container">Personal Interests</div>
+        </section>
+        <!-- end section divider -->
+        <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+
+
+            <div class="row">
+
+
+                <div class="col-12 blog-post-content text-center text-md-center"
+                    style="padding-right: 0px; padding-left: 0px;">
+
+                    <div class="swiper-full-screen swiper-cb-fullwidth-screens swiper-container white-move"
+                        data-slider-options='{ 
+                    "loop": true, 
+                    "slidesPerView": "1", 
+                    "allowTouchMove":true, 
+                    "autoplay": false, 
+                    "keyboard": { "enabled": true, "onlyInViewport": true }, 
+                    "navigation": { "nextEl": ".swiper-button-next", 
+                    "prevEl": ".swiper-button-prev" }, 
+                    "pagination": { "el": ".swiper-pagination", "clickable": true } }'>
+
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide ">
+                                <img class="cb-screens" src="<?= BASE_URL ?>about/inanutshell-no-padd-01.jpg">
+                            </div>
+                            <div class="swiper-slide ">
+                                 <img class="cb-screens" src="<?= BASE_URL ?>about/inanutshell-no-padd-02.jpg">
+                            </div>
+                        </div>
+                        <div
+                            class="swiper-pagination swiper-pagination-square swiper-pagination-white swiper-full-screen-pagination">
+                        </div>
+                        <div class="swiper-button-prev swiper-button-black-highlight"></div>
+                        <div class="swiper-button-next swiper-button-black-highlight"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- <script>
         async function loadEducation() {
@@ -165,7 +222,6 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     <!-- start footer -->
     <?php include ROOT_PATH . 'includes/global-footer.php'; ?>
-
 
 </body>
 

@@ -1,8 +1,19 @@
 
-<section class="wow fadeIn bg-light-gray">
+<section id="knowledge" class="wow fadeIn bg-light-gray no-padding-top ">
+        <section class="section-divider-numbered no-margin-top">
+            <div class="big-number">03</div>
+            <div class="">Knowledge & Skills</div>
+        </section>
+
+
+        <!-- end section divider -->
     <div class="container-fluid">
+        <!-- <div class="row justify-content-center">
+            <div class="col-12 col-md-12 text-left">
+                <div class="rsm-section-header">Knowledge & Skills</div>
+            </div>    
+        </div> -->
         <div class="row justify-content-center">
-            
             <div class="col-12 col-md-10 text-center tab-style3" id="animated-tab1">
                     <!-- start tab navigation -->
                     <ul class="nav nav-tabs text-small font-weight-600 justify-content-center flex-column flex-md-row"> 
@@ -43,7 +54,7 @@
                             <a href="<?= BASE_URL ?>about/fs-designer-lifecycle.svg"
                                 data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
                                 <figure>
-                                    <div class="portfolio-img bg-extra-dark-gray">
+                                    <div class="portfolio-img bg-extra-dark-gray margin-30px-bottom">
                                         <img src="<?= BASE_URL ?>about/fs-designer-lifecycle.svg" class="project-img-gallery" />
                                     </div>
                                     <figcaption>
@@ -63,10 +74,10 @@
 
                 <div class="col-12 col-lg-4 last-paragraph-no-margin wow fadeIn resume-text" style="align-content: center;" data-wow-delay="0.8s">
                     <p>
-                        As a result, my skillset range is wider than the average designer (I'm often called a 🦄),and I'm able to have a more comprehensive insight into what goes into the development of the product.
+                        As a result, my skillset range is wider than the average designer (I'm often called a 🦄), and have a more comprehensive insight into what goes on in the development process. More importantly, I'm able to have deeper conversations with engineers without too much getting lost in translation.
                     </p>
                     <p>
-                        More importantly, it allows me to have deeper and meaningful conversations with engineers (without getting lost in translation!), ask the right questions on constraints or try to negotiate new options, and I'm often able to get better outcomes in what I'm able to achieve.
+                        Whether it's about asking the right questions about constraints, or trying to negotiate new options that work for everyone, I'm often able to get better outcomes in what design is trying to achieve.
                     </p>
                     
                 </div>
@@ -76,65 +87,77 @@
                 <!-- start tab content -->
                 <div id="tab3_sec2" class="tab-pane"> 
                     <div class="row justify-content-center resume-text unicorn-tab-area">
-                        <div class="col-6 last-paragraph-no-margin">
+                        <div class="col-12 col-lg-6 col-md-12  last-paragraph-no-margin">
 
-<h6>Areas of Knowledge</h6>
+                            <h6>Areas of Knowledge</h6>
 
-<h6 class="category">Areas in which I have experience</h6>
-<div class="category">Online</div>
-<ul>
-<li>Web and mobile app development, responsive design</li>
-<li>Accessibility, web standards, SEO optimization</li>
-<li>Ad banner and Google keyword campaigns</li>
-<li>Shopping platforms and payment gateways</li>
-<li>CRM platforms & Content Management Systems</li>
-<li>Social media and email marketing campaigns</li>
-<li>Single page apps (SPAs) and frameworks such as Vue/Vuetify, React, ShadCDN, etc.</li>
-</ul>
-<div class="category">Print & Packaging Design</div>
-<ul>
-<li>Brand design, magazine, catalogs, packaging & books </li>
-<li>Exhibition design & merchandise</li>
-</ul>
-<div class="category">Other</div>
-<ul>
-<li>Spatial (architectural) graphics </li>
-<li>Video editing and motion graphics </li>
-<li>3-D Modeling</li>
-</ul>
+                            <h6 class="category">Areas in which I have experience</h6>
+                                <div class="category">
+                                    <?php include ROOT_PATH.'about/inc-skills-arrow.php'; ?>Online
+                                </div>
+                            <ul>
+                            <li>Web and mobile app development, responsive design</li>
+                            <li>Accessibility, web standards, SEO optimization</li>
+                            <li>Ad banner and Google keyword campaigns</li>
+                            <li>Shopping platforms and payment gateways</li>
+                            <li>CRM platforms & Content Management Systems</li>
+                            <li>Social media and email marketing campaigns</li>
+                            <li>Single page apps (SPAs) and frameworks such as Vue/Vuetify, React, ShadCDN, etc.</li>
+                            </ul>
+                            <div class="category">
+                                <?php include ROOT_PATH.'about/inc-skills-arrow.php'; ?>Print & Packaging Design
+                            </div>
+                            <ul>
+                            <li>Brand design, magazine, catalogs, packaging & books </li>
+                            <li>Exhibition design & merchandise</li>
+                            </ul>
+                            <div class="category">
+                                <?php include ROOT_PATH.'about/inc-skills-arrow.php'; ?>Other
+                            </div>
+                            <ul>
+                            <li>Spatial (architectural) graphics </li>
+                            <li>Video editing and motion graphics </li>
+                            <li>3-D Modeling</li>
+                            </ul>
 
 
                         </div>
-                        <div class="col-6 last-paragraph-no-margin">
-<h6>Software</h6>
+                        <div class="col-12 col-lg-6 col-md-12 last-paragraph-no-margin">
+                        <h6>Software</h6>
 
-<h6 class="category">Tools I use on a daily basis</h6>
-<div class="category">General</div>
-<ul>
-<li>Adobe Studio | Photoshop, Illustrator, InDesign, XD</li>
-<li>Video | After Effects, Premiere, Avid, Media 100) </li>
-<li>Microsoft | Teams, Excel, Outlook, One Drive, etc) </li>
-<li>Google Suite, Airtable, Notion</li>
-<li>AI | ChatGPT, Claude, Replit, Midjourney</li>
-</ul>
-<div class="category">UX/UI + Engineering</div>
-<ul>
-<li>Figma, Adobe UX, Sketch </li>
-<li>Figjam, Mural, Miro </li>
-<li>Dovetail, Confluence</li>
-<li>VS Code, Jira, Github</li>
-<li>HTML, Bootstrap, CSS, SCSS</li>
-</ul>
-<div class="category">Basic Working Knowledge</div>
-<ul>
-<li>UI Specs | Backlight, Supernova, Code Connect, Avocode </li>
-<li>Libraries and frameworks | React, Vue, Vuetify, Material, Material UI, Tailwind </li>
-<li>GIS | ESRI, Mapbox, QGIS, Carto, Felt, </li>
-<li>3D | Blender, Sketchup, AutoCAD, Unity Engine </li>
-<li>LAMP environments | WordPress, cPanel, MySQL, PHP </li>
-<li>Database Structures and Schemas | GraphQL and API queries, Strapi, Postman </li>
-<li>Integrations | Auth0 and Sengrid</li>
-</ul>
+                        <h6 class="category">Tools I use on a daily basis</h6>
+                        <div class="category">
+                            <?php include ROOT_PATH.'about/inc-skills-arrow.php'; ?>General
+                        </div>
+                        <ul>
+                        <li>Adobe Studio | Photoshop, Illustrator, InDesign, XD</li>
+                        <li>Video | After Effects, Premiere, Avid, Media 100 </li>
+                        <li>Microsoft | Teams, Excel, Outlook, One Drive, etc. </li>
+                        <li>Google Suite, Airtable, Notion</li>
+                        <li>AI | ChatGPT, Claude, Replit, Midjourney</li>
+                        </ul>
+                        <div class="category">
+                            <?php include ROOT_PATH.'about/inc-skills-arrow.php'; ?>UX/UI + Engineering
+                        </div>
+                        <ul>
+                        <li>Figma, Adobe UX, Sketch </li>
+                        <li>Figjam, Mural, Miro </li>
+                        <li>Dovetail, Confluence</li>
+                        <li>VS Code, Jira, Github</li>
+                        <li>HTML, Bootstrap, CSS, SCSS</li>
+                        </ul>
+                        <div class="category">
+                            <?php include ROOT_PATH.'about/inc-skills-arrow.php'; ?>Basic Working Knowledge
+                        </div>
+                        <ul>
+                        <li>UI Specs | Backlight, Supernova, Code Connect, Avocode </li>
+                        <li>Libraries and frameworks | React, Vue, Vuetify, Material, Material UI, Tailwind </li>
+                        <li>GIS | ESRI, Mapbox, QGIS, Carto, Felt, </li>
+                        <li>3D | Blender, Sketchup, AutoCAD, Unity Engine </li>
+                        <li>LAMP environments | WordPress, cPanel, MySQL, PHP </li>
+                        <li>Database Structures and Schemas | GraphQL and API queries, Strapi, Postman </li>
+                        <li>Integrations | Auth0 and Sengrid</li>
+                        </ul>
                         </div>
                     </div>
                 </div>

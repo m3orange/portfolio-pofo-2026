@@ -164,7 +164,7 @@
                     <li class="grid-sizer"></li>
 
                     <li class="grid-item grid-item-double  wow fadeInUp"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>  projects/citybox/assets/assets/cb-specs-01.png" data-group="two-columns-zoom-animation"
+                        <a href="<?= BASE_URL ?>projects/citybox/assets/cb-specs-01.png" data-group="two-columns-zoom-animation"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray"><img src="<?= BASE_URL ?>projects/citybox/assets/cb-specs-01.png" class="project-img-gallery" /></div>

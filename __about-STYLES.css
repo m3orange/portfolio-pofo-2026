@@ -7,6 +7,11 @@ This is --- _style-overwrites-from-260614_1440.css
 */
 
 
+.about #block-intro-slider{
+  background-color: #555;
+}
+
+
 .tab-style3 .nav-tabs{
  border-bottom: 2px solid #000!important;
  margin-bottom: 20px;
@@ -131,14 +136,35 @@ font-style: italic!important;
 } */
 
 
-.floating-link-widget{
-position: fixed;
+#floating-link-widget{
+    position: fixed;
     background-color: rgba(0, 0, 0, 1);
-    right: 0px;
-    width: fit-content;
+    right: 20px;
+    min-width: fit-content;
     top: 100px;
     width: 200px;
-    color: #FFFFFF!important;
+    z-index: 20000;
+    font-size: 15px;
+    padding: 10px 20px 20px 20px;
+    border-radius: 10px;
+}
+
+#floating-link-widget li{
+  width: 100%;
+    border-bottom: 1px solid rgba(255,255,255, 0.3);
+    /* margin: 0 0 6px 0; */
+    padding: 6px 0;
+
+}
+
+#floating-link-widget .navbar-nav>li>a {
+    margin: 0px!important;
+      color: #FFFFFF!important;
+
+}
+
+#floating-link-widget .navbar-nav>li>a:hover{
+  color: var(--primary-color)!important;
 }
 
 
@@ -148,9 +174,9 @@ position: fixed;
 }
 
 
-.square-text-blocks h4{
-  line-height: 1.15em;
-    color: red!important;
+.square-text-blocks h5{
+  line-height: 1.1em;
+    /* color: red!important; */
 }
 
 .square-text-blocks .captions{
@@ -172,10 +198,16 @@ font-family: var(--ibm-mono);
 .unicorn-tab-area p,
 .resume-text p,
 .resume-text li{
-  font-size: 16px!important;
+  font-size: 16px;
   font-family: var(--ibm-sans-body-01)!important;
   line-height: 1.4em!important;
   color: #000;
+
+}
+
+.resume-text li{
+   font-size: 14px!important;
+  color: green;
 }
 
 
@@ -184,21 +216,23 @@ font-family: var(--ibm-mono);
   grid-template-columns: 2.5fr 1fr;
 }
 
-    @media (max-width: 1399px) {
+    @media (min-width: 1200px) {
           .resume-area-grid{
           display: grid;
           grid-template-columns: 2fr 1fr;
         }
     }
 
-
       @media (max-width: 1199px) {
           .resume-area-grid{
             display: flex;
-            flex-direction: column-reverse;
+            flex-direction: column;
     
           }
+
+    
       }
+
 
 
 .resume-text .category,
@@ -214,21 +248,25 @@ font-family: var(--ibm-mono);
 .resume-text h6{
     font-weight: 500 !important;
     font-family: var(--ibm-sans-body-01) !important;
-    border-left: 2x solid var(--primary-color);
-        border-bottom: 2px solid var(--primary-color);
+    color: var(--primary-color)!important;
+        border-bottom: 1px solid var(--primary-color);
                 width: 100%;
         padding: 6px;
         margin: 0 0 20px 0;
 }
 
 .resume-text .category{
-    font-size: 20px;
-    font-weight: 500 !important;
+    font-size: 17px;
+    font-weight: 600 !important;
     font-family: var(--ibm-sans-body-01) !important;
-border: 0px;
+    border: 0px;
         width: 100%;
         padding: 6px;
         margin: 0 0 4px 0;
+        color: #000!important;
+            display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 
@@ -249,20 +287,33 @@ padding-inline-start: 20px!important;
 
 /* Resume listings */
 
+.rsm-section-header{
+  font-size: 22px;
+  color: var(--primary-color);
+  padding: 6px;
+  border-bottom: 1px solid var(--primary-color);
+  border-left: 3px solid var(--primary-color);
+  font-weight: 600;
+  margin: 60px 0 30px 0;
+}
+
 .rsm-item-header{
     display: flex!important;
     align-items: center;
     padding: 10px 0 6px 0;
     margin: 10px 0;
     color: #000; 
+    font-family: var(--ibm-sans-body-01);
 }
 
-      @media (max-width: 1199px) {
-          #work-experience-list .rsm-item-header{
-            gap: 4px;
+        @media (max-width: 1199px) {
+            #work-experience-list .rsm-item-header{
+              gap: 4px;
+          }
+
         }
 
-      }
+
 
 #work-experience-list .rsm-item-header,
 #education-list h6{
@@ -292,7 +343,11 @@ border-bottom: 1px solid #000;
  line-height: 1.3em;
 }
 
-
+.rsm-icons-chevron{
+  font-size: 18px!important;
+  font-weight: 600!important;
+  margin-right: 5px;
+}
 
 .rsm-item-header,
 .rsm-item-details{
@@ -300,9 +355,7 @@ border-bottom: 1px solid #000;
 }
 
 
-.rsm-item-header{
-    font-family: var(--ibm-sans-body-01);
-}
+
 
 .rsm-city-date{
     text-align: right;
@@ -325,18 +378,23 @@ border-bottom: 1px solid #000;
   grid-template-columns: 2fr 1fr;
 }
 
-
+#resume .rsm-item-header,
 #education-list .rsm-item-header{
     display: flex !important;
     padding: 10px 0 6px 0;
     margin: 10px 0 ;
     color: #000;
-    border-bottom: 1px solid #000;
+      color: purple;
     flex-direction: row;
     align-content: flex-end;
     flex-wrap: wrap;
     align-items: center;
 }
+
+#education-list .rsm-item-header{
+  border-bottom: 1px solid #000;
+}
+  
 
       @media (max-width: 1199px) {
           #education-list .rsm-item-header{
@@ -367,14 +425,17 @@ border-bottom: 1px solid #000;
 #education-list h6, #work-experience-list h6 {
     font-weight: 500;
     font-size: 18px !important;
+        line-height: 1.3em;
 }
 
 .rsm-city-date {
     font-size: 16px;
+        line-height: 1.3em;
 }
 
 .education-details, education-details p{
 font-size: 17px;
+    line-height: 1.3em;
 
 }
 
@@ -385,4 +446,12 @@ font-size: 17px;
 .education-details, education-details p{
 /* color: purple; */
 
+}
+
+.about .fullwidth-slider-01{
+  background-color: #FFF!important;
+}
+
+.eng-section{
+  background-color: #393939;
 }

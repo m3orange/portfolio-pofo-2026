@@ -20,6 +20,8 @@
     <link rel="apple-touch-icon" sizes="72x72" href="<?= BASE_URL ?>images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="<?= BASE_URL ?>images/apple-touch-icon-114x114.png">
 
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <link rel="stylesheet" href="<?= BASE_URL ?>css/animate.css" />
     <link rel="stylesheet" href="<?= BASE_URL ?>css/bootstrap.min.css" /> 

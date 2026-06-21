@@ -168,13 +168,13 @@ Trained in both architecture and graphic design, I have 25+ years of multidiscip
                 <div class="col-12 col-lg-4 padding-20px-tb">
 
                     <ul>
-                        <li>1996, M. Arch / Tulane University, New Orleans</li>
-                        <li>1998, M.S. Visual Comm. / Pratt Institute, NYC</li>
                         <li>2000, MFA Design / School of Visual Arts (SVA), NYC</li>
+                        <li>1998, M.S. Visual Comm. / Pratt Institute, NYC</li>
+                        <li>1996, M. Arch / Tulane University, New Orleans</li>
                     </ul>
 
                     <a class="btn btn-large btn-transparent-black lg-margin-15px-bottom d-table d-lg-inline-block md-margin-lr-auto w-100 margin-20px-tb" 
-                    href="#">View Resumé</a>
+                    href="<?= BASE_URL ?>about.php">View Resumé</a>
                 </div>
             </div>
         </div>
