@@ -1089,11 +1089,11 @@ video {
 
 /* align-items: center!important; */
 background-color: #ffb115 !important;
-background: #FFB115 url(/projects/usic/usic-hero-header.png);
+background: #FFB115 url(/projects/usic/assets/usic-hero-header-02.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position-x: left;
-background-position-y: center;
+background-position-y: -80px;
 height: 70vh!important;
 }
 .usic-hero-image{

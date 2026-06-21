@@ -13,7 +13,7 @@
     <!-- start parallax hero section -->
     <section id="block-intro-slider">
 
-            <img src="<?= BASE_URL ?>projects/usic/assets/usic-hero-header.png"/>   
+            <!-- <img src="<?= BASE_URL ?>projects/usic/assets/usic-hero-header.png"/>    -->
          
     </section>
     <!-- end parallax hero section -->

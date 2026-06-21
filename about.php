@@ -104,6 +104,47 @@ Trained in both architecture and graphic design, I have 25+ years of multidiscip
                 <?php endforeach; ?>
                     
             </div><!-- education-list -->
+
+            <div id="training-list" class="container">
+
+                    <div class="row rsm-item-header">
+                        <span class="margin-10px-right">
+                            <h6>Ongoing Training & Certificates</h6>
+                        </span>
+
+                    </div>
+                    <div class="education-details row">
+                        <div class="col col-12 col-xl-12 col-lg-6 col-md-12">
+                            <div class="font-weight-500 margin-10px-bottom">
+                                IDEO, Nielsen Norman, Interaction Design Foundation [Ongoing]. Some recent courses;
+                                </div>
+                            <div>
+                                <div class="margin-10px-bottom">
+                                    <ul>
+                                        <li>10 Usability Heuristics from Theory to Practice</li>
+                                        <li>AI x Design Thinking Workshop Series</li>
+                                        <li>Prototyping with AI</li>
+                                        <li>Accessible and Inclusive Design Patterns</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-xl-12 col-lg-6 col-md-12">
+                            <div class="font-weight-500 margin-10px-bottom">Techstars Music Accelerator Program</div>
+                            <div class="font-weight-500 margin-10px-bottom">Foundations in Human Centered Design, SeriouslyCreative</div>
+                            <div class="font-weight-500 margin-10px-bottom">VML Digital Training and Activation Program, VML Kansas City</div>
+                        </div>
+
+
+                    </div>
+
+
+                    
+            </div><!-- education-list -->
+
+
         </div><!-- item-->
 
     </div><!-- container-->

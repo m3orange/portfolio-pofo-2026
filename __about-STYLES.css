@@ -87,6 +87,13 @@ This is --- _style-overwrites-from-260614_1440.css
    
 }
 
+      @media (max-width: 1199px) {
+      .unicorn-tab-area{
+      padding: 0px 30px 50px 30px!important;
+      }
+          }
+
+
 
 
 .unicorn-tab-area h1,
@@ -322,6 +329,7 @@ border-bottom: 1px solid #000;
 }
   
 #education-list h6,
+#training-list h6,
 #work-experience-list h6{
     margin: 0px;
     font-family: var(--ibm-sans-body-01);
@@ -379,7 +387,8 @@ border-bottom: 1px solid #000;
 }
 
 #resume .rsm-item-header,
-#education-list .rsm-item-header{
+#education-list .rsm-item-header,
+#training-list .rsm-item-header{
     display: flex !important;
     padding: 10px 0 6px 0;
     margin: 10px 0 ;
@@ -391,25 +400,31 @@ border-bottom: 1px solid #000;
     align-items: center;
 }
 
-#education-list .rsm-item-header{
+#education-list .rsm-item-header,
+#training-list .rsm-item-header{
   border-bottom: 1px solid #000;
 }
-  
+
+#training-list .rsm-item-header{
+    margin-top: 60px!important;
+}
 
       @media (max-width: 1199px) {
-          #education-list .rsm-item-header{
-
-}
+        #training-list .rsm-item-header{
+            margin-top: 40px!important;
+        }
 
       }
 
 
 
-#education-list .rsm-item-header h6{
+#education-list .rsm-item-header h6,
+#training-list .rsm-item-header h6{
   border: none!important;
 }
 
-#education-list .rsm-city-date{
+#education-list .rsm-city-date,
+#training-list .rsm-city-date{
   text-align: left;
 }
 
@@ -422,7 +437,7 @@ border-bottom: 1px solid #000;
 }
 
 
-#education-list h6, #work-experience-list h6 {
+#education-list h6, #work-experience-list h6, #training-list h6 {
     font-weight: 500;
     font-size: 18px !important;
         line-height: 1.3em;
