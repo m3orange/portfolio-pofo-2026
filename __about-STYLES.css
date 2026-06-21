@@ -89,7 +89,7 @@ This is --- _style-overwrites-from-260614_1440.css
 
       @media (max-width: 1199px) {
       .unicorn-tab-area{
-      padding: 0px 30px 50px 30px!important;
+      padding: 50px 30px!important;
       }
           }
 
@@ -143,33 +143,93 @@ font-style: italic!important;
 } */
 
 
-#floating-link-widget{
+#floating-link-widget,
+#floating-link-widget-top{
     position: fixed;
-    background-color: rgba(0, 0, 0, 1);
-    right: 20px;
     min-width: fit-content;
-    top: 100px;
-    width: 200px;
     z-index: 20000;
     font-size: 15px;
     padding: 10px 20px 20px 20px;
-    border-radius: 10px;
+
 }
 
+#floating-link-widget-top{
+  padding: 4px 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#floating-link-widget{
+    top: 100px;
+    right: 20px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+      #floating-link-widget .navbar-nav{
+        display: flex;
+            -ms-flex-direction: column;
+        flex-direction: column;
+        justify-content: center!important;
+      }
+
+#floating-link-widget-top{
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+      #floating-link-widget-top .navbar-nav{
+        display: flex;
+        -ms-flex-direction: row!important;   
+        flex-direction: row!important;   
+        justify-content: center;
+
+      }
+
 #floating-link-widget li{
-  width: 100%;
+    width: 100%;
     border-bottom: 1px solid rgba(255,255,255, 0.3);
     /* margin: 0 0 6px 0; */
     padding: 6px 0;
-
 }
 
-#floating-link-widget .navbar-nav>li>a {
+
+#floating-link-widget-top li{
+    /* margin: 0 0 6px 0; */
+    padding: 6px 12px;
+}
+
+
+
+#floating-link-widget .navbar-nav>li>a,
+#floating-link-widget-top .navbar-nav>li>a {
     margin: 0px!important;
       color: #FFFFFF!important;
+      font-size: 14px!important;
+}
+
+        @media (max-width: 800px) {
+            #floating-link-widget-top li{
+              padding: 4px 8px!important;
+            }
+
+            #floating-link-widget-top .navbar-nav{
+              justify-content: left!important;
+            }
+
+            #floating-link-widget-top .navbar-nav>li>a{
+              /* color: red!important; */
+              color: #FFF;
+              padding: 0;
+            }
+        }
+#floating-link-widget-top .navbar-nav>li>a{
+      text-decoration: underline;
 
 }
 
+#floating-link-widget-top .navbar-nav>li>a:hover,
 #floating-link-widget .navbar-nav>li>a:hover{
   color: var(--primary-color)!important;
 }
@@ -191,7 +251,7 @@ font-family: var(--ibm-mono);
     font-style: italic;
     padding: 10px 20px;
     text-align: left;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: #000;
 }
@@ -200,6 +260,7 @@ font-family: var(--ibm-mono);
 .unicorn-tab-area h5{
     font-family: var(--ibm-sans-body-01)!important;
     font-weight: 400;
+    color: #FFF;
 }
 
 .unicorn-tab-area p,
@@ -214,7 +275,7 @@ font-family: var(--ibm-mono);
 
 .resume-text li{
    font-size: 14px!important;
-  color: green;
+   
 }
 
 
@@ -234,10 +295,7 @@ font-family: var(--ibm-mono);
           .resume-area-grid{
             display: flex;
             flex-direction: column;
-    
           }
-
-    
       }
 
 
@@ -260,6 +318,7 @@ font-family: var(--ibm-mono);
                 width: 100%;
         padding: 6px;
         margin: 0 0 20px 0;
+        color: #FFF;
 }
 
 .resume-text .category{
@@ -463,10 +522,38 @@ font-size: 17px;
 
 }
 
-.about .fullwidth-slider-01{
-  background-color: #FFF!important;
-}
+
 
 .eng-section{
   background-color: #393939;
+}
+
+.eng-section .resume-text,
+.eng-section p,
+.eng-section li,
+.eng-section .captions{
+  color: #FFF!important;
+}
+
+#anchor-personal-interests .swiper-button-prev,
+#anchor-personal-interests .swiper-button-next{
+  background-color: none;
+   background-size: cover;
+}
+
+.about .fullwidth-slider-01{
+  background-color: #FFF!important;
+   padding: 0px 0 130px 0!important;
+}
+
+.swiper-button-prev.swiper-button-black-highlight{
+  /* background-image: url("images/swiper-arrow-prev.svg"); */
+  background-image: url("images/swiper-black-button-prev.png");
+     
+}
+
+.swiper-button-next.swiper-button-black-highlight{
+  /* background-image: url("images/swiper-arrow-prev.svg"); */
+  background-image: url("images/swiper-black-button-next.png");
+     
 }

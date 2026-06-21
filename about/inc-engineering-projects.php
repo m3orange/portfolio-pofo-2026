@@ -3,8 +3,8 @@
 
         <!-- start section divider -->
         <section class="section-divider-numbered no-margin-top">
-            <div class="big-number">04</div>
-            <div class="">Engineering Initiatives</div>
+            <div class="big-number" style="color: rgba(255,255,255,0.5);">04</div>
+            <div class="text-white">Engineering Initiatives</div>
         </section>
         <!-- end section divider -->
 
@@ -25,7 +25,7 @@
 
                 <div class="col col-12 col-xl-5 col-lg-6 padding-six-lr lg-padding-15px-lr text-left text-md-start resume-text"
                     data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
-                    <h5 class="font-weight-600 header-font">We combine design, thinking and craft.</h5>
+                    <h5 class="font-weight-600 header-font text-white">We combine design, thinking and craft.</h5>
                     <p>
                         We learned that various engineering teams would be involved in the development of the same product, and that each had their own ways of implementing global theming and local styling through (local) scoped styling that would override global declarations. This was one of the causes for styling disparity and, therefore, growing design and technical debt. </p>
                     <p>
@@ -45,12 +45,12 @@
                 <!-- Left Block ---->
                 <div class="col-12 col-xl-5 col-lg-6 padding-six-lr lg-padding-15px-lr text-left text-md-start resume-text"
                     data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
-                    <h5 class="font-weight-600 header-font">We combine design, thinking and craft.</h5>
+                    <h5 class="font-weight-600 header-font text-white">We combine design, thinking and craft.</h5>
                     <p>
-                        Another critical piece of the puzzle was to consolidate all of our design system's documentation into a single source of truth to be accessible by all teams. To that end, I began to explore:
+                        Another critical piece of the puzzle was to consolidate all of our design system's documentation into a single source of truth to be accessible by all teams. To that end, I began exploring:
 
                     <ol>
-                        <li>how could us designers view a live (code) inventory of engineers' components via Backlight,
+                        <li>how could us designers view a live-code inventory of engineers' components via Backlight,
                         </li>
                         <li>how could designers potentially do some of the updating of styling, and</li>
                         <li>how could we ensure that our design system guidelines were always mirroring updated code, by
@@ -89,7 +89,7 @@
 
                 <div class="col-12 col-xl-5 col-lg-6 padding-six-lr lg-padding-15px-lr text-left text-md-start resume-text"
                     data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
-                    <h5 class="font-weight-600 header-font">We combine design, thinking and craft.</h5>
+                    <h5 class="font-weight-600 header-font text-white">We combine design, thinking and craft.</h5>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                         the industry’s standard dummy text ever since.</p>
                 </div>
@@ -105,7 +105,7 @@
                 <!-- Left Block ---->
                 <div class="col-12 col-xl-4 col-lg-6 padding-six-lr lg-padding-15px-lr text-left text-md-start resume-text"
                     data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
-                    <h5 class="font-weight-600 header-font">We combine design, thinking and craft.</h5>
+                    <h5 class="font-weight-600 header-font text-white">We combine design, thinking and craft.</h5>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                         the industry’s standard dummy text ever since.</p>
                 </div>

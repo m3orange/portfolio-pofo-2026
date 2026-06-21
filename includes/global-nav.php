@@ -39,7 +39,7 @@
                         <div class="position-absolute height-100 width-100 overflow-auto">
                             <div class="display-table height-100 width-100">
                                 <div
-                                    class="display-table-cell height-100 width-100 vertical-align-top padding-fourteen-lr alt-font link-style-2 md-padding-seven-lr sm-padding-15px-lr padding-ten-tb">
+                                    class="display-table-cell height-100 width-100 vertical-align-top padding-fourteen-lr alt-font link-style-2 md-padding-seven-lr sm-padding-15px-lr padding-twenty-top padding-ten-bottom">
                                     <!-- start menu -->
                                     <ul class="font-weight-600 sm-no-padding-left">
                                         <li><a href="<?= BASE_URL ?>index.php" class="inner-link">Home</a></li>

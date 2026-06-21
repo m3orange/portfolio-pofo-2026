@@ -13,7 +13,7 @@
             </div>    
         </div> -->
         <div class="row justify-content-center">
-            <div class="col col-12 col-xl-10 col-lg-11 text-center tab-style3" id="animated-tab1">
+            <div class="col col-12 col-xl-11 col-sm-11 text-center tab-style3" id="animated-tab1">
                 <!-- start tab navigation -->
                 <ul class="nav nav-tabs text-small font-weight-600 justify-content-center flex-column flex-md-row">
                     <li class="nav-item"><a href="#tab3_sec1" data-toggle="tab" class="nav-link active">I'm a Front-End
@@ -27,7 +27,7 @@
 
 
         <div class="row justify-content-center">
-            <div class="col col col-12 col-xl-10 col-lg-11">
+            <div class="col col-12 col-xl-11 col-sm-11 ">
                 <!-- start tab content -->
                 <div class="tab-content">
 
@@ -45,7 +45,7 @@
                                 <!--font-size: 110%!important; letter-spacing: 0.03em;-->
                             </h6>
                         </div>
-                        <div class="row justify-content-center unicorn-tab-area">
+                        <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 last-paragraph-no-margin wow fadeIn p-0" data-wow-delay="0.4s">
                                 <ul class="portfolio-grid work-1col hover-option2 w-100">
                                     <li class="grid-sizer"></li>
@@ -92,7 +92,7 @@
                     <!-- end tab content -->
                     <!-- start tab content -->
                     <div id="tab3_sec2" class="tab-pane show unicorn-tab-area">
-                        <div class="row justify-content-center resume-text unicorn-tab-area">
+                        <div class="row justify-content-center resume-text">
                             <div class="col-12 col-lg-6 last-paragraph-no-margin">
 
                                 <h6>Areas of Knowledge</h6>
