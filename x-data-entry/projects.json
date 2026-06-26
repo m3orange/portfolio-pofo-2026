@@ -1,0 +1,56 @@
+
+
+INSERT INTO projects (title, description, client, year, tags, live_url, tasks, sort_order, role, alt_tag) VALUES
+(
+  'Musicasa',
+  'When an unknown printer took a galley of type and scrambled it to make a type specimen book.Sed sagittis venenatis dui id semper. Suspendisse nec blandit lorem. Nam a lacus pretium, lacinia nunc non, dignissim ligula.',
+  'Musicasa',
+  '2022',
+  '["platform"]',
+  'projects/musicasa/index.php',
+  'User Research, Discovery, Workshops, Prototyping, Design, Handoff  Documentation',
+  4,
+  'Lead Designer',
+  'Musicasa'
+),
+(
+  'CX Roadmap',
+  'When an unknown printer took a galley of type and scrambled it to make a type specimen book.Sed sagittis venenatis dui id semper. Suspendisse nec blandit lorem. Nam a lacus pretium, lacinia nunc non, dignissim ligula.',
+  'Vantor',
+  '2025',
+  '["platform"]',
+  'projects/cx-roadmap/index.php',
+  'User Research, Discovery, Workshops, Prototyping, Design, Handoff  Documentation',
+  5,
+  'Co-Designer',
+  'CX Roadmap'
+),
+(
+  'Map Tools',
+  'When an unknown printer took a galley of type and scrambled it to make a type specimen book.Sed sagittis venenatis dui id semper. Suspendisse nec blandit lorem. Nam a lacus pretium, lacinia nunc non, dignissim ligula.',
+  'Vantor',
+  '2026',
+  '["platform"]',
+  'projects/map-tools/index.php',
+  'User Research, Discovery, Workshops, Prototyping, Design, Handoff  Documentation',
+  6,
+  'Lead Designer',
+  'Map Tools'
+);
+
+
+
+
+INSERT INTO projects (title, description, client, year, tags, live_url, tasks, sort_order, role, alt_tag) VALUES
+ (
+   'IDD',
+   'When an unknown printer took a galley of type and scrambled it to make a type specimen book.Sed sagittis venenatis dui id semper. Suspendisse nec blandit lorem. Nam a lacus pretium, lacinia nunc non, dignissim ligula.',
+   'Vantor',
+   '2024',
+   '["platform"]',
+   'projects/idd/index.php',
+   'User Research, Discovery, Workshops, Prototyping, Design, Handoff  Documentation',
+   7,
+   'Lead Designer',
+   'IDD'
+ );

@@ -1,14 +1,29 @@
 <?php require_once( '../../config.php' ) ?>
 
+<?php require_once '../../db-config.php';
+
+$pdo = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME . ';charset=utf8mb4', DB_USER, DB_PASS);
+
+// Project info
+$stmt = $pdo->prepare('SELECT * FROM projects WHERE id = ?');
+$stmt->execute([1]);
+$project = $stmt->fetch(PDO::FETCH_ASSOC);
+
+// Assets by type
+function getAssets($pdo, $project_id, $type) {
+    $stmt = $pdo->prepare('SELECT * FROM project_assets WHERE project_id = ? AND display_type = ? ORDER BY sort_order ASC');
+    $stmt->execute([$project_id, $type]);
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+}
+
+$hero     = getAssets($pdo, 1, 'hero');
+$grid     = getAssets($pdo, 1, 'grid');
+$single   = getAssets($pdo, 1, 'single');
+$lightbox = getAssets($pdo, 1, 'lightbox');
+$slideshow = getAssets($pdo, 1, 'slideshow');
+?>
 
 <?php include ROOT_PATH . 'includes/header.php'; ?>
-
-<!-- <include src="includes/linked-files.html"></include> -->
-
-<!-- <script>document.addEventListener("DOMContentLoaded", function () {
-            let e = document.getElementsByTagName("include"); for (var t = 0; t < e.length; t++) { let a = e[t]; n(e[t].attributes.src.value, function (e) { a.insertAdjacentHTML("afterend", e), a.remove() }) } function n(e, t) { fetch(e).then(e => e.text()).then(e => t(e)) }
-        });
-    </script> -->
 
 
 <body class="citybox">
@@ -18,28 +33,18 @@
     <!-- end header -->
 
     <!-- start parallax hero section -->
-    <section id="block-intro-slider" class="wow p-0 " >
+    <section id="block-intro-slider" class="wow p-0 ">
         <video autoplay loop muted playsinline class="hero-video-cb">
-            <source src="<?= BASE_URL ?>projects/citybox/assets/citybox-screens-in-laptop.mp4" type="video/mp4">  
+            <source src="<?= BASE_URL ?>projects/atlas-ui/assets/citybox-screens-in-laptop.mp4" type="video/mp4">  
         </video>
     </section>
     <!-- end parallax hero section -->
 
-
+    
     <!-- start product information section -->
-    <section class="intro-info">
-        <div class="container">
-            <div class="row grid-lines">
-                <div class="col col-12 text-left">
-                    <div class="page-title font-weight-500">
-                        <h3>Atlas UI</h3>
-                    </div>
-                </div>
-               <?php include ROOT_PATH . 'projects/citybox/assets/description-intro.php'; ?>
 
-            </div>
-        </div>
-    </section>
+    <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
+    
     <!-- end product information section -->
 
 
@@ -56,18 +61,14 @@
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row margin-40px-bottom">
                 <div class="col col-12 col-lg-4 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/citybox/assets/discovery-grid-01.png"></div>
-                    <!-- <div class="gallery-prject-description">Description</div> -->
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/atlas-ui/assets/discovery-grid-01.png"></div>
                 </div>
-                <div class="col col-12 col-lg-4 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp"
-                    data-wow-delay="0.4s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/citybox/assets/discovery-grid-02.png"></div>
+                <div class="col col-12 col-lg-4 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/atlas-ui/assets/discovery-grid-02.png"></div>
                 </div>
-                <div class="col col-12 col-lg-4 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp"
-                    data-wow-delay="0.6s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/citybox/assets/discovery-grid-03.png"></div>
+                <div class="col col-12 col-lg-4 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/atlas-ui/assets/discovery-grid-03.png"></div>
                 </div>
-               
             </div>
         </div>
     </section>
@@ -98,12 +99,6 @@
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row">
                 <div class="col col-12 wow fadeIn" data-wow-delay="0.4s">
-                    <!-- 
-                    <div class="link-to-project-page">
-                        <a href="/projects/citybox">View the Atlas Design System in detail </a>
-                        <div><img src="images/swiper-button-alpha-45px-next.png"/></div>
-                    </div>
-                     -->
                     <div class="gallery-item">
                         <img src="<?= BASE_URL ?>projects/atlas-design-system/assets/atlas-design-system-fullwidth.png"/>
                     </div>
@@ -146,20 +141,12 @@
 
 
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/citybox/assets/cb-screens-browser-01.png"></div>
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/citybox/assets/cb-screens-browser-02.png"></div>
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/citybox/assets/cb-screens-browser-03.png"></div>
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/citybox/assets/cb-screens-browser-04.png"></div>
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/citybox/assets/cb-screens-browser-05.png"></div>
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/citybox/assets/cb-screens-browser-06.png"></div>
-
-                        </div>
+                            <?php foreach ($slideshow as $img): ?>
+                                <div class="swiper-slide">
+                                    <img class="cb-screens" src="<?= BASE_URL ?><?= $img['file_path'] ?>">
+                                </div>
+                            <?php endforeach; ?>
+                        </div><!--swiper-wrapper-->
                         <div
                             class="swiper-pagination swiper-pagination-square swiper-pagination-white swiper-full-screen-pagination">
                         </div>
@@ -202,10 +189,10 @@
                     <li class="grid-sizer"></li>
 
                     <li class="grid-item grid-item-double  wow fadeInUp"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/citybox/assets/cb-specs-01.png" data-group="two-columns-zoom-animation"
+                        <a href="<?= BASE_URL ?>projects/atlas-ui/assets/cb-specs-01.png" data-group="two-columns-zoom-animation"
                             class="lightbox-group-gallery-item">
                             <figure>
-                                <div class="portfolio-img bg-extra-dark-gray"><img src="<?= BASE_URL ?>projects/citybox/assets/cb-specs-01.png" class="project-img-gallery" /></div>
+                                <div class="portfolio-img bg-extra-dark-gray"><img src="<?= BASE_URL ?>projects/atlas-ui/assets/cb-specs-01.png" class="project-img-gallery" /></div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box vertical-align-middle">
@@ -220,11 +207,11 @@
                     </li>
 
                     <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/citybox/assets/cb-specs-02.png" data-group="two-columns-zoom-animation"
+                        <a href="<?= BASE_URL ?>projects/atlas-ui/assets/cb-specs-02.png" data-group="two-columns-zoom-animation"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray"><img
-                                        src="<?= BASE_URL ?>projects/citybox/assets/cb-specs-02.png" class="project-img-gallery" /></div>
+                                        src="<?= BASE_URL ?>projects/atlas-ui/assets/cb-specs-02.png" class="project-img-gallery" /></div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box vertical-align-middle">
@@ -238,11 +225,11 @@
                         </a>
                     </li>
                     <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/citybox/assets/cb-specs-03.png" data-group="two-columns-zoom-animation"
+                        <a href="<?= BASE_URL ?>projects/atlas-ui/assets/cb-specs-03.png" data-group="two-columns-zoom-animation"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray"><img
-                                        src="<?= BASE_URL ?>projects/citybox/assets/cb-specs-03.png" class="project-img-gallery" /></div>
+                                        src="<?= BASE_URL ?>projects/atlas-ui/assets/cb-specs-03.png" class="project-img-gallery" /></div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box vertical-align-middle">
@@ -256,11 +243,11 @@
                         </a>
                     </li>
                     <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/citybox/assets/cb-specs-04.png" data-group="two-columns-zoom-animation"
+                        <a href="<?= BASE_URL ?>projects/atlas-ui/assets/cb-specs-04.png" data-group="two-columns-zoom-animation"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray"><img
-                                        src="<?= BASE_URL ?>projects/citybox/assets/cb-specs-04.png" class="project-img-gallery" /></div>
+                                        src="<?= BASE_URL ?>projects/atlas-ui/assets/cb-specs-04.png" class="project-img-gallery" /></div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box vertical-align-middle">

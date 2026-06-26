@@ -9,12 +9,9 @@
                     </div>
                 </div>
                 <div class="col col-12 col-lg-7 col-md-12 line-height-28 last-paragraph-no-margin md-margin-50px-bottom sm-margin-30px-bottom wow fadeIn">
-                    <h6><?= $project['description'] ?> </h6>
+                    <!-- <h6><?= $project['description'] ?> </h6> -->
                     
-                    <div class="project-labels-area">
-                        <span class="project-labels-pills">Platform</span>
-                        <span><?= $project['tags'] ?></span>
-                    </div>
+                    <!-- <div class="project-labels-area"><span><?= $project['tags'] ?></span></div> -->
 
                     <?php include ROOT_PATH . 'includes/projects-confidentiality-note.php'; ?> 
                 </div>

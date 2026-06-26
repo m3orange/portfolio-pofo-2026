@@ -2,50 +2,25 @@
 
 
 <!-- start footer --> 
-        <footer class="footer-modern-dark bg-extra-dark-gray padding-five-tb sm-padding-30px-tb">
-            <div class="footer-widget-area padding-40px-bottom sm-padding-30px-bottom">
-                <div class="container">
-                    <div class="row">
-                        <!-- start slogan -->
- 
-                        <!-- end slogan -->
-                        <!-- start social media -->
-                        <div class="col-lg-4 col-md-6 social-style-2 text-center text-md-left">
-                            <div class="social-icon-style-8">
-                                <ul class="text-medium margin-20px-top sm-no-margin-bottom  p-0 mb-0 list-unstyled" style="text-align: center;">
-
-                                    <li class="d-inline-block margin-20px-right">
-                                        <a href="<?= BASE_URL ?>index.php" title="Home">Home</a>
-                                    </li>
-                                    <li class="d-inline-block margin-20px-right">
-                                        <a href="<?= BASE_URL ?>projects/citybox/index.php" title="Atlas UI">CityBox UI</a>
-                                    </li>
-                                    <li class="d-inline-block margin-20px-right">
-                                        <a href="<?= BASE_URL ?>projects/admin/index.php" title="Admin">Admin</a>
-                                    </li>    
-                                    <li class="d-inline-block margin-20px-right">
-                                        <a href="<?= BASE_URL ?>projects/atlas-design-system/index.php" title="Atlas Design System">Atlas Design System</a>
-                                    </li>            
-
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- end social media -->
-                    </div>
-                </div>
+<footer class="footer-strip-dark bg-extra-dark-gray padding-50px-tb sm-padding-30px-tb">
+    <div class="container">
+        <div class="row align-items-flexstart">
+            <!-- start logo -->
+            <div class="col col-12 col-md-4 text-left text-lg-start sm-margin-20px-bottom">
+                <a href="index.html"><img class="footer-logo" src="<?= BASE_URL ?>images/m3orange-logo-no-padding-white.png" data-at2x="<?= BASE_URL ?>images/m3orange-logo-no-padding-white@2x.png" alt="M3Orange Design"></a>
+                <a href="https://www.linkedin.com/in/michellemunozdorna/" target="_blank"><img class="social-icons-footer" src="<?= BASE_URL ?>images/logo-linkedin-white.svg"></a>
+            </div> 
+            <!-- end logo -->
+            <!-- start copyright -->
+            <div class="coll col-12 col-md-8 text-left text-small alt-font sm-margin-10px-bottom">
+                &copy;<?=date("Y")?>, Michelle M. Mu&ntilde;oz-Dorna and Pixelmedia Inc. All Rights Reserved. No part of this content may be used or reproduced, in part or as a whole, without the express written consent of the author.
             </div>
-            <div class="container">
-                <!-- start copyright --
-                <div class="footer-bottom border-top border-color-medium-dark-gray padding-40px-top sm-padding-30px-top">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 text-md-left text-center text-small">POFO - Portfolio Concept Theme</div>
-                        <div class="col-md-6 text-md-right text-center text-small">&copy; 2019 POFO is Proudly Powered by <a href="http://www.themezaa.com" target="_blank" title="ThemeZaa">ThemeZaa</a></div>
-                    </div>
-                </div>
-                <!-- end copyright -->
-            </div>
-        </footer>           
-        <!-- end footer -->
+            <!-- end copyright -->
+
+        </div>
+    </div>
+</footer>   
+<!-- end footer -->
 
             <!-- end footer -->
     <!-- start scroll to top -->

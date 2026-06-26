@@ -1,15 +1,30 @@
 <?php require_once( '../../config.php' ) ?>
 
+<?php require_once '../../db-config.php';
+
+$pdo = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME . ';charset=utf8mb4', DB_USER, DB_PASS);
+
+// Project info
+$stmt = $pdo->prepare('SELECT * FROM projects WHERE id = ?');
+$stmt->execute([4]);
+$project = $stmt->fetch(PDO::FETCH_ASSOC);
+
+// Assets by type
+function getAssets($pdo, $project_id, $type) {
+    $stmt = $pdo->prepare('SELECT * FROM project_assets WHERE project_id = ? AND display_type = ? ORDER BY sort_order ASC');
+    $stmt->execute([$project_id, $type]);
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+}
+
+$hero     = getAssets($pdo, 1, 'hero');
+$grid     = getAssets($pdo, 1, 'grid');
+$single   = getAssets($pdo, 1, 'single');
+$lightbox = getAssets($pdo, 1, 'lightbox');
+$slideshow = getAssets($pdo, 1, 'slideshow');
+?>
+
 
 <?php include ROOT_PATH . 'includes/header.php'; ?>
-
-<!-- <include src="includes/linked-files.html"></include> -->
-
-<!-- <script>document.addEventListener("DOMContentLoaded", function () {
-            let e = document.getElementsByTagName("include"); for (var t = 0; t < e.length; t++) { let a = e[t]; n(e[t].attributes.src.value, function (e) { a.insertAdjacentHTML("afterend", e), a.remove() }) } function n(e, t) { fetch(e).then(e => e.text()).then(e => t(e)) }
-        });
-    </script> -->
-
 
 <body class="musicasa">
 
@@ -25,19 +40,7 @@
 
 
     <!-- start product information section -->
-    <section class="intro-info">
-        <div class="container">
-            <div class="row grid-lines">
-                <div class="col col-12 text-left">
-                    <div class="page-title font-weight-500">
-                        <h3>Musicasa</h3>
-                    </div>
-                </div>
-               <?php include ROOT_PATH . 'projects/musicasa/assets/description-intro.php'; ?>
-
-            </div>
-        </div>
-    </section>
+    <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
     <!-- end product information section -->
 
 
@@ -63,12 +66,6 @@
                                     <img src="<?= BASE_URL ?>projects/musicasa/assets/grid-process-01.png">
                                 </div>
                             </li>
-                            <li class="grid-item web branding design wow fadeIn" data-wow-delay="0.4s">
-                                <div class="portfolio-img">
-                                    <img src="<?= BASE_URL ?>projects/musicasa/assets/grid-process-02.png">
-                                </div>
-                            </li>
-
                             <li class="grid-item web branding design wow fadeIn" data-wow-delay="0.4s">
                                 <div class="portfolio-img">
                                     <img src="<?= BASE_URL ?>projects/musicasa/assets/grid-process-03.png">
@@ -116,21 +113,28 @@
 
 
 
-<section class="wow animate__fadeIn pt-0 pb-0" style="visibility: visible; animation-name: fadeInUP; background-color: #3b3b3b;" data-delay="0.5s">
-            <div class="container-fluid padding-three-lr padding-eight-tb md-padding-30px-lr sm-padding-15px-lr">
-                <div class="row">
-                    <div class="col-12 margin-35px-tb md-no-margin-top md-margin-30px-bottom workflows-fullwidth">
-                        <img src="<?= BASE_URL ?>projects/musicasa/assets/workflow-01.png" class="w-100" data-no-retina="">
-                    </div>
-                    <div class="col-12 margin-35px-tb md-no-margin-top md-margin-30px-bottom workflows-fullwidth">
-                        <img src="<?= BASE_URL ?>projects/musicasa/assets/workflow-02.png" class="w-100" data-no-retina="">
-                    </div>
-                    <div class="col-12 margin-35px-tb md-no-margin-top md-margin-30px-bottom workflows-fullwidth" style="background-color: #303030 !important;">
-                        <img src="<?= BASE_URL ?>projects/musicasa/assets/musicasa-all-screens-25pc.png" class="w-100" data-no-retina="">
-                    </div>
-                </div>
+<section class="wow animate__fadeIn pt-0 pb-0" style="visibility: visible; animation-name: fadeInUP; background-color: #fbb92d;" data-delay="0.5s">
+    <div class="container-fluid padding-three-lr padding-eight-tb md-padding-30px-lr sm-padding-15px-lr">
+        <div class="row">
+            <div class="col-12 margin-35px-tb md-no-margin-top md-margin-30px-bottom workflows-fullwidth">
+                <img src="<?= BASE_URL ?>projects/musicasa/assets/workflow-01.png" class="w-100" data-no-retina="">
             </div>
-        </section>
+            <div class="col-12 margin-35px-tb md-no-margin-top md-margin-30px-bottom workflows-fullwidth">
+                <img src="<?= BASE_URL ?>projects/musicasa/assets/workflow-02.png" class="w-100" data-no-retina="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="wow animate__fadeIn pt-0 pb-0" style="visibility: visible; animation-name: fadeInUP; background-color: #303030;" data-delay="0.5s">
+    <div class="container-fluid padding-three-lr padding-eight-tb md-padding-30px-lr sm-padding-15px-lr">
+        <div class="row">
+            <div class="col-12 margin-35px-tb md-no-margin-top md-margin-30px-bottom workflows-fullwidth" style="background-color: #303030 !important;">
+                <img src="<?= BASE_URL ?>projects/musicasa/assets/musicasa-all-screens-25pc.png" class="w-100" data-no-retina="">
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
@@ -141,3 +145,6 @@
 </body>
 
 </html>
+
+
+                    

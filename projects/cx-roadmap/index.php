@@ -1,5 +1,27 @@
 <?php require_once( '../../config.php' ) ?>
 
+<?php require_once '../../db-config.php';
+
+$pdo = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME . ';charset=utf8mb4', DB_USER, DB_PASS);
+
+// Project info
+$stmt = $pdo->prepare('SELECT * FROM projects WHERE id = ?');
+$stmt->execute([5]);
+$project = $stmt->fetch(PDO::FETCH_ASSOC);
+
+// Assets by type
+function getAssets($pdo, $project_id, $type) {
+    $stmt = $pdo->prepare('SELECT * FROM project_assets WHERE project_id = ? AND display_type = ? ORDER BY sort_order ASC');
+    $stmt->execute([$project_id, $type]);
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+}
+
+$hero     = getAssets($pdo, 1, 'hero');
+$grid     = getAssets($pdo, 1, 'grid');
+$single   = getAssets($pdo, 1, 'single');
+$lightbox = getAssets($pdo, 1, 'lightbox');
+$slideshow = getAssets($pdo, 1, 'slideshow');
+?>
 
 <?php include ROOT_PATH . 'includes/header.php'; ?>
 
@@ -13,28 +35,15 @@
     <!-- start parallax hero section -->
     <section id="block-intro-slider">
 
-            <!-- <img src="<?= BASE_URL ?>projects/usic/assets/usic-hero-header.png"/>    -->
+            <!-- <img src="<?= BASE_URL ?>projects/cx-roadmap/assets/usic-hero-header.png"/>    -->
          
     </section>
     <!-- end parallax hero section -->
 
 
 
-
     <!-- start product information section -->
-    <section class="intro-info">
-        <div class="container">
-            <div class="row grid-lines">
-                <div class="col col-12 text-left">
-                    <div class="page-title font-weight-500">
-                        <h3>Roadmap towards CX excellence</h3>
-                    </div>
-                </div>
-               <?php include ROOT_PATH . 'projects/musicasa/assets/description-intro.php'; ?>
-
-            </div>
-        </div>
-    </section>
+    <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
     <!-- end product information section -->
 
 
@@ -62,10 +71,10 @@
                 <ul class="portfolio-grid work-1col hover-option2 gutter-large w-100">
                     <li class="grid-sizer"></li>
                     <li class="grid-item grid-item-double kickoff-presentation"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/usic/assets/kickoff-presentation.jpg" class="lightbox-group-gallery-item">
+                        <a href="<?= BASE_URL ?>projects/cx-roadmap/assets/kickoff-presentation.jpg" class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray">
-                                    <img src="<?= BASE_URL ?>projects/usic/assets/kickoff-presentation.jpg" class="project-img-gallery" />
+                                    <img src="<?= BASE_URL ?>projects/cx-roadmap/assets/kickoff-presentation.jpg" class="project-img-gallery" />
                                 </div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
@@ -94,11 +103,11 @@
                 <ul class="portfolio-grid work-5col hover-option2 gutter-large w-100">
                     <li class="grid-sizer"></li>
                     <li class="grid-item grid-item-double"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/usic/assets/workshop-grid/01.jpg" data-group="workshop-exercises-grid"
+                        <a href="<?= BASE_URL ?>projects/cx-roadmap/assets/workshop-grid/01.jpg" data-group="workshop-exercises-grid"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray">
-                                    <img src="<?= BASE_URL ?>projects/usic/assets/workshop-grid/01.jpg" class="project-img-gallery" />
+                                    <img src="<?= BASE_URL ?>projects/cx-roadmap/assets/workshop-grid/01.jpg" class="project-img-gallery" />
                                 </div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
@@ -113,11 +122,11 @@
                         </a>
                     </li>
                     <li class="grid-item wow"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/usic/assets/workshop-grid/02.jpg" data-group="workshop-exercises-grid"
+                        <a href="<?= BASE_URL ?>projects/cx-roadmap/assets/workshop-grid/02.jpg" data-group="workshop-exercises-grid"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray">
-                                    <img src="<?= BASE_URL ?>projects/usic/assets/workshop-grid/02.jpg" class="project-img-gallery" />
+                                    <img src="<?= BASE_URL ?>projects/cx-roadmap/assets/workshop-grid/02.jpg" class="project-img-gallery" />
                                 </div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
@@ -132,11 +141,11 @@
                         </a>
                     </li>
                     <li class="grid-item wow"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/usic/assets/workshop-grid/03.jpg" data-group="workshop-exercises-grid"
+                        <a href="<?= BASE_URL ?>projects/cx-roadmap/assets/workshop-grid/03.jpg" data-group="workshop-exercises-grid"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray">
-                                    <img src="<?= BASE_URL ?>projects/usic/assets/workshop-grid/03.jpg" class="project-img-gallery" />
+                                    <img src="<?= BASE_URL ?>projects/cx-roadmap/assets/workshop-grid/03.jpg" class="project-img-gallery" />
                                 </div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
@@ -151,11 +160,11 @@
                         </a>
                     </li>
                     <li class="grid-item wow"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/usic/assets/workshop-grid/04.jpg" data-group="workshop-exercises-grid"
+                        <a href="<?= BASE_URL ?>projects/cx-roadmap/assets/workshop-grid/04.jpg" data-group="workshop-exercises-grid"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray">
-                                    <img src="<?= BASE_URL ?>projects/usic/assets/workshop-grid/04.jpg" class="project-img-gallery" />
+                                    <img src="<?= BASE_URL ?>projects/cx-roadmap/assets/workshop-grid/04.jpg" class="project-img-gallery" />
                                 </div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
@@ -170,11 +179,11 @@
                         </a>
                     </li>
                     <li class="grid-item wow"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/usic/assets/workshop-grid/05.jpg" data-group="workshop-exercises-grid"
+                        <a href="<?= BASE_URL ?>projects/cx-roadmap/assets/workshop-grid/05.jpg" data-group="workshop-exercises-grid"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray">
-                                    <img src="<?= BASE_URL ?>projects/usic/assets/workshop-grid/05.jpg" class="project-img-gallery" />
+                                    <img src="<?= BASE_URL ?>projects/cx-roadmap/assets/workshop-grid/05.jpg" class="project-img-gallery" />
                                 </div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
@@ -189,11 +198,11 @@
                         </a>
                     </li>
                     <li class="grid-item wow"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/usic/assets/workshop-grid/06.jpg" data-group="workshop-exercises-grid"
+                        <a href="<?= BASE_URL ?>projects/cx-roadmap/assets/workshop-grid/06.jpg" data-group="workshop-exercises-grid"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray">
-                                    <img src="<?= BASE_URL ?>projects/usic/assets/workshop-grid/06.jpg" class="project-img-gallery" />
+                                    <img src="<?= BASE_URL ?>projects/cx-roadmap/assets/workshop-grid/06.jpg" class="project-img-gallery" />
                                 </div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
@@ -229,7 +238,7 @@
             <div class="row">
                 <div class="col col-12 wow" data-wow-delay="0">
                     <div class="gallery-item">
-                        <img src="<?= BASE_URL ?>projects/usic/assets/usic-customer-journey-process.png"/>
+                        <img src="<?= BASE_URL ?>projects/cx-roadmap/assets/usic-customer-journey-process.png"/>
                     </div>
                 </div>
             </div>
@@ -267,17 +276,17 @@
 
                         <div class="swiper-wrapper">
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/usic/assets/proto-personas-01.png"></div>
+                                    src="<?= BASE_URL ?>projects/cx-roadmap/assets/proto-personas-01.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/usic/assets/proto-personas-02.png"></div>
+                                    src="<?= BASE_URL ?>projects/cx-roadmap/assets/proto-personas-02.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/usic/assets/proto-personas-03.png"></div>
+                                    src="<?= BASE_URL ?>projects/cx-roadmap/assets/proto-personas-03.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/usic/assets/proto-personas-04.png"></div>
+                                    src="<?= BASE_URL ?>projects/cx-roadmap/assets/proto-personas-04.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/usic/assets/executive-summary-01.png"></div>
+                                    src="<?= BASE_URL ?>projects/cx-roadmap/assets/executive-summary-01.png"></div>
                             <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/usic/assets/executive-summary-02.png"></div>
+                                    src="<?= BASE_URL ?>projects/cx-roadmap/assets/executive-summary-02.png"></div>
 
                         </div>
                         <div
@@ -309,11 +318,11 @@
                 <ul class="portfolio-grid work-1col hover-option2 gutter-large w-100">
                     <li class="grid-sizer"></li>
                     <li class="grid-item grid-item-double" style="background: transparent!important;"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/usic/assets/research-readout.png" data-group="two-columns-zoom-animation"
+                        <a href="<?= BASE_URL ?>projects/cx-roadmap/assets/research-readout.png" data-group="two-columns-zoom-animation"
                             class="lightbox-group-gallery-item">
                             <figure> <!-- This is the initial image that triggers the modal-->
                                 <div class="portfolio-img"> <!--bg-extra-dark-gray was what added the black bg-->
-                                    <img src="<?= BASE_URL ?>projects/usic/assets/research-readout.png" class="project-img-gallery" />
+                                    <img src="<?= BASE_URL ?>projects/cx-roadmap/assets/research-readout.png" class="project-img-gallery" />
                                 </div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">

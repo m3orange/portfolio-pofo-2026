@@ -1,5 +1,28 @@
 <?php require_once( '../../config.php' ) ?>
 
+<?php require_once '../../db-config.php';
+
+$pdo = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME . ';charset=utf8mb4', DB_USER, DB_PASS);
+
+// Project info
+$stmt = $pdo->prepare('SELECT * FROM projects WHERE id = ?');
+$stmt->execute([2]);
+$project = $stmt->fetch(PDO::FETCH_ASSOC);
+
+// Assets by type
+function getAssets($pdo, $project_id, $type) {
+    $stmt = $pdo->prepare('SELECT * FROM project_assets WHERE project_id = ? AND display_type = ? ORDER BY sort_order ASC');
+    $stmt->execute([$project_id, $type]);
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+}
+
+$hero     = getAssets($pdo, 1, 'hero');
+$grid     = getAssets($pdo, 1, 'grid');
+$single   = getAssets($pdo, 1, 'single');
+$lightbox = getAssets($pdo, 1, 'lightbox');
+$slideshow = getAssets($pdo, 1, 'slideshow');
+?>
+
 
 <?php include ROOT_PATH . 'includes/header.php'; ?>
 
@@ -17,19 +40,7 @@
 
 
     <!-- start product information section -->
-    <section class="intro-info">
-        <div class="container">
-            <div class="row grid-lines">
-                <div class="col col-12 text-left ">
-                    <div class="page-title font-weight-500">
-                        <h3>Atlas Design System</h3>
-                    </div>
-                </div>
-               <?php include ROOT_PATH . 'projects/atlas-design-system/assets/description-intro.php'; ?>
-
-            </div>
-        </div>
-    </section>
+    <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
     <!-- end product information section -->
 
 
@@ -42,7 +53,7 @@
         </section>
         <!-- end section divider -->
 
-                <div class="container">
+        <div class="container">
 
             <div class="row mx-0">
                     <div class="col-md-12 px-3 p-md-0">
@@ -81,8 +92,6 @@
             </div>
         </div>
 
-
-
     </section>
     <!--end - image grid - from single-project-page-01-->
 
@@ -108,7 +117,7 @@
                     </div>
                      -->
                     <div class="gallery-item">
-                        <img src="<?= BASE_URL ?>projects/atlas-design-system/assets/atlas-design-system-fullwidth.png"/>
+                        <img src="<?= BASE_URL ?><?= $single[0]['file_path'] ?>">
                     </div>
                 </div>
             </div>
@@ -164,10 +173,10 @@
                     <li class="grid-sizer"></li>
 
                     <li class="grid-item grid-item-double  wow fadeInUp"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/citybox/assets/cb-specs-01.png" data-group="two-columns-zoom-animation"
+                        <a href="<?= BASE_URL ?>projects/atlas-ui/assets/cb-specs-01.png" data-group="two-columns-zoom-animation"
                             class="lightbox-group-gallery-item">
                             <figure>
-                                <div class="portfolio-img bg-extra-dark-gray"><img src="<?= BASE_URL ?>projects/citybox/assets/cb-specs-01.png" class="project-img-gallery" /></div>
+                                <div class="portfolio-img bg-extra-dark-gray"><img src="<?= BASE_URL ?>projects/atlas-ui/assets/cb-specs-01.png" class="project-img-gallery" /></div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box vertical-align-middle">
@@ -182,11 +191,11 @@
                     </li>
 
                     <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/citybox/assets/cb-specs-02.png" data-group="two-columns-zoom-animation"
+                        <a href="<?= BASE_URL ?>projects/atlas-ui/assets/cb-specs-02.png" data-group="two-columns-zoom-animation"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray"><img
-                                        src="<?= BASE_URL ?>projects/citybox/assets/cb-specs-02.png" class="project-img-gallery" /></div>
+                                        src="<?= BASE_URL ?>projects/atlas-ui/assets/cb-specs-02.png" class="project-img-gallery" /></div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box vertical-align-middle">
@@ -200,11 +209,11 @@
                         </a>
                     </li>
                     <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/citybox/assets/cb-specs-03.png" data-group="two-columns-zoom-animation"
+                        <a href="<?= BASE_URL ?>projects/atlas-ui/assets/cb-specs-03.png" data-group="two-columns-zoom-animation"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray"><img
-                                        src="<?= BASE_URL ?>projects/citybox/assets/cb-specs-03.png" class="project-img-gallery" /></div>
+                                        src="<?= BASE_URL ?>projects/atlas-ui/assets/cb-specs-03.png" class="project-img-gallery" /></div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box vertical-align-middle">
@@ -218,11 +227,11 @@
                         </a>
                     </li>
                     <li class="grid-item wow fadeInUp"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/citybox/assets/cb-specs-04.png" data-group="two-columns-zoom-animation"
+                        <a href="<?= BASE_URL ?>projects/atlas-ui/assets/cb-specs-04.png" data-group="two-columns-zoom-animation"
                             class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray"><img
-                                        src="<?= BASE_URL ?>projects/citybox/assets/cb-specs-04.png" class="project-img-gallery" /></div>
+                                        src="<?= BASE_URL ?>projects/atlas-ui/assets/cb-specs-04.png" class="project-img-gallery" /></div>
                                 <figcaption>
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box vertical-align-middle">

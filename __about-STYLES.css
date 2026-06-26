@@ -256,6 +256,15 @@ font-family: var(--ibm-mono);
     color: #000;
 }
 
+.about #home-hero-opener{
+  background: #000 url(images/m3-orange-bgs/baggage-claim-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: left;
+    background-position-y: -40px;
+    height: 70vh!important;
+}
+
 
 .unicorn-tab-area h5{
     font-family: var(--ibm-sans-body-01)!important;
@@ -266,7 +275,7 @@ font-family: var(--ibm-mono);
 .unicorn-tab-area p,
 .resume-text p,
 .resume-text li{
-  font-size: 16px;
+  font-size: 17px!important;
   font-family: var(--ibm-sans-body-01)!important;
   line-height: 1.4em!important;
   color: #000;
@@ -274,7 +283,7 @@ font-family: var(--ibm-mono);
 }
 
 .resume-text li{
-   font-size: 14px!important;
+   font-size: 17px!important;
    
 }
 
@@ -287,7 +296,7 @@ font-family: var(--ibm-mono);
     @media (min-width: 1200px) {
           .resume-area-grid{
           display: grid;
-          grid-template-columns: 2fr 1fr;
+          grid-template-columns: 1.5fr 1fr;
         }
     }
 
@@ -546,13 +555,13 @@ font-size: 17px;
    padding: 0px 0 130px 0!important;
 }
 
-.swiper-button-prev.swiper-button-black-highlight{
+#anchor-personal-interests .swiper-button-prev.swiper-button-black-highlight{
   /* background-image: url("images/swiper-arrow-prev.svg"); */
   background-image: url("images/swiper-black-button-prev.png");
      
 }
 
-.swiper-button-next.swiper-button-black-highlight{
+#anchor-personal-interests .swiper-button-next.swiper-button-black-highlight{
   /* background-image: url("images/swiper-arrow-prev.svg"); */
   background-image: url("images/swiper-black-button-next.png");
      

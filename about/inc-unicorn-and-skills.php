@@ -1,6 +1,6 @@
 <section id="knowledge" class="wow fadeIn bg-light-gray no-padding-top ">
     <section class="section-divider-numbered no-margin-top">
-        <div class="big-number">03</div>
+        <div class="big-number">Ø3</div>
         <div class="">Knowledge & Skills</div>
     </section>
 
@@ -46,7 +46,7 @@
                             </h6>
                         </div>
                         <div class="row justify-content-center">
-                            <div class="col-12 col-lg-8 last-paragraph-no-margin wow fadeIn p-0" data-wow-delay="0.4s">
+                            <div class="col-12 col-lg-7 last-paragraph-no-margin wow fadeIn p-0" data-wow-delay="0.4s">
                                 <ul class="portfolio-grid work-1col hover-option2 w-100">
                                     <li class="grid-sizer"></li>
                                     <li class="grid-item wow fadeIn"> <!--grid-item-double-->
@@ -72,7 +72,7 @@
                                 </ul>
                             </div>
 
-                            <div class="col-12 col-lg-4 last-paragraph-no-margin wow fadeIn resume-text"
+                            <div class="col-12 col-lg-5 last-paragraph-no-margin wow fadeIn resume-text"
                                 style="align-content: center;" data-wow-delay="0.8s">
                                 <p>
                                     As a result, my skillset range is wider than the average designer (I'm often called

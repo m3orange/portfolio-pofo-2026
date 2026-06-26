@@ -1,0 +1,166 @@
+// Creating the table and its structure
+
+
+
+
+CREATE TABLE engineering_initiatives (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        title VARCHAR(255) NOT NULL,
+        short_text TEXT,
+        long_text TEXT,
+        file_path VARCHAR(500) NOT NULL,
+        caption TEXT,
+        sort_order INT DEFAULT 0
+);
+
+// Worked
+
+
+INSERT INTO engineering_initiatives (title, short_text, long_text, file_path, caption, sort_order) VALUES
+(
+        'Faster Design<>Code Translation',
+        'Diving into our Vuetify repos to see how global theming is structured and components are styled, to assess how we may streamline engineers’ design<>code translation process. The goal was to ensure parity and sitewide consistency, facilitate updates and deprecation, and to reduce technical and design debt.',
+        'We learned that various engineering teams would be involved in the development of the same product, and that each had their own ways of implementing global theming and local styling through (local) scoped styling that would override global declarations. This was one of the causes for styling disparity and, therefore, growing design and technical debt.  + CHAR(13) + CHAR(10) + CHAR(13) + CHAR(10) + I wanted to explore the possibility of implementing custom CSS classes that would solve this issue, and which would also facilitate the global propagation of updates and deprecation across the board. I therefore dove into the Vuetify code to understand how elements work, the challenges engineers may face when adding styling, and understand how feasible it would be to implement these custom classes.',
+        'projects/design-to-code/working-in-vuetify.mp4',
+        NULL,
+1
+);
+
+
+// Didn't know how to do both at once, so did two different entries - WORKED
+// 'This is the first paragraph of text.\n\n
+// • Bullet one\n
+// • Bullet two\n
+// • Bullet three' 
+
+
+INSERT INTO engineering_initiatives (title, short_text, long_text, file_path, caption, sort_order) VALUES
+(
+        'Live Code Repo and Storybook Entries',
+        'Exploring automated consolidation of our design system guidelines, by leveraging:\n\n
+                • Figma Code Connect - doing a 1 to 1 pairing of Figma components to their .vue counterparts\n
+                • Backlight - creating a live-code mirrored view of all components and patterns in production, and\n
+                • Storybook -  automatic generation of each component’s stories to ensure documentation is always updated.',
+        NULL,
+        'projects/design-to-code/backlight-demo.mp4',
+        NULL,
+2
+)
+
+
+// This also worked, but need to confirm how it's rendering in the page.
+
+INSERT INTO engineering_initiatives (title, short_text, long_text, file_path, caption, sort_order) VALUES
+(
+        'Live Code Repo and Storybook Entries',
+        'Exploring automated consolidation of our design system guidelines, by leveraging:\n\n
+                [
+        "Figma Code Connect - doing a 1 to 1 pairing of Figma components to their .vue counterparts",
+        "Backlight - creating a live-code mirrored view of all components and patterns in production, and",
+        "Storybook -  automatic generation of each component’s stories to ensure documentation is always updated."
+]',
+        NULL,
+        'projects/design-to-code/backlight-demo.mp4',
+        NULL,
+3
+)
+
+
+// This also worked, and MUCH EASIER, but need to confirm how it's rendering in the page.
+// INSERT INTO your_table_name (your_column_name) 
+// VALUES ('<p>This is my paragraph.</p><ul><li>Bullet 1</li><li>Bullet 2</li></ul>');
+
+INSERT INTO engineering_initiatives (title, short_text, long_text, file_path, caption, sort_order) VALUES
+(
+        'Live Code Repo and Storybook Entries',
+        '<p>Exploring automated consolidation of our design system guidelines, by leveraging:</p>
+        <ul>
+                <li>Figma Code Connect - doing a 1 to 1 pairing of Figma components to their .vue counterparts</li>
+                <li>Backlight - creating a live-code mirrored view of all components and patterns in production, and,</li>
+                <li>Storybook -  automatic generation of each component’s stories to ensure documentation is always updated.</li>
+        </ul>',
+        NULL,
+        'projects/design-to-code/backlight-demo.mp4',
+        NULL,
+4
+)
+        
+
+
+
+
+// Don't think it's gonna work
+
+INSERT INTO engineering_initiatives (title, short_text, long_text, file_path, caption, sort_order) VALUES
+(
+        'Faster Design<>Code Translation',
+        'Diving into our Vuetify repos to see how global theming is structured and components are styled, to assess how we may streamline engineers’ design<>code translation process. The goal was to ensure parity and sitewide consistency, facilitate updates and deprecation, and to reduce technical and design debt.',
+        'We learned that various engineering teams would be involved in the development of the same product, and that each had their own ways of implementing global theming and local styling through (local) scoped styling that would override global declarations. This was one of the causes for styling disparity and, therefore, growing design and technical debt.  + CHAR(13) + CHAR(10) + CHAR(13) + CHAR(10) + I wanted to explore the possibility of implementing custom CSS classes that would solve this issue, and which would also facilitate the global propagation of updates and deprecation across the board. I therefore dove into the Vuetify code to understand how elements work, the challenges engineers may face when adding styling, and understand how feasible it would be to implement these custom classes.',
+        'projects/design-to-code/working-in-vuetify.mp4',
+        NULL,
+1
+),
+(
+            'Live Code Repo and Storybook Entries',
+        'Exploring automated consolidation of our design system guidelines, by leveraging:'  || CHR(10) || CHR(10) ||
+        [
+        "• Figma Code Connect - doing a 1: 1 pairing of Figma components to their .vue counterparts",
+        "• Backlight - creating a live-code mirrored view of all components and patterns in production, and",
+        "• Storybook -  automatic generation of each component’s stories to ensure documentation is always updated"
+]',
+        'projects/design-to-code/backlight-demo.mp4',
+        NULL,
+2
+);
+
+
+
+
+
+
+
+[
+        "• Figma Code Connect - doing a 1: 1 pairing of Figma components to their .vue counterparts",
+        "• Backlight - creating a live-code mirrored view of all components and patterns in production, and",
+        "• Storybook -  automatic generation of each component’s stories to ensure documentation is always updated"
+]
+// Google - How to add bullets
+
+(
+        'First paragraph of text.' || CHR(10) || CHR(10) ||
+        '• First bullet point' || CHR(10) ||
+        '• Second bullet point');
+
+
+  
+  'San Juan & Miami', '10/21', '11/22',
+  'Led the design of the MVP of a community-powered marketplace that connects undiscovered musicians with music lovers through intimate home concerts.',
+  '[
+        "Designed workflows in user registration and onboarding, 0Auth authentication and Sengrid flows, user profiles, ticket purchasing, SEO implementation, etc.",
+        "Responsible for design, asset building, wireframing, LoFi/HiFi proptotyping and design system governance, and coded the front-end styling for the main React template pages.",
+        "Produced handoff specs and Jira tickets, and worked daily with the engineering team in the implementation and QA of the platform."
+]',
+2
+),
+[
+        "Designed workflows in user registration and onboarding, 0Auth authentication and Sengrid flows, user profiles, ticket purchasing, SEO implementation, etc.",
+        "Responsible for design, asset building, wireframing, LoFi/HiFi proptotyping and design system governance, and coded the front-end styling for the main React template pages.",
+        "Produced handoff specs and Jira tickets, and worked daily with the engineering team in the implementation and QA of the platform."
+]
+
+
+
+------------------------
+// Not sure this works.
+
+
+
+INSERT INTO table_name (my_text_column)
+VALUES ('First paragraph of text.' || CHR(10) || CHR(10) ||
+        '• First bullet point' || CHR(10) ||
+        '• Second bullet point'
+);
+
+
+
+

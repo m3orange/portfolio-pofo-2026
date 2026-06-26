@@ -20,7 +20,7 @@
 
 
 
-<div class="row padding-10px-all">
+<div class="row padding-30px-all">
 <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom"> 
 I'm a
 <span class="mf-var-02">senior product designer</span> with a 
@@ -70,7 +70,7 @@ Trained in both architecture and graphic design, I have 25+ years of multidiscip
 
 
     <!-- start accordions style 01 section -->
-    <section id="home-text-intro" class="wow fadeIn">
+    <section id="home-text-intro" class="wow fadeIn" style="padding: 80px 0 0 0;">
         <div class="container">
             <div class="row"> <!-- justify-content-center-->
                 <div class="col-12 col-lg-8">
@@ -116,10 +116,9 @@ Trained in both architecture and graphic design, I have 25+ years of multidiscip
                                 <div class="panel-body">
                                     <h6>
                                         <ul>
-                                            <li> Some key moments where I'm involved: leading interviews and design thinking workshops with cross-functional stakeholders; using AI-assisted research and synthesis to drive discovery into ideation; prototyping ideas to test their viability with business and engineering; shipping designs as close to code as possible, among others.</li>
+                                            <li> Some key moments I'm involved: leading interviews and design thinking workshops with cross-functional stakeholders; using AI-assisted research and synthesis to drive discovery into ideation; prototyping ideas to test their viability with business and engineering, among others.</li>
 
                                             <li>I think like a detective: I gather insight on business needs, technical constraints and users' needs and challenges, and I help teams connect the dots that lead to cross-functional alignment on what we need to build and making sure we're building it right.</li>
-
                                         </ul>
                                     </h6> 
                                 </div>
@@ -174,7 +173,7 @@ Trained in both architecture and graphic design, I have 25+ years of multidiscip
                     </ul>
 
                     <a class="btn btn-large btn-transparent-black lg-margin-15px-bottom d-table d-lg-inline-block md-margin-lr-auto w-100 margin-20px-tb" 
-                    href="<?= BASE_URL ?>about.php">View Resumé</a>
+                    href="<?= BASE_URL ?>about.php">View More</a>
                 </div>
             </div>
         </div>
@@ -304,7 +303,7 @@ Trained in both architecture and graphic design, I have 25+ years of multidiscip
                                                 <div class="portfolio-hover-box align-bottom featured-work-thumbs">
                                                     <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
                                                         <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2"></div>
-                                                        <span class="line-height-normal text-white-2 margin-5px-bottom d-block featured-work-title">Map Tools</span><p>Ideal state visualization for a satellite imagery visualization tool</p>
+                                                        <span class="line-height-normal text-white-2 margin-5px-bottom d-block featured-work-title">Map Tools</span><p>Ideal state visualization for satellite imagery visualization</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -408,7 +407,8 @@ Trained in both architecture and graphic design, I have 25+ years of multidiscip
                 { src: '<?= BASE_URL ?>projects-archived/puracepa/01.jpg', },
                 { src: '<?= BASE_URL ?>projects-archived/puracepa/02.jpg', },
                 { src: '<?= BASE_URL ?>projects-archived/puracepa/03.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/puracepa/04.jpg', }
+                { src: '<?= BASE_URL ?>projects-archived/puracepa/04.jpg', },
+                { src: '<?= BASE_URL ?>projects-archived/puracepa/05.jpg', }
             ],
             akcsos: [
                 { src: '<?= BASE_URL ?>projects-archived/akc-sos/01.jpg', },

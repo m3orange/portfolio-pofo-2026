@@ -7,7 +7,10 @@ $pdo = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME . ';charset=utf8mb
 
 $stmt = $pdo->query('SELECT * FROM education ORDER BY sort_order ASC');
 $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
 ?>
+
+
 
 <?php include ROOT_PATH . 'includes/header.php'; ?>
 
@@ -18,12 +21,12 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <!-- end header -->
 
     <!-- start parallax hero section -->
-    <section id="home-hero-opener" class="p-0 full-screen position-relative wow animate__fadeIn" style="height: 1029px; visibility: visible; animation-name: fadeIn; min-height: 658px;">
-        <div class="opacity-medium bg-extra-dark-gray z-index-0"></div>
+    <section id="home-hero-opener" class="p-0 position-relative h-70 wow animate__fadeIn" style="visibility: visible; "> <!--min-height: 658px;-->
+        <div class="opacity-medium bg-black z-index-0"></div>
         <div class="container h-100">
             <div class="row h-100">
                 <div class="col col-12 col-xxl-8 col-xl-10 col-lg-11 col-md-11 d-flex justify-content-center flex-column text-left text-md-start"> <!--style="justify-content: space-around!important;"-->
-                    <div class="row padding-10px-all">
+                    <div class="row padding-30px-all">
                         <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom"> 
                         <span class="mf-var-01">About</span>
                         <h5 class="font-weight-400">
@@ -38,13 +41,18 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 
 
-    <section>
+    <section class="no-padding-top">
         <div class="resume-area-grid">
-            <div id="anchor-work" class="item">
+            <div id="anchor-work" class="item wow fadeIn" data-wow-delay="0s">
                 <!-- start section divider -->
                 <section class="section-divider-numbered">
-                    <div class="big-number">01</div>
-                    <div class="">Professional Experience</div>
+                    <div class="col col-12 col-lg-8 flex-row" style="display: flex; align-items: flex-start;">
+                        <span class="big-number">Ø1</span>
+                    <splan class="">Professional Experience</span>
+                    </div>
+                    <div class="col col-12 col-lg-4 col-md-12">
+                        <a class="btn btn-large btn-transparent-black lg-margin-15px-bottom d-table d-lg-inline-block md-margin-lr-auto" style="width: 100%;" href="#">Download PDF</a>
+                    </div>
                 </section>
                 <!-- end section divider -->
                 <div id="resume" class="container">
@@ -57,10 +65,10 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
             </div>
 
 
-            <div id="anchor-education"class="item">
+            <div id="anchor-education" class="item wow fadeIn" data-wow-delay="0.4s">
 
                 <section class="section-divider-numbered">
-                    <div class="big-number">02</div>
+                    <div class="big-number">Ø2</div>
                     <div class="">Education</div>
                 </section>
 
@@ -112,7 +120,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                 <div class="font-weight-500 margin-10px-bottom">VML Digital Training and Activation Program, VML Kansas City</div>
                             </div><!--col-->
                         </div><!--education-details row-->
-                </div><!--#traqining-list container-->
+                </div><!--#training-list container-->
 
             </div><!--anchor-education-->
                     </div> <!--resume-area-grid-->
@@ -128,7 +136,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <section id="anchor-personal-interests" class="fullwidth-slider-01" >
 
         <section class="section-divider-numbered">
-            <div class="big-number">05</div><div class="">Personal Interests</div>
+            <div class="big-number">Ø5</div><div class="">Personal Interests</div>
         </section>
 
         <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">

@@ -1,5 +1,28 @@
 <?php require_once( '../../config.php' ) ?>
 
+<?php require_once '../../db-config.php';
+
+$pdo = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME . ';charset=utf8mb4', DB_USER, DB_PASS);
+
+// Project info
+$stmt = $pdo->prepare('SELECT * FROM projects WHERE id = ?');
+$stmt->execute([7]);
+$project = $stmt->fetch(PDO::FETCH_ASSOC);
+
+// Assets by type
+function getAssets($pdo, $project_id, $type) {
+    $stmt = $pdo->prepare('SELECT * FROM project_assets WHERE project_id = ? AND display_type = ? ORDER BY sort_order ASC');
+    $stmt->execute([$project_id, $type]);
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+}
+
+$hero     = getAssets($pdo, 1, 'hero');
+$grid     = getAssets($pdo, 1, 'grid');
+$single   = getAssets($pdo, 1, 'single');
+$lightbox = getAssets($pdo, 1, 'lightbox');
+$slideshow = getAssets($pdo, 1, 'slideshow');
+?>
+
 
 <?php include ROOT_PATH . 'includes/header.php'; ?>
 
@@ -22,19 +45,7 @@
 
 
     <!-- start product information section -->
-    <section class="intro-info">
-        <div class="container">
-            <div class="row grid-lines">
-                <div class="col col-12 text-left">
-                    <div class="page-title font-weight-500">
-                        <h3>IDD</h3>
-                    </div>
-                </div>
-               <?php include ROOT_PATH . 'projects/admin/description-intro.php'; ?>
-
-            </div>
-        </div>
-    </section>
+    <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
     <!-- end product information section -->
 
 
