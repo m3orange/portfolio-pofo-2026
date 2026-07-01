@@ -101,7 +101,7 @@
                 <!-- Left Block ---->
                 <div class="col-12 col-xl-4 col-lg-6 padding-six-lr lg-padding-15px-lr text-left text-md-start resume-text" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
                     <h5 class="font-weight-600 header-font text-white">Analysis process</h5>
-                    Diagram outlining the process we went through in order to understand the impact of design in engineering and engineering in design which led us to these initiatives.
+                    Roadmap of the exploration process we went through in order to understand the impact of the design process in engineering, and vice versa, and which then led to initiatives that could help us improve our performance, speed and accuracy.
                     <p>
 
                     </p>

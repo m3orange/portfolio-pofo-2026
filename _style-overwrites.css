@@ -780,7 +780,7 @@ video {
 .admin #block-intro-slider,
 .idd #block-intro-slider {
     background-color: #111111 !important;
-    height: 80vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -798,7 +798,7 @@ video {
 .admin #block-intro-slider video,
 .idd #block-intro-slider video {
     /* height: 100% !important; */
-    max-width: 1200px !important;
+    max-width: 70% !important;
     /* border: 3px solid red; */
 
 }

@@ -29,7 +29,15 @@
     </section>
     <!-- end parallax hero section -->
 
-
+ <style>
+  #g-recaptcha-response {
+   display: block !important;
+   position: absolute;
+   margin: -50px 0 0 0 !important;
+   z-index: -999999;
+   opacity: 0;
+  }
+ </style>
 
 
 
@@ -42,13 +50,13 @@
                     <div class="col col-12 col-md-6">
                       <div class="fs-field">
                         <label class="fs-label" for="name">Name</label>
-                        <input class="fs-input" id="name" name="name" />
+                        <input class="fs-input" id="name" name="name" required/>
                       </div>
                     </div>
                     <div class="col col-12 col-md-6">
                       <div class="fs-field">
                         <label class="fs-label" for="lastName">Last Name</label>
-                        <input class="fs-input" id="lastName" name="lastName" />
+                        <input class="fs-input" id="lastName" name="lastName" required/>
                       </div>
                     </div>
                     </div>
@@ -58,13 +66,26 @@
                     </div>
                     <div class="fs-field">
                       <label class="fs-label" for="message">Message</label>
-                      <textarea class="fs-textarea" id="message" name="message"></textarea>
+                      <textarea class="fs-textarea" id="message" name="message" required/></textarea>
                       <p class="fs-description">We usually respond within 1-2 business days.</p>
                     </div>
                     <div class="fs-button-group">
-                      <button class="g-recaptcha" data-sitekey="6LfYezYtAAAAAOCsBhPv9xc7dAkXOjhF_WZ1BXBh" data-callback='onSubmit' data-action='submit'>Send</button>
+                      <!-- <button class="g-recaptcha" data-sitekey="6LfYezYtAAAAAOCsBhPv9xc7dAkXOjhF_WZ1BXBh" data-callback='onSubmit' data-action='submit'>Send</button> -->
+  <div class="g-recaptcha" data-sitekey="6LdOjDYtAAAAAEvZ3_Br5nr7Dy0nXBSSbebCIWJu"></div>
+  <br />
+  <input type="submit" value="Submit">
+
+  <!-- <input name="subject" type="hidden" value="New submission | Job Hunting 2026 Portfolio" /> -->
                     </div>
                 </form>
+ <script>
+  window.onload = function () {
+   var el = document.getElementById('g-recaptcha-response');
+   if (el) {
+    el.setAttribute('required', 'required');
+   }
+  }
+ </script>                
               </div>
             </div>
         </div>

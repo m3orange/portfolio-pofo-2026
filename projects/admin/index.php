@@ -16,11 +16,11 @@ function getAssets($pdo, $project_id, $type) {
     return $stmt->fetchAll(PDO::FETCH_ASSOC);
 }
 
-$hero     = getAssets($pdo, 1, 'hero');
-$grid     = getAssets($pdo, 1, 'grid');
-$single   = getAssets($pdo, 1, 'single');
-$lightbox = getAssets($pdo, 1, 'lightbox');
-$slideshow = getAssets($pdo, 1, 'slideshow');
+$hero     = getAssets($pdo, 3, 'hero');
+$grid     = getAssets($pdo, 3, 'grid');
+$single   = getAssets($pdo, 3, 'single');
+$lightbox = getAssets($pdo, 3, 'lightbox');
+$slideshow = getAssets($pdo, 3, 'slideshow');
 ?>
 
 <?php include ROOT_PATH . 'includes/header.php'; ?>
@@ -35,7 +35,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     <!-- start parallax hero section -->
      <section id="block-intro-slider">
         <video autoplay loop muted playsinline class="hero-video-admin">
-            <source src="<?= BASE_URL ?><?= $hero[1]['file_path'] ?>" type="video/mp4">  
+            <source src="<?= BASE_URL ?>projects/admin/assets/admin-demo-loop.mp4" type="video/mp4">              
         </video>    
     </section>
     <!-- end parallax hero section -->
