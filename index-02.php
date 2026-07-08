@@ -54,6 +54,7 @@
  </section>
 
 
+This was merged from dev.
 
  <!-- start accordions style 01 section -->
  <section class="wow fadeIn section-with-border-top">
@@ -213,7 +214,7 @@
         <!-- start tab navigation -->
         <ul class="nav nav-tabs text-small font-weight-600 justify-content-left flex-column flex-md-row">
             <li class="nav-item"><a href="#tab3_sec1" data-toggle="tab" class="nav-link active">Where I Excel At</a></li>
-            <li class="nav-item"><a href="#tab3_sec2" data-toggle="tab" class="nav-link">How I Work to Get There</a></li>
+            <li class="nav-item"><a href="#tab3_sec2" data-toggle="tab" class="nav-link">How I Get There</a></li>
         </ul>
         <!-- end tab navigation -->
       </div>
