@@ -42,6 +42,7 @@
                                         <ul class="font-weight-600 sm-no-padding-left">
                                         <li><a href="<?= BASE_URL ?>index.php" class="inner-link">Home</a></li>
                                         <li><a href="<?= BASE_URL ?>about.php" class="inner-link">About</a></li>
+                                        <li><a href="<?= BASE_URL ?>resume.php" class="inner-link">Resume</a></li>
 
                                         <li class="dropdown">
                                             <a href="javascript:void(0);" data-toggle="dropdown">Work</a>

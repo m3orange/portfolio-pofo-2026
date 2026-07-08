@@ -1,0 +1,607 @@
+@charset "utf-8";
+
+/* 
+This has been updated with last version before revert breakup.
+This is --- _style-overwrites-from-260614_1440.css 
+*/
+
+
+.about #block-intro-slider {
+  background-color: #555;
+}
+
+
+.tab-style3 .nav-tabs {
+  border-bottom: 2px solid #000 !important;
+  margin-bottom: 20px;
+}
+
+
+
+.about .tab-style3 {
+  /* margin-bottom: 20px; */
+}
+
+.tab-style3 a {
+  text-decoration: none !important;
+  color: #000;
+  padding: 4px 10px;
+}
+
+.tab-style3 .nav-tabs li {
+  padding: 0px !important;
+  font-weight: 500;
+}
+
+.tab-style3 .nav-tabs li a.nav-link.active {
+  border-bottom: 3px solid rgba(0, 0, 0, 1.0) !important;
+  font-weight: 600;
+}
+
+.tab-style3 .nav-tabs li a.nav-link,
+.tab-style3 .nav-tabs li a.nav-link.active {
+  font-size: 16px;
+
+}
+
+
+
+
+
+.tab-style3 .nav-tabs li a.nav-link.active,
+.tab-style3 .nav-tabs>li>a.nav-link.active:hover,
+.tab-style3 .nav-tabs>li>a.nav-link.active:focus {
+  border-bottom: 3px solid #000;
+}
+
+.tab-style3 .nav-tabs li {
+  margin: 0px;
+}
+
+.tab-style3 .nav-tabs>li>a.nav-link.active:hover {
+  border-bottom: 3px solid var(--primary-color);
+}
+
+
+/* .tab-style3 .nav-tabs>li>a.nav-link,
+.tab-style3 .nav-tabs li a.nav-link.active, 
+.tab-style3 .nav-tabs>li>a.nav-link.active:hover {
+  padding-bottom: 8px;
+} */
+
+
+.tab-style3 .nav-tabs>li>a.nav-link,
+.tab-style3 .nav-tabs>li>a.nav-link:focus,
+.tab-style3 .nav-tabs>li>a.nav-link.active:hover,
+.tab-style3 .nav-tabs>li>a.nav-link:hover {
+  padding: 10px 20px;
+}
+
+.tab-content-area {}
+
+.unicorn-tab-area {
+  font-size: 20px !important;
+  line-height: 1.3em;
+  background-color: #FFF !important;
+  padding: 50px 30px !important;
+
+}
+
+@media (max-width: 1199px) {
+  .unicorn-tab-area {
+    padding: 50px 30px !important;
+  }
+}
+
+
+
+
+.unicorn-tab-area h1,
+.unicorn-tab-area h2,
+.unicorn-tab-area h3,
+.unicorn-tab-area h4,
+.unicorn-tab-area h5,
+.unicorn-tab-area h6,
+.unicorn-tab-area p {
+  color: #000 !important;
+  line-height: 1.3em !important;
+  /* font-family: "IBM Plex Serif", serif!important; */
+  font-weight: 400 !important;
+  font-style: normal !important;
+
+}
+
+/* Multi-font variations for the type collage on the home page.*/
+
+.mf-var-01,
+.mf-var-02,
+.mf-var-03 {
+  font-family: "IBM Plex Serif", serif !important;
+  font-weight: 500;
+  line-height: 1em !important;
+}
+
+.mf-var-01 {
+  color: var(--mf-tint-01) !important;
+}
+
+.mf-var-02 {
+  color: var(--mf-tint-02) !important;
+}
+
+.mf-var-03 {
+  color: var(--mf-tint-03) !important;
+}
+
+
+#home-hero-opener .mf-var-01,
+#home-hero-opener .mf-var-02,
+#home-hero-opener .mf-var-03 {
+  font-style: italic !important;
+}
+
+.inline-emphasis-01 {
+  font-style: italic !important;
+  background-color: rgba(246, 232, 31, 0.5);
+  font-weight: 600;
+  padding: 2px 4px;
+}
+
+
+:root {
+  --mf-tint-01: rgba(255, 93, 0, 1.0);
+  --mf-tint-02: rgba(170, 50, 250, 1.0);
+  --mf-tint-03: rgba(0, 200, 230, 1.0);
+}
+
+
+/* .square-text-blocks{
+  line-height: 1.4em;
+  color: rgba(0,0,0,1.0);
+} */
+
+
+#floating-link-widget,
+#floating-link-widget-top {
+  position: fixed;
+  min-width: fit-content;
+  z-index: 20000;
+  font-size: 15px;
+  padding: 10px 20px 20px 20px;
+
+}
+
+#floating-link-widget-top {
+  padding: 4px 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#floating-link-widget {
+  top: 100px;
+  right: 20px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+#floating-link-widget .navbar-nav {
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  justify-content: center !important;
+}
+
+#floating-link-widget-top {
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+#floating-link-widget-top .navbar-nav {
+  display: flex;
+  -ms-flex-direction: row !important;
+  flex-direction: row !important;
+  justify-content: center;
+
+}
+
+#floating-link-widget li {
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  /* margin: 0 0 6px 0; */
+  padding: 6px 0;
+}
+
+
+#floating-link-widget-top li {
+  /* margin: 0 0 6px 0; */
+  padding: 6px 12px;
+}
+
+
+
+#floating-link-widget .navbar-nav>li>a,
+#floating-link-widget-top .navbar-nav>li>a {
+  margin: 0px !important;
+  color: #FFFFFF !important;
+  font-size: 14px !important;
+}
+
+@media (max-width: 800px) {
+  #floating-link-widget-top li {
+    padding: 4px 8px !important;
+  }
+
+  #floating-link-widget-top .navbar-nav {
+    justify-content: left !important;
+  }
+
+  #floating-link-widget-top .navbar-nav>li>a {
+    /* color: red!important; */
+    color: #FFF;
+    padding: 0;
+  }
+}
+
+#floating-link-widget-top .navbar-nav>li>a {
+  text-decoration: underline;
+
+}
+
+#floating-link-widget-top .navbar-nav>li>a:hover,
+#floating-link-widget .navbar-nav>li>a:hover {
+  color: var(--primary-color) !important;
+}
+
+
+.page-grid {
+  display: grid;
+  grid-template-columns: 2fr .5fr;
+}
+
+
+.square-text-blocks h5 {
+  line-height: 1.1em;
+  /* color: red!important; */
+}
+
+.square-text-blocks .captions {
+  font-family: var(--ibm-mono);
+  font-style: italic;
+  padding: 10px 20px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+}
+
+.about #home-hero-opener,
+.contact #home-hero-opener {
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: left;
+  background-position-y: -40px;
+  height: 70vh !important;
+}
+
+.about #home-hero-opener {
+  background: #000 url(images/m3-orange-bgs/baggage-claim-02.jpg);
+
+}
+
+
+.contact #home-hero-opener {
+  background: #000 url(images/m3-orange-bgs/zurich-airport.jpg);
+}
+
+
+.unicorn-tab-area h5 {
+  font-family: var(--ibm-sans-body-01) !important;
+  font-weight: 400;
+  color: #FFF;
+}
+
+.unicorn-tab-area p,
+.resume-text p,
+.resume-text li {
+  font-size: 17px !important;
+  font-family: var(--ibm-sans-body-01) !important;
+  line-height: 1.4em !important;
+  color: #000;
+
+}
+
+.resume-text li {
+  font-size: 17px !important;
+
+}
+
+
+.resume-area-grid {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+}
+
+@media (min-width: 1200px) {
+  .resume-area-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+  }
+}
+
+@media (max-width: 1199px) {
+  .resume-area-grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+.resume-text .category,
+.resume-text h5,
+.resume-text h6 {
+  font-family: var(--ibm-sans-body-01) !important;
+  font-weight: 500 !important;
+  letter-spacing: 0 !important;
+
+
+}
+
+.resume-text h6 {
+  font-weight: 500 !important;
+  font-family: var(--ibm-sans-body-01) !important;
+  color: var(--primary-color) !important;
+  border-bottom: 1px solid var(--primary-color);
+  width: 100%;
+  padding: 6px;
+  margin: 0 0 20px 0;
+  color: #FFF;
+}
+
+.resume-text .category {
+  font-size: 17px;
+  font-weight: 600 !important;
+  font-family: var(--ibm-sans-body-01) !important;
+  border: 0px;
+  width: 100%;
+  padding: 6px;
+  margin: 0 0 4px 0;
+  color: #000 !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.resume-text ul {
+  padding-inline-start: 30px !important;
+
+}
+
+#work-experience-list ul {
+  padding-inline-start: 20px !important;
+
+}
+
+#work-experience-list li,
+.resume-text li {
+  margin-bottom: 4px;
+}
+
+/* Resume listings */
+
+.rsm-section-header {
+  font-size: 22px;
+  color: var(--primary-color);
+  padding: 6px;
+  border-bottom: 1px solid var(--primary-color);
+  border-left: 3px solid var(--primary-color);
+  font-weight: 600;
+  margin: 60px 0 30px 0;
+}
+
+.rsm-item-header {
+  display: flex !important;
+  align-items: center;
+  padding: 10px 0 6px 0;
+  margin: 10px 0;
+  color: #000;
+  font-family: var(--ibm-sans-body-01);
+}
+
+@media (max-width: 1199px) {
+  #work-experience-list .rsm-item-header {
+    gap: 4px;
+  }
+
+}
+
+
+
+#work-experience-list .rsm-item-header,
+#education-list h6 {
+  border-bottom: 1px solid #000;
+  /* margin: 0 0 4px 0; */
+}
+
+#education-list h6,
+#training-list h6,
+#work-experience-list h6 {
+  margin: 0px;
+  font-family: var(--ibm-sans-body-01);
+  font-weight: 500;
+  font-size: 19px !important;
+}
+
+
+.rsm-city-date .divider {
+  font-size: 19px !important;
+}
+
+.rsm-item-intro {
+  margin-bottom: 10px;
+}
+
+.rsm-item-header,
+.rsm-item-details {
+  line-height: 1.3em;
+}
+
+.rsm-icons-chevron {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  margin-right: 5px;
+}
+
+.rsm-item-header,
+.rsm-item-details {
+  color: #000 !important;
+}
+
+
+
+
+.rsm-city-date {
+  text-align: right;
+  font-family: var(--ibm-mono);
+  font-size: 16px;
+}
+
+/* Large / Small Desktops. */
+@media (max-width: 1199px) {
+  .rsm-city-date {
+    text-align: left;
+    margin-top: 4px;
+  }
+}
+
+
+
+.header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+#resume .rsm-item-header,
+#education-list .rsm-item-header,
+#training-list .rsm-item-header {
+  display: flex !important;
+  padding: 10px 0 6px 0;
+  margin: 10px 0;
+  color: #000;
+  color: purple;
+  flex-direction: row;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#education-list .rsm-item-header,
+#training-list .rsm-item-header {
+  border-bottom: 1px solid #000;
+}
+
+#training-list .rsm-item-header {
+  margin-top: 60px !important;
+}
+
+@media (max-width: 1199px) {
+  #training-list .rsm-item-header {
+    margin-top: 40px !important;
+  }
+
+}
+
+
+
+#education-list .rsm-item-header h6,
+#training-list .rsm-item-header h6 {
+  border: none !important;
+}
+
+#education-list .rsm-city-date,
+#training-list .rsm-city-date {
+  text-align: left;
+}
+
+/* Changin resume font sizes */
+
+
+#work-experience-list li,
+.rsm-item-intro,
+.resume-text li {
+  font-size: 17px;
+  line-height: 1.3em;
+}
+
+
+#education-list h6,
+#work-experience-list h6,
+#training-list h6 {
+  font-weight: 500;
+  font-size: 18px !important;
+  line-height: 1.3em;
+}
+
+.rsm-city-date {
+  font-size: 16px;
+  line-height: 1.3em;
+}
+
+.education-details,
+education-details p {
+  font-size: 17px;
+  line-height: 1.3em;
+
+}
+
+
+.rsm-item-intro,
+#work-experience-list li,
+.resume-text li,
+#education-list h6,
+#work-experience-list h6,
+.rsm-city-date,
+.education-details,
+education-details p {
+  /* color: purple; */
+
+}
+
+
+
+.eng-section {
+  background-color: #393939;
+}
+
+.eng-section .resume-text,
+.eng-section p,
+.eng-section li,
+.eng-section .captions {
+  color: #FFF !important;
+}
+
+#anchor-personal-interests .swiper-button-prev,
+#anchor-personal-interests .swiper-button-next {
+  background-color: none;
+  background-size: cover;
+}
+
+.about .fullwidth-slider-01 {
+  background-color: #FFF !important;
+  padding: 0px 0 130px 0 !important;
+}
+
+#anchor-personal-interests .swiper-button-prev.swiper-button-black-highlight {
+  /* background-image: url("images/swiper-arrow-prev.svg"); */
+  background-image: url("images/swiper-black-button-prev.png");
+
+}
+
+#anchor-personal-interests .swiper-button-next.swiper-button-black-highlight {
+  /* background-image: url("images/swiper-arrow-prev.svg"); */
+  background-image: url("images/swiper-black-button-next.png");
+
+}

@@ -28,103 +28,13 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <div class="col col-12 col-xxl-8 col-xl-10 col-lg-11 col-md-11 d-flex justify-content-center flex-column text-left text-md-start"> <!--style="justify-content: space-around!important;"-->
                     <div class="row padding-30px-all">
                         <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom"> 
-                        <span class="mf-var-01">About</span>
-                        <h5 class="font-weight-400">
-                        Trained in both architecture and graphic design, I have 25+ years of multidisciplinary design experience {print, brand, web}. For the past 12, I have been focused on product design and UX engineering.
-                        </h5>
+                        <span style="font-style: italic !important;">About</span>
                     </div>
                 </div><!-- cols-->
             </div><!-- row-->
         </div>
     </section>
     <!-- end parallax hero section -->
-
-
-
-    <section class="no-padding-top">
-        <div class="resume-area-grid">
-            <div id="anchor-work" class="item wow fadeIn" data-wow-delay="0s">
-                <!-- start section divider -->
-                <section class="section-divider-numbered">
-                    <div class="col col-12 col-lg-8 flex-row" style="display: flex; align-items: flex-start;">
-                        <span class="big-number">Ø1</span>
-                    <splan class="">Professional Experience</span>
-                    </div>
-                    <div class="col col-12 col-lg-4 col-md-12">
-                        <a class="btn btn-large btn-transparent-black lg-margin-15px-bottom d-table d-lg-inline-block md-margin-lr-auto" style="width: 100%;" href="#">Download PDF</a>
-                    </div>
-                </section>
-                <!-- end section divider -->
-                <div id="resume" class="container">
-                    <!-- <div class="rsm-section-header">Professional Experience</div> -->
-                    <div id="work-experience-list">
-                        <!-- Jobs will be injected here -->
-                    </div>
-                </div>
-
-            </div>
-
-
-            <div id="anchor-education" class="item wow fadeIn" data-wow-delay="0.4s">
-
-                <section class="section-divider-numbered">
-                    <div class="big-number">Ø2</div>
-                    <div class="">Education</div>
-                </section>
-
-
-                <div id="education-list" class="container">
-                    <!-- <div class="rsm-section-header">Education</div> -->
-                    <?php foreach ($education as $edu): ?>
-                        <div class="row rsm-item-header">
-                            <span class="margin-10px-right"><h6><?= $edu['degree'] ?>,</h6></span>
-                            <span class="margin-10px-right"><h6><?= $edu['institution'] ?> / <?= $edu['city'] ?></h6></span><span class="rsm-city-date">[<?= $edu['date_start'] ?>-<?= $edu['date_end'] ?>]</span>
-
-                        </div>
-                        <div class="education-details">
-                            <?= $edu['details'] ?>
-                        </div>
-
-                    <?php endforeach; ?>
-                        
-                </div><!-- education-list -->
-
-                <div id="training-list" class="container">
-                        <div class="row rsm-item-header">
-                            <span class="margin-10px-right">
-                                <h6>Ongoing Training & Certificates</h6>
-                            </span>
-
-                        </div>
-                        <div class="education-details row">
-                            <div class="col col-12 col-xl-12 col-lg-6 col-md-12">
-                                <div class="font-weight-500 margin-10px-bottom">
-                                    IDEO, Nielsen Norman, Interaction Design Foundation [Ongoing]. Some recent courses;
-                                    </div>
-                                <div>
-                                    <div class="margin-10px-bottom">
-                                        <ul>
-                                            <li>10 Usability Heuristics from Theory to Practice</li>
-                                            <li>AI x Design Thinking Workshop Series</li>
-                                            <li>Prototyping with AI</li>
-                                            <li>Accessible and Inclusive Design Patterns</li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-                            </div><!--col-->
-
-                            <div class="col col-12 col-xl-12 col-lg-6 col-md-12">
-                                <div class="font-weight-500 margin-10px-bottom">Techstars Music Accelerator Program</div>
-                                <div class="font-weight-500 margin-10px-bottom">Foundations in Human Centered Design, SeriouslyCreative</div>
-                                <div class="font-weight-500 margin-10px-bottom">VML Digital Training and Activation Program, VML Kansas City</div>
-                            </div><!--col-->
-                        </div><!--education-details row-->
-                </div><!--#training-list container-->
-
-            </div><!--anchor-education-->
-                    </div> <!--resume-area-grid-->
-    </section>
 
 
 

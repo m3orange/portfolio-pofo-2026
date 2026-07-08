@@ -1,6 +1,6 @@
 <section id="knowledge" class="wow fadeIn bg-light-gray no-padding-top ">
     <section class="section-divider-numbered no-margin-top">
-        <div class="big-number">Ø3</div>
+        <div class="big-number">Ø1</div>
         <div class="">Knowledge & Skills</div>
     </section>
 
@@ -39,7 +39,7 @@
                             <h6 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom mf-var-01">
                                 Just like an architect needs to understand engineering principles in load bearing or
                                 material mechanics, I needed to understand exactly <span class="font-weight-600">how my
-                                    designs would be built and make sure my work was rooted in reality. </span>
+                                    designs would be built,</span> and make sure that <span class="font-weight-600">my work was rooted in reality. </span>
                                 <span class="mf-var-01 font-weight-600" style="letter-spacing: 0.03em"><i>I trained
                                         myself extensively in hands-on front-end programming.</i></span>
                                 <!--font-size: 110%!important; letter-spacing: 0.03em;-->

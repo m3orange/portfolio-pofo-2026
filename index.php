@@ -27,7 +27,8 @@ I'm a
 <span class="mf-var-01">passion for human-centered design</span> and 
 <span class="mf-var-03">usability.</span></h1>
 <h5 class="font-weight-400">
-Trained in both architecture and graphic design, I have 25+ years of multidisciplinary design experience {print, brand, web}. For the past 12, I have been focused on product design and UX engineering.<sup>1</sup>
+Trained in both architecture and graphic design, I have 25+ years of multidisciplinary design experience {print, brand, web}. For the past 12, I have been focused on product design and UX engineering.
+<!-- <sup>1</sup> -->
 </h5>
 </div>
 
@@ -71,8 +72,21 @@ Trained in both architecture and graphic design, I have 25+ years of multidiscip
 
     <!-- start accordions style 01 section -->
     <section id="home-text-intro" class="wow fadeIn" style="padding: 80px 0 0 0;">
+                <!-- <section class="section-divider-numbered">
+                        <div class="col col-12 flex-row" style="display: flex; align-items: flex-start;">
+                        <span class="big-number">Ø1</span><splan class="">Professional Experience</span>
+                    </div>
+                </section> -->
         <div class="container">
+            
             <div class="row"> <!-- justify-content-center-->
+                <div class="col-12 col-lg-4">
+                <section class="section-divider-numbered">
+                        <div class="col col-12 flex-row" style="display: flex; align-items: flex-start;">
+                        <span class="big-number">Ø1</span><splan class="">Professional Experience</span>
+                    </div>
+                </section>
+                </div>
                 <div class="col-12 col-lg-8">
                     <!-- start accordion -->
                     <div class="panel-group accordion-style1" id="accordion-design">
@@ -81,7 +95,7 @@ Trained in both architecture and graphic design, I have 25+ years of multidiscip
                             <div class="panel-heading">
                                 <a data-toggle="collapse" href="#design1" class="collapsed" aria-expanded="false">
                                     <div class="panel-title">
-                                        <h5> My favorite challenges involve turning complex information and workflows into intuitive experiences, always maintaining a relentless focus on real user needs. </h5>
+                                        <h5> My favorite challenges involve turning complex data and workflows into intuitive experiences, always maintaining a relentless focus on real user needs and design heuristics. </h5>
                                         <span class="float-right"><i class="ti-angle-down"></i></span>
                                     </div>
                                 </a>
@@ -91,7 +105,7 @@ Trained in both architecture and graphic design, I have 25+ years of multidiscip
                                 <div class="panel-body">
                                 <h6>
                                     <ul>
-                                        <li>I have been recently focusing in developing SaaS platforms: creating seamless experiences across different channels and user types; managing design systems and documentation that leads to adoption and tech debt reduction; devising strategies that ensure scalable and future-proof environments capable of handling growing business demands and technical requirements.
+                                        <li>I have been recently focusing in the development of enterprise-level SaaS platforms: creating seamless experiences across different channels and user types; managing design systems and documentation that leads to adoption and tech debt reduction; devising strategies that ensure scalable and future-proof environments capable of handling growing business demands and technical requirements.
                                         </li>
                                     </ul>
                                 </h6>
@@ -116,9 +130,9 @@ Trained in both architecture and graphic design, I have 25+ years of multidiscip
                                 <div class="panel-body">
                                     <h6>
                                         <ul>
-                                            <li> Some key moments I'm involved: leading interviews and design thinking workshops with cross-functional stakeholders; using AI-assisted research and synthesis to drive discovery into ideation; prototyping ideas to test their viability with business and engineering, among others.</li>
+                                            <li> Some of the key moments where I'm involved: leading interviews and design thinking workshops with cross-functional stakeholders; using AI-assisted research and synthesis to drive discovery into ideation; prototyping ideas to test their viability with business and engineering, among others.</li>
 
-                                            <li>I think like a detective: I gather insight on business needs, technical constraints and users' needs and challenges, and I help teams connect the dots that lead to cross-functional alignment on what we need to build and making sure we're building it right.</li>
+                                            <li>I think like a detective: I gather insight on business needs, technical constraints and users' needs and challenges, and I help teams connect the dots that lead to cross-functional alignment into <span class="inline-emphasis-01">defining what to build, and making sure we're building it right.</span></li>
                                         </ul>
                                     </h6> 
                                 </div>
@@ -140,7 +154,7 @@ Trained in both architecture and graphic design, I have 25+ years of multidiscip
                                 <h6>
                                     <ul>
                                         <li>
-                                            Having extensive hands-on coding experience, I excel at identifying risks early. I can act as a translator between design and engineering, and help everyone understand each other's concerns and challenges without anything getting lost in [tech] translation.
+                                            Having extensive hands-on coding experience (I'm a front-end designer  🦄), I excel at identifying risks early. I can act as a translator between design and engineering, and help everyone understand each other's concerns and challenges without anything getting lost in [tech] translation.
 
                                         </li>
                                         <li>
@@ -164,21 +178,12 @@ Trained in both architecture and graphic design, I have 25+ years of multidiscip
                     <!-- end accordion -->
 
                 </div>
-                <div class="col-12 col-lg-4 padding-20px-tb">
-
-                    <ul>
-                        <li>2000, MFA Design / School of Visual Arts (SVA), NYC</li>
-                        <li>1998, M.S. Visual Comm. / Pratt Institute, NYC</li>
-                        <li>1996, M. Arch / Tulane University, New Orleans</li>
-                    </ul>
-
-                    <a class="btn btn-large btn-transparent-black lg-margin-15px-bottom d-table d-lg-inline-block md-margin-lr-auto w-100 margin-20px-tb" 
-                    href="<?= BASE_URL ?>about.php">View More</a>
-                </div>
             </div>
         </div>
     </section>
     <!-- end accordions style 01 section -->
+
+
 
     <!-- start portfolio section --- portfolio-full-width-masonry-overlay ----->
     <section id="home-projects-grid-01" class="wow fadeIn padding-90px-top md-padding-50px-top sm-padding-30px-top">
@@ -187,7 +192,7 @@ Trained in both architecture and graphic design, I have 25+ years of multidiscip
             
             <div class="row">
                 <div class="col-12 text-center margin-50px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
-                    <h4 class=" text-extra-dark-gray margin-15px-bottom alt-text font-weight-600">Featured Work</h4>
+                    <h4 class=" text-extra-dark-gray margin-15px-bottom alt-text font-weight-600">Selected Work</h4>
                 </div>
                 <div class="col-12 px-3 p-md-0">
                     <div class="filter-content overflow-hidden">
@@ -322,148 +327,10 @@ Trained in both architecture and graphic design, I have 25+ years of multidiscip
     <!-- end portfolio section --- portfolio-full-width-masonry-overlay ----->
 
 
-
-    <section id="home-projects-grid-02" class="wow fadeIn magnific-home-gallery">
-
-        <!-- start filter content -->
-        <div class="container-fluid padding-five-lr md-padding-30px-lr">
-            <div class="row">
-                <div class="col-12 text-center margin-50px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
-                    <h4 class=" text-extra-dark-gray margin-15px-bottom alt-text font-weight-600" style="color: #FFF!important;">Archived Work</h4>
-                </div>
-                <div class="col-12 px-3 p-md-0">
-                    <div class="filter-content overflow-hidden">
-                        <ul class="portfolio-grid work-3col hover-option2 gutter-medium">
-                            <li class="grid-sizer"></li>
-
-                            <li class="grid-item wow last-paragraph-no-margin" data-wow-delay="0s">
-                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="c4pr">
-                                    <img src="<?= BASE_URL ?>projects-archived/c4pr/thumb.jpg"/>
-                                </a>
-                            </li>
-
-                            <li class="grid-item wow last-paragraph-no-margin" data-wow-delay="0s">
-                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="puracepa">
-                                    <img src="<?= BASE_URL ?>projects-archived/puracepa/thumb.jpg"/>
-                                </a>
-                            </li>
-
-
-                            <li class="grid-item wow last-paragraph-no-margin" data-wow-delay="0s">
-                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="v2abrochure">
-                                    <img src="<?= BASE_URL ?>projects-archived/v2a-brochure/thumb.jpg"/>
-                                </a>
-                            </li>
-
-                            <li class="grid-item wow last-paragraph-no-margin" data-wow-delay="0s">
-                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="koru">
-                                    <img src="<?= BASE_URL ?>projects-archived/koru/thumb.jpg"/>
-                                </a>
-                            </li>
-
-                            <li class="grid-item wow last-paragraph-no-margin" data-wow-delay="0s">
-                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="akcsos">
-                                    <img src="<?= BASE_URL ?>projects-archived/akc-sos/thumb.jpg"/>
-                                </a>
-                            </li>
-
-
-                            <li class="grid-item wow last-paragraph-no-margin" data-wow-delay="0s">
-                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="ted">
-                                    <img src="<?= BASE_URL ?>projects-archived/ted/thumb.jpg"/>
-                                </a>
-                            </li>
-
-                            <!-- <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
-                                <a href="javascript:void(0);" class="project-gallery-trigger" data-collection="pmmexh">
-                                    <img src="<?= BASE_URL ?>projects-archived/pmmexh/thumb.jpg"/>
-                                </a>
-                            </li> -->
- 
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end filter content -->
-    </section>
-
-
-
     <!-- start footer -->
     <?php include_once("includes/global-footer.php"); ?>
 
-    <!-- Project galleries — runs after jQuery and Magnific Popup are loaded by the footer -->
-    <script type="text/javascript">
-    (function($) {
-        var collections = {
-            c4pr: [
-                { src: '<?= BASE_URL ?>projects-archived/c4pr/01.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/c4pr/02.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/c4pr/03.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/c4pr/04.jpg', }
-            ],          
-            puracepa: [
-                { src: '<?= BASE_URL ?>projects-archived/puracepa/01.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/puracepa/02.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/puracepa/03.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/puracepa/04.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/puracepa/05.jpg', }
-            ],
-            akcsos: [
-                { src: '<?= BASE_URL ?>projects-archived/akc-sos/01.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/akc-sos/02.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/akc-sos/03.jpg', }
-            ],
 
-            koru: [
-                { src: '<?= BASE_URL ?>projects-archived/koru/01.png', },
-                { src: '<?= BASE_URL ?>projects-archived/koru/02.png', },
-            ],
-
-            v2abrochure: [
-                { src: '<?= BASE_URL ?>projects-archived/v2a-brochure/01.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/v2a-brochure/02.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/v2a-brochure/03.jpg', },
-                { src: '<?= BASE_URL ?>projects-archived/v2a-brochure/04.jpg', }
-            ],
-
-            ted: [
-                { src: '<?= BASE_URL ?>projects-archived/ted/01.png', },
-                { src: '<?= BASE_URL ?>projects-archived/ted/02.png', },
-                { src: '<?= BASE_URL ?>projects-archived/ted/03.png', },
-                { src: '<?= BASE_URL ?>projects-archived/ted/04.png', }
-            ],
-
-
-            // pmmexh: [
-            //     { src: '<?= BASE_URL ?>projects-archived/pmmexh/01.jpg', },
-            //     { src: '<?= BASE_URL ?>projects-archived/pmmexh/02.jpg', },
-            //     { src: '<?= BASE_URL ?>projects-archived/pmmexh/03.jpg', },
-            //     { src: '<?= BASE_URL ?>projects-archived/pmmexh/04.jpg', }
-            // ],
-        };
-
-        $(document).ready(function() {
-            $('.project-gallery-trigger').on('click', function() {
-                var key = $(this).data('collection');
-                var items = $.map(collections[key], function(img) {
-                    return { src: img.src, title: img.title, type: 'image' };
-                });
-                $.magnificPopup.open({
-                    items: items,
-                    type: 'image',
-                    gallery: { enabled: true },
-                    image: {
-                        titleSrc: function(item) {
-                            return item.data.title;
-                        }
-                    }
-                });
-            });
-        });
-    })(jQuery);
-    </script>
 
 </body>
 
