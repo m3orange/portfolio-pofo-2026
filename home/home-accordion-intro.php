@@ -58,8 +58,6 @@
        </div>
       </div>
       <!-- end accordion item -->
-
-
       <!-- start accordion item -->
       <div class="panel">
        <div class="panel-heading">
