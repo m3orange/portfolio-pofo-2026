@@ -4,9 +4,12 @@
   <div class="container-fluid padding-five-lr md-padding-30px-lr">
 
    <div class="row">
-    <div class="col-12 text-center margin-50px-bottom md-margin-50px-bottom sm-margin-30px-bottom">
-     <h4 class=" text-extra-dark-gray margin-15px-bottom alt-text font-weight-600">Selected Work</h4>
+    <div class="col col-12 col-lg-4 section-divider-numbered-02 p-0">
+      <div class="big-number">03</div>
+      <div class="big-section-title">Selected Work</div>
     </div>
+   
+
     <div class="col-12 px-3 p-md-0">
      <div class="filter-content overflow-hidden">
       <ul class="portfolio-grid work-2col hover-option2 gutter-medium">

@@ -323,14 +323,7 @@ height: 200px; */
 }
 
 
-.big-number {
-    font-size: 100px;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 0.3);
-    height: 100px;
-    padding-top: 20px;
-    margin-right: 20px;
-}
+
 
 
 
@@ -356,16 +349,25 @@ height: 200px; */
     margin-top: 55px;
     font-weight: 600;
     color: rgba(0, 0, 0, 0.8);
-
-    /* height: 100px;
-        padding-top: 20px;
-        margin-right: 20px; */
+        height: 100px;
+    padding-top: 20px;
+    margin-right: 20px;
 }
+    
+/* .big-number {
+    font-size: 100px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.3);
+    height: 100px;
+    padding-top: 20px;
+    margin-right: 20px;
+} */
+
 
 .section-with-border-top {
     border-top: 1px solid rgba(0, 0, 0, 1.0);
-    margin-top: 80px;
-    padding: 80px 0 80px 0;
+    /* margin-top: 80px; */
+    padding: 130px 0;
 }
 
 .big-section-title,
@@ -633,36 +635,14 @@ img.mfp-img {
 }
 
 
-/* 
-
-[class^="ti-"], [class*=" ti-"] {
-	font-family: 'themify';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-    content: "\e648b"!important;
+.italic-ibm{
+font-size: 90%!important; list-style: none;
+font-family: var(--ibm-sans-body-01);
+    letter-spacing: 0.02em;
+    font-style: italic;
+    border-left: 4px solid rgba(0,0,0,0.8);
+    padding-left: 14px;
 }
-
-.ti-minus{
-    content: "\e648"!important;
-}
-
-
-.ti-minus:before,
-.ti-plus:before {
-    content: "\e648"!important;
-    ti-angle-up 
-    .icon-angle-up:before {content: "\e648";}
-.icon-angle-right:before {content: "\e649";}
-.icon-angle-left:before {content: "\e64a";}
-.icon-angle-down:before {content: "\e64b";}
-}
-
-
-*/
 
 
 
@@ -726,6 +706,66 @@ img.mfp-img {
 .panel-title {
     width: 100%;
 }
+
+.intro-example-01{background-color: #133a75;}
+.intro-example-02{background-color: #444;}
+
+
+.intro-example-03 {
+    padding-left: 30px;
+}
+
+.intro-example-03 img{
+    max-width: 90%;
+    margin-left: 40px;
+}
+
+.intro-example-03 .accordion-style1 ul{
+    padding-inline-start: 0px !important;
+}
+
+
+
+
+
+.example-info-box{
+        position: relative;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: fit-content;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.example-info-box a{
+    color: #FFF!important;
+
+}
+
+.example-info-box a:hover{
+    color: var(--primary-color)!important;
+    /* text-decoration: underline; */
+}
+
+
+
+.usic-example{
+    display: flex; flex-direction: row;
+    align-items: center;
+}
+
+.usic-example-image-area{
+    display: flex;flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+
+}
+        .usic-example-image-area img{
+            max-width: 75%;
+        }
 
 
 #block-intro-slider {

@@ -137,62 +137,16 @@ margin: 2px;
 aspect-ratio: 1/.8;
 }
 
-.home-strong-areas-tabs .topic-rows{
-
-    padding: 30px 0 20px 0 ;
-
-    border-bottom: 1px dashed #353535;
-    width: 100%;
-    border-top: 1px dashed #353535;
-    
-}
-
-.topic-rows .upper-text-area{
-        display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    margin-bottom: 20px;
-  
-}
-
-
-
 .home-strong-areas-tabs .topic-cards h6{
   font-size: 26px;
   line-height: 1.2em;
-  color: #000;
-  margin-top: 3px;
 }
 
-.home-strong-areas-tabs .topic-rows p{
-  margin: 0px;
-}
-
-.home-strong-areas-tabs .topic-rows h6,
-.home-strong-areas-tabs .row-left-side h6{
-  font-size: 24px;
-  line-height: 1.2em;
-  color: #000!important;
-  border: none!important;
-  padding: 0px!important;
-  margin: 0px!important;
-  font-weight: 700!important;
-}
-
-.home-strong-areas-tabs .topic-cards .card-number,
-.home-strong-areas-tabs .topic-rows .card-number{
+.home-strong-areas-tabs .topic-cards .card-number{
     font-size: 26px;
     font-weight: 600;
     margin-bottom: 20px;
-}
-
-.topic-rows .row-left-side{
-  display: flex;
-  flex-direction: row;
-  column-gap: 30px;
-  width: 80%;
-  padding-right: 40px;
-
+    padding-top: 3px;
 }
 
 
@@ -246,9 +200,11 @@ aspect-ratio: 1/.8;
 
 .inline-emphasis-01 {
   font-style: italic !important;
-  background-color: rgba(246, 232, 31, 0.5);
+  /* background-color: rgba(246, 232, 31, 0.5); */
+  background-color: #ff8200ad;
   font-weight: 600;
   padding: 2px 4px;
+  color: #FFF;
 }
 
 
@@ -414,11 +370,6 @@ aspect-ratio: 1/.8;
   line-height: 1.4em !important;
   color: #000;
 
-}
-
-.i-built-this-website{
-  border-left: 3px solid var(--primary-color);
-  padding-left: 20px;
 }
 
 .resume-text li {
@@ -663,22 +614,7 @@ aspect-ratio: 1/.8;
 education-details p {
   font-size: 17px;
   line-height: 1.3em;
-
 }
-
-
-.rsm-item-intro,
-#work-experience-list li,
-.resume-text li,
-#education-list h6,
-#work-experience-list h6,
-.rsm-city-date,
-.education-details,
-education-details p {
-  /* color: purple; */
-
-}
-
 
 
 .eng-section {
@@ -694,7 +630,7 @@ education-details p {
 
 #anchor-personal-interests .swiper-button-prev,
 #anchor-personal-interests .swiper-button-next {
-  background-color: none;
+  background-color: transparent;
   background-size: cover;
 }
 
