@@ -1,3 +1,97 @@
+
+
+
+
+ <section id="knowledge" class="wow fadeIn section-with-border-top">
+  <div class="container">
+   <div class="row" style="">
+    <!-- justify-content-center-->
+    <div class="col col-12 col-lg-4 section-divider-numbered-02 p-0">
+     <div class="big-number">01</div>
+     <div class="big-section-title">Knowledge & Skills</div>
+    </div>
+   </div>
+	</div>
+</section>
+
+ <section id="knowledge-02" class="wow fadeIn">
+  <div class="container-fluid">
+
+		<section>
+			<div class="unicorn-row-01 container">
+					<div class="row">
+						<div class="col col-12 col-lg-6">
+							<div class="unicorn-tab-area unicorn-block-text" style="height: 100%">
+								<div>
+									<h5> I'm a front-end designer: I'm fluent in code.</h5>
+								<h6 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom mf-var-01">Just like an architect needs to understand engineering principles in load bearing or material mechanics, I needed to understand exactly <span class="font-weight-600">how my designs would be built,</span> and make sure that <span class="font-weight-600">my work was rooted in reality. </span>
+									<span class="inline-emphasis-01" style="letter-spacing: 0.03em;font-weight: 600; font-style: normal!important; font-family: var(--ibm-sans-body-01) !important; ">I trained myself extensively in hands-on front-end programming.</span>
+								</h6>
+								</div>
+
+							</div>
+
+						</div>
+						<div class="col col-12 col-lg-6">
+							<div class="unicorn-tab-area unicorn-block-image" style="background-color: transparent;">
+								<img src="<?= BASE_URL ?>about/brad-frost-tweet.png">
+							</div>
+						</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="fullwidth-quote" >
+			<div class="container-fluid">
+				<div class="row" style="padding: 0 10%;">
+								<div class="col col-6">
+									<div class="engineers-quotes">
+										<div class="quote-marks"><img src="<?= BASE_URL ?>about/quotes.png"></div>
+										Collaboration allows us [engineers] to align, understand, and evolve our work in a feasible way. It allows everyone to be involved in the process, <span class="emphasis">creating stronger buy-in and reducing the risk of scope creep.</span>
+										</div>
+								</div>
+								<div class="col col-6">
+									<div class="engineers-quotes">
+										<div class="quote-marks"><img src="<?= BASE_URL ?>about/quotes.png"></div>
+										When [designers] share the full context, data, and research behind a design decision, <span class="emphasis">developers will understand and help [them] make things happen.</span>
+									</div>
+								</div>
+								
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="unicorn-row-01 container">
+					<div class="row">
+					<div class="col col-12 col-lg-7">
+						<div class="unicorn-tab-area unicorn-block-image" style="height: 100%; background-color: #FFF;">
+							<div><img src="<?= BASE_URL ?>about/front-end-designer-lifecycle.png"></div>
+						</div>
+					</div>
+					<div class="col col-12 col-lg-5">
+						<div class="unicorn-tab-area unicorn-block-text">
+							<h6>
+								As a result, my skillset range is wider than the average designer (I'm often called a 🦄), and have a more comprehensive insight into what goes on in the development process. More importantly, I'm able to have deeper conversations with engineers without too much getting lost in translation.
+							</h6>
+							<h6>
+								Whether it's about asking the right questions about constraints, or trying to negotiate new options that work for everyone, I'm often able to get better outcomes in what design is trying to achieve.    
+							</h6>
+																								
+
+						</div>
+					</div>
+					</div>
+				</div>
+		</section>
+
+
+</div>
+</section>
+
+
+
+
 <section id="knowledge" class="wow fadeIn bg-light-gray no-padding-top ">
     <section class="section-divider-numbered no-margin-top">
         <div class="big-number">Ø1</div>
@@ -7,11 +101,7 @@
 
     <!-- end section divider -->
     <div class="container-fluid">
-        <!-- <div class="row justify-content-center">
-            <div class="col-12 col-md-12 text-left">
-                <div class="rsm-section-header">Knowledge & Skills</div>
-            </div>    
-        </div> -->
+
         <div class="row justify-content-center">
             <div class="col col-12 col-xl-11 col-sm-11 text-center tab-style3" id="animated-tab1">
                 <!-- start tab navigation -->
@@ -77,13 +167,9 @@
                                    <p>As a result, my skillset range is wider than the average designer (I'm often called a 🦄), and have a more comprehensive insight into what goes on in the development process. More importantly, I'm able to have deeper conversations with engineers without too much getting lost in translation.</p>
                                     <p>Wether it's about asking the right questions about constraints, or trying to negotiate new options that work for everyone, I'm often able to get better outcomes in what design is trying to achieve.</p>                                 
                                 </div>
-
-
                                 <div class="i-built-this-website">
-                                    <p>
-                                        I hand-coded this website. I used an existing HTML template and built over it using the this stack: PHP, CSS, Javascript, Bootstrap, SQL with PHPMyAdmin, Strapi
+                                    <p>I hand-coded this website. I used an existing HTML template and built over it using the this stack: PHP, CSS, Javascript, Bootstrap, SQL with PHPMyAdmin, Strapi
                                     </p>
-                                    
                                 </div>
 
                             </div>
@@ -178,3 +264,4 @@
         </div>
     </div>
 </section>
+

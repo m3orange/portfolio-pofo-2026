@@ -35,7 +35,7 @@ This is --- _style-overwrites-from-260614_1440.css
 
 .tab-style3 .nav-tabs li a.nav-link.active {
   border-bottom: 3px solid rgba(0, 0, 0, 1.0) !important;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .tab-style3 .nav-tabs li a.nav-link,
@@ -82,7 +82,6 @@ This is --- _style-overwrites-from-260614_1440.css
 .unicorn-tab-area {
   font-size: 20px !important;
   line-height: 1.3em;
-  background-color: #FFF !important;
   padding: 50px 30px !important;
 
 }
@@ -103,9 +102,9 @@ This is --- _style-overwrites-from-260614_1440.css
 .unicorn-tab-area h5,
 .unicorn-tab-area h6,
 .unicorn-tab-area p {
-  color: #000 !important;
+  color: #FFF !important;
   line-height: 1.3em !important;
-  /* font-family: "IBM Plex Serif", serif!important; */
+    font-family: var(--ibm-sans-body-01) !important;
   font-weight: 400 !important;
   font-style: normal !important;
 
@@ -125,7 +124,7 @@ This is --- _style-overwrites-from-260614_1440.css
 }
 
 .home-strong-areas-tabs .grid-card-area{
-  padding: 10px;
+  padding: 6px;
   height: 100%;
 
 }
@@ -142,11 +141,31 @@ aspect-ratio: 1/.8;
   line-height: 1.2em;
 }
 
-.home-strong-areas-tabs .topic-cards .card-number{
+
+.home-strong-areas-tabs .topic-cards .card-number,
+.home-strong-areas-tabs .topic-rows .card-number{
     font-size: 26px;
     font-weight: 600;
     margin-bottom: 20px;
-    padding-top: 3px;
+    padding-top: 4px!important;
+}
+
+.home-strong-areas-tabs .topic-rows{
+      display: flex;
+    flex-direction: row;
+    border-top: 1px dashed #353535;
+        padding: 25px 0 10px 0;
+}
+
+.home-strong-areas-tabs .topic-rows h6{
+  font-size: 24px;
+  line-height: 1.2em;
+}
+
+.row-left-side{
+        display: flex;
+    flex-direction: row;
+    column-gap: 20px;
 }
 
 
@@ -356,10 +375,64 @@ aspect-ratio: 1/.8;
 }
 
 
+#knowledge, #knowledge-02{
+  background-color: #777;
+}
+
+#knowledge section{
+  padding: 70px 0;
+}
+
+#knowledge .col{
+  padding: 5px;
+}
+
+
+.unicorn-row-01 .unicorn-block-image{
+background-color: #c3c3c3;
+height: 100%;
+  row-gap: 30px;
+}
+
+.unicorn-row-01  .unicorn-tab-area{
+padding: 30px!important;
+}
+.unicorn-row-01 .row, 
+.unicorn-row-02 .row{
+  min-height: 80vh!important;
+}
+
+
+.unicorn-block-text,
+.unicorn-block-image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+      /* justify-content: space-between; */
+}
+
+.unicorn-block-text{
+  min-height: 70vh;
+}
+
+.unicorn-block-text p{
+  margin-bottom: 20px;
+}
+
+.unicorn-block-image .aspect-ratio-1to1{
+    aspect-ratio: 1 / 1;
+}
+
 .unicorn-tab-area h5 {
-  font-family: var(--ibm-sans-body-01) !important;
-  font-weight: 400;
-  color: #FFF;
+font-family: var(--alt-text-2);
+  font-weight: 700!important;
+  color: #FFF!important;
+  margin-bottom: 20px;
+  line-height: 1.1em!important;
+}
+
+.unicorn-tab-area .inline-emphasis-01{
+  background-color: #d37f3b!important;
 }
 
 .unicorn-tab-area p,
@@ -368,8 +441,58 @@ aspect-ratio: 1/.8;
   font-size: 17px !important;
   font-family: var(--ibm-sans-body-01) !important;
   line-height: 1.4em !important;
-  color: #000;
+  color: #000!important;
 
+}
+
+.i-built-this-website{
+    padding: 9px 12px 9px 16px;
+    border-left: 1px solid rgba(255, 255, 255, 1);
+    margin-right: 124px;
+}
+
+
+#fullwidth-quote{
+    background-color: #888;
+    display: flex;
+    justify-content: center;
+    min-height: 80vh;
+    align-content: center;
+    flex-direction: column;
+    font-size: 30px;
+    line-height: 1.3em;
+    color: #FFF;
+    padding: 0px;
+}
+
+.engineers-quotes{
+    line-height: 1.2em !important;
+    border-left: 2px solid rgba(255,255,255,1);
+    font-size: 24px;
+    font-weight: 400;
+    padding: 8px 20px 20px 26px !important;
+    height: 100%;
+}
+
+.engineers-quotes .emphasis{
+  font-weight: 700;
+  font-style: italic !important;
+  letter-spacing: 0.02em;
+  font-family: var(--ibm-serif);
+}
+
+.quote-marks{
+        margin-bottom: 20px;
+        opacity: 0.4;
+}
+
+.quote-marks img{
+  height: 30px;
+}
+
+.i-built-this-website p{
+  margin: 0px;
+  color: #FFF!important;
 }
 
 .resume-text li {
@@ -410,14 +533,14 @@ aspect-ratio: 1/.8;
 }
 
 .resume-text h6 {
-  font-weight: 500 !important;
-  font-family: var(--ibm-sans-body-01) !important;
-  color: var(--primary-color) !important;
-  border-bottom: 1px solid var(--primary-color);
-  width: 100%;
-  padding: 6px;
-  margin: 0 0 20px 0;
-  color: #FFF;
+    font-weight: 700 !important;
+    font-family: var(--ibm-sans-body-01) !important;
+    color: #000!important;
+    border-bottom: #000!important;
+    width: 100%;
+    padding: 0px;
+    margin: 0 0 20px 0;
+    color: #FFF;
 }
 
 .resume-text .category {
@@ -614,7 +737,11 @@ aspect-ratio: 1/.8;
 education-details p {
   font-size: 17px;
   line-height: 1.3em;
+
 }
+
+
+
 
 
 .eng-section {

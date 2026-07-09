@@ -46,7 +46,7 @@
          </ul>
       </h6>
         <div class="intro-example-01">
-         <div class="example-info-box"> <a href="<?= BASE_URL ?>projects/atlas-design-system/index.php" title="Atlas Design System" class="example-info-box">View project
+         <div class="example-info-box"> <a href="<?= BASE_URL ?>projects/map-tools/index.php" title="Atlas Design System" class="example-info-box">View project
             <i class="ti-arrow-right" style="border: 0px!important;"></i></a>
          </div>
            <img src="<?= BASE_URL ?>home/intro-examples-01.png" />
@@ -94,7 +94,7 @@
         <a data-toggle="collapse" href="#design3" class="collapsed" aria-expanded="false">
          <div class="panel-title">
           <h5>I thrive at the intersection of design and engineering; I'm always wearing
-           my front-end designer hat.</h5>
+           my full-stack designer hat.</h5>
           <span class="float-right"><i class="ti-angle-down"></i></span>
          </div>
         </a>
@@ -122,7 +122,10 @@
          </h6>
 
         <div class="intro-example-03">
+         <div class="image-area">
          <img src="<?= BASE_URL ?>home/intro-examples-03.png" />
+         </div>
+
 
          <h6>
             <ul>

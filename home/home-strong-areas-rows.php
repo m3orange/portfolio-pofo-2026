@@ -40,7 +40,7 @@
 
       <div class="topic-rows usic-example" style="padding: 30px 0 20px 20px; border-bottom: 1px dashed #353535;">
         <div class="row">
-          <div class="col col-12 col-lg-6">
+          <div class="col col-12 col-lg-7">
               <div class="upper-text-area" style="flex-direction: column;">
                 <div class="row-left-side"  style="flex-direction: row;">
                   <div class="margin-10px-bottom card-number">[01]</div>
@@ -49,8 +49,8 @@
               <p>I lean on team workshops and design thinking exercises to break down <i class="font-weight-600">what we understand to be the problem</i>, uncover user pain points and areas of opportunity, and reach alignment on what <i class="font-weight-600">“the real problem”</i> is.</p>
               </div>
           </div>
-                    <div class="col col-12 col-lg-6 usic-example-image-area">
-            <img src="<?= BASE_URL ?>home/usic-artifacts.png" />
+                    <div class="col col-12 col-lg-5 usic-example-image-area">
+            <img src="<?= BASE_URL ?>home/usic-artifacts.png" style="width: 130%!important; max-width: 130%!important;"/>
           </div>
 
         </div>

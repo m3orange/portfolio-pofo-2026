@@ -15,7 +15,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <?php include ROOT_PATH . 'includes/header.php'; ?>
 
 <body class="about">
-    <?php include ROOT_PATH . 'about/inc-floating-widget-top.php'; ?>
+
     <!-- start header -->
     <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
     <!-- end header -->
