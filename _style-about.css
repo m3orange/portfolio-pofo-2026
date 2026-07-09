@@ -137,6 +137,30 @@ margin: 2px;
 aspect-ratio: 1/.8;
 }
 
+<<<<<<< Updated upstream
+=======
+.home-strong-areas-tabs .topic-rows{
+
+    padding: 30px 0 20px 0 ;
+    width: 100%;
+    border-top: 1px dashed #353535;
+        display: flex!important;
+    flex-direction: row!important;
+    
+}
+
+.usic-example .upper-text-area{
+        display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 20px;
+
+  
+}
+
+
+
+>>>>>>> Stashed changes
 .home-strong-areas-tabs .topic-cards h6{
   font-size: 26px;
   line-height: 1.2em;
@@ -146,8 +170,26 @@ aspect-ratio: 1/.8;
     font-size: 26px;
     font-weight: 600;
     margin-bottom: 20px;
+    padding-top: 3px;
 }
 
+<<<<<<< Updated upstream
+=======
+.topic-rows .row-left-side{
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+
+  /* padding-right: 40px; */
+
+}
+
+.topic-rows .col{
+  padding: 0px!important;
+
+}
+
+>>>>>>> Stashed changes
 
 .home-strong-areas-tabs .tab-style3 .nav-tabs li a.nav-link, 
 .home-strong-areas-tabs .tab-style3 .nav-tabs li a.nav-link.active{
@@ -199,9 +241,11 @@ aspect-ratio: 1/.8;
 
 .inline-emphasis-01 {
   font-style: italic !important;
-  background-color: rgba(246, 232, 31, 0.5);
+  /* background-color: rgba(246, 232, 31, 0.5); */
+  background-color: #ff8200ad;
   font-weight: 600;
   padding: 2px 4px;
+  color: #FFF;
 }
 
 
@@ -615,17 +659,6 @@ education-details p {
 }
 
 
-.rsm-item-intro,
-#work-experience-list li,
-.resume-text li,
-#education-list h6,
-#work-experience-list h6,
-.rsm-city-date,
-.education-details,
-education-details p {
-  /* color: purple; */
-
-}
 
 
 
@@ -642,7 +675,7 @@ education-details p {
 
 #anchor-personal-interests .swiper-button-prev,
 #anchor-personal-interests .swiper-button-next {
-  background-color: none;
+  background-color: transparent;
   background-size: cover;
 }
 

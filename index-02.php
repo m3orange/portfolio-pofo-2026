@@ -303,7 +303,7 @@ This was merged from dev.
  </section>
 
  <!-- start portfolio section --- portfolio-full-width-masonry-overlay ----->
- <?php include ROOT_PATH . 'includes/home-project-grid.php'; ?>
+ <?php include ROOT_PATH . 'home/home-project-grid.php'; ?>
  <!-- end portfolio section --- portfolio-full-width-masonry-overlay ----->
 
 

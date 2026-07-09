@@ -1,3 +1,4 @@
 {
- "beautify.ignore": ""
+ "beautify.ignore": "",
+ "editor.colorDecorators": false
 }
