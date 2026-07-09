@@ -1,4 +1,5 @@
 {
  "beautify.ignore": "",
- "editor.colorDecorators": false
+ "editor.colorDecorators": false,
+ "editor.defaultFormatter": "vscode.html-language-features"
 }
