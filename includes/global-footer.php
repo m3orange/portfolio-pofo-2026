@@ -4,7 +4,7 @@
 <!-- start footer --> 
 <footer class="footer-strip-dark bg-extra-dark-gray padding-50px-tb sm-padding-30px-tb">
     <div class="container">
-        <div class="row" style="align-items: center;">
+        <div class="row" style="align-items: flex-start;">
             <!-- start logo -->
             <div class="col col-12 col-md-4 text-left text-lg-start sm-margin-20px-bottom footer-copyright">
                 <a href="index.html">
@@ -14,7 +14,9 @@
             <!-- end logo -->
             <!-- start copyright -->
             <div class="col col-12 col-md-8 text-left text-medium footer-copyright">
+                <p>
                 &copy;<?=date("Y")?>, Michelle M. Mu&ntilde;oz-Dorna and Pixelmedia Inc. All Rights Reserved. No part of this content may be used or reproduced, in part or as a whole, without the express written consent of the author.
+                </p>
             </div>
             <!-- end copyright -->
 

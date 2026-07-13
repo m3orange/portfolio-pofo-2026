@@ -15,11 +15,6 @@
 
 
             <div class="col text-right pr-0 nav-adjust">
-                <ul class="text-white">
-                    <li>
-                        Link
-                    </li>
-                </ul>
                 <button class="navbar-toggler mobile-toggle d-inline-block" type="button" id="open-button"
                     data-toggle="collapse" data-target=".navbar-collapse">
                     <span></span>

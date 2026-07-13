@@ -1,17 +1,5 @@
 <?php require_once('config.php') ?>
 
-<?php
-require_once 'db-config.php';
-
-$pdo = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME . ';charset=utf8mb4', DB_USER, DB_PASS);
-
-$stmt = $pdo->query('SELECT * FROM education ORDER BY sort_order ASC');
-$education = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
-?>
-
-
-
 <?php include ROOT_PATH . 'includes/header.php'; ?>
 
 <body class="about">
@@ -43,9 +31,10 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     <div class="col col-12 col-lg-4 section-divider-numbered-02 p-0" style="flex-direction: column; justify-content: flex-start;">
         <div class="row" style="flex-direction: column;">
-            <div class="big-number">01</div><div class="big-section-title">I'm a full-stack designer: I'm fluent in code.</div>
+            <div class="big-number">01</div>
+            <div class="big-section-title margin-50px-bottom">I'm a full-stack designer: I'm fluent in code.</div>
         </div>
-            <img src="<?= BASE_URL ?>about/brad-frost-tweet-03.png">
+            <img src="<?= BASE_URL ?>about/brad-frost-tweet-03.png" style="max-width: 90%;">
     </div>
 
     <div class="col col-12 col-lg-8">
@@ -88,35 +77,26 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 
   <section id="toolset" class="wow fadeIn section-with-border-top">
-  <div class="container">
-   <div class="row">
+    <div class="container">
+    <div class="row">
 
 
-    <div class="col col-12 col-lg-4 section-divider-numbered-02 p-0" style="flex-direction: column; justify-content: space-between;">
-        <div class="row" style="flex-direction: column; column-gap: 20px;">
-            <div class="big-number">02</div><div class="big-section-title">My Toolkit</div>
+        <div class="col col-12 col-lg-3 section-divider-numbered-02 p-0" style="flex-direction: column; justify-content: space-between;">
+            <div class="row" style="flex-direction: column; column-gap: 20px;">
+                <div class="big-number">02</div>
+                <div class="big-section-title margin-50px-bottom">My Toolkit</div>
+            </div>
         </div>
-     <div class="row justify-content-center home-strong-areas-tabs">
-      <div class="col col-12 col-xl-11 col-sm-11 p-0 text-left tab-style3" id="animated-tab1">
-        Image
-      </div>
-     </div>
+
+        <div class="col col-12 col-lg-9" style="display: flex;">
+            <?php include ROOT_PATH . 'about/knowledge-skills-column.php'; ?>
+        </div>
+
+
+
+
+        </div>
     </div>
-
-
-    <div class="col col-12 col-lg-8" style="display: flex;">
-        
-<?php include ROOT_PATH . 'about/knowledge-skills-column.php'; ?>
-<?php include ROOT_PATH . 'about/knowledge-skills-column.php'; ?>
-
-
-    </div>
-
-
-
-
-    </div>
-    </div><!--row-->
   </div>
  </section>
 

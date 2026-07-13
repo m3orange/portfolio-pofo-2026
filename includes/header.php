@@ -70,8 +70,7 @@
         <![endif]-->
 
 <!-- <link rel="stylesheet" href="<?= BASE_URL ?>_guides.css" /> -->
-
- <link rel="stylesheet" href="<?= BASE_URL ?>_style-about.css?v=1" />
+ 
  <link rel="stylesheet" href="<?= BASE_URL ?>_style-overwrites.css?v=1" />
 
  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
