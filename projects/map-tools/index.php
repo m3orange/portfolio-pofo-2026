@@ -57,7 +57,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
                 </div>
             </div>
             <div class="row">
-                <div class="col col-12 col-lg-8 offset-lg-1 wow fadeIn" data-wow-delay="0.2s">
+                <div class="col col-12 col-lg-10 offset-lg-1 wow fadeIn" data-wow-delay="0.2s">
                     <div class="gallery-item">
                         <img src="<?= BASE_URL ?>projects/map-tools/assets/map-tools-diagram-01.png"/>
                     </div>

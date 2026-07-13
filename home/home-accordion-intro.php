@@ -15,13 +15,13 @@
   <div class="container">
    <div class="row">
     <!-- justify-content-center-->
-    <div class="col col-12 col-lg-4 section-divider-numbered-02 p-0">
+    <div class="col col-12 col-xl-4 col-lg-6 section-divider-numbered-02 p-0" style="flex-direction: column;">
 
      <div class="big-number">01</div>
      <div class="big-section-title">In a Nutshell...</div>
 
     </div>
-    <div class="col-12 col-lg-8">
+    <div class="col col-12 col-xl-8 col-lg-6">
      <!-- start accordion -->
      <div class="panel-group accordion-style1" id="accordion-design">
       <!-- start accordion item -->

@@ -4,32 +4,16 @@
 <!-- start footer --> 
 <footer class="footer-strip-dark bg-extra-dark-gray padding-50px-tb sm-padding-30px-tb">
     <div class="container">
-        <div class="row align-items-flexstart">
+        <div class="row" style="align-items: center;">
             <!-- start logo -->
-            <div class="col col-12 col-md-4 text-left text-lg-start sm-margin-20px-bottom">
-                <div class="">
-                    <a href="index.html">
-                        <img class="footer-logo" src="<?= BASE_URL ?>images/m3orange-logo-no-padding-white.png" data-at2x="<?= BASE_URL ?>images/m3orange-logo-no-padding-white@2x.png" alt="M3Orange Design">
-                    </a>
-                </div>
-
-                <div class="icon-area">
-                    <a href="https://www.linkedin.com/in/michellemunozdorna/" target="_blank">
-                        <img class="social-icons-footer-linkedin" src="<?= BASE_URL ?>images/logo-linkedin-white.svg">
-                    </a>
-                    <!-- <a href="https://www.linkedin.com/in/michellemunozdorna/" target="_blank" style="margin-top: 7px;"> <span class="material-symbols-outlined">mail</span></a> -->
-
-                    <a href="<?= BASE_URL ?>contact.php" class="inner-link">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 -960 960 960" fill="#FFFFFF" class="social-icons-footer-email">
-                            <path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280 320-200v-80L480-520 160-720v80l320 200Z"/>
-                        </svg>
-                    </a>
-                </div>
-
+            <div class="col col-12 col-md-4 text-left text-lg-start sm-margin-20px-bottom footer-copyright">
+                <a href="index.html">
+                    <img class="footer-logo" src="<?= BASE_URL ?>images/munoz-logo-horizontal-white-04.svg" data-at2x="<?= BASE_URL ?>images/munoz-logo-horizontal-white-04.svg" alt="M3Orange Design">
+                </a>
             </div> 
             <!-- end logo -->
             <!-- start copyright -->
-            <div class="coll col-12 col-md-8 text-left text-small alt-font sm-margin-10px-bottom">
+            <div class="col col-12 col-md-8 text-left text-medium footer-copyright">
                 &copy;<?=date("Y")?>, Michelle M. Mu&ntilde;oz-Dorna and Pixelmedia Inc. All Rights Reserved. No part of this content may be used or reproduced, in part or as a whole, without the express written consent of the author.
             </div>
             <!-- end copyright -->

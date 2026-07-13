@@ -62,7 +62,7 @@
   <div class="container">
    <div class="row">
     <!-- justify-content-center-->
-    <div class="col col-12 col-lg-4 section-divider-numbered-02 p-0">
+    <div class="col col-12 col-lg-4 section-divider-numbered-02" style="flex-direction: column;">
 
      <div class="big-number">02</div>
      <div class="big-section-title">Work & Process</div>
@@ -81,26 +81,15 @@
 
 
     </div>
-    <div class="col col-12 col-lg-8">
-
-
-
+    <div class="col col-12 col-lg-8 p-0">
 
      <!-- start tab content -->
      <div class="home-strong-areas-tabs tab-content">
-
-
       <!-- start tab content -->
       <div id="tab3_sec1" class="tab-pane active show ">
        <div class="col col-12 wow fadeIn" data-wow-delay="0s">
-
-
-
-                <div class="row">
-
-
-
-<?php include ROOT_PATH . 'home/home-strong-areas-cards.php'; ?>
+          <div class="row">
+          <?php include ROOT_PATH . 'home/home-strong-areas-cards.php'; ?>
 
 
  

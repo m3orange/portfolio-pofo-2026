@@ -36,53 +36,93 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
     </section>
     <!-- end parallax hero section -->
 
+ <section id="unicorn" class="wow fadeIn section-with-border-top">
+  <div class="container">
+   <div class="row">
 
 
-    <?php include ROOT_PATH . 'about/inc-unicorn-and-skills.php'; ?>
+    <div class="col col-12 col-lg-4 section-divider-numbered-02 p-0" style="flex-direction: column; justify-content: flex-start;">
+        <div class="row" style="flex-direction: column;">
+            <div class="big-number">01</div><div class="big-section-title">I'm a full-stack designer: I'm fluent in code.</div>
+        </div>
+            <img src="<?= BASE_URL ?>about/brad-frost-tweet-03.png">
+    </div>
 
-    <?php include ROOT_PATH . 'about/inc-engineering-projects.php'; ?>
+    <div class="col col-12 col-lg-8">
+     <div class="home-strong-areas-tabs tab-content">
+      <div id="tab3_sec1" class="tab-pane active show ">
+       <div class="col col-12 wow fadeIn" data-wow-delay="0s">
+        <div class="unicorn-intro">
+            Just like an architect needs to understand engineering principles in load bearing or material mechanics, I needed to understand exactly how my designs would be built, and make sure that my work was rooted in reality. I trained myself extensively in hands-on front-end programming.
 
-
-    <section id="anchor-personal-interests" class="fullwidth-slider-01" >
-
-        <section class="section-divider-numbered">
-            <div class="big-number">Ø5</div><div class="">Personal Interests</div>
-        </section>
-
-        <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
-            <div class="row">
-                <div class="col-12 blog-post-content text-center text-md-center" style="padding-right: 0px; padding-left: 0px;">
-
-                    <div class="swiper-full-screen swiper-cb-fullwidth-screens swiper-container white-move"
-                        data-slider-options='{ 
-                            "loop": true, 
-                            "slidesPerView": "1", 
-                            "allowTouchMove":true, 
-                            "autoplay": false, 
-                            "keyboard": { "enabled": true, "onlyInViewport": true }, 
-                            "navigation": { "nextEl": ".swiper-button-next", 
-                            "prevEl": ".swiper-button-prev" }, 
-                            "pagination": { "el": ".swiper-pagination", "clickable": true } }'>
-
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide ">
-                                <img class="cb-screens" src="<?= BASE_URL ?>about/inanutshell-no-padd-01.jpg">
-                            </div>
-                            <div class="swiper-slide ">
-                                 <img class="cb-screens" src="<?= BASE_URL ?>about/inanutshell-no-padd-02.jpg">
-                            </div>
-                        </div>
-                        <div
-                            class="swiper-pagination swiper-pagination-square swiper-pagination-white swiper-full-screen-pagination">
-                        </div>
-                        <div class="swiper-button-prev swiper-button-black-highlight"></div>
-                        <div class="swiper-button-next swiper-button-black-highlight"></div>
-
-                    </div>
-                </div>
+            
+        </div>
+        <div class="full-stack-lifecycle-diagram">
+            <img src="<?= BASE_URL ?>about/fs-designer-lifecycle.png">
+        </div>
+        <div class="row">
+            <div class="col col-12 col-lg-6">
+                As a result, my skillset range is wider than the average designer (I'm often called a 🦄), and have a more comprehensive insight into what goes on in the development process. More importantly, I'm able to have deeper conversations with engineers without too much getting lost in translation.
+            </div>
+            <div class="col col-12 col-lg-6">
+                Whether it's about asking the right questions about constraints, or trying to negotiate new options that work for everyone, I'm often able to get better outcomes in what design is trying to achieve.
             </div>
         </div>
-    </section>
+       </div>
+      </div>
+
+      <div id="tab3_sec2" class="tab-pane show">
+       <div class="row justify-content-center resume-text">
+        <div class="col-12 last-paragraph-no-margin">
+            <?php include ROOT_PATH . 'home/home-strong-areas-rows.php'; ?>
+        </div>
+       </div>
+      </div>
+     </div>
+    
+    </div>
+   
+    </div><!--row-->
+  </div>
+ </section>
+
+
+  <section id="toolset" class="wow fadeIn section-with-border-top">
+  <div class="container">
+   <div class="row">
+
+
+    <div class="col col-12 col-lg-4 section-divider-numbered-02 p-0" style="flex-direction: column; justify-content: space-between;">
+        <div class="row" style="flex-direction: column; column-gap: 20px;">
+            <div class="big-number">02</div><div class="big-section-title">My Toolkit</div>
+        </div>
+     <div class="row justify-content-center home-strong-areas-tabs">
+      <div class="col col-12 col-xl-11 col-sm-11 p-0 text-left tab-style3" id="animated-tab1">
+        Image
+      </div>
+     </div>
+    </div>
+
+
+    <div class="col col-12 col-lg-8" style="display: flex;">
+        
+<?php include ROOT_PATH . 'about/knowledge-skills-column.php'; ?>
+<?php include ROOT_PATH . 'about/knowledge-skills-column.php'; ?>
+
+
+    </div>
+
+
+
+
+    </div>
+    </div><!--row-->
+  </div>
+ </section>
+
+
+
+
 
 
     <script>

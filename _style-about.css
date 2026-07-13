@@ -92,9 +92,6 @@ This is --- _style-overwrites-from-260614_1440.css
   }
 }
 
-
-
-
 .unicorn-tab-area h1,
 .unicorn-tab-area h2,
 .unicorn-tab-area h3,
@@ -107,8 +104,62 @@ This is --- _style-overwrites-from-260614_1440.css
     font-family: var(--ibm-sans-body-01) !important;
   font-weight: 400 !important;
   font-style: normal !important;
-
 }
+
+
+#toolset .toolset-columns{
+  border-left: 1px solid rgba(0,0,0,0.3);
+  height: 100%;
+  padding: 0 30px;
+}
+
+#toolset h6{
+  font-weight: 600;
+}
+
+.toolset-column-header{
+  row-gap: 5px;
+  margin-bottom: 60px;
+}
+
+.toolset-column-header h6{
+  margin-bottom: 10px;
+}
+
+.toolset-column-header .poly-icon img{
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+.toolset-columns .category{
+  font-weight: 600;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.5);
+  margin-bottom: 20px;
+}
+
+.icon-and-text{
+  gap: 20px;
+}
+
+.toolset-columns ul{
+      padding-inline-start: 22px;
+  
+}
+
+
+
+
+
+#about .big-section-title{
+  font-family: var(--alt-text-2);
+  font-size: 36px;
+  line-height: 1em;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+
 
 
 
@@ -154,7 +205,14 @@ aspect-ratio: 1/.8;
       display: flex;
     flex-direction: row;
     border-top: 1px dashed #353535;
-        padding: 25px 0 10px 0;
+        padding: 20px 0;
+}
+
+@media (max-width: 992px) {
+  .home-strong-areas-tabs .topic-rows{
+          display: flex;
+    flex-direction: column;
+  }
 }
 
 .home-strong-areas-tabs .topic-rows h6{
@@ -364,6 +422,10 @@ aspect-ratio: 1/.8;
   height: 70vh !important;
 }
 
+.about{
+  background-color: #F7F7F7;
+}
+
 .about #home-hero-opener {
   background: #000 url(images/m3-orange-bgs/baggage-claim-02.jpg);
 
@@ -385,6 +447,17 @@ aspect-ratio: 1/.8;
 
 #knowledge .col{
   padding: 5px;
+}
+
+.unicorn-intro{
+     font-size: 28px;
+    font-weight: 500;
+    padding-right: 15%;
+    line-height: 1.1em;
+}
+
+.full-stack-lifecycle-diagram{
+  margin: 40px 0;
 }
 
 
@@ -438,7 +511,7 @@ font-family: var(--alt-text-2);
 .unicorn-tab-area p,
 .resume-text p,
 .resume-text li {
-  font-size: 17px !important;
+  font-size: 18px !important;
   font-family: var(--ibm-sans-body-01) !important;
   line-height: 1.4em !important;
   color: #000!important;

@@ -7,10 +7,9 @@
         <div class="container nav-header-container height-100px sm-height-70px sm-padding-15px-lr">
             <!-- Start header navigation -->
 
-            <div class="col d-none d-md-block pl-0">
+            <div class="col d-md-block pl-0"> <!--d-none -->
                 <a class="logo" href="<?= BASE_URL ?>index.php">
-                    <img src="<?= BASE_URL ?>images/m3orange-logo-white.png"
-                        data-rjs="<?= BASE_URL ?>m3orange-logo-white@2x.png" alt="M3Orange">
+                    <img src="<?= BASE_URL ?>images/munoz-logo-horizontal-white-04.svg" data-rjs="<?= BASE_URL ?>m3orange-logo-white@2x.png" alt="Michelle Muñoz">
                 </a>
             </div>
 
