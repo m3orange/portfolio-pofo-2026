@@ -25,7 +25,7 @@
 } */
 
 body{
-    background-color: #f4f4f4;
+    background-color: #e6e6e6;
 }
 
 @media (max-width: 767px) {
@@ -220,7 +220,7 @@ header a.logo{
     column-gap: 13px;
     max-height: 100px;
     width: fit-content;
-    margin-left: 17px;
+    /* margin-left: 17px; */
 }
 
 header a.logo img{
@@ -402,7 +402,7 @@ height: 200px; */
 .section-divider-numbered-02.col {
     display: flex;
     flex-direction: row;
-    padding: 0 16px 0 0 !important;
+    /* padding: 0 16px 0 0 !important; */
     gap: 15px;
 
 }
@@ -441,7 +441,7 @@ height: 200px; */
     font-size: 32px;
     line-height: 1em;
     font-weight: 700;
-    padding-right: 50px;
+    padding-right: 100px;
 }
 
 .big-section-title-opener {
@@ -450,10 +450,7 @@ height: 200px; */
 }
 
 
-.fullwidth-slider-01,
-.section-divider-light {
-    background-color: #858586 !important;
-}
+
 
 .idd .section-divider-light {
     background-color: unse !important;
@@ -467,7 +464,7 @@ height: 200px; */
     font-weight: 400 !important;
 
 }
-
+ b
 .footer-nav-links {
     display: flex;
     flex-direction: row;
@@ -537,9 +534,12 @@ img.mfp-img {
 
 }
 
-#home-hero-opener {
+.about #home-hero-opener,
+.resume #home-hero-opener,
+.contact #home-hero-opener {
     background-color: #000;
 }
+
 
 #home-hero-opener h1 {
     line-height: 1em;
@@ -967,6 +967,16 @@ margin-left: 22px;
     min-width: 20% !important;
     display: inline-block !important;
     font-weight: 500;
+}
+
+.pi-tags{
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 100px;
+    padding: 4px 16px;
+    width: fit-content;
+    font-size: 15px;
+
+
 }
 
 
@@ -1808,10 +1818,10 @@ video {
 border: 1px solid rgba(0,0,0,0.5);
 padding: 40px;
 margin: 2px;
-aspect-ratio: 1/.8;
+aspect-ratio: 1/0.8;
 }
 
-        @media (min-width: 768px) {
+        @media (max-width: 991px) {
                 .home-strong-areas-tabs .topic-cards{
                 aspect-ratio: unset;
             }
@@ -2044,15 +2054,68 @@ aspect-ratio: 1/.8;
 }
 
 .about #home-hero-opener,
+.resume #home-hero-opener,
 .contact #home-hero-opener {
 
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: left;
   background-position-y: -40px;
-  height: 70vh !important;
+  height: 50vh !important;
 }
 
+/* .home #home-hero-opener{
+    background: url(animations/260713_2154-bg-for-animation-for-homapage.mp4);
+} */
+
+.home .hero-video-home{
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   height: 100%;
+   z-index: -5; 
+   background: url(animations/260713_2154-bg-for-animation-for-homepage.mp4);
+}
+
+.home .black-overlay{
+    background-color: rgba(0,0,0,0.5);
+}
+.home #home-hero-opener{
+    overflow: hidden!important;
+}
+
+
+/* Container scales to fill the section or full viewport */
+.video-background-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Use 100vh for a full-screen hero section */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    background-color: hsl(234deg 83.97% 12.95% / 77%);
+}
+
+/* Video properties clone the "background-size: cover" behavior */
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Pushes the video behind the text content */
+opacity: 0.6;
+            /* filter: contrast(0.5); */
+}
+
+/* Styling for the content overlapping the video */
+.video-background-content {
+  z-index: 1; /* Places the content safely above the video */
+  text-align: center;
+  color: #ffffff;
+}
 
 
 .about #home-hero-opener {
@@ -2431,8 +2494,9 @@ font-family: var(--alt-text-2);
 }
 
 .rsm-city-date {
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.3em;
+
 }
 
 .education-details,
@@ -2443,9 +2507,14 @@ education-details p {
 }
 
 
-.eng-section {
+.ux-eng-bg-color{
   background-color: #393939;
 }
+
+#ux-eng {
+    padding: 130px 0 0 0!important;
+}
+
 
 .eng-section .resume-text,
 .eng-section p,

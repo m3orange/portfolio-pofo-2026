@@ -4,7 +4,7 @@
     <!-- Start navigation -->
     <nav
         class="navbar bg-transparent navbar-top navbar-transparent-no-sticky full-width-pull-menu white-link no-transition">
-        <div class="container nav-header-container height-100px sm-height-70px sm-padding-15px-lr">
+        <div class="container nav-header-container height-100px sm-height-70px p-0">
             <!-- Start header navigation -->
 
             <div class="col d-md-block pl-0"> <!--d-none -->
@@ -15,11 +15,7 @@
 
 
             <div class="col text-right pr-0 nav-adjust">
-                <ul class="text-white">
-                    <li>
-                        Link
-                    </li>
-                </ul>
+
                 <button class="navbar-toggler mobile-toggle d-inline-block" type="button" id="open-button"
                     data-toggle="collapse" data-target=".navbar-collapse">
                     <span></span>

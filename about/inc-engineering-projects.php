@@ -1,41 +1,34 @@
-<section id="engineering" class="wow no-padding-top eng-section">
-
-    <!-- start section divider -->
-    <section class="section-divider-numbered no-margin-top">
-        <div class="big-number" style="color: rgba(255,255,255,0.5);">Ø4</div>
-        <div class="text-white">Engineering Initiatives</div>
-    </section>
-    <!-- end section divider -->
-
-    <div class="container">
-        <div class="row row-cols-1 row-cols-lg-2 row-cols-md-2 align-items-center square-text-blocks">
-
-            <!-- Left Block ---->
-            <div class="col col-12 col-xl-7 col-lg-6 text-center sm-margin-35px-bottom wow animate__fadeIn"
-                style="visibility: visible; animation-name: fadeIn;">
-                <video autoplay loop muted playsinline class="hero-video-cb">
-                    <source src="<?= BASE_URL ?>projects/design-to-code/working-in-vuetify.mp4" type="video/mp4">
-                </video>
 
 
-            </div>
+<section class="wow eng-section">
 
-            <!-- Right Block ---->
+        <div class="container">
+            <div class="row row-cols-1 row-cols-lg-2 row-cols-md-2 align-items-center square-text-blocks">
 
-            <div class="col col-12 col-xl-5 col-lg-6 padding-six-lr lg-padding-15px-lr text-left text-md-start resume-text"
-                data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
-                <h5 class="font-weight-600 header-font text-white">Faster Design<>Code Translation</h5>
-                <p>
-                    Diving into our Vuetify repos to see how global theming is structured and components are styled, to
-                    assess how we may streamline engineers’ design-to-code translation process. The goal was to ensure
-                    parity and sitewide consistency, facilitate updates and deprecation, and to reduce technical and
-                    design debt.
-                </p>
+                <!-- Left Block ---->
+                <div class="col col-12 col-xl-7 col-lg-6 text-center sm-margin-35px-bottom wow animate__fadeIn"
+                    style="visibility: visible; animation-name: fadeIn;">
+                    <video autoplay loop muted playsinline class="hero-video-cb">
+                        <source src="<?= BASE_URL ?>projects/design-to-code/working-in-vuetify.mp4" type="video/mp4">
+                    </video>
+
+
+                </div>
+
+                <!-- Right Block ---->
+
+                <div class="col col-12 col-xl-5 col-lg-6 padding-six-lr lg-padding-15px-lr text-left text-md-start resume-text"
+                    data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+                    <h5 class="font-weight-600 header-font text-white">Faster Design<>Code Translation</h5>
+                    <p>
+                        Diving into Vuetify repos to see how global theming is structured, and how components are styled, to assess how may we streamline engineers' design-to-code translation process. The goal was to ensure parity and sitewide consistency, facilitate updates and deprecation, and to reduce technical and design debt.
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
 
 </section>
+
 
 <section class="wow eng-section">
 
@@ -45,16 +38,14 @@
             <!-- Left Block ---->
             <div class="col-12 col-xl-5 col-lg-6 padding-six-lr lg-padding-15px-lr text-left text-md-start resume-text"
                 data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
-                <h5 class="font-weight-600 header-font text-white">Live Code Repo</h5>
+                <h5 class="font-weight-600 header-font text-white">Integrated Documentation</h5>
                 <p>
-                    Exploring automated consolidation of our design system guidelines, by leveraging:
-                <ol>
-                    <li>Figma Code Connect - doing a 1:1 pairing of Figma components to their .vue counterparts
-                    </li>
-                    <li>Backlight - creating a live-code mirrored view of all components and patterns in production</li>
-                    <li>Storybook - automatic generation of each component’s stories to ensure documentation is always
-                        updated with each version shipped.</li>
-                </ol>
+                    Exploring automated consolidation of design system guidelines, by leveraging:
+                    <ol>
+                        <li>Figma Code Connect - doing a 1:1 pairing of Figma components to their .vue counterparts</li>
+                        <li>Backlight - creating a live-code mirrored view of all components and patterns in production</li>
+                        <li>Storybook - automatic generation of each component’s stories to ensure documentation is always updated with each version shipped.</li>
+                    </ol>
                 </p>
             </div>
 
@@ -88,9 +79,8 @@
 
             <div class="col-12 col-xl-5 col-lg-6 padding-six-lr lg-padding-15px-lr text-left text-md-start resume-text"
                 data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
-                <h5 class="font-weight-600 header-font text-white">Live component testing</h5>
-                <p>Testing a major styling overhaul of the design system. Particularly, new patterns that were
-                    implemented to better accomodate specific tasks and workflows that had previously been overlooked.
+                <h5 class="font-weight-600 header-font text-white">Live Component Testing</h5>
+                <p>Testing a major styling overhaul of the design system. Particularly, new patterns that were implemented to better accomodate specific tasks and workflows that had previously been overlooked.
                 </p>
             </div>
         </div>
@@ -106,9 +96,9 @@
             <!-- Left Block ---->
             <div class="col-12 col-xl-4 col-lg-6 padding-six-lr lg-padding-15px-lr text-left text-md-start resume-text"
                 data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
-                <h5 class="font-weight-600 header-font text-white">Analysis process</h5>
-                Roadmap of the exploration process we went through in order to understand the impact of the design
-                process in engineering, and vice versa, and which then led to initiatives that could help us improve our
+                <h5 class="font-weight-600 header-font text-white">Analysis Process</h5>
+                Roadmap of an exploration process into understanding the impact of the design
+                process in engineering, and vice versa, and the development of initiatives that help improve
                 performance, speed and accuracy.
             </div>
 

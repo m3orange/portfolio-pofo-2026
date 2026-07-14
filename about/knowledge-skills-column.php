@@ -3,9 +3,10 @@
         <div class="toolset-column-header">
             <div class="icon-and-title">
                 <div class="poly-icon"><img src="<?= BASE_URL ?>images/line-icons-01.svg"></div>
+                <dotlottie-worker-wc         workerid="is-lottie" autoplay="" loop="" style="display: block; width: 100%; height: 500px;"><template shadowrootmode="open"><!----><canvas width="952" height="500"></canvas></template></dotlottie-worker-wc>
                 <h6>Domain Knowledge</h6>
             </div>
-            <p>Areas I have experience working in</p>
+            <p>Areas I have worked in:</p>
         </div>
 
 
@@ -18,9 +19,6 @@
                     <li>Geospatial Analytics – Satellite Imagery, Tasking, Object Detection, GIS Data & Mapping</li>
                     <li>GIS Data – Vectors, JSON, Raster Tiles, 3D Imagery, Layer Customization</li>
                     <li>eCommerce & Payment Gateways, CRM Platforms, Content Management Systems</li>
-                    <li>Decoupled/Headless vs. Monolithic Architectures, Single Page Apps (SPAs) and Frameworks (React,
-                        MUI,
-                        Vue/Vuetify, ShadCDN, Tailwind)</li>
                     <li>Domains & Hosting | Shared & Reseller Models, VPS, Load Balancing, cPanel</li>
                     <li>Responsive Design | Media Queries, Column & Grid Systems, Flex Grid & Flexbox</li>
                     <li>Platform Observability & Incident Management</li>
@@ -67,9 +65,9 @@
                 <div class="category">Research & Discovery | Artifacts & Diagramming</div>
                 <ul>
                     <li>Low to High Wireframing & Prototyping</li>
-                    <li>Component Documentation & Specifications (both in Figma and in code)</li>
+                    <li>Component Specifications (both in Figma and in code)</li>
                     <li>Sitemaps, Context Diagrams, Flowcharts</li>
-                    <li>User Journey Maps, Future-State Journey Maps, Service Blueprints</li>
+                    <li>User & Future-State Journey Maps, Service Blueprints</li>
                     <li>Design Sprint Templates</li>
                     <li>Personas, Affinity Maps, How Might We, Empathy Maps, Icebreakers Crazy Eights, Future Headlines,
                         Jobs-to-be-Done, Problem/Challenge Statements, MoSCoW Prioritization Matrix, Stakeholder Maps,
@@ -78,11 +76,6 @@
                     <li>Product & Functional Requirement Documents</li>
                 </ul>
 
-                <div class="category">Where I draw reference from</div>
-                <div class="margin-20px-bottom">
-                    Reference: Nielsen Norman Group, IDEO, IxDF Interaction Design Foundation, Material UI (Google),
-                    Carbon Design System (IBM), Mozilla MDB Web Docs, Google Learning, W3Schools
-                </div>
             </div>
             <div class="col col-12 col-xl-6">
                 <div class="category">Design System Governance</div>
@@ -90,18 +83,19 @@
                     <li>Design Guidelines</li>
                     <li>Code Documentation & Specifications</li>
                     <li>Live Code Repositories (Backlight)</li>
-                    <li>Sync Integrations (Supernova, Storybook)</li>
-                    <li>Figma-to-Code Synchronization (Code Connect)</li>
-                    <li>Tokens & Variables</li>
-                    <li>Theming</li>
+                    <li>Integrations | Supernova, Storybook, Figma-to-Code Synchronization (Code Connect)</li>
+                    <li>Theming, Tokens & Variables</li>
                 </ul>
                 <div class="category">Agile Process</div>
                 <ul>
-                    <li>Jira Tickets, User Stories, Confluence Documentation, Acceptance Criteria, Quality Assurance,
-                        Backlogs, Technical Debt</li>
+                    <li>Jira Tickets, User Stories, Confluence Documentation, Acceptance Criteria, Quality Assurance, Backlogs</li>
                     <li>Daily Stand-Ups, Sprints & Epics, Grooming, Story Points, Retrospectives, Post-Mortems</li>
                     <li>Git Repos, Branches, Pull Requests & Merging, Deployment Processes</li>
                 </ul>
+                <div class="category">Where I draw reference from</div>
+                <div class="margin-20px-bottom">
+                    Reference: Nielsen Norman Group, IDEO, IxDF Interaction Design Foundation, Material UI (Google),Carbon Design System (IBM), Mozilla MDB Web Docs, Google Learning, W3Schools
+                </div>
             </div>
         </div>
     </div>
@@ -143,10 +137,10 @@
             <div class="col col-12 col-xl-6">
                 <div class="category">Basic Understanding</div>
                 <ul>
+                    <li>Back End | GraphQL, REST APIs, Strapi, Postman</li>
+                    <li>Decoupled/Headless vs. Monolithic Architectures, Single Page Apps (SPAs) and Frameworks (React, MUI, Vue/Vuetify, ShadCDN, Tailwind)</li>
                     <li>3D | Blender, Sketchup, AutoCAD, Unity Engine</li>
                     <li>LAMP | WordPress, cPanel, MySQL, PHP</li>
-                    <li>Back End | GraphQL, REST APIs, Strapi, Postman</li>
-                    <li>Integrations | Auth0 and Sengrid</li>
                 </ul>
             </div>
         </div>

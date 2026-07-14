@@ -9,12 +9,12 @@
     <!-- end header -->
 
     <!-- start parallax hero section -->
-    <section id="home-hero-opener" class="p-0 position-relative h-70 wow animate__fadeIn" style="visibility: visible; "> <!--min-height: 658px;-->
+    <section id="home-hero-opener" class="p-0 position-relative wow animate__fadeIn" style="visibility: visible; "> <!--min-height: 658px;-->
         <div class="opacity-medium bg-black z-index-0"></div>
         <div class="container h-100">
             <div class="row h-100">
                 <div class="col col-12 col-xxl-8 col-xl-10 col-lg-11 col-md-11 d-flex justify-content-center flex-column text-left text-md-start"> <!--style="justify-content: space-around!important;"-->
-                    <div class="row padding-30px-all">
+                    <div class="row">
                         <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom"> 
                         <span style="font-style: italic !important;">About</span>
                     </div>
@@ -60,13 +60,6 @@
        </div>
       </div>
 
-      <div id="tab3_sec2" class="tab-pane show">
-       <div class="row justify-content-center resume-text">
-        <div class="col-12 last-paragraph-no-margin">
-            <?php include ROOT_PATH . 'home/home-strong-areas-rows.php'; ?>
-        </div>
-       </div>
-      </div>
      </div>
     
     </div>
@@ -78,32 +71,40 @@
 
   <section id="toolset" class="wow fadeIn section-with-border-top">
     <div class="container">
-    <div class="row">
-
-
-        <div class="col col-12 col-lg-3 section-divider-numbered-02 p-0" style="flex-direction: column; justify-content: space-between;">
-            <div class="row" style="flex-direction: column; column-gap: 20px;">
-                <div class="big-number">02</div>
-                <div class="big-section-title margin-50px-bottom">My Toolkit</div>
+        <div class="row">
+            <div class="col col-12 col-lg-3 section-divider-numbered-02 p-0" style="flex-direction: column; justify-content: space-between;">
+                <div class="row" style="flex-direction: column; column-gap: 20px;">
+                    <div class="big-number">02</div>
+                    <div class="big-section-title margin-50px-bottom">My Toolkit</div>
+                </div>
             </div>
-        </div>
 
         <div class="col col-12 col-lg-9" style="display: flex;">
             <?php include ROOT_PATH . 'about/knowledge-skills-column.php'; ?>
         </div>
 
-
-
-
         </div>
     </div>
-  </div>
+ </section>
+
+ <div class="ux-eng-bg-color">
+
+  <section id="ux-eng" class="wow fadeIn section-with-border-top">
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 section-divider-numbered-02 p-0" style="flex-direction: column; justify-content: space-between;">
+                <div class="row" style="flex-direction: column; column-gap: 20px;">
+                    <div class="big-number text-white">03</div>
+                    <div class="big-section-title margin-50px-bottom text-white">UX Engineering Initiatives</div>
+                </div>
+            </div>
+        </div>
+    </div>
  </section>
 
 
-
-
-
+    <?php include ROOT_PATH . 'about/inc-engineering-projects.php'; ?>
+</div>
 
     <script>
         async function loadWorkExperience() {

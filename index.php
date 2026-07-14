@@ -12,9 +12,15 @@
  <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
  <!-- end header -->
 
- <section id="home-hero-opener" class="p-0 full-screen position-relative wow animate__fadeIn"
-  style="height: 1029px; visibility: visible; animation-name: fadeIn;">
-  <div class="opacity-medium bg-extra-dark-gray z-index-0"></div>
+ <section id="home-hero-opener" class="p-0 full-screen position-relative wow animate__fadeIn" style="visibility: visible; animation-name: fadeIn;"> <!--height: 1029px;-->
+  
+ <div class="video-background-container">
+  <!-- Attributes ensure the video autoplays silently, loops infinitely, and works on mobile devices -->
+  <video autoplay muted loop playsinline class="background-video">
+        <source src="<?= BASE_URL ?>animations/260713_2301-home-animation-with-blue.mp4" type="video/mp4">    
+  </video>
+  
+  <div class="video-background-content">
   <div class="container h-100">
    <div class="row h-100">
     <div
@@ -51,7 +57,14 @@
    </div><!-- row-->
 
   </div>
+  </div>
+</div>
+
+  
+
  </section>
+
+
 
 
 
