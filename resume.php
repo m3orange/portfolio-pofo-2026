@@ -26,8 +26,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <div class="row h-100">
             <div class="col col-12 col-xxl-8 col-xl-10 col-lg-11 col-md-11 d-flex justify-content-center flex-column text-left text-md-start">
                 <div class="row">
-                    <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom"> 
-                    <span style="font-style: italic !important;">Résumé</span>
+                    <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom">Résumé</h1>
                 </div>
             </div><!-- cols-->
         </div><!-- row-->
@@ -74,15 +73,16 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <div class="education-details row">
             <div class="col col-12 col-xl-12 col-lg-6 col-md-12">
             <div class="font-weight-500 margin-10px-bottom">
-            IDEO, Nielsen Norman, Interaction Design Foundation [Ongoing]. Some recent courses;
+            <p>IDEO, Nielsen Norman, Interaction Design Foundation [Ongoing].<br>Recent courses:</p>
             </div>
             <div>
             <div class="margin-10px-bottom">
                 <ul>
-                    <li>10 Usability Heuristics from Theory to Practice</li>
-                    <li>AI x Design Thinking Workshop Series</li>
-                    <li>Prototyping with AI</li>
-                    <li>Accessible and Inclusive Design Patterns</li>
+                    <li>GIS, Mapping, and Spatial Analysis Certificate [U. of Toronto]</li>
+                    <li>10 Usability Heuristics from Theory to Practice [NN/g]</li>
+                    <li>AI x Design Thinking Workshop Series [IDEO]</li>
+                    <li>Prototyping with AI [IDEO]</li>
+                    <li>Accessible and Inclusive Design Patterns [IxDF]</li>
                 </ul>
             </div>
 
@@ -125,14 +125,33 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
   </div>
  </section>
 
+  <section id="resume-0e" class="wow fadeIn section-with-border-top">
+  <div class="container">
+   <div class="row">
 
- <section id="resume-03" class="wow fadeIn section-with-border-top">
+        <div class="col col-12 col-lg-4 section-divider-numbered-02 p-0" style="flex-direction: column; justify-content: flex-start;">
+            <div class="row" style="flex-direction: column;">
+                <div class="big-number">03</div>
+                <div class="big-section-title margin-50px-bottom">Brands & Companies I Have Worked With</div>
+            </div>
+        </div>
+
+        <div class="col col-12 col-lg-8">
+            <img src="<?= BASE_URL ?>images/banrds-and-companies.png">
+        </div>
+   
+    </div><!--row-->
+  </div>
+ </section>
+
+
+ <section id="resume-04" class="wow fadeIn section-with-border-top">
   <div class="container">
    <div class="row">
 
         <div class="col col-12 col-lg-2 section-divider-numbered-02 p-0" style="flex-direction: column; justify-content: flex-start;">
             <div class="row" style="flex-direction: column;">
-                <div class="big-number">03</div>
+                <div class="big-number">04</div>
                 <div class="big-section-title margin-50px-bottom">Design Inspiration</div>
             </div>
         </div>
@@ -195,10 +214,10 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
             container.innerHTML = jobs.map(job => `
             <div class="row rsm-item-header">
-                <div class="col col-12 col-lg-7 col-md-12 p-0">
+                <div class="col col-12 col-xl-7 col-lg-12 col-md-7 col-md-12 p-0">
                     <h6>${job.company}, ${job.job_title}</h6>
                 </div>
-                <div class="col col-12 col-lg-5 col-md-12 p-0 rsm-city-date">
+                <div class="col col-12 col-xl-5 col-lg-12 col-md-5 p-0 rsm-city-date">
                     ${job.city} <span class="divider">|</span> ${job.date_start} – ${job.date_end ?? 'Present'}
                 </div>
             </div>

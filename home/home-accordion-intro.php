@@ -4,7 +4,7 @@
    <div class="row">
     <div class="col col-12 col-lg-8 offset-lg-4">
      <div class="big-section-title-opener">
-      Trained in both architecture and graphic design, I have 25+ years of multidisciplinary design experience {print, brand, web}. For the past 12, I have been focused on product design and UX engineering.
+      I'm trained in architecture and graphic design, and have 25+ years of multidisciplinary design experience {print, brand, web}. For the past 12, I have been focused on product design and UX engineering.
      </div>
     </div>
    </div>
@@ -18,7 +18,7 @@
     <div class="col col-12 col-xl-4 col-lg-6 section-divider-numbered-02 p-0" style="flex-direction: column;">
 
      <div class="big-number">01</div>
-     <div class="big-section-title">In a Nutshell...</div>
+     <div class="big-section-title">In a Nutshell</div>
 
     </div>
     <div class="col col-12 col-xl-8 col-lg-6">
@@ -37,19 +37,19 @@
        <div id="design1" class="panel-collapse collapse" aria-expanded="true" role="tablist">
         <!-- Add data-parent="#accordion-design" to have one panel open at a time-->
         <div class="panel-body">
-
-
       <h6>
          <ul>
             <li>I have been recently focusing in the development of enterprise-level SaaS platforms: creating seamless experiences across different channels and user types; managing design systems and documentation that leads to adoption and tech debt reduction; devising strategies that ensure scalable and future-proof environments capable of handling growing business demands and technical requirements.
             </li>
          </ul>
       </h6>
-        <div class="intro-example-01">
-         <div class="example-info-box"> <a href="<?= BASE_URL ?>projects/map-tools/index.php" title="Atlas Design System" class="example-info-box">View project
-            <i class="ti-arrow-right" style="border: 0px!important;"></i></a>
-         </div>
-           <img src="<?= BASE_URL ?>home/intro-examples-01.png" />
+         <div class="row intro-examples intro-example-01">
+            <div class="col col-12 intro-example-image-area">
+               <div class="example-info-box"><a href="<?= BASE_URL ?>projects/map-tools/index.php" title="Atlas Design System">
+               View project<i class="ti-arrow-right" style="border: 0px!important;"></i></a>
+               </div>
+               <img src="<?= BASE_URL ?>home/intro-examples-01.png" />
+            </div>
          </div>
 
 
@@ -78,7 +78,7 @@
           </ul>
          </h6>
 
-        <div class="intro-example-02">
+        <div class="intro-examples intro-example-02">
          <div class="example-info-box"> <a href="<?= BASE_URL ?>projects/admin/index.php" title="Admin Platform" class="example-info-box">View project
             <i class="ti-arrow-right" style="border: 0px!important;"></i></a>
          </div>
@@ -121,8 +121,8 @@
           </ul>
          </h6>
 
-        <div class="intro-example-03">
-         <div class="image-area">
+        <div class="intro-examples intro-example-03">
+         <div class="intro-example-image-area">
          <img src="<?= BASE_URL ?>home/intro-examples-03.png" />
          </div>
 

@@ -15,8 +15,7 @@
             <div class="row h-100">
                 <div class="col col-12 col-xxl-8 col-xl-10 col-lg-11 col-md-11 d-flex justify-content-center flex-column text-left text-md-start"> <!--style="justify-content: space-around!important;"-->
                     <div class="row">
-                        <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom"> 
-                        <span style="font-style: italic !important;">About</span>
+                        <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom">About</h1>
                     </div>
                 </div><!-- cols-->
             </div><!-- row-->
@@ -29,7 +28,7 @@
    <div class="row">
 
 
-    <div class="col col-12 col-lg-4 section-divider-numbered-02 p-0" style="flex-direction: column; justify-content: flex-start;">
+    <div class="col col-12 col-lg-4 section-divider-numbered-02 p-0" style="flex-direction: column; justify-content: space-between!important;">
         <div class="row" style="flex-direction: column;">
             <div class="big-number">01</div>
             <div class="big-section-title margin-50px-bottom">I'm a full-stack designer: I'm fluent in code.</div>

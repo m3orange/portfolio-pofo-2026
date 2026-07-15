@@ -46,9 +46,9 @@
             <div class="margin-10px-bottom card-number">[01]</div>
             <h6 class="font-weight-700 alt-font-2 margin-10px-bottom">Design Thinking</h6>
           </div>
-          <p>I lean on team workshops and design thinking exercises to break down <i class="font-weight-600">what we
-              understand to be the problem</i>, uncover user pain points and areas of opportunity, and reach alignment
-            on what <i class="font-weight-600">“the real problem”</i> is.</p>
+          <p>I lean on team workshops and design thinking exercises to break down what <i class="font-weight-600">we
+              think</i> is the problem, uncover user pain points and areas of opportunity, and reach alignment
+            on what the real issues are.
         </div>
       </div>
       <div class="col col-12 col-lg-5 usic-example-image-area">
