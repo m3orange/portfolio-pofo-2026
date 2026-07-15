@@ -35,7 +35,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     <!-- start parallax hero section -->
     <section id="block-intro-slider" class="wow p-0 ">
         <video autoplay loop muted playsinline class="hero-video-cb">
-            <source src="<?= BASE_URL ?>projects/atlas-ui/assets/citybox-screens-in-laptop.mp4" type="video/mp4">  
+            <source src="<?= BASE_URL ?>projects/atlas-ui/assets/citybox-screens-in-laptop-darker.mp4" type="video/mp4">  
         </video>
     </section>
     <!-- end parallax hero section -->
@@ -273,19 +273,16 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
                         </a>
                     </li>
 
-
-
                 </ul>
             </div>
         </div>
     </section>
 
-
-
+    <?php include ROOT_PATH . 'includes/pagination-projects.php'; ?>
 
     <!-- start footer -->
     <?php include ROOT_PATH . 'includes/global-footer.php'; ?>
-
+    
 </body>
 
 </html>

@@ -109,6 +109,25 @@ nav.navbar.bootsnav {
     }
 }
 
+.hover-option2 .grid-item figure:hover img {
+        -webkit-filter: blur(3px);
+        -moz-filter: blur(3px);
+        -ms-filter: blur(3px);
+        -o-filter: blur(3px);
+    filter: blur(3px);
+    opacity: 0.10;
+    transform: scale(1.02, 1.02);
+        -webkit-transform: scale(1.02, 1.02);
+        -moz-transform: scale(1.02, 1.02);
+        -ms-transform: scale(1.02, 1.02);
+        -o-transform: scale(1.02, 1.02);
+    transition: all 0.3s ease 0s;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -ms-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+}
+
 .nav-divider {
     width: 1px;
     background-color: rgba(255, 255, 255, 0.3);
@@ -234,7 +253,7 @@ header a.logo img{
             }
 
 .nav-header-container{
-    padding-top: 20px!important;
+    padding-top: 0px!important;
 }
 
 
@@ -260,6 +279,21 @@ footer a {
     line-height: 1.2em!important;
     color: rgba(255,255,255,0.9);
 }
+
+#pagination a{
+    text-decoration: none;
+
+
+}
+
+.blog-nav-link-prev,
+.blog-nav-link-next{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.blog-nav-link-prev{padding-left: 30px;}
+.blog-nav-link-next{padding-right: 30px;}
 
 
 .social-icons-footer-linkedin,
@@ -984,11 +1018,11 @@ video {
     background-size: cover;
     display: table-cell;
     vertical-align: middle;
-    width: 100%;
+    width: 90%;
 }
 
 .citybox #block-intro-slider {
-    background-color: #B8B8B8 !important;
+    background-color: #191c1e!important;
 
 }
 
@@ -1393,7 +1427,7 @@ video {
 
 .idd .fullwidth-idd-demo {
     background-color: #444 !important;
-    padding: 80px 0 130px 0 !important;
+    padding: 80px 0 40px 0 !important;
 }
 
 
@@ -2544,4 +2578,44 @@ education-details p {
   /* background-image: url("images/swiper-arrow-prev.svg"); */
   background-image: url("images/swiper-black-button-next.png");
 
+}
+
+.space-scout {
+    /* background-color: #222; */
+}
+
+.space-scout .parallax-project-section{
+      background: #777 url("projects/space-scout/assets/sscout-discovery-for-parallax.png");
+      background-size: 100%;
+}
+
+.space-scout #block-intro-slider{
+    background-color: #000;
+    padding: 80px 0;
+}
+
+        .space-scout #block-intro-slider video{
+            max-width: 80%;
+        }
+
+.space-scout #image-grid{
+    background-color: #787878;
+}
+
+#discovery-sequence {
+    background-color: #232323;    
+}
+    #discovery-sequence img{
+        background-color: #2e2e2e;
+    }
+        
+
+#discovery-fullwidth{
+    background-color: #4b4b4b;
+    text-align: center; 
+}
+
+
+#discovery-fullwidth img{
+    max-width: 80%;
 }

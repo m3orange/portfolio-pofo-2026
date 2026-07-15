@@ -136,8 +136,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     </div>
 </section>
 
-
-
+    <?php include ROOT_PATH . 'includes/pagination-projects.php'; ?>
 
     <!-- start footer -->
     <?php include ROOT_PATH . 'includes/global-footer.php'; ?>

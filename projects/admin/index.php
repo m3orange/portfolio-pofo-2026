@@ -40,7 +40,6 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
     </section>
     <!-- end parallax hero section -->
 
-
     <!-- start product information section -->
     <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
     <!-- end product information section -->
@@ -215,7 +214,7 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
         </div>
     </section>
 
-
+    <?php include ROOT_PATH . 'includes/pagination-projects.php'; ?>
 
     <!-- start footer -->
     <?php include ROOT_PATH . 'includes/global-footer.php'; ?>
