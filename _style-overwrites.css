@@ -1086,11 +1086,9 @@ video {
 }
 
 
-
-
-
 .citybox #block-01 {
     padding: 130px 0 0 0 !important;
+ 
 }
 
 .citybox #block-01 .grid-lines .col {
@@ -2641,5 +2639,7 @@ education-details p {
 
 
 #discovery-fullwidth img{
-    max-width: 80%;
+    max-width: 80%; 
+   
 }
+

@@ -38,7 +38,7 @@
 
     <div class="col col-12 col-lg-8">
      <div class="home-strong-areas-tabs tab-content">
-      <div id="tab3_sec1" class="tab-pane active show ">
+      <div id="tab3_sec1" class="tab-pane active show">
        <div class="col col-12 wow fadeIn" data-wow-delay="0s">
         <div class="unicorn-intro">
             Just like an architect needs to understand engineering principles in load bearing or material mechanics, I needed to understand exactly how my designs would be built, and make sure that my work was rooted in reality. I trained myself extensively in hands-on front-end programming.

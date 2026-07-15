@@ -1,4 +1,16 @@
 {
  "beautify.ignore": "",
- "editor.colorDecorators": false
+ "editor.colorDecorators": false,
+ "editor.defaultFormatter": "vscode.html-language-features",
+ "editor.linkedEditing": true,
+ "editor.inlineSuggest.minShowDelay": 2,
+ "php.suggest.basic": true,
+ "emmet.useInlineCompletions": true,
+ "editor.inlineSuggest.experimental.showOnSuggestConflict": "whenSuggestListIsIncomplete",
+ "html.format.indentInnerHtml": true,
+ "notebook.defaultFormatter": "vscode.html-language-features",
+ "[html]": {
+  "editor.defaultFormatter": "vscode.html-language-features",
+  "editor.linkedEditing": true
+ }
 }
