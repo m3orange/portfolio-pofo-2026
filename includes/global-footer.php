@@ -91,7 +91,7 @@
         <script type="text/javascript" src="<?= BASE_URL ?>js/main.js"></script>
 
 
-        <script>
+        <!-- <script>
         window.Userback = window.Userback || {};
         Userback.access_token = "A-UXvuAoDuLdEYYIFOBCZig4DV2";
         // identify your logged-in users (optional)
@@ -105,4 +105,4 @@
         (function(d) {
         var s = d.createElement('script');s.async = true;s.src = 'https://static.userback.io/widget/v1.js';(d.head || d.body).appendChild(s);
         })(document);
-        </script>
+        </script> -->
