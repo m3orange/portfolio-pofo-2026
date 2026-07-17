@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+/* CityBox */
+
+
+
+:root {
+    --bg-scroll-gbl-01: #e6e6e6; /* rgba(230,230,230,1.0)*/
+    --bg-scroll-atlas-ui-01: #e6e6e6 !important;
+    --bg-scroll-atlas-ui-02: #191f27 !important;
+    --bg-scroll-atlas-ui-03: #243551 !important;
+}
+
+

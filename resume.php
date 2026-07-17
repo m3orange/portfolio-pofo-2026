@@ -198,13 +198,6 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 
 
-
-
-
-
-
-
-
     <script>
         async function loadWorkExperience() {
             const res = await fetch('/api/work-experience.php');

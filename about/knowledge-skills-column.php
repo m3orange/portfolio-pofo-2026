@@ -1,12 +1,12 @@
 <div class="row">
     <div class="col col-12 toolset-columns margin-50px-bottom">
         <div class="toolset-column-header">
-            <div class="icon-and-title">
+
+                        <div class="icon-and-title">
                 <div class="poly-icon"><img src="<?= BASE_URL ?>images/line-icons-01.svg"></div>
-                <dotlottie-worker-wc         workerid="is-lottie" autoplay="" loop="" style="display: block; width: 100%; height: 500px;"><template shadowrootmode="open"><!----><canvas width="952" height="500"></canvas></template></dotlottie-worker-wc>
-                <h6>Domain Knowledge</h6>
-            </div>
+                <h6>Domain Knowledge</h6></div>
             <p>Areas I have worked in:</p>
+
         </div>
 
 
@@ -47,7 +47,7 @@
     <div class="col col-12 toolset-columns margin-50px-bottom">
         <div class="toolset-column-header">
             <div class="icon-and-title">
-                <div class="poly-icon"><img src="<?= BASE_URL ?>images/line-icons-04.svg"></div>
+                <div class="poly-icon"><img src="<?= BASE_URL ?>images/line-icons-06.svg"></div>
                 <h6>Product Design & Engineering Skills</h6>
             </div>
         </div>
@@ -104,12 +104,12 @@
         <div class="toolset-column-header">
             <div class="icon-and-title">
                 <div class="poly-icon"><img src="<?= BASE_URL ?>images/line-icons-03.svg"></div>
-                <h6>Software Fluency</h6>
+                <h6>Software Proficiency</h6>
             </div>
         </div>
         <div class="row">
             <div class="col col-12 col-xl-6">
-                <div class="category">Extensive Knowledge</div>
+                <div class="category">Proficiency In</div>
                 <div class="software-fluency">General</div>
                 <ul>
                     <li>Adobe Studio | Photoshop, Illustrator, InDesign, XD</li>

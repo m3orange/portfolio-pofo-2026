@@ -9,7 +9,6 @@
   <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
   <!-- end header -->
 
-
   <?php include ROOT_PATH . 'home/home-hero-opener.php'; ?>
 
   <?php include ROOT_PATH . 'home/home-accordion-intro.php'; ?>
@@ -86,8 +85,6 @@
 
   <!-- start footer -->
   <?php include_once("includes/global-footer.php"); ?>
-
-
 
 </body>
 

@@ -177,7 +177,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
 
 
 
-    <section class="wow fadeIn">
+    <section id="handoff-specs" class="wow fadeIn">
         <!-- start section divider -->
         <section class="section-divider-dark">
             <div class="container">

@@ -9,15 +9,20 @@
     <!-- end header -->
 
     <!-- start parallax hero section -->
-    <section id="home-hero-opener" class="p-0 position-relative wow animate__fadeIn" style="visibility: visible; "> <!--min-height: 658px;-->
+    <section id="home-hero-opener" class="position-relative wow animate__fadeIn" style="visibility: visible; "> <!--min-height: 658px;-->
         <div class="opacity-medium bg-black z-index-0"></div>
         <div class="container h-100">
-            <div class="row h-100">
-                <div class="col col-12 col-xxl-8 col-xl-10 col-lg-11 col-md-11 d-flex justify-content-center flex-column text-left text-md-start"> <!--style="justify-content: space-around!important;"-->
-                    <div class="row">
+            <div class="row h-100" style="padding-top: 50px;">
+                <div class="col col-12 col-lg-7 col-md-12 d-flex justify-content-center flex-column text-left text-md-start"> <!--style="justify-content: space-around!important;"-->
+                    <div class="row" style="flex-direction: column;">
                         <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom">About</h1>
+                        <h5>Text introducing UX engineering knowledge</h5>
                     </div>
                 </div><!-- cols-->
+                <div class="col col-12 col-lg-5 d-flex justify-content-center flex-column ">
+                   <img src="<?= BASE_URL ?>images/uxe-venn-diagram.png">
+                </div>
+
             </div><!-- row-->
         </div>
     </section>
