@@ -44,17 +44,21 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
     <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
     <!-- end product information section -->
 
+        <div class="anchor-widget">
+            <ul>
+                <li><a href="#anchor-discovery">1</a></li>
+                <li><a href="#anchor-prototyping">2</a></li>
+                <li><a href="#anchor-journey">3</a></li>
+                <li><a href="#anchor-final-designs">4</a></li>
+                <li><a href="#anchor-presentation">5</a></li>
+            </ul>  
+        </div>
+
+<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
+<div id="anchor-discovery" class="anchor-links"></div>
 
     <!--begin - image grid - from single-project-page-01-->
-    <section  class="image-grid-discovery">
-
-        <!-- start section divider -->
-        <section class="section-divider-dark">
-            <div class="container">Discovery</div>
-        </section>
-        <!-- end section divider -->
-
-
+    <section class="image-grid-discovery">
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row margin-40px-bottom">
                 <?php foreach ($grid as $img): ?>
@@ -68,14 +72,11 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
     <!--end - image grid - from single-project-page-01-->
 
 
-    <section>
-        <!-- start section divider -->
-        <section class="section-divider-dark">
-            <div class="container">Prototyping</div>
-        </section>
-        <!-- end section divider -->
+<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
+<div id="anchor-prototyping" class="anchor-links"></div>
 
-        <div class="container-fluid padding-four-lr md-padding-30px-lr">
+    <section>
+        <div class="container-fluid p-0 m-0">
             <div class="row">
                 <div class="col col-12">
                     <div class="image-grid-discovery-fullwidth"><img src="<?= BASE_URL ?><?= $single[0]['file_path'] ?>"></div>
@@ -83,6 +84,9 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
             </div>
         </div>
     </section>    
+
+<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
+<div id="anchor-journey" class="anchor-links"></div>
 
     <!--begin - image grid - from single-project-page-01-->
     <section class="admin-journey-fullwidth">
@@ -97,25 +101,12 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
     </section>
     <!--end - image grid - from single-project-page-01-->
 
-
+<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
+<div id="anchor-final-designs" class="anchor-links"></div>
 
     <section class="wow fadeIn">
-        <!-- start section divider -->
-        <section class="section-divider-dark">
-            <div class="container">
-                <div class="row">
-                    <div class="col col-12 col-lg-8 col-md-6">Final Designs</div>
-                    <div class="col col-12 col-lg-4 col-md-6 sm-margin-20px-top" style="text-align: left; font-size: 80%;">Click to view larger versions</div>
-                </div>
-            </div>
-        </section>
-        <!-- end section divider -->
-
 
         <div class="container">
-
-        <!-- <?php include_once("description-project-01.php"); ?> -->
-
             <div class="row mx-0">
                 <ul class="portfolio-grid work-3col hover-option2 gutter-large w-100">
                     <li class="grid-sizer"></li>
@@ -158,41 +149,33 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
                             </a>
                         </li>
                     <?php endforeach; ?>
-
-
                 </ul>
             </div>
         </div>
     </section>
     <!-- end gallery section -->
 
+@@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@ 
+<div id="anchor-presentation" class="anchor-links"></div>
 
-        <section class="fullwidth-slider-01">
-        <!-- start section divider -->
-        <section class="section-divider-light">
-            <div class="container">Stakeholder Presentation [Partial]</div>
-        </section>
-        <!-- end section divider -->
+    <section class="fullwidth-slider-01">
+
+
         <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
-
-
             <div class="row">
-
-
                 <div class="col-12 blog-post-content text-center text-md-center"
                     style="padding-right: 0px; padding-left: 0px;">
 
                     <div class="swiper-full-screen swiper-cb-fullwidth-screens swiper-container white-move"
                         data-slider-options='{ 
-                    "loop": true, 
-                    "slidesPerView": "1", 
-                    "allowTouchMove":true, 
-                    "autoplay": false, 
-                    "keyboard": { "enabled": true, "onlyInViewport": true }, 
-                    "navigation": { "nextEl": ".swiper-button-next", 
-                    "prevEl": ".swiper-button-prev" }, 
-                    "pagination": { "el": ".swiper-pagination", "clickable": true } }'>
-
+                            "loop": true, 
+                            "slidesPerView": "1", 
+                            "allowTouchMove":true, 
+                            "autoplay": false, 
+                            "keyboard": { "enabled": true, "onlyInViewport": true }, 
+                            "navigation": { "nextEl": ".swiper-button-next", 
+                            "prevEl": ".swiper-button-prev" }, 
+                            "pagination": { "el": ".swiper-pagination", "clickable": true } }'>
                         <div class="swiper-wrapper">
                             <?php foreach ($slideshow as $img): ?>
                                 <div class="swiper-slide">
@@ -205,13 +188,10 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
                         </div>
                         <div class="swiper-button-prev swiper-button-black-highlight"></div>
                         <div class="swiper-button-next swiper-button-black-highlight"></div>
-
                     </div>
                 </div>
-
-
-            </div>
-        </div>
+            </div><!--row-->
+        </div><!--container-->
     </section>
 
     <?php include ROOT_PATH . 'includes/pagination-projects.php'; ?>

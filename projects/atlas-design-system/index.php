@@ -34,9 +34,6 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
 
     <!-- start parallax hero section -->
     <section id="block-intro-slider">
-        <div class="blurred-bg-test">
-            Nam metus dolor, facilisis nec commodo vitae, dignissim placerat sapien. Aliquam ac bibendum turpis. Donec vel pharetra tellus, facilisis egestas dolor. 
-        </div>
         <img src="<?= BASE_URL ?>projects/atlas-design-system/assets/atlas-hero-opener-alpha.png"/>    
     </section>
     <!-- end parallax hero section -->

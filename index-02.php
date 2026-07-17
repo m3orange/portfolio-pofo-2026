@@ -1,8 +1,22 @@
-<!-- Replit's fixed code from 260524_0947 -->
+<?php include_once("config.php"); ?>
+
+<?php include ROOT_PATH . 'includes/header.php'; ?>
+
+
+<body class="home">
+
+  <!-- start header -->
+  <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
+  <!-- end header -->
+
+  <?php include ROOT_PATH . 'home/home-hero-opener.php'; ?>
+
+  <?php include ROOT_PATH . 'home/home-accordion-intro.php'; ?>
+
 
 
 <!-- start footer --> 
-<footer class="footer-strip-dark bg-extra-dark-gray padding-50px-tb sm-padding-30px-tb">
+<footer class="footer-strip-dark bg-extra-dark-gray" style="padding: 80px 0 0 0;">
     <div class="container">
         <div class="row" style="align-items: flex-start;">
             <!-- start logo -->
@@ -22,36 +36,68 @@
 
         </div>
     </div>
+
+
+
+
+
 </footer>   
+
+<div class="center-align">
+      <div id="clipped-block" class="container-fluid footer-clipped-words">
+        <div class="row text-area">
+          <div class="col col-12">
+            <div class="footer-clipped-words"><div class="my-name">michelle muñoz</div></div>
+          </div>
+        </div>
+      </div>
+
+</div>
 <!-- end footer -->
 
+<style>
 
+  .my-name{
+    height: 100px;
+  }
 
+  .center-align{
+        display: flex;
+    justify-content: center;
+  }
+ .footer-clipped-words{
+    padding: 102px 0 0 0;
+    background-color: #1c1c1c;
+    font-style: italic;
+    font-size: 200px;
+    /* height: 300px; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    height: 140px;
+    align-items: flex-end;
+    letter-spacing: -10px;
+    color: rgba(255, 255, 255, 0.1);
+    justify-content: flex-start;
+    font-family: var(--ibm-serif);
+    min-width: 113%;
+    /* margin-bottom: 80px; */
+ }
 
-<script>
+ .text-area{
 
-    // Select all links with a hash (#)
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-        e.preventDefault(); // Prevent default instant jump
+ min-width: 100%;
 
-        const targetId = this.getAttribute('href');
-        const targetElement = document.querySelector(targetId);
+ }
 
-        if (targetElement) {
-        targetElement.scrollIntoView({
-        behavior: 'smooth' // Triggers the smooth animation
-    });
-    }
-  });
-});
+ #clipped-block{
+min-width: 250%; */
+    margin: 0px;
+    /* padding: 44px 0 0 0;*/
+ }
+</style>
 
-
-
-</script>
-
-
-
+            <!-- end footer -->
     <!-- start scroll to top -->
     <a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
     <!-- end scroll to top  -->
@@ -100,11 +146,6 @@
     <!-- revolution -->
     <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
     <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
-
-    <!-- Added this to see if I can make the anchors scroll smoothly. Not working, though
-    <script type="text/javascript" src="<?= BASE_URL ?>js/infinite-scroll.js"></script>
--->
-
     <!-- revolution slider extensions (load below extensions JS files only on local file systems to make the slider work! The following part can be removed on server for on demand loading) -->
     <!--<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
         <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
@@ -137,3 +178,14 @@
         var s = d.createElement('script');s.async = true;s.src = 'https://static.userback.io/widget/v1.js';(d.head || d.body).appendChild(s);
         })(document);
         </script> -->
+
+
+
+
+
+
+
+  
+</body>
+
+</html>

@@ -552,7 +552,7 @@ img.mfp-img {
 #home-hero-opener h4,
 #home-hero-opener h5,
 #home-hero-opener h6 {
-    line-height: 1.2em;
+    line-height: 1.4em;
     /* font-family: var(--ibm-serif) !important; */
     font-family: var(--archivo-headers-01) !important;
     font-weight: 400;
@@ -604,33 +604,6 @@ img.mfp-img {
     height: 5% !important;
 }
 
-.seeking-a-position {
-    display: flex;
-    flex-direction: column;
-    column-gap: 14px;
-    justify-content: flex-end;
-    padding: 40px 20px;
-    text-align: left;
-}
-
-.seeking-floating-area {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    z-index: 10;
-}
-
-#home-hero-opener .starburst-area {
-    margin: 0 10px 0 0 !important;
-}
-
-.seeking-floating-area img {
-    width: 50px !important;
-}
-
-.seeking-floating-area h4 {
-    line-height: 1.5em;
-}
 
 .footnote {
     display: flex;
@@ -1976,21 +1949,20 @@ video {
 } */
 
 .inline-emphasis-01 {
-font-style: italic !important; */
-    background-color: rgba(246, 232, 31, 0.5);
-    /* background-color: #ff8200ad; */
+font-style: italic !important;
+    background-color: rgb(124 122 229 / 56%);
+        * background-color: #ff8200ad; */
     font-weight: 500;
     padding: 6px 12px;
     color: #000000;
 }
 
 .inline-emphasis-02 {
-    background-color: rgb(255 255 255 / 21%);
-
-    padding: 6px;
+    background-color: rgb(124 122 229 / 56%);
+    padding: 4px 10px;
 }
 
-.seeking-a-position,
+.seeking-a-position-block,
 .inline-emphasis-02 {
     color: #ffffff !important;
 }
@@ -2152,23 +2124,93 @@ font-style: italic !important; */
 
 .home #home-hero-opener {
     overflow: hidden !important;
+    background-color: #1A1C3A !important;
 }
 
+.home-hero-text-block {
+    /* display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+        padding: 30px; */
+}
+
+.home-intro-container{
+    height: 100%;
+    /* margin: 0px!important;
+    padding: 15px!important; */
+
+}
+
+
+.big-intro-text{
+    height: fit-content;
+
+}
+
+.seeking-a-position-block {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 8px 8px 8px 0!important;
+    row-gap: 8px;
+    text-align: left;
+}
+
+.seeking-text{
+    margin: 0px !important;
+    height: fit-content;
+    line-height: 1.4em;
+}
+
+.seeking-floating-area {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 10;
+}
+
+#home-hero-opener .starburst-area {
+    margin: 0 10px 0 0 !important;
+    width: fit-content;
+    height: 50px;
+}
+
+.starburst-area img{
+    max-height: 100%!important;
+}
+
+.seeking-floating-area img {
+    width: 50px !important;
+}
+
+.seeking-floating-area h4 {
+    line-height: 1.5em;
+}
 
 /* Container scales to fill the section or full viewport */
 .video-background-container {
     position: relative;
     width: 100%;
     height: 100vh;
-    /* Use 100vh for a full-screen hero section */
     overflow: hidden;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: hsl(234deg 83.97% 12.95% / 77%);
+    /* align-items: flex-end; */
+    /* justify-content: center; */
+    background-color: #1A1C3A !important;
 }
 
-/* Video properties clone the "background-size: cover" behavior */
+@media (max-width: 1127px){
+    .video-background-container {
+            align-items: center;
+    }
+    .home-hero-text-block {
+        margin-bottom: 0!important;
+    }
+}
+
+
 .background-video {
     position: absolute;
     top: 0;
@@ -2176,15 +2218,15 @@ font-style: italic !important; */
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: -1;
-    /* Pushes the video behind the text content */
-    opacity: 0.6;
-    /* filter: contrast(0.5); */
+    z-index: 1;
+    opacity: 0.5;
 }
+
+
 
 /* Styling for the content overlapping the video */
 .video-background-content {
-    z-index: 1;
+    z-index: 10;
     /* Places the content safely above the video */
     text-align: center;
     color: #ffffff;
@@ -2713,3 +2755,36 @@ education-details p {
 
 
   -------------------- */
+
+
+
+.anchor-widget {
+    position: fixed;
+    top: 200px;
+    right: 200px;
+    scroll-behavior: smooth;
+    /* background-color: rgba(255, 255, 255, 1.0); */
+    z-index: 100;
+
+}
+
+.anchor-widget ul{padding-inline-start: 0px;}
+  
+.anchor-widget li{
+    color: white !important;
+    background-color: #F70;
+    height: fit-content;
+    padding: 12px 0px;
+        list-style: none;
+            margin: 12px 0;
+}
+
+.anchor-widget a{
+        color: white;
+    padding: 12px 36px;
+}
+
+.anchor-links{
+    padding: 10px 0;
+    border: 1px solid #FFF;
+}

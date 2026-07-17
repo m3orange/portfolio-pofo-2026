@@ -8,7 +8,7 @@
                     <h3><?= $project['title'] ?></h3>
                     </div>
                 </div>
-                <div class="col col-12 col-xl-8 col-lg-6 line-height-28 last-paragraph-no-margin md-margin-50px-bottom sm-margin-30px-bottom wow fadeIn">
+                <div class="col col-12 col-xl-9 col-lg-8 line-height-28 last-paragraph-no-margin md-margin-50px-bottom sm-margin-30px-bottom wow fadeIn">
                     <div class="project-info-item-row">
                         <div class="pi-title">Role:</div>
                         <div class="pi-details"><?= $project['role'] ?></div>
@@ -25,7 +25,7 @@
 <span class="pi-tags">End-to-End Product Design</span>
 <span class="pi-tags">Workshop Facilitating</span>
                 </div>
-                <div class="col col-12 col-xl-4 col-lg-6 line-height-26 wow fadeIn">
+                <div class="col col-12 col-xl-3 col-lg-4 line-height-26 wow fadeIn">
                     <div class="project-info-item-row">
                         <div class="pi-title">Client:</div>
                         <div class="pi-details"><?= $project['client'] ?></div>
