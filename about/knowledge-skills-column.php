@@ -80,8 +80,7 @@
             <div class="col col-12 col-xl-6">
                 <div class="category">Design System Governance</div>
                 <ul>
-                    <li>Design Guidelines</li>
-                    <li>Code Documentation & Specifications</li>
+                    <li>Design Guidelines, Code Documentation & Specifications</li>
                     <li>Live Code Repositories (Backlight)</li>
                     <li>Integrations | Supernova, Storybook, Figma-to-Code Synchronization (Code Connect)</li>
                     <li>Theming, Tokens & Variables</li>

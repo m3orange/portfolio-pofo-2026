@@ -49,16 +49,12 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     <!-- end product information section -->
 
 
+<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
+<div id="anchor-01" class="anchor-links"></div>
+
+
     <!--begin - image grid - from single-project-page-01-->
     <section  class="image-grid-discovery">
-
-        <!-- start section divider -->
-        <section class="section-divider-dark">
-            <div class="container">Discovery</div>
-        </section>
-        <!-- end section divider -->
-
-
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row margin-40px-bottom">
                 <div class="col col-12 col-lg-5 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.2s">
@@ -72,8 +68,8 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     </section>
     <!--end - image grid - from single-project-page-01-->
 
-
-
+<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
+<div id="anchor-02" class="anchor-links"></div>
 
     <section class="all-screens-fullwidth">
         <div class="container-fluid padding-five-lr md-padding-30px-lr">

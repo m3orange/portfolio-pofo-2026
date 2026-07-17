@@ -1149,10 +1149,6 @@ video {
     max-width: 100% !important;
 }
 
-.admin .image-grid-discovery-fullwidth {
-    background-color: #616161 !important;
-    padding: 120px 80px;
-}
 
 .btn-to-full-project.row,
 .btn-to-full-project.col {
@@ -1450,6 +1446,14 @@ video {
 .admin-journey-fullwidth {
     background-color: #3e3078;
 }
+
+.admin-wireframes{
+    background-color: #616161 !important;
+}
+
+    .admin .image-grid-discovery-fullwidth {
+        padding: 120px 80px;
+    }
 
 .idd .fullwidth-idd-demo {
     background-color: #444 !important;
@@ -1793,9 +1797,9 @@ video {
 
 
 #toolset .toolset-columns {
-    border-left: 1px solid rgba(0, 0, 0, 0.3);
+    border-left: 1px solid rgba(0, 0, 0, 1);
     padding: 0 30px;
-    font-size: 16px;
+    font-size:  18px;
 }
 
 #toolset h6 {
@@ -2102,8 +2106,58 @@ font-style: italic !important;
     background-size: cover;
     background-position-x: left;
     background-position-y: -40px;
-    height: 90vh !important;
+    height: 70vh !important;
 }
+
+.about #home-hero-opener,
+.resume #home-hero-opener {
+    background: #000 url(images/m3-orange-bgs/baggage-claim-02.jpg);
+
+}
+
+.resume .resume-tweaks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.resume .profile-pic-area,
+.resume .profile-pic-area-position{
+        /* background-color: rgb(255 119 0 / 80%); */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.color-backdrop{
+    background-color: rgb(255 119 0 / 80%);
+position: absolute;
+    height: 100%;
+    width: 100%;
+    /* opacity: 0.75; */
+    top: 0;
+    left: 0;
+    
+}
+
+.resume .profile-pic-area-position{
+    height: 100%;
+    width: 40vw;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.z-index-10 {
+    z-index: 10;
+}
+
+
+
+.resume .profile-pic-area img{ width: 80%;}
+
+.resume .profile-pic-area-position img{width: 70%;}
 
 /* .home #home-hero-opener{
     background: url(animations/260713_2154-bg-for-animation-for-homapage.mp4);
@@ -2233,9 +2287,12 @@ font-style: italic !important;
 }
 
 
-.about #home-hero-opener {
-    background: #000 url(images/m3-orange-bgs/baggage-claim-02.jpg);
+.about-venn{
+    align-items: center;
+}
 
+.about-venn img{
+    max-width: 80%;
 }
 
 
@@ -2328,9 +2385,18 @@ font-style: italic !important;
 }
 
 .i-built-this-website {
-    padding: 9px 12px 9px 16px;
-    border-left: 1px solid rgba(255, 255, 255, 1);
-    margin-right: 124px;
+    padding: 10px 12px 20px 20px;
+    border-left: 1px solid rgba(0,0,0,1.0);
+}
+
+.i-built-this-website p{
+    color: #000 !important;
+    /* font-style: italic; */
+    font-family: var(--ibm-serif);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.4em;
+    letter-spacing: 0.3px;
 }
 
 
@@ -2370,11 +2436,6 @@ font-style: italic !important;
 
 .quote-marks img {
     height: 30px;
-}
-
-.i-built-this-website p {
-    margin: 0px;
-    color: #FFF !important;
 }
 
 .resume-text li {
@@ -2761,7 +2822,7 @@ education-details p {
 .anchor-widget {
     position: fixed;
     top: 200px;
-    right: 200px;
+    right: 10px;
     scroll-behavior: smooth;
     /* background-color: rgba(255, 255, 255, 1.0); */
     z-index: 100;
@@ -2770,21 +2831,55 @@ education-details p {
 
 .anchor-widget ul{padding-inline-start: 0px;}
   
-.anchor-widget li{
+
+
+.anchor-widget a,
+.anchor-widget a:hover{
     color: white !important;
-    background-color: #F70;
-    height: fit-content;
-    padding: 12px 0px;
-        list-style: none;
-            margin: 12px 0;
+    padding: 12px 31px;
+
 }
 
-.anchor-widget a{
-        color: white;
-    padding: 12px 36px;
+.anchor-widget a:hover{
+        background-color: #444;
+}
+
+.anchor-widget li{
+    display: flex;
+    flex-direction: column;
+    color: white !important;
+    list-style: none;
+    height: 48px;
+        background-color: #F70!important;
+}
+
+
+.anchor-widget.a{
+            color: white;
+                background-color: transparent!important;
+}
+
+.anchor-widget ul{
+    margin: 0px;
+}
+
+.anchor-widget li.hover{
+    color: #FFF!important;
+    background-color: 999!important;
 }
 
 .anchor-links{
-    padding: 10px 0;
-    border: 1px solid #FFF;
+    /*  padding: 10px 0;
+    border: 1px solid #FFF; */
 }
+
+
+
+
+
+/*
+
+<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
+<div id="anchor-01" class="anchor-links"></div>
+
+*/

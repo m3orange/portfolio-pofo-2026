@@ -44,18 +44,13 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     <!-- end product information section -->
 
 
+<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
+<div id="anchor-01" class="anchor-links"></div>
+
     <!--begin - image grid - from single-project-page-01-->
     <section  class="image-grid-discovery">
-
-        <!-- start section divider -->
-        <section class="section-divider-dark">
-            <div class="container">Research & Discovery</div>
-        </section>
-        <!-- end section divider -->
-
         <div class="container">
-
-        <div class="row mx-0">
+            <div class="row mx-0">
                 <div class="col-12 px-3 p-md-0">
                     <div class="filter-content overflow-hidden">
                         <ul class="portfolio-grid work-3col hover-option4 gutter-medium">
@@ -85,13 +80,13 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     </section>
     <!--end - image grid - from single-project-page-01-->
 
-        <!-- start fullwidth slider - from blog-standard-full-width-->
+
+<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
+<div id="anchor-02" class="anchor-links"></div>
+
+
+    <!-- start fullwidth slider - from blog-standard-full-width-->
     <section class="fullwidth-musicasa-demo">
-        <!-- start section divider -->
-        <section class="section-divider-light">
-            <div class="container">Concert Ticket Purchasing Workflow</div>
-        </section>
-        <!-- end section divider -->
         <div class="container">
             <div class="row">
                 <div class="col col-12 video-area">
@@ -105,36 +100,34 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
 
     <!-- end fullwidth slider - from blog-standard-full-width-->
 
+<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
+<div id="anchor-03" class="anchor-links"></div>
 
-
-
-
-
-
-
-
-<section class="wow animate__fadeIn pt-0 pb-0" style="visibility: visible; animation-name: fadeInUP; background-color: #fbb92d;" data-delay="0.5s">
-    <div class="container-fluid padding-three-lr padding-eight-tb md-padding-30px-lr sm-padding-15px-lr">
-        <div class="row">
-            <div class="col-12 margin-35px-tb md-no-margin-top md-margin-30px-bottom workflows-fullwidth">
-                <img src="<?= BASE_URL ?>projects/musicasa/assets/workflow-01.png" class="w-100" data-no-retina="">
-            </div>
-            <div class="col-12 margin-35px-tb md-no-margin-top md-margin-30px-bottom workflows-fullwidth">
-                <img src="<?= BASE_URL ?>projects/musicasa/assets/workflow-02.png" class="w-100" data-no-retina="">
+    <section class="wow animate__fadeIn pt-0 pb-0" style="visibility: visible; animation-name: fadeInUP; background-color: #fbb92d;" data-delay="0.5s">
+        <div class="container-fluid padding-three-lr padding-eight-tb md-padding-30px-lr sm-padding-15px-lr">
+            <div class="row">
+                <div class="col-12 margin-35px-tb md-no-margin-top md-margin-30px-bottom workflows-fullwidth">
+                    <img src="<?= BASE_URL ?>projects/musicasa/assets/workflow-01.png" class="w-100" data-no-retina="">
+                </div>
+                <div class="col-12 margin-35px-tb md-no-margin-top md-margin-30px-bottom workflows-fullwidth">
+                    <img src="<?= BASE_URL ?>projects/musicasa/assets/workflow-02.png" class="w-100" data-no-retina="">
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section class="wow animate__fadeIn pt-0 pb-0" style="visibility: visible; animation-name: fadeInUP; background-color: #303030;" data-delay="0.5s">
-    <div class="container-fluid padding-three-lr padding-eight-tb md-padding-30px-lr sm-padding-15px-lr">
-        <div class="row">
-            <div class="col-12 margin-35px-tb md-no-margin-top md-margin-30px-bottom workflows-fullwidth" style="background-color: #303030 !important;">
-                <img src="<?= BASE_URL ?>projects/musicasa/assets/musicasa-all-screens-25pc.png" class="w-100" data-no-retina="">
+<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
+<div id="anchor-04" class="anchor-links"></div>
+
+    <section class="wow animate__fadeIn pt-0 pb-0" style="visibility: visible; animation-name: fadeInUP; background-color: #303030;" data-delay="0.5s">
+        <div class="container-fluid padding-three-lr padding-eight-tb md-padding-30px-lr sm-padding-15px-lr">
+            <div class="row">
+                <div class="col-12 margin-35px-tb md-no-margin-top md-margin-30px-bottom workflows-fullwidth" style="background-color: #303030 !important;">
+                    <img src="<?= BASE_URL ?>projects/musicasa/assets/musicasa-all-screens-25pc.png" class="w-100" data-no-retina="">
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <?php include ROOT_PATH . 'includes/pagination-projects.php'; ?>
 

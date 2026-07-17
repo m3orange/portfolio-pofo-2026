@@ -73,8 +73,8 @@
 
 <!-- <link rel="stylesheet" href="<?= BASE_URL ?>_guides.css" /> -->
  
- <link rel="stylesheet" href="<?= BASE_URL ?>_style-overwrites.css?v=1" />
- <link rel="stylesheet" href="<?= BASE_URL ?>__bg-color-switches.css?v=1" />
+    <link rel="stylesheet" href="<?= BASE_URL ?>_style-overwrites.css?v=1" />
+
 
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script type="text/javascript" src="https://www.bugherd.com/sidebarv2.js?apikey=g1mxulbxgjcv2styfzhhrw" async="true"></script>

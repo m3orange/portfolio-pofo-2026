@@ -1,8 +1,7 @@
   
 
   
-  <section id="home-hero-opener" class="p-0 full-screen position-relative wow animate__fadeIn"
-    style="visibility: visible; animation-name: fadeIn;"> <!--height: 1029px;-->
+  <section id="home-hero-opener" class="p-0 full-screen position-relative wow" style="visibility: visible;"> 
 
     <div class="video-background-container">
       <!-- Attributes ensure the video autoplays silently, loops infinitely, and works on mobile devices -->

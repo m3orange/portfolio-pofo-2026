@@ -44,18 +44,9 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
     <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
     <!-- end product information section -->
 
-        <div class="anchor-widget">
-            <ul>
-                <li><a href="#anchor-discovery">1</a></li>
-                <li><a href="#anchor-prototyping">2</a></li>
-                <li><a href="#anchor-journey">3</a></li>
-                <li><a href="#anchor-final-designs">4</a></li>
-                <li><a href="#anchor-presentation">5</a></li>
-            </ul>  
-        </div>
 
 <!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
-<div id="anchor-discovery" class="anchor-links"></div>
+<div id="anchor-01" class="anchor-links"></div>
 
     <!--begin - image grid - from single-project-page-01-->
     <section class="image-grid-discovery">
@@ -73,9 +64,9 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
 
 
 <!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
-<div id="anchor-prototyping" class="anchor-links"></div>
+<div id="anchor-02" class="anchor-links"></div>
 
-    <section>
+    <section class="admin-wireframes">
         <div class="container-fluid p-0 m-0">
             <div class="row">
                 <div class="col col-12">
@@ -86,7 +77,7 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
     </section>    
 
 <!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
-<div id="anchor-journey" class="anchor-links"></div>
+<div id="anchor-03" class="anchor-links"></div>
 
     <!--begin - image grid - from single-project-page-01-->
     <section class="admin-journey-fullwidth">
@@ -102,7 +93,7 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
     <!--end - image grid - from single-project-page-01-->
 
 <!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
-<div id="anchor-final-designs" class="anchor-links"></div>
+<div id="anchor-04" class="anchor-links"></div>
 
     <section class="wow fadeIn">
 
@@ -155,8 +146,8 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
     </section>
     <!-- end gallery section -->
 
-@@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@ 
-<div id="anchor-presentation" class="anchor-links"></div>
+<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
+<div id="anchor-05" class="anchor-links"></div>
 
     <section class="fullwidth-slider-01">
 

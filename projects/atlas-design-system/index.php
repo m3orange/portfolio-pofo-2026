@@ -44,15 +44,11 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     <!-- end product information section -->
 
 
+<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
+<div id="anchor-01" class="anchor-links"></div>
+
     <!--begin - image grid - from single-project-page-01-->
-    <section  class="image-grid-discovery">
-
-        <!-- start section divider -->
-        <section class="section-divider-dark">
-            <div class="container">Discovery & Prototyping</div>
-        </section>
-        <!-- end section divider -->
-
+    <section class="image-grid-discovery">
         <div class="container">
 
             <div class="row mx-0">
@@ -98,24 +94,10 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
 
     <!--begin - image grid - from single-project-page-01-->
     <section>
-
-        <!-- start section divider -->
-        <section class="section-divider-dark">
-            <div class="container">Core Elements & Patterns</div>
-        </section>
-        <!-- end section-->
-
-
-
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row">
                 <div class="col col-12 wow fadeIn" data-wow-delay="0.4s">
-                    <!-- 
-                    <div class="link-to-project-page">
-                        <a href="/projects/citybox">View the Atlas Design System in detail </a>
-                        <div><img src="images/swiper-button-alpha-45px-next.png"/></div>
-                    </div>
-                     -->
+
                     <div class="gallery-item">
                         <img src="<?= BASE_URL ?><?= $single[0]['file_path'] ?>">
                     </div>
@@ -127,17 +109,11 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     <!--end - image grid - from single-project-page-01-->
 
 
-
-
-
+<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
+<div id="anchor-02" class="anchor-links"></div>
 
     <!-- start fullwidth slider - from blog-standard-full-width-->
     <section class="fullwidth-atlas-microsite-animation">
-        <!-- start section divider -->
-        <section class="section-divider-light">
-            <div class="container">Repository</div>
-        </section>
-        <!-- end section divider -->
         <div class="container">
             <div class="row">
                 <div class="col col-12">
@@ -150,22 +126,10 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     <!-- end fullwidth slider - from blog-standard-full-width-->
 
 
+<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
+<div id="anchor-03" class="anchor-links"></div>
 
     <section id="handoff-specs" class="wow fadeIn">
-        <!-- start section divider -->
-        <section class="section-divider-dark">
-            <div class="container">
-                <div class="row">
-                    <div class="col col-12 col-lg-8 col-md-6">Specs for Handoff</div>
-                    <div class="col col-12 col-lg-4 col-md-6 sm-margin-20px-top" style="text-align: left; font-size: 80%;">
-                        Click to view larger versions
-                </div>
-                </div>
-            </div>
-        </section>
-        <!-- end section divider -->
-
-
         <div class="container">
 
             <div class="row mx-0">

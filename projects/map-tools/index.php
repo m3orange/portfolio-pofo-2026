@@ -45,6 +45,8 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
     <!-- end product information section -->
 
+<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
+<div id="anchor-01" class="anchor-links"></div>
 
     <!--begin - image grid - from single-project-page-01-->
     <section class="diagrams">
@@ -77,6 +79,9 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
                     </div>
                 </div>
             </div>
+<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
+<div id="anchor-02" class="anchor-links padding-50px-bottom"></div>
+
             <div class="row">
                 <div class="col col-12 col-lg-8 offset-lg-2 wow fadeIn" data-wow-delay="0.6s">
                     <div class="gallery-item">
@@ -89,6 +94,9 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
         </div>
     </section>
     <!--end - image grid - from single-project-page-01-->
+
+<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
+<div id="anchor-03" class="anchor-links"></div>
 
     <!-- start product information section -->
     <section class="fullwidth-map-tools-animation">

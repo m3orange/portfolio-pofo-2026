@@ -19,20 +19,43 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
 <!-- end header -->
 
-<!-- start parallax hero section -->
-<section id="home-hero-opener" class="p-0 position-relative wow animate__fadeIn" style="visibility: visible; "> <!--min-height: 658px;-->
-    <div class="opacity-medium bg-black z-index-0"></div>
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col col-12 col-xxl-8 col-xl-10 col-lg-11 col-md-11 d-flex justify-content-center flex-column text-left text-md-start">
-                <div class="row">
-                    <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom">Résumé</h1>
-                </div>
+
+
+
+    <section id="home-hero-opener" class="position-relative p-0 wow" style="visibility: visible; ">
+        <!-- <div class="opacity-medium bg-black z-index-0"></div> -->
+        <div class="container h-100">
+
+          <div class="row h-100 m-0 p-0 tweaks-resume">
+
+            <div class="col col-12 col-lg-7 col-md-12 d-flex justify-content-center flex-column text-left text-md-start">
+              <div class="home-hero-text-block">
+                <div class="big-intro-text">
+                  <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom">Résumé</h1>
+                </div><!--big-intro-text-->          
+              </div>
             </div><!-- cols-->
-        </div><!-- row-->
-    </div>
-</section>
-<!-- end parallax hero section -->
+
+            <!-- <div class="col col-12 col-lg-5 col-md-12 p-0 m-0 profile-pic-area"><img src="<?= BASE_URL ?>images/profile-pics/mmunoz-profile-bw-alpha.png"></div> -->
+
+          </div><!-- row-->
+
+        </div>
+
+        <div class="profile-pic-area-position">
+            <div class="profile-pic z-index-10 ">
+            <img src="<?= BASE_URL ?>images/profile-pics/mmunoz-profile-bw-alpha.png">
+            </div>
+
+            <div class="color-backdrop z-index-0">Hello?</div>
+        </div>
+
+    </section>
+
+
+
+
+
 
 
 

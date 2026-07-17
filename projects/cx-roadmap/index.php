@@ -47,6 +47,10 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     <!-- end product information section -->
 
 
+<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
+<div id="anchor-01" class="anchor-links"></div>
+
+
     <section class="wow fadeIn workshop-grid">
 
         <!-- start section divider -->
@@ -223,17 +227,11 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     </section>
     
 
-
+<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
+<div id="anchor-02" class="anchor-links"></div>
 
     <!--begin - image grid - from single-project-page-01-->
     <section class="journey-map-fullwidth"">
-
-        <!-- start section divider -->
-        <section class="section-divider-light" style="background-color: transparent;">
-            <div class="container">Customer Journey Map</div>
-        </section>
-        <!-- end section divider -->
-
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row">
                 <div class="col col-12 wow" data-wow-delay="0">
@@ -247,14 +245,12 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     </section>
     <!--end - image grid - from single-project-page-01-->
 
+<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
+<div id="anchor-03" class="anchor-links"></div>
 
     <!-- start fullwidth slider - from blog-standard-full-width-->
     <section class="personas-fullwidth-slider">
-        <!-- start section divider -->
-        <section class="section-divider-light">
-            <div class="container">Personas & Executive Summary</div>
-        </section>
-        <!-- end section divider -->
+
         <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
 
             <div class="row">
@@ -304,8 +300,10 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     </section>
     <!-- end fullwidth slider - from blog-standard-full-width-->
 
+<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
+<div id="anchor-04" class="anchor-links"></div>
 
-        <section class="wow research-readout" style="background-color: #343434;">
+    <section class="wow research-readout" style="background-color: #343434;">
 
         <!-- start section divider -->
         <section class="section-divider-light" style="background-color: transparent;">
