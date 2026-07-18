@@ -41,7 +41,7 @@
         </div>
     </section>
 
-    <!-- 
+    
     <div class="anchor-widget">
         <ul>
             <li><a href="#anchor-01">1</a></li>
@@ -51,6 +51,6 @@
             <li><a href="#anchor-05">5</a></li>
         </ul>  
     </div> 
-    -->
+   
 
 

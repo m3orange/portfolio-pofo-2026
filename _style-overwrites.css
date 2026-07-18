@@ -1221,14 +1221,10 @@ video {
     max-width: 90% !important;
 }
 
-.fullwidth-atlas-microsite-animation .col-12 {
-    text-align: center !important;
-}
 
 .dark-header nav {
     border: 2px solid red;
 }
-
 
 
 /* .atlas #block-intro-slider img{
@@ -2855,8 +2851,8 @@ education-details p {
 
 
 .anchor-widget.a{
-            color: white;
-                background-color: transparent!important;
+    color: white;
+        background-color: transparent!important;
 }
 
 .anchor-widget ul{
@@ -2868,10 +2864,64 @@ education-details p {
     background-color: 999!important;
 }
 
+
+
+
+
 .anchor-links{
-    /*  padding: 10px 0;
-    border: 1px solid #FFF; */
+    border-top: 1px solid rgba(0,0,0,1.0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    padding: 30px 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    margin-bottom: -40px;
 }
+
+    .anchor-links.anchor-white{
+        border-top: 1px solid #FFF!important;
+        color: #FFF;
+    }
+
+/* .anchor-links.container-fluid{padding: 0px!important;} */
+
+/* .anchor-links-content{
+    padding: 0px 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+} */
+
+.anchor-links-content h5,
+.anchor-links-content h6{
+    /* color: rgba(0,0,0,1.0); */
+    padding-bottom: 2px;
+    margin: 0px;
+}
+.anchor-links-content h5{
+    margin: 0px;
+    font-weight: 600!important;
+        font-family: var(--alt-text-2);
+}
+
+.anchor-links-content h6{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: var(--ibm-sans-body-01);
+}
+
+h6 .anchor-emphasis {
+    font-weight: 500;
+    border-bottom: 2px solid rgba(0,0,0,1.0);
+    /* font-style: italic; */
+} 
+
+#anchor-02.anchor-wrapper{
+    background-color: #232c4f;
+}
+
 
 
 
@@ -2879,7 +2929,25 @@ education-details p {
 
 /*
 
+ background-color: #3d404b;
+
 <!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
 <div id="anchor-01" class="anchor-links"></div>
+
+*/
+
+
+/*
+
+
+ERASE SOON
+
+.anchor-links-floating{
+    position: relative;
+    top: -130px;
+    left: 0px;
+}
+
+
 
 */
