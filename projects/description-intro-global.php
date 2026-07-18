@@ -1,6 +1,6 @@
 <!-- Admin rules -->
  
-    <section class="intro-info" style="padding: 100px 0 50px 0;">
+    <section class="intro-info" style="padding: 100px 0;">
         <div class="container">
             <div class="row grid-lines">
                 <div class="col col-12 text-left">

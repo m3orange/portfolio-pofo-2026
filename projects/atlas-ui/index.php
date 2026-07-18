@@ -32,17 +32,13 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
      <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
     <!-- end header -->
 
-    <!-- start parallax hero section -->
+
     <section id="block-intro-slider" class="wow p-0 ">
         <video autoplay loop muted playsinline class="hero-video-cb">
             <source src="<?= BASE_URL ?>projects/atlas-ui/assets/citybox-screens-in-laptop-darker.mp4" type="video/mp4">  
         </video>
     </section>
-    <!-- end parallax hero section -->
-
-
-
-    
+ 
     <!-- start product information section -->
 
     <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
@@ -50,26 +46,26 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     <!-- end product information section -->
     
 
-<a class="btn btn-medium btn-rounded btn-transparent-dark-gray popup-with-zoom-anim wow animate__fadeInUp" data-wow-delay="0.6s" href="#modal-popup2" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">Open with fade-zoom animation</a>
+                <a class="btn btn-medium btn-rounded btn-transparent-dark-gray popup-with-zoom-anim wow animate__fadeInUp" data-wow-delay="0.6s" href="#modal-popup2" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">Open with fade-zoom animation</a>
 
-<div id="modal-popup2" class="col-11 col-xxl-10 col-xl-10 col-lg-10 col-md-7 col-sm-9 zoom-anim-dialog mx-auto bg-white text-center modal-popup-main padding-50px-all mfp-hide">
-<span class="text-extra-dark-gray text-uppercase alt-font text-extra-large font-weight-600 margin-15px-bottom d-block">Modal dialog</span>
-        <video autoplay loop muted playsinline class="hero-video-cb">
-            <source src="<?= BASE_URL ?>projects/atlas-ui/assets/citybox-screens-in-laptop.mp4" type="video/mp4">  
-        </video>
-<a class="btn btn-medium btn-rounded btn-dark-gray popup-modal-dismiss" href="#">Close</a>
-</div>
+                <div id="modal-popup2" class="col-11 col-xxl-10 col-xl-10 col-lg-10 col-md-7 col-sm-9 zoom-anim-dialog mx-auto bg-white text-center modal-popup-main padding-50px-all mfp-hide">
+                <span class="text-extra-dark-gray text-uppercase alt-font text-extra-large font-weight-600 margin-15px-bottom d-block">Modal dialog</span>
+                        <video autoplay loop muted playsinline class="hero-video-cb">
+                            <source src="<?= BASE_URL ?>projects/atlas-ui/assets/citybox-screens-in-laptop.mp4" type="video/mp4">  
+                        </video>
+                <a class="btn btn-medium btn-rounded btn-dark-gray popup-modal-dismiss" href="#">Close</a>
+                </div>
 
-    <!--begin - image grid - from single-project-page-01-->
+  <div id="anchor-01"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+    <div class="anchor-links">
+      <div class="row">
+        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
+          <h5>Discovery & Group Workshop</h5><h6></h6>
+        </div>
+      </div>
+    </div>
+
     <section  class="image-grid-discovery">
-
-        <!-- start section divider -->
-        <section class="section-divider-dark">
-            <div class="container">Discovery & Prototyping</div>
-        </section>
-        <!-- end section divider -->
-
-
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row margin-40px-bottom">
                 <div class="col col-12 col-lg-4 col-md-6 col-sm-12 sm-margin-10px-bottom wow fadeInUp" data-wow-delay="0.2s">
@@ -84,30 +80,27 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
             </div>
         </div>
     </section>
-    <!--end - image grid - from single-project-page-01-->
+  </div>
 
 
-    <!--begin - image grid - from single-project-page-01-->
-    <section>
 
-        <!-- start section divider -->
-        <section class="section-divider-dark">
-            <div class="container">
-                <div class="row btn-to-full-project">
-                    <div class="col col-12 col-lg-8 col-md-6 ">Design System</div>
-                    <div class="col col-12 col-lg-4 col-md-6" style="text-align: right;">
-                        <a class="btn btn-large btn-transparent-black d-table d-lg-inline-block md-no-margin-left md-no-margin-right md-margin-20px-top"  style="text-decoration: none;"
-                        href="<?= BASE_URL ?>projects/atlas-design-system/index.php" >
-                            View the design system in detail</a>
-                    </div>
+  <div id="anchor-02"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+    <div class="anchor-links anchor-white">
+      <div class="row">
+        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 anchor-links-content d-flex" style="align-items: center;">
+          <h5>Design System</h5>
+            <div class="btn-view-website-area">
+                <div class="btn btn-to-atlas-ds-page">
+                    <a href="<?= BASE_URL ?>projects/atlas-design-system/index.php" >View Design System</a>
                 </div>
-                
-
             </div>
-        </section>
-        <!-- end section divider -->
+            <div class="btn-view-website"><img src="<?= BASE_URL ?>images/arrow-view-website-white.svg"/></div>
+        </div>
+        </div>
+    </div>
 
 
+    <section>
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row">
                 <div class="col col-12 wow fadeIn" data-wow-delay="0.4s">
@@ -116,30 +109,25 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
-    <!--end - image grid - from single-project-page-01-->
+  </div>
 
 
+    <div id="anchor-03"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+    <div class="anchor-links anchor-white">
+      <div class="row">
+        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
+          <h5>Final Design</h5><h6></h6>
+        </div>
+      </div>
+    </div>
 
-
-    <!-- start fullwidth slider - from blog-standard-full-width-->
     <section class="fullwidth-slider-01">
-        <!-- start section divider -->
-        <section class="section-divider-light">
-            <div class="container">Final Design</div>
-        </section>
-        <!-- end section divider -->
         <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
-
-
             <div class="row">
-
-
                 <div class="col-12 blog-post-content text-center text-md-center"
                     style="padding-right: 0px; padding-left: 0px;">
-
                     <div class="swiper-full-screen swiper-cb-fullwidth-screens swiper-container white-move"
                         data-slider-options='{ 
                     "loop": true, 
@@ -150,7 +138,6 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
                     "navigation": { "nextEl": ".swiper-button-next", 
                     "prevEl": ".swiper-button-prev" }, 
                     "pagination": { "el": ".swiper-pagination", "clickable": true } }'>
-
 
                         <div class="swiper-wrapper">
                             <?php foreach ($slideshow as $img): ?>
@@ -164,38 +151,25 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
                         </div>
                         <div class="swiper-button-prev swiper-button-black-highlight"></div>
                         <div class="swiper-button-next swiper-button-black-highlight"></div>
-
                     </div>
                 </div>
-
-
             </div>
         </div>
     </section>
-
-    <!-- end fullwidth slider - from blog-standard-full-width-->
-
+  </div>
 
 
-    <section id="handoff-specs" class="wow fadeIn">
-        <!-- start section divider -->
-        <section class="section-divider-dark">
-            <div class="container">
-                <div class="row">
-                    <div class="col col-12 col-lg-8 col-md-6">Specs for Handoff</div>
-                    <div class="col col-12 col-lg-4 col-md-6 sm-margin-20px-top" style="text-align: left; font-size: 80%;">
-                        Click to view larger versions
-                </div>
-                </div>
-            </div>
-        </section>
-        <!-- end section divider -->
+  <div id="anchor-04"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+    <div class="anchor-links anchor-white">
+      <div class="row">
+        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
+          <h5>Specs for Handoff</h5><h6></h6>
+        </div>
+      </div>
+    </div>
 
-
-        <div class="container">
-
-        <!-- <?php include_once("description-project-01.php"); ?> -->
-
+    <section class="wow fadeIn">
+        <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row mx-0">
                 <ul class="portfolio-grid work-3col hover-option2 gutter-large w-100">
                     <li class="grid-sizer"></li>
@@ -272,11 +246,13 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
                             </figure>
                         </a>
                     </li>
-
                 </ul>
             </div>
         </div>
     </section>
+
+  </div>
+
 
     <?php include ROOT_PATH . 'includes/pagination-projects.php'; ?>
 

@@ -45,19 +45,18 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
 
 
 
-
-    <section class="image-grid-discovery">
-
-    <!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
-
-      <div class="container">
-
+<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
+  <div id="anchor-01"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+    <div class="anchor-links">
+      <div class="row">
+        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
+          <h5>Specs for Handoff</h5>
+        </div>
       </div>
-
-    </section>
+    </div>
 
     <section>
-      <div class="container-fluid padding-five-lr md-padding-30px-lr">
+      <div class="container-fluid padding-two-lr md-padding-30px-lr">
           <div class="row mx-0">
             <div class="col-md-12 px-3 p-md-0">
                 <div class="filter-content overflow-hidden">
@@ -90,7 +89,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
             </div>
           </div>
 
-          <div class="row">
+          <div class="row mx-0">
               <div class="col col-12 wow fadeIn" data-wow-delay="0.4s">
                   <div class="gallery-item">
                       <img src="<?= BASE_URL ?><?= $single[0]['file_path'] ?>">
@@ -100,10 +99,10 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
 
       </div>
     </section>
-
+  </div>
 
   <div id="anchor-02"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
-    <div class="anchor-links anchor-white">
+    <div class="anchor-links anchor-white" style="margin-bottom: 0px;">
       <div class="row">
         <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
           <h5>Prototype</h5>
@@ -117,7 +116,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     <section>
       <div class="container">
         <div class="row" style="text-align: center !important;">
-            <div class="col col-12">
+            <div class="col col-12 col-lg-10 offset-lg-1">
             <img src="<?= BASE_URL ?>projects/atlas-design-system/assets/atlas-ds-microsite-walkthrough-1300px.gif"/>
             </div>
         </div>
@@ -128,17 +127,17 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
 
 
 <!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
-<div id="anchor-03" class="anchor-links container-fluid">
-  <div class="row">
-    <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
-          <h5>Prototype</h5>
+  <div id="anchor-03"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+    <div class="anchor-links anchor-white anchor-no-border">
+      <div class="row">
+        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
+          <h5>Specs for Handoff</h5>
+        </div>
+      </div>
     </div>
-  </div>
-      
 
     <section id="handoff-specs" class="wow fadeIn">
-        <div class="container">
-
+        <div class="container-fluid padding-two-lr md-padding-30px-lr">
             <div class="row mx-0">
                 <ul class="portfolio-grid work-3col hover-option2 gutter-large w-100">
                     <li class="grid-sizer"></li>
@@ -223,7 +222,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
         </div>
     </section>
 
-</div>
+  </div>
 
     <?php include ROOT_PATH . 'includes/pagination-projects.php'; ?>
 
