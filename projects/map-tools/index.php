@@ -45,13 +45,18 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
     <!-- end product information section -->
 
-<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
-<div id="anchor-01" class="anchor-links"></div>
+  <div id="anchor-01"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+    <div class="anchor-links anchor-white"><!--anchor-white anchor-no-border-->
+      <div class="row">
+        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
+          <h5>Discovery: Diagrams</h5><h6></h6>
+        </div>
+      </div>
+    </div>
 
-    <!--begin - image grid - from single-project-page-01-->
     <section class="diagrams">
         <div class="container padding-five-lr md-padding-30px-lr">
-                        <div class="row">
+            <div class="row">
                 <div class="col col-12 col-lg-7 offset-lg-1 wow fadeIn" data-wow-delay="0s">
                     <div class="gallery-item">
                         <img src="<?= BASE_URL ?>projects/map-tools/assets/map-tools-diagram-title.png"/>
@@ -79,9 +84,21 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
                     </div>
                 </div>
             </div>
-<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
-<div id="anchor-02" class="anchor-links padding-50px-bottom"></div>
+        </div>
+    </section>
+</div>
 
+  <div id="anchor-02"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+    <div class="anchor-links anchor-white"><!--anchor-white anchor-no-border-->
+      <div class="row">
+        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
+          <h5>Mid-Fi Prototyping</h5><h6></h6>
+        </div>
+      </div>
+    </div>
+
+    <section class="diagrams">
+        <div class="container padding-five-lr md-padding-30px-lr">
             <div class="row">
                 <div class="col col-12 col-lg-8 offset-lg-2 wow fadeIn" data-wow-delay="0.6s">
                     <div class="gallery-item">
@@ -93,12 +110,20 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
             </div>
         </div>
     </section>
-    <!--end - image grid - from single-project-page-01-->
+</div>
 
-<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
-<div id="anchor-03" class="anchor-links"></div>
 
-    <!-- start product information section -->
+
+  <div id="anchor-03"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+    <div class="anchor-links anchor-white"><!--anchor-white anchor-no-border-->
+      <div class="row">
+        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
+          <h5>Hi-Fi Prototyping</h5><h6></h6>
+        </div>
+      </div>
+    </div>
+
+
     <section class="fullwidth-map-tools-animation">
         <div class="container">
             <div class="row">
@@ -111,7 +136,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
             </div>
         </div>
     </section>
-    <!-- end product information section -->
+</div>
 
     <?php include ROOT_PATH . 'includes/pagination-projects.php'; ?>
 

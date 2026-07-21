@@ -112,7 +112,7 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
   </div>
 
   <div id="anchor-04"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
-    <div class="anchor-links anchor-white anchor-no-border">
+    <div class="anchor-links anchor-white">
       <div class="row">
         <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
           <h5>Final Design</h5>
@@ -172,10 +172,10 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
   </div>
 
   <div id="anchor-05"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
-    <div class="anchor-links anchor-white anchor-no-border">
+    <div class="anchor-links anchor-white">
       <div class="row mx-0">
         <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
-          <h5>Final Presentation to Stakeholders</h5><h6>[Partial]</h6>
+          <h5>Presentation for Stakeholders</h5><h6>[Partial]</h6>
         </div>
       </div>
     </div>

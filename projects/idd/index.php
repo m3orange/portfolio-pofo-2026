@@ -49,11 +49,15 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     <!-- end product information section -->
 
 
-<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
-<div id="anchor-01" class="anchor-links"></div>
+  <div id="anchor-01"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+    <div class="anchor-links anchor-white"><!--anchor-white anchor-no-border-->
+      <div class="row">
+        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
+          <h5>Hi-Fi Prototyping</h5><h6></h6>
+        </div>
+      </div>
+    </div>
 
-
-    <!--begin - image grid - from single-project-page-01-->
     <section  class="image-grid-discovery">
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row margin-40px-bottom">
@@ -66,10 +70,18 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
             </div>
         </div>
     </section>
-    <!--end - image grid - from single-project-page-01-->
+</div>
 
-<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
-<div id="anchor-02" class="anchor-links"></div>
+
+
+  <div id="anchor-02"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+    <div class="anchor-links anchor-white"><!--anchor-white anchor-no-border-->
+      <div class="row">
+        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
+          <h5>Hi-Fi Prototyping</h5><h6></h6>
+        </div>
+      </div>
+    </div>
 
     <section class="all-screens-fullwidth">
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
@@ -80,9 +92,9 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
+    </div>
 
     <?php include ROOT_PATH . 'includes/pagination-projects.php'; ?>
 

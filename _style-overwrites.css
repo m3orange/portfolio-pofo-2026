@@ -1421,7 +1421,7 @@ video {
 
 
 .musicasa .fullwidth-musicasa-demo {
-    background-color: #777 !important;
+
     padding: 80px 0 130px 0 !important;
 }
 
@@ -1472,10 +1472,19 @@ video {
 
 
 .musicasa .workflows-fullwidth {
-    background-color: #fcba2e !important;
-    padding: 100px 50px;
+    /* padding: 100px 50px; */
 }
 
+
+.captions-image-grid{
+    padding: 8px 18px;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    position: absolute;
+    top: 7px;
+    background-color: #0000008f;
+    color: #FFF;
+}
 
 
 /* .musicasa #video-demo{
@@ -1525,12 +1534,12 @@ padding: 120px 80px;
 }
 
 .idd .all-screens-fullwidth {
-    background-color: #333333;
+    /* background-color: #333333; */
 }
 
 
 .map-tools .diagrams {
-    background-color: #444;
+    /* background-color: #444; */
 }
 
 .map-tools .diagrams .row {
@@ -1538,11 +1547,8 @@ padding: 120px 80px;
 
 }
 
-
-
 .fullwidth-map-tools-animation {
-    background-color: #000;
-
+    /* background-color: #000; */
 }
 
 .map-tools #block-intro-slider {
@@ -1581,14 +1587,14 @@ padding: 120px 80px;
 
 
 .usic .journey-map-fullwidth {
-    background-color: #555555;
+    /* background-color: #555555; */
     padding: 80px 0px 130px 0px;
     /* margin-bottom: 80px; */
 }
 
 
 .usic .personas-fullwidth-slider {
-    background-color: #666666 !important;
+    /* background-color: #666666 !important; */
 }
 
 .usic .personas-fullwidth-slider .container {
@@ -2790,20 +2796,19 @@ education-details p {
 }
 
 .space-scout #image-grid {
-    background-color: #787878;
+    /* background-color: #787878; */
 }
 
 #discovery-sequence {
-    background-color: #232323;
+    /* background-color: #232323; */
 }
 
 #discovery-sequence img {
     background-color: #2e2e2e;
 }
 
-
 #discovery-fullwidth {
-    background-color: #4b4b4b;
+    /* background-color: #4b4b4b; */
     text-align: center;
 }
 
@@ -2918,13 +2923,12 @@ education-details p {
 
 
 
-
 .anchor-links{
     border-top: 1px solid rgba(0,0,0,0.4);
     position: relative;
      top: 60px;
     left: 0px;
-    padding: 20px 30px;
+    padding: 26px 46px;
     display: flex;
     flex-direction: column;
     row-gap: 8px;
@@ -2971,10 +2975,10 @@ education-details p {
     width: fit-content;
 }
 .anchor-links-content h5{
-    margin: 0px;
-    font-weight: 600!important;
+        margin: 0px;
+        font-weight: 600!important;
         font-family: var(--alt-text-2);
-            margin: 0px!important;
+        margin: 0px!important;
 }
 
 .anchor-links-content h6{
@@ -3008,12 +3012,35 @@ h6 .anchor-emphasis {
 .admin #anchor-02.anchor-wrapper {background-color: #616161;}
 .admin #anchor-03.anchor-wrapper {background-color: #2b2156;}
 .admin #anchor-04.anchor-wrapper {background-color: #3a3a3a;}
-.admin #anchor-05.anchor-wrapper {background-color: #191f27}
+.admin #anchor-05.anchor-wrapper {background-color: #303030;}
 
 .citybox #anchor-01.anchor-wrapper {background-color: #FFFFFF;}
 .citybox #anchor-02.anchor-wrapper {background-color: #616161;}
 .citybox #anchor-03.anchor-wrapper {background-color: #191f27;}
 .citybox #anchor-04.anchor-wrapper {background-color: #333943;}
+
+.musicasa #anchor-02.anchor-wrapper  {background-color: #777;}
+.musicasa #anchor-03.anchor-wrapper {background-color: #fcba2e;}
+.musicasa #anchor-04.anchor-wrapper {background-color: #303030;}
+
+.space-scout #anchor-01.anchor-wrapper {background-color: #222222;}
+.space-scout #anchor-02.anchor-wrapper {background-color: #4b4b4b;}
+.space-scout #anchor-03.anchor-wrapper {background-color: #232323;}
+.space-scout #anchor-04.anchor-wrapper {background-color: #393939;}
+
+.usic #anchor-01.anchor-wrapper {background-color: rgba(253,240,222,1.0);}
+.usic #anchor-02.anchor-wrapper {background-color: #343434;}
+.usic #anchor-03.anchor-wrapper {background-color: #404040;}
+.usic #anchor-04.anchor-wrapper {background-color: #343434;}
+
+.map-tools #anchor-01.anchor-wrapper {background-color: #444444;}
+.map-tools #anchor-02.anchor-wrapper {background-color: #262626;}
+.map-tools #anchor-03.anchor-wrapper {background-color: #000000;}
+
+.idd #anchor-01.anchor-wrapper {background-color: #9C9C9C;}
+.idd #anchor-02.anchor-wrapper {background-color: #333333;}
+
+
 
 /*
 

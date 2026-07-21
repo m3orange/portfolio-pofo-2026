@@ -44,8 +44,37 @@ $parallax01 = getAssets($pdo, 8, 'parallax01');
     <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
     <!-- end product information section -->
 
-<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
-<div id="anchor-01" class="anchor-links"></div>
+  <div id="anchor-01"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+    <div class="anchor-links anchor-white"><!--anchor-white anchor-no-border-->
+      <div class="row">
+        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
+          <h5>Ideation: Defining Scope</h5><h6></h6>
+        </div>
+      </div>
+    </div>
+
+    <section id="discovery-fullwidth">
+        <div class="container-fluid padding-five-lr md-padding-30px-lr">
+            <div class="row">
+                <div class="col col-12" data-wow-delay="0.4s">
+                    
+                </div>
+            </div>
+
+        </div>
+    </section>
+  </div>
+
+
+
+  <div id="anchor-02"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+    <div class="anchor-links anchor-white"><!--anchor-white anchor-no-border-->
+      <div class="row">
+        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
+          <h5>Ideation: Defining Scope</h5><h6></h6>
+        </div>
+      </div>
+    </div>
 
     <section id="discovery-fullwidth">
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
@@ -57,9 +86,17 @@ $parallax01 = getAssets($pdo, 8, 'parallax01');
 
         </div>
     </section>
+  </div>
 
-<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
-<div id="anchor-02" class="anchor-links"></div>
+
+  <div id="anchor-03"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+    <div class="anchor-links anchor-white"><!--anchor-white anchor-no-border-->
+      <div class="row">
+        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
+          <h5>Workshop Brainstorming</h5><h6></h6>
+        </div>
+      </div>
+    </div>
 
     <section id="discovery-sequence" class="wow">
         <div class="container">
@@ -116,9 +153,17 @@ $parallax01 = getAssets($pdo, 8, 'parallax01');
             </div>
         </div>
     </section>
+    </div>
 
-<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
-<div id="anchor-03" class="anchor-links"></div>
+
+  <div id="anchor-04"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+    <div class="anchor-links anchor-white"><!--anchor-white anchor-no-border-->
+      <div class="row">
+        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
+          <h5>Design System</h5><h6></h6>
+        </div>
+      </div>
+    </div>
 
     <section id="image-grid" class="wow fadeIn">
         <div class="container">
@@ -186,7 +231,7 @@ $parallax01 = getAssets($pdo, 8, 'parallax01');
             </div>
         </div>
     </section>
-
+    </div>
 
     <?php include ROOT_PATH . 'includes/pagination-projects.php'; ?>
 

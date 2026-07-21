@@ -128,7 +128,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
 
 <!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
   <div id="anchor-03"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
-    <div class="anchor-links anchor-white anchor-no-border">
+    <div class="anchor-links anchor-white">
       <div class="row">
         <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
           <h5>Specs for Handoff</h5>

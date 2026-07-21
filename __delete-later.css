@@ -1,0 +1,30 @@
+    .temp-horizontal-nav ul{
+        display: flex;
+        flex-direction: row;
+        margin: 0px!important;
+
+            display: flex;
+    flex-direction: row;
+    margin: 0px !important;
+    align-items: center;
+}
+
+
+.nav-divider{
+    width: 3px;
+    height: 100%;
+    margin: 0 20px;
+    background-color: rgba(255,255,255,0.7);
+}
+
+        .temp-horizontal-nav li,
+        .temp-horizontal-nav ul{
+                  list-style-type: none!important;  
+                      /* height: fit-content; */
+        }
+
+    .m3-main-nav a{
+        color: #FFF!important;
+        padding: 6px!important;
+        font-size: 13px;
+    }

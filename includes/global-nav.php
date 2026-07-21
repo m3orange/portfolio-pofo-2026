@@ -20,9 +20,9 @@
                     <div class="nav-divider"></div>
                     <li><a href="<?= BASE_URL ?>projects/atlas-ui/index.php" title="Atlas UI">CityBox</a></li>
                     <li><a href="<?= BASE_URL ?>projects/atlas-design-system/index.php" title="Atlas Design System">Design System</a></li>
-                    <li><a href="<?= BASE_URL ?>projects/admin/index.php" title="Admin Platform">Admin Platform</a></li>
+                    <li><a href="<?= BASE_URL ?>projects/admin/index.php" title="Admin Platform">Admin</a></li>
                     <li><a href="<?= BASE_URL ?>projects/musicasa/index.php" title="Musicasa">Musicasa</a></li>
-                    <li><a href="<?= BASE_URL ?>projects/cx-roadmap/index.php" title="CX Roadmap">CX Roadmap</a></li>
+                    <li><a href="<?= BASE_URL ?>projects/cx-roadmap/index.php" title="CX Roadmap">USIC</a></li>
                     <li><a href="<?= BASE_URL ?>projects/space-scout/index.php" title="In Situ">Space Scout</a></li>
                     <li><a href="<?= BASE_URL ?>projects/map-tools/index.php" title="Map Tools">Map Tools</a></li>
                     <li><a href="<?= BASE_URL ?>projects/idd/index.php" title="IDD">IDD</a></li>
@@ -38,38 +38,3 @@
 </header>
 <!-- end header  --- This is hamburger-menu-half-->
 
-
-<style>
-    .temp-horizontal-nav ul{
-        display: flex;
-        flex-direction: row;
-        margin: 0px!important;
-
-            display: flex;
-    flex-direction: row;
-    margin: 0px !important;
-    align-items: center;
-}
-
-
-.nav-divider{
-    width: 3px;
-    height: 100%;
-    margin: 0 20px;
-    background-color: rgba(255,255,255,0.7);
-}
-
-        .temp-horizontal-nav li,
-        .temp-horizontal-nav ul{
-                  list-style-type: none!important;  
-                      /* height: fit-content; */
-        }
-
-    .m3-main-nav a{
-        color: #FFF!important;
-        padding: 6px 8px!important;
-        font-size: 16px;
-    }
-
-
-</style>

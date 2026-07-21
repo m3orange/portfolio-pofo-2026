@@ -47,29 +47,18 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     <!-- end product information section -->
 
 
-<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
-<div id="anchor-01" class="anchor-links"></div>
-
+  <div id="anchor-01"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+    <div class="anchor-links"><!--anchor-white anchor-no-border-->
+      <div class="row">
+        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
+          <h5>Client Workshop</h5><h6></h6>
+        </div>
+      </div>
+    </div>
 
     <section class="wow fadeIn workshop-grid">
-
-        <!-- start section divider -->
-        <section class="section-divider-dark">
-            <div class="container">
-                <div class="row">
-                    <div class="col col-12 col-lg-8 col-md-6">Client Workshop</div>
-                </div>
-            </div>
-        </section>
-        <!-- end section divider -->
-
         <div class="container-fluid padding-five-lr margin-six-bottom  md-padding-30px-lr wow fadeInUp">
-
-            <div class="row margin-40px-bottom">
-                <div class="col col-12 sm-margin-10px-bottom" data-wow-delay="0s">
-                        <h6 class="section-title">Kick Off Presentation</h6>
-                </div>
-            </div>
+<div class="captions-image-grid">Kick Off Presentation</div>
 
             <div class="row mx-0">
                 <ul class="portfolio-grid work-1col hover-option2 gutter-large w-100">
@@ -225,10 +214,18 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
         </div>
 
     </section>
-    
+    </div>
 
-<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
-<div id="anchor-02" class="anchor-links"></div>
+
+
+  <div id="anchor-02"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+    <div class="anchor-links anchor-white"><!--anchor-white anchor-no-border-->
+      <div class="row">
+        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
+          <h5>User Journey Map</h5><h6></h6>
+        </div>
+      </div>
+    </div>
 
     <!--begin - image grid - from single-project-page-01-->
     <section class="journey-map-fullwidth"">
@@ -240,24 +237,25 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
-    <!--end - image grid - from single-project-page-01-->
+</div>
 
-<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
-<div id="anchor-03" class="anchor-links"></div>
+  <div id="anchor-03"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+    <div class="anchor-links anchor-white"><!--anchor-white anchor-no-border-->
+      <div class="row">
+        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
+          <h5>Personas</h5><h6></h6>
+        </div>
+      </div>
+    </div>
 
-    <!-- start fullwidth slider - from blog-standard-full-width-->
+
     <section class="personas-fullwidth-slider">
-
         <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
-
             <div class="row">
-
                 <div class="col-11 offset-1 blog-post-content text-center text-md-center"
                     style="padding-right: 0px; padding-left: 0px;">
-
                     <div class="swiper-full-screen swiper-cb-fullwidth-screens swiper-container white-move"
                         data-slider-options='{ 
                     "loop": true, 
@@ -298,19 +296,20 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
             </div>
         </div>
     </section>
-    <!-- end fullwidth slider - from blog-standard-full-width-->
 
-<!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
-<div id="anchor-04" class="anchor-links"></div>
+    </div>
 
-    <section class="wow research-readout" style="background-color: #343434;">
 
-        <!-- start section divider -->
-        <section class="section-divider-light" style="background-color: transparent;">
-            <div class="container">Outcome: Research Readout</div>
-        </section>
-        <!-- end section divider -->
+  <div id="anchor-04"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+    <div class="anchor-links anchor-white"><!--anchor-white anchor-no-border-->
+      <div class="row">
+        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
+          <h5>Outcome: Research Readout</h5><h6></h6>
+        </div>
+      </div>
+    </div>
 
+    <section class="wow research-readout">
         <div class="container-fluid padding-five-lr margin-six-bottom  md-padding-30px-lr wow">
             <div class="row mx-0">
                 <ul class="portfolio-grid work-1col hover-option2 gutter-large w-100">
@@ -339,6 +338,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
         </div>
 
     </section>
+    </div>
 
     <?php include ROOT_PATH . 'includes/pagination-projects.php'; ?>
 
