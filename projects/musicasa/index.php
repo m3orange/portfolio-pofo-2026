@@ -123,18 +123,18 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
                     </video>
                 </div>
 <div class="col col-12">
-<!-- No controls, and this order: autoplay loop muted playsinline poster-->
-<video autoplay loop muted playsinline poster="video-player-placeholder.png">
-<source src="<?= BASE_URL ?>projects/musicasa/assets/260519_1336-musicasa-demo-1000x622.mp4" type="video/mp4">  
-Your browser does not support the video tag.
-</video>
+    No controls, and this order: autoplay loop muted playsinline poster
+    <video autoplay loop muted playsinline poster="video-player-placeholder.png">
+    <source src="<?= BASE_URL ?>projects/musicasa/assets/260519_1336-musicasa-demo-1000x622.mp4" type="video/mp4">  
+    Your browser does not support the video tag.
+    </video>
 </div>
 <div class="col col-12">
-Previous
-<video autoplay loop muted playsinline>
-<source src="<?= BASE_URL ?>projects/musicasa/assets/260519_1336-musicasa-demo-1000x622.mp4" type="video/mp4">  
-Your browser does not support the video tag.
-</video>
+    Previous
+    <video autoplay loop muted playsinline>
+    <source src="<?= BASE_URL ?>projects/musicasa/assets/260519_1336-musicasa-demo-1000x622.mp4" type="video/mp4">  
+    Your browser does not support the video tag.
+    </video>
 </div>
             </div>
         </div>
