@@ -14,6 +14,8 @@
 /*  Small */
 @media (max-width: 767px) {}
 
+
+
 /* .col,
 .col-12 {
     border: 1px solid rgba(0, 0, 0, 0.3) !important;
@@ -913,7 +915,7 @@ img.mfp-img {
 
 
 #block-intro-slider {
-    height: 80vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -1018,6 +1020,17 @@ img.mfp-img {
     color: #333 !important;
 }
 
+.description-paragraph{
+    font-family: var(--ibm-sans-headers-01)!important;
+    font-weight: 400!important;
+    line-height:  1.5em!important;
+    margin: 20px 0!important;
+}
+
+.description-paragraph p{
+        line-height:  1.5em!important;
+}
+
 .project-info-item-row {
     display: flex;
     flex-direction: row;
@@ -1030,11 +1043,22 @@ img.mfp-img {
     line-height: 1.4em;
 }
 
+        @media (max-width: 767px) {
+                .project-info-item-row{
+                        flex-direction: column;
+                                row-gap: 4px;
+                }
+        }
+
 .pi-title {
-    min-width: 10% !important;
+    min-width: 15% !important;
     display: inline-block !important;
     font-weight: 500;
     margin-right: 10px;
+}
+
+.pi-details{
+    line-height: 1.5em;
 }
 
 .pi-tags {
@@ -1043,8 +1067,6 @@ img.mfp-img {
     padding: 4px 16px;
     width: fit-content;
     font-size: 15px;
-
-
 }
 
 
@@ -1134,6 +1156,8 @@ video {
     font-family: var(--ibm-sans-body-01);
     padding: 0px!important;
   }
+
+
 
     .btn-to-atlas-ds-page.btn{
     /* border-bottom: 2px solid rgba(255,255,255,0.8);
@@ -1561,6 +1585,15 @@ padding: 120px 80px;
     background-position-y: 100px;
     height: 70vh !important;
 }
+
+        @media (max-width:992px) {
+            .map-tools #block-intro-slider {
+                background-size: 95%;
+                background-position-x: center;
+                background-position-y: bottom;
+                height: 60vh !important;
+            }
+        }
 
 .map-tools-detail {
     padding: 40px 80px;
@@ -3001,17 +3034,12 @@ h6 .anchor-emphasis {
 }
 
 
-.atlas #anchor-02.anchor-wrapper{
-    background-color: #232c4f;
-}
-
-.atlas #anchor-03.anchor-wrapper{
-        background-color: #3d404b;
-}
+.atlas #anchor-03.anchor-wrapper{background-color: #232c4f;}
+.atlas #anchor-04.anchor-wrapper{background-color: #3d404b;}
 
 .admin #anchor-01.anchor-wrapper {background-color: unset;}
 .admin #anchor-02.anchor-wrapper {background-color: #616161;}
-.admin #anchor-03.anchor-wrapper {background-color: #2b2156;}
+.admin #anchor-03.anchor-wrapper {background-color: #221b40;}
 .admin #anchor-04.anchor-wrapper {background-color: #3a3a3a;}
 .admin #anchor-05.anchor-wrapper {background-color: #303030;}
 

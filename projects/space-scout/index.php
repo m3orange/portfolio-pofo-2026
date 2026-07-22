@@ -48,7 +48,7 @@ $parallax01 = getAssets($pdo, 8, 'parallax01');
     <div class="anchor-links anchor-white"><!--anchor-white anchor-no-border-->
       <div class="row">
         <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
-          <h5>Ideation: Defining Scope</h5><h6></h6>
+          <h5>Hi-Fi Prototype</h5><h6></h6>
         </div>
       </div>
     </div>
@@ -56,8 +56,10 @@ $parallax01 = getAssets($pdo, 8, 'parallax01');
     <section id="discovery-fullwidth">
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row">
-                <div class="col col-12" data-wow-delay="0.4s">
-                    
+                <div class="col col-12 col-md-10 offset-md-1" style="justify-items: center;" data-wow-delay="0.4s">
+                    <video autoplay loop muted playsinline>
+                        <source src="<?= BASE_URL ?>projects/space-scout/assets/space-scout-walkthrough.mp4" type="video/mp4">  
+                    </video>
                 </div>
             </div>
 

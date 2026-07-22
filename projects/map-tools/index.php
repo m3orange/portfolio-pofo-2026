@@ -36,9 +36,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
 
     <!-- start parallax hero section -->
      <section id="block-intro-slider">
-        <video autoplay loop muted playsinline class="hero-video-admin">
-            <source src="<?= BASE_URL ?>projects/admin/assets/admin-demo-loop.mp4" type="video/mp4">              
-        </video>    
+    <!-- Image is set as bg image in CSS-->
     </section>
     <!-- end parallax hero section -->
 
@@ -128,7 +126,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     <section class="fullwidth-map-tools-animation">
         <div class="container">
             <div class="row">
-                <div class="col col-12 col-md-10 offset-md-1">
+                <div class="col col-12 col-md-9 offset-md-2">
                     <video autoplay loop muted playsinline class="hero-video-cb">
                         <source src="<?= BASE_URL ?>projects/map-tools/assets/both-demos-with-fading.mp4" type="video/mp4">  
                     </video>    

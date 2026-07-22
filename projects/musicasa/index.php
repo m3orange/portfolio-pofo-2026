@@ -112,19 +112,6 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
             </div>
         </div>
     </section>
-    <section class="fullwidth-musicasa-demo">
-        <div class="container">
-            <div class="row">
-                <div class="col col-12">
-                    <video autoplay loop muted playsinline>
-                    <source src="<?= BASE_URL ?>projects/musicasa/assets/260519_1336-musicasa-demo-1000x622.mp4" type="video/mp4">  
-                    Your browser does not support the video tag.
-                    </video>
-                </div>
-            </div>
-        </div>
-    </section>
-
 </div>
 
 

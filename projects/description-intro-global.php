@@ -8,7 +8,7 @@
                     <h3><?= $project['title'] ?></h3>
                     </div>
                 </div>
-                <div class="col col-12 col-xl-9 col-lg-8 line-height-28 last-paragraph-no-margin md-margin-50px-bottom sm-margin-30px-bottom wow fadeIn">
+                <div class="col col-12 col-xl-9 col-lg-8 line-height-28 last-paragraph-no-margin wow fadeIn">
                     <div class="project-info-item-row">
                         <div class="pi-title">Role:</div>
                         <div class="pi-details"><?= $project['role'] ?></div>
@@ -31,8 +31,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col col-12 col-xl-9 col-lg-8 line-height-28 last-paragraph-no-margin md-margin-50px-bottom sm-margin-30px-bottom wow">
-                    <h6><?= $project['description'] ?> </h6>  
+                <div class="col col-12 col-xl-9 col-lg-8 line-height-28 last-paragraph-no-margin wow">
+                    <h6 class="description-paragraph"><?= $project['description'] ?> </h6>  
                     <div class="project-labels-area">
                         <span class="pi-tags"><?= $project['tags'] ?></span>
                     </div> 
@@ -43,7 +43,7 @@
         </div>
     </section>
 
-    
+<!--     
     <div class="anchor-widget">
         <ul>
             <li><a href="#anchor-01">1</a></li>
@@ -52,7 +52,7 @@
             <li><a href="#anchor-04">4</a></li>
             <li><a href="#anchor-05">5</a></li>
         </ul>  
-    </div> 
+    </div>  -->
    
 
 

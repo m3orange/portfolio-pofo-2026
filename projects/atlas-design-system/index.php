@@ -50,7 +50,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     <div class="anchor-links">
       <div class="row">
         <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
-          <h5>Specs for Handoff</h5>
+          <h5>Iconography</h5>
         </div>
       </div>
     </div>
@@ -60,52 +60,66 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
           <div class="row mx-0">
             <div class="col-md-12 px-3 p-md-0">
                 <div class="filter-content overflow-hidden">
-                    <ul class="portfolio-grid work-4col hover-option4 gutter-medium">
+                    <ul class="portfolio-grid work-3col hover-option4 gutter-medium">
                       <li class="grid-sizer"></li>
-                      <li class="grid-item web branding design wow fadeIn grid-item-double">
-                          <div class="portfolio-img bg-extra-dark-gray">
+                      <li class="grid-item web branding design wow fadeIn"><!--grid-item-double-->
+                          <div class="portfolio-img">
                               <img src="<?= BASE_URL ?>projects/atlas-design-system/assets/atlas-intro-grid-01.png">
                           </div>
                       </li>
-
-                      <li class="grid-item web branding design wow fadeIn" data-wow-delay="0.4s">
-                          <div class="portfolio-img bg-extra-dark-gray">
+                      <li class="grid-item web branding design wow fadeIn"><!--grid-item-double-->
+                          <div class="portfolio-img">
                               <img src="<?= BASE_URL ?>projects/atlas-design-system/assets/atlas-intro-grid-02.png">
                           </div>
                       </li>
-                      <li class="grid-item web branding design wow fadeIn" data-wow-delay="0.4s">
-                          <div class="portfolio-img bg-extra-dark-gray">
+                      <li class="grid-item web branding design wow fadeIn"><!--grid-item-double-->
+                          <div class="portfolio-img">
                               <img src="<?= BASE_URL ?>projects/atlas-design-system/assets/atlas-intro-grid-03.png">
                           </div>
                       </li>
-
-                      <li class="grid-item web branding design wow fadeIn" data-wow-delay="0.4s">
-                          <div class="portfolio-img bg-extra-dark-gray">
-                              <img src="<?= BASE_URL ?>projects/atlas-design-system/assets/atlas-intro-grid-04.png">
-                          </div>
-                      </li>  
                     </ul>
                 </div>
             </div>
           </div>
-
-          <div class="row mx-0">
-              <div class="col col-12 wow fadeIn" data-wow-delay="0.4s">
-                  <div class="gallery-item">
-                      <img src="<?= BASE_URL ?><?= $single[0]['file_path'] ?>">
-                  </div>
-              </div>
-          </div>
-
       </div>
     </section>
   </div>
 
+
   <div id="anchor-02"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+    <div class="anchor-links">
+      <div class="row">
+        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 anchor-links-content d-flex" style="align-items: center;">
+          <h5>Design Documentation</h5>
+            <div class="btn-view-website-area" style="border-left: 1px solid #000000CC!important;">
+                <div class="btn btn-to-atlas-ds-page">
+                    <a href="<?= BASE_URL ?>projects/atlas-ui/index.php" target="_blank" style="color: #000000!important;">View UI Design</a>
+                </div>
+            </div>
+            <div class="btn-view-website"><img src="<?= BASE_URL ?>images/arrow-view-website-black.svg"/></div>
+        </div>
+      </div>
+    </div>
+    <section>
+        <div class="container-fluid padding-two-lr md-padding-30px-lr">
+            <div class="row mx-0">
+                <div class="col col-12 wow fadeIn" data-wow-delay="0.4s">
+                <div class="gallery-item">
+                <img src="<?= BASE_URL ?><?= $single[0]['file_path'] ?>">
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+  
+
+  <div id="anchor-03"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
     <div class="anchor-links anchor-white" style="margin-bottom: 0px;">
       <div class="row">
         <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
-          <h5>Prototype</h5>
+          <h5>Prototype for the Design Documentation Repo</h5>
           <h6 class="anchor-emphasis">
               We used these mid-fi wireframes in our discussions with Product and Engineering teams, with the goal of visualizing the kind of information and formatting that each team needed to access in a <span class="anchor-emphasis">live repo as single-source-of-truth.</span> We wanted users to have autonomous, asynchronous access to all the information they need to continue working, and structured in an intuitive and scalable way.
           </h6>
@@ -127,7 +141,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
 
 
 <!--  @@@@@@@  --------------------- | Anchor | --------------------- @@@@@@@  -->
-  <div id="anchor-03"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+  <div id="anchor-04"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
     <div class="anchor-links anchor-white">
       <div class="row">
         <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
