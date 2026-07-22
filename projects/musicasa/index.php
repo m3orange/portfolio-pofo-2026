@@ -129,6 +129,18 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     Your browser does not support the video tag.
     </video>
 </div>
+
+<div class="col col-12">
+    Adding the webm fallback
+<video playsinline autoplay loop muted poster="video-player-placeholder.png">
+
+     <source type="video/mp4" src="video/test.mp4">
+
+     <source type="video/webm" src="video/test.webm">
+
+</video>
+</div>
+
 <div class="col col-12">
     Previous
     <video autoplay loop muted playsinline>
