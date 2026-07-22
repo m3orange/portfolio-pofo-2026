@@ -1,6 +1,6 @@
-<?php require_once( '../../config.php' ) ?>
+<?php require_once( '../config.php' ) ?>
 
-<?php require_once '../../db-config.php';
+<?php require_once '../db-config.php';
 
 $pdo = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME . ';charset=utf8mb4', DB_USER, DB_PASS);
 
@@ -31,17 +31,6 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     <!-- start header -->
      <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
     <!-- end header -->
-
-    <!-- start parallax hero section -->
-    <section id="block-intro-slider">
-        <img src="<?= BASE_URL ?>projects/atlas-design-system/assets/atlas-hero-opener-alpha.png"/>    
-    </section>
-    <!-- end parallax hero section -->
-
-
-    <!-- start product information section -->
-    <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
-    <!-- end product information section -->
 
 
 
