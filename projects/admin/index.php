@@ -34,11 +34,26 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
 r
     <!-- start parallax hero section -->
      <section id="block-intro-slider">
-        <video autoplay loop playsinline muted class="hero-video-admin" poster="https://michellemunoz.info/images/video-player-placeholder.png">
-            <source src="https://michellemunoz.info/projects/admin/assets/admin-demo-loop.mp4" type="video/mp4">              
-        </video>    
+<div style="padding:71.07% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1211997195?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="map-tools-demo-light"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>   
     </section>
     <!-- end parallax hero section -->
+
+<!-- Basic video example -->
+<!-- 'Big Buck Bunny' licensed under CC 3.0 by the Blender foundation. Hosted by archive.org -->
+<!-- Poster from peach.blender.org -->
+<video
+  controls
+  muted
+  autoplay
+  src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
+  poster="https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217"
+  width="620">
+  <h2></h2>
+  Sorry, your browser doesn't support embedded videos, but don't worry, you can
+  <a href="https://archive.org/details/BigBuckBunny_124">download it</a>
+  and watch it with your favorite video player!
+</video>
+
 
 
 <video autoplay loop playsinline muted controls poster="https://michellemunoz.info/images/video-player-placeholder.png">
