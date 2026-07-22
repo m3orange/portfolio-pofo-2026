@@ -129,7 +129,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
             <div class="row">
                 <div class="col col-12 col-md-10 offset-md-1">
 
-                    <video autoplay loop muted playsinline class="hero-video-cb" id="video02">
+                    <video autoplay loop muted playsinline class="hero-video-cb">
                         <source src="<?= BASE_URL ?>projects/map-tools/assets/both-demos-with-fading.mp4" type="video/mp4">  
                     </video>    
                 </div>  
@@ -151,13 +151,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
             }).catch(function (error) {
             // do something if you want to handle or track this error
             });
-        const video = document.querySelector('#video02');
 
-            video.play().then(function () {
-            // autoplay was successful!
-            }).catch(function (error) {
-            // do something if you want to handle or track this error
-            });
    </script>
 
 </body>
