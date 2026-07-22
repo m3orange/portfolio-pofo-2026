@@ -115,39 +115,12 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     <section class="fullwidth-musicasa-demo">
         <div class="container">
             <div class="row">
-                <div class="col col-12 video-area">
-                    New
-                    <video autoplay muted playsinline loop controls poster="video-player-placeholder.png">
+                <div class="col col-12">
+                    <video autoplay loop muted playsinline>
                     <source src="<?= BASE_URL ?>projects/musicasa/assets/260519_1336-musicasa-demo-1000x622.mp4" type="video/mp4">  
                     Your browser does not support the video tag.
                     </video>
                 </div>
-<div class="col col-12">
-    No controls, and this order: autoplay loop muted playsinline poster
-    <video autoplay loop muted playsinline poster="video-player-placeholder.png">
-    <source src="<?= BASE_URL ?>projects/musicasa/assets/260519_1336-musicasa-demo-1000x622.mp4" type="video/mp4">  
-    Your browser does not support the video tag.
-    </video>
-</div>
-
-<div class="col col-12">
-    Adding the webm fallback
-<video playsinline autoplay loop muted poster="video-player-placeholder.png">
-
-     <source type="video/mp4" src="video/test.mp4">
-
-     <source type="video/webm" src="video/test.webm">
-
-</video>
-</div>
-
-<div class="col col-12">
-    Previous
-    <video autoplay loop muted playsinline>
-    <source src="<?= BASE_URL ?>projects/musicasa/assets/260519_1336-musicasa-demo-1000x622.mp4" type="video/mp4">  
-    Your browser does not support the video tag.
-    </video>
-</div>
             </div>
         </div>
     </section>
