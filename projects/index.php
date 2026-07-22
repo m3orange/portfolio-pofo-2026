@@ -71,6 +71,26 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
                     <source src="<?= BASE_URL ?>projects/map-tools/assets/map-tools-demo-light.mp4" type="video/mp4">  
                 </video>   
             </div>
+
+   <div class="col-12">
+– Fix: Always bundle autoplay explicitly with the muted and playsinline attributes:
+– Added CSS z-index
+– Added absolute link to video
+
+<video autoplay muted playsinline width="100%" poster="thumbnail.jpg">
+    <source src="https://michellemunoz.info/projects/map-tools/assets/map-tools-demo-light.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+</div>
+
+<style>
+    video {
+    position: relative;
+    z-index: 10; /* Forces the video to the front */
+}
+</style>
+
           </div>
 
 
