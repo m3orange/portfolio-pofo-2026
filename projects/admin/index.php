@@ -31,54 +31,48 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
     <!-- start header -->
      <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
     <!-- end header -->
-r
-    <!-- start parallax hero section -->
-    <section id="block-intro-slider">
 
+    <!-- start parallax hero section -->
+     <section id="block-intro-slider">
+        <video autoplay loop muted playsinline class="hero-video-admin">
+            <source src="<?= BASE_URL ?>projects/admin/assets/admin-demo-loop.mp4" type="video/mp4">              
+        </video>    
     </section>
     <!-- end parallax hero section -->
-
-    <section>
-        <div class="row">
-            <div class="col col-12 col-md-6 offset-md-3">
-        <div style="padding:71.07% 0 0 0;position:relative;" class="video-container">
-            <iframe src="https://player.vimeo.com/video/1211997195?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="map-tools-demo-light"></iframe>
-        </div>
-            </div>
-        </div>
-    </section>
-
-    <script src="https://player.vimeo.com/api/player.js"></script>   
-
-    <style>
-        .video-container{
-
-        }
-    </style>
-
-<!-- Basic video example -->
-<!-- 'Big Buck Bunny' licensed under CC 3.0 by the Blender foundation. Hosted by archive.org -->
-<!-- Poster from peach.blender.org 
-<video
-  controls
-  muted
-  autoplay
-  src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
-  poster="https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217"
-  width="620">
-  <h2></h2>
-  Sorry, your browser doesn't support embedded videos, but don't worry, you can
-  <a href="https://archive.org/details/BigBuckBunny_124">download it</a>
-  and watch it with your favorite video player!
-</video>
-
--->
-
 
     <!-- start product information section -->
     <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
     <!-- end product information section -->
 
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 offset-md-3">
+    <mux-player
+      loop
+      muted
+      autoplay
+      stream-type="on-demand"
+      playback-id="EcHgOK9coz5K4rjSwOkoE7Y7O01201YMIC200RI6lNxnhs"
+      metadata-video-title="Test on demand"
+      metadata-viewer-user-id="user-id-007"
+    ></mux-player>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+   <script>
+    const video = document.querySelector('#my-video');
+
+        video.play().then(function () {
+        // autoplay was successful!
+        }).catch(function (error) {
+        // do something if you want to handle or track this error
+        });
+   </script>
 
   <div id="anchor-01"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
     <div class="anchor-links">
