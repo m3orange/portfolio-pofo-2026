@@ -34,57 +34,16 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
 
     <!-- start parallax hero section -->
      <section id="block-intro-slider">
-<div style="padding:62.6% 0 0 0;position:relative;" class="video-area">
-    <iframe src="https://player.vimeo.com/video/1212013835?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="admin-demo-loop"></iframe>
-    </div>
-    <script src="https://player.vimeo.com/api/player.js"></script>  
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/G5EvbNWh1-k?si=WNt7JQbiWQkTJJ3w&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </section>
     <!-- end parallax hero section -->
 
 
-    <style>
-        .video-area{
-            width: 400px;
-            height: auto;
-            border: 1px solid red;
-        }
-    </style>
+
     <!-- start product information section -->
     <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
     <!-- end product information section -->
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/G5EvbNWh1-k?si=WNt7JQbiWQkTJJ3w&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<section>
-    <div class="container">
-        <div class="row">
-        <div class="col-12 col-md-6 offset-md-3">
-        <mux-player
-        id="video01"
-        loop
-        muted
-        autoplay
-        stream-type="on-demand"
-        playback-id="EcHgOK9coz5K4rjSwOkoE7Y7O01201YMIC200RI6lNxnhs"
-        metadata-video-title="Test on demand"
-        metadata-viewer-user-id="user-id-007"
-        ></mux-player>
-        </div>
-        </div>
-    </div>
-</section>
-
-
-
-   <script>
-    const video = document.querySelector('#video01');
-
-        video.play().then(function () {
-        // autoplay was successful!
-        }).catch(function (error) {
-        // do something if you want to handle or track this error
-        });
-   </script>
 
   <div id="anchor-01"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
     <div class="anchor-links">

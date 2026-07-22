@@ -36,7 +36,9 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
 
     <!-- start parallax hero section -->
      <section id="block-intro-slider">
-
+        <video autoplay loop muted playsinline class="hero-video-admin">
+            <source src="<?= BASE_URL ?>projects/admin/assets/admin-demo-loop.mp4" type="video/mp4">              
+        </video>    
     </section>
     <!-- end parallax hero section -->
 
@@ -105,7 +107,6 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
                         <video autoplay loop muted playsinline class="hero-video-cb" id="video01">
                             <source src="<?= BASE_URL ?>projects/map-tools/assets/map-tools-demo-light.mp4" type="video/mp4">  
                         </video>   
-                        
                         <!-- <div style="padding:71.07% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1211997195?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="map-tools-demo-light"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>   -->
                     </div>
                 </div>
@@ -113,7 +114,6 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
         </div>
     </section>
 </div>
-
 
 
   <div id="anchor-03"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
@@ -125,12 +125,10 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
       </div>
     </div>
 
-
     <section class="fullwidth-map-tools-animation">
         <div class="container">
             <div class="row">
                 <div class="col col-12 col-md-10 offset-md-1">
-
                     <video autoplay loop muted playsinline class="hero-video-cb">
                         <source src="<?= BASE_URL ?>projects/map-tools/assets/both-demos-with-fading.mp4" type="video/mp4">  
                     </video>    
@@ -144,16 +142,6 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
 
     <!-- start footer -->
     <?php include ROOT_PATH . 'includes/global-footer.php'; ?>
-
-   <script>
-    const video = document.querySelector('#video01');
-
-        video.play().then(function () {
-        // autoplay was successful!
-        }).catch(function (error) {
-        // do something if you want to handle or track this error
-        });
-   </script>
 
 
 </body>

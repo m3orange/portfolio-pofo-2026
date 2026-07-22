@@ -17,13 +17,6 @@
                         <div class="pi-title">Tasks:</div>
                         <div class="pi-details"><?= $project['tasks'] ?></div>
                     </div>
-                    <!-- <h6><?= $project['description'] ?> </h6>   -->
-                    <!-- <div class="project-labels-area"><span class="pi-tags"><?= $project['tags'] ?></span></div> -->
-
-                    <?php include ROOT_PATH . 'includes/projects-confidentiality-note.php'; ?> 
-                        <span class="pi-tags">SaaS</span>
-                        <span class="pi-tags">End-to-End Product Design</span>
-                        <span class="pi-tags">Workshop Facilitating</span>
                 </div>
                 <div class="col col-12 col-xl-3 col-lg-4 line-height-26 wow fadeIn">
                     <div class="project-info-item-row">
@@ -35,6 +28,15 @@
                         <div class="pi-details"><?= $project['year'] ?></div>
                     </div>
 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-12 col-xl-9 col-lg-8 line-height-28 last-paragraph-no-margin md-margin-50px-bottom sm-margin-30px-bottom wow">
+                    <h6><?= $project['description'] ?> </h6>  
+                    <div class="project-labels-area">
+                        <span class="pi-tags"><?= $project['tags'] ?></span>
+                    </div> 
+                <?php include ROOT_PATH . 'includes/projects-confidentiality-note.php'; ?> 
                 </div>
             </div>
      
