@@ -102,7 +102,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
             <div class="row">
                 <div class="col col-12 col-lg-8 offset-lg-2 wow fadeIn" data-wow-delay="0.6s">
                     <div class="gallery-item">
-                        <video autoplay loop muted playsinline class="hero-video-cb">
+                        <video autoplay loop muted playsinline class="hero-video-cb" id="video01">
                             <source src="<?= BASE_URL ?>projects/map-tools/assets/map-tools-demo-light.mp4" type="video/mp4">  
                         </video>   
                         
@@ -144,6 +144,17 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
 
     <!-- start footer -->
     <?php include ROOT_PATH . 'includes/global-footer.php'; ?>
+
+   <script>
+    const video = document.querySelector('#video01');
+
+        video.play().then(function () {
+        // autoplay was successful!
+        }).catch(function (error) {
+        // do something if you want to handle or track this error
+        });
+   </script>
+
 
 </body>
 
