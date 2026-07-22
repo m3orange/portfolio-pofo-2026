@@ -47,17 +47,32 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6 offset-md-3">
-    <mux-player
-      loop
-      muted
-      autoplay
-      stream-type="on-demand"
-      playback-id="EcHgOK9coz5K4rjSwOkoE7Y7O01201YMIC200RI6lNxnhs"
-      metadata-video-title="Test on demand"
-      metadata-viewer-user-id="user-id-007"
-    ></mux-player>
-            </div>
+        <div class="col-12 col-md-6 offset-md-3">
+        <mux-player
+        loop
+        muted
+        autoplay
+        stream-type="on-demand"
+        playback-id="EcHgOK9coz5K4rjSwOkoE7Y7O01201YMIC200RI6lNxnhs"
+        metadata-video-title="Test on demand"
+        metadata-viewer-user-id="user-id-007"
+        ></mux-player>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-12 col-md-6 offset-md-3">
+
+        <iframe
+        loop
+        muted
+        autoplay
+        src="https://player.mux.com/EcHgOK9coz5K4rjSwOkoE7Y7O01201YMIC200RI6lNxnhs?metadata-video-title=Test%20VOD&metadata-viewer-user-id=user-id-007"
+        allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+        allowfullscreen="true"
+        ></iframe>
+        </div>
+
+
         </div>
     </div>
 </section>
