@@ -1,0 +1,72 @@
+
+<!-- The Code Works-->
+
+
+<!DOCTYPE html>
+<!-- This site was created in Webflow. https://webflow.com --><!-- Last Published: Fri Jul 10 2026 01:59:26 GMT+0000 (Coordinated Universal Time) -->
+<html>
+
+<head>
+ <meta charset="utf-8" />
+
+</head>
+
+<body>
+
+  <style>
+    video {
+    position: relative;
+    z-index: 1000; /* Forces the video to the front */
+    }
+</style>
+
+
+
+                <video autoplay loop muted playsinline class="hero-video-cb">
+                    <source src="https://michellemunoz.info/projects/map-tools/assets/map-tools-demo-light.mp4" type="video/mp4">  
+                </video>   
+
+
+
+            <div class="row">
+                Original
+                <video autoplay loop muted playsinline>
+                    <source src="https://michellemunoz.info/projects/map-tools/assets/map-tools-demo-light.mp4" type="video/mp4">  
+                </video>   
+            </div>
+            <div class="row">
+                Added: id
+                <video id="video01" autoplay loop muted playsinline>
+                    <source src="https://michellemunoz.info/projects/map-tools/assets/map-tools-demo-light.mp4" type="video/mp4">  
+                </video>   
+            </div>
+            <div class="row">
+               Added: Controls
+                <video autoplay loop muted playsinline controls>
+                    <source src="https://michellemunoz.info/projects/map-tools/assets/map-tools-demo-light.mp4" type="video/mp4">  
+                </video>   
+            </div>
+            <div class="row">
+                Add: Poster
+                <video autoplay loop muted playsinline controls poster="thumbnail.jpg">
+                    <source src="https://michellemunoz.info/projects/map-tools/assets/map-tools-demo-light.mp4" type="video/mp4">  
+                </video>   
+            </div>
+          <div class="row">
+          – Fix: Always bundle autoplay explicitly with the muted and playsinline attributes:
+          – Added CSS z-index
+          – Added absolute link to video
+
+          <video autoplay muted playsinline width="100%" poster="thumbnail.jpg">
+              <source src="https://michellemunoz.info/projects/map-tools/assets/map-tools-demo-light.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+            </div>
+
+
+
+
+
+</body>
+
+</html>
