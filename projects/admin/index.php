@@ -33,14 +33,32 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
     <!-- end header -->
 r
     <!-- start parallax hero section -->
-     <section id="block-intro-slider">
-<div style="padding:71.07% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1211997195?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="map-tools-demo-light"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>   
+    <section id="block-intro-slider">
+
     </section>
     <!-- end parallax hero section -->
 
+    <section>
+        <div class="row">
+            <div class="col col-12 col-md-6 offset-md-3">
+        <div style="padding:71.07% 0 0 0;position:relative;" class="video-container">
+            <iframe src="https://player.vimeo.com/video/1211997195?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="map-tools-demo-light"></iframe>
+        </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://player.vimeo.com/api/player.js"></script>   
+
+    <style>
+        .video-container{
+
+        }
+    </style>
+
 <!-- Basic video example -->
 <!-- 'Big Buck Bunny' licensed under CC 3.0 by the Blender foundation. Hosted by archive.org -->
-<!-- Poster from peach.blender.org -->
+<!-- Poster from peach.blender.org 
 <video
   controls
   muted
@@ -54,28 +72,7 @@ r
   and watch it with your favorite video player!
 </video>
 
-
-
-<video autoplay loop playsinline muted controls poster="https://michellemunoz.info/images/video-player-placeholder.png">
-    <source src="https://michellemunoz.info/projects/admin/assets/admin-demo-loop.mp4" type="video/mp4" />
-    <source src="https://m3orange.com/portfolio/map-tools-demo-light.webm" type="video/webm" />
-<h2>Has Controls</h2>
-  <p>
-    Your browser doesn't support HTML video. Here is a
-    <a href="myVideo.mp4" download="myVideo.mp4">link to the video</a> instead.
-  </p>
-</video>
-
-<video autoplay loop playsinline muted poster="https://michellemunoz.info/images/video-player-placeholder.png">
-    <source src="https://michellemunoz.info/projects/admin/assets/admin-demo-loop.mp4" type="video/mp4" />
-    <source src="https://m3orange.com/portfolio/map-tools-demo-light.webm" type="video/webm" />
-<h2>Does not have controls</h2>
-  <p>
-    Your browser doesn't support HTML video. Here is a
-    <a href="myVideo.mp4" download="myVideo.mp4">link to the video</a> instead.
-  </p>
-</video>
-
+-->
 
 
     <!-- start product information section -->
