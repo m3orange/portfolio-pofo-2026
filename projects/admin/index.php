@@ -49,6 +49,7 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
         <div class="row">
         <div class="col-12 col-md-6 offset-md-3">
         <mux-player
+        id="video01"
         loop
         muted
         autoplay
@@ -80,7 +81,7 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
 
 
    <script>
-    const video = document.querySelector('#my-video');
+    const video = document.querySelector('#video01');
 
         video.play().then(function () {
         // autoplay was successful!
