@@ -102,24 +102,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
             <div class="row">
                 <div class="col col-12 col-lg-8 offset-lg-2 wow fadeIn" data-wow-delay="0.6s">
                     <div class="gallery-item">
-<section>
-    <div class="container">
-        <div class="row">
-        <div class="col-12 col-md-6 offset-md-3">
-        <mux-player
-        id="video01"
-        loop
-        muted
-        autoplay
-        stream-type="on-demand"
-        playback-id="EcHgOK9coz5K4rjSwOkoE7Y7O01201YMIC200RI6lNxnhs"
-        metadata-video-title="Test on demand"
-        metadata-viewer-user-id="user-id-007"
-        ></mux-player>
-        </div>
-        </div>
-    </div>
-</section>                    
+<div style="padding:71.07% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1211997195?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="map-tools-demo-light"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>                   
                     </div>
                 </div>
             </div>
@@ -157,17 +140,6 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
 
     <!-- start footer -->
     <?php include ROOT_PATH . 'includes/global-footer.php'; ?>
-
-       <script>
-        const video = document.querySelector('#video01');
-
-            video.play().then(function () {
-            // autoplay was successful!
-            }).catch(function (error) {
-            // do something if you want to handle or track this error
-            });
-
-   </script>
 
 </body>
 
