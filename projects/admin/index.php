@@ -34,11 +34,12 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
 
     <!-- start parallax hero section -->
      <section id="block-intro-slider">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/G5EvbNWh1-k?si=WNt7JQbiWQkTJJ3w&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <video autoplay loop muted playsinline class="hero-video-admin">
+            <source src="<?= BASE_URL ?>projects/admin/assets/admin-demo-loop.mp4" type="video/mp4">              
+        </video>  
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/G5EvbNWh1-k?si=WNt7JQbiWQkTJJ3w&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
     </section>
     <!-- end parallax hero section -->
-
-
 
     <!-- start product information section -->
     <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
