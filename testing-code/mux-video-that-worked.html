@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/@mux/mux-player"></script>
+    <style>
+      div.five {
+        width: 500px;
+      }
+
+      div.twofifty {
+        max-width: 250px;
+      }
+    </style>
+  </head>
+  <body>
+
+<h4>Only worked in Opera mobile.</h4>
+
+    <section>
+    <div class="container">
+        <div class="row">
+        <div class="col-12 col-md-6 offset-md-3">
+          <h4>Only worked in Opera mobile.</h4>
+        <mux-player
+        id="video01"
+        loop
+        muted
+        autoplay
+        stream-type="on-demand"
+        playback-id="EcHgOK9coz5K4rjSwOkoE7Y7O01201YMIC200RI6lNxnhs"
+        metadata-video-title="Test on demand"
+        metadata-viewer-user-id="user-id-007"
+        ></mux-player>
+        </div>
+        </div>
+    </div>
+</section>
+
+   <script>
+    const video = document.querySelector('#video01');
+
+        video.play().then(function () {
+        // autoplay was successful!
+        }).catch(function (error) {
+        // do something if you want to handle or track this error
+        });
+   </script>
+
+
+  </body>
+</html>
