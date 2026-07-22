@@ -31,14 +31,37 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
     <!-- start header -->
      <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
     <!-- end header -->
-
+r
     <!-- start parallax hero section -->
      <section id="block-intro-slider">
-        <video autoplay loop muted playsinline class="hero-video-admin">
-            <source src="<?= BASE_URL ?>projects/admin/assets/admin-demo-loop.mp4" type="video/mp4">              
+        <video autoplay loop playsinline muted class="hero-video-admin" poster="https://michellemunoz.info/images/video-player-placeholder.png">
+            <source src="https://michellemunoz.info/projects/admin/assets/admin-demo-loop.mp4" type="video/mp4">              
         </video>    
     </section>
     <!-- end parallax hero section -->
+
+
+<video autoplay loop playsinline muted controls poster="https://michellemunoz.info/images/video-player-placeholder.png">
+    <source src="https://michellemunoz.info/projects/admin/assets/admin-demo-loop.mp4" type="video/mp4" />
+    <source src="https://m3orange.com/portfolio/map-tools-demo-light.webm" type="video/webm" />
+<h2>Has Controls</h2>
+  <p>
+    Your browser doesn't support HTML video. Here is a
+    <a href="myVideo.mp4" download="myVideo.mp4">link to the video</a> instead.
+  </p>
+</video>
+
+<video autoplay loop playsinline muted poster="https://michellemunoz.info/images/video-player-placeholder.png">
+    <source src="https://michellemunoz.info/projects/admin/assets/admin-demo-loop.mp4" type="video/mp4" />
+    <source src="https://m3orange.com/portfolio/map-tools-demo-light.webm" type="video/webm" />
+<h2>Does not have controls</h2>
+  <p>
+    Your browser doesn't support HTML video. Here is a
+    <a href="myVideo.mp4" download="myVideo.mp4">link to the video</a> instead.
+  </p>
+</video>
+
+
 
     <!-- start product information section -->
     <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
