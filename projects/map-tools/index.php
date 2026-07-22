@@ -102,9 +102,24 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
             <div class="row">
                 <div class="col col-12 col-lg-8 offset-lg-2 wow fadeIn" data-wow-delay="0.6s">
                     <div class="gallery-item">
-                        <video autoplay loop muted playsinline class="hero-video-cb" id="video01">
-                            <source src="<?= BASE_URL ?>projects/map-tools/assets/map-tools-demo-light.mp4" type="video/mp4">  
-                        </video>                        
+<section>
+    <div class="container">
+        <div class="row">
+        <div class="col-12 col-md-6 offset-md-3">
+        <mux-player
+        id="video01"
+        loop
+        muted
+        autoplay
+        stream-type="on-demand"
+        playback-id="EcHgOK9coz5K4rjSwOkoE7Y7O01201YMIC200RI6lNxnhs"
+        metadata-video-title="Test on demand"
+        metadata-viewer-user-id="user-id-007"
+        ></mux-player>
+        </div>
+        </div>
+    </div>
+</section>                    
                     </div>
                 </div>
             </div>
