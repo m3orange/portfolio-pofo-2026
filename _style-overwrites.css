@@ -15,6 +15,10 @@
 @media (max-width: 767px) {}
 
 
+.hide-for-public-showing{
+    visibility: hidden;
+}
+
 
 /* .col,
 .col-12 {
@@ -1089,7 +1093,7 @@ video {
     background-size: cover;
     display: table-cell;
     vertical-align: middle;
-    width: 90%;
+    width: 100%;
 }
 
 .citybox #block-intro-slider {
@@ -1217,6 +1221,7 @@ video {
     align-items: flex-end;
     justify-content: space-between;
     gap: 0px;
+    min-width: 280px;
 }
 
 #resume-02 .btn-to-atlas-ds-page a{
@@ -1449,7 +1454,8 @@ video {
 }
 
 .navbar {
-    border: 1px solid var(--grid-color);
+    /* border-bottom: 1px solid var(--grid-color); */
+        border-bottom: 1px solid rgba(255,255,255,0.5);
 }
 
 
@@ -2878,7 +2884,7 @@ education-details p {
 }
 
 #discovery-sequence img {
-    background-color: #2e2e2e;
+    background-color: #3d3d3d;
 }
 
 #discovery-fullwidth {

@@ -36,7 +36,8 @@
     <div class="col col-12 col-lg-4 section-divider-numbered-02 p-0" style="flex-direction: column; justify-content: space-between!important;">
         <div class="row" style="flex-direction: column;">
             <div class="big-number">01</div>
-            <div class="big-section-title margin-50px-bottom">I'm a full-stack designer: I'm fluent in code.</div>
+            <div class="big-section-title margin-50px-bottom">
+                <h4>I'm a full-stack designer: I'm fluent in code.</h4></div>
         </div>
             <img src="<?= BASE_URL ?>about/brad-frost-tweet-03.png" style="max-width: 90%;">
     </div>
@@ -106,7 +107,8 @@
             <div class="col col-12 section-divider-numbered-02 p-0" style="flex-direction: column; justify-content: space-between;">
                 <div class="row" style="flex-direction: column; column-gap: 20px;">
                     <div class="big-number text-white">03</div>
-                    <div class="big-section-title margin-50px-bottom text-white">UX Engineering Initiatives</div>
+                    <div class="big-section-title margin-50px-bottom text-white">
+                        <h4 class="text-white">UX Engineering Initiatives</h4></div>
                 </div>
             </div>
         </div>

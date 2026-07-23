@@ -73,7 +73,7 @@ $parallax01 = getAssets($pdo, 8, 'parallax01');
     <div class="anchor-links anchor-white"><!--anchor-white anchor-no-border-->
       <div class="row">
         <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
-          <h5>Ideation: Defining Scope</h5><h6></h6>
+          <h5>Ideation & Scope Definition</h5><h6></h6>
         </div>
       </div>
     </div>

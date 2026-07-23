@@ -66,7 +66,8 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <div class="col col-12 col-lg-4 section-divider-numbered-02 p-0" style="flex-direction: column; justify-content: flex-start;">
             <div class="row" style="flex-direction: column;">
                 <div class="big-number">01</div>
-                <div class="big-section-title margin-50px-bottom">Education</div>
+                <div class="big-section-title margin-50px-bottom">
+                    <h4>Education</h4></div>
             </div>
         </div>
 
@@ -133,10 +134,11 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <div class="col col-12 col-lg-4 section-divider-numbered-02 p-0" style="flex-direction: column; justify-content: flex-start;">
             <div class="row" style="flex-direction: column;">
                 <div class="big-number">02</div>
-                <div class="big-section-title margin-50px-bottom">Professional Experience</div>
+                <div class="big-section-title margin-50px-bottom">
+                    <h4>Professional Experience</h4></div>
 
                 <div class="row">
-                    <div class="col col-12 col-md-8">
+                    <div class="col col-12 col-md-8" style="padding-left: 5px; padding-right: 5px;">
                         <div class="button-area-various">
                         <div class="btn-view-website-area">
                             <div class="dark-version btn btn-to-atlas-ds-page">
@@ -186,7 +188,8 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <div class="col col-12 col-lg-4 section-divider-numbered-02 p-0" style="flex-direction: column; justify-content: flex-start;">
             <div class="row" style="flex-direction: column;">
                 <div class="big-number">03</div>
-                <div class="big-section-title margin-50px-bottom">Brands & Companies I Have Worked With</div>
+                <div class="big-section-title margin-50px-bottom">
+                    <h4>Brands & Companies I Have Worked With</h4></div>
             </div>
         </div>
 
