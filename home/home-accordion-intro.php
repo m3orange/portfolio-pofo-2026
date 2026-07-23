@@ -4,8 +4,7 @@
       <div class="row">
          <div class="col col-12 col-lg-8 offset-lg-4">
             <div class="big-section-title-opener">
-               I'm trained in architecture and graphic design, and have 25+ years of multidisciplinary design experience
-               {print, brand, web}. For the past 12, I have been focused on product design and UX engineering.
+               <h5 class="font-weight-500">I'm trained in architecture and graphic design, and have 25+ years of multidisciplinary design experience {print, brand, web}. For the past 12, I have been focused on product design and UX engineering.</h5>
             </div>
          </div>
       </div>
@@ -18,7 +17,7 @@
          <!-- justify-content-center-->
          <div class="col col-12 col-xl-4 col-lg-6 section-divider-numbered-02 p-0" style="flex-direction: column;">
             <div class="big-number">01</div>
-            <div class="big-section-title">In a Nutshell</div>
+            <div class="big-section-title"><h4>In a Nutshell</h4></div>
          </div>
 
 

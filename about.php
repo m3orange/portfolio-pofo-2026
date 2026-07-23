@@ -15,7 +15,7 @@
         <div class="row h-100" style="padding-top: 50px;">
             <div class="col col-12 col-lg-7 col-md-12 d-flex justify-content-center flex-column text-left text-md-start">
                 <div class="row" style="flex-direction: column;">
-                    <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom">About</h1>
+                    <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom">My Expertise</h1>
                     <h5>Text introducing UX engineering knowledge</h5>
                 </div>
             </div><!-- cols-->
@@ -83,7 +83,10 @@
             <div class="col col-12 col-lg-3 section-divider-numbered-02 p-0" style="flex-direction: column; justify-content: space-between;">
                 <div class="row" style="flex-direction: column; column-gap: 20px;">
                     <div class="big-number">02</div>
-                    <div class="big-section-title margin-50px-bottom">My Toolkit</div>
+                    <div class="big-section-title margin-50px-bottom">
+                        <h4>My Toolkit</h4>
+                        <h5>Add Statement</h5>
+                    </div>
                 </div>
             </div>
 

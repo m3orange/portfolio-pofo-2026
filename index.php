@@ -20,8 +20,7 @@
         <div class="col col-12 col-lg-4 section-divider-numbered-02" style="flex-direction: column;">
 
           <div class="big-number">02</div>
-          <div class="big-section-title">Work & Process</div>
-
+          <div class="big-section-title"><h4>Work & Process</h4></div>
 
           <div class="row justify-content-center home-strong-areas-tabs">
             <div class="col col-12 col-xl-11 col-sm-11 p-0 text-left tab-style3" id="animated-tab1">

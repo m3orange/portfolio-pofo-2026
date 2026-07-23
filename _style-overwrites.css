@@ -36,7 +36,7 @@
  
 
 body {
-    background-color: #e6e6e6;
+    background-color:rgba(247,246,242,1.0);
 }
 
 @media (max-width: 767px) {
@@ -481,19 +481,34 @@ height: 200px; */
 }
 
 .big-section-title,
-.big-section-title-opener {
-    font-family: var(--alt-text-2);
-    font-size: 32px;
-    line-height: 1em;
-    font-weight: 700;
-    padding: 0 100px 0 8px;
+.big-section-title h4, 
+.big-section-title h5,
+.big-section-title h6 {
+    font-family: var(--alt-text-2)!important;
+    /* font-size: 32px; */
+    line-height: 1em!important;
+    font-weight: 700!important;
+    padding: 0 50px 0 0px;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .big-section-title-opener {
+
+}
+
+/* This is intro text in home, right below hero section.*/
+.big-section-title-opener,
+.big-section-title-opener h4,
+.big-section-title-opener h5,
+.big-section-title-opener h6{
     font-weight: 500 !important;
     line-height: 1.1em !important;
+        font-family: var(--alt-text-2)!important;
+    /* font-size: 32px; */
+    line-height: 1.2em!important;
+    font-weight: 500!important;
+    color: #111!important;
 }
-
 
 .idd .section-divider-light {
     background-color: unse !important;
@@ -701,13 +716,13 @@ img.mfp-img {
     line-height: 1.2em !important;
 }
 
-#home-projects-grid-01 h4,
+/* #home-projects-grid-01 h4,
 #home-projects-grid-02 h4 {
     font-family: var(--alt-text) !important;
     font-weight: 500 !important;
     color: var(--primary-color) !important;
 
-}
+} */
 
 #home-projects-grid-01 {
     padding: 130px 0 200px 0 !important;
@@ -1158,7 +1173,6 @@ video {
   }
 
 
-
     .btn-to-atlas-ds-page.btn{
     /* border-bottom: 2px solid rgba(255,255,255,0.8);
     text-decoration: none!important; */
@@ -1182,6 +1196,32 @@ video {
     /* border-bottom: 1px solid #ffffff; */
     color: #FFF !important;
     font-size: 15px;
+}
+
+   .button-area-various{
+        display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin: 0 0 40px 0;
+   }
+
+
+
+#resume-02 .btn-view-website-area{
+        margin-left: 8px;
+    padding: 6px 12px;
+    width: fit-content;
+    border: 2px solid rgba(0,0,0,0.5)!important; margin-left: 8px; padding-left: 8px;
+        display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 0px;
+}
+
+#resume-02 .btn-to-atlas-ds-page a{
+        font-size: 17px;
+           color: #000!important;
 }
 
 
@@ -1320,7 +1360,7 @@ video {
     justify-content: flex-end;
     align-items: flex-end;
     padding: 0 !important;
-    background: #172041 url(projects/atlas-design-system/atlas-topo-bg-alpha.png) left no-repeat !important;
+    background: #1a2346 url(projects/atlas-design-system/atlas-topo-bg-alpha.png) left no-repeat !important;
     background-size: 70% !important;
 }
 
@@ -3034,8 +3074,8 @@ h6 .anchor-emphasis {
 }
 
 
-.atlas #anchor-03.anchor-wrapper{background-color: #232c4f;}
-.atlas #anchor-04.anchor-wrapper{background-color: #3d404b;}
+.atlas #anchor-03.anchor-wrapper{background-color:#3c5480;}
+.atlas #anchor-04.anchor-wrapper{background-color:  #232c4f;}
 
 .admin #anchor-01.anchor-wrapper {background-color: unset;}
 .admin #anchor-02.anchor-wrapper {background-color: #616161;}

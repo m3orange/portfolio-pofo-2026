@@ -15,7 +15,7 @@
 
             <div class="col col-10 col-md-10 text-right pr-0 nav-adjust temp-horizontal-nav">
                 <ul class="font-weight-600 ">
-                    <li><a href="<?= BASE_URL ?>about.php" class="inner-link">About</a></li>
+                    <li><a href="<?= BASE_URL ?>about.php" class="inner-link">Expertise</a></li>
                     <li><a href="<?= BASE_URL ?>resume.php" class="inner-link">Resume</a></li>
                     <div class="nav-divider"></div>
                     <li><a href="<?= BASE_URL ?>projects/atlas-ui/index.php" title="Atlas UI">CityBox</a></li>

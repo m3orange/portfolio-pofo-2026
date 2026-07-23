@@ -47,7 +47,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <img src="<?= BASE_URL ?>images/profile-pics/mmunoz-profile-bw-alpha.png">
             </div>
 
-            <div class="color-backdrop z-index-0">Hello?</div>
+            <div class="color-backdrop z-index-0"></div>
         </div>
 
     </section>
@@ -134,6 +134,37 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <div class="row" style="flex-direction: column;">
                 <div class="big-number">02</div>
                 <div class="big-section-title margin-50px-bottom">Professional Experience</div>
+
+                <div class="row">
+                    <div class="col col-12 col-md-8">
+                        <div class="button-area-various">
+                        <div class="btn-view-website-area">
+                            <div class="dark-version btn btn-to-atlas-ds-page">
+                                <a href="<?= BASE_URL ?>about.php#toolset" target="_blank">View Knowledge & Skills</a>
+                            </div>
+                            <div class="btn-view-website">
+                                <img src="http://localhost:8000/images/arrow-view-website-black.svg">
+                            </div>
+                        </div>
+                        <div class="btn-view-website-area">
+                            <div class="dark-version btn btn-to-atlas-ds-page">
+                                <a href="<?= BASE_URL ?>about.php#unicorn" target="_blank">View Engineering Knowledge</a>
+                            </div>
+                            <div class="btn-view-website">
+                                <img src="http://localhost:8000/images/arrow-view-website-black.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+
+
+
+
+
+
+
             </div>
         </div>
 
