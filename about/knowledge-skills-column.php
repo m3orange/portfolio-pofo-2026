@@ -48,7 +48,7 @@
         <div class="toolset-column-header">
             <div class="icon-and-title">
                 <div class="poly-icon"><img src="<?= BASE_URL ?>images/line-icons-06.svg"></div>
-                <h6>Product Design & Engineering Skills</h6>
+                <h6>UX, UXR & Engineering Skills</h6>
             </div>
         </div>
 

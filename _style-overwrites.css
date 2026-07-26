@@ -124,7 +124,7 @@ nav.navbar.bootsnav {
 .nav-divider {
     width: 1px;
     background-color: rgba(255, 255, 255, 0.3);
-    margin: 18px 0px;
+    margin: 18px 10px;
 }
 
 /*---------- First I used with white bar 
@@ -1147,13 +1147,23 @@ video {
 
 
 .btn-view-website{
-    height: 30px;
+    height: 100px;
     padding: 2px;
         margin-left: 8px;
+
+            display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.btn-view-website {
+    height: 50px!important;
+    padding: 2px;
+
 }
 
 .btn-view-website img{
-    height: 14px;
+    height: 30px;
+    opacity: 1;
 }
 
 .btn-view-website-area{
@@ -1165,6 +1175,8 @@ video {
     padding-left: 14px;
     height: fit-content;
         gap: 6px;
+
+        
 }
 
   .btn-to-atlas-ds-page{
@@ -1183,6 +1195,8 @@ video {
         letter-spacing: 0;
     text-transform: unset!important;
     padding: 0px!important;
+
+    
 
   }
 
@@ -1210,21 +1224,31 @@ video {
    }
 
 
-
-#resume-02 .btn-view-website-area{
-        margin-left: 8px;
-    padding: 6px 12px;
+#resume-01 .btn-view-website-area {
     width: fit-content;
-    border: 2px solid rgba(0,0,0,0.5)!important; margin-left: 8px; padding-left: 8px;
-        display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.4) !important;
+    margin-left: 8px;
+    display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: space-between;
-    gap: 0px;
+    column-gap: 20px;
     min-width: 280px;
+    text-decoration: none !important;
+    color: #000;
+    max-width: 320px !important;
+    aspect-ratio: 1 / 0.8;
+    font-size: 22px;
+    line-height: 1.3em;
+    padding: 25px;
+    font-family: var(--alt-text);
+    font-weight: 600 !important;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0,0.02);
 }
 
-#resume-02 .btn-to-atlas-ds-page a{
+
+#resume-01 .btn-to-atlas-ds-page a{
         font-size: 17px;
            color: #000!important;
 }
@@ -2235,10 +2259,10 @@ font-style: italic !important;
 .about #home-hero-opener,
 .resume #home-hero-opener,
 .contact #home-hero-opener {
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
     background-position-x: left;
-    background-position-y: -40px;
+    /* background-position-y: 100px !important; */
     height: 70vh !important;
 }
 
@@ -2264,14 +2288,13 @@ font-style: italic !important;
 }
 
 .color-backdrop{
-    background-color: rgb(255 119 0 / 80%);
-position: absolute;
+    background-color: #e6190270;
+    position: absolute;
     height: 100%;
     width: 100%;
     /* opacity: 0.75; */
     top: 0;
     left: 0;
-    
 }
 
 .resume .profile-pic-area-position{
@@ -2282,15 +2305,20 @@ position: absolute;
     bottom: 0px;
 }
 
+.resume .profile-pic img{
+    width: 55%!important;
+
+}
+
 .z-index-10 {
     z-index: 10;
 }
 
 
 
-.resume .profile-pic-area img{ width: 80%;}
+.resume .profile-pic-area img{ width: 60%;}
 
-.resume .profile-pic-area-position img{width: 70%;}
+.resume .profile-pic-area-position img{width: 30%;}
 
 /* .home #home-hero-opener{
     background: url(animations/260713_2154-bg-for-animation-for-homapage.mp4);
@@ -2747,7 +2775,7 @@ position: absolute;
 #education-list .rsm-item-header,
 #training-list .rsm-item-header {
     display: flex !important;
-    padding: 10px 0 6px 0;
+    padding: 12px 0 10px 0;
     margin: 10px 0;
     color: #000;
     color: purple;
@@ -2759,7 +2787,7 @@ position: absolute;
 
 #education-list .rsm-item-header,
 #training-list .rsm-item-header {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid rgba(0,0,0,0.4);
 }
 
 #training-list .rsm-item-header {
@@ -2819,7 +2847,23 @@ education-details p {
 
 
 .ux-eng-bg-color {
-    background-color: #393939;
+    /* background-color: #393939; */
+}
+
+
+/* Inspired by https://codepen.io/naprirfan/pen/xEvRae */
+
+.ux-eng-bg-color  {
+  /* margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh; */
+ 
+  background: #121212;
+  background-image: 
+  linear-gradient(rgba(255,255,255, 0.05) .1em, transparent .1em), 
+  linear-gradient(90deg, rgba(155,155,155,0.05) .1em, transparent .1em);
+  background-size: 1em 1em;
 }
 
 #ux-eng {

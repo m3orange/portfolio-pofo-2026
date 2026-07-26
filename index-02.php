@@ -5,11 +5,62 @@
 
 <body class="home">
 
-  <!-- start header -->
-  <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
-  <!-- end header -->
 
-  <?php include ROOT_PATH . 'home/home-hero-opener.php'; ?>
+  <section id="home-hero-opener" class="p-0 full-screen position-relative wow" style="visibility: visible;"> 
+
+    <div class="video-background-container">
+      <!-- Attributes ensure the video autoplays silently, loops infinitely, and works on mobile devices -->
+      <video autoplay muted loop playsinline class="background-video">
+
+              <source src="<?= BASE_URL ?>home/hero-morph-fpo.mp4" type="video/mp4">
+
+      </video>
+
+      <style>
+        .video-background-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start !important;
+    justify-content: center !important;
+    background-color: #000 !important;
+    padding: 0 3% 3% 3%!important;
+        flex-direction: column!important;
+}
+
+.background-video {
+
+    max-width: 100%!important;
+    z-index: 100;
+    opacity: 1!important;
+
+}
+
+video{
+  max-width: 100%!important;
+
+    background-size: unset !important;
+}
+
+body{
+  margin: 0px!important;
+  padding: 0px!important;
+}
+
+
+.home #home-hero-opener {
+    overflow: hidden !important;
+    background-color: #000 !important;
+}
+
+      </style>
+
+
+    </div>
+  </section>
+
 
   <?php include ROOT_PATH . 'home/home-accordion-intro.php'; ?>
 

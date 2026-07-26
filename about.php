@@ -37,7 +37,9 @@
         <div class="row" style="flex-direction: column;">
             <div class="big-number">01</div>
             <div class="big-section-title margin-50px-bottom">
-                <h4>I'm a full-stack designer: I'm fluent in code.</h4></div>
+                <h4>I'm a full-stack designer: I'm fluent in code.</h4>
+                <h6>Nam metus dolor, facilisis nec commodo vitae, dignissim placerat sapien. Aliquam ac bibendum turpis. Donec vel pharetra tellus, facilisis egestas dolor. Fusce bibendum felis ut tempor blandit. Sed sagittis venenatis dui id semper. Suspendisse nec blandit lorem. Nam a lacus pretium, lacinia nunc non, dignissim ligula.</h6>
+            </div>
         </div>
             <img src="<?= BASE_URL ?>about/brad-frost-tweet-03.png" style="max-width: 90%;">
     </div>
