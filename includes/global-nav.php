@@ -23,10 +23,10 @@
                     <li class="bright"><a href="<?= BASE_URL ?>projects/cx-roadmap/index.php" title="CX Roadmap">USIC</a></li>
                     <li class="bright"><a href="<?= BASE_URL ?>projects/space-scout/index.php" title="In Situ">Space Scout</a></li>
                     <li class="bright"><a href="<?= BASE_URL ?>projects/idd/index.php" title="IDD">IDD</a></li>
+                    <li class="bright"><a href="<?= BASE_URL ?>projects/atlas-design-system/index.php" title="Atlas Design System">Design System</a></li>
 
                     <div class="nav-divider"></div>
-                    <li><a class="dimmed" href="<?= BASE_URL ?>projects/atlas-ui/index.php" title="Atlas UI">CityBox</a></li>
-                    <li><a class="dimmed" href="<?= BASE_URL ?>projects/atlas-design-system/index.php" title="Atlas Design System">Design System</a></li>
+                    <li><a class="dimmed" href="<?= BASE_URL ?>projects/atlas-ui/index.php" title="Atlas UI">CityBox</a></li>                    
                     <li><a class="dimmed" href="<?= BASE_URL ?>projects/admin/index.php" title="Admin Platform">Admin</a></li>
                     <li><a class="dimmed" href="<?= BASE_URL ?>projects/map-tools/index.php" title="Map Tools">Map Tools</a></li>
                 </ul>
