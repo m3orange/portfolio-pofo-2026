@@ -10,9 +10,9 @@
 
     <div class="video-background-container">
       <!-- Attributes ensure the video autoplays silently, loops infinitely, and works on mobile devices -->
-      <video autoplay muted loop playsinline class="background-video">
+      <video autoplay muted loop playsinline class="">
 
-              <source src="<?= BASE_URL ?>home/hero-morph-fpo.mp4" type="video/mp4">
+              <source class="the-video" src="<?= BASE_URL ?>home/hero-morph-fpo.mp4" type="video/mp4">
 
       </video>
 
@@ -21,7 +21,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    overflow: hidden;
+    overflow: hiddaccoren;
     display: flex;
     align-items: flex-start !important;
     justify-content: center !important;
@@ -30,13 +30,11 @@
         flex-direction: column!important;
 }
 
-.background-video {
-
-    max-width: 100%!important;
-    z-index: 100;
-    opacity: 1!important;
-
+.the-video{
+  max-width: 85%!important;
 }
+
+
 
 video{
   max-width: 100%!important;

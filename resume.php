@@ -39,7 +39,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
         <div class="profile-pic-area-position">
             <div class="profile-pic z-index-10 ">
-                <img src="<?= BASE_URL ?>images/profile-pics/mmunoz-profile-bw-alpha.png">
+                <img src="<?= BASE_URL ?>images/profile-pics/mmunoz-profile-bw-alpha-flipped.png">
             </div>
 
             <div class="color-backdrop z-index-0"></div>

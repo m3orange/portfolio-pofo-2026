@@ -18,10 +18,7 @@
 
                 <div class="big-intro-text">
                   <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom">
-                    I'm a
-                    <span class="mf-var-02">senior product designer</span> with a
-                    <span class="mf-var-01">passion for human-centered design</span> and
-                    <span class="mf-var-03">usability.</span>
+                    I'm a senior product designer with a passion for <span class="serif-emphasis">human-centered design and usability.</span>
                   </h1>
                 </div>
 
@@ -30,7 +27,7 @@
                     <img src="<?= BASE_URL ?>images/starburst-100x100.svg" alt="Eames Starburst" />
                   </div>
                   <h4 class="seeking-text">
-                    I’m seeking a position in <span class="inline-emphasis-02">product design</span> or <span class="inline-emphasis-02">UX engineering.</span>
+                    I’m seeking a position in <span class="serif-emphasis">product design</span> or <span class="serif-emphasis">UX engineering.</span>
                   </h4>
                 </div>
                 

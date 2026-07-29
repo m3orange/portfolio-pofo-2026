@@ -50,8 +50,6 @@
        <div class="col col-12 wow fadeIn" data-wow-delay="0s">
         <div class="unicorn-intro">
             Just like an architect needs to understand engineering principles in load bearing or material mechanics, I needed to understand exactly how my designs would be built, and make sure that my work was rooted in reality. I trained myself extensively in hands-on front-end programming.
-
-            
         </div>
         <div class="full-stack-lifecycle-diagram">
             <img src="<?= BASE_URL ?>about/fs-designer-lifecycle-rev.png">
@@ -88,7 +86,7 @@
                     <div class="big-number">02</div>
                     <div class="big-section-title margin-50px-bottom">
                         <h4>My Toolkit</h4>
-                        <h5>Add Statement</h5>
+                        <h6>Add Statemment - Nam metus dolor, facilisis nec commodo vitae, dignissim placerat sapien. Aliquam ac bibendum turpis. Donec vel pharetra tellus, facilisis egestas dolor. Fusce bibendum felis ut tempor blandit. Sed sagittis venenatis dui id semper. Suspendisse nec blandit lorem. Nam a lacus pretium, lacinia nunc non, dignissim ligula.</h6>
                     </div>
                 </div>
             </div>
