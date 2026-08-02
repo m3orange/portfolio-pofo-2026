@@ -77,33 +77,13 @@
     </div>
   </section>
 
-
-  <section class="wow fadeIn section-with-border-top">
-    <div class="container">
-      <div class="row">
-        <div class="col col-12 col-lg-4">
-         <img src="<?= BASE_URL ?>projects/home-projects/home-musicasa.png" />
-        </div>
-        <div class="col col-12 col-lg-3">
-          <h3 class="m-0">01</h3>
-          <h4>Atlas Design System</h4>
-        </div>
-        <div class="col col-12 col-lg-5">
-          The Atlas Design System was built for a complex geospatial mapping application,
-        </div>
-        </div>
-    </div>
-  </section>
   <!-- start portfolio section --- portfolio-full-width-masonry-overlay ----->
-  <!-- <!-?php include ROOT_PATH . 'home/home-project-grid.php'; ?> -->
+  <?php include ROOT_PATH . 'home/home-project-grid.php'; ?>
   <!-- end portfolio section --- portfolio-full-width-masonry-overlay ----->
-
 
 
   <!-- start footer -->
   <?php include_once("includes/global-footer.php"); ?>
-
-
 
   
 </body>

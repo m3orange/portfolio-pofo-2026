@@ -9,10 +9,17 @@
                     <img src="<?= BASE_URL ?>images/munoz-logo-horizontal-white-06.svg" data-rjs="<?= BASE_URL ?>images/munoz-logo-symbol-only.svg" alt="Michelle Muñoz">
                 </a>
             </div>
+
+                                    
                 <!--?php include ROOT_PATH . 'includes/temp-links.php'; ?-->
+
             <?php include ROOT_PATH . 'includes/global-nav-hamburger-and-drawer-menu.php'; ?>
         </div>
     </nav>
 </header>
 <!-- end header  --- This is hamburger-menu-half-->
+
+<div class="col-12 col-xl-6 col-lg-8 col-md-10 text-center">
+
+                    </div>
 

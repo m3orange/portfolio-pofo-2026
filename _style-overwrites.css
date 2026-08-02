@@ -257,6 +257,27 @@ header a.logo img {
     padding: 10px 0 !important;
 }
 
+.contact-button{
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact-button a,
+.contact-button a:visited{
+    color: #FFF !important;
+    font-size: 16px!important;
+    font-family: var(--ibm-sans-body-01);
+    letter-spacing: 0px;
+}
+
+.contact-button i{
+    margin: 2px 8px 2px 0;
+    color: #FFF;
+    font-weight: 500;
+
+}
+
 
 footer,
 footer a {
@@ -264,7 +285,7 @@ footer a {
 }
 
 .footer-logo {
-    max-height: 54px;
+    max-height: 35px;
 
 }
 
@@ -279,6 +300,22 @@ footer a {
     font-size: 16px !important;
     line-height: 1.2em !important;
     color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-big-words{
+    position: relative;
+    top: 0;
+    height: 164px;
+    overflow: hidden;
+    text-align: left;
+    left: 0px;
+    opacity: 0.05;
+    padding-left: 28px;
+  
+}
+
+.footer-big-words img {
+    min-height: 250px;
 }
 
 #pagination{
@@ -298,7 +335,7 @@ footer a {
     color: #FFF;
 }
 
-#pagnation ti-arrow-right blog-nav-icon{
+#pagination ti-arrow-right blog-nav-icon{
     color: #FFF;
 }
 
@@ -643,11 +680,12 @@ img.mfp-img {
 
 .home-big-words{
     position: absolute;
-    left: -40px;
-    bottom: -40px;
+    left: 0px;
+    bottom: -80px;
     width: 80%;
-    opacity: 0.2;
+    opacity: 0.35;
     text-align: right;
+ 
 }
 
 .home-big-words .word-01 {
@@ -791,6 +829,7 @@ img.mfp-img {
 
 #home-projects-grid-01 {
     padding: 130px 0 200px 0 !important;
+    background-color: #474747;
 }
 
 #home-projects-grid-02 {
@@ -1239,6 +1278,22 @@ video {
 
         
 }
+.atlas .btn-view-website,
+.citybox .btn-view-website{
+    height: fit-content!important;
+}
+
+.atlas .btn-to-atlas-ds-page,
+.citybox .btn-to-atlas-ds-page{
+        flex-direction: row;
+            justify-content: center;
+            align-items: center;
+}
+
+.atlas .btn-view-website img,
+.citybox .btn-view-website img{
+    height: 18px!important;
+}
 
   .btn-to-atlas-ds-page{
     display: flex !important;
@@ -1274,7 +1329,7 @@ video {
     /* text-decoration: none; */
     /* border-bottom: 1px solid #ffffff; */
     color: #FFF !important;
-    font-size: 15px;
+    font-size: 16px;
 }
 
    .button-area-various{
@@ -3244,29 +3299,44 @@ h6 .anchor-emphasis {
 }
 
 
-
+header nav.navbar{
+    height: 80px;
+}
 
 
 .home-grid-top{
-    height: 100px;
-    position: absolute;
-    top: 90px;
-    right: -10px;
-    width: 50%;
-    z-index: 100;
-    padding: 10px 0;
 
+    position: absolute;
+    top: 80px;
+    right: -10px;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.home-grid-top .text-block-01,
+.home-grid-top .text-block-02{
+    /* width: 50%; */
+    border-left: 1px solid var(--home-grid-border-color);
+    padding:  10px 8px 16px 14px;
+}
+
+.home-grid-top .text-block-01{
+        border-left: 2px solid var(--home-grid-border-color);
+            margin-right: 14px;
 }
 
 
 
 .home-grid-bottom{
-    z-index: 100;
+    z-index: 50;
     position: absolute;
     bottom: 0px;
     width: 100%;
     left: 0px;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-top: 1px solid var(--home-grid-border-color);
     height: 40px;
     padding: 30px 0 70px 0;
 
@@ -3275,10 +3345,12 @@ h6 .anchor-emphasis {
 .home-grid-top,.home-grid-bottom{
         font-family: var(--ibm-mono);
         color: rgba(255, 255, 255, 1);
-        /* text-transform: uppercase; */
+        text-transform: uppercase;
         font-weight: 500;
-        font-size: 15px;
+        font-size: 14px;
         opacity: 0.8;
+        letter-spacing: 1px;
+        z-index: 10;
 }
 
 .left-pretty-text{
@@ -3286,8 +3358,8 @@ h6 .anchor-emphasis {
 }
 
 
-.navbar, .home-grid-top, .home-grid-border-b {border-bottom: 1px solid rgba(255, 255, 255, 0.4)!important;}
-.home-grid-bottom, .home-grid-border-t {border-top: 1px solid rgba(255, 255, 255, 0.4)!important;}
+.navbar,  .home-grid-border-b {border-bottom: 1px solid var(--home-grid-border-color)!important;}
+.home-grid-bottom, .home-grid-border-t {border-top: 1px solid var(--home-grid-border-color)!important;}
 
 
 

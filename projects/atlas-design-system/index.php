@@ -96,9 +96,11 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
             <div class="btn-view-website-area" style="border-left: 1px solid #000000CC!important;">
                 <div class="btn btn-to-atlas-ds-page">
                     <a href="<?= BASE_URL ?>projects/atlas-ui/index.php" target="_blank" style="color: #000000!important;">View UI Design</a>
+                    <div class="btn-view-website"><img src="<?= BASE_URL ?>images/arrow-view-website-black.svg" style="height: 18px;"/></div>
                 </div>
+                
             </div>
-            <div class="btn-view-website"><img src="<?= BASE_URL ?>images/arrow-view-website-black.svg"/></div>
+            
         </div>
       </div>
     </div>

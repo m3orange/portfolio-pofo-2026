@@ -33,9 +33,7 @@
             <div class="row">
                 <div class="col col-12 col-xl-9 col-lg-8 line-height-28 last-paragraph-no-margin wow">
                     <h6 class="description-paragraph"><?= $project['description'] ?> </h6>  
-                    <div class="project-labels-area">
-                        <span class="pi-tags"><?= $project['tags'] ?></span>
-                    </div> 
+                    <!-- <div class="project-labels-area"><span class="pi-tags"><?= $project['tags'] ?></span></div>  -->
                 <?php include ROOT_PATH . 'includes/projects-confidentiality-note.php'; ?> 
                 </div>
             </div>

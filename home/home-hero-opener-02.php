@@ -19,7 +19,7 @@
         <div class="container h-100">
           <div class="row h-100 m-0 p-0">
 
-            <div class="col col-12 col-lg-9 col-md-10 d-flex justify-content-center flex-column text-left text-md-start">
+            <div class="col col-12 col-xl-8 col-lg-9 col-md-10 d-flex justify-content-center flex-column text-left text-md-start">
               <div class="home-hero-text-block">
                   <div class="sm-margin-20px-bottom">
                   <h1>I'm a senior product designer with a passion for 
@@ -38,23 +38,13 @@
       </div>
     </div>
 
-<div class="home-grid-top p-0">
-<div class="container h-100">
-      <div class="row d-flex d-flex-top h-100">
-      <div class="col col-12 col-md-6">
-       <div class="left-pretty-text text-align-left">
-    <img src="<?= BASE_URL ?>images/home-grid-text-01.svg" style="height: 60px;" />
-      </div>
-      </div>
-      <div class="col col-12 col-md-6 h-100">
-        <div class="row h-100">
-          <div class="col-12 p-0 home-grid-border-b d-flex-centering">M. Architecture • MFA Design</div>
-          <div class="col-12 p-0 d-flex-centering">Email: hello@michellemunoz.info</div>
-        </div>
+<div class="home-grid-top">
 
-      </div>
-    </div>
-</div>
+
+      <div class="text-block-01">M. Architecture • MFA Design</div>
+      <div class="text-block-02">hello@michellemunoz.info</div>
+
+
 
 </div>
 
@@ -72,7 +62,7 @@
 </div>
 
 <div class="home-big-words">
-<img class="word-01" src="<?= BASE_URL ?>home/home-big-words-01.svg" />
+<img class="word-01" src="<?= BASE_URL ?>home/home-big-words-slab-01.svg" />
 <!-- <img class="word-02" src="<?= BASE_URL ?>home/home-big-words-02.svg" /> -->
 </div>
   </section>
