@@ -78,7 +78,7 @@
                      <div class="panel-body">
                         <h6>
                            <ul>
-                              <li> Some of my daily tasks: leading interviews and design thinking workshops with cross-functional stakeholders; using AI-assisted research and synthesis to drive discovery into ideation; prototyping ideas to test viability with engineering; daily standups with dev teams; preparing handoff documentation and providing developers with the exact components and props we'll be using.</li>
+                              <li> I'm involved in: leading interviews and design thinking workshops with cross-functional stakeholders; using AI-assisted research and synthesis to drive discovery into ideation; prototyping ideas to test viability with engineering; daily standups with dev teams; preparing handoff documentation and providing developers with the exact components and props we'll be using.</li>
                               <li>I think like a detective: I gather insight on business needs, technical constraints and users' needs and challenges, and I help teams connect the dots that lead to cross-functional alignment into defining what to build, and making sure we're building it right.</li>
                               <!-- <span class="inline-emphasis-01"></span> -->
                            </ul>
@@ -132,7 +132,7 @@
 
                            <h6>
                               <ul style="padding-inline-start: 0px !important;">
-                                 <li class="italic-ibm"> P.S. I believe in <strong>&lt;!--handshakes, not handoffs.--&gt; </strong> Design and engineering's collaboration should start at the beginning of the project, not when Jira tickets are created. It should be a constant, symbiotic relationship, where standups and critical touchpoints can ensure that challenges are tackled early on. </li>
+                                 <li class="italic-ibm"> P.S. I believe in <strong>&lt;!--handshakes, not handoffs.--&gt; </strong> Design and engineering's collaboration must start at the beginning of the project, not when Jira tickets are created. It should be a constant, symbiotic relationship, where standups and critical touchpoints can ensure that challenges are tackled early on. </li>
                               </ul>
                            </h6>
 

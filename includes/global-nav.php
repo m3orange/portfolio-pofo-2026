@@ -1,49 +1,18 @@
 
 <!-- start header --- This is hamburger-menu-half-->
 <header class="m3-main-nav">
-    <!-- Start navigation -->
-    <nav class="navbar bg-transparent navbar-top navbar-transparent-no-sticky full-width-pull-menu white-link no-transition">
-        <div class="container nav-header-container height-100px sm-height-70px p-0">
-            <!-- Start header navigation -->
 
+    <nav class="navbar bg-transparent navbar-top navbar-transparent-no-sticky full-width-pull-menu white-link no-transition">
+        <div class="container nav-header-container" style="padding: 10px 0;"> <!--height-100px sm-height-70px p-0 -->
             <div class="col col-12 col-md-2 d-md-block pl-0"> <!--d-none -->
                 <a class="logo" href="<?= BASE_URL ?>index.php">
-                    <img src="<?= BASE_URL ?>images/munoz-logo-horizontal-white-04.svg" data-rjs="<?= BASE_URL ?>m3orange-logo-white@2x.png" alt="Michelle Muñoz">
+                    <img src="<?= BASE_URL ?>images/munoz-logo-horizontal-white-06.svg" data-rjs="<?= BASE_URL ?>images/munoz-logo-symbol-only.svg" alt="Michelle Muñoz">
                 </a>
             </div>
-
-
-
-            <div class="col col-10 col-md-10 text-right pr-0 nav-adjust temp-horizontal-nav">
-                <ul class="font-weight-600 ">
-                    <li><a href="<?= BASE_URL ?>about.php" class="inner-link">Expertise</a></li>
-                    <li><a href="<?= BASE_URL ?>resume.php" class="inner-link">Resume</a></li>
-                    <div class="nav-divider"></div>
-                    <li class="bright"><a href="<?= BASE_URL ?>projects/musicasa/index.php" title="Musicasa">Musicasa</a></li>
-                    <li class="bright"><a href="<?= BASE_URL ?>projects/cx-roadmap/index.php" title="CX Roadmap">USIC</a></li>
-                    <li class="bright"><a href="<?= BASE_URL ?>projects/space-scout/index.php" title="In Situ">Space Scout</a></li>
-                    <li class="bright"><a href="<?= BASE_URL ?>projects/idd/index.php" title="IDD">IDD</a></li>
-                    <li class="bright"><a href="<?= BASE_URL ?>projects/atlas-design-system/index.php" title="Atlas Design System">Design System</a></li>
-
-                    <div class="nav-divider"></div>
-                    <li><a class="dimmed" href="<?= BASE_URL ?>projects/atlas-ui/index.php" title="Atlas UI">CityBox</a></li>                    
-                    <li><a class="dimmed" href="<?= BASE_URL ?>projects/admin/index.php" title="Admin Platform">Admin</a></li>
-                    <li><a class="dimmed" href="<?= BASE_URL ?>projects/map-tools/index.php" title="Map Tools">Map Tools</a></li>
-                </ul>
-            </div>
-
-            <style>
-                .dimmed{opacity: 0.3;}
-                .bright a {color: yellow!important;}
-
-            </style>
-
-
-            <!--?php include ROOT_PATH . 'includes/global-nav-hamburger-and-drawer-menu.php'; ?-->
+                <!--?php include ROOT_PATH . 'includes/temp-links.php'; ?-->
+            <?php include ROOT_PATH . 'includes/global-nav-hamburger-and-drawer-menu.php'; ?>
         </div>
-        <!-- end header navigation -->
     </nav>
-    <!-- end navigation -->
 </header>
 <!-- end header  --- This is hamburger-menu-half-->
 

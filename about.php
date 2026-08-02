@@ -19,10 +19,6 @@
                     <h5>Text introducing UX engineering knowledge</h5>
                 </div>
             </div><!-- cols-->
-            <div class="col col-12 col-lg-5 d-flex justify-content-center flex-column d-flex about-venn">
-                <img src="<?= BASE_URL ?>about/uxe-venn-diagram.png">
-            </div>
-
         </div><!-- row-->
     </div>
 </section>
@@ -38,7 +34,7 @@
             <div class="big-number">01</div>
             <div class="big-section-title margin-50px-bottom">
                 <h4>I'm a full-stack designer: I'm fluent in code.</h4>
-                <h6>Nam metus dolor, facilisis nec commodo vitae, dignissim placerat sapien. Aliquam ac bibendum turpis. Donec vel pharetra tellus, facilisis egestas dolor. Fusce bibendum felis ut tempor blandit. Sed sagittis venenatis dui id semper. Suspendisse nec blandit lorem. Nam a lacus pretium, lacinia nunc non, dignissim ligula.</h6>
+                <!-- <h6>Nam metus dolor, facilisis nec commodo vitae, dignissim placerat sapien. Aliquam ac bibendum turpis. Donec vel pharetra tellus, facilisis egestas dolor. Fusce bibendum felis ut tempor blandit. Sed sagittis venenatis dui id semper. Suspendisse nec blandit lorem. Nam a lacus pretium, lacinia nunc non, dignissim ligula.</h6> -->
             </div>
         </div>
             <img src="<?= BASE_URL ?>about/brad-frost-tweet-03.png" style="max-width: 90%;">
@@ -86,8 +82,10 @@
                     <div class="big-number">02</div>
                     <div class="big-section-title margin-50px-bottom">
                         <h4>My Toolkit</h4>
-                        <h6>Add Statemment - Nam metus dolor, facilisis nec commodo vitae, dignissim placerat sapien. Aliquam ac bibendum turpis. Donec vel pharetra tellus, facilisis egestas dolor. Fusce bibendum felis ut tempor blandit. Sed sagittis venenatis dui id semper. Suspendisse nec blandit lorem. Nam a lacus pretium, lacinia nunc non, dignissim ligula.</h6>
+                        <!-- <h6>Add Statemment - Nam metus dolor, facilisis nec commodo vitae, dignissim placerat sapien. Aliquam ac bibendum turpis. Donec vel pharetra tellus, facilisis egestas dolor. Fusce bibendum felis ut tempor blandit. Sed sagittis venenatis dui id semper. Suspendisse nec blandit lorem. Nam a lacus pretium, lacinia nunc non, dignissim ligula.</h6> -->
                     </div>
+
+                    <!-- <img src="<?= BASE_URL ?>about/uxe-venn-diagram.png"> -->
                 </div>
             </div>
 
@@ -108,7 +106,7 @@
                 <div class="row" style="flex-direction: column; column-gap: 20px;">
                     <div class="big-number text-white">03</div>
                     <div class="big-section-title margin-50px-bottom text-white">
-                        <h4 class="text-white">UX Engineering Initiatives</h4></div>
+                        <h4 class="text-white">Engineering Explorations</h4></div>
                 </div>
             </div>
         </div>

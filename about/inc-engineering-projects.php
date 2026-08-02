@@ -97,9 +97,7 @@
             <div class="col-12 col-xl-4 col-lg-6 padding-six-lr lg-padding-15px-lr text-left text-md-start resume-text"
                 data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
                 <h5 class="font-weight-600 header-font text-white">Analysis Process</h5>
-                Roadmap of an exploration process into understanding the impact of the design
-                process in engineering, and vice versa, and the development of initiatives that help improve
-                performance, speed and accuracy.
+                Roadmap of an exploration into understanding the impact of the design process in engineering implementation, and vice versa, and the development of processes that may help improve speed and accuracy.
             </div>
 
             <!-- Right Block ---->
