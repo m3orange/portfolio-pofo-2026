@@ -672,9 +672,9 @@ img.mfp-img {
 .serif-emphasis{
     /* font-family:  var(--serif-roboto); */
     font-style: italic !important;
-    font-weight: 500!important;
-    color: #FFFFFF;
-    background-color: rgba(244,24,0,0.8);
+    font-weight: 600!important;
+    color: #000;
+    background-color: rgba(244,24,0,1);
     letter-spacing: 1px;
 }
 
