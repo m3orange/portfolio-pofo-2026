@@ -66,7 +66,7 @@
 
        <!-- start portfolio-item item -->
        <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0.4s">
-        <a href="<?= BASE_URL ?>projects/citybox/index.php">
+        <a href="<?= BASE_URL ?>projects/atlas-ui/index.php">
          <figure>
           <div class="portfolio-img bg-deep-pink"><img src="<?= BASE_URL ?>projects/home-projects/home-citybox-ui.png"
             alt="" /></div>
@@ -88,6 +88,30 @@
        </li>
        <!-- end portfolio item -->
 
+       <!-- start portfolio-item item -->
+       <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0.4s">
+        <a href="<?= BASE_URL ?>projects/space-scout/index.php">
+         <figure>
+          <div class="portfolio-img bg-deep-pink"><img src="<?= BASE_URL ?>projects/home-projects/home-space-scout.png"
+            alt="" />
+          </div>
+          <figcaption>
+           <div class="portfolio-hover-main text-left">
+            <div class="portfolio-hover-box align-bottom featured-work-thumbs">
+             <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+              <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2">
+              </div>
+              <span
+               class="line-height-normal text-white-2 margin-5px-bottom d-block featured-work-title">In Situ</span>
+              <p>Location finder</p>
+             </div>
+            </div>
+           </div>
+          </figcaption>
+         </figure>
+        </a>
+       </li>
+       <!-- end portfolio item -->
 
        <!-- start portfolio-item item -->
        <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0.4s">
@@ -114,28 +138,7 @@
         </a>
        </li>
        <!-- end portfolio item -->
-       <!-- start portfolio item -->
-       <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0.6s">
-        <a href="<?= BASE_URL ?>projects/idd/index.php">
-         <figure>
-          <div class="portfolio-img bg-deep-pink"><img src="<?= BASE_URL ?>projects/home-projects/home-idd.png"
-            alt="" /></div>
-          <figcaption>
-           <div class="portfolio-hover-main text-left">
-            <div class="portfolio-hover-box align-bottom featured-work-thumbs">
-             <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
-              <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2">
-              </div>
-              <span class="line-height-normal text-white-2 margin-5px-bottom d-block featured-work-title">IDD</span>
-              <p>Incident management platform</p>
-             </div>
-            </div>
-           </div>
-          </figcaption>
-         </figure>
-        </a>
-       </li>
-       <!-- end portfolio item -->
+
        <!-- start portfolio item -->
        <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0.6s">
         <a href="<?= BASE_URL ?>projects/map-tools/index.php">
@@ -161,6 +164,30 @@
         </a>
        </li>
        <!-- end portfolio item -->
+        
+       <!-- start portfolio item -->
+       <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0.6s">
+        <a href="<?= BASE_URL ?>projects/idd/index.php">
+         <figure>
+          <div class="portfolio-img bg-deep-pink"><img src="<?= BASE_URL ?>projects/home-projects/home-idd.png"
+            alt="" /></div>
+          <figcaption>
+           <div class="portfolio-hover-main text-left">
+            <div class="portfolio-hover-box align-bottom featured-work-thumbs">
+             <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+              <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2">
+              </div>
+              <span class="line-height-normal text-white-2 margin-5px-bottom d-block featured-work-title">IDD</span>
+              <p>Incident management platform</p>
+             </div>
+            </div>
+           </div>
+          </figcaption>
+         </figure>
+        </a>
+       </li>
+       <!-- end portfolio item -->
+
       </ul>
      </div>
     </div>
