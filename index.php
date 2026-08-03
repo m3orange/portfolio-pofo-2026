@@ -20,19 +20,16 @@
         <div class="col col-12 col-lg-4 section-divider-numbered-02" style="flex-direction: column;">
 
           <div class="big-number">02</div>
-          <div class="big-section-title"><h4>Work & Process</h4></div>
+          <div class="big-section-title"><h4>Where I Shine</h4></div>
 
-          <div class="row justify-content-center home-strong-areas-tabs">
-            <div class="col col-12 col-xl-11 col-sm-11 p-0 text-left tab-style3" id="animated-tab1">
-              <!-- start tab navigation -->
+          <!-- <div class="row justify-content-center home-strong-areas-tabs">
+            <div class="col col-12 col-xl-11 col-sm-11 text-left tab-style3 p-0" id="animated-tab1">
               <ul class="nav nav-tabs text-small font-weight-600 justify-content-left flex-column flex-md-row">
-                <li class="nav-item"><a href="#tab3_sec1" data-toggle="tab" class="nav-link active">Where I Shine</a>
-                </li>
+                <li class="nav-item"><a href="#tab3_sec1" data-toggle="tab" class="nav-link active">Where I Shine</a></li>
                 <li class="nav-item"><a href="#tab3_sec2" data-toggle="tab" class="nav-link">How I Get There</a></li>
               </ul>
-              <!-- end tab navigation -->
             </div>
-          </div>
+          </div> -->
 
 
         </div>
@@ -52,18 +49,10 @@
               </div>
             </div>
             <!-- end tab content -->
-            <!-- start tab content -->
-            <div id="tab3_sec2" class="tab-pane show">
-              <div class="row justify-content-center resume-text">
-                <div class="col-12 last-paragraph-no-margin">
-
-                  <?php include ROOT_PATH . 'home/home-strong-areas-rows.php'; ?>
 
 
-                </div>
-              </div>
-            </div>
-            <!-- end tab content -->
+
+          <!-- <!-?php include ROOT_PATH . 'home/home-strong-areas-rows.php'; --?> -->
 
 
           </div>

@@ -57,10 +57,9 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <section id="resume-01" class="wow fadeIn section-with-border-top">
         <div class="container">
             <div class="row">
-
-                <div class="col col-12 col-lg-4 section-divider-numbered-02 p-0"
+                <div class="col col-12 col-lg-4 section-divider-numbered-02"
                     style="flex-direction: column; justify-content: flex-start;">
-                    <div class="row" style="flex-direction: column;">
+                    <div class="row m-0" style="flex-direction: column;">
                         <div class="big-number">01</div>
                         <div class="big-section-title margin-50px-bottom"><h4>Education</h4></div>
                     </div>
@@ -72,7 +71,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                             Fluency</a>
                                         <!-- <div class="dark-version btn btn-to-atlas-ds-page"></div> -->
                                         <div class="btn-view-website">
-                                            <img src="http://localhost:8000/images/arrow-view-website-black.svg">
+                                            <img src="<?= BASE_URL ?>images/arrow-view-website-black.svg">
                                         </div>
                                     </div>
                                     <div class="btn-view-website-area">
@@ -156,11 +155,10 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     <section id="resume-02" class="wow fadeIn section-with-border-top">
         <div class="container">
-            <div class="row">
-
-                <div class="col col-12 col-lg-4 section-divider-numbered-02 p-0"
+            <div class="row m-0">
+                <div class="col col-12 col-lg-4 section-divider-numbered-02"
                     style="flex-direction: column; justify-content: flex-start;">
-                    <div class="row" style="flex-direction: column;">
+                    <div class="row m-0" style="flex-direction: column;">
                         <div class="big-number">02</div>
                         <div class="big-section-title margin-50px-bottom">
                             <h4>Professional Experience</h4>
@@ -182,14 +180,14 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     <section id="resume-0e" class="wow fadeIn section-with-border-top">
         <div class="container">
-            <div class="row">
+            <div class="row m-0">
 
-                <div class="col col-12 col-lg-4 section-divider-numbered-02 p-0"
+                <div class="col col-12 col-lg-4 section-divider-numbered-02"
                     style="flex-direction: column; justify-content: flex-start;">
-                    <div class="row" style="flex-direction: column;">
+                    <div class="row m-0" style="flex-direction: column;">
                         <div class="big-number">03</div>
                         <div class="big-section-title margin-50px-bottom">
-                            <h4>Brands & Companies I Have Worked With</h4>
+                            <div class="col col-12 col-lg-11 col-md-12"><h4>Brands & Companies I Have Worked With</h4></div>
                         </div>
                     </div>
                 </div>
@@ -205,19 +203,22 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     <section id="resume-04" class="wow fadeIn section-with-border-top">
         <div class="container">
-            <div class="row">
+            <div class="row m-0">
 
-                <div class="col col-12 col-lg-2 section-divider-numbered-02 p-0"
+                <div class="col col-12 col-lg-3 section-divider-numbered-02 p-0"
                     style="flex-direction: column; justify-content: flex-start;">
                     <div class="row" style="flex-direction: column;">
                         <div class="big-number">04</div>
-                        <div class="big-section-title margin-50px-bottom">Design Inspiration</div>
+                        <div class="big-section-title margin-50px-bottom">
+                            <h4>Design Inspiration</h4>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col col-12 col-lg-10">
+                <div class="col col-12 col-lg-9">
                     <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
-                        <div class="row">
+                        <div class="row" style="justify-content: flex-end;">
+                            <div class="btn-swipe-sides"><img src="<?= BASE_URL ?>images/swipe-btn-black.svg"></div>
                             <div class="col-12 blog-post-content text-center text-md-center"
                                 style="padding-right: 0px; padding-left: 0px;">
 
@@ -243,7 +244,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                         </div>
                                     </div>
                                     <div
-                                        class="swiper-pagination swiper-pagination-square swiper-pagination-white swiper-full-screen-pagination">
+                                        class="swiper-pagination swiper-pagination-round swiper-pagination-black swiper-full-screen-pagination">
                                     </div>
                                     <div class="swiper-button-prev swiper-button-black-highlight"></div>
                                     <div class="swiper-button-next swiper-button-black-highlight"></div>

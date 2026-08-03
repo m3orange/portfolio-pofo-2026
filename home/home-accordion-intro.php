@@ -21,7 +21,7 @@
          </div>
 
 
-         <div class="col col-12 col-xl-8 col-lg-6">
+         <div class="col col-12 col-xl-8 col-lg-6 p-0">
             <!-- start accordion -->
             <div class="panel-group accordion-style1" id="accordion-design">
 

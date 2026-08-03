@@ -9,6 +9,12 @@ $stmt = $pdo->prepare('SELECT * FROM projects WHERE id = ?');
 $stmt->execute([6]);
 $project = $stmt->fetch(PDO::FETCH_ASSOC);
 
+// Tags (decoded from the LONGTEXT JSON cell)
+$tags = json_decode($project['tags'], true);
+if (!is_array($tags)) {
+    $tags = []; // fallback if the cell is empty or malformed
+}
+
 // Assets by type
 function getAssets($pdo, $project_id, $type) {
     $stmt = $pdo->prepare('SELECT * FROM project_assets WHERE project_id = ? AND display_type = ? ORDER BY sort_order ASC');

@@ -9,6 +9,12 @@ $stmt = $pdo->prepare('SELECT * FROM projects WHERE id = ?');
 $stmt->execute([2]);
 $project = $stmt->fetch(PDO::FETCH_ASSOC);
 
+// Tags (decoded from the LONGTEXT JSON cell)
+$tags = json_decode($project['tags'], true);
+if (!is_array($tags)) {
+    $tags = []; // fallback if the cell is empty or malformed
+}
+
 // Assets by type
 function getAssets($pdo, $project_id, $type) {
     $stmt = $pdo->prepare('SELECT * FROM project_assets WHERE project_id = ? AND display_type = ? ORDER BY sort_order ASC');
@@ -125,7 +131,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
         <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
           <h5>Prototype for the Design Documentation Repo</h5>
           <h6 class="anchor-emphasis">
-              We used these mid-fi wireframes in our discussions with Product and Engineering teams, with the goal of visualizing the kind of information and formatting that each team needed to access in a <span class="anchor-emphasis">live repo as single-source-of-truth.</span> We wanted users to have autonomous, asynchronous access to all the information they need to continue working, and structured in an intuitive and scalable way.
+              We used these mid-fi wireframes in our discussions with Product and Engineering teams to visualize the kind of information and formatting that each team needed to access in a <span class="anchor-emphasis">live repo as single-source-of-truth.</span> We wanted users to have autonomous, asynchronous access to all the information they need to continue working, and structured in an intuitive and scalable way.
           </h6>
         </div>
       </div>

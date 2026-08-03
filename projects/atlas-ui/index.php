@@ -9,6 +9,12 @@ $stmt = $pdo->prepare('SELECT * FROM projects WHERE id = ?');
 $stmt->execute([1]);
 $project = $stmt->fetch(PDO::FETCH_ASSOC);
 
+// Tags (decoded from the LONGTEXT JSON cell)
+$tags = json_decode($project['tags'], true);
+if (!is_array($tags)) {
+    $tags = []; // fallback if the cell is empty or malformed
+}
+
 // Assets by type
 function getAssets($pdo, $project_id, $type) {
     $stmt = $pdo->prepare('SELECT * FROM project_assets WHERE project_id = ? AND display_type = ? ORDER BY sort_order ASC');
@@ -140,7 +146,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
                             <?php endforeach; ?>
                         </div><!--swiper-wrapper-->
                         <div
-                            class="swiper-pagination swiper-pagination-square swiper-pagination-white swiper-full-screen-pagination">
+                            class="swiper-pagination swiper-pagination-round swiper-pagination-white swiper-full-screen-pagination">
                         </div>
                         <div class="swiper-button-prev swiper-button-black-highlight"></div>
                         <div class="swiper-button-next swiper-button-black-highlight"></div>

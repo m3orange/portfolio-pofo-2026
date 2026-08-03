@@ -29,7 +29,7 @@
    <div class="row">
 
 
-    <div class="col col-12 col-lg-4 section-divider-numbered-02 p-0" style="flex-direction: column; justify-content: space-between!important;">
+    <div class="col col-12 col-lg-4 section-divider-numbered-02" style="flex-direction: column; justify-content: space-between!important;">
         <div class="row" style="flex-direction: column;">
             <div class="big-number">01</div>
             <div class="big-section-title margin-50px-bottom">

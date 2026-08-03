@@ -117,7 +117,7 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
         </div>
         <!-- end slider item -->
     </div>              
-    <div class="swiper-pagination swiper-pagination-square swiper-pagination-white swiper-full-screen-pagination d-none"></div>
+    <div class="swiper-pagination swiper-pagination-round swiper-pagination-white swiper-full-screen-pagination d-none"></div>
     <div class="swiper-button-next slider-small-arrow-white"><i class="fas fa-angle-right pull-right"></i></div>
     <div class="swiper-button-prev slider-small-arrow-white"><i class="fas fa-angle-left pull-right"></i></div>
     <!-- end slider pagination -->
@@ -224,7 +224,7 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
                             <?php endforeach; ?>
                         </div>
                         <div
-                            class="swiper-pagination swiper-pagination-square swiper-pagination-white swiper-full-screen-pagination">
+                            class="swiper-pagination swiper-pagination-round swiper-pagination-white swiper-full-screen-pagination">
                         </div>
                         <div class="swiper-button-prev swiper-button-black-highlight"></div>
                         <div class="swiper-button-next swiper-button-black-highlight"></div>

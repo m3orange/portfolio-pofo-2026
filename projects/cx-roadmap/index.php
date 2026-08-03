@@ -9,6 +9,12 @@ $stmt = $pdo->prepare('SELECT * FROM projects WHERE id = ?');
 $stmt->execute([5]);
 $project = $stmt->fetch(PDO::FETCH_ASSOC);
 
+// Tags (decoded from the LONGTEXT JSON cell)
+$tags = json_decode($project['tags'], true);
+if (!is_array($tags)) {
+    $tags = []; // fallback if the cell is empty or malformed
+}
+
 // Assets by type
 function getAssets($pdo, $project_id, $type) {
     $stmt = $pdo->prepare('SELECT * FROM project_assets WHERE project_id = ? AND display_type = ? ORDER BY sort_order ASC');
@@ -57,13 +63,12 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     </div>
 
     <section class="wow fadeIn workshop-grid">
-        <div class="container-fluid padding-five-lr margin-six-bottom  md-padding-30px-lr wow fadeInUp">
-<div class="captions-image-grid">Kick Off Presentation</div>
-
+        <div class="container-fluid padding-two-lr margin-six-bottom  md-padding-30px-lr wow fadeInUp">
             <div class="row mx-0">
                 <ul class="portfolio-grid work-1col hover-option2 gutter-large w-100">
                     <li class="grid-sizer"></li>
                     <li class="grid-item grid-item-double kickoff-presentation"> <!--grid-item-double-->
+                        <div class="captions-image-grid">Kick Off Presentation</div>
                         <a href="<?= BASE_URL ?>projects/cx-roadmap/assets/kickoff-presentation.jpg" class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray">
@@ -84,18 +89,11 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
                 </ul>
             </div>
 
-
-        </div>
-
-        <div class="container-fluid padding-five-lr md-padding-30px-lr wow fadeIn">
-            <div class="row mx-0">
-                <h6 class="section-title">Group Exercises</h6>
-            </div>
-                
             <div class="row mx-0">
                 <ul class="portfolio-grid work-5col hover-option2 gutter-large w-100">
                     <li class="grid-sizer"></li>
                     <li class="grid-item grid-item-double"> <!--grid-item-double-->
+                        <div class="captions-image-grid plus-adjust">Group Exercises</div>
                         <a href="<?= BASE_URL ?>projects/cx-roadmap/assets/workshop-grid/01.jpg" data-group="workshop-exercises-grid"
                             class="lightbox-group-gallery-item">
                             <figure>
@@ -211,10 +209,11 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
                     </li>
                 </ul>
             </div>
-        </div>
 
+
+        </div>
     </section>
-    </div>
+</div>
 
 
 
@@ -284,7 +283,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
 
                         </div>
                         <div
-                            class="swiper-pagination swiper-pagination-square swiper-pagination-white swiper-full-screen-pagination">
+                            class="swiper-pagination swiper-pagination-round swiper-pagination-black swiper-full-screen-pagination">
                         </div>
                         <div class="swiper-button-prev swiper-button-black-highlight"></div>
                         <div class="swiper-button-next swiper-button-black-highlight"></div>

@@ -89,7 +89,7 @@
 
                         </div>
                         <div
-                            class="swiper-pagination swiper-pagination-square swiper-pagination-white swiper-full-screen-pagination">
+                            class="swiper-pagination swiper-pagination-round swiper-pagination-white swiper-full-screen-pagination">
                         </div>
                         <div class="swiper-button-prev swiper-button-black-highlight"></div>
                         <div class="swiper-button-next swiper-button-black-highlight"></div>
