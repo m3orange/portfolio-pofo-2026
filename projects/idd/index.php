@@ -53,6 +53,11 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     <!-- start product information section -->
     <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
     <!-- end product information section -->
+     <ul>
+        <li>Reducing context switching</li>
+        <li>Cutting through the notification fatigue/noise</li>
+        <li>Multiple users, different needs and issues.</li>
+     </ul>
 
 
   <div id="anchor-01"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
@@ -68,13 +73,13 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row margin-40px-bottom">
                 <div class="col col-12 col-lg-5 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.2s">
-                    <div class="gallery-item" style="height: 532px; overflow: hidden;">
-                        <img src="<?= BASE_URL ?>projects/idd/assets/idd-interviews-01@0.25x.png">
+                    <div class="gallery-item" style="height: 524px; overflow: hidden;">
+                        <img src="<?= BASE_URL ?>projects/idd/assets/idd-interviews-01.jpg">
                     </div>
                 </div> 
                 <div class="col col-12 col-lg-7 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.2s">
                     <div class="gallery-item">
-                        <img src="<?= BASE_URL ?>projects/idd/assets/idd-interviews-02@0.25x.png">
+                        <img src="<?= BASE_URL ?>projects/idd/assets/idd-interviews-02.jpg">
                     </div>
                 </div>
             </div>
@@ -96,10 +101,10 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row margin-40px-bottom">
                 <div class="col col-12 col-lg-6 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.2s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/idd/assets/idd-user-journeys-01@0.5x.png"></div>
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/idd/assets/idd-user-journeys-01.jpg"></div>
                 </div> 
                 <div class="col col-12 col-lg-6 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.2s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/idd/assets/idd-user-journeys-02@0.5x.png"></div>
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/idd/assets/idd-user-journeys-02.jpg"></div>
                 </div>
             </div>
         </div>

@@ -62,13 +62,13 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
       </div>
     </div>
 
-    <section class="wow fadeIn workshop-grid">
+    <section class="wow fadeIn workshop-grid" style="padding: 70px 0;">
         <div class="container-fluid padding-two-lr margin-six-bottom  md-padding-30px-lr wow fadeInUp">
             <div class="row mx-0">
                 <ul class="portfolio-grid work-1col hover-option2 gutter-large w-100">
                     <li class="grid-sizer"></li>
                     <li class="grid-item grid-item-double kickoff-presentation"> <!--grid-item-double-->
-                        <div class="captions-image-grid">Kick Off Presentation</div>
+                        <div class="captions-image-grid">Kick Off Slide Presentation</div>
                         <a href="<?= BASE_URL ?>projects/cx-roadmap/assets/kickoff-presentation.jpg" class="lightbox-group-gallery-item">
                             <figure>
                                 <div class="portfolio-img bg-extra-dark-gray">
@@ -303,7 +303,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     <div class="anchor-links anchor-white"><!--anchor-white anchor-no-border-->
       <div class="row">
         <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
-          <h5>Outcome: Research Readout</h5><h6></h6>
+          <h5>Research Readout: the Project Outcome</h5><h6></h6>
         </div>
       </div>
     </div>
