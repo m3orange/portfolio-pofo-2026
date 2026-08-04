@@ -1,5 +1,5 @@
 <!-- start accordions style 01 section -->
-<section class="wow fadeIn"> <!--section-with-border-top-->
+<section id="big-section-title-opener" class="wow fadeIn"> <!--section-with-border-top-->
    <div class="container">
       <div class="row">
          <div class="col col-12 col-lg-8 offset-lg-4">
@@ -42,12 +42,12 @@
                      <div class="panel-body">
                         <h6>
                            <ul>
-                              <li>I have been recently focusing in the development of enterprise-level SaaS platforms:
-                                 creating seamless experiences across different channels and user types; managing design
+                              <li>I have been recently focusing in the development of enterprise-level SaaS platforms: creating seamless experiences across different channels and user types; managing design
                                  systems and documentation that leads to adoption and tech debt reduction; devising
                                  strategies that ensure scalable and future-proof environments capable of handling
                                  growing business demands and technical requirements.
                               </li>
+                              <li>I particularly enjoy owning a specfic product domain and working consistently with that same context (rather than constantly switching between projects for different products), as that constant gathering of knowledge about the user's goals as well as the jobs-to-be-done in each workflow, allows me to come up with richer, better-informed design decisions, as well as allowing me to proactively bring to product owners suggestions for new features that might not necessasrily been in the pipeline already.</li>
                            </ul>
                         </h6>
                         <div class="row intro-examples intro-example-01">
@@ -78,9 +78,8 @@
                      <div class="panel-body">
                         <h6>
                            <ul>
-                              <li> I'm involved in: leading interviews and design thinking workshops with cross-functional stakeholders; using AI-assisted research and synthesis to drive discovery into ideation; prototyping ideas to test viability with engineering; daily standups with dev teams; preparing handoff documentation and providing developers with the exact components and props we'll be using.</li>
-                              <li>I think like a detective: I gather insight on business needs, technical constraints and users' needs and challenges, and I help teams connect the dots that lead to cross-functional alignment into defining what to build, and making sure we're building it right.</li>
-                              <!-- <span class="inline-emphasis-01"></span> -->
+                              <li> I'm involved in: leading user interviews and cross-functional design thinking workshops; using AI-assisted research and synthesis to drive discovery into ideation; prototyping ideas to address viability with engineering; daily standups and grooming sessions with engineers; preparing PRDs and handoff documentation; providing developers with the exact components and props we'll be using.</li>
+                              <li>I think like a detective: I gather insight on business needs, technical constraints and users' needs and challenges, and I help teams connect the dots that lead to cross-functional alignment into defining what to build, and making sure we're building it right. More often that not, our most important role as a designer is bringing real user facts to the surface which often make stakeholders aware of issues they had not even considered in their original ask, or that the features they are requesting us to design are not in fact the best solution to the original problem.</li>
                            </ul>
                         </h6>
                         <section class="p-0">   

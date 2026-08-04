@@ -5,7 +5,7 @@
                         <div class="icon-and-title">
                 <div class="poly-icon"><img src="<?= BASE_URL ?>images/line-icons-01.svg"></div>
                 <h6>Domain Knowledge</h6></div>
-            <p>Areas I have worked in:</p>
+            <p>Areas & concepts I have worked with:</p>
 
         </div>
 
@@ -48,7 +48,7 @@
         <div class="toolset-column-header">
             <div class="icon-and-title">
                 <div class="poly-icon"><img src="<?= BASE_URL ?>images/line-icons-06.svg"></div>
-                <h6>UX, UXR & Engineering Skills</h6>
+                <h6>Skills related to UX/UI, research, and UX engineering</h6>
             </div>
         </div>
 
@@ -109,11 +109,13 @@
         <div class="row">
             <div class="col col-12 col-xl-6">
                 <div class="category">Proficiency In</div>
+                                <div class="category-intro">Areas & software I have worked with extensively and feel very confident in </div>
+
                 <div class="software-fluency">General</div>
                 <ul>
-                    <li>Adobe Studio | Photoshop, Illustrator, InDesign, XD</li>
+                    <li>Adobe Studio | Photoshop, Illustrator, InDesign, XD, etc.</li>
                     <li>Video | After Effects, Premiere, Avid, Media 100</li>
-                    <li>Microsoft Enterprise 7 Google Cloud Services</li>
+                    <li>Microsoft Enterprise & Google Cloud Services</li>
                     <li>AI | ChatGPT, Claude, Replit, Descript, Midjourney</li>
                     <li>GIS | ESRI ArcGIS, Mapbox, QGIS, Carto, Felt</li>
                 </ul>
@@ -135,6 +137,7 @@
             </div>
             <div class="col col-12 col-xl-6">
                 <div class="category">Basic Understanding</div>
+                <div class="category-intro">Concepts and areas I understand at a high level or may have worked with only at its surface, but which I could work with work on hands-on if I do some more research and self-training</div>
                 <ul>
                     <li>Back End | GraphQL, REST APIs, Strapi, Postman</li>
                     <li>Decoupled/Headless vs. Monolithic Architectures, Single Page Apps (SPAs) and Frameworks (React, MUI, Vue/Vuetify, ShadCDN, Tailwind)</li>

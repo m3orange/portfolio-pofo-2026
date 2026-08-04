@@ -31,20 +31,32 @@ CORRECT
     --ibm-mono:       "IBM Plex Mono", "SF Mono", "Consolas", ui-monospace!important; font-weight: 500!important;
     --ibm-serif:      "IBM Plex Serif", "Garamond", "Times New Roman", serif!important; font-weight: 400!important;
     --serif-text:     "IBM Plex Serif", "Garamond", "Times New Roman", serif!important; font-weight: 400!important;
-    --alt-text:       "IBM Plex Mono", "SF Mono", "Consolas", ui-monospace!important; font-weight: 400!important;
-    --alt-text-2:     "Archivo", Archivo, "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif!important; font-weight: 400!important;
-    --archivo-headers-01: "Archivo", Archivo, "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif!important; font-weight: 400!important;
+    --alt-text:       "IBM Plex Mono", "SF Mono", "Consolas", ui-monospace!important; font-weight: 400!important;color: red!important;
+    
+    /* 
+    --archivo-headers-01: "Archivo", Archivo, "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif!important; font-weight: 400!important; 
+          --alt-text-2:     "Archivo", Archivo, "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif!important; font-weight: 400!important; color: red!important;
+    */
+      
+
+
+    --archivo-headers-01:       "Atyp Display Medium", Atyp Display Medium, "Archivo", Archivo, "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif!important; font-weight: 500!important;
+    --alt-text-2:       "Atyp Display Medium", Atyp Display Medium, "Archivo", Archivo, "IBM Plex Sans", IBM Plex Sans, "Helvetica", sans-serif!important; font-weight: 500!important;
+
+
+    
+    
     --serif-roboto:    "Roboto Slab", Roboto Slab, "IBM Plex Serif", "Garamond", "Times New Roman", serif;
     --code-blocks: "Fira Code", "Source Code Pro", Monaco, Andale Mono, "IBM Plex Mono", IBM Plex Mono, monospace;
 
-    --default-font-color: #444444;
+    --default-font-color: #000000;
     --m3-orange: #FF5D00;
     --text-highlight-01: #ffe318;
-    --home-grid-border-color: #6a6a6a!important;
+    --home-grid-border-color: rgba(255,255,255,0.6)!important;
 
     --text-black: #000000!important;
     --text-white: #FFFFFF!important;
-    --grid-lines-color:  #999999!important;
+    --grid-lines-color:  
 }
 
 /* Orange
@@ -59,7 +71,8 @@ rgba(255,93,0,1.00)
 }
 
 .alt-text{
-    font-family: "IBM Plex Mono", "SF Mono", "Consolas", ui-monospace!important; 
+    /* font-family: "IBM Plex Mono", "SF Mono", "Consolas", ui-monospace!important;  */
+    font-family: var(--alt-text);
     font-weight: 400!important;
 }
 
@@ -72,7 +85,8 @@ rgba(255,93,0,1.00)
 }
 
 .archivo-text, .archivo-font{
-    font-family: var(--archivo-headers-01)!important; 
+    /* font-family: var(--archivo-headers-01)!important;  */
+        font-family: var(--alt-text)!important; 
     font-weight: 400!important;
 }
 

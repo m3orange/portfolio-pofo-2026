@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/@mux/mux-player"></script>
+    <style>
+   /* ─── 06 Accordion Sidebar — neo-brutalist admin ──────────── */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;900&family=Space+Mono:wght@400;700&display=swap');
+.sn-acc {
+  --sn-acc-bg: #f5f3eb;
+  --sn-acc-ink: #141414;
+  --sn-acc-panel: #ffffff;
+  --sn-acc-accent: #ff5126;
+  --sn-acc-lime: #d6ff3f;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  font-family: 'Archivo', sans-serif;
+  background: var(--sn-acc-bg);
+  background-image: radial-gradient(var(--sn-acc-ink) .6px, transparent .6px);
+  background-size: 22px 22px;
+  color: var(--sn-acc-ink);
+  display: flex;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.sn-acc *, .sn-acc *::before, .sn-acc *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.sn-acc .toggle {
+  display: none;
+}
+.sn-acc .overlay {
+  display: none;
+}
+.sn-acc .sidebar {
+  width: 282px;
+  background: var(--sn-acc-panel);
+  border-right: 3px solid var(--sn-acc-ink);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 30;
+  flex-shrink: 0;
+}
+.sn-acc .brand {
+  padding: 1.5rem 1.3rem;
+  border-bottom: 3px solid var(--sn-acc-ink);
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+}
+.sn-acc .logo {
+  width: 42px;
+  height: 42px;
+  border: 3px solid var(--sn-acc-ink);
+  background: var(--sn-acc-lime);
+  display: grid;
+  place-items: center;
+  font-weight: 900;
+  font-size: 1.3rem;
+  box-shadow: 4px 4px 0 var(--sn-acc-ink);
+}
+.sn-acc .brand b {
+  font-weight: 900;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: -.04em;
+  line-height: 1;
+}
+.sn-acc .brand small {
+  font-family: 'Space Mono';
+  font-size: .66rem;
+  display: block;
+  margin-top: .2rem;
+}
+.sn-acc .nav {
+  flex: 1;
+  overflow-y: auto;
+  padding: .6rem;
+}
+.sn-acc .acc {
+  border-bottom: 2px solid var(--sn-acc-ink);
+}
+.sn-acc .acc:last-child {
+  border-bottom: none;
+}
+.sn-acc .radio {
+  display: none;
+}
+.sn-acc .acc-head {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  padding: 1rem .9rem;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: .95rem;
+  text-transform: uppercase;
+  letter-spacing: -.01em;
+  transition: .15s;
+  user-select: none;
+}
+.sn-acc .acc-head svg.ic {
+  width: 20px;
+  height: 20px;
+  stroke-width: 2.2;
+  flex-shrink: 0;
+}
+.sn-acc .acc-head .plus {
+  margin-left: auto;
+  font-family: 'Space Mono';
+  font-weight: 700;
+  font-size: 1.2rem;
+  transition: transform .25s;
+}
+.sn-acc .acc-head:hover {
+  background: var(--sn-acc-lime);
+}
+.sn-acc .acc-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .3s ease;
+  background: var(--sn-acc-bg);
+}
+.sn-acc .acc-body a {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  padding: .65rem .9rem .65rem 2.7rem;
+  text-decoration: none;
+  color: var(--sn-acc-ink);
+  font-size: .86rem;
+  font-weight: 500;
+  border-top: 1.5px dashed rgba(20,20,20,.25);
+  transition: .15s;
+}
+.sn-acc .acc-body a:hover {
+  background: var(--sn-acc-accent);
+  color: #fff;
+  padding-left: 3rem;
+}
+.sn-acc .acc-body a .c {
+  margin-left: auto;
+  font-family: 'Space Mono';
+  font-size: .72rem;
+  background: var(--sn-acc-ink);
+  color: #fff;
+  padding: .05rem .4rem;
+}
+.sn-acc .radio:checked + .acc-head {
+  background: var(--sn-acc-accent);
+  color: #fff;
+}
+.sn-acc .radio:checked + .acc-head .plus {
+  transform: rotate(45deg);
+}
+.sn-acc .radio:checked + .acc-head + .acc-body {
+  max-height: 300px;
+}
+.sn-acc .foot {
+  padding: 1rem 1.3rem;
+  border-top: 3px solid var(--sn-acc-ink);
+  font-family: 'Space Mono';
+  font-size: .7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sn-acc .dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #1db954;
+  display: inline-block;
+  margin-right: .4rem;
+}
+.sn-acc .mainpane {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow-y: auto;
+}
+.sn-acc .top {
+  padding: 1.4rem 2rem;
+  border-bottom: 3px solid var(--sn-acc-ink);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: var(--sn-acc-panel);
+}
+.sn-acc .mbtn {
+  display: none;
+  border: 3px solid var(--sn-acc-ink);
+  background: var(--sn-acc-lime);
+  padding: .4rem .5rem;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 var(--sn-acc-ink);
+}
+.sn-acc .mbtn svg {
+  width: 20px;
+  height: 20px;
+  stroke: var(--sn-acc-ink);
+  display: block;
+}
+.sn-acc .top h1 {
+  font-weight: 900;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: -.04em;
+}
+.sn-acc .body {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1.3rem;
+}
+.sn-acc .card {
+  background: var(--sn-acc-panel);
+  border: 3px solid var(--sn-acc-ink);
+  padding: 1.4rem;
+  box-shadow: 6px 6px 0 var(--sn-acc-ink);
+}
+.sn-acc .card .k {
+  font-family: 'Space Mono';
+  font-size: .72rem;
+  text-transform: uppercase;
+}
+.sn-acc .card .v {
+  font-weight: 900;
+  font-size: 2.2rem;
+  letter-spacing: -.04em;
+  margin-top: .3rem;
+}
+.sn-acc .card.alt {
+  background: var(--sn-acc-lime);
+}
+.sn-acc .card.dark {
+  background: var(--sn-acc-ink);
+  color: var(--sn-acc-bg);
+}
+@media (max-width: 880px) {
+  .sn-acc .sidebar {
+    position: absolute;
+    transform: translateX(-105%);
+    transition: transform .35s;
+  }
+  .sn-acc .toggle:checked ~ .sidebar {
+    transform: translateX(0);
+  }
+  .sn-acc .toggle:checked ~ .overlay {
+    display: block;
+    position: absolute;
+    inset: 0;
+    background: rgba(20,20,20,.4);
+    z-index: 20;
+  }
+  .sn-acc .mbtn {
+    display: block;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sn-acc .acc-body, .sn-acc .acc-head .plus, .sn-acc .sidebar {
+    transition: none;
+  }
+}
+    </style>
+  </head>
+
+
+  <body>
+
+
+
+
+    Found in https://codefronts.com/navigation/css-sidebar-navigation/pure-css-accordion-sidebar-for-admin-dashboards/
+
+    
+    <section class="sn-acc" aria-label="Accordion sidebar demo">
+  <input type="checkbox" id="sn-acc-d" class="toggle" aria-label="Toggle admin navigation">
+  <aside class="sidebar" aria-label="Admin navigation">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">▲</div>
+      <div><b>Restock</b><small>ADMIN_v6</small></div>
+    </div>
+    <nav class="nav">
+      <div class="acc">
+        <input type="radio" name="sn-acc-acc" id="sn-acc-a1" class="radio" checked>
+        <label class="acc-head" for="sn-acc-a1"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>Catalog<span class="plus">+</span></label>
+        <div class="acc-body">
+          <a href="#">All Products<span class="c">812</span></a>
+          <a href="#">Categories<span class="c">24</span></a>
+          <a href="#">Inventory<span class="c">low</span></a>
+          <a href="#">Collections</a>
+        </div>
+      </div>
+      <div class="acc">
+        <input type="radio" name="sn-acc-acc" id="sn-acc-a2" class="radio">
+        <label class="acc-head" for="sn-acc-a2"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 002 1.6h9.7a2 2 0 002-1.6L23 6H6"/></svg>Orders<span class="plus">+</span></label>
+        <div class="acc-body">
+          <a href="#">Pending<span class="c">17</span></a>
+          <a href="#">Fulfilled</a>
+          <a href="#">Refunds<span class="c">3</span></a>
+          <a href="#">Drafts</a>
+        </div>
+      </div>
+      <div class="acc">
+        <input type="radio" name="sn-acc-acc" id="sn-acc-a3" class="radio">
+        <label class="acc-head" for="sn-acc-a3"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="9" cy="7" r="4"/><path d="M3 21v-2a4 4 0 014-4h4a4 4 0 014 4v2"/></svg>Customers<span class="plus">+</span></label>
+        <div class="acc-body">
+          <a href="#">All Customers</a>
+          <a href="#">Segments</a>
+          <a href="#">Reviews<span class="c">42</span></a>
+        </div>
+      </div>
+      <div class="acc">
+        <input type="radio" name="sn-acc-acc" id="sn-acc-a4" class="radio">
+        <label class="acc-head" for="sn-acc-a4"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="M3 3v18h18"/><path d="M7 14l4-4 4 3 5-7"/></svg>Reports<span class="plus">+</span></label>
+        <div class="acc-body">
+          <a href="#">Sales</a>
+          <a href="#">Traffic</a>
+          <a href="#">Exports</a>
+        </div>
+      </div>
+      <div class="acc">
+        <input type="radio" name="sn-acc-acc" id="sn-acc-a5" class="radio">
+        <label class="acc-head" for="sn-acc-a5"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 01-2.83 2.83l-.06-.06a1.65 1.65 0 00-2.82 1.17V21a2 2 0 01-4 0v-.09A1.65 1.65 0 007 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 11-2.83-2.83l.06-.06A1.65 1.65 0 004.6 14H4.5a2 2 0 010-4h.09A1.65 1.65 0 006 8.6"/></svg>Settings<span class="plus">+</span></label>
+        <div class="acc-body">
+          <a href="#">Store Details</a>
+          <a href="#">Payments</a>
+          <a href="#">Shipping</a>
+        </div>
+      </div>
+    </nav>
+    <div class="foot"><span><span class="dot" aria-hidden="true"></span>SYSTEM OK</span><span>00:42:18</span></div>
+  </aside>
+  <label for="sn-acc-d" class="overlay" aria-hidden="true"></label>
+
+  <div class="mainpane">
+    <div class="top">
+      <label for="sn-acc-d" class="mbtn" aria-label="Open navigation">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" stroke-width="2.4" stroke-linecap="round"/></svg>
+      </label>
+      <h1>Catalog</h1>
+    </div>
+    <div class="body">
+      <div class="card alt"><div class="k">Products</div><div class="v">812</div></div>
+      <div class="card"><div class="k">Orders Today</div><div class="v">94</div></div>
+      <div class="card dark"><div class="k">Revenue</div><div class="v">$12.4k</div></div>
+    </div>
+  </div>
+</section>
+
+
+  </body>
+</html>

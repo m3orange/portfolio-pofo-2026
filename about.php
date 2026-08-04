@@ -10,7 +10,7 @@
 
 <!-- start parallax hero section -->
 <section id="home-hero-opener" class="position-relative wow" style="visibility: visible; "> <!--min-height: 658px;-->
-    <div class="opacity-medium bg-black z-index-0"></div>
+<div class="background-image-area"></div>
     <div class="container h-100">
         <div class="row h-100" style="padding-top: 50px;">
             <div class="col col-12 col-lg-7 col-md-12 d-flex justify-content-center flex-column text-left text-md-start">
@@ -21,6 +21,7 @@
             </div><!-- cols-->
         </div><!-- row-->
     </div>
+
 </section>
 <!-- end parallax hero section -->
 
@@ -52,12 +53,12 @@
         </div>
         <div class="row">
             <div class="col col-12 col-lg-8" style="padding-top:10px;">
-                <p style="margin-bottom: 15px;">As a result, my skillset range is wider than the average designer (I'm often called a 🦄), and have a more comprehensive insight into what goes on in the development process. More importantly, I'm able to have deeper conversations with engineers without too much getting lost in translation.</p>
-                <p style="margin-bottom: 15px;">Whether it's about asking the right questions about constraints, or trying to negotiate new options that work for everyone, I'm often able to get better outcomes in what design is trying to achieve.</p>
+                <p style="margin-bottom: 15px; font-size: 20px;">As a result, my skillset range is wider than the average designer (I'm often called a 🦄), and have a more comprehensive insight into what goes on in the development process. More importantly, I'm able to have deeper conversations with engineers without too much getting lost in translation.</p>
+                <p style="margin-bottom: 15px; font-size: 20px;">Whether it's about asking the right questions about constraints, or trying to negotiate new options that work for everyone, I'm often able to get better outcomes in what design is trying to achieve.</p>
             </div>
             <div class="col col-12 col-lg-4">
                 <div class="i-built-this-website">
-                    <p>I hand-coded this website. I used an existing HTML template and built over it using the this stack: PHP, CSS, Javascript, Bootstrap, SQL with PHPMyAdmin, Strapi</p>
+                    <p>I coded this website myself. I used an existing template and built over it using the this stack: PHP, CSS, Javascript, Bootstrap, SQL with PHPMyAdmin & Strapi</p>
                 </div>
             </div>
 

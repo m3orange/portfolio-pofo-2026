@@ -7,13 +7,6 @@
                     <div class="page-title font-weight-500">
                     <h3><?= $project['title'] ?></h3>
                     </div>
-
-
-
-                </div>
-
-                <div class="col col-12 col-xl-10 col-lg-10 line-height-28 last-paragraph-no-margin wow fadeIn description-excerpt">
-                        <h4><?= $project['intro_excerpt'] ?></h4>
                 </div>
                 <div class="col col-12 col-xl-9 col-lg-8 line-height-28 last-paragraph-no-margin wow fadeIn">
                     <div class="project-info-item-row">
@@ -24,8 +17,6 @@
                         <div class="pi-title">Tasks:</div>
                         <div class="pi-details"><?= $project['tasks'] ?></div>
                     </div>
-
-                    <div class="confidentiality-note">Due to the confidential nature of some projects, certain details have been modified.</div>
                 </div>
                 <div class="col col-12 col-xl-3 col-lg-4 line-height-26 wow fadeIn">
                     <div class="project-info-item-row">
@@ -36,25 +27,41 @@
                         <div class="pi-title">Year:</div>
                         <div class="pi-details"><?= $project['year'] ?></div>
                     </div>
+
                 </div>
             </div>
             <div class="row">
                 <div class="col col-12 col-xl-9 col-lg-8 line-height-28 last-paragraph-no-margin wow">
-                    <div class="description-paragraph"><?= $project['description'] ?> </div>                 
-                </div>
+                    <div class="description-paragraph"><?= $project['description'] ?> </div>  
+                    <div class="description-excerpt ">
+                        <h4>
+                            Atlas is a geospatial, big data, visualization, and analytics tool that displays large volumes of virtual data for any region in the world, and provides situational awareness that can be used for mission planning. 
+                        </h4>
+                    </div>
 
+ 
+                <?php include ROOT_PATH . 'includes/projects-confidentiality-note.php'; ?> 
+                </div>
                 <div class="col col-12 col-xl-3 col-lg-4 line-height-26 wow fadeIn">
                     <div class="project-labels-area">
                         <?php foreach ($tags as $tag): ?>
                             <span class="pi-tags"><?php echo htmlspecialchars($tag); ?></span>
                         <?php endforeach; ?>
-                    </div> 
+                    </div>
                 </div>
-
             </div>
      
         </div>
     </section>
 
-
-
+<!--     
+    <div class="anchor-widget">
+        <ul>
+            <li><a href="#anchor-01">1</a></li>
+            <li><a href="#anchor-02">2</a></li>
+            <li><a href="#anchor-03">3</a></li>
+            <li><a href="#anchor-04">4</a></li>
+            <li><a href="#anchor-05">5</a></li>
+        </ul>  
+    </div>  -->
+   

@@ -24,6 +24,7 @@
     </div>
     <div class="footer-big-words">
         <img src="<?= BASE_URL ?>images/footer-big-name-02c.svg">
+
     </div>
 </footer>   
 <!-- end footer -->

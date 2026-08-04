@@ -25,7 +25,8 @@
         <!-- <i class="icon-desktop icon-extra-medium text-deep-pink margin-20px-bottom"></i> -->
          <div>
             <h6 class="font-weight-700 alt-font-2 margin-10px-bottom">Making sense of complex information architectures</h6>
-            <p>I’m good at assessing what information is most relevant to our users, organizing large amounts of data into intuitive structures, and implementing practices such as progressive disclosure and visual cues to help make insight discoverable.</p>
+            <p>I’m good at organizing large amounts of data and designing intuitive workflows that help users get faster to insight. I rely greatly on doing user research to understand what's relevant to them, on implementing mental models that are familiar and reduce friction, and on leveraging good practices such as progressive disclosure and sensible information hierarchies with visual cues.
+</p>
          </div>
     </div>
 </div>
@@ -36,7 +37,11 @@
         <!-- <i class="icon-desktop icon-extra-medium text-deep-pink margin-20px-bottom"></i> -->
          <div>
             <h6 class="font-weight-700 alt-font-2 margin-10px-bottom padding-50px-right">Design systems and documentation</h6>
-            <p><s>OCD</s> detail-oriented by nature, I develop systems with a keen sense of precision and scalability. And my coding know-how means I can tell a dev to use <span class="quote-01 code-block">a &lt;v-combobox&gt;, with X props and variants, and the Y and Z icons for the prepend & append slots.</span> Fewer handoff gaps and a shared vocabulary with engineers.</p>
+            <p><s>OCD</s> detail-oriented by nature, I develop systems with a keen sense of precision, scalability and modularity. And my coding know-how means I can tell a dev to use <span class="quote-01 code-block">a &lt;v-combobox&gt;, with X props and variants, and the Y and Z icons for the prepend & append slots.</span> A shared vocabulary with engineers, fewer handoff gaps, and no need for pixel-pushing.</p>
+            <h6>I'm usually guided by IBM's Carbon and Google's Material systems.</h6>
+            <h6>Similarity between design systems and modular architecture</h6>
+            <h6>Mention patterns in addition to components</h6>
+            <h6>No pixel-pushing.</h6>
          </div>
     </div>
 </div>

@@ -165,7 +165,7 @@
                             <div class="col-12 col-lg-5 last-paragraph-no-margin wow fadeIn resume-text" style="align-content: center;" data-wow-delay="0.8s">
                                 <div class="margin-30px-bottom">
                                    <p>As a result, my skillset range is wider than the average designer (I'm often called a 🦄), and have a more comprehensive insight into what goes on in the development process. More importantly, I'm able to have deeper conversations with engineers without too much getting lost in translation.</p>
-                                    <p>Wether it's about asking the right questions about constraints, or trying to negotiate new options that work for everyone, I'm often able to get better outcomes in what design is trying to achieve.</p>                                 
+                                    <p>Wether it's about asking the right questions about constraints, or trying to negotiate tradeoffs or snew options that work for everyone, I'm often able to get better outcomes in what design is trying to achieve.</p>                                 
                                 </div>
                                 <div class="i-built-this-website">
                                     <p>I hand-coded this website. I used an existing HTML template and built over it using the this stack: PHP, CSS, Javascript, Bootstrap, SQL with PHPMyAdmin, Strapi

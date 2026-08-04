@@ -53,18 +53,13 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     <!-- start product information section -->
     <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
     <!-- end product information section -->
-     <ul>
-        <li>Reducing context switching</li>
-        <li>Cutting through the notification fatigue/noise</li>
-        <li>Multiple users, different needs and issues.</li>
-     </ul>
 
 
   <div id="anchor-01"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
     <div class="anchor-links anchor-white"><!--anchor-white anchor-no-border-->
       <div class="row">
         <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
-          <h5>Research & Interviews</h5>
+          <h5>Research & Stakeholder Interviews</h5>
         </div>
       </div>
     </div>
@@ -73,13 +68,20 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row margin-40px-bottom">
                 <div class="col col-12 col-lg-5 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.2s">
-                    <div class="gallery-item" style="height: 524px; overflow: hidden;">
+                    <div class="gallery-item" style="height: stretch; overflow: hidden;">
                         <img src="<?= BASE_URL ?>projects/idd/assets/idd-interviews-01.jpg">
                     </div>
                 </div> 
                 <div class="col col-12 col-lg-7 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.2s">
                     <div class="gallery-item">
                         <img src="<?= BASE_URL ?>projects/idd/assets/idd-interviews-02.jpg">
+                    </div>
+                </div>
+            </div>
+                        <div class="row margin-40px-bottom">
+                <div class="col col-12 col-lg-8 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <img src="<?= BASE_URL ?>projects/idd/assets/idd-research-boards.png">
                     </div>
                 </div>
             </div>
@@ -143,3 +145,5 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
 </body>
 
 </html>
+
+
