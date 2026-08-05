@@ -68,7 +68,15 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
                 <div class="col col-12 col-lg-4 col-md-6 col-sm-6 sm-margin-10px-bottom wow fadeIn">
                     <div class="gallery-item"><img src="<?= BASE_URL ?><?= $img['file_path'] ?>"></div>
                 </div>
-                <?php endforeach; ?>            
+                <?php endforeach; ?>   
+                
+                <div class="col col-12 col-lg-8 col-md-6 col-sm-6 sm-margin-10px-bottom wow fadeIn">
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/assets/diagrams-03.png" /></div>
+                </div>
+
+                <div class="col col-12 col-lg-4 col-md-6 col-sm-6 sm-margin-10px-bottom wow fadeIn">
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/assets/diagrams-01.png" /></div>
+                </div>
             </div>
         </div>
     </section>
@@ -219,6 +227,28 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
                 </div>
             </div><!--row-->
         </div><!--container-->
+    </section>
+
+  </div>
+
+    <div id="anchor-06"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+
+    <div class="anchor-links anchor-white">
+      <div class="row">
+        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
+          <h5>Making a Case for the Need for a Full SAP Integration</h5><h6></h6>
+        </div>
+      </div>
+    </div>
+
+    <section class="admin-journey-fullwidth">
+        <div class="container-fluid padding-five-lr md-padding-30px-lr">
+            <div class="row">
+                <div class="col col-12" data-wow-delay="0.4s">
+                    <img src="<?= BASE_URL ?>projects/admin/assets/admin-sap-presentation.png" />
+                </div>
+            </div>
+        </div>
     </section>
 
   </div>

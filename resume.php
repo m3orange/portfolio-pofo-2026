@@ -178,14 +178,96 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
         </div>
     </section>
 
-    <section id="resume-0e" class="wow fadeIn section-with-border-top">
+        <section id="resume-03" class="wow fadeIn section-with-border-top">
+        <div class="container">
+            <div class="row m-0">
+                <div class="col col-12 col-lg-4 section-divider-numbered-02"
+                    style="flex-direction: column; justify-content: flex-start;">
+                    <div class="row m-0" style="flex-direction: column;">
+                        <div class="big-number">03</div>
+                        <div class="big-section-title margin-50px-bottom">
+                            <h4>Additional</h4>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col col-12 col-lg-4">
+                        <div id="training-list">
+                        <div class="row rsm-item-header">
+                            <h5 style="margin-bottom: 0px;">Exhibitions</h5>
+                        </div>
+
+                        <div class="education-details row">
+                            <div class="col col-12 col-xl-12 col-lg-6 col-md-12">
+                                <div class="row rsm-item-header" style="margin-top: 0px!important;">
+                                    <div class="col col-12 p-0" style="line-height: 1.7em;">
+                                    <h6 style="width: fit-content;">"The Missing Link Gallery at Das Hypothetische"</h6> NYC, October 1999
+                                    </div>
+                                </div>
+                                <div class="row rsm-item-details">
+                                    <div class="col col-12">
+                                        <div class="rsm-item-bullets">
+                                        Collective exhibition by the MFADesign Program at the School of Visual Arts' Westside Gallery, NYC. Exhibited "iNterventiOn" (4'x5', wooden light boxes and shelving, with collected and found objects).
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row rsm-item-header" style="margin-top: 0px!important;">
+                                    <div class="col col-12 p-0" style="display: flex; flex-direction: row;">
+                                    <h6 style="width: fit-content;">"Architects in Botello"</h6>  <span class="divider" style="margin: 0 5px;">|</span>  San Juan, August 1997
+                                    </div>
+                                </div>
+                                <div class="row rsm-item-details">
+                                    <div class="col col-12">
+                                        <div class="rsm-item-bullets">
+                                        Part of thirteen architects invited to exhibit artwork in the Galería Botello, in San Juan, Puerto Rico. Exhibited "Espiral" (Spiral), a series of eight digital collages. (5"x7", printed on vellum).
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--col-->
+                        </div>
+
+
+                    </div><!--#training-list container-->
+                </div>
+
+                                <div class="col col-12 col-lg-4">
+                        <div id="training-list">
+                        <div class="row rsm-item-header">
+                            <h5 style="margin-bottom: 0px;">Organizations</h5>
+                        </div>
+                        <div class="education-details row">
+                            <div class="col col-12 col-xl-12 col-lg-6 col-md-12">
+                                <div>
+                                    <div class="margin-10px-bottom">
+                                        <ul style="line-height: 1.5em;">
+                                            <li>Code for Puerto Rico (2021)</li>
+                                            <li>Founding member of the Young Collectors Group, Museum of Art of Puerto Rico (2005-06).</li>
+                                            <li>Collectors VIP Programme in the ARCO Art Fair in Madrid since 2001.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><!--col-->
+
+                        </div><!--education-details row-->
+                    </div><!--#training-list container-->
+                </div>
+
+            </div><!--row-->
+        </div>
+    </section>
+
+
+
+    <section id="resume-04" class="wow fadeIn section-with-border-top">
         <div class="container">
             <div class="row m-0">
 
                 <div class="col col-12 col-lg-4 section-divider-numbered-02"
                     style="flex-direction: column; justify-content: flex-start;">
                     <div class="row m-0" style="flex-direction: column;">
-                        <div class="big-number">03</div>
+                        <div class="big-number">04</div>
                         <div class="big-section-title margin-50px-bottom">
                             <div class="col col-12 col-lg-11 col-md-12"><h4>Brands & Companies I Have Worked With</h4></div>
                         </div>
@@ -201,14 +283,14 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
     </section>
 
 
-    <section id="resume-04" class="wow fadeIn section-with-border-top">
+    <section id="resume-05" class="wow fadeIn section-with-border-top">
         <div class="container">
             <div class="row m-0">
 
                 <div class="col col-12 col-lg-3 section-divider-numbered-02 p-0"
                     style="flex-direction: column; justify-content: flex-start;">
                     <div class="row" style="flex-direction: column;">
-                        <div class="big-number">04</div>
+                        <div class="big-number">05</div>
                         <div class="big-section-title margin-50px-bottom">
                             <h4>Design Inspiration</h4>
                         </div>

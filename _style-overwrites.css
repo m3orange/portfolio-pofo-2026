@@ -1565,7 +1565,7 @@ video {
 }
 
 .image-grid-discovery .gallery-item {
-    background-color: #EDEDED !important;
+    background-color: #CCCCCC !important;
 }
 
 .idd .image-grid-discovery .gallery-item {
@@ -3487,11 +3487,13 @@ h6 .anchor-emphasis {
 .atlas #anchor-03.anchor-wrapper{background-color:#3c5480;}
 .atlas #anchor-04.anchor-wrapper{background-color:  #232c4f;}
 
-.admin #anchor-01.anchor-wrapper {background-color: unset;}
+.admin #anchor-01.anchor-wrapper {background-color: #b0aeae;}
 .admin #anchor-02.anchor-wrapper {background-color: #616161;}
 .admin #anchor-03.anchor-wrapper {background-color: #221b40;}
 .admin #anchor-04.anchor-wrapper {background-color: #3a3a3a;}
 .admin #anchor-05.anchor-wrapper {background-color: #303030;}
+.admin #anchor-06.anchor-wrapper {background-color: #595959;}
+
 
 .citybox #anchor-01.anchor-wrapper {background-color: #FFFFFF;}
 .citybox #anchor-02.anchor-wrapper {background-color: #616161;}
