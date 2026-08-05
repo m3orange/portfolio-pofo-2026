@@ -1158,7 +1158,7 @@ line-height: 1.2em !important;
 }
 
 .description-excerpt{
-    margin: 30px 0 10px -8px;
+    margin: 30px 0 40px -8px;
     padding-left: 18px;
     border-left: 5px solid black;
 }
@@ -1848,7 +1848,7 @@ video {
     /* padding: 100px 50px; */
 }
 
-
+.musicasa .captions-image-grid,
 .usic .captions-image-grid{
     padding: 8px 18px;
     font-size: 16px;
@@ -1860,6 +1860,10 @@ video {
     z-index: 1000;
     width: fit-content;
     font-weight: 500;
+}
+
+.musicasa .captions-image-grid{
+    top:31px;
 }
 
 .usic .captions-image-grid.plus-adjust{
@@ -1903,7 +1907,7 @@ padding: 120px 80px;
 }
 
 .tarmac-worker img{
-    max-width: 85%;
+    max-width: 55%;
     position: absolute;
     bottom: 0px;
 }
@@ -3630,5 +3634,61 @@ header nav.navbar{
         background-repeat: no-repeat;
     background-size: cover;
     transition: background-image 0.5s ease-in-out; /* Optional smooth transition */
+
+}
+
+
+/* New navigation with dropdowns */
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 14px;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
+}
+
+nav.navbar.bootsnav li.dropdown .mega-menu-full > ul li a {
+    text-align: left;
+    font-size: 16px;
+    color: #9d9d9d;
+    padding: 3px 40px;
+    text-transform: none;
+    margin: 0;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    left: 0;
+}
+
+nav.navbar.bootsnav li.dropdown .mega-menu-full {
+    width: 800px;
+    box-sizing: border-box;
+    background: rgba(35, 35, 35, 1);
+    padding: 45px 50px;
+    box-shadow: none;
+    border-radius: 0;
+    border: 0;
+    margin-top: 0;
+}
+
+nav.navbar.bootsnav li.dropdown .menu-back-div > ul {
+    margin: 0 auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(35, 35, 35, 1);
 
 }

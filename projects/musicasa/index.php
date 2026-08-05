@@ -67,25 +67,25 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
                         <ul class="portfolio-grid work-3col hover-option4 gutter-medium">
                             <li class="grid-sizer"></li>
                             <li class="grid-item web branding design wow fadeIn" data-wow-delay="0.4s">
+                                <span class="captions-image-grid">Flowcharts and Prototypes</span>  
                                 <div class="portfolio-img">
                                     <!-- <div class="card-description">Name of the Project</div> -->
                                     <img src="<?= BASE_URL ?>projects/musicasa/assets/grid-process-01.png">
                                 </div>
-                                <div class="captions-image-grid">
-                                    Flowcharts and Prototypes</div>   
+                                 
                             </li>
                             <li class="grid-item web branding design wow fadeIn" data-wow-delay="0.4s">
+                                <span class="captions-image-grid">Integration of Email Templates with Sengrid</span>
                                 <div class="portfolio-img">
                                     <img src="<?= BASE_URL ?>projects/musicasa/assets/grid-process-03.png">
                                 </div>
-                                <div class="captions-image-grid">Integration of Email Templates with Sengrid</div>
                             </li>
                             
                             <li class="grid-item web branding design wow fadeIn" data-wow-delay="0.4s">
+                                <span class="captions-image-grid">Live testing component behavior </span>
                                 <div class="portfolio-img">
                                     <img src="<?= BASE_URL ?>projects/musicasa/assets/grid-process-04.png">
                                 </div>
-                                 <div class="captions-image-grid">Live testing component behavior </div>
                             </li>
 
                         </ul>

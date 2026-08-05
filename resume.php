@@ -89,6 +89,9 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 </div>
 
                 <div class="col col-12 col-lg-8">
+                             
+                                <h5 style="margin-bottom: 0px;">Education</h5>
+                        
                     <div id="education-list">
                         <?php foreach ($education as $edu): ?>
                             <div class="row rsm-item-header">
@@ -111,9 +114,9 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
                     <div id="training-list">
                         <div class="row rsm-item-header">
-                            <span class="margin-10px-right">
-                                <h6>Ongoing Training & Certificates</h6>
-                            </span>
+
+                                <h5 style="margin-bottom: 0px;">Ongoing Training & Certificates</h5>
+
 
                         </div>
                         <div class="education-details row">
@@ -124,7 +127,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                 </div>
                                 <div>
                                     <div class="margin-10px-bottom">
-                                        <ul>
+                                        <ul style="line-height: 1.5em;">
                                             <li>GIS, Mapping, and Spatial Analysis Certificate [U. of Toronto]</li>
                                             <li>10 Usability Heuristics from Theory to Practice [NN/g]</li>
                                             <li>AI x Design Thinking Workshop Series [IDEO]</li>

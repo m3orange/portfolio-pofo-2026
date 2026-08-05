@@ -40,7 +40,10 @@
             </div>
             <div class="row">
                 <div class="col col-12 col-xl-9 col-lg-8 line-height-28 last-paragraph-no-margin wow">
-                    <div class="description-paragraph"><?= $project['description'] ?> </div>                 
+                    <div class="description-paragraph">
+                        <?= $project['description'] ?> 
+                    <!-- Truncation buttob triggers need to go on the DB, or else they will display in cases where there is no truncation to be done.-->
+                </div>                 
                 </div>
 
                 <div class="col col-12 col-xl-3 col-lg-4 line-height-26 wow fadeIn">
