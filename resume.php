@@ -11,15 +11,12 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
 
-
 <?php include ROOT_PATH . 'includes/header.php'; ?>
 
 <body class="resume">
     <!-- start header -->
     <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
     <!-- end header -->
-
-
 
 
     <section id="home-hero-opener" class="position-relative p-0 wow" style="visibility: visible; ">
@@ -47,13 +44,52 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     </section>
 
+<div id="anchor-00" class="anchor-wrapper">
+    <section id="resume-01" class="wow fadeIn section-with-border-top">
+        <div class="container">
+            <div class="row">
+                <div class="col col-12 col-lg-4 section-divider-numbered-02" style="flex-direction: column; justify-content: flex-start;">
+                    <div class="row m-0" style="flex-direction: column;">
+                        <div class="big-number">00</div>
+                        <div class="big-section-title margin-50px-bottom"><h4>Soft Skills</h4></div>
+                    </div>
 
 
+                </div>
 
+                <div class="col col-12 col-lg-8 column-for-bars">
+                    <div class="acc-07" aria-label="Underline reveal editorial accordion demo">
+                    <div class="acc-07__wrap">
+                        <details class="acc-07__item" open>
+                        <summary class="acc-07__q"><i>a</i>What does the studio actually make?</summary>
+                        <div class="acc-07__a"><p>Identity systems, editorial websites and the occasional typeface. We take four projects a year and finish all four — the constraint is the offer.</p></div>
+                        </details>
+                        <details class="acc-07__item">
+                        <summary class="acc-07__q"><i>b</i>How does an engagement begin?</summary>
+                        <div class="acc-07__a"><p>With a two-week discovery sprint: interviews, an audit, and a written point of view. If we're wrong for each other, you keep the document and we part as friends.</p></div>
+                        </details>
+                        <details class="acc-07__item">
+                        <summary class="acc-07__q"><i>c</i>Do you work with early-stage teams?</summary>
+                        <div class="acc-07__a"><p>Two of our four annual slots are reserved for pre-seed and seed companies at a reduced rate. Bring conviction; the deck can be ugly.</p></div>
+                        </details>
+                        <details class="acc-07__item">
+                        <summary class="acc-07__q">I'm a team player: my best work is done in collaboration</summary>
+                        <div class="acc-07__a">
+                            <p>I fly solo well. But I've come to learn that working in a team is the richest experience for me and where my best work tends to flourish. I feel more empowered and can produce richer work when I'm able to "play tennis" with like-minded peers that know me well, and use their insight to guide me into finding the most sensible solutions. "Do you see it like I do? Am I missing something?"</p>
+                            <p>I'm a firm believer in leaving egos at the door and creating the collab structure that best sets up for success: define roles and allocate resources based on the superpowers that each member brings to the table and their level of insight about the task at hand, and working in tandem towards a team win.</p>
+                            <p>I love learning from what others are better at, just like I'm always up for taking on teammates as students.</p>
+                    </div>
+                        </details>
+                    </div>
+                    </div>
+                </div>
 
+            </div><!--row-->
+        </div>
+    </section>
+</div>
 
-
-
+<div id="anchor-01" class="anchor-wrapper">
     <section id="resume-01" class="wow fadeIn section-with-border-top">
         <div class="container">
             <div class="row">
@@ -151,8 +187,9 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
             </div><!--row-->
         </div>
     </section>
+</div>
 
-
+<div id="anchor-02" class="anchor-wrapper">
     <section id="resume-02" class="wow fadeIn section-with-border-top">
         <div class="container">
             <div class="row m-0">
@@ -177,8 +214,10 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
             </div><!--row-->
         </div>
     </section>
+</div>
 
-        <section id="resume-03" class="wow fadeIn section-with-border-top">
+<div id="anchor-03" class="anchor-wrapper"></div>
+    <section id="resume-03" class="wow fadeIn section-with-border-top">
         <div class="container">
             <div class="row m-0">
                 <div class="col col-12 col-lg-4 section-divider-numbered-02"
@@ -257,9 +296,9 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
             </div><!--row-->
         </div>
     </section>
+</div>
 
-
-
+<div id="anchor-04" class="anchor-wrapper">
     <section id="resume-04" class="wow fadeIn section-with-border-top">
         <div class="container">
             <div class="row m-0">
@@ -281,8 +320,9 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
             </div><!--row-->
         </div>
     </section>
+</div>
 
-
+<div id="anchor-05" class="anchor-wrapper">
     <section id="resume-05" class="wow fadeIn section-with-border-top">
         <div class="container">
             <div class="row m-0">
@@ -340,7 +380,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
             </div><!--row-->
         </div>
     </section>
-
+</div>
 
 
     <script>

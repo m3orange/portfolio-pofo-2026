@@ -53,7 +53,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     <!-- end product information section -->
 
 
-  <div id="anchor-01"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+  <div id="anchor-01" class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
     <div class="anchor-links"><!--anchor-white anchor-no-border-->
       <div class="row">
         <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
@@ -207,6 +207,25 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
                             </figure>
                         </a>
                     </li>
+                    <li class="grid-item wow"> <!--grid-item-double-->
+                        <a href="<?= BASE_URL ?>projects/cx-roadmap/assets/workshop-grid/06.jpg" data-group="workshop-exercises-grid"
+                            class="lightbox-group-gallery-item">
+                            <figure>
+                                <div class="portfolio-img bg-extra-dark-gray">
+                                    <img src="<?= BASE_URL ?>projects/cx-roadmap/assets/workshop-grid/07.jpg" class="project-img-gallery" />
+                                </div>
+                                <figcaption>
+                                    <div class="portfolio-hover-main text-center">
+                                        <div class="portfolio-hover-box vertical-align-middle">
+                                            <div class="portfolio-hover-content position-relative">
+                                                <i class="ti-zoom-in text-white-2 fa-2x"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>                    
                 </ul>
             </div>
 
@@ -217,7 +236,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
 
 
 
-  <div id="anchor-02"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+  <div id="anchor-02" class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
     <div class="anchor-links anchor-white"><!--anchor-white anchor-no-border-->
       <div class="row">
         <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
@@ -231,7 +250,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row">
                 <div class="col col-12 wow" data-wow-delay="0">
-                    <div class="gallery-item">
+                    <div class="gallery-item" style="text-align: center;">
                         <img src="<?= BASE_URL ?>projects/cx-roadmap/assets/usic-customer-journey-process.png"/>
                     </div>
                 </div>
@@ -240,7 +259,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     </section>
 </div>
 
-  <div id="anchor-03"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+  <div id="anchor-03" class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
     <div class="anchor-links anchor-white"><!--anchor-white anchor-no-border-->
       <div class="row">
         <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
@@ -299,7 +318,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     </div>
 
 
-  <div id="anchor-04"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+  <div id="anchor-04" class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
     <div class="anchor-links anchor-white"><!--anchor-white anchor-no-border-->
       <div class="row">
         <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">

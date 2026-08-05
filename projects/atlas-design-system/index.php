@@ -40,7 +40,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
 
     <!-- start parallax hero section -->
     <section id="block-intro-slider">
-        <img src="<?= BASE_URL ?>projects/atlas-design-system/assets/atlas-hero-opener-alpha.png"/>    
+        <img src="<?= BASE_URL ?>projects/atlas-design-system/assets/atlas-hero-opener.png"/>    
     </section>
     <!-- end parallax hero section -->
 
@@ -101,7 +101,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
           <h5>Design Documentation</h5>
             <div class="btn-view-website-area" style="border-left: 1px solid #000000CC!important;">
                 <div class="btn btn-to-atlas-ds-page">
-                    <a href="<?= BASE_URL ?>projects/atlas-ui/index.php" target="_blank" style="color: #000000!important;">View UI Design</a>
+                    <a href="<?= BASE_URL ?>projects/atlas-ui/index.php" target="_blank" style="color: #000000!important;">View the system in use</a>
                     <div class="btn-view-website"><img src="<?= BASE_URL ?>images/arrow-view-website-black.svg" style="height: 18px;"/></div>
                 </div>
                 

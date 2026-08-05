@@ -78,3 +78,36 @@ Hub is Vantor’s subscription-based cloud environment that provides on-demand a
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+
+
+
+
+<p>Vantor's administration platform (used internally as well as on the client side) had become a liability: it had grown organically over time, accumulating features without a coherent design strategy to hold them together, and had turned into a dense, inconsistent interface that required significant ramp-up time for new users and created daily friction for power users who needed to move quickly. Administrators responsible for provisioning users, managing permissions, and monitoring credit consumption across hundreds of geospatial data subscriptions were working around the tool rather than with it, especially when assigning user permissions using a system that offered little structure and no guardrails. Workflows that should have taken seconds stretched into multi-step detours with unnecessary amounts of clicks, and critical information was buried under layers of navigation that reflected system logic rather than user goals.</p>
+<p>A cross-functional workshop with product managers, engineers, and other stakeholders surfaced a consistent theme: the platform reflected system logic, not human workflows. The redesign was organized around seven principles distilled directly from that research: </p>
+<div class="emphasis-block">
+    <div class="row">
+
+        <div class="col col-12 col-md-6 admin-principles">
+            <ul>
+                <li>Lead with key data</li>
+                <li>Progressive disclosure</li>
+                <li>Customizable experiences</li>
+                <li>Faster access to insights</li>
+            </ul>    
+        </div>
+
+        <div class="col col-12 col-md-6 admin-principles">
+            <ul>
+                <li>Intuitive navigation</li>
+                <li>Early trouble detection with automatization</li>
+                <li>User permissions done right</li>
+            </ul>    
+        </div>
+        
+    </div>
+</div>
+<p>In practice, this meant a dashboard that surfaces critical metrics — sq km usage, streaming and download breakdowns, geographic distribution, recent orders — without requiring a single extra click. It meant an architecture that peels the onion: account managers always land at the macro view and drill into activations and users in place, without losing context. And it meant a configurable notification system that alerts admins to credit thresholds, expiring activations, and pending suspensions before they become problems — because as one stakeholder put it:</p>
+<div class="pull-quote-area">
+    <div class="pull-quote">"Let problems find me, rather than forcing me hunt them down.”</div>
+</div>
+<p>Permissions, historically one of the platform's biggest pain points, were rebuilt from the ground up, through the introduction of Team Buckets: named groups that inherit a defined set of permissions and credit limits, so admins configure complex settings once and apply to many. Individual permissions are searchable, grouped by product, annotated with descriptions and key contact person, and saveable as presets. New customer admins received equal attention: a branded welcome email, a guided first-login state, and a three-step user creation flow all make account setup approachable from day one. Throughout the platform, quick actions surface inline (resetting a password, adjusting a credit limit, suspending a user) so the most common tasks never require a context switch.</p>

@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Underline Reveal Accordion — Editorial Minimal with Animated Rules — CodeFronts</title>
+
+<style>
+.acc-07,
+.acc-07 *,
+.acc-07 *::before,
+.acc-07 *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.acc-07 {
+  --ink: #1c1a17;
+  --rule: #1c1a17;
+  font-family: Georgia,'Times New Roman',serif;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f7f4ee;
+  padding: 48px 24px;
+}
+
+.acc-07__wrap {
+  width: min(640px,100%);
+}
+
+.acc-07__mast {
+  font-family: 'Segoe UI',system-ui,sans-serif;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: #8d8577;
+  margin-bottom: 18px;
+}
+
+.acc-07__item {
+  border-top: 1px solid #ddd6c9;
+}
+
+.acc-07__q {
+  list-style: none;
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  gap: 18px;
+  padding: 26px 8px 24px 0;
+  font-size: clamp(20px,3.4vw,27px);
+  font-weight: 500;
+  line-height: 1.25;
+  color: var(--ink);
+  cursor: pointer;
+  letter-spacing: -.01em;
+}
+
+.acc-07__q::-webkit-details-marker {
+  display: none;
+}
+
+.acc-07__q::marker {
+  content: "";
+}
+
+.acc-07__q i {
+  font-style: italic;
+  font-size: .62em;
+  color: #b6ad9c;
+  flex: none;
+  width: 1.4em;
+  transition: color .25s;
+}
+
+.acc-07__q::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: var(--rule);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .45s cubic-bezier(.65,0,.2,1),opacity .2s;
+  opacity: 1;
+}
+
+.acc-07__q:hover::after {
+  transform: scaleX(1);
+  opacity: .12;
+}
+
+.acc-07__item[open] > .acc-07__q::after {
+  transform: scaleX(1);
+  opacity: 1;
+}
+
+.acc-07__item[open] > .acc-07__q i {
+  color: var(--ink);
+}
+
+.acc-07__a {
+  padding: 18px 0 30px calc(1.4em + 18px);
+  max-width: 65ch;
+}
+
+.acc-07__a p {
+  font-size: 16px;
+  line-height: 1.75;
+  color: #4d463b;
+}
+
+.acc-07__item[open] .acc-07__a {
+  animation: acc-07-in .5s cubic-bezier(.2,.7,.3,1);
+}
+
+@keyframes acc-07-in {
+  from {
+    opacity: 0;
+    translate: 0 6px;
+  }
+
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+.acc-07__q:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .acc-07__q::after {
+    transition: none;
+  }
+
+  .acc-07__item[open] .acc-07__a {
+    animation: none;
+  }
+}
+</style>
+</head>
+<body>
+<section class="acc-07" aria-label="Underline reveal editorial accordion demo">
+  <div class="acc-07__wrap">
+    <p class="acc-07__mast">Field Notes · № 4</p>
+    <details class="acc-07__item" open>
+      <summary class="acc-07__q"><i>a</i>What does the studio actually make?</summary>
+      <div class="acc-07__a"><p>Identity systems, editorial websites and the occasional typeface. We take four projects a year and finish all four — the constraint is the offer.</p></div>
+    </details>
+    <details class="acc-07__item">
+      <summary class="acc-07__q"><i>b</i>How does an engagement begin?</summary>
+      <div class="acc-07__a"><p>With a two-week discovery sprint: interviews, an audit, and a written point of view. If we're wrong for each other, you keep the document and we part as friends.</p></div>
+    </details>
+    <details class="acc-07__item">
+      <summary class="acc-07__q"><i>c</i>Do you work with early-stage teams?</summary>
+      <div class="acc-07__a"><p>Two of our four annual slots are reserved for pre-seed and seed companies at a reduced rate. Bring conviction; the deck can be ugly.</p></div>
+    </details>
+    <details class="acc-07__item">
+      <summary class="acc-07__q"><i>d</i>Where are you based?</summary>
+      <div class="acc-07__a"><p>Copenhagen and Toronto, and the six hours of overlap between them. Everything ships from a shared repository and a long-running phone call.</p></div>
+    </details>
+  </div>
+</section>
+<script>/* No JavaScript — the open indicator is a ::after rule scaled from 0 to full width on details[open]; hover pre-draws it at 12% opacity for discoverability. */</script>
+</body>
+</html>

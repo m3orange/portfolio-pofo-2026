@@ -40,13 +40,11 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     <!-- end header -->
 
     <!-- start parallax hero section -->
-    <section class="fullwidth-idd-demo">
+    <section id="block-intro-slider" class="fullwidth-idd-demo">
         <video autoplay loop muted playsinline>
             <source src="<?= BASE_URL ?>projects/idd/assets/idd-demo-loop.mp4" type="video/mp4">  
         </video>  
     </section>
-
-
     <!-- end parallax hero section -->
 
 
@@ -126,9 +124,9 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
 
     <section class="all-screens-fullwidth">
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
-            <div class="row">
+            <div class="row" style="    justify-content: center;">
                 <div class="col col-12" data-wow-delay="0.4s">
-                    <div class="gallery-item">
+                    <div class="gallery-item" style="text-align: center;">
                         <img src="<?= BASE_URL ?>projects/idd/assets/idd-all-screens.png"/>
                     </div>
                 </div>
