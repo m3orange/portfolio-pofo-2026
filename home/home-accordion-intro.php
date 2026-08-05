@@ -54,7 +54,7 @@
                            <div class="col col-12 intro-example-image-area">
                               <div class="example-info-box"><a href="<?= BASE_URL ?>projects/map-tools/index.php"> View project<i class="ti-arrow-right" style="border: 0px!important;"></i></a>
                               </div>
-                              <img src="<?= BASE_URL ?>home/intro-examples-01.png" />
+                              <img src="<?= BASE_URL ?>home/intro-examples-01.jpg" />
                            </div>
                         </div>
                      </div>
@@ -119,7 +119,7 @@
                                  Having extensive hands-on coding experience (I'm a front-end designer 🦄), I excel at identifying risks early. I tend to act as a translator between design and engineering, and help everyone understand each other's concerns and challenges without anything getting lost in [tech] translation.
                               </li>
                               <li>
-                                 I’m a fierce advocate of delivering design information –from layouts, to specs and PRDs– as close as possible to code, and to the specifics frameworks being used. The goal is to reach fidelity and parity faster, mitigate tech and design debt, and to reduce feedback loops that cause delays and friction.
+                                 I’m a fierce advocate of transfering design knowledge –from layouts, to specs and PRDs– as close as possible to code, and to the specifics frameworks (Vue, React, ect.) being used. The goal is to reach fidelity and parity faster, mitigate tech and design debt, and to reduce feedback loops that cause delays and friction.
                               </li>
                            </ul>
                         </h6>

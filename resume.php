@@ -96,12 +96,9 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         <?php foreach ($education as $edu): ?>
                             <div class="row rsm-item-header">
                                 <span class="margin-10px-right">
-                                    <h6><?= $edu['degree'] ?>,</h6>
-                                </span>
-                                <span class="margin-10px-right">
-                                    <h6><?= $edu['institution'] ?> / <?= $edu['city'] ?></h6>
-                                </span><span
-                                    class="rsm-city-date">[<?= $edu['date_start'] ?>-<?= $edu['date_end'] ?>]</span>
+                                    <h6><?= $edu['degree'] ?>,</h6></span>
+                                    <span class="margin-10px-right"><h6><?= $edu['institution'] ?> / <?= $edu['city'] ?></h6></span>
+                                    <span class="rsm-city-date">[<?= $edu['date_start'] ?>-<?= $edu['date_end'] ?>]</span>
 
                             </div>
                             <div class="education-details">
