@@ -6,7 +6,7 @@
          <div class="row">
             <div class="col col-12 col-lg-8 offset-lg-4">
                <div class="big-section-title-opener">
-                  <h5 class="font-weight-500">I'm trained in architecture and graphic design, and have 25+ years of multidisciplinary design experience {print, brand, web}. For the past 12, I have been focused on product design and UX engineering.</h5>
+                  <h5 class="font-weight-500 text-black">I'm trained in architecture and graphic design, and have 25+ years of multidisciplinary design experience {print, brand, web}. For the past 12, I have been focused on product design and UX engineering.</h5>
                </div>
             </div>
          </div>

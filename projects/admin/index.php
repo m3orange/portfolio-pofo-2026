@@ -82,29 +82,7 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
     </section>
   </div>
 
-  <div id="anchor-02"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
-    <div class="anchor-links anchor-white">
-      <div class="row">
-        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
-          <h5>Prototyping</h5>
-          <h6></h6>
-        </div>
-      </div>
-    </div>
-
-    <section class="admin-wireframes">
-        <div class="container-fluid padding-five-lr md-padding-30px-lr">
-            <div class="row mx-0">
-                <div class="col col-12">
-                    <div><img src="<?= BASE_URL ?><?= $single[0]['file_path'] ?>"></div>
-                </div>
-            </div>
-        </div>
-    </section> 
-
-  </div>
- 
-  <div id="anchor-03"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+    <div id="anchor-02"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
 
     <div class="anchor-links anchor-white">
       <div class="row">
@@ -116,15 +94,90 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
 
     <section class="admin-journey-fullwidth">
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
-            <div class="row">
+            <div class="row margin-40px-top">
                 <div class="col col-12" data-wow-delay="0.4s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?><?= $single[1]['file_path'] ?>"></div>
+                    <div class="gallery-item"><img src="<?= BASE_URL ?>home/intro-examples-02.jpg"></div>
                 </div>
             </div>
         </div>
     </section>
 
   </div>
+
+  <div id="anchor-03"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+    <div class="anchor-links anchor-white">
+      <div class="row">
+        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
+          <h5>Prototyping</h5>
+          <h6></h6>
+        </div>
+      </div>
+    </div>
+
+    <section class="wow fadeIn">
+        <div class="container-fluid padding-five-lr md-padding-30px-lr">
+            <div class="row mx-0" style="padding: 100px 0;">
+                <ul class="portfolio-grid work-3col hover-option2 gutter-large w-100">
+                    <li class="grid-sizer"></li>
+
+                    <li class="grid-item wow" data-wow-delay="0s"> <!--grid-item-double-->
+                        <a href="<?= BASE_URL ?>projects/admin/assets/individual-wires/admin-indiv-wires-01.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
+                            <figure>
+                                <div class="portfolio-img bg-extra-dark-gray"><img src="<?= BASE_URL ?>projects/admin/assets/individual-wires/admin-indiv-wires-01.png" class="project-img-gallery" /></div>
+                                <figcaption>
+                                    <div class="portfolio-hover-main text-center">
+                                        <div class="portfolio-hover-box vertical-align-middle">
+                                            <div class="portfolio-hover-content position-relative">
+                                                <i class="ti-zoom-in text-white-2 fa-2x"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li class="grid-item wow" data-wow-delay="0s"> <!--grid-item-double-->
+                        <a href="<?= BASE_URL ?>projects/admin/assets/individual-wires/admin-indiv-wires-02.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
+                            <figure>
+                                <div class="portfolio-img bg-extra-dark-gray"><img src="<?= BASE_URL ?>projects/admin/assets/individual-wires/admin-indiv-wires-02.png" class="project-img-gallery" /></div>
+                                <figcaption>
+                                    <div class="portfolio-hover-main text-center">
+                                        <div class="portfolio-hover-box vertical-align-middle">
+                                            <div class="portfolio-hover-content position-relative">
+                                                <i class="ti-zoom-in text-white-2 fa-2x"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li class="grid-item wow" data-wow-delay="0s"> <!--grid-item-double-->
+                        <a href="<?= BASE_URL ?>projects/admin/assets/individual-wires/admin-indiv-wires-03.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
+                            <figure>
+                                <div class="portfolio-img bg-extra-dark-gray"><img src="<?= BASE_URL ?>projects/admin/assets/individual-wires/admin-indiv-wires-03.png" class="project-img-gallery" /></div>
+                                <figcaption>
+                                    <div class="portfolio-hover-main text-center">
+                                        <div class="portfolio-hover-box vertical-align-middle">
+                                            <div class="portfolio-hover-content position-relative">
+                                                <i class="ti-zoom-in text-white-2 fa-2x"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </section>
+
+  </div>
+ 
+
 
   <div id="anchor-04"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
     <div class="anchor-links anchor-white">
@@ -135,6 +188,42 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
         </div>
       </div>
     </div>
+
+
+    <section class="wow fadeIn">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 blog-post-content text-center text-md-center"
+                    style="padding-right: 0px; padding-left: 0px;">
+
+                    <div class="swiper-full-screen swiper-cb-fullwidth-screens swiper-container white-move"
+                        data-slider-options='{ 
+                            "loop": true, 
+                            "slidesPerView": "1", 
+                            "allowTouchMove":true, 
+                            "autoplay": false, 
+                            "keyboard": { "enabled": true, "onlyInViewport": true }, 
+                            "navigation": { "nextEl": ".swiper-button-next", 
+                            "prevEl": ".swiper-button-prev" }, 
+                            "pagination": { "el": ".swiper-pagination", "clickable": true } }'>
+                        <div class="swiper-wrapper">
+                            <?php foreach ($slideshow as $img): ?>
+                                <div class="swiper-slide">
+                                    <img class="before-afters" src="<?= BASE_URL ?>projects/admin/assets/before-afters/before-after-01.png">
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                        <div
+                            class="swiper-pagination swiper-pagination-round swiper-pagination-white swiper-full-screen-pagination">
+                        </div>
+                        <div class="swiper-button-prev swiper-button-black-highlight"></div>
+                        <div class="swiper-button-next swiper-button-black-highlight"></div>
+                    </div>
+                </div>
+            </div><!--row-->
+        </div><!--container-->
+    </section>
+    
 
     <section class="wow fadeIn">
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
@@ -236,7 +325,7 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
     <div class="anchor-links anchor-white">
       <div class="row">
         <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
-          <h5>Making a Case for the Need for a Full SAP Integration</h5><h6></h6>
+          <h5>Making a case for a full SAP integration</h5><h6></h6>
         </div>
       </div>
     </div>

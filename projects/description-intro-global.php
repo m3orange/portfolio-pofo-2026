@@ -25,7 +25,6 @@
                         <div class="pi-details"><?= $project['tasks'] ?></div>
                     </div>
 
-                    <div class="confidentiality-note">Due to the confidential nature of some projects, certain details have been modified.</div>
                 </div>
                 <div class="col col-12 col-xl-3 col-lg-4 line-height-26 wow fadeIn">
                     <div class="project-info-item-row">
@@ -43,7 +42,9 @@
                     <div class="description-paragraph">
                         <?= $project['description'] ?> 
                     <!-- Truncation buttob triggers need to go on the DB, or else they will display in cases where there is no truncation to be done.-->
-                </div>                 
+                     </div>    
+                     
+                    <div class="confidentiality-note">Due to the confidential nature of some projects, certain details have been modified.</div>             
                 </div>
 
                 <div class="col col-12 col-xl-3 col-lg-4 line-height-26 wow fadeIn">

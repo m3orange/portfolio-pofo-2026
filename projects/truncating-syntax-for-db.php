@@ -56,7 +56,7 @@ Atlas is a geospatial, big data, visualization, and analytics tool that displays
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-The Atlas Design System was built for a geospatial visualization tool that displays large volumes of virtual data for any region in the world and provides situational awareness that can be used for mission planning. 
+The Atlas system was built specifically for a geospatial visualization tool displaying large volumes of virtual data for any region in the world and provides situational awareness that can be used for mission planning.
 
 
 <p>A design system is only as strong as its ability to scale without fracturing. The Atlas Design System was built for a complex geospatial mapping application, which meant that generic component libraries weren't an option. The product's unique interaction model demanded a purpose-built foundation. The system covers the full spectrum from core tokens –typography scales, a structured color palette, spacing rules– to domain-specific components such as custom GIS and camera navigation icon sets, responsive layers panel with hierarchical data management, and map tool controls designed specifically for 2D and 3D spatial environments.</p>
