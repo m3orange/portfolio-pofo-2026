@@ -5,234 +5,185 @@
 
 <body class="home">
 
+  <!-- start header -->
+  <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
+  <!-- end header -->
 
+  
+
+  
   <section id="home-hero-opener" class="p-0 full-screen position-relative wow" style="visibility: visible;"> 
 
     <div class="video-background-container">
-      <!-- Attributes ensure the video autoplays silently, loops infinitely, and works on mobile devices -->
-      <video autoplay muted loop playsinline class="">
+      <div class="background-video-03 ">
+        <video autoplay muted loop playsinline class="">
+            <source src=<?= BASE_URL ?>testing-videos/amoeba-01.mp4" type="video/mp4">
+        </video>
+      </div>
 
-              <source class="the-video" src="<?= BASE_URL ?>home/hero-morph-fpo.mp4" type="video/mp4">
+      <div class="video-background-content">
+        <div class="container h-100">
+          <div class="row h-100 m-0 p-0">
 
-      </video>
+            <div class="col col-12 col-xl-8 col-lg-9 col-md-10 d-flex justify-content-center flex-column text-left text-md-start">
+              <div class="home-hero-text-block">
+                  <div class="sm-margin-20px-bottom">
+                  <h1>I'm a senior product designer with a passion for 
+                    <span class="serif-emphasis">human-centered design and usability.</span></h1>
+                  </div>
+                  <div class="margin-50px-top">
+                  <h4>I’m seeking a position in <span class="serif-emphasis">product design or UX engineering.</span> <!--serif-emphasis--></h4>
+                  </div>
 
-      <style>
-        .video-background-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hiddaccoren;
-    display: flex;
-    align-items: flex-start !important;
-    justify-content: center !important;
-    background-color: #000 !important;
-    padding: 0 3% 3% 3%!important;
-        flex-direction: column!important;
-}
+                
+              </div>
+            </div><!-- cols-->
+          </div><!-- row-->
+        </div>
 
-.the-video{
-  max-width: 85%!important;
-}
-
-
-
-video{
-  max-width: 100%!important;
-
-    background-size: unset !important;
-}
-
-body{
-  margin: 0px!important;
-  padding: 0px!important;
-}
-
-
-.home #home-hero-opener {
-    overflow: hidden !important;
-    background-color: #000 !important;
-}
-
-      </style>
-
-
+      </div>
     </div>
+
+<div class="home-grid-top">
+      <div class="text-block-01">M. Architecture • MFA Design</div>
+      <div class="text-block-02">hello@michellemunoz.info</div>
+</div>
+
+
+
+<div class="home-grid-bottom d-flex-centering">
+
+  <div class="container">
+    <div class="row d-flex d-flex-centering" style="justify-content: space-between;">
+    <div class="col col-6">San Juan, Puerto Rico</div>
+    <div class="col col-6 text-align-right">18º28’00 N, 066º06’51 W</div>
+    </div>
+  </div>
+
+</div>
+
+<div class="home-big-words">
+<img class="word-01" src="<?= BASE_URL ?>home/home-big-words-slab-01.svg" />
+<!-- <img class="word-02" src="<?= BASE_URL ?>home/home-big-words-02.svg" /> -->
+</div>
   </section>
+
+
+
+
 
 
   <?php include ROOT_PATH . 'home/home-accordion-intro.php'; ?>
 
 
+  <div id="anchor-03" class="anchor-wrapper">
+    <section class="wow fadeIn section-with-border-top">
+      <div class="container">
+        <div class="row">
+          <!-- justify-content-center-->
+          <div class="col col-12 col-lg-4 section-divider-numbered-02" style="flex-direction: column;">
 
-<!-- start footer --> 
-<footer class="footer-strip-dark bg-extra-dark-gray" style="padding: 80px 0 0 0;">
-    <div class="container">
-        <div class="row" style="align-items: flex-start;">
-            <!-- start logo -->
-            <div class="col col-12 col-md-4 text-left text-lg-start sm-margin-20px-bottom footer-copyright">
-                <a href="index.html">
-                    <img class="footer-logo" src="<?= BASE_URL ?>images/munoz-logo-horizontal-white-04.svg" data-at2x="<?= BASE_URL ?>images/munoz-logo-horizontal-white-04.svg" alt="M3Orange Design">
-                </a>
-            </div> 
-            <!-- end logo -->
-            <!-- start copyright -->
-            <div class="col col-12 col-md-8 text-left text-medium footer-copyright">
-                <p>
-                &copy;<?=date("Y")?>, Michelle M. Mu&ntilde;oz-Dorna and Pixelmedia Inc. All Rights Reserved. No part of this content may be used or reproduced, in part or as a whole, without the express written consent of the author.
-                </p>
+            <div class="big-number">02</div>
+            <div class="big-section-title"><h4>Where I Shine</h4></div>
+
+          </div>
+          <div class="col col-12 col-lg-8 p-0">
+
+            <!-- start tab content -->
+            <div class="home-strong-areas-tabs tab-content">
+              <!-- start tab content -->
+              <div id="tab3_sec1" class="tab-pane active show ">
+                <div class="col col-12 wow fadeIn" data-wow-delay="0s">
+                  <div class="row">
+                    <!--?php include ROOT_PATH . 'home/home-strong-areas-cards.php'; ?-->
+
+                      <div class="col col-12 col-xl-6 col-lg-12 last-paragraph-no-margin grid-card-area">
+                        <div class="topic-cards" style="display: flex; flex-direction: column;justify-content: space-between;">
+                          <div>
+                            <div class="margin-10px-bottom card-number">[01]</div>
+                              <!-- <i class="icon-desktop icon-extra-medium text-deep-pink margin-20px-bottom"></i> -->
+                              <div>
+                                  <h6 class="alt-font-2 margin-10px-bottom padding-50px-right">Projects that benefit from deep knowledge of code</h6>
+                                  <p>I’m able to understand how technical constraints impact the design decisions we can make, and I’m able to identify possible issues early on, and to ask engineers very specific questions that could lead us to what our options are.</p>
+                              </div>
+                          </div>
+                            <div class="btn-view-website-area p-0">
+                              <div class="btn btn-to-atlas-ds-page"><a href="<?= BASE_URL ?>about.php" target="_blank" >More about my technical knowledge</a></div>
+                              <div class="btn-view-website"><img src="<?= BASE_URL ?>images/arrow-view-website-black.svg"/></div>
+                            </div>
+
+                          </div>
+                      </div>
+
+                      <div class="col col-12 col-xl-6 col-lg-12 last-paragraph-no-margin grid-card-area">
+                        <div class="topic-cards">
+                            <div class="margin-10px-bottom card-number">[02]</div>
+                              <!-- <i class="icon-desktop icon-extra-medium text-deep-pink margin-20px-bottom"></i> -->
+                              <div>
+                                  <h6 class="alt-font-2 margin-10px-bottom">Making sense of complex information architectures</h6>
+                                  <p>I’m good at organizing large amounts of data and designing intuitive workflows that help users get faster to insight. I rely greatly on doing user research to understand what's relevant to them, on implementing mental models that are familiar and reduce friction, and on leveraging good practices such as progressive disclosure and sensible information hierarchies with visual cues.
+                      </p>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col col-12 col-xl-6 col-lg-12 last-paragraph-no-margin grid-card-area">
+                          <div class="topic-cards">
+                            <div class="margin-10px-bottom card-number">[03]</div>
+                              <!-- <i class="icon-desktop icon-extra-medium text-deep-pink margin-20px-bottom"></i> -->
+                              <div>
+                                  <h6 class="alt-font-2 margin-10px-bottom padding-50px-right">Design systems and documentation</h6>
+                                  <p><s>OCD</s> detail-oriented by nature, I develop systems with a keen sense of precision, scalability and modularity. 
+                                  <h3>Add granularity here</h3>
+                                  And my coding know-how means I can tell a dev to use <span class="quote-01 code-block">a &lt;v-combobox&gt;, with X props and variants, and the Y and Z icons for the prepend & append slots.</span> A shared vocabulary with engineers, fewer handoff gaps, and no need for pixel-pushing.</p>
+                                  <h6>I'm usually guided by IBM's Carbon and Google's Material systems.</h6>
+                                  <h6>Similarity between design systems and modular architecture</h6>
+                                  <h6>Mention patterns in addition to components</h6>
+                                  <h6>No pixel-pushing.</h6>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col col-12 col-xl-6 col-lg-12 last-paragraph-no-margin grid-card-area"  style="height: stretch;">
+                        <div class="topic-cards" style="aspect-ratio: unset; height: stretch;">
+                            <div class="margin-10px-bottom card-number">[04]</div>
+                              <!-- <i class="icon-desktop icon-extra-medium text-deep-pink margin-20px-bottom"></i> -->
+                              <div>
+                                  <h6 class="alt-font-2 margin-10px-bottom padding-50px-right">Deep & meaningful research</h6>
+                                  <p>I never shy away from an opportunity to dive deep into research, particularly in entirely new technologies outside my comfort zone. I’m usually assigned that <span class="quote-01">"complex tech research that nobody else wants to do",</span> and enjoy being able to then translate it back to our team.</p>
+                                    <!-- Turning messy interview data and tangled processes into insight  -->
+                              </div>
+                          </div> 
+                      </div>
+
+                  </div>
+                </div>
+              </div>
+              <!-- end tab content -->
+
+
+
+            <!-- <!-?php include ROOT_PATH . 'home/home-strong-areas-rows.php'; --?> -->
+
+
             </div>
-            <!-- end copyright -->
-
-        </div>
-    </div>
+            <!-- end tab content -->
 
 
 
 
-
-</footer>   
-
-<div class="center-align">
-      <div id="clipped-block" class="container-fluid footer-clipped-words">
-        <div class="row text-area">
-          <div class="col col-12">
-            <div class="footer-clipped-words"><div class="my-name">michelle muñoz</div></div>
           </div>
         </div>
       </div>
+    </section>
+  </div>
 
-</div>
-<!-- end footer -->
+  <div id="anchor-04" class="anchor-wrapper">
+  <?php include ROOT_PATH . 'home/home-project-grid.php'; ?>
+  </div>
 
-<style>
-
-  .my-name{
-    height: 100px;
-  }
-
-  .center-align{
-        display: flex;
-    justify-content: center;
-  }
- .footer-clipped-words{
-    padding: 102px 0 0 0;
-    background-color: #1c1c1c;
-    font-style: italic;
-    font-size: 200px;
-    /* height: 300px; */
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    height: 140px;
-    align-items: flex-end;
-    letter-spacing: -10px;
-    color: rgba(255, 255, 255, 0.1);
-    justify-content: flex-start;
-    font-family: var(--ibm-serif);
-    min-width: 113%;
-    /* margin-bottom: 80px; */
- }
-
- .text-area{
-
- min-width: 100%;
-
- }
-
- #clipped-block{
-min-width: 250%; */
-    margin: 0px;
-    /* padding: 44px 0 0 0;*/
- }
-</style>
-
-            <!-- end footer -->
-    <!-- start scroll to top -->
-    <a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
-    <!-- end scroll to top  -->
-    <!-- javascript libraries -->
-    <script type="text/javascript" src="<?= BASE_URL ?>js/jquery.js"></script>
-    <script type="text/javascript" src="<?= BASE_URL ?>js/modernizr.js"></script>
-    <script type="text/javascript" src="<?= BASE_URL ?>js/bootstrap.bundle.js"></script>
-    <script type="text/javascript" src="<?= BASE_URL ?>js/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="<?= BASE_URL ?>js/skrollr.min.js"></script>
-    <script type="text/javascript" src="<?= BASE_URL ?>js/smooth-scroll.js"></script>
-    <script type="text/javascript" src="<?= BASE_URL ?>js/jquery.appear.js"></script>
-    <!-- menu navigation -->
-    <script type="text/javascript" src="<?= BASE_URL ?>js/bootsnav.js"></script>
-    <script type="text/javascript" src="<?= BASE_URL ?>js/jquery.nav.js"></script>
-    <!-- animation -->
-    <script type="text/javascript" src="<?= BASE_URL ?>js/wow.min.js"></script>
-    <!-- page scroll -->
-    <script type="text/javascript" src="<?= BASE_URL ?>js/page-scroll.js"></script>
-    <!-- swiper carousel -->
-    <script type="text/javascript" src="<?= BASE_URL ?>js/swiper.min.js"></script>
-    <!-- counter -->
-    <script type="text/javascript" src="<?= BASE_URL ?>js/jquery.count-to.js"></script>
-    <!-- parallax -->
-    <script type="text/javascript" src="<?= BASE_URL ?>js/jquery.stellar.js"></script>
-    <!-- magnific popup -->
-    <script type="text/javascript" src="<?= BASE_URL ?>js/jquery.magnific-popup.min.js"></script>
-    <!-- portfolio with shorting tab -->
-    <script type="text/javascript" src="<?= BASE_URL ?>js/isotope.pkgd.min.js"></script>
-    <!-- images loaded -->
-    <script type="text/javascript" src="<?= BASE_URL ?>js/imagesloaded.pkgd.min.js"></script>
-    <!-- pull menu -->
-    <script type="text/javascript" src="<?= BASE_URL ?>js/classie.js"></script>
-    <script type="text/javascript" src="<?= BASE_URL ?>js/hamburger-menu.js"></script>
-    <!-- counter  -->
-    <script type="text/javascript" src="<?= BASE_URL ?>js/counter.js"></script>
-    <!-- fit video  -->
-    <script type="text/javascript" src="<?= BASE_URL ?>js/jquery.fitvids.js"></script>
-    <!-- skill bars  -->
-    <script type="text/javascript" src="<?= BASE_URL ?>js/skill.bars.jquery.js"></script>
-    <!-- justified gallery  -->
-    <script type="text/javascript" src="<?= BASE_URL ?>js/justified-gallery.min.js"></script>
-    <!--pie chart-->
-    <script type="text/javascript" src="<?= BASE_URL ?>js/jquery.easypiechart.min.js"></script>
-    <!-- retina -->
-    <script type="text/javascript" src="<?= BASE_URL ?>js/retina.min.js"></script>
-    <!-- revolution -->
-    <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
-    <!-- revolution slider extensions (load below extensions JS files only on local file systems to make the slider work! The following part can be removed on server for on demand loading) -->
-    <!--<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>-->
-    <!-- setting -->
-
-    
-
-        <script type="text/javascript" src="<?= BASE_URL ?>js/main.js"></script>
-
-
-        <!-- <script>
-        window.Userback = window.Userback || {};
-        Userback.access_token = "A-UXvuAoDuLdEYYIFOBCZig4DV2";
-        // identify your logged-in users (optional)
-        Userback.user_data = {
-        id: "123456", // example data
-        info: {
-        name: "someone", // example data
-        email: "someone@example.com" // example data
-        }
-        };
-        (function(d) {
-        var s = d.createElement('script');s.async = true;s.src = 'https://static.userback.io/widget/v1.js';(d.head || d.body).appendChild(s);
-        })(document);
-        </script> -->
-
-
-
-
-
-
+  <!-- start footer -->
+  <?php include_once("includes/global-footer.php"); ?>
 
   
 </body>

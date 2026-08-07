@@ -64,7 +64,6 @@
     <link rel="stylesheet" href="<?= BASE_URL ?>_style-overwrites.css?v=1" />
     <script src="https://cdn.jsdelivr.net/npm/@mux/mux-player"></script>
 
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script type="text/javascript" src="https://www.bugherd.com/sidebarv2.js?apikey=g1mxulbxgjcv2styfzhhrw" async="true"></script>
+
 
 </head>

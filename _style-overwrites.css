@@ -698,8 +698,9 @@ img.mfp-img {
     left: 0px;
     bottom: -80px;
     width: 80%;
-    opacity: 0.35;
+    opacity: 0.1;
     text-align: right;
+    z-index: 10;
  
 }
 
@@ -2785,9 +2786,28 @@ font-style: italic !important;
     right: 0;
     z-index: 1;
     opacity: 0.3;
-
-  
 }
+
+
+/* .background-video-03{
+    position: absolute;
+    bottom:   -15%;
+    right:  -15%;
+    z-index: 0;
+    opacity: 1;
+
+}
+
+
+
+.background-video-03 video{
+    width: 100%!important;
+}
+ */
+
+
+
+
 
 /* .background-video-02 img{
     height: 200px;

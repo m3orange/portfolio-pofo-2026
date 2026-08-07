@@ -4,23 +4,20 @@
 
 <div class="temp-nav">
     <div class="row">
-    <ul style=" display: flex;flex-direction: row; margin: 0px;">
-        <li><a href="<?= BASE_URL ?>index.php" class="temp-links">Home</a></li>
-        <li><a href="<?= BASE_URL ?>about.php" class="temp-links">Tech Expertise</a></li>
-        <li><a href="<?= BASE_URL ?>resume.php" class="temp-links">Resume</a></li>
-        <li><a class="temp-links" href="<?= BASE_URL ?>projects/atlas-ui/index.php" title="Atlas UI">Atlas UI</a></li>
-        <li><a class="temp-links" href="<?= BASE_URL ?>projects/atlas-design-system/index.php" title="Atlas Design System">Design System</a><li>
-        <li><a class="temp-links" href="<?= BASE_URL ?>projects/admin/index.php" title="Admin Platform">Admin</a></li>
-        <li><a class="temp-links" href="<?= BASE_URL ?>projects/musicasa/index.php" title="Musicasa">Musicasa</a></li>
-        <li><a class="temp-links" href="<?= BASE_URL ?>projects/cx-roadmap/index.php" title="CX Roadmap">USIC</a></li>
-        <li><a class="temp-links" href="<?= BASE_URL ?>projects/space-scout/index.php" title="In Situ">In Situ</a></li>
-        <li><a class="temp-links" href="<?= BASE_URL ?>projects/map-tools/index.php" title="Map Tools">Map Tools</a></li>
-        <li><a class="temp-links" href="<?= BASE_URL ?>projects/idd/index.php" title="IDD">IDD</a></li>
-    </ul>
+        <ul style=" display: flex;flex-direction: row; margin: 0px;">
+            <li><a href="<?= BASE_URL ?>index.php" class="temp-links">Home</a></li>
+            <li><a href="<?= BASE_URL ?>about.php" class="temp-links">Tech Expertise</a></li>
+            <li><a href="<?= BASE_URL ?>resume.php" class="temp-links">Resume</a></li>
+            <li><a class="temp-links" href="<?= BASE_URL ?>projects/atlas-ui/index.php" title="Atlas UI">Atlas UI</a></li>
+            <li><a class="temp-links" href="<?= BASE_URL ?>projects/atlas-design-system/index.php" title="Atlas Design System">Design System</a><li>
+            <li><a class="temp-links" href="<?= BASE_URL ?>projects/admin/index.php" title="Admin Platform">Admin</a></li>
+            <li><a class="temp-links" href="<?= BASE_URL ?>projects/musicasa/index.php" title="Musicasa">Musicasa</a></li>
+            <li><a class="temp-links" href="<?= BASE_URL ?>projects/cx-roadmap/index.php" title="CX Roadmap">USIC</a></li>
+            <li><a class="temp-links" href="<?= BASE_URL ?>projects/space-scout/index.php" title="In Situ">In Situ</a></li>
+            <li><a class="temp-links" href="<?= BASE_URL ?>projects/map-tools/index.php" title="Map Tools">Map Tools</a></li>
+            <li><a class="temp-links" href="<?= BASE_URL ?>projects/idd/index.php" title="IDD">IDD</a></li>
+        </ul>
     </div>
-
-
-
 </div>
 
 <style>

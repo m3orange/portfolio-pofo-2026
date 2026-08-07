@@ -52,11 +52,11 @@ CORRECT
     --default-font-color: #000000;
     --m3-orange: #FF5D00;
     --text-highlight-01: #ffe318;
-    --home-grid-border-color: rgba(255,255,255,0.6)!important;
+    --home-grid-border-color: rgba(255,255,255,0.3)!important;
 
     --text-black: #000000!important;
     --text-white: #FFFFFF!important;
-    --grid-lines-color:  
+
 }
 
 /* Orange
