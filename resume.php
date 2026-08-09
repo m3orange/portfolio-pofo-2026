@@ -50,8 +50,8 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <div class="row">
                 <div class="col col-12 col-lg-4 section-divider-numbered-02" style="flex-direction: column; justify-content: flex-start;">
                     <div class="row m-0" style="flex-direction: column;">
-                        <div class="big-number">00</div>
-                        <div class="big-section-title margin-50px-bottom"><h4>Soft Skills</h4></div>
+                        <div class="big-number">01</div>
+                        <div class="big-section-title margin-50px-bottom"><h4>Some facts about me</h4></div>
                     </div>
 
 
@@ -60,34 +60,117 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <div class="col col-12 col-lg-8 column-for-bars">
                     <div class="acc-07" aria-label="Underline reveal editorial accordion demo">
                     <div class="acc-07__wrap">
-                        <details class="acc-07__item" open>
-                        <summary class="acc-07__q"><i>a</i>What does the studio actually make?</summary>
-                        <div class="acc-07__a"><p>Identity systems, editorial websites and the occasional typeface. We take four projects a year and finish all four — the constraint is the offer.</p></div>
+
+
+                        <details class="acc-07__item soft-skills"><!--open-->
+                            <summary class="acc-07__q">I'm passionate about problem solving. What drives me: I'm 100% convinced that EVERYTHING can be designed better.</summary>
+                            <div class="acc-07__a">
+                                <ul>
+                                    <li>Take me into any bathroom and I'll give you a full teardown of what's wrong with it. I can't switch off the "why was it built this way, and why isn't it actually solving the problem?" reflex.</li>
+                                    <li>Deeply empathetic to users, and genuinely frustrated when design fails them for no good reason. Whether it's a poorly placed handicapped ramp, a hard to read airport sign that makes someone miss a flight, an onboarding flow that loses anyone who isn't fluent in tech, design can always do better by them and that gap is the thing I can't leave alone.</li>
+                                </ul>
+                            </div>
                         </details>
-                        <details class="acc-07__item">
-                        <summary class="acc-07__q"><i>b</i>How does an engagement begin?</summary>
-                        <div class="acc-07__a"><p>With a two-week discovery sprint: interviews, an audit, and a written point of view. If we're wrong for each other, you keep the document and we part as friends.</p></div>
+
+
+                        <details class="acc-07__item soft-skills"><!--open-->
+                            <summary class="acc-07__q">I do my best work, and enjoy the design process the most, when working in teams.</summary>
+                            <div class="acc-07__a">
+                                <ul>
+                                    <li>The best ideas rarely arrive fully formed from one brain. I do my sharpest thinking bouncing off PMs, engineers, and other designers.</li>
+                                    <li>I'm a firm believer in leaving egos at the door and structuring a project's team based on the superpowers that each member brings to the table who is best at each of the tasks. The goal is to always set the team for success.</li>
+                                </ul>
+                            </div>
                         </details>
-                        <details class="acc-07__item">
-                        <summary class="acc-07__q"><i>c</i>Do you work with early-stage teams?</summary>
-                        <div class="acc-07__a"><p>Two of our four annual slots are reserved for pre-seed and seed companies at a reduced rate. Bring conviction; the deck can be ugly.</p></div>
+
+
+
+
+                        <details class="acc-07__item soft-skills"><!--open-->
+                            <summary class="acc-07__q">I'm equal parts confident in what I know and can do as a designer, and ok with raising my hand when I don't have sufficient knowledge and need support.</summary>
+                            <div class="acc-07__a">
+                                <ul>
+                                    <li>"I don't know yet, but I know how to find out" is a complete sentence. Knowing where my expertise ends is part of the expertise.</li>
+                                </ul>
+                            </div>
                         </details>
-                        <details class="acc-07__item">
-                        <summary class="acc-07__q">I'm a team player: my best work is done in collaboration</summary>
-                        <div class="acc-07__a">
-                            <p>I fly solo well. But I've come to learn that working in a team is the richest experience for me and where my best work tends to flourish. I feel more empowered and can produce richer work when I'm able to "play tennis" with like-minded peers that know me well, and use their insight to guide me into finding the most sensible solutions. "Do you see it like I do? Am I missing something?"</p>
-                            <p>I'm a firm believer in leaving egos at the door and creating the collab structure that best sets up for success: define roles and allocate resources based on the superpowers that each member brings to the table and their level of insight about the task at hand, and working in tandem towards a team win.</p>
-                            <p>I love learning from what others are better at, just like I'm always up for taking on teammates as students.</p>
+
+
+                        <details class="acc-07__item soft-skills"><!--open-->
+                            <summary class="acc-07__q">I welcome criticism: I survived 5 years of architectural school.</summary>
+                            <div class="acc-07__a">
+                                <ul>
+                                    <li>Public crits at 2am build a thick skin and a good ear — I've learned to hear the note under the noise and separate my ego from the work.</li>
+                                    <li>I admit that sometimes I can get stuck with a particular approach and I recognize that I need fresh eyes to help me validate whether that's the right path, or help me understand whether I've missing something in my analysis.</li>
+                                </ul>
+                            </div>
+                        </details>
+
+                        <details class="acc-07__item soft-skills"><!--open-->
+                            <summary class="acc-07__q">I'm fluent in English and Spanish, and have some basic understanding of French Portugese.</summary>
+                        </details>
+
+                        <details class="acc-07__item soft-skills"><!--open-->
+                            <summary class="acc-07__q">Eternally curious + always learning: love collecting skills.</summary>
+                            <div class="acc-07__a">
+                                <ul>
+                                    <li>Motion, prototyping, a little code, a lot of "how does this actually work?" — my toolkit keeps growing because I can't help poking at things.</li>
+                                    <li>New tool, new discipline, new rabbit hole: I treat each one as a souvenir, not a chore.</li>
+                                </ul>
+                            </div>
+                        </details>
+                        <details class="acc-07__item soft-skills"><!--open-->
+                            <summary class="acc-07__q">I'm not afraid to speak my mind and I'm proactive in recommending different approaches. </summary>
+                            <div class="acc-07__a">
+                                <ul>
+                                    <li>I'll champion an idea hard and drop it just as fast when someone makes a better case. The goal is the right answer, not my answer.</li>
+                                    <li>Design is best done in environments with constant brainstorming and discussions that welcome challenging ideas and design decisions.</li>
+                                </ul>
+                            </div>
+                        </details>
+                        <details class="acc-07__item soft-skills"><!--open-->
+                            <summary class="acc-07__q">I'm good at creating engaging presentations. </summary>
+                            <div class="acc-07__a">
+                                <ul>
+                                    <li>I'm particularly good at hunting down for fun metaphors that turn technicalm, boring concepts into easy-to-digest insight.</li>
+                                    <li>Give me a dense system diagram and I'll find the one analogy that makes the whole room nod at once.</li>
+                                </ul>
+                            </div>
+                        </details>
+                        <details class="acc-07__item soft-skills"><!--open-->
+                            <summary class="acc-07__q">As detailed-oriented as any purist Swiss designer. That said, once "form has followed that function", I believe in adding an extra level of fun.</summary>
+                            <div class="acc-07__a">
+                                <ul>
+                                    <li>Grids, spacing, and type hierarchy are non-negotiable: I guarantee I'll notice the 2px nobody else did.</li>
+                                    <li>Once the fundamentals are locked, I earn the right to add the delight: the micro-interaction or small surprise that makes people smile.</li>
+                                </ul>
+                            </div>
+                        </details>
+                        <details class="acc-07__item soft-skills"><!--open-->
+                            <summary class="acc-07__q">Adapt fast to new technologies and good at moving among different mediums.</summary>
+                            <div class="acc-07__a">
+                                <ul>
+                                    <li>Web, mobile, print, prototype, whiteboard — I switch mediums without losing the thread.</li>
+                                    <li>I tend to be fast at mastering new software, which helps the medium not become an obstacle to the proces.</li>
+                                </ul>
+                            </div>
+                        </details>
+
                     </div>
-                        </details>
-                    </div>
-                    </div>
+                    </div> 
                 </div>
 
             </div><!--row-->
         </div>
     </section>
 </div>
+
+<style>
+
+
+
+
+</style>
 
 <div id="anchor-01" class="anchor-wrapper">
     <section id="resume-01" class="wow fadeIn section-with-border-top">
@@ -96,7 +179,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <div class="col col-12 col-lg-4 section-divider-numbered-02"
                     style="flex-direction: column; justify-content: flex-start;">
                     <div class="row m-0" style="flex-direction: column;">
-                        <div class="big-number">01</div>
+                        <div class="big-number">02</div>
                         <div class="big-section-title margin-50px-bottom"><h4>Education</h4></div>
                     </div>
                         <div class="row">
@@ -196,7 +279,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <div class="col col-12 col-lg-4 section-divider-numbered-02"
                     style="flex-direction: column; justify-content: flex-start;">
                     <div class="row m-0" style="flex-direction: column;">
-                        <div class="big-number">02</div>
+                        <div class="big-number">03</div>
                         <div class="big-section-title margin-50px-bottom">
                             <h4>Professional Experience</h4>
                         </div>
@@ -223,7 +306,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <div class="col col-12 col-lg-4 section-divider-numbered-02"
                     style="flex-direction: column; justify-content: flex-start;">
                     <div class="row m-0" style="flex-direction: column;">
-                        <div class="big-number">03</div>
+                        <div class="big-number">04</div>
                         <div class="big-section-title margin-50px-bottom">
                             <h4>Additional</h4>
                         </div>
@@ -306,7 +389,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <div class="col col-12 col-lg-4 section-divider-numbered-02"
                     style="flex-direction: column; justify-content: flex-start;">
                     <div class="row m-0" style="flex-direction: column;">
-                        <div class="big-number">04</div>
+                        <div class="big-number">05</div>
                         <div class="big-section-title margin-50px-bottom">
                             <div class="col col-12 col-lg-11 col-md-12"><h4>Brands & Companies I Have Worked With</h4></div>
                         </div>
@@ -330,7 +413,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <div class="col col-12 col-lg-3 section-divider-numbered-02 p-0"
                     style="flex-direction: column; justify-content: flex-start;">
                     <div class="row" style="flex-direction: column;">
-                        <div class="big-number">05</div>
+                        <div class="big-number">06</div>
                         <div class="big-section-title margin-50px-bottom">
                             <h4>Design Inspiration</h4>
                         </div>

@@ -1896,6 +1896,10 @@ video {
 padding: 120px 80px;
 }
 
+.admin .admin-principles ul{
+    margin: 0px;
+}
+
 .idd .fullwidth-idd-demo {
     background-color: #444 !important;
     padding: 80px 0 40px 0 !important;
@@ -2921,6 +2925,8 @@ font-style: italic !important;
 
 }
 
+
+
 .btn-swipe-sides{
     margin: 0 0 10px 0;
 }
@@ -3815,9 +3821,27 @@ nav.navbar.bootsnav li.dropdown .menu-back-div > ul {
         
 
 
+.soft-skills summary{
+        font-family: var(--archivo-headers-01);
+    }
 
 
-        .acc-07,
+.soft-skills summary::before {
+  /* content: url("../images/chevron-double-right-black.svg"); */
+  content: url("../images/chevron-double-right-black.png");
+  display: inline-block;
+
+
+}
+
+
+.soft-skills summary li{
+    margin-bottom: 10px
+}
+
+
+
+.acc-07,
 .acc-07 *,
 .acc-07 *::before,
 .acc-07 *::after {
@@ -3861,9 +3885,9 @@ nav.navbar.bootsnav li.dropdown .menu-back-div > ul {
   position: relative;
   display: flex;
   align-items: baseline;
-  gap: 18px;
-  padding: 26px 8px 24px 0;
-  font-size: clamp(20px,3.4vw,27px);
+  gap: 12px;
+  padding: 14px 8px 18px 0;
+  font-size: 22px;
   font-weight: 500;
   line-height: 1.25;
   color: var(--ink);
@@ -3917,8 +3941,8 @@ nav.navbar.bootsnav li.dropdown .menu-back-div > ul {
 }
 
 .acc-07__a {
-  padding: 18px 0 30px calc(1.4em + 18px);
-  max-width: 65ch;
+  padding: 18px 0 30px calc(1.4em + 8px);
+  max-width: 90ch;
 }
 
 .acc-07__a p {

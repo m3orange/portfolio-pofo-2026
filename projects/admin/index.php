@@ -207,11 +207,12 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
                             "prevEl": ".swiper-button-prev" }, 
                             "pagination": { "el": ".swiper-pagination", "clickable": true } }'>
                         <div class="swiper-wrapper">
-                            <?php foreach ($slideshow as $img): ?>
-                                <div class="swiper-slide">
-                                    <img class="before-afters" src="<?= BASE_URL ?>projects/admin/assets/before-afters/before-after-01.png">
-                                </div>
-                            <?php endforeach; ?>
+
+                            <div class="swiper-slide"><img class="before-afters" src="<?= BASE_URL ?>projects/admin/assets/before-afters/before-after-01@0.5x.png"></div>
+                            <div class="swiper-slide"><img class="before-afters" src="<?= BASE_URL ?>projects/admin/assets/before-afters/before-after-02a@0.5x.png"></div>
+                            <div class="swiper-slide"><img class="before-afters" src="<?= BASE_URL ?>projects/admin/assets/before-afters/before-after-02b@0.5x.png"></div>
+                            <div class="swiper-slide"><img class="before-afters" src="<?= BASE_URL ?>projects/admin/assets/before-afters/before-after-02c@0.5x.png"></div>
+
                         </div>
                         <div
                             class="swiper-pagination swiper-pagination-round swiper-pagination-white swiper-full-screen-pagination">
@@ -223,6 +224,12 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
             </div><!--row-->
         </div><!--container-->
     </section>
+
+    <style>
+        .temp-color{
+            border: 1px solid pink;
+        }
+    </style>
     
 
     <section class="wow fadeIn">
