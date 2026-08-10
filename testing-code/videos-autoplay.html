@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+<div class="video-container-02 color-01">
+	<video autoplay loop muted playsinline width="719" height="511" srcdesk="https://michellemunoz.info/projects/map-tools/assets/map-tools-demo-light.mp4" srcmob="https://michellemunoz.info/projects/map-tools/assets/map-tools-demo-light.mp4"></video>
+</div>
+
+
+
+
+<div class="color-02">
+	<video autoplay loop width="719" height="511">
+		<source src="https://michellemunoz.info/projects/map-tools/assets/map-tools-demo-light.mp4" type="video/mp4">
+	</video>
+</div>
+
+
+
+<div class="color-03">
+  <video autoplay loop width="550px" muted controls>
+    <source src="https://michellemunoz.info/projects/map-tools/assets/map-tools-demo-light.mp4" type="video/mp4"/>
+  </video>
+</div>
+  
+
+
+
+    <style>
+
+        .video-container {
+            position: absolute;
+            top: 50%;
+            bottom: 0;
+            width: 20%;
+            height: 2%;
+            overflow: hidden;
+        }
+        .video-container video {
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+
+        .video-container-02 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 719px;
+    height: 511px;
+    /* overflow: hidden; */
+    z-index: 100000;
+}
+     .video-container-02 video{
+                    min-width: 100%;
+            min-height: 100%;
+
+            position: absolute;
+
+            transform: translate(-50%, -50%);
+     }
+
+
+        .color-01{ border: 2px solid yellow;}
+        .color-02{ border: 2px solid orange;}
+        .color-03{ border: 2px solid red;}
+    </style>
+
+    <script>
+        var videoWidth = 1280;
+        var  video = $(".video-container video").attr("srcdesk");
+        if($(window).width() < 721) {
+        videoWidth = 720;
+        video = $(".video-container video").attr("srcmob"));
+        }
+        $(".video-container video").attr("width", videoWidth).append('<source src="' + video + '" type="video/mp4" >'),
+    </script>
+</body>
+</html>

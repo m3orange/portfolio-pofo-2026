@@ -77,7 +77,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
                 </div>
             </div>
                         <div class="row margin-40px-bottom">
-                <div class="col col-12 col-lg-8 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.2s">
+                <div class="col col-12 sm-margin-10px-bottom wow fadeIn" data-wow-delay="0.2s">
                     <div class="gallery-item">
                         <img src="<?= BASE_URL ?>projects/idd/assets/idd-research-boards.png">
                     </div>
