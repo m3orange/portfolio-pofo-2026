@@ -65,7 +65,8 @@
 
 
     <link rel="stylesheet" href="<?= BASE_URL ?>_style-overwrites.css?v=1" />
-    <script src="https://cdn.jsdelivr.net/npm/@mux/mux-player"></script>
+    <link rel="stylesheet" href="<?= BASE_URL ?>__mobile-overwrites.css?v=1" />
+
 
 
 

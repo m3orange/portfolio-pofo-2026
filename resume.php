@@ -51,19 +51,19 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <div class="col col-12 col-lg-4 section-divider-numbered-02" style="flex-direction: column; justify-content: flex-start;">
                     <div class="row m-0" style="flex-direction: column;">
                         <div class="big-number">01</div>
-                        <div class="big-section-title margin-50px-bottom"><h4>Some facts about me</h4></div>
+                        <div class="big-section-title margin-50px-bottom"><h4>Quick Facts</h4></div>
                     </div>
-
-
                 </div>
 
-                <div class="col col-12 col-lg-8 column-for-bars p-0">
+                <div class="col col-12 col-lg-8 col-md-12 column-for-bars p-0">
                     <div class="acc-07" aria-label="Underline reveal editorial accordion demo">
                     <div class="acc-07__wrap">
 
 
                         <details class="acc-07__item soft-skills"><!--open-->
-                            <summary class="acc-07__q">I'm passionate about problem solving. What drives me: I'm 100% convinced that EVERYTHING can be designed better.</summary>
+                            <summary class="acc-07__q">
+                                <span class="start-arrow"><img src="<?= BASE_URL ?>images/resume-facts-opener-arrow.png"></span>
+                            I'm passionate about problem solving. What drives me: I'm 100% convinced that EVERYTHING can be designed better.</summary>
                             <div class="acc-07__a">
                                 <ul>
                                     <li>Take me into any bathroom and I'll give you a full teardown of what's wrong with it. I can't switch off the "why was it built this way, and why isn't it actually solving the problem?" reflex.</li>
@@ -74,7 +74,9 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 
                         <details class="acc-07__item soft-skills"><!--open-->
-                            <summary class="acc-07__q">I do my best work, and enjoy the design process the most, when working in teams.</summary>
+                            <summary class="acc-07__q">
+                                <span class="start-arrow"><img src="<?= BASE_URL ?>images/resume-facts-opener-arrow.png"></span>
+                                I do my best work, and enjoy the design process the most, when working in teams.</summary>
                             <div class="acc-07__a">
                                 <ul>
                                     <li>The best ideas rarely arrive fully formed from one brain. I do my sharpest thinking bouncing off PMs, engineers, and other designers.</li>
@@ -84,10 +86,10 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         </details>
 
 
-
-
                         <details class="acc-07__item soft-skills"><!--open-->
-                            <summary class="acc-07__q">I'm equal parts confident in what I know and can do as a designer, and ok with raising my hand when I don't have sufficient knowledge and need support.</summary>
+                            <summary class="acc-07__q">
+                                <span class="start-arrow"><img src="<?= BASE_URL ?>images/resume-facts-opener-arrow.png"></span>
+                                 I'm equal parts confident in what I know and can do as a designer, and ok with raising my hand when I don't have sufficient knowledge and need support.</summary>
                             <div class="acc-07__a">
                                 <ul>
                                     <li>"I don't know yet, but I know how to find out" is a complete sentence. Knowing where my expertise ends is part of the expertise.</li>
@@ -97,7 +99,9 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 
                         <details class="acc-07__item soft-skills"><!--open-->
-                            <summary class="acc-07__q">I welcome criticism: I survived 5 years of architectural school.</summary>
+                            <summary class="acc-07__q">
+                                <span class="start-arrow"><img src="<?= BASE_URL ?>images/resume-facts-opener-arrow.png"></span>
+                                I welcome criticism: I survived 5 years of architectural school.</summary>
                             <div class="acc-07__a">
                                 <ul>
                                     <li>Public crits at 2am build a thick skin and a good ear — I've learned to hear the note under the noise and separate my ego from the work.</li>
@@ -107,11 +111,14 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         </details>
 
                         <details class="acc-07__item soft-skills"><!--open-->
-                            <summary class="acc-07__q">I'm fluent in English and Spanish, and have some basic understanding of French Portugese.</summary>
+                            <summary class="acc-07__q"><span class="start-arrow"><img src="<?= BASE_URL ?>images/resume-facts-opener-arrow.png"></span>
+                            I'm fluent in English and Spanish, and have some basic understanding of French Portugese.</summary>
                         </details>
 
                         <details class="acc-07__item soft-skills"><!--open-->
-                            <summary class="acc-07__q">Eternally curious + always learning: love collecting skills.</summary>
+                            <summary class="acc-07__q">
+                                <span class="start-arrow"><img src="<?= BASE_URL ?>images/resume-facts-opener-arrow.png"></span>
+                                Eternally curious + always learning: love collecting skills.</summary>
                             <div class="acc-07__a">
                                 <ul>
                                     <li>Motion, prototyping, a little code, a lot of "how does this actually work?" — my toolkit keeps growing because I can't help poking at things.</li>
@@ -120,7 +127,9 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                             </div>
                         </details>
                         <details class="acc-07__item soft-skills"><!--open-->
-                            <summary class="acc-07__q">I'm not afraid to speak my mind and I'm proactive in recommending different approaches. </summary>
+                            <summary class="acc-07__q">
+                                <span class="start-arrow"><img src="<?= BASE_URL ?>images/resume-facts-opener-arrow.png"></span>
+                                I'm not afraid to speak my mind and I'm proactive in recommending different approaches. </summary>
                             <div class="acc-07__a">
                                 <ul>
                                     <li>I'll champion an idea hard and drop it just as fast when someone makes a better case. The goal is the right answer, not my answer.</li>
@@ -129,7 +138,9 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                             </div>
                         </details>
                         <details class="acc-07__item soft-skills"><!--open-->
-                            <summary class="acc-07__q">I'm good at creating engaging presentations. </summary>
+                            <summary class="acc-07__q">
+                                <span class="start-arrow"><img src="<?= BASE_URL ?>images/resume-facts-opener-arrow.png"></span>
+                                I'm good at creating engaging presentations. </summary>
                             <div class="acc-07__a">
                                 <ul>
                                     <li>I'm particularly good at hunting down for fun metaphors that turn technicalm, boring concepts into easy-to-digest insight.</li>
@@ -138,7 +149,9 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                             </div>
                         </details>
                         <details class="acc-07__item soft-skills"><!--open-->
-                            <summary class="acc-07__q">As detailed-oriented as any purist Swiss designer. That said, once "form has followed that function", I believe in adding an extra level of fun.</summary>
+                            <summary class="acc-07__q">
+                                <span class="start-arrow"><img src="<?= BASE_URL ?>images/resume-facts-opener-arrow.png"></span>
+                                As detailed-oriented as any purist Swiss designer. That said, once "form has followed function", I believe in adding an extra level of fun.</summary>
                             <div class="acc-07__a">
                                 <ul>
                                     <li>Grids, spacing, and type hierarchy are non-negotiable: I guarantee I'll notice the 2px nobody else did.</li>
@@ -147,7 +160,9 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                             </div>
                         </details>
                         <details class="acc-07__item soft-skills"><!--open-->
-                            <summary class="acc-07__q">Adapt fast to new technologies and good at moving among different mediums.</summary>
+                            <summary class="acc-07__q">
+                                <span class="start-arrow"><img src="<?= BASE_URL ?>images/resume-facts-opener-arrow.png"></span>
+                                Adapt fast to new technologies and good at moving among different mediums.</summary>
                             <div class="acc-07__a">
                                 <ul>
                                     <li>Web, mobile, print, prototype, whiteboard — I switch mediums without losing the thread.</li>

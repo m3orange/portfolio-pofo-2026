@@ -245,19 +245,19 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
       </div>
     </div>
 
-    <!--begin - image grid - from single-project-page-01-->
-    <section class="journey-map-fullwidth"">
-        <div class="container-fluid padding-five-lr md-padding-30px-lr">
-            <div class="row">
-                <div class="col col-12 wow" data-wow-delay="0">
-                    <div class="gallery-item" style="text-align: center;">
-                        <img src="<?= BASE_URL ?>projects/cx-roadmap/assets/usic-customer-journey-process.png"/>
+        <!--begin - image grid - from single-project-page-01-->
+        <section class="journey-map-fullwidth"">
+            <div class="container-fluid padding-five-lr md-padding-30px-lr">
+                <div class="row">
+                    <div class="col col-12 wow" data-wow-delay="0">
+                        <div class="gallery-item" style="text-align: center;">
+                            <img src="<?= BASE_URL ?>projects/cx-roadmap/assets/usic-customer-journey-process.png"/>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-</div>
+        </section>
+    </div>
 
   <div id="anchor-03" class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
     <div class="anchor-links anchor-white"><!--anchor-white anchor-no-border-->
@@ -269,10 +269,11 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     </div>
 
 
-    <section class="personas-fullwidth-slider">
+
+        <section class="fullwidth-slider-01">
         <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
             <div class="row">
-                <div class="col-11 offset-1 blog-post-content text-center text-md-center"
+                <div class="col-12 blog-post-content text-center text-md-center"
                     style="padding-right: 0px; padding-left: 0px;">
                     <div class="swiper-full-screen swiper-cb-fullwidth-screens swiper-container white-move"
                         data-slider-options='{ 
@@ -285,32 +286,21 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
                     "prevEl": ".swiper-button-prev" }, 
                     "pagination": { "el": ".swiper-pagination", "clickable": true } }'>
 
-
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/cx-roadmap/assets/proto-personas-01.png"></div>
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/cx-roadmap/assets/proto-personas-02.png"></div>
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/cx-roadmap/assets/proto-personas-03.png"></div>
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/cx-roadmap/assets/proto-personas-04.png"></div>
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/cx-roadmap/assets/executive-summary-01.png"></div>
-                            <div class="swiper-slide "><img class="cb-screens"
-                                    src="<?= BASE_URL ?>projects/cx-roadmap/assets/executive-summary-02.png"></div>
-
-                        </div>
+                            <div class="swiper-slide"><img class="cb-screens" src="<?= BASE_URL ?>projects/cx-roadmap/assets/proto-personas-01.png"></div>
+                            <div class="swiper-slide"><img class="cb-screens" src="<?= BASE_URL ?>projects/cx-roadmap/assets/proto-personas-02.png"></div>
+                            <div class="swiper-slide"><img class="cb-screens" src="<?= BASE_URL ?>projects/cx-roadmap/assets/proto-personas-03.png"></div>
+                            <div class="swiper-slide"><img class="cb-screens" src="<?= BASE_URL ?>projects/cx-roadmap/assets/proto-personas-04.png"></div>
+                            <div class="swiper-slide"><img class="cb-screens" src="<?= BASE_URL ?>projects/cx-roadmap/assets/executive-summary-01.png"></div>
+                            <div class="swiper-slide"><img class="cb-screens" src="<?= BASE_URL ?>projects/cx-roadmap/assets/executive-summary-02.png"></div>
+                        </div><!--swiper-wrapper-->
                         <div
-                            class="swiper-pagination swiper-pagination-round swiper-pagination-black swiper-full-screen-pagination">
+                            class="swiper-pagination swiper-pagination-round swiper-pagination-white swiper-full-screen-pagination">
                         </div>
                         <div class="swiper-button-prev swiper-button-black-highlight"></div>
                         <div class="swiper-button-next swiper-button-black-highlight"></div>
-
                     </div>
                 </div>
-
-
             </div>
         </div>
     </section>

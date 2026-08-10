@@ -1,0 +1,47 @@
+
+
+/*  Small */
+@media (max-width: 767px) {
+
+
+        .col.tarmac-worker{
+            display: none!important;
+
+        }
+
+        .intro-info .pull-quote{
+            display: flex!important;
+            flex-direction: column!important;
+                font-size: 17px!important;
+                margin: 20px 0
+        }
+
+        .pull-quote-area{
+            margin: 0px;
+
+        }
+
+
+        .description-excerpt h4 {
+            line-height: 1.2em;
+        }
+
+        .admin .emphasis-block ul{
+            padding-left: 15px;
+            /* list-style-position: inside; */
+
+        }
+
+        .admin .emphasis-block li{margin-bottom: 5px}
+
+        .footer-copyright p{
+            font-size: 15px;
+        }
+
+
+
+
+
+}
+
+
