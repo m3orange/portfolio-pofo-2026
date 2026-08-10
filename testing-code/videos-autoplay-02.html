@@ -9,19 +9,70 @@
 
     <body>
 
-<h3>Livid Test</h3>
+        <h5>Video with NO audio - No controls</h5>
 
-<div class="custom-wrapper">
-<div style="padding:71.071% 0 0 0;position:relative;width:100%;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture; web-share" allowfullscreen frameborder="0" referrerpolicy="strict-origin-when-cross-origin" src="https://livid.com/embed/0wuUwTJd5UGi?autoplay=1&loop=1&muted=1" title="map-tools-demo-light"></iframe></div>
+<video id="myVideo" autoplay loop muted playsinline preload="auto">
+    <source src="https://michellemunoz.info/projects/map-tools/assets/map-tools-demo-light.mp4" type="video/mp4">
+</video>
+
+<!-- Fallback interactive overlay hidden by default -->
+<div id="videoFallbackOverlay" style="display:none;">
+  <button id="playButton">▶ Play Video</button>
 </div>
 
-<style>
-    .custom-wrapper{
-        width: 719px;
-        height: 511px;
-        border: 1px solid blue;
-    }
-</style>
+        <h5>Video with NO audio - Has controls</h5>
+
+<video id="myVideo" autoplay loop muted playsinline controls preload="auto">
+    <source src="https://michellemunoz.info/projects/map-tools/assets/map-tools-demo-light.mp4" type="video/mp4">
+</video>
+
+<!-- Fallback interactive overlay hidden by default -->
+<div id="videoFallbackOverlay" style="display:none;">
+  <button id="playButton">▶ Play Video</button>
+</div>
+
+
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+  const video = document.getElementById("myVideo");
+  const fallbackOverlay = document.getElementById("videoFallbackOverlay");
+  const playButton = document.getElementById("playButton");
+
+  // Force properties programmatically to satisfy WebKit engine quirks
+  video.muted = true;
+  video.removeAttribute("controls"); 
+
+  // Attempt the programmatic play trigger
+  const playPromise = video.play();
+
+  if (playPromise !== undefined) {
+    playPromise
+      .then(() => {
+        // Autoplay succeeded natively!
+        console.log("Autoplay forced successfully on iOS.");
+      })
+      .catch((error) => {
+        // Autoplay was blocked by iOS security/power policies
+        console.warn("Autoplay blocked. Activating manual click fallback:", error);
+        
+        // Show UI element so the user can interactively trigger play
+        fallbackOverlay.style.display = "block";
+
+        // Single tap handler to bypass restriction
+        playButton.addEventListener("click", () => {
+          video.play();
+          fallbackOverlay.style.display = "none"; // Hide overlay after playback starts
+        }, { once: true });
+      });
+  }
+});
+
+</script>
+    
+        
     </body>
 
 </html>
