@@ -57,7 +57,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
                 </div>
 
-                <div class="col col-12 col-lg-8 column-for-bars">
+                <div class="col col-12 col-lg-8 column-for-bars p-0">
                     <div class="acc-07" aria-label="Underline reveal editorial accordion demo">
                     <div class="acc-07__wrap">
 
