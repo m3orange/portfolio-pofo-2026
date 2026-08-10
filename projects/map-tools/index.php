@@ -108,9 +108,11 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
             <div class="row">
                 <div class="col col-12 col-lg-8 offset-lg-2 wow fadeIn" data-wow-delay="0.6s">
                     <div class="gallery-item">
-                        <video autoplay loop muted playsinline class="hero-video-cb" id="video01">
+
+                    <div style="padding:71.071% 0 0 0;position:relative;width:100%;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture; web-share" allowfullscreen frameborder="0" referrerpolicy="strict-origin-when-cross-origin" src="https://livid.com/embed/0wuUwTJd5UGi?autoplay=1&loop=1&muted=1" title="map-tools-demo-light"></iframe></div>
+                        <!-- <video autoplay loop muted playsinline class="hero-video-cb" id="video01">
                             <source src="<?= BASE_URL ?>projects/map-tools/assets/map-tools-demo-light.mp4" type="video/mp4">  
-                        </video>   
+                        </video>    -->
                         <!-- <div style="padding:71.07% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1211997195?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="map-tools-demo-light"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>   -->
                     </div>
                 </div>
