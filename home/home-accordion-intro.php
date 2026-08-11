@@ -8,10 +8,11 @@
                <div class="big-section-title-opener">
                   <h4 class="font-weight-500 text-black">I'm trained in architecture and graphic design, and have 25+ years of multidisciplinary design experience {print, brand, web}. For the past 12, I have been focused on product design and UX engineering.</h4>
                   <div class="test-atyp">
-                     <h5>This is Atyp - I'm trained in architecture</h5>
+                     <h3>This is Atyp via styles - I'm trained in architecture</h3>
                   </div>
+                  <div><h3 style="font-family: 'Atyp Display', Georgia, sans-serif; font-weight: 600;">This is Atyp inline - I'm trained in architecture</h3></div>
                   <div class="test-archivo">
-                     <h5>This is Atyp - I'm trained in architecture</h5>
+                     <h3>This is Archivo - I'm trained in architecture</h3>
                   </div>
 
                </div>
@@ -162,11 +163,11 @@
 
 
 <style>
-   .test-atyp, .test-atyp h5{
+   .test-atyp, .test-atyp h3{
       font-family: "Atyp Display", Atyp Display, serif!important; font-weight: 500!important;
    }
 
-   .test-archivo, .test-archivo h5{
+   .test-archivo, .test-archivo h3{
       font-family: "Archivo", Archivo, serif!important; font-family: 500!important;
    }
 </style>
