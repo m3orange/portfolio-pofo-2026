@@ -1553,6 +1553,17 @@ video {
     background-color: rgba(0, 0, 0,0.02);
 }
 
+                @media (max-width: 767px){
+                    #resume-01 .btn-view-website-area {
+                        aspect-ratio: 1 / 0.4;
+                        font-size: 18px;
+                    }
+
+                }
+
+
+
+
 
 #resume-01 .btn-to-atlas-ds-page a{
         font-size: 17px;
@@ -3122,7 +3133,7 @@ font-style: italic !important;
 
 #work-experience-list li,
 .resume-text li {
-    margin-bottom: 4px;
+    margin-bottom: 12px;
 }
 
 /* Resume listings */
@@ -3287,7 +3298,8 @@ font-style: italic !important;
 }
 
 .education-details,
-education-details p {
+.education-details p,
+.education-details li {
     font-size: 17px;
     line-height: 1.3em;
 

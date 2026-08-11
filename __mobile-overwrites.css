@@ -52,8 +52,8 @@
         }
 
 
-            .home .big-number, .section-divider-numbered-02 .big-number{ font-size: 110px; color: orange!important;}
-            .big-section-title h4 {font-size: 30px; color: orange!important;}
+            .home .big-number, .section-divider-numbered-02 .big-number{ font-size: 110px;}
+            .big-section-title h4 {font-size: 30px; }
             .section-divider-numbered-02.col {gap: 0px;}
 
             .unicorn-intro {
@@ -67,7 +67,8 @@
 
         .rsm-item-header h5, .oops-missed-this-one h5{
             font-size: 24px;
-            color: red;
+            font-weight: 600 !important;
+
         }
 
 
