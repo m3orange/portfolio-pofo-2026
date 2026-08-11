@@ -7,14 +7,6 @@
             <div class="col col-12 col-lg-8 offset-lg-4">
                <div class="big-section-title-opener">
                   <h4 class="font-weight-500 text-black">I'm trained in architecture and graphic design, and have 25+ years of multidisciplinary design experience {print, brand, web}. For the past 12, I have been focused on product design and UX engineering.</h4>
-                  <div class="test-atyp">
-                     <h3>This is Atyp via styles - I'm trained in architecture</h3>
-                  </div>
-                  <div><h3 style="font-family: 'Atyp Display', Georgia, sans-serif; font-weight: 600;">This is Atyp inline - I'm trained in architecture</h3></div>
-                  <div class="test-archivo">
-                     <h3>This is Archivo - I'm trained in architecture</h3>
-                  </div>
-
                </div>
             </div>
          </div>

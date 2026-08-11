@@ -645,7 +645,7 @@ height: 200px; */
     font-family: var(--alt-text-2)!important;
     /* font-size: 32px; */
     line-height: 1em!important;
-    font-weight: 600!important;
+    font-weight: 500!important;
     padding: 0 30px 0 0px;
     color: rgba(0, 0, 0, 0.8);
 }
@@ -958,7 +958,7 @@ img.mfp-img {
 
 .home .accordion-style1 li {
     color: #222 !important;
-    margin-bottom: 20px;
+    margin-bottom: 20px!important;
     font-weight: 400 !important;
     line-height: 1.4em !important;
     font-family: var(--ibm-sans-body-01);
