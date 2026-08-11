@@ -112,7 +112,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
                         <details class="acc-07__item soft-skills"><!--open-->
                             <summary class="acc-07__q"><span class="start-arrow"><img src="<?= BASE_URL ?>images/resume-facts-opener-arrow.png"></span>
-                            I'm fluent in English and Spanish, and have some basic understanding of French Portugese.</summary>
+                            I'm fluent in English and Spanish and have basic understanding of French Portuguese.</summary>
                         </details>
 
                         <details class="acc-07__item soft-skills"><!--open-->

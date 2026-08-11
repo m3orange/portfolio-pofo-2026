@@ -30,12 +30,16 @@
     <link rel="stylesheet" href="<?= BASE_URL ?>css/bootstrap.min.css" /> 
     <link rel="stylesheet" href="<?= BASE_URL ?>css/et-line-icons.css" />
     <link rel="stylesheet" href="<?= BASE_URL ?>css/font-awesome.min.css" />
-    <link rel="stylesheet" href="<?= BASE_URL ?>css/swiper.min.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>css/justified-gallery.min.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>css/swiper.min.css"/>
+    <link rel="stylesheet" href="<?= BASE_URL ?>css/justified-gallery.min.css"/>
     <link rel="stylesheet" href="<?= BASE_URL ?>css/magnific-popup.css" />
-    <link rel="stylesheet" href="<?= BASE_URL ?>css/bootsnav.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>css/font-icons.min.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>___style.css" /> <!-- Keep higher than overwrites or it breaks-->
+    <link rel="stylesheet" href="<?= BASE_URL ?>css/bootsnav.css"/>
+    <link rel="stylesheet" href="<?= BASE_URL ?>css/font-icons.min.css"/>
+    <link rel="stylesheet" href="<?= BASE_URL ?>fonts/atyp-display/atyp-display.css" /> 
+    <!-- Keep higher than overwrites or it breaks-->
+    <link rel="stylesheet" href="<?= BASE_URL ?>___style.css" /> 
+        
+
     <link rel="stylesheet" href="<?= BASE_URL ?>css/responsive.css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>

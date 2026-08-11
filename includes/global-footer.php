@@ -7,50 +7,41 @@
         <div class="logo-and-links row">
             <!-- start logo -->
             <div class="col col-12 col-md-5 text-left text-lg-start sm-margin-20px-bottom logo-area">
-                <a href="index.html">
+                <a href="<?= BASE_URL ?>index.php">
                     <img class="footer-logo" src="<?= BASE_URL ?>images/munoz-logo-horizontal-white-06.svg" data-at2x="<?= BASE_URL ?>images/munoz-logo-horizontal-white-06.svg" alt="Michelle Muñoz">
                 </a>
             </div> 
-            <!-- <div class="col col-12 col-sm-7">
-                <div class="row p-0 footer-links">
-                    <div class="col col-12 col-sm-4">
-                        <ul>
-                            <li><a href="<?= BASE_URL ?>index.php" class="temp-links">Home</a></li>
-                            <li><a href="<?= BASE_URL ?>about.php" class="temp-links">Tech Expertise</a></li>
-                            <li><a href="<?= BASE_URL ?>resume.php" class="temp-links">Resume</a></li>
-                        </ul>
-                    </div>
-                    <div class="col col-12 col-sm-4">
-                        <ul>
+            <div class="col col-12 col-sm-7 container-with-links">
+
+                        <div class="footer-links">
+                            <ul>
+                            <li><a href="<?= BASE_URL ?>index.php" class="temp-links" title="Home">Home</a></li>
+                            <li><a href="<?= BASE_URL ?>about.php" class="temp-links" title="Tech Expertise">Tech Expertise</a></li>
+                            <li><a href="<?= BASE_URL ?>resume.php" class="temp-links" title="Resume">Resume</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-links">
+                            <ul>
                             <li><a class="temp-links" href="<?= BASE_URL ?>projects/atlas-ui/index.php" title="Atlas UI">Atlas UI</a></li>
                             <li><a class="temp-links" href="<?= BASE_URL ?>projects/atlas-design-system/index.php" title="Atlas Design System">Atlas Design System</a></li>
                             <li><a class="temp-links" href="<?= BASE_URL ?>projects/admin/index.php" title="Admin Platform">Admin Platform</a></li>
                             <li><a class="temp-links" href="<?= BASE_URL ?>projects/musicasa/index.php" title="Musicasa">Musicasa</a></li>
-                        </ul>        
-                    </div>
-                    <div class="col col-12 col-sm-4">
-                        <ul>
+                            </ul>  
+                        </div>
+                        <div class="footer-links">
+                            <ul>
                             <li><a class="temp-links" href="<?= BASE_URL ?>projects/cx-roadmap/index.php" title="CX Roadmap">USIC</a></li>
                             <li><a class="temp-links" href="<?= BASE_URL ?>projects/space-scout/index.php" title="In Situ">In Situ</a></li>
                             <li><a class="temp-links" href="<?= BASE_URL ?>projects/map-tools/index.php" title="Map Tools">Map Tools</a></li>
                             <li><a class="temp-links" href="<?= BASE_URL ?>projects/idd/index.php" title="IDD">IDD</a></li>
-                        </ul> 
+                            </ul> 
+                        </div>
 
-                    </div>
-                </div>
-            </div> -->
-            <div class="col col-12 col-sm-7">
-                <div class="container-with-links">
-                    <div>1</div>
-                    <div>2</div>
-                    <div>3</div>
-                </div>
-            </div>
         </div>
     </div>
     <div class="container-fluid">
         <div class="copyright-last-line row">
-            <div class="col col-12 col-md-7 offset-md-5 text-left text-medium">
+            <div class="col col-12 col-md-7 offset-md-5 col-sm-12 offset-sm-0 text-left text-medium">
                 <p class="p-0 m-0">
                 &copy;<?=date("Y")?>, Michelle M. Mu&ntilde;oz-Dorna and Pixelmedia Inc. All Rights Reserved. No part of this content may be used or reproduced, in part or as a whole, without the express written consent of the author.
                 </p>
