@@ -332,6 +332,11 @@ footer a {
    padding-top: 20px!important;
 }
 
+            @media (max-width: 767px){
+                    .logo-area {
+                        padding: 20px 20px 10px 20px!important;
+                    }
+            }
 
 .footer-copyright {
     display: flex;

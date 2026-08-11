@@ -22,7 +22,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <section id="home-hero-opener" class="position-relative p-0 wow" style="visibility: visible; ">
         <!-- <div class="opacity-medium bg-black z-index-0"></div> -->
         <div class="container h-100">
-            <div class="row h-100 m-0 p-0 tweaks-resume">
+            <div class="row h-100  p-0 tweaks-resume">
                 <div class="col col-12 col-lg-7 col-md-12 d-flex justify-content-center flex-column text-left text-md-start">
                     <div class="home-hero-text-block">
                         <div class="big-intro-text">
@@ -30,7 +30,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         </div><!--big-intro-text-->
                     </div>
                 </div><!-- cols-->
-                <!-- <div class="col col-12 col-lg-5 col-md-12 p-0 m-0 profile-pic-area"><img src="<?= BASE_URL ?>images/profile-pics/mmunoz-profile-bw-alpha.png"></div> -->
+                <!-- <div class="col col-12 col-lg-5 col-md-12 p-0  profile-pic-area"><img src="<?= BASE_URL ?>images/profile-pics/mmunoz-profile-bw-alpha.png"></div> -->
             </div><!-- row-->
         </div>
 
@@ -291,7 +291,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <div id="anchor-02" class="anchor-wrapper">
     <section id="resume-02" class="wow fadeIn section-with-border-top">
         <div class="container">
-            <div class="row m-0">
+            <div class="row">
                 <div class="col col-12 col-lg-4 section-divider-numbered-02"
                     style="flex-direction: column; justify-content: flex-start;">
                     <div class="row" style="flex-direction: column;">
@@ -318,7 +318,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <div id="anchor-03" class="anchor-wrapper"></div>
     <section id="resume-03" class="wow fadeIn section-with-border-top">
         <div class="container">
-            <div class="row m-0">
+            <div class="row">
                 <div class="col col-12 col-lg-4 section-divider-numbered-02"
                     style="flex-direction: column; justify-content: flex-start;">
                     <div class="row" style="flex-direction: column;">
@@ -400,7 +400,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <div id="anchor-04" class="anchor-wrapper">
     <section id="resume-04" class="wow fadeIn section-with-border-top">
         <div class="container">
-            <div class="row m-0">
+            <div class="row">
 
                 <div class="col col-12 col-lg-4 section-divider-numbered-02"
                     style="flex-direction: column; justify-content: flex-start;">
@@ -424,7 +424,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <div id="anchor-05" class="anchor-wrapper">
     <section id="resume-05" class="wow fadeIn section-with-border-top">
         <div class="container">
-            <div class="row m-0">
+            <div class="row">
 
                 <div class="col col-12 col-lg-3 section-divider-numbered-02"
                     style="flex-direction: column; justify-content: flex-start;">
