@@ -40,13 +40,13 @@
         <div class="text-block-02">hello@michellemunoz.info</div>
   </div>
 
-    <div class="home-grid-bottom d-flex-centering">
+    <div class="home-grid-bottom">
 
       <div class="container">
-        <div class="row d-flex d-flex-centering" style="justify-content: space-between;">
-        <div class="col col-6">San Juan, Puerto Rico</div>
-        <div class="col col-6 text-align-right">18º28’00 N, 066º06’51 W</div>
-        </div>
+
+        <div class="col col-12 col-md-6 col-left">San Juan, Puerto Rico</div>
+        <div class="col col-12 col-md-6 col-right">18º28’00 N, 066º06’51 W</div>
+
       </div>
 
     </div>
