@@ -1,6 +1,7 @@
+<!-- <div class="loading-bar"></div> -->
+
 
 <!-- start header --- This is hamburger-menu-half-->
-
 
 <!-- <div class="temp-nav">
     <div class="row">

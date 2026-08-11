@@ -826,7 +826,7 @@ add red
 
     #home-hero-opener h1, .line-one .serif-emphasis {font-size: 70px;}
     #home-hero-opener h2, .line-two .serif-emphasis {font-size: 55px;}
-    #home-hero-opener {border-top: 20px solid green;}
+    /* #home-hero-opener {border-top: 20px solid green;} */
 
 
 /* Extra Large / Large Desktops. */
@@ -1327,6 +1327,7 @@ line-height: 1.2em !important;
 .description-excerpt h4{
     line-height: 1.1em;
     font-family: var(--archivo-headers-01);
+    font-weight: 400;
 }
 
 .description-paragraph{
@@ -3081,7 +3082,10 @@ font-style: italic !important;
     font-weight: 500;
     padding-right: 15%;
     line-height: 1.1em;
+    font-family: var(--archivo-headers-01);
 }
+
+
 
 .full-stack-lifecycle-diagram {
     margin: 40px 0;
@@ -3424,6 +3428,11 @@ font-style: italic !important;
     text-align: left;
 }
 
+
+.rsm-item-header h5, .oops-missed-this-one h5{
+    font-weight: 500 !important;
+
+}
 /* Changin resume font sizes */
 
 
