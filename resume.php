@@ -51,7 +51,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <div class="col col-12 col-lg-4 section-divider-numbered-02" style="flex-direction: column; justify-content: flex-start;">
                     <div class="row m-0" style="flex-direction: column;">
                         <div class="big-number">01</div>
-                        <div class="big-section-title margin-50px-bottom"><h4>Quick Facts</h4></div>
+                        <div class="big-section-title"><h4>Quick Facts</h4></div>
                     </div>
                 </div>
 
@@ -195,7 +195,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     style="flex-direction: column; justify-content: flex-start;">
                     <div class="row m-0" style="flex-direction: column;">
                         <div class="big-number">02</div>
-                        <div class="big-section-title margin-50px-bottom"><h4>Education</h4></div>
+                        <div class="big-section-title"><h4>Education</h4></div>
                     </div>
                         <div class="row">
                             <div class="col col-12 col-md-8" style="padding-left: 5px; padding-right: 5px;">
@@ -223,8 +223,9 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 </div>
 
                 <div class="col col-12 col-lg-8">
-                             
-                                <h5 style="margin-bottom: 0px;">Education</h5>
+                             <div class="oops-missed-this-one">
+                            <h5 style="margin-bottom: 0px;">Education</h5>
+                             </div>                                
                         
                     <div id="education-list">
                         <?php foreach ($education as $edu): ?>
@@ -295,7 +296,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     style="flex-direction: column; justify-content: flex-start;">
                     <div class="row m-0" style="flex-direction: column;">
                         <div class="big-number">03</div>
-                        <div class="big-section-title margin-50px-bottom">
+                        <div class="big-section-title">
                             <h4>Professional Experience</h4>
                         </div>
 
@@ -322,7 +323,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     style="flex-direction: column; justify-content: flex-start;">
                     <div class="row m-0" style="flex-direction: column;">
                         <div class="big-number">04</div>
-                        <div class="big-section-title margin-50px-bottom">
+                        <div class="big-section-title">
                             <h4>Additional</h4>
                         </div>
 
@@ -398,14 +399,14 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 <div id="anchor-04" class="anchor-wrapper">
     <section id="resume-04" class="wow fadeIn section-with-border-top">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row m-0">
 
                 <div class="col col-12 col-lg-4 section-divider-numbered-02"
                     style="flex-direction: column; justify-content: flex-start;">
                     <div class="row m-0" style="flex-direction: column;">
                         <div class="big-number">05</div>
-                        <div class="big-section-title margin-50px-bottom">
+                        <div class="big-section-title">
                             <div class="col col-12 col-lg-11 col-md-12"><h4>Brands & Companies I Have Worked With</h4></div>
                         </div>
                     </div>
@@ -422,15 +423,15 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 <div id="anchor-05" class="anchor-wrapper">
     <section id="resume-05" class="wow fadeIn section-with-border-top">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row m-0">
 
-                <div class="col col-12 col-lg-3 section-divider-numbered-02 p-0"
+                <div class="col col-12 col-lg-4 section-divider-numbered-02"
                     style="flex-direction: column; justify-content: flex-start;">
-                    <div class="row" style="flex-direction: column;">
+                    <div class="row m-0" style="flex-direction: column;">
                         <div class="big-number">06</div>
-                        <div class="big-section-title margin-50px-bottom">
-                            <h4>Design Inspiration</h4>
+                        <div class="big-section-title">
+                            <div class="col col-12 col-lg-11 col-md-12"><h4>Design Inspiration</h4></div>
                         </div>
                     </div>
                 </div>

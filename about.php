@@ -26,7 +26,7 @@
 <!-- end parallax hero section -->
 
  <section id="unicorn" class="wow fadeIn section-with-border-top">
-  <div class="container-fluid">
+  <div class="container">
    <div class="row">
 
 
@@ -44,7 +44,7 @@
     <div class="col col-12 col-lg-8">
      <div class="home-strong-areas-tabs tab-content">
       <div id="tab3_sec1" class="tab-pane active show">
-       <div class="col col-12 wow fadeIn" data-wow-delay="0s">
+       <div class="col col-12 p-0 wow fadeIn" data-wow-delay="0s">
         <div class="unicorn-intro">
             Just like an architect needs to understand engineering principles in load bearing or material mechanics, I needed to understand exactly how my designs would be built, and make sure that my work was rooted in reality. I trained myself extensively in hands-on front-end programming.
         </div>
@@ -79,7 +79,7 @@
     <div class="container">
         <div class="row">
             <div class="col col-12 col-lg-3 section-divider-numbered-02 p-0" style="flex-direction: column; justify-content: space-between;">
-                <div class="row" style="flex-direction: column; column-gap: 20px;">
+                <div class="row p-0" style="flex-direction: column; column-gap: 20px; margin-left: 0px; margin-right: 0px;">
                     <div class="big-number">02</div>
                     <div class="big-section-title">
                         <h4>My Toolkit</h4>
@@ -104,7 +104,7 @@
     <div class="container">
         <div class="row">
             <div class="col col-12 section-divider-numbered-02 p-0" style="flex-direction: column; justify-content: space-between;">
-                <div class="row" style="flex-direction: column; column-gap: 20px;">
+                <div class="row" style="flex-direction: column; column-gap: 20px; margin-left: 0px; margin-right: 0px;">
                     <div class="big-number text-white">03</div>
                     <div class="big-section-title text-white">
                         <h4 class="text-white">Engineering Explorations</h4></div>

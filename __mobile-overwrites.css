@@ -65,6 +65,11 @@
             font-family: var(--archivo-headers-01);
         }
 
+        .rsm-item-header h5, .oops-missed-this-one h5{
+            font-size: 24px;
+            color: red;
+        }
+
 
 
 
