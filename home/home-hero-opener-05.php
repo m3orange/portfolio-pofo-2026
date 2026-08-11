@@ -7,30 +7,28 @@
 
 <section id="home-hero-opener" class="p-0 full-screen position-relative wow" style="visibility: visible; background-color: #0b0119 !important;">     
 
-
+<div id="random-bg-container-03">
   <div class="video-background-container">
     <div class="video-background-content">
       <div class="container h-100">
         <div class="row h-100 m-0 p-0">
           <div class="col col-12 col-md-11 d-flex justify-content-center flex-column text-left text-md-start">
             <div class="home-hero-text-block-02">
-                <div class="sm-margin-20px-bottom">
-                  <h1>I'm a senior product designer with a passion for human-centered design, technology and usability.</h1>
+                <div class="col-12 sm-margin-20px-bottom">
+                  <h1>I'm a senior product designer with a passion for <span class="serif-emphasis">human-centered design, technology and usability.</span></h1>
                 </div>
-                <div class="margin-50px-top col-12 col-md-9"><h2>I’m seeking a position in product design or UX engineering.</h2></div>
+                <div class="col-12">
+                  <h2>I’m seeking a position in <span class="serif-emphasis">product design or UX engineering.</span></h2>
+                </div>
             </div>
           </div><!-- cols-->
         </div><!-- row-->
       </div>
     </div>
   </div>
+</div>
 
 
-    <div class="background-video-03 ">
-      <video autoplay muted loop playsinline class="">
-          <source src="<?= BASE_URL ?>testing-videos/concentricus-01.mp4" type="video/mp4">
-      </video>
-    </div>
 
       <div class="blurred-panel-behind">
         <!-- <div class="animated-gradient-test-01"></div> -->
@@ -63,7 +61,39 @@
 
   </section>
 
+    <script>
+          // 1. Store your image URLs in an array
+        const images = [
+          '<?= BASE_URL ?>home-bg-images/random-bg-img-01.jpg',
+          '<?= BASE_URL ?>home-bg-images/random-bg-img-02.jpg',
+          '<?= BASE_URL ?>home-bg-images/random-bg-img-03.jpg',
+          '<?= BASE_URL ?>home-bg-images/random-bg-img-04.jpg',
+          '<?= BASE_URL ?>home-bg-images/random-bg-img-05.jpg',
+          '<?= BASE_URL ?>home-bg-images/random-bg-img-06.jpg',
+          '<?= BASE_URL ?>home-bg-images/random-bg-img-07.jpg',
+          '<?= BASE_URL ?>home-bg-images/random-bg-img-08.jpg',
+          '<?= BASE_URL ?>home-bg-images/random-bg-img-09.jpg',
+          '<?= BASE_URL ?>home-bg-images/random-bg-img-10.jpg',
+        ];
 
+
+
+        // 2. Define the randomization function
+        function setRandomBackground() {
+        // Generate a random index based on array length
+        const randomIndex = Math.floor(Math.random() * images.length);
+
+        // Select the target element
+        const container = document.getElementById('random-bg-container-03');
+
+        // Apply the random image using CSS template literals
+        container.style.backgroundImage = `url('${images[randomIndex]}')`;
+        }
+
+        // 3. Execute the function on page load
+        window.onload = setRandomBackground;
+
+    </script>
   
 
 

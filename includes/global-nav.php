@@ -2,7 +2,7 @@
 <!-- start header --- This is hamburger-menu-half-->
 
 
-<div class="temp-nav">
+<!-- <div class="temp-nav">
     <div class="row">
         <ul>
             <li><a href="<?= BASE_URL ?>index.php" class="temp-links">Home</a></li>
@@ -22,7 +22,7 @@
             <li><a class="temp-links" href="<?= BASE_URL ?>projects/idd/index.php" title="IDD">IDD</a></li>
         </ul>
     </div>
-</div>
+</div> -->
 
 <style>
 
