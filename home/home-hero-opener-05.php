@@ -12,7 +12,7 @@
     <div class="video-background-content">
       <div class="container h-100">
         <div class="row h-100 m-0 p-0">
-          <div class="col col-12 col-md-11 d-flex justify-content-center flex-column text-left text-md-start">
+          <div class="col col-12 d-flex justify-content-center flex-column text-left text-md-start">
             <div class="home-hero-text-block-02">
                 <div class="col col-12 sm-margin-20px-bottom">
                   <h1>I'm a senior product designer with a passion for <span class="serif-emphasis">human-centered design, technology and usability.</span></h1>
