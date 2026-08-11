@@ -35,7 +35,6 @@
     <link rel="stylesheet" href="<?= BASE_URL ?>css/magnific-popup.css" />
     <link rel="stylesheet" href="<?= BASE_URL ?>css/bootsnav.css"/>
     <link rel="stylesheet" href="<?= BASE_URL ?>css/font-icons.min.css"/>
-    <link rel="stylesheet" href="<?= BASE_URL ?>fonts/atyp-display/atyp-display.css" /> 
     <!-- Keep higher than overwrites or it breaks-->
     <link rel="stylesheet" href="<?= BASE_URL ?>___style.css" /> 
         
@@ -67,7 +66,7 @@
         <link rel="stylesheet" href="<?= BASE_URL ?>__delete-later.css?v=10" /> 
     -->
 
-
+    <link rel="stylesheet" href="<?= BASE_URL ?>__atyp-display.css" /> 
     <link rel="stylesheet" href="<?= BASE_URL ?>_style-overwrites.css?v=1" />
     <link rel="stylesheet" href="<?= BASE_URL ?>__mobile-overwrites.css?v=1" />
 

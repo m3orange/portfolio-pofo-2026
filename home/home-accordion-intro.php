@@ -7,6 +7,13 @@
             <div class="col col-12 col-lg-8 offset-lg-4">
                <div class="big-section-title-opener">
                   <h4 class="font-weight-500 text-black">I'm trained in architecture and graphic design, and have 25+ years of multidisciplinary design experience {print, brand, web}. For the past 12, I have been focused on product design and UX engineering.</h4>
+                  <div class="test-atyp">
+                     <h5>This is Atyp - I'm trained in architecture</h5>
+                  </div>
+                  <div class="test-archivo">
+                     <h5>This is Atyp - I'm trained in architecture</h5>
+                  </div>
+
                </div>
             </div>
          </div>
@@ -152,3 +159,14 @@
    </section>
 </div>
 <!-- end accordions style 01 section -->
+
+
+<style>
+   .test-atyp, .test-atyp h5{
+      font-family: "Atyp Display", Atyp Display, serif!important; font-weight: 500!important;
+   }
+
+   .test-archivo, .test-archivo h5{
+      font-family: "Archivo", Archivo, serif!important; font-family: 500!important;
+   }
+</style>
