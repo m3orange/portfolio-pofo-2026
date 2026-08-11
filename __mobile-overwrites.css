@@ -43,9 +43,29 @@
             font-size: 22px;
         }
 
-.home-strong-areas-tabs .topic-cards h6 {
-    font-weight: 600 !important;
-}
+        .home-strong-areas-tabs .topic-cards h6 {
+            font-weight: 600 !important;
+        }
+
+        .full-screen {
+            min-height: 100vh;
+        }
+
+
+            .home .big-number, .section-divider-numbered-02 .big-number{ font-size: 110px; color: orange!important;}
+            .big-section-title h4 {font-size: 30px; color: orange!important;}
+            .section-divider-numbered-02.col {gap: 0px;}
+
+            .unicorn-intro {
+            font-size: 24px;
+            font-weight: 500;
+            padding-right: 0px;
+            line-height: 1.1em;
+            margin-top: 30px;
+            font-family: var(--archivo-headers-01);
+        }
+
+
 
 
 

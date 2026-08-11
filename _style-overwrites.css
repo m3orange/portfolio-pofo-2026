@@ -571,6 +571,13 @@ height: 200px; */
     color: rgba(0, 0, 0, 0.8);
 }
 
+.big-section-title h4{
+ margin-bottom: 50px;
+ background-color: rgba(0,0,0,0.5);
+}
+   
+
+
 
 
 
@@ -2070,15 +2077,11 @@ padding: 120px 80px;
 
 }
 
-@media (max-width: 767px){
-        .usic .fullwidth-slider-01,
-        .section-divider-light{
-        padding: 50px 0 !important;
-        border: 2px solid red;
+    @media (max-width: 767px){
+            .usic .fullwidth-slider-01, .section-divider-light{
+            padding: 50px 0 !important;
+            }
     }
-
-
-}
 
 
 .usic .workshop-grid .section-title {
@@ -3701,6 +3704,7 @@ header nav.navbar{
                 .video-background-container, #home-hero-opener{
                     /* height: 80vh; */
                 }
+
 
 
 

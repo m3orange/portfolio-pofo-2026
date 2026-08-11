@@ -26,14 +26,14 @@
 <!-- end parallax hero section -->
 
  <section id="unicorn" class="wow fadeIn section-with-border-top">
-  <div class="container">
+  <div class="container-fluid">
    <div class="row">
 
 
     <div class="col col-12 col-lg-4 section-divider-numbered-02" style="flex-direction: column; justify-content: space-between!important;">
         <div class="row" style="flex-direction: column;">
             <div class="big-number">01</div>
-            <div class="big-section-title margin-50px-bottom">
+            <div class="big-section-title">
                 <h4>I'm a full-stack designer: I'm fluent in code.</h4>
                 <!-- <h6>Nam metus dolor, facilisis nec commodo vitae, dignissim placerat sapien. Aliquam ac bibendum turpis. Donec vel pharetra tellus, facilisis egestas dolor. Fusce bibendum felis ut tempor blandit. Sed sagittis venenatis dui id semper. Suspendisse nec blandit lorem. Nam a lacus pretium, lacinia nunc non, dignissim ligula.</h6> -->
             </div>
@@ -81,7 +81,7 @@
             <div class="col col-12 col-lg-3 section-divider-numbered-02 p-0" style="flex-direction: column; justify-content: space-between;">
                 <div class="row" style="flex-direction: column; column-gap: 20px;">
                     <div class="big-number">02</div>
-                    <div class="big-section-title margin-50px-bottom">
+                    <div class="big-section-title">
                         <h4>My Toolkit</h4>
                         <!-- <h6>Add Statemment - Nam metus dolor, facilisis nec commodo vitae, dignissim placerat sapien. Aliquam ac bibendum turpis. Donec vel pharetra tellus, facilisis egestas dolor. Fusce bibendum felis ut tempor blandit. Sed sagittis venenatis dui id semper. Suspendisse nec blandit lorem. Nam a lacus pretium, lacinia nunc non, dignissim ligula.</h6> -->
                     </div>
@@ -106,7 +106,7 @@
             <div class="col col-12 section-divider-numbered-02 p-0" style="flex-direction: column; justify-content: space-between;">
                 <div class="row" style="flex-direction: column; column-gap: 20px;">
                     <div class="big-number text-white">03</div>
-                    <div class="big-section-title margin-50px-bottom text-white">
+                    <div class="big-section-title text-white">
                         <h4 class="text-white">Engineering Explorations</h4></div>
                 </div>
             </div>
