@@ -670,7 +670,7 @@ img.mfp-img {
 }
 
 #home-hero-opener h2{
-    line-height: 1em;
+    line-height: 1.1em;
     font-weight: 500;
 
 }
@@ -2755,6 +2755,8 @@ font-style: italic !important;
 
 }
 
+
+
 .home-intro-container{
     height: 100%;
     /* margin: 0px!important;
@@ -4127,10 +4129,26 @@ bottom: -36%;
 
 }
 
-.animated-gradient-test-01, .video-background-content{
+.animated-gradient-test-01, .video-background-content, .blurred-panel-behind{
 width: 70vw;
 }
   
+        @media (max-width:767px){
+            .animated-gradient-test-01, .video-background-content, .blurred-panel-behind{
+            width: 100vw;
+            }
+
+            .video-background-content .container{
+                max-width: 100%!important;
+            }
+            .video-background-content {
+                padding: 0px!important;
+            }
+            .home-hero-text-block-02 .col{
+                padding: 0px;
+
+            }
+        }
 
 
 
