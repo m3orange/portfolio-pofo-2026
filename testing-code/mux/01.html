@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Looping hero background video with Mux Player</title>
+    <meta charset="UTF-8" />
+    <link href="/src/styles.css" rel="stylesheet" />
+    <script defer src="https://cdn.jsdelivr.net/npm/@mux/mux-player"></script>
+</head>
+
+<body>
+    <div id="hero">
+
+        <script src="https://cdn.jsdelivr.net/npm/@mux/mux-player" defer></script>
+
+        <h1>mux-background-video</h1>
+
+        <mux-background-video audio max-resolution="720p"
+            src="https://player.mux.com/TXhUZGZhLwPCJs02bah1ZXdkxr4KUr73SYLwUpZ3Lzvg?metadata-video-title=Map+Tools+-+Demo&video-title=Map+Tools+-+Demo&accent-color=%23ff7700&primary-color=%23ffffff&secondary-color=%23ff7700">
+            <img src="https://image.mux.com/YOUR_PLAYBACK_ID/thumbnail.webp?time=0" alt="Mux Background Video" />
+        </mux-background-video>
+
+
+    </div>
+
+    <main>
+        <h1>iframe</h1>
+        <iframe
+            src="https://player.mux.com/TXhUZGZhLwPCJs02bah1ZXdkxr4KUr73SYLwUpZ3Lzvg?metadata-video-title=Map+Tools+-+Demo&video-title=Map+Tools+-+Demo&accent-color=%23ff7700&primary-color=%23ffffff&secondary-color=%23ff7700"
+            style="width: 100%; border: none; aspect-ratio: 719/511;"
+            allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen></iframe>
+    </main>
+    <footer>
+        <p>Made with <a href="https://mux.com" title="Mux">Mux</a></p>
+    </footer>
+</body>
+
+</html>

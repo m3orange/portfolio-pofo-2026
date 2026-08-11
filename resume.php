@@ -399,7 +399,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 <div id="anchor-04" class="anchor-wrapper">
     <section id="resume-04" class="wow fadeIn section-with-border-top">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row m-0">
 
                 <div class="col col-12 col-lg-4 section-divider-numbered-02"
@@ -423,10 +423,10 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 <div id="anchor-05" class="anchor-wrapper">
     <section id="resume-05" class="wow fadeIn section-with-border-top">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row m-0">
 
-                <div class="col col-12 col-lg-4 section-divider-numbered-02"
+                <div class="col col-12 col-lg-3 section-divider-numbered-02"
                     style="flex-direction: column; justify-content: flex-start;">
                     <div class="row m-0" style="flex-direction: column;">
                         <div class="big-number">06</div>

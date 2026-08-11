@@ -1,7 +1,17 @@
-<?php include_once("config.php"); ?>
+<?php require_once('config.php') ?>
+
+<?php
+require_once 'db-config.php';
+
+$pdo = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME . ';charset=utf8mb4', DB_USER, DB_PASS);
+
+$stmt = $pdo->query('SELECT * FROM strengths ORDER BY sort_order ASC');
+$strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+?>
+
 
 <?php include ROOT_PATH . 'includes/header.php'; ?>
-
 
 <body class="home">
 
@@ -30,9 +40,9 @@
           </div>
           <div class="col col-12 col-lg-8 p-0">
 
-            <!-- start tab content -->
+
             <div class="home-strong-areas-tabs tab-content">
-              <!-- start tab content -->
+
               <div id="tab3_sec1" class="tab-pane active show ">
                 <div class="col col-12 wow fadeIn" data-wow-delay="0s">
                   <div class="row">
@@ -40,19 +50,8 @@
                   </div>
                 </div>
               </div>
-              <!-- end tab content -->
-
-
-
-            <!-- <!-?php include ROOT_PATH . 'home/home-strong-areas-rows.php'; --?> -->
-
 
             </div>
-            <!-- end tab content -->
-
-
-
-
           </div>
         </div>
       </div>

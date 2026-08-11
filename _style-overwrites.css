@@ -308,9 +308,26 @@ footer a {
 }
 
 .footer-logo {
-    max-height: 35px;
+    max-height: 45px;
 
 }
+
+.footer .logo-area{
+    width: 30%;
+}
+
+.footer-links ul {
+  list-style-type: none; /* Removes the bullets */
+  padding: 0;            /* Removes default left indentation */
+  margin: 0;             /* Removes default top/bottom spacing */
+      padding: 20px 0 40px 20px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.logo-area {
+   padding-top: 20px!important;
+}
+
 
 .footer-copyright {
     display: flex;
@@ -318,6 +335,49 @@ footer a {
     /* justify-content: center; */
     align-items: center;
 }
+
+.logo-and-links .row{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    padding: 0 40px;
+
+}
+
+.logo-and-links {
+        border-top: 1px solid var(--home-grid-border-color);
+    /* border-bottom: 1px solid var(--home-grid-border-color); */
+        padding-left: 40px;
+    padding-right: 40px;
+}
+
+.copyright-area,
+.copyright-last-line{
+    border-top: 1px solid var(--home-grid-border-color);
+    border-bottom: 1px solid var(--home-grid-border-color);
+}
+
+.copyright-last-line{
+    padding: 30px 120px;
+}
+
+
+.container-with-links{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 perfectly equal columns */
+  gap: 20px;                             /* Adds space between your columns */
+  border: 1px solid red;
+}
+
+
+
+.logo-and-links .col{
+    align-items: flex-start;
+}
+
+
+
 
 .footer-strip-dark .text-medium {
     font-size: 16px !important;
@@ -575,6 +635,10 @@ height: 200px; */
  margin-bottom: 40px;
 
 }
+
+.home #anchor-01{
+    background-color: rgba(0, 0, 0, 0.15);
+}
    
 
 
@@ -583,14 +647,14 @@ height: 200px; */
 .big-section-title-opener h4,
 .big-section-title-opener h5,
 .big-section-title-opener h6{
-    font-weight: 500 !important;
+     font-weight: 500 !important;
+
+
     line-height: 1.1em !important;
-        font-family: var(--alt-text-2)!important;
-    /* font-size: 32px; */
-    line-height: 1.2em!important;
-    font-weight: 500!important;
-    color: #000!important;
+    color: #000 !important;
 }
+
+
 
 .idd .section-divider-light {
     background-color: unse !important;
