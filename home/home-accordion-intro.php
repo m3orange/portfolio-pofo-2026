@@ -4,7 +4,7 @@
    <section id="big-section-title-opener" class="wow fadeIn"> <!--section-with-border-top-->
       <div class="container">
          <div class="row">
-            <div class="col col-12 col-lg-8 offset-lg-4">
+            <div class="col col-12 col-lg-10">
                <div class="big-section-title-opener">
                   <h4 class="font-weight-500 text-black">I'm trained in architecture and graphic design, and have 25+ years of multidisciplinary design experience {print, brand, web}. For the past 12, I have been focused on product design and UX engineering.</h4>
                </div>
@@ -29,7 +29,6 @@
                <!-- start accordion -->
                <div class="panel-group accordion-style1" id="accordion-design">
 
-   <!-- start accordion item -->
                   <div class="panel">
                      <div class="panel-heading">
                         <a data-toggle="collapse" href="#design1" class="collapsed" aria-expanded="false">
@@ -46,10 +45,10 @@
                         <div class="panel-body">
                            <h6>
                               <ul>
-                                 <li>I have been recently focusing in the development of enterprise-level SaaS platforms: creating seamless experiences across different channels and user types; managing design
+                                 <li>I have been recently focused on designing for enterprise-level SaaS platforms: creating seamless experiences across different channels and user types; managing design
                                     systems and documentation that leads to adoption and tech debt reduction; devising
                                     strategies that ensure scalable and future-proof environments capable of handling
-                                    growing business demands and technical requirements.
+                                    growing business and technical demands.
                                  </li>
                                  <li>I particularly enjoy owning a specfic product domain and working consistently with that same context (rather than constantly switching between projects for different products), as that constant gathering of knowledge about the user's goals as well as the jobs-to-be-done in each workflow, allows me to come up with richer, better-informed design decisions, as well as allowing me to proactively bring to product owners suggestions for new features that might not necessasrily been in the pipeline already.</li>
                               </ul>

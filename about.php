@@ -10,7 +10,7 @@
 
 <!-- start parallax hero section -->
 <section id="home-hero-opener" class="position-relative wow" style="visibility: visible; "> <!--min-height: 658px;-->
-<div class="background-image-area"></div>
+<!-- <div class="background-image-area"></div> -->
     <div class="container h-100">
         <div class="row h-100" style="padding-top: 50px;">
             <div class="col col-12 col-lg-7 col-md-12 d-flex justify-content-center flex-column text-left text-md-start">

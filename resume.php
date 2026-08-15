@@ -26,7 +26,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <div class="col col-12 col-lg-7 col-md-12 d-flex justify-content-center flex-column text-left text-md-start">
                     <div class="home-hero-text-block">
                         <div class="big-intro-text">
-                            <h1 class="lg-w-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom">Résumé</h1>
+                            <h1 class="lg-acw-60 md-w-70 lg-line-height-auto sm-w-100 sm-margin-15px-bottom">Résumé</h1>
                         </div><!--big-intro-text-->
                     </div>
                 </div><!-- cols-->
@@ -34,13 +34,6 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
             </div><!-- row-->
         </div>
 
-        <div class="profile-pic-area-position">
-            <div class="profile-pic z-index-10 ">
-                <img src="<?= BASE_URL ?>images/profile-pics/mmunoz-profile-bw-alpha-flipped.png">
-            </div>
-
-            <div class="color-backdrop z-index-0"></div>
-        </div>
 
     </section>
 
@@ -48,14 +41,17 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <section id="resume-01" class="wow fadeIn section-with-border-top">
         <div class="container">
             <div class="row">
-                <div class="col col-12 col-lg-4 section-divider-numbered-02" style="flex-direction: column; justify-content: flex-start;">
-                    <div class="row" style="flex-direction: column;">
-                        <div class="big-number">01</div>
-                        <div class="big-section-title"><h4>Quick Facts</h4></div>
+                <div class="col col-12 col-lg-5 section-divider-numbered-02" style="flex-direction: column; justify-content: flex-start;">
+                    <div class="polaroid-area">
+                        <img src="<?= BASE_URL ?>images/profile-pics/mmunoz-profile-duotone-orange-3.jpg"/>
                     </div>
+
                 </div>
 
-                <div class="col col-12 col-lg-8 col-md-12 column-for-bars p-0">
+                <div class="col col-12 col-lg-7 col-md-12 p-0">
+                <div class="big-section-title-opener">
+                  <h5 class="font-weight-500 text-black">I'm trained in architecture and graphic design, and have 25+ years of multidisciplinary design experience {print, brand, web}. For the past 12, I have been focused on product design and UX engineering. Some quick facts about me:</h5>
+               </div>
                     <div class="acc-07" aria-label="Underline reveal editorial accordion demo">
                     <div class="acc-07__wrap">
 
@@ -63,7 +59,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         <details class="acc-07__item soft-skills"><!--open-->
                             <summary class="acc-07__q">
                                 <span class="start-arrow"><img src="<?= BASE_URL ?>images/resume-facts-opener-arrow.png"></span>
-                            I'm passionate about problem solving. What drives me: I'm 100% convinced that EVERYTHING can be designed better.</summary>
+                            I'm passionate about problem solving: I'm 100% convinced that EVERYTHING can be designed better.</summary>
                             <div class="acc-07__a">
                                 <ul>
                                     <li>Take me into any bathroom and I'll give you a full teardown of what's wrong with it. I can't switch off the "why was it built this way, and why isn't it actually solving the problem?" reflex.</li>
@@ -89,7 +85,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         <details class="acc-07__item soft-skills"><!--open-->
                             <summary class="acc-07__q">
                                 <span class="start-arrow"><img src="<?= BASE_URL ?>images/resume-facts-opener-arrow.png"></span>
-                                 I'm equal parts confident in what I know and can do as a designer, and ok with raising my hand when I don't have sufficient knowledge and need support.</summary>
+                                 I'm equal parts confident in what I know as a designer, and ok with raising my hand when I don't have sufficient knowledge and need support.</summary>
                             <div class="acc-07__a">
                                 <ul>
                                     <li>"I don't know yet, but I know how to find out" is a complete sentence. Knowing where my expertise ends is part of the expertise.</li>
@@ -180,12 +176,6 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
     </section>
 </div>
 
-<style>
-
-
-
-
-</style>
 
 <div id="anchor-01" class="anchor-wrapper">
     <section id="resume-01" class="wow fadeIn section-with-border-top">
@@ -194,7 +184,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <div class="col col-12 col-lg-4 section-divider-numbered-02"
                     style="flex-direction: column; justify-content: flex-start;">
                     <div class="row" style="flex-direction: column;">
-                        <div class="big-number">02</div>
+                        <div class="big-number">01</div>
                         <div class="big-section-title"><h4>Education</h4></div>
                     </div>
                         <div class="row">
@@ -295,7 +285,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <div class="col col-12 col-lg-4 section-divider-numbered-02"
                     style="flex-direction: column; justify-content: flex-start;">
                     <div class="row" style="flex-direction: column;">
-                        <div class="big-number">03</div>
+                        <div class="big-number">02</div>
                         <div class="big-section-title">
                             <h4>Professional Experience</h4>
                         </div>
@@ -322,7 +312,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <div class="col col-12 col-lg-4 section-divider-numbered-02"
                     style="flex-direction: column; justify-content: flex-start;">
                     <div class="row" style="flex-direction: column;">
-                        <div class="big-number">04</div>
+                        <div class="big-number">03</div>
                         <div class="big-section-title">
                             <h4>Additional</h4>
                         </div>
@@ -405,7 +395,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <div class="col col-12 col-lg-4 section-divider-numbered-02"
                     style="flex-direction: column; justify-content: flex-start;">
                     <div class="row" style="flex-direction: column;">
-                        <div class="big-number">05</div>
+                        <div class="big-number">04</div>
                         <div class="big-section-title">
                             <div class="col col-12 col-lg-11 col-md-12"><h4>Brands & Companies I Have Worked With</h4></div>
                         </div>
@@ -429,7 +419,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <div class="col col-12 col-lg-3 section-divider-numbered-02"
                     style="flex-direction: column; justify-content: flex-start;">
                     <div class="row" style="flex-direction: column;">
-                        <div class="big-number">06</div>
+                        <div class="big-number">05</div>
                         <div class="big-section-title">
                             <div class="col col-12 col-lg-11 col-md-12"><h4>Design Inspiration</h4></div>
                         </div>
