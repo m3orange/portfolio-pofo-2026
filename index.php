@@ -21,8 +21,8 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
   <!-- This is opener 05--->
 
-<section id="home-hero-opener" class="p-0 full-screen position-relative wow" style="visibility: visible;">     
-  <div id="random-bg-container-03">
+<section id="home-hero-opener" class="p-0 full-screen position-relative wow color-around-svg" style="visibility: visible; ">     
+  <div class=""><!--random-bg-container-03-->
     <div class="video-background-container">
       <div class="video-background-content">
         <div class="container h-100">
@@ -49,10 +49,18 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
   </div>
 
 
-    <!-- <div class="blurred-panel-behind">
-      <div class="animated-gradient-test-01"></div> 
-    </div> -->
 
+
+
+    <div class="blurred-panel-behind">
+      <!-- <div class="animated-gradient-test-01"></div>  -->
+    </div> 
+<div class="floating-blob">
+<object type="image/svg+xml" data="<?= BASE_URL ?>home-bg-images/homepage-blob-01.svg">
+  Your browser does not support SVGs. <!-- Fallback text -->
+</object>
+
+</div>
 
     <div class="home-grid-top">
           <div class="text-block-01">M. Architecture • MFA Design</div>
@@ -66,14 +74,16 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <div class="col col-12 col-md-6 col-right">18º28’00 N, 066º06’51 W</div>
       </div>
     </div>
-<!-- <div class="animated-gradient-test-02"></div>  -->
+
     
 <!-- 
+<div class="animated-gradient-test-02"></div> 
+
     <div class="home-big-m">
       <img class="word-01" src="<?= BASE_URL ?>images/munoz-logo-symbol-only.svg" />
     </div>
 
-    <<div class="home-big-words">
+    <div class="home-big-words">
       <img class="word-01" src="<?= BASE_URL ?>home/home-big-words-slab-01.svg" />
     </div>
      -->
@@ -84,12 +94,7 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
           // 1. Store your image URLs in an array
         const images = [
           '<?= BASE_URL ?>home-bg-images/random-bg-img-01.jpg',
-          '<?= BASE_URL ?>home-bg-images/random-bg-img-02.jpg',
-          '<?= BASE_URL ?>home-bg-images/random-bg-img-03.jpg',
-          '<?= BASE_URL ?>home-bg-images/random-bg-img-04.jpg',
-          '<?= BASE_URL ?>home-bg-images/random-bg-img-05.jpg',
-          '<?= BASE_URL ?>home-bg-images/random-bg-img-06.jpg',
-          '<?= BASE_URL ?>home-bg-images/random-bg-img-07.jpg',
+
 
         ];
 
@@ -184,15 +189,6 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
          </div>
     </div> 
 </div>
-
-    
-
-        
-   
-
-
-
-
 
                   </div>
                 </div>

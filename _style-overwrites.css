@@ -924,6 +924,8 @@ add red
 
 
 
+
+
 #home-hero-opener .h-80 {
     height: 80% !important;
 }
@@ -2926,10 +2928,7 @@ font-style: italic !important;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.home #home-hero-opener {
-    overflow: hidden !important;
-    background-color: #111111 !important;
-}
+
 
 .home-hero-text-block {
     /* display: flex;
@@ -4340,6 +4339,18 @@ nav.navbar.bootsnav li.dropdown .menu-back-div > ul {
 }
 
 
+.home #home-hero-opener {
+    overflow: hidden !important;
+    background-color: #004563 !important;
+}
+
+.home .floating-blob{    
+    width: 900px;
+    height: 900px;
+    position: absolute;
+    top: 13%;
+    right: 13%;
+}
 
 
 .filter-layer-above{
@@ -4357,13 +4368,13 @@ nav.navbar.bootsnav li.dropdown .menu-back-div > ul {
 .blurred-panel-behind{
     z-index: 5;
     /* background-color: rgb(67 25 97 / 68%); */
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgb(0 72 106 / 44%);
     position: absolute;
     height: 100%;
     width: 70%;
     top: 0;
     left: 0;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(3px);
     overflow: hidden;
 }
 
@@ -4380,7 +4391,7 @@ bottom: -36%;
     left: 4%;
     bottom: -4%;
     width: 30%;
-    opacity: 0.04;
+    opacity: 0.15;
     text-align: right;
     z-index: 10;
 }
@@ -4395,7 +4406,7 @@ bottom: -36%;
 }
 
 .animated-gradient-test-01, .video-background-content, .blurred-panel-behind{
-width: 70vw;
+width: 58vw;
 
 }
   
@@ -4496,4 +4507,3 @@ transition-timing-function: ease-in;}
 
 
 @keyframes main { 25% {--4-x-position: 15%;--4-y-position: 15%;--5-x-position: 85%;--5-y-position: 80%;}50% {--4-x-position: 80%;--4-y-position: 15%;--5-x-position: 15%;--5-y-position: 85%;} }
-
