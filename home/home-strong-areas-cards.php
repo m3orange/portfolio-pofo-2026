@@ -48,7 +48,7 @@
         <!-- <i class="icon-desktop icon-extra-medium text-deep-pink margin-20px-bottom"></i> -->
          <div>
             <h6 class="font-weight-700 alt-font-2 margin-10px-bottom padding-50px-right">Deep & meaningful research</h6>
-            <p>I never shy away from an opportunity to dive deep into research, particularly in entirely new technologies outside my comfort zone. I'm usually assigned that <span class="quote-01">"complex tech research that nobody else wants to do",</span> and enjoy being able to then translate it back to our team.</p>
+            <p>I never shy away from an opportunity to dive deep into research, particularly in entirely new technologies that are outside my comfort zone. I'm usually assigned that <span class="quote-01">"complex tech research that nobody else wants to do",</span> and enjoy being able to then translate it back to our team.</p>
               <!-- Turning messy interview data and tangled processes into insight  -->
          </div>
     </div> 

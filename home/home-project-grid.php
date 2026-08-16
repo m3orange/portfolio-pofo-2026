@@ -6,7 +6,7 @@
    <div class="row"  style="row-gap:40px;">
     <div class="col col-12 col-lg-4 section-divider-numbered-02 p-0">
       <div class="big-number text-white">03</div>
-      <div class="big-section-title"><h4 class="text-white">Selected Work</h4></div>
+      <div class="big-section-title"><h4 class="text-white">Featured Work</h4></div>
     </div>
    
 

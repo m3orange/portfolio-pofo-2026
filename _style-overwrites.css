@@ -858,7 +858,7 @@ add red
     /* #home-hero-opener h1, #home-hero-opener h2{color: yellow!important;} */
     #home-hero-opener h1, .line-one .serif-emphasis {font-size: 70px;}
     #home-hero-opener h2, .line-two .serif-emphasis {font-size: 55px;}
-    #home-hero-opener {border-top: 20px solid yellow;}
+    /* #home-hero-opener {border-top: 20px solid yellow;} */
 }
 
 /* Medium / Tablets. */
@@ -866,7 +866,7 @@ add red
     /* #home-hero-opener h1, #home-hero-opener h2{color: orange!important;} */
     #home-hero-opener h1, .line-one .serif-emphasis  {font-size: 57px;}
     #home-hero-opener h2, .line-two .serif-emphasis {font-size: 43px;}
-    #home-hero-opener  {border-top: 20px solid orange;}
+    /* #home-hero-opener  {border-top: 20px solid orange;} */
 }
 
 
@@ -875,7 +875,7 @@ add red
     /* #home-hero-opener h1, #home-hero-opener h2{color: red!important;} */
     #home-hero-opener h1, .line-one .serif-emphasis  {font-size: 32px;}
     #home-hero-opener h2, .line-two .serif-emphasis {font-size: 20px;}
-    #home-hero-opener {border-top: 20px solid red;}
+    /* #home-hero-opener {border-top: 20px solid red;} */
 }
 
 
@@ -2928,7 +2928,7 @@ font-style: italic !important;
 
 .home #home-hero-opener {
     overflow: hidden !important;
-    background-color: #4d0303 !important;
+    background-color: #111111 !important;
 }
 
 .home-hero-text-block {
