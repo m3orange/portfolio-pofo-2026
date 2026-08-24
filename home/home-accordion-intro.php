@@ -33,9 +33,7 @@
                      <div class="panel-heading">
                         <a data-toggle="collapse" href="#design1" class="collapsed" aria-expanded="false">
                            <div class="panel-title">
-                              <h5>My favorite challenges involve turning complex data and workflows into intuitive
-                                 experiences, always maintaining a relentless focus on real user needs and design
-                                 heuristics. </h5>
+                              <h5>My favorite challenges involve turning complex data and workflows into intuitive experiences, always maintaining a relentless focus on real user needs and design heuristics. </h5>
                               <span class="float-right"><i class="ti-angle-down"></i></span>
                            </div>
                         </a>
@@ -121,6 +119,11 @@
                                  <li>
                                     Having extensive hands-on coding experience (I'm a front-end designer 🦄), I excel at identifying risks early. I tend to act as a translator between design and engineering, and help everyone understand each other's concerns and challenges without anything getting lost in [tech] translation.
                                  </li>
+                                    <div class="btn-view-website-area margin-20px-tb">
+                                    <div class="btn btn-to-atlas-ds-page">
+                                       <a href="<?= BASE_URL ?>about.php" target="_blank"  style="font-size: 18px!important;"  >More about my technical knowledge</a></div>
+                                    <div class="btn-view-website"><img src="<?= BASE_URL ?>images/arrow-view-website-black.svg"/></div>
+                                    </div>   
                                  <li>
                                     I’m a fierce advocate of transfering design knowledge –from layouts, to specs and PRDs– as close as possible to code, and to the specifics frameworks (Vue, React, ect.) being used. The goal is to reach fidelity and parity faster, mitigate tech and design debt, and to reduce feedback loops that cause delays and friction.
                                  </li>

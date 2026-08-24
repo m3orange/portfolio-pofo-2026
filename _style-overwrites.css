@@ -318,7 +318,7 @@ header a.logo img {
 
 footer,
 footer a {
-    color: #999 !important;
+    color: #ECECEC !important;
 }
 
 .footer-logo {
@@ -432,7 +432,7 @@ footer a {
 .footer-strip-dark .text-medium {
     font-size: 16px !important;
     line-height: 1.2em !important;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.45);
 }
 
 .footer-big-words{
@@ -1622,7 +1622,6 @@ video {
     align-items: center;
     margin-left: 20px;
     border-left: 1px solid rgba(255,255,255,0.5);
-    padding-left: 14px;
     height: fit-content;
     gap: 6px;
     }
@@ -1638,7 +1637,11 @@ video {
 
 
 .home .btn-view-website-area{
-    margin: 10px 0 0 0;
+    margin-left: 0;
+}
+
+.btn-view-website-area a{
+    text-decoration: underline!important;
 }
 .home .btn-view-website,
 .atlas .btn-view-website,
@@ -1694,7 +1697,7 @@ video {
     /* text-decoration: none; */
     /* border-bottom: 1px solid #ffffff; */
     color: #FFF !important;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .home .btn-to-atlas-ds-page a {
@@ -2583,7 +2586,7 @@ padding: 120px 80px;
     font-family: var(--archivo-headers-01);
     line-height: 1.2em;
         padding-right: 50px;
-        font-weight: 500!important;
+        font-weight: 600!important;
 }
 
 
@@ -2616,6 +2619,7 @@ padding: 120px 80px;
     font-weight: 600;
     margin-bottom: 20px;
     padding-top: 4px !important;
+
 }
 
 .home-strong-areas-tabs .topic-rows {
@@ -2680,7 +2684,7 @@ padding: 120px 80px;
 .inline-emphasis-01 {
 font-style: italic !important;
     background-color: rgb(124 122 229 / 56%);
-        * background-color: #ff8200ad; */
+        /* background-color: #ff8200ad; */
     font-weight: 500;
     padding: 6px 12px;
     color: #000000;
@@ -4341,15 +4345,16 @@ nav.navbar.bootsnav li.dropdown .menu-back-div > ul {
 
 .home #home-hero-opener {
     overflow: hidden !important;
-    background-color: #004563 !important;
+    background-color: #01344a !important;
 }
 
 .home .floating-blob{    
-    width: 900px;
+width: 900px;
     height: 900px;
     position: absolute;
-    top: 13%;
-    right: 13%;
+    top: 21%;
+    right: 8%;
+    opacity: 0.5;
 }
 
 
@@ -4367,20 +4372,20 @@ nav.navbar.bootsnav li.dropdown .menu-back-div > ul {
 
 .blurred-panel-behind{
     z-index: 5;
-    /* background-color: rgb(67 25 97 / 68%); */
-    background-color: rgb(0 72 106 / 44%);
+        /* background-color: rgb(67 25 97 / 68%); */
+        /* background-color: rgb(0 72 106 / 44%); */
     position: absolute;
     height: 100%;
     width: 70%;
     top: 0;
     left: 0;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(1px);
     overflow: hidden;
 }
 
 .background-video-03{
     position: absolute;
-bottom: -36%;
+    bottom: -36%;
     left: 28%;
     z-index: 0;
     opacity: 1;

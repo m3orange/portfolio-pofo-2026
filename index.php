@@ -51,15 +51,16 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 
 
-
+<!-- 
     <div class="blurred-panel-behind">
-      <!-- <div class="animated-gradient-test-01"></div>  -->
+      <div class="animated-gradient-test-01"></div>  
     </div> 
+    -->
 <div class="floating-blob">
 <object type="image/svg+xml" data="<?= BASE_URL ?>home-bg-images/homepage-blob-01.svg">
-  Your browser does not support SVGs. <!-- Fallback text -->
-</object>
-
+  Your browser does not support SVGs. 
+</object> 
+<!-- <img src="<?= BASE_URL ?>home-bg-images/homepage-blob-01.png">-->
 </div>
 
     <div class="home-grid-top">
@@ -71,7 +72,7 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
       <div class="container">
         <div class="col col-12 col-md-6 col-left">San Juan, Puerto Rico</div>
-        <div class="col col-12 col-md-6 col-right">18º28’00 N, 066º06’51 W</div>
+        <div class="col col-12 col-md-6 col-right">18º28'00 N, 066º06'51 W</div>
       </div>
     </div>
 
@@ -147,8 +148,9 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <p>I'm able to understand how technical constraints impact the design decisions we can make, and I'm able to identify possible issues early on and ask engineers very specific questions that could lead us to what our options are.</p>
          </div>
     </div>
-      <div class="btn-view-website-area p-0">
-        <div class="btn btn-to-atlas-ds-page"><a href="<?= BASE_URL ?>about.php" target="_blank" >More about my technical knowledge</a></div>
+      <div class="btn-view-website-area p-0 margin-20px-top">
+        <div class="btn btn-to-atlas-ds-page">
+          <a href="<?= BASE_URL ?>about.php" target="_blank">More about my technical knowledge</a></div>
         <div class="btn-view-website"><img src="<?= BASE_URL ?>images/arrow-view-website-black.svg"/></div>
       </div>
 
@@ -231,7 +233,7 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
               <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2">
               </div>
               <span class="line-height-normal text-white-2 margin-5px-bottom d-block featured-work-title">Atlas</span>
-              <p>Design System</p>
+              <p>Design system for a geospatial imagery application</p>
              </div>
             </div>
            </div>
@@ -257,7 +259,7 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
               </div>
               <span class="line-height-normal text-white-2 margin-5px-bottom d-block featured-work-title">Admin
                Module</span>
-              <p>Account & user management platform</p>
+              <p>Account & user management module for a geospatial insight platform</p>
              </div>
             </div>
            </div>
@@ -281,7 +283,7 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
               </div>
               <span class="line-height-normal text-white-2 margin-5px-bottom d-block featured-work-title">Atlas
                UI</span>
-              <p>Geospatial imagery interface</p>
+              <p>UI redesign for a geospatial visualization and analytics tool </p>
              </div>
             </div>
            </div>
@@ -306,7 +308,7 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
               </div>
               <span
                class="line-height-normal text-white-2 margin-5px-bottom d-block featured-work-title">In Situ</span>
-              <p>Location finder</p>
+              <p>Film location application</p>
              </div>
             </div>
            </div>
