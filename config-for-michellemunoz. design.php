@@ -13,8 +13,8 @@ if ($isLocal) {
     define('ROOT_PATH', __DIR__ . '/');
 } else {
     // Production server    
-    // define('BASE_URL', 'https://lightpink-hedgehog-479399.hostingersite.com/');
-    define('BASE_URL', 'https://www.michellemunoz.info/');
+    // define('BASE_URL', 'https://darkred-albatross-326006.hostingersite.com/');
+    define('BASE_URL', 'https://www.michellemunoz.design/');
     define('ROOT_PATH', __DIR__ . '/');
 }
 
