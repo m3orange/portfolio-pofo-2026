@@ -40,9 +40,15 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
 
 
     <section id="block-intro-slider" class="wow p-0 ">
-        <video autoplay loop muted playsinline class="hero-video-cb">
-            <source src="<?= BASE_URL ?>projects/atlas-ui/assets/citybox-screens-in-laptop-darker.mp4" type="video/mp4">  
-        </video>
+        <!-- <video autoplay loop muted playsinline class="hero-video-cb">
+            <source src="<?= BASE_URL ?>projects/atlas-ui/assets/cb-screens-in-laptop-260824_0245.mp4" type="video/mp4">  
+        </video> -->
+        <div class="row">
+            <div class="cb-screens-in-laptop-gif col">
+            <img src="<?= BASE_URL ?>projects/atlas-ui/assets/cb-screens-laptop-260824_0305-hbrake-wshare.gif"/>
+            </div>
+
+        </div>
     </section>
  
     <!-- start product information section -->

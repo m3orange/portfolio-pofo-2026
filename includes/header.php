@@ -7,7 +7,7 @@
 
     
     <!-- title -->
-    <title>M3Orange | Michelle Muñoz | UX/UI Designer</title>
+    <title>Michelle Muñoz | Senior Product Designer in San Juan, Puerto Rico. | UX/UI + UX Engineering</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=5" />
@@ -15,10 +15,10 @@
     <meta name="description" content=" ">
     <meta name="keywords" content="">
 
-    <link rel="shortcut icon" href="<?= BASE_URL ?>images/favicon.png">
-    <link rel="apple-touch-icon" href="<?= BASE_URL ?>images/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="<?= BASE_URL ?>images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="<?= BASE_URL ?>images/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="<?= BASE_URL ?>images/favicons/favicon.png">
+    <link rel="apple-touch-icon" href="<?= BASE_URL ?>images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="<?= BASE_URL ?>images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="<?= BASE_URL ?>images/favicons/apple-touch-icon-114x114.png">
 
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">

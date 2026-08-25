@@ -12,21 +12,70 @@
 
                 </div>
 
-                <div class="col col-12 col-xl-10 col-lg-10 line-height-28 last-paragraph-no-margin wow fadeIn description-excerpt">
+
+                <div class="row">
+                    <div class="col col-12 col-xl-10 col-lg-10 line-height-28 last-paragraph-no-margin wow fadeIn description-excerpt">
                         <h4><?= $project['intro_excerpt'] ?></h4>
-                </div>
-                <div class="col col-12 col-xl-9 col-lg-8 line-height-28 last-paragraph-no-margin wow fadeIn">
-                    <div class="project-info-item-row">
-                        <div class="pi-title">Role:</div>
-                        <div class="pi-details"><?= $project['role'] ?></div>
                     </div>
-                    <div class="project-info-item-row">
-                        <div class="pi-title">Tasks:</div>
-                        <div class="pi-details"><?= $project['tasks'] ?></div>
+                </div>
+
+                <div class="row" style="flex: max-content!important; "><!--details-block-left-->    
+
+                    <div class="col col-12 col-xl-9 col-lg-8 line-height-28 last-paragraph-no-margin wow fadeIn">
+                        <div class="details-block-left row">
+                            <div class="col col-md-12 line-height-26 wow">
+                                <div class="project-info-item-row">
+                                    <div class="pi-title">Role:</div>
+                                    <div class="pi-details"><?= $project['role'] ?></div>
+                                </div>
+                            </div>
+                            <div class="col col-md-12 line-height-26 wow">
+                                <div class="project-info-item-row">
+                                    <div class="pi-title">Tasks:</div>
+                                    <div class="pi-details"><?= $project['tasks'] ?></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                </div>
-                <div class="col col-12 col-xl-3 col-lg-4 line-height-26 wow fadeIn">
+
+
+                    <div class="col col-12 col-xl-3 col-lg-4 line-height-26 wow fadeIn">
+                        <div class="details-block-right row">
+                            <div class="col-6 col-md-12 line-height-26 wow">
+                                <div class="project-info-item-row-01">
+                                    <div class="pi-title">Client:</div>
+                                    <div class="pi-details"><?= $project['client'] ?></div>
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-md-12 line-height-26 wow">
+                                <div class="project-info-item-row-02">
+                                    <div class="pi-title">Year:</div>
+                                    <div class="pi-details"><?= $project['year'] ?></div>
+                                </div>
+                            </div>
+                        </div><!-- row-->
+                    </div> <!--col-->          
+                
+                </div> 
+
+<style>
+
+    .details-block-right .row{
+        border: 1px solid green;
+        display: flex! important;
+        flex-direction: row! important;
+    }
+</style>
+
+
+
+
+
+
+
+                <!-- <div class="col col-12 col-xl-3 col-lg-4 line-height-26 wow fadeIn">
                     <div class="project-info-item-row">
                         <div class="pi-title">Client:</div>
                         <div class="pi-details"><?= $project['client'] ?></div>
@@ -35,7 +84,8 @@
                         <div class="pi-title">Year:</div>
                         <div class="pi-details"><?= $project['year'] ?></div>
                     </div>
-                </div>
+                </div> -->
+
             </div>
             <div class="row">
                 <div class="col col-12 col-xl-9 col-lg-8 line-height-28 last-paragraph-no-margin wow">
@@ -44,7 +94,7 @@
                     <!-- Truncation buttob triggers need to go on the DB, or else they will display in cases where there is no truncation to be done.-->
                      </div>    
                      
-                    <div class="confidentiality-note">Due to the confidential nature of some projects, certain details have been modified.</div>             
+                    <div class="confidentiality-note">Due to the sensitive nature of some projects, details have been modified to preserve confientiality. Some images and videos have been intentionally blurred or scaled down to a lower resolution to help conceal some critical. </div>             
                 </div>
 
                 <div class="col col-12 col-xl-3 col-lg-4 line-height-26 wow fadeIn">

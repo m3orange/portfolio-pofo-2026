@@ -1237,10 +1237,10 @@ line-height: 1.2em !important;
 
 
 #block-intro-slider {
-    height: 75vh;
+    height: 80vh;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    flex-direction: column;
 
 }
 
@@ -1369,8 +1369,9 @@ line-height: 1.2em !important;
         margin: 0 0 10px 0!important;
 }
 
-
-.project-info-item-row {
+.details-block-left .project-info-item-row,
+.details-block-right .project-info-item-row-01,
+.details-block-right .project-info-item-row-02{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -1382,13 +1383,41 @@ line-height: 1.2em !important;
     line-height: 1.4em;
 }
 
+
+
         @media (max-width: 767px) {
-                .project-info-item-row{
+
+                .details-block-left .project-info-item-row{
+                    flex-direction: column;
+
+                } 
+                 .details-block-left .row{
+                    flex-direction: column!important; 
+                    flex-wrap: unset!important; 
+                 }
+
+
+                .details-block-right .project-info-item-row{
                         flex-direction: column;
                                 row-gap: 4px;
                 }
-        }
+                .project-info-item-row-01 .col,
+                .project-info-item-row-02 .col {
+                    border: 1px solid red;
+                } 
 
+                .details-block-left, .details-block-right{
+                    font-weight: 700;
+                }
+            }
+
+
+.details-block-left .row
+            {
+                display: flex! important;
+                flex-direction: column! important;
+                border: 1px solid purple;
+            }
 .pi-title {
     min-width: 8% !important;
     display: inline-block !important;
@@ -1536,18 +1565,30 @@ input[type="checkbox"]:checked ~ label:before {
 .hidden-collapsed-content:has(~ input[type="checkbox"]:checked) {
   display: inline;
 }
+.cb-screens-in-laptop-gif.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.cb-screens-in-laptop-gif img{
+        width: 80%!important;
+}
+
+.citybox #block-intro-slider{
+    height: 70vh;
+}
 
 
 video {
-    background-size: cover;
-    display: table-cell;
-    vertical-align: middle;
-    width: 100%;
+    /* background-size: cover; */
+    /* display: table-cell; */
+    /* vertical-align: bottom; */
+    width: 80%!important;
 }
 
 .citybox #block-intro-slider {
-    background-color: #191c1e !important;
+    background-color: #000000!important;
 
 }
 
