@@ -14,6 +14,11 @@
 
     <meta name="description" content=" ">
     <meta name="keywords" content="">
+    <!-- Begin - This is for csPlayer https://github.com/abtp2/csPlayer -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <link rel="stylesheet" href="<?= BASE_URL ?>video-player/csPlayer.css" />
+    <script src="<?= BASE_URL ?>video-player/csPlayer.js"></script>
+    <!-- End - This is for csPlayer https://github.com/abtp2/csPlayer -->
 
     <link rel="shortcut icon" href="<?= BASE_URL ?>images/favicons/favicon.png">
     <link rel="apple-touch-icon" href="<?= BASE_URL ?>images/favicons/apple-touch-icon-57x57.png">

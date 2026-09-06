@@ -2,8 +2,6 @@
 
 
 
-
-
 <!-- start header --- This is hamburger-menu-half-->
 <header class="m3-main-nav">
 
