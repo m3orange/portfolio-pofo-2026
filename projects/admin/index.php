@@ -34,25 +34,34 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
 
 <body class="admin">
 
-    <!-- start header -->
+
      <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
-    <!-- end header -->
 
-    <!-- start parallax hero section -->
-     <section id="block-intro-slider">
-        <video autoplay loop muted playsinline class="hero-video-admin">
-            <source src="<?= BASE_URL ?>projects/admin/assets/admin-demo-loop.mp4" type="video/mp4">              
-        </video>  
-    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/G5EvbNWh1-k?si=WNt7JQbiWQkTJJ3w&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+
+
+     <section id="block-intro-slider" class="p-0">
+        Null
     </section>
-    <!-- end parallax hero section -->
 
-    <!-- start product information section -->
+
     <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
-    <!-- end product information section -->
 
 
-  <div id="anchor-01"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+    <?php include ROOT_PATH . 'projects/admin/figma-embed.php'; ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div id="anchor-01" class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
     <div class="anchor-links">
       <div class="row">
         <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">

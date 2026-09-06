@@ -1,9 +1,10 @@
 <!-- <div class="loading-bar"></div> -->
 
 
+
+
+
 <!-- start header --- This is hamburger-menu-half-->
-
-
 <header class="m3-main-nav">
 
     <nav class="navbar bg-transparent navbar-top navbar-transparent-no-sticky full-width-pull-menu white-link no-transition">

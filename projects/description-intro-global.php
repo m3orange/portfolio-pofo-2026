@@ -94,7 +94,7 @@
                     <!-- Truncation buttob triggers need to go on the DB, or else they will display in cases where there is no truncation to be done.-->
                      </div>    
                      
-                    <div class="confidentiality-note">Due to the sensitive nature of some projects, details have been modified to preserve confientiality. Some images and videos have been intentionally blurred or scaled down to a lower resolution to help conceal some critical. </div>             
+                    <div class="confidentiality-note">Due to the sensitive nature of some projects, details have been modified to preserve confientiality. Some images and videos have been intentionally blurred or scaled down to a lower resolution to help conceal some critical information. </div>             
                 </div>
 
                 <div class="col col-12 col-xl-3 col-lg-4 line-height-26 wow fadeIn">

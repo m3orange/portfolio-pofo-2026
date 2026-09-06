@@ -48,7 +48,7 @@
                                     strategies that ensure scalable and future-proof environments capable of handling
                                     growing business and technical demands.
                                  </li>
-                                 <li>I particularly enjoy owning a specfic product domain and working consistently with that same context (rather than constantly switching between projects for different products), as that constant gathering of knowledge about the user's goals as well as the jobs-to-be-done in each workflow, allows me to come up with richer, better-informed design decisions, as well as allowing me to proactively bring to product owners suggestions for new features that might not necessasrily been in the pipeline already.</li>
+                                 <li>I particularly enjoy owning a specfic product domain and working consistently with that same context (rather than constantly switching between projects for different products), as that constant gathering of knowledge about the user's goals as well as the jobs-to-be-done in each workflow, allows me to come up with richer, better-informed design decisions, as well as allowing me to proactively bring to product owners suggestions for new features that might not necessarily been in the pipeline already.</li>
                               </ul>
                            </h6>
                            <div class="row intro-examples intro-example-01">
