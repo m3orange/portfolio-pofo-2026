@@ -108,62 +108,12 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
             <div class="row">
                 <div class="col col-12 col-lg-8 offset-lg-2 wow">
                     <div class="gallery-item">
-    `                    <div style="padding:71.071% 0 0 0;position:relative;width:100%;">
-                            <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture; web-share" allowfullscreen frameborder="0" referrerpolicy="strict-origin-when-cross-origin" src="https://livid.com/embed/0wuUwTJd5UGi?autoplay=1&loop=1&muted=1" title="map-tools-demo-light">
+                        <div style="padding:71.07% 0 0 0;position:relative;">
+                            <iframe src="https://player.vimeo.com/video/1211997195?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1&amp;unmute_button=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Map Tools Demo">
                             </iframe>
                         </div>
+                        <script src="https://player.vimeo.com/api/player.js"></script>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col col-12 col-lg-8 offset-lg-2 wow">
-                    <div class="gallery-item">
-                        <div style="padding:71.071% 0 0 0;position:relative;width:100%;">
-                            <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"  src="https://www.youtube.com/embed/G5EvbNWh1-k?si=mZdJbnTysIc9tYxm?autoplay=1&loop=1&playsinline=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-<style>
-    .player-controls-top,
-    .watch-on-youtube-button-wrapper{
-        visibility: hidden!important;
-    }
-</style>
-
-
-            <div class="row">
-                <div class="col col-12 col-lg-8 offset-lg-2 wow">
-                    <div class="gallery-item">
-      
-<div style="padding:71.07% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1211997195?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Map Tools Demo"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-               
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col col-12 col-lg-8 offset-lg-2 wow">
-                    <div id="video1"></div>
-
-                    <script src="<?= BASE_URL ?>video-player/csPlayer.js"></script>
-                    <script>
-                        csPlayer.init("video1",{
-                        defaultId: "G5EvbNWh1-k",
-                        thumbnail: true,
-                        theme: "default",
-                        loop: true,
-                        });
-                        // Example methods:
-                        // csPlayer.play("video1")
-                        // csPlayer.pause("video1")
-                        // csPlayer.getCurrentTime("video1")
-                        // csPlayer.getDuration("video1")
-                        // csPlayer.getVideoTitle("video1")
-                        // csPlayer.getPlayerState("video1")
-                        // csPlayer.changeVideo("video1","bTqVqk7FSmY")
-                        // csPlayer.destroy("video1")
-                    </script>
                 </div>
             </div>
         </div>
