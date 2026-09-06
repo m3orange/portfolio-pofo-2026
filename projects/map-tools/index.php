@@ -108,8 +108,12 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
             <div class="row">
                 <div class="col col-12 col-lg-8 offset-lg-2 wow">
                     <div class="gallery-item">
-                        <div style="padding:71.07% 0 0 0;position:relative;">
-                            <iframe src="https://player.vimeo.com/video/1211997195?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1&amp;unmute_button=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Map Tools Demo">
+                    <style>
+                        .vimeo-wrapper{background-color: #000000;}
+                    </style>
+      
+                        <div style="padding:71.07% 0 0 0;position:relative;" class="margin-100px-bottom">
+                            <iframe class="vimeo-wrapper" src="https://player.vimeo.com/video/1211997195?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1&amp;unmute_button=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Map Tools Demo">
                             </iframe>
                         </div>
                         <script src="https://player.vimeo.com/api/player.js"></script>
