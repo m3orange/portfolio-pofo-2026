@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CSS Mega Menu Navigation — CodeFronts</title>
+
+<style>
+.nav-03,
+.nav-03 *,
+.nav-03 *::before,
+.nav-03 *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-03 ::selection {
+  background: #0ea5e9;
+  color: #fff;
+}
+
+.nav-03 {
+  --bg: #0c1222;
+  --surface: #111827;
+  --surface2: #1e2a3d;
+  --border: rgba(255,255,255,.07);
+  --text: #f1f5f9;
+  --muted: #94a3b8;
+  --accent: #0ea5e9;
+  --accent2: #38bdf8;
+  --green: #10b981;
+  --orange: #f59e0b;
+  --pink: #ec4899;
+  font-family: 'DM Sans',system-ui,sans-serif;
+  background: var(--bg);
+  min-height: 100vh;
+}
+
+.nav-03__bar {
+  background: rgba(17,24,39,.9);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
+  padding: 0 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-03__logo {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  letter-spacing: -.02em;
+}
+
+.nav-03__logo span {
+  color: var(--accent);
+}
+
+.nav-03__links {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  list-style: none;
+}
+
+.nav-03__links > li {
+  position: relative;
+}
+
+.nav-03__links > li > a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 9px 14px;
+  color: var(--muted);
+  text-decoration: none;
+  font-size: .875rem;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: color .18s,background .18s;
+}
+
+.nav-03__links > li > a:hover,
+.nav-03__links > li:hover > a {
+  color: var(--text);
+  background: rgba(255,255,255,.05);
+}
+
+.nav-03__links > li > a svg {
+  width: 14px;
+  height: 14px;
+  opacity: .5;
+  transition: transform .22s;
+}
+
+.nav-03__links > li:hover > a svg {
+  transform: rotate(180deg);
+}
+/* mega panel */
+
+.nav-03__mega {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%) translateY(-8px);
+  width: 680px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: 0 24px 60px rgba(0,0,0,.5);
+  padding: 24px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s ease,transform .22s ease;
+  z-index: 200;
+}
+
+.nav-03__links > li:hover .nav-03__mega,
+.nav-03__links > li:focus-within .nav-03__mega {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+
+.nav-03__mega-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 6px;
+}
+
+.nav-03__mega-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background .15s;
+}
+
+.nav-03__mega-item:hover {
+  background: var(--surface2);
+}
+
+.nav-03__mega-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 9px;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+}
+
+.nav-03__mega-icon svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.75;
+}
+
+.nav-03__mega-text h4 {
+  font-size: .8125rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 3px;
+}
+
+.nav-03__mega-text p {
+  font-size: .75rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+.nav-03__mega-footer {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  gap: 8px;
+}
+
+.nav-03__mega-tag {
+  padding: 4px 10px;
+  border-radius: 100px;
+  font-size: .7rem;
+  font-weight: 600;
+  letter-spacing: .03em;
+  text-decoration: none;
+  transition: opacity .15s;
+}
+
+.nav-03__mega-tag:hover {
+  opacity: .75;
+}
+
+.nav-03__actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-03__btn {
+  padding: 8px 18px;
+  border-radius: 7px;
+  font-size: .875rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all .18s;
+  border: 1.5px solid transparent;
+  cursor: pointer;
+}
+
+.nav-03__btn--out {
+  color: var(--muted);
+  border-color: var(--border);
+}
+
+.nav-03__btn--out:hover {
+  color: var(--text);
+  border-color: rgba(255,255,255,.15);
+}
+
+.nav-03__btn--in {
+  color: #fff;
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.nav-03__btn--in:hover {
+  opacity: .88;
+}
+
+.nav-03__btn svg {
+  width: 14px;
+  height: 14px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2;
+}
+/* hero */
+
+.nav-03__hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 24px;
+  text-align: center;
+}
+
+.nav-03__hero h1 {
+  font-size: clamp(2rem,5vw,3.5rem);
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -.03em;
+  max-width: 640px;
+  margin-bottom: 14px;
+  line-height: 1.15;
+}
+
+.nav-03__hero h1 em {
+  color: var(--accent);
+  font-style: normal;
+}
+
+.nav-03__hero p {
+  font-size: 1rem;
+  color: var(--muted);
+  max-width: 460px;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .nav-03__links,
+    .nav-03__btn--out {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-03__mega,
+    .nav-03__links > li > a svg {
+    transition: none;
+  }
+}
+</style>
+</head>
+<body>
+<div class="nav-03">
+  <nav class="nav-03__bar" role="navigation">
+    <div class="nav-03__logo">Arc<span>OS</span></div>
+    <ul class="nav-03__links">
+      <li>
+        <a href="#">Platform
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </a>
+        <div class="nav-03__mega">
+          <div class="nav-03__mega-grid">
+            <a href="#" class="nav-03__mega-item">
+              <span class="nav-03__mega-icon" style="background:#0ea5e910;color:#0ea5e9"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></span>
+              <span class="nav-03__mega-text"><h4>Cloud IDE</h4><p>Full-stack dev environment</p></span>
+            </a>
+            <a href="#" class="nav-03__mega-item">
+              <span class="nav-03__mega-icon" style="background:#10b98110;color:#10b981"><svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></span>
+              <span class="nav-03__mega-text"><h4>Code Review</h4><p>AI-powered PR analysis</p></span>
+            </a>
+            <a href="#" class="nav-03__mega-item">
+              <span class="nav-03__mega-icon" style="background:#f59e0b10;color:#f59e0b"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
+              <span class="nav-03__mega-text"><h4>Security</h4><p>Secrets & vulnerability scan</p></span>
+            </a>
+            <a href="#" class="nav-03__mega-item">
+              <span class="nav-03__mega-icon" style="background:#ec489910;color:#ec4899"><svg viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
+              <span class="nav-03__mega-text"><h4>Observability</h4><p>Logs, traces, metrics</p></span>
+            </a>
+            <a href="#" class="nav-03__mega-item">
+              <span class="nav-03__mega-icon" style="background:#8b5cf610;color:#8b5cf6"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg></span>
+              <span class="nav-03__mega-text"><h4>AI Assistant</h4><p>Intelligent code completion</p></span>
+            </a>
+            <a href="#" class="nav-03__mega-item">
+              <span class="nav-03__mega-icon" style="background:#06b6d410;color:#06b6d4"><svg viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg></span>
+              <span class="nav-03__mega-text"><h4>Deployments</h4><p>One-click to production</p></span>
+            </a>
+          </div>
+          <div class="nav-03__mega-footer">
+            <a href="#" class="nav-03__mega-tag" style="background:#0ea5e915;color:#0ea5e9">New: Edge Functions</a>
+            <a href="#" class="nav-03__mega-tag" style="background:#10b98115;color:#10b981">New: AI Reviews</a>
+            <a href="#" class="nav-03__mega-tag" style="background:rgba(255,255,255,.06);color:var(--muted)">View all →</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <a href="#">Solutions
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </a>
+        <div class="nav-03__mega" style="width:360px">
+          <div class="nav-03__mega-grid" style="grid-template-columns:1fr 1fr">
+            <a href="#" class="nav-03__mega-item">
+              <span class="nav-03__mega-text"><h4>Enterprise</h4><p>SSO, audit logs, SLA</p></span>
+            </a>
+            <a href="#" class="nav-03__mega-item">
+              <span class="nav-03__mega-text"><h4>Startups</h4><p>Free credits, fast scaling</p></span>
+            </a>
+            <a href="#" class="nav-03__mega-item">
+              <span class="nav-03__mega-text"><h4>Open Source</h4><p>Special plans available</p></span>
+            </a>
+            <a href="#" class="nav-03__mega-item">
+              <span class="nav-03__mega-text"><h4>Education</h4><p>Free for students</p></span>
+            </a>
+          </div>
+        </div>
+      </li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Docs</a></li>
+    </ul>
+    <div class="nav-03__actions">
+      <a href="#" class="nav-03__btn nav-03__btn--out">Sign in</a>
+      <a href="#" class="nav-03__btn nav-03__btn--in">
+        Start building
+        <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </nav>
+  <div class="nav-03__hero">
+    <h1>CSS <em>Mega Menu</em> Navigation</h1>
+    <p>Hover "Platform" or "Solutions" to reveal a grid-based mega panel. Built with pure CSS <code>:hover</code> + <code>opacity</code> transitions and CSS Grid layout — no JS.</p>
+  </div>
+</div>
+
+</body>
+</html>
