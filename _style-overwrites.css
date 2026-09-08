@@ -3831,10 +3831,26 @@ h6 .anchor-emphasis {
     justify-content: flex-start;    border-top: 1px solid rgba(0,0,0,0.5);
 }
 
+/*
+
+For original Pofo nav:
 
 header nav.navbar{
     height: 80px;
 }
+
+
+*/
+
+/* For mega menu */
+
+header nav.navbar{
+ height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 
 
 .home-grid-top{
@@ -4386,7 +4402,8 @@ nav.navbar.bootsnav li.dropdown .menu-back-div > ul {
 
 .home #home-hero-opener {
     overflow: hidden !important;
-    background-color: #01344a !important;
+    /* background-color: #01344a !important; */
+    background-color: #000 !important;
 }
 
 .home .floating-blob{    

@@ -86,6 +86,13 @@
     <a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
     <!-- end scroll to top  -->
     <!-- javascript libraries -->
+
+    <!--Begin: Mega Menu JS-->
+    <script src="<?= BASE_URL ?>mega-menu-codyhouse/iframe-min.js"></script> <!-- ver=x -->
+    <script src="<?= BASE_URL ?>mega-menu-codyhouse/util.js"></script> <!-- ver=x -->
+    <script src="<?= BASE_URL ?>mega-menu-codyhouse/mega-site-navigation.min.js"></script>
+    <!--Endn: Mega Menu JS-->
+
     <script type="text/javascript" src="<?= BASE_URL ?>js/jquery.js"></script>
     <script type="text/javascript" src="<?= BASE_URL ?>js/modernizr.js"></script>
     <script type="text/javascript" src="<?= BASE_URL ?>js/bootstrap.bundle.js"></script>

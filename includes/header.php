@@ -60,8 +60,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=mail" />
 
-
-
     <!--[if IE]>
             <script src="js/html5shiv.js"></script>
         <![endif]-->
@@ -70,6 +68,15 @@
         <link rel="stylesheet" href="<?= BASE_URL ?>_guides.css" />
         <link rel="stylesheet" href="<?= BASE_URL ?>__delete-later.css?v=10" /> 
     -->
+
+        <!-- Begin: Mega Menu-->
+    <link rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/reset.css">
+    <!-- <link rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/typography.css"> -->
+    <link id="cd-base-part-1" rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/icons.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/mega-site-navigation.css">
+    <noscript><link rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/mega-site-navigation-downloaded.css"></noscript>
+    <link id="cd-cdf-util" rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/util.css">
+    <!-- End: Mega Menu-->
 
     <link rel="stylesheet" href="<?= BASE_URL ?>__atyp-display.css" /> 
     <link rel="stylesheet" href="<?= BASE_URL ?>_style-overwrites.css?v=1" />
