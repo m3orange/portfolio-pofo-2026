@@ -8,9 +8,10 @@
                     <div class="label-guides-01">[red].video-container</div>
                 </div>
                 
-                    <video id="video" autoplay="autoplay" muted="muted" loop="loop" controls playsinline>
+                    <video id="video" autoplay="autoplay" muted="muted" loop="loop" playsinline>
                         <source src="https://framerusercontent.com/assets/CwBu0bv6ntKVD1GG71zV10BPXw.mp4" type="video/mp4">
                     </video>
+                    <!--Do not add controls parameter. They're added, but autoplay is overriden and user would need to click.-->
             </div>
         </div>
     </div>
