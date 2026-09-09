@@ -29,10 +29,12 @@ width: 100%;
     left: 0;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    /* overflow: hidden !important; */
+    background-color: #ff00002e;
+    border: 1px solid #a00000;
 }
 
 
@@ -44,9 +46,9 @@ position: absolute;
     z-index: 1;
     /* width: 100% !important; */
     /* object-fit: cover; */
-    width: 96% !important;
-    opacity: 1;
-    background-color: #000;
+    width: 94% !important;
+    opacity: .5;
+    border: 1px solid #00ff27;
 
     }
 
