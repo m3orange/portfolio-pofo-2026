@@ -4,8 +4,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
-
-    
     <!-- title -->
     <title>Michelle Muñoz | Senior Product Designer in San Juan, Puerto Rico. | UX/UI + UX Engineering</title>
     <meta charset="utf-8">
@@ -14,11 +12,6 @@
 
     <meta name="description" content=" ">
     <meta name="keywords" content="">
-    <!-- Begin - This is for csPlayer https://github.com/abtp2/csPlayer -->
-    <script src="https://www.youtube.com/iframe_api"></script>
-    <link rel="stylesheet" href="<?= BASE_URL ?>video-player/csPlayer.css" />
-    <script src="<?= BASE_URL ?>video-player/csPlayer.js"></script>
-    <!-- End - This is for csPlayer https://github.com/abtp2/csPlayer -->
 
     <link rel="shortcut icon" href="<?= BASE_URL ?>images/favicons/favicon.png">
     <link rel="apple-touch-icon" href="<?= BASE_URL ?>images/favicons/apple-touch-icon-57x57.png">
@@ -28,8 +21,17 @@
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=keyboard_double_arrow_right" />
+
+    <!-- Begin: Mega Menu-->
+    <link rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/reset.css">
+    <link id="cd-base-part-1" rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/icons.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/mega-site-navigation.css">
+    <noscript><link rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/mega-site-navigation-downloaded.css"></noscript>
+
+    <!-- 260908_2223 - This is the file that was breaking index. Cannot place it after Pofo's main CSS files, or otherwise the util.css replaces Pofo's.-->
+    <link id="cd-cdf-util" rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/util.css">
+    <!-- End: Mega Menu-->
 
     <link rel="stylesheet" href="<?= BASE_URL ?>css/animate.css" />
     <link rel="stylesheet" href="<?= BASE_URL ?>css/bootstrap.min.css" /> 
@@ -60,31 +62,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=mail" />
 
+    <link href="https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro?styles=82961,82962,82965,82966,82963,82964,82959,82960" rel="stylesheet">
+                
+
     <!--[if IE]>
             <script src="js/html5shiv.js"></script>
         <![endif]-->
-
     <!-- 
         <link rel="stylesheet" href="<?= BASE_URL ?>_guides.css" />
         <link rel="stylesheet" href="<?= BASE_URL ?>__delete-later.css?v=10" /> 
     -->
 
-        <!-- Begin: Mega Menu-->
-    <link rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/reset.css">
-    <!-- <link rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/typography.css"> -->
-    <link id="cd-base-part-1" rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/icons.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/mega-site-navigation.css">
-    <noscript><link rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/mega-site-navigation-downloaded.css"></noscript>
-    <link id="cd-cdf-util" rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/util.css">
-    <!-- End: Mega Menu-->
-
     <link rel="stylesheet" href="<?= BASE_URL ?>__atyp-display.css" /> 
     <link rel="stylesheet" href="<?= BASE_URL ?>_style-overwrites.css?v=1" />
     <link rel="stylesheet" href="<?= BASE_URL ?>__mobile-overwrites.css?v=1" />
 
-
-    <!-- Page loader assets --- start -->
-
+    <!-- BEGIN: Top bar gradient loader assets -->
     <script src="<?= BASE_URL ?>testing-code/topbar-m3/jquery-3.5.1.min.js"></script>
     <script src="<?= BASE_URL ?>testing-code/topbar-m3/prettify.min.js"></script>
     <script src="<?= BASE_URL ?>testing-code/topbar-m3/topbar.js"></script>
@@ -120,7 +113,7 @@
         })
         </script>
 
-        <!-- Page loader assets --- end -->
+        <!-- END: Top bar gradient loader assets -->
 
 
 </head>

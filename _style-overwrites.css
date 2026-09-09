@@ -1,3 +1,10 @@
+
+
+/* 
+260908_2211 - Current style versions in local repo when homepage broke. 
+260908_2237 - All fixed. Continuing.
+*/
+
 @charset "utf-8";
 
 /* Extra Large / Large Desktops. */
@@ -790,19 +797,18 @@ img.mfp-img {
 
 /*--------------- Home ------------------*/
 
-#home-hero-opener h1,
+/* #home-hero-opener h1,
 #home-hero-opener h2,
 #home-hero-opener h3,
 #home-hero-opener h4,
 #home-hero-opener h5,
 #home-hero-opener h6 {
     line-height: 1.1em;
-    font-family: var(--archivo-headers-01) !important;
+    font-family: var(--ibm-sans-headers-01) !important;
     font-weight: 500!important;
-    /* color: yellow; */
 
 }
-
+ */
 
 
 #home-hero-opener h2{line-height: 1.2em;}
@@ -846,11 +852,11 @@ H2      30
 
 add red
 
-*/
+*/    /* 
 
     #home-hero-opener h1, .line-one .serif-emphasis {font-size: 70px;}
     #home-hero-opener h2, .line-two .serif-emphasis {font-size: 55px;}
-    /* #home-hero-opener {border-top: 20px solid green;} */
+*/
 
 
 /* Extra Large / Large Desktops. */
@@ -2030,10 +2036,6 @@ video {
     flex-direction: row;
 }
 
-.navbar {
-    /* border-bottom: 1px solid var(--grid-color); */
-        border-bottom: 1px solid rgba(255,255,255,0.5);
-}
 
 
 
@@ -3086,6 +3088,16 @@ font-style: italic !important;
     opacity: 0.3;
 }
 
+.home-hero-bg-animation{
+position: absolute;
+    bottom: 15%;
+    right: 8%;
+    z-index: 1;
+    /* border: 1px solid green; */
+    width: 600px;
+    height: 600px;
+}
+
 
 /* .background-video-03{
     position: absolute;
@@ -3119,6 +3131,12 @@ font-style: italic !important;
     /* Places the content safely above the video */
     text-align: center;
     color: #ffffff;
+}
+
+.video-background-content .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -3980,9 +3998,6 @@ header nav.navbar{
 }
 
 
-.navbar,  .home-grid-border-b {border-bottom: 1px solid var(--home-grid-border-color)!important;}
-.home-grid-bottom, .home-grid-border-t {border-top: 1px solid var(--home-grid-border-color)!important;}
-
 
 
 .d-flex-centering{
@@ -4450,13 +4465,18 @@ width: 900px;
 }
 
 .home-big-m{
-      position: absolute;
-    left: 4%;
-    bottom: -4%;
-    width: 30%;
-    opacity: 0.15;
+    position: absolute;
+    left: 6%;
+    bottom: -3%;
+    width: 20%;
+    opacity: 1;
     text-align: right;
-    z-index: 10;
+    z-index: 1;
+}
+
+.home-big-m img{
+    width: 100%;
+    height: auto;
 }
 
 .background-video-03 video{width: 100%!important;}
@@ -4468,6 +4488,8 @@ width: 900px;
 
 }
 
+/* 
+
 .animated-gradient-test-01, .video-background-content, .blurred-panel-behind{
 width: 58vw;
 
@@ -4477,14 +4499,12 @@ width: 58vw;
         @media (max-width:2000px){
                 .animated-gradient-test-01, .video-background-content, .blurred-panel-behind{
                 width: 90vw;
-                /* border: 5px solid yellow; */
                 }
         }
 
                 @media (max-width:1600px){
                 .animated-gradient-test-01, .video-background-content, .blurred-panel-behind{
                 width: 95vw;
-
                 }
         }
 
@@ -4525,7 +4545,7 @@ width: 58vw;
                 padding: 0px;
 
             }
-        }
+        } */
 
 
 
@@ -4585,3 +4605,77 @@ border:1px solid gray;
         width: 100%;
 
 } */
+
+
+
+
+/*
+
+
+
+.navbar {
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+
+*/
+
+
+.navbar,  .home-grid-border-b {border-bottom: 1px solid var(--home-grid-border-color)!important;}
+.home-grid-bottom, .home-grid-border-t {border-top: 1px solid var(--home-grid-border-color)!important;}
+
+    .m3-tweaks{
+        position: absolute!important;
+        z-index: 100;
+        border-bottom: transparent!important;
+    }
+
+    header{
+        border-bottom: transparent!important;
+    }
+
+
+
+
+
+
+
+.hero-statement h1,
+.hero-statement h2,
+.hero-statement h3,
+.hero-statement h4,
+.hero-statement h5,
+.hero-statement h6{
+    font-family: "Neue Haas Grotesk Display Pro", 'Neue Haas Grotesk Display Pro', Neue Haas Grotesk Display Pro,  "Helvetica", Helvetica, sans-serif!important; 
+    font-weight: 500!important;
+    line-height: 1.2em!important;
+    letter-spacing: 1px!important;
+    color: #FFF!important;
+    margin: 0px!important;
+    padding-left: 2px!important;
+    padding-right: 2px!important;
+}
+
+.hero-statement h1,
+
+.hero-emphasis-orange{
+    font-size: 80px;
+}
+
+
+
+
+
+.hero-emphasis-orange{
+background-color: var(--brutalist-orange);
+    color: #000000;
+    font-size: 85px;
+    font-weight: 600;
+} 
+
+
+.home-casberry-animation{
+    position: absolute;
+    top: 50%;
+    right: 25%;
+}

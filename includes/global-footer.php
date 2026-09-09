@@ -1,5 +1,3 @@
-<!-- Replit's fixed code from 260524_0947 -->
-
 
 <!-- start footer --> 
 <footer class="footer-strip-dark bg-extra-dark-gray padding-100px-top">
@@ -58,27 +56,25 @@
 
 
 
-<script>
+    <script>
 
-    // Select all links with a hash (#)
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-        e.preventDefault(); // Prevent default instant jump
+        // Select all links with a hash (#)
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+            e.preventDefault(); // Prevent default instant jump
 
-        const targetId = this.getAttribute('href');
-        const targetElement = document.querySelector(targetId);
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
 
-        if (targetElement) {
-        targetElement.scrollIntoView({
-        behavior: 'smooth' // Triggers the smooth animation
+            if (targetElement) {
+            targetElement.scrollIntoView({
+            behavior: 'smooth' // Triggers the smooth animation
+        });
+        }
     });
-    }
-  });
-});
+    });
 
-
-
-</script>
+    </script>
 
 
 
@@ -91,7 +87,12 @@
     <script src="<?= BASE_URL ?>mega-menu-codyhouse/iframe-min.js"></script> <!-- ver=x -->
     <script src="<?= BASE_URL ?>mega-menu-codyhouse/util.js"></script> <!-- ver=x -->
     <script src="<?= BASE_URL ?>mega-menu-codyhouse/mega-site-navigation.min.js"></script>
-    <!--Endn: Mega Menu JS-->
+    <!--End: Mega Menu JS-->
+
+    <!-- Begin: Animated Geography | Codepen -->
+    <script type="text/javascript" src="<?= BASE_URL ?>home/vectors/animated-geometry-script.js"></script>
+    <!-- End: Animated Geography | Codepen -->
+     
 
     <script type="text/javascript" src="<?= BASE_URL ?>js/jquery.js"></script>
     <script type="text/javascript" src="<?= BASE_URL ?>js/modernizr.js"></script>

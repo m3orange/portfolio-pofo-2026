@@ -1,0 +1,290 @@
+:root {
+	--bg: #0f0f10;
+	--white: #e9e9ea;
+	--grid: #FFFFFF60;
+	--orange: var(--brutalist-orange);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background: #0f0f10;
+	color:  #e9e9ea;
+	font-family: system-ui, -apple-system, sans-serif;
+	min-height: 100vh;
+	display: grid;
+	place-items: center;
+	padding: 24px;
+}
+
+.frame {
+	width: min(980px, 100%);
+	border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	width: 100%;
+}
+
+.stage {
+	padding: 44px;
+	position: relative;
+	min-height: 420px;
+	border-right: 1px solid rgba(255, 255, 255, 0.18);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.stage:nth-child(2n) {
+	border-right: 0;
+}
+
+.stage:nth-last-child(-n + 2) {
+	border-bottom: 0;
+}
+
+.placeholder {
+	opacity: 0.1;
+}
+
+.label {
+	display: grid;
+	grid-template-columns: 20px 1fr;
+	column-gap: 16px;
+	align-items: start;
+	margin-bottom: 28px;
+}
+
+.index {
+	opacity: 0.4;
+	font-size: 14px;
+	margin-top: 6px;
+	width: 20px;
+}
+
+.label h1 {
+	font-weight: 500;
+	line-height: 1.05;
+	margin: 0;
+	font-size: 40px;
+}
+
+@media (max-width: 820px) {
+	body {
+		padding: 0;
+		place-items: stretch;
+	}
+
+	.frame {
+		width: 100%;
+		border-left: 0;
+		border-right: 0;
+	}
+
+	.grid {
+		grid-template-columns: 1fr;
+	}
+
+	.stage {
+		min-height: 360px;
+		border-right: 0;
+		border-bottom: 0;
+		padding: 32px 24px;
+	}
+
+	.stage:not(:last-child) {
+		border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+	}
+
+	.label h1 {
+		font-size: 32px;
+	}
+}
+
+/* 01 */
+.g1-ring-stage {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	margin-left: 36px;
+	margin-top: 12px;
+}
+
+.g1-ring-group {
+	position: absolute;
+	inset: 0;
+}
+
+.g1-ring {
+	position: absolute;
+	width: 260px;
+	height: 260px;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotateY(0deg);
+	backface-visibility: visible;
+}
+
+.g1-ring-1 {
+	border: 3px dashed #e9e9ea;
+	opacity: 0.7;
+	z-index: 1;
+}
+
+.g1-ring-2 {
+	border: 3px solid #e9e9ea;
+	opacity: 0.7;
+	z-index: 2;
+}
+
+.g1-ring-3 {
+	border: 3px solid var(--brutalist-orange);
+	z-index: 3;
+}
+
+/* 02 */
+.g2-ring-stage {
+	position: relative;
+	width: 320px;
+	height: 240px;
+	margin-left: -14px;
+	margin-top: 12px;
+}
+
+.g2-ring {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.g2-ring-outer {
+	width: 220px;
+	height: 220px;
+	border: 2px solid rgba(255, 255, 255, 0.28);
+}
+
+.g2-ring-inner-wrap {
+	position: absolute;
+	width: 220px;
+	height: 220px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.g2-ring-1,
+.g2-ring-2 {
+	width: 130px;
+	height: 130px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.g2-ring-1 {
+	border: 2px dashed rgba(255, 255, 255, 0.9);
+	left: 0;
+}
+
+.g2-ring-2 {
+	border: 2px solid var(--brutalist-orange);
+	left: auto;
+	right: 0;
+	transform: translateY(-50%);
+}
+
+/* 03 */
+.g3-shape-stage {
+	position: relative;
+	width: 320px;
+	height: 320px;
+	margin-left: -6px;
+	margin-top: 12px;
+	overflow: hidden;
+}
+
+.g3-shape {
+	position: absolute;
+	border-radius: 0;
+}
+
+.g3-shape-1 {
+	width: 180px;
+	height: 180px;
+	border: 1.5px solid rgba(255, 255, 255, 0.28);
+	left: 42px;
+	top: 98px;
+}
+
+.g3-shape-2 {
+	width: 180px;
+	height: 180px;
+	border: 1.5px solid var(--brutalist-orange)!important;
+	border-radius: 50%;
+	left: 42px;
+	top: 98px;
+}
+
+
+
+.g3-shape-3 {
+	width: 180px;
+	height: 180px;
+	border: 2px dashed rgba(255, 255, 255, 0.9);
+	border-radius: 50%;
+	left: 124px;
+	top: 16px;
+}
+
+/* 04 */
+.g4-globe {
+	position: relative;
+	width: 320px;
+	height: 240px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: -14px;
+	margin-top: 12px;
+}
+
+.g4-ring {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.g4-ring-outer {
+	width: 220px;
+	height: 220px;
+	border: 1.5px solid #e9e9ea;
+}
+
+.g4-ring-wrap {
+	position: absolute;
+	inset: 0;
+}
+
+.g4-ring-left,
+.g4-ring-center,
+.g4-ring-right {
+	width: 220px;
+	height: 220px;
+	border: 3px dashed var(--grid);
+	opacity: 1;
+	backface-visibility: visible;
+}
+
+.g4-ring-center.is-default {
+	border-style: solid;
+	border-color:  var(--brutalist-orange);
+	opacity: 1;
+}
