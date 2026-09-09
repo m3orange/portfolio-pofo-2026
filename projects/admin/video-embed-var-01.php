@@ -5,17 +5,13 @@
 <section>
     <div class="container">
         <div class="row">
-            <div class="col col-8">
+            <div class="col col-8 offset-2">
                 <div id="video-container-01" class="admin-01">
                     <video id="video-01" autoplay="autoplay" muted="muted" loop="loop" playsinline>
                         <source src="https://m3orange.com/portfolio/videos/citybox-screens-in-laptop.mp4" type="video/mp4">
                     </video>
                 </div>
                 <!--Do not add controls parameter. They're added, but autoplay is overriden and user would need to click.-->
-            </div>
-            <div class="col col-4">
-            <h6>That dude</h6>
-            <div class="label-guides-02">[red].video-container</div>
             </div>
         </div>
     </div>
@@ -69,15 +65,15 @@
 
 #video-container-01{
     border: 1px solid red;
-    background: url('https://framerusercontent.com/assets/CwBu0bv6ntKVD1GG71zV10BPXw.mp4') center / cover no-repeat;
-    background: url(https://framerusercontent.com/assets/CwBu0bv6ntKVD1GG71zV10BPXw.mp4) center / cover no-repeat;
+    background: url('https://m3orange.com/portfolio/videos/citybox-screens-in-laptop.mp4') center / cover no-repeat;
+    background: url(https://m3orange.com/portfolio/videos/citybox-screens-in-laptop.mp4) center / cover no-repeat;
 
 }
 
 
 #video-container-02 {
 border: 1px solid purple;
-background: url(https://framerusercontent.com/assets/CwBu0bv6ntKVD1GG71zV10BPXw.mp4) ;
+background: url(https://m3orange.com/portfolio/videos/citybox-screens-in-laptop.mp4) ;
 background-repeat: no-repeat;
 object-fit: cover!important;
 overflow: hidden!important;

@@ -22,7 +22,8 @@ iFrame Only:  https://codyhouse.co/app/components/demo/demo-mega-site-navigation
                 
                 <!-- 👇 icon buttons --mobile -->
                 <div class="mega-nav__icon-btns mega-nav__icon-btns--mobile">
-                    <a href="ADD LINK" class="mega-nav__icon-btn"><svg class="icon" viewBox="0 0 24 24">
+                    <a href="ADD LINK" class="mega-nav__icon-btn">
+                    <svg class="icon" viewBox="0 0 24 24">
                         <title>Go to account settings</title>
                         <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10"
                         stroke-width="2">
@@ -89,77 +90,21 @@ iFrame Only:  https://codyhouse.co/app/components/demo/demo-mega-site-navigation
                             </button>
 
                                 <div class="mega-nav__sub-nav-wrapper">
-                                    <div class="mega-nav__sub-nav mega-nav__sub-nav--layout-3">
-
-                                    <!-- Begins: Project Cards -->
-                                        <div class="mega-nav__card">
-                                            <a href="ADD LINK" class="block radius-md overflow-hidden">
-                                            <figure class="media-wrapper-4:3">
-                                                <img class="width-100%" src="../mega-menu-codyhouse/fpo/fpo-01.jpg">
-                                            </figure>
-                                            </a>
-
-                                            <div class="margin-top-sm card-text">
-                                            <h3 class="text-base">
-                                                <a href="ADD LINK" class="mega-nav__card-title">Atlas UI</a>
-                                            </h3>
-                                            <p>Donec pulvinar, quam sed mollis elementum, nisi magna faucibus odio.</p>
-                                            </div>
-                                        </div> <!-- End - mega-nav__card-->
-                                    <!-- Ends: Project Cards -->
-
-                                    <!-- Begins: Project Cards -->
-                                        <div class="mega-nav__card">
-                                            <a href="ADD LINK" class="block radius-md overflow-hidden">
-                                            <figure class="media-wrapper-4:3">
-                                                <img class="width-100%" src="../mega-menu-codyhouse/fpo/fpo-02.jpg">
-                                            </figure>
-                                            </a>
-
-                                            <div class="margin-top-sm">
-                                            <h3 class="text-base">
-                                                <a href="ADD LINK" class="mega-nav__card-title">Atlas Design System</a>
-                                            </h3>
-                                            <p>Donec pulvinar, quam sed mollis elementum, nisi magna faucibus odio.</p>
-                                            </div>
-                                        </div> <!-- End - mega-nav__card-->
-                                    <!-- Ends: Project Cards -->
-
-                                    <!-- Begins: Project Cards -->
-                                        <div class="mega-nav__card">
-                                            <a href="ADD LINK" class="block radius-md overflow-hidden">
-                                            <figure class="media-wrapper-4:3">
-                                                <img class="width-100%" src="../mega-menu-codyhouse/fpo/fpo-03.jpg">
-                                            </figure>
-                                            </a>
-
-                                            <div class="margin-top-sm">
-                                            <h3 class="text-base">
-                                                <a href="ADD LINK" class="mega-nav__card-title">Admin Platform</a>
-                                            </h3>
-                                            <p>Donec pulvinar, quam sed mollis elementum, nisi magna faucibus odio.</p>
-                                            </div>
-                                        </div> <!-- End - mega-nav__card-->
-                                    <!-- Ends: Project Cards -->
-                                                            <!-- Begins: Project Cards -->
-                                        <div class="mega-nav__card">
-                                            <a href="ADD LINK" class="block radius-md overflow-hidden">
-                                            <figure class="media-wrapper-4:3">
-                                                <img class="width-100%" src="../mega-menu-codyhouse/fpo/fpo-04.jpg">
-                                            </figure>
-                                            </a>
-
-                                            <div class="margin-top-sm">
-                                            <h3 class="text-base">
-                                                <a href="ADD LINK" class="mega-nav__card-title">Musicasa</a>
-                                            </h3>
-                                            <p>Donec pulvinar, quam sed mollis elementum, nisi magna faucibus odio.</p>
-                                            </div>
-                                        </div> <!-- End - mega-nav__card-->
-                                    <!-- Ends: Project Cards -->
 
 
-                                    </div><!-- End: mega-nav__sub-nav mega-nav__sub-nav--layout-3-->
+<div class="mega-nav__sub-nav mega-nav__sub-nav--layout-3">
+    <?php include ROOT_PATH . 'includes/global-nav-menu-card.php'; ?>
+    <?php include ROOT_PATH . 'includes/global-nav-menu-card.php'; ?>
+    <?php include ROOT_PATH . 'includes/global-nav-menu-card.php'; ?>
+    <?php include ROOT_PATH . 'includes/global-nav-menu-card.php'; ?>
+</div><!-- End: mega-nav__sub-nav mega-nav__sub-nav--layout-3-->
+<div class="mega-nav__sub-nav mega-nav__sub-nav--layout-3">
+    <?php include ROOT_PATH . 'includes/global-nav-menu-card-original.php'; ?>
+    <?php include ROOT_PATH . 'includes/global-nav-menu-card-original.php'; ?>
+    <?php include ROOT_PATH . 'includes/global-nav-menu-card-original.php'; ?>
+</div><!-- End: mega-nav__sub-nav mega-nav__sub-nav--layout-3-->
+
+
                                 </div><!-- End: mega-nav__sub-nav-wrapper -->
                             </li>
                         </ul>
@@ -178,3 +123,63 @@ iFrame Only:  https://codyhouse.co/app/components/demo/demo-mega-site-navigation
 
 <div id="pagetop"></div>
 
+
+
+<style>
+
+
+
+    .mega-nav__card .image-wrapper{
+        border-radius: 0px!important;
+        background-color: blue;
+    }
+
+.image-wrapper{
+    aspect-ratio: 1/.5;
+    background-color: #ff000057;
+    border-radius: 0px;
+}
+
+.image-wrapper img{
+    width: 200%;
+}
+
+.card-info{
+font-size: 16px!important;
+font-weight: 500!important;
+line-height: 1.3em!important;
+
+}
+
+.card-title{
+margin: 0 0 6px 0;
+
+}
+
+.card-title a{
+font-weight: 600!important;
+font-size: 115%!important;
+}
+/* 
+.media-wrapper-4\:3 {
+  padding-bottom: 55%;
+} */
+
+  .mega-nav__sub-nav-wrapper{
+    padding-left: 50%;
+  }
+
+  .mega-nav--desktop .mega-nav__sub-nav--layout-3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-sm);
+
+}
+
+.mega-nav--desktop .mega-nav__sub-nav {
+    /* max-width: var(--mega-nav-content-max-width); */
+    max-width: 100%;
+}
+
+
+</style>

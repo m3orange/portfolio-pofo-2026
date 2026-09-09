@@ -928,8 +928,8 @@ border-top: 1px solid var(--home-grid-border-color) !important;
 
 
 
-    .mega-nav__card .card-text a,
-    .mega-nav__card .card-text p{
+        .mega-nav__card .card-text a,
+        .mega-nav__card .card-text p{
     color: #FFF!important;
         }
 
@@ -947,3 +947,47 @@ border-top: 1px solid var(--home-grid-border-color) !important;
     }
 
 
+
+        /*
+
+    .mega-nav--desktop .mega-nav__sub-nav-wrapper, 
+    .mega-nav--desktop .mega-nav__search {
+        position: absolute;
+        top: 80px;
+        background-color:#161616!important;
+        max-height: 80px!important;
+        overflow: auto;
+    }
+
+    .mega-nav--desktop .mega-nav__sub-nav-wrapper, 
+    .mega-nav--desktop .mega-nav__search {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color:#161616!important;
+        box-shadow: var(--shadow-lg);
+        max-height: calc(100vh - var(--mega-nav-height) - var(--mega-nav-offset-y, 0px));
+        overflow: auto;
+    }
+
+    .mega-nav--desktop .mega-nav__control {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: var(--text-sm);
+    color: #FFF;
+    padding: 0 var(--space-md);
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+
+
+    .mega-nav__control a:hover,
+    .js-mega-nav__item a:hover{
+        color: #FFF!important;
+    }
+
+        */
