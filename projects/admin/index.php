@@ -44,21 +44,9 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
     </section>
 
 
+        <?php include ROOT_PATH . 'projects/admin/video-embed.php'; ?>
+
     <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
-
-
-    <?php include ROOT_PATH . 'projects/admin/figma-embed.php'; ?>
-
-
-
-
-
-
-
-
-
-
-
 
 
   <div id="anchor-01" class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
@@ -90,6 +78,9 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
         </div>
     </section>
   </div>
+
+
+
 
     <div id="anchor-02"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
 
