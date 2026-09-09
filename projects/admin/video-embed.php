@@ -1,17 +1,19 @@
 
 
 <section>
-<div class="container">
-    <div class="row">
-        <div class="col col-12 col-md-8">
-            <div id="video-container">This is fucking hard.</div>
-            <video id="video" autoplay="autoplay" muted="muted" loop="loop" playsinline>
-                <!--This is video admin (doesn't start in black).-->
-                <source src="https://framerusercontent.com/assets/CwBu0bv6ntKVD1GG71zV10BPXw.mp4" type="video/mp4">
-            </video>
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 col-md-8">
+                <div id="video-container" class="admin-01">
+                    <div class="label-guides-01">[red].video-container</div>
+                </div>
+                
+                    <video id="video" autoplay="autoplay" muted="muted" loop="loop" controls playsinline>
+                        <source src="https://framerusercontent.com/assets/CwBu0bv6ntKVD1GG71zV10BPXw.mp4" type="video/mp4">
+                    </video>
+            </div>
         </div>
     </div>
-</div>
 </section>
 
 
@@ -19,8 +21,25 @@
 
 <style>
 
+    .label-guides-01,
+    .label-guides-02{
+    position: absolute;
+    top: -26px;
+    left: 20px;
+    font-size: 14px;
+    /* text-transform: uppercase; */
+    font-weight: 500;
+}
+
+
+    .label-guides-01{
+        color: #e10000;
+    }
+    
+
+
 #video-container {
-width: 100%;
+    width: 100%;
     aspect-ratio: 2 / 1.28;
     background: url(https://framerusercontent.com/assets/CwBu0bv6ntKVD1GG71zV10BPXw.mp4) no-repeat;
     /* background: url(https://framerusercontent.com/assets/CwBu0bv6ntKVD1GG71zV10BPXw.mp4) no-repeat #000000; */
@@ -29,12 +48,12 @@ width: 100%;
     left: 0;
     display: flex;
     flex-direction: column;
-    /* flex-wrap: nowrap; */
     align-items: center;
     justify-content: center;
-    /* overflow: hidden !important; */
     background-color: #ff00002e;
-    border: 1px solid #a00000;
+    border: 2px solid #ff0000;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -44,12 +63,13 @@ position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    /* width: 100% !important; */
-    /* object-fit: cover; */
-    width: 94% !important;
-    opacity: .5;
+    min-width: 100% !important;
+    opacity: .2;
     border: 1px solid #00ff27;
+    }
 
+    .admin .adding-background-color{
+        background-color: #000;
     }
 
     
