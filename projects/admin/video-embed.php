@@ -130,7 +130,7 @@ position: absolute;
 <section>
     <div class="container">
         <div class="row">
-            <div class="col col-8">
+            <div class="col col-11">
                 <div id="w3schools">
                     <video autoplay muted loop id="myVideo">
                         <source src="https://framerusercontent.com/assets/CwBu0bv6ntKVD1GG71zV10BPXw.mp4" type="video/mp4">
@@ -138,8 +138,7 @@ position: absolute;
                     </video>
 
                     <div class="content">
-
-                    <p>Lorem ipsum</p>
+                    <!-- <p>Lorem ipsum</p> -->
                     <button id="myBtn" onclick="myFunction()">Pause</button>
                     </div>
 
@@ -160,7 +159,7 @@ position: absolute;
                 </div>
 
             </div>
-            <div class="col col-4">
+            <div class="col col-1">
                 <h6>W3Schools</h6>
             </div>
         </div>
