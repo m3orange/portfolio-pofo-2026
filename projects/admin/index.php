@@ -40,7 +40,18 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
 
 
      <section id="block-intro-slider" class="p-0">
-        Null
+
+            <div class="container">
+        <div class="row">
+            <div class="col col-8 offset-2">
+                <video autoplay muted loop id="myVideo">
+                        <source src="https://framerusercontent.com/assets/CwBu0bv6ntKVD1GG71zV10BPXw.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+            </div>
+        </div>
+    </div>
+
     </section>
 
 

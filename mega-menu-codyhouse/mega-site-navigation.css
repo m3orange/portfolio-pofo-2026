@@ -655,25 +655,9 @@ Usage: codyhouse.co/license
     background-color: hsla(var(--color-contrast-higher-h), var(--color-contrast-higher-s), var(--color-contrast-higher-l), 0.05)
 }
 
-.mega-nav--desktop .mega-nav__sub-nav-wrapper,
-.mega-nav--desktop .mega-nav__search {
-    position: absolute;
-    top: 80px;
-    right: 0;
-    /* width: 100%; */
-    /* background-color: var(--color-bg); */
-    /* box-shadow: var(--shadow-lg); */
-    max-height: calc(100vh - var(--mega-nav-height) - var(--mega-nav-offset-y, 0px));
-    overflow: auto;
-    background-color: #161616 !important;
-    /* border-top: 1px solid var(--home-grid-border-color) !important;
-}  
 
 /* M3 Tweaks*/
 
-background-color:#161616!important;
-border-top: 1px solid var(--home-grid-border-color) !important;
-}
 
 .mega-nav--desktop .mega-nav__sub-nav,
 .mega-nav--desktop .mega-nav__search-inner {

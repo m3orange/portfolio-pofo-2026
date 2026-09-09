@@ -9,8 +9,7 @@ iFrame Only:  https://codyhouse.co/app/components/demo/demo-mega-site-navigation
       <header class="mega-nav mega-nav--desktop@md position-relative js-mega-nav mega-nav--desktop backdrop-blur-10 m3-tweaks" data-hover="on" class="js" data-theme="dark">
 
         <!--
-        To activate hover again, add data-hover="on" in the header tag: 
-        <header class="mega-nav mega-nav--desktop@md position-relative js-mega-nav mega-nav--desktop m3-tweaks" data-hover="on" class="js" data-theme="dark"></header>
+        To activate hover again, add data-hover="on" in the header tag: <header class="mega-nav mega-nav--desktop@md position-relative js-mega-nav mega-nav--desktop m3-tweaks" data-hover="on" class=" js" data-theme="dark"></header>
         -->
 
         <nav class="navbar bg-transparent navbar-top navbar-transparent-no-sticky full-width-pull-menu white-link no-transition">
@@ -92,17 +91,18 @@ iFrame Only:  https://codyhouse.co/app/components/demo/demo-mega-site-navigation
 
                                 <div class="mega-nav__sub-nav-wrapper">
 
-<div class="aligning-to-right">
-<div class="mega-nav__sub-nav mega-nav__sub-nav--layout-3">
+
+
+    <div class="mega-nav__sub-nav mega-nav__sub-nav--layout-3">
+    <?php include ROOT_PATH . 'includes/global-nav-menu-card.php'; ?>
+    <?php include ROOT_PATH . 'includes/global-nav-menu-card.php'; ?>
+    <?php include ROOT_PATH . 'includes/global-nav-menu-card.php'; ?>
     <?php include ROOT_PATH . 'includes/global-nav-menu-card.php'; ?>
 
-
-    <?php include ROOT_PATH . 'includes/global-nav-menu-card-original.php'; ?>
     <?php include ROOT_PATH . 'includes/global-nav-menu-card-original.php'; ?>
     <?php include ROOT_PATH . 'includes/global-nav-menu-card-original.php'; ?>
     <?php include ROOT_PATH . 'includes/global-nav-menu-card-original.php'; ?>
 </div><!-- End: mega-nav__sub-nav mega-nav__sub-nav--layout-3-->
-</div>
 
 
 
@@ -130,78 +130,89 @@ iFrame Only:  https://codyhouse.co/app/components/demo/demo-mega-site-navigation
 
 
 
-.image-wrapper{
-aspect-ratio: 2 / 1.5;
-overflow: hidden;
-border-radius: 6px;
-}
+    .mega-nav__card .image-wrapper{
+        border-radius: 0px!important;
+        background-color: blue;
+    }
+
+
 
 .image-wrapper img{
-
+    width: 200%;
 }
 
 .card-info{
 font-size: 16px!important;
 font-weight: 500!important;
 line-height: 1.3em!important;
-  color: rgba(255,255,255,0.5);
 
 }
 
 .card-title{
 margin: 0 0 6px 0;
+
 }
 
 .card-title a{
-/* font-weight: 600!important; */
-font-weight: 500!important;
-    color: rgba(255,255,255,1);
-/* font-size: 115%!important; */
+font-weight: 600!important;
+font-size: 115%!important;
 }
 
 
+/* 
+.media-wrapper-4\:3 {
+padding-bottom: 55%;
+}
 
-.mega-nav--desktop .mega-nav__sub-nav-wrapper,
-.mega-nav--desktop .mega-nav__search {
-    position: absolute;
-    top: 80px;
-    right: 0;
-    /* 
-    width: 100%; 
-    box-shadow: var(--shadow-lg); */
-    max-height: calc(100vh - var(--mega-nav-height) - var(--mega-nav-offset-y, 0px));
-    overflow: auto;
-    background-color: #0d0d0de0 !important;
-    border-top: 1px solid #424242;
-    
-}  
+.image-wrapper{
+aspect-ratio: 3/1.5;
+overflow: hidden;
+background-color: #ff000057;
+border-radius: 0px;
+}
 
-
-.aligning-to-right{
-    display: flex!important;
-    flex-direction: row!important;
-    justify-content: flex-end!important;
-    width: 100%;
-    padding-left: 30%;
-
+.mega-nav__sub-nav-wrapper{
+max-width: 50%;
 }
 
 .mega-nav--desktop .mega-nav__sub-nav--layout-3 {
 display: grid;
-gap: 18px; /* Original was 18px */
+grid-template-columns: repeat(4, 1fr);
+gap: var(--space-sm);
+
+}
+
+.mega-nav--desktop .mega-nav__sub-nav {
+max-width: 100%;
+} */
+
+
+</style>
+
+<style>
+
+.image-wrapper{
+aspect-ratio: 3/2;
+overflow: hidden;
+
+}
+.mega-nav__sub-nav-wrapper{
+    display: flex!important;
+    flex-direction: row!important;
+    justify-content: flex-end!important;
+}
+
+.mega-nav--desktop .mega-nav__sub-nav--layout-3 {
+display: grid;
 grid-template-columns: repeat(7, 1fr);
-max-width: 40%;
-/* gap: var(--space-sm); */
-
-
+gap: var(--space-sm);
+max-width: 60%;
 
 }
 
 .mega-nav--desktop .mega-nav__sub-nav {
 /* max-width: var(--mega-nav-content-max-width); */
-max-width: 100%;
+max-width: 60%;
 }
 
-
 </style>
-

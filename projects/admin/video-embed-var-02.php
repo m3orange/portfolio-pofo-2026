@@ -7,7 +7,7 @@
             <div class="col col-8 offset-2">
                 <div id="w3schools">
                     <video autoplay muted loop id="myVideo">
-                        <source src="https://framerusercontent.com/assets/EzkghWaFFmNULQwLhtpGC4tDs.mp4" type="video/mp4">
+                        <source src="https://framerusercontent.com/assets/CwBu0bv6ntKVD1GG71zV10BPXw.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
 
@@ -36,18 +36,7 @@
         </div>
     </div>
 
-    <section>
-            <div class="container">
-        <div class="row">
-            <div class="col col-8 offset-2">
-                <video autoplay muted loop id="myVideo">
-                        <source src="https://framerusercontent.com/assets/CwBu0bv6ntKVD1GG71zV10BPXw.mp4" type="video/mp4">
-                        Your browser does not support HTML5 video.
-                    </video>
-            </div>
-        </div>
-    </div>
-    </section>
+
 
     <style>
 
