@@ -133,8 +133,8 @@ position: absolute;
             <div class="col col-8">
                 <div id="w3schools">
                     <video autoplay muted loop id="myVideo">
-                    <source src="https://framerusercontent.com/assets/CwBu0bv6ntKVD1GG71zV10BPXw.mp4" type="video/mp4">
-                    Your browser does not support HTML5 video.
+                        <source src="https://framerusercontent.com/assets/CwBu0bv6ntKVD1GG71zV10BPXw.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
                     </video>
 
                     <div class="content">
@@ -169,9 +169,9 @@ position: absolute;
     <style>
 
         #myVideo {
-        position: absolute;
+        /* position: relative;
         right: 0;
-        bottom: 0;
+        bottom: 0; */
         min-width: 100%; 
         min-height: 100%;
         }
