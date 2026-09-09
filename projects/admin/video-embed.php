@@ -168,22 +168,28 @@ position: absolute;
 
     <style>
 
+        #w3schools{
+              background-color: #ff00c3;
+        }
+
         #myVideo {
-        /* position: relative;
+        position: relative;
         right: 0;
-        bottom: 0; */
+        bottom: 0;
         min-width: 100%; 
         min-height: 100%;
+        z-index: 10;
         }
 
         .content {
        position: absolute;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgb(255 1 195 / 74%);
     color: #f1f1f1;
-    width: 100%;
+    width: 95%;
     padding: 10px;
       font-size: 14px;
+             z-index: 15;
         }
 
         #myBtn {
