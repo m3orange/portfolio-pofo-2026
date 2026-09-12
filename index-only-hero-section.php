@@ -66,6 +66,58 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
   </section><!--home-hero-opener-->
 
+ 
+  <div class="floating-card"></div>
+
+  <div class="glass"></div>
+
+  <style>
+
+    .floating-card, .glass{
+      z-index: 1000;  
+      width: 400px;
+      height: 800px;
+      position: fixed;
+      top: 20%
+    }
+
+      .floating-card{left: 10%;}
+
+  .glass{right: 10%;}
+
+  .floating-card{
+      border-radius: 20px;
+      /* other styles */
+      background: rgba(39, 39, 39, 0.1);
+      backdrop-filter: blur(60px);
+      /* fallback for old browsers */
+      -webkit-backdrop-filter: blur(60px);
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  }
+
+
+
+      .glass {
+        background: rgba(20, 25, 40, 0.85);
+        border: 1px solid var(--border-default);
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow-md);
+
+        box-shadow:  0 10px 30px rgba(0, 0, 0, 0.35);
+        
+      }
+
+        @supports (backdrop-filter: blur(10px)) {
+          .glass {
+            background: var(--bg-panel);
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+          }
+        }
+  </style>
+
+
 
   <!-- start footer -->
   <?php include_once("includes/global-footer.php"); ?>

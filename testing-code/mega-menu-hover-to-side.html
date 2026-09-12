@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+  </head>
+  <body>
+  
+    
+    <div class="menu-container">
+  <!-- The Navigation List -->
+  <ul class="nav-links">
+    <li>
+      <a href="#home">Home Page</a>
+      <img src="home-preview.jpg" alt="Home" class="preview-img">
+    </li>
+    <li>
+      <a href="#services">Our Services</a>
+      <img src="services-preview.jpg" alt="Services" class="preview-img">
+    </li>
+    <li>
+      <a href="#portfolio">Portfolio</a>
+      <img src="portfolio-preview.jpg" alt="Portfolio" class="preview-img">
+    </li>
+  </ul>
+
+  <!-- The dedicated container where the image will physically appear -->
+  <div class="preview-box"></div>
+</div>
+
+
+<style>
+  /* Layout the menu and preview side-by-side */
+.menu-container {
+  display: flex;
+  position: relative; /* Crucial: sets the anchor point for the images */
+  width: 600px;
+  gap: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  width: 200px;
+}
+
+.nav-links li {
+  margin-bottom: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  display: block;
+}
+
+/* Define the size and look of the visual preview area */
+.preview-box {
+  width: 300px;
+  height: 200px;
+  border: 2px dashed #ccc;
+  background-color: #f9f9f9;
+}
+
+/* Hide the images by default and force them into the preview box */
+.preview-img {
+  position: absolute;
+  top: 0;
+  right: 0; /* Moves it over to the right side where the preview box is */
+  width: 300px; /* Matches preview-box dimensions */
+  height: 200px;
+  object-fit: cover;
+  opacity: 0; /* Hidden state */
+  pointer-events: none; /* Prevents the image from interfering with mouse movement */
+  transition: opacity 0.3s ease; /* Smooth fade-in */
+}
+
+/* THE ROLLOVER: When hovering a list item, reveal its internal image */
+.nav-links li:hover .preview-img {
+  opacity: 1;
+}
+
+</style>
+    
+    <script src="" async defer></script>
+  </body>
+</html>

@@ -21,6 +21,7 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
   <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
 
   <!-- This is opener 05--->
+   
   <section id="home-hero-opener" class="p-0 full-screen position-relative wow color-around-svg"
     style="visibility: visible; ">
     <div class="video-background-container">
@@ -29,8 +30,7 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
           <div class="row h-100 m-0 p-0 row-for-hero-statement">
             <div class="col col-12 d-flex justify-content-center flex-column text-left text-md-start">
               <div class="hero-statement">
-                <div class="col col-10 sm-margin-20px-bottom">
-
+                <div class="col col-8 sm-margin-20px-bottom statement-wrapper">
                   <h1>I'm a senior product designer with a passion for <span class="hero-emphasis-orange">human-centered
                       design, technology and usability.</span> I'm seeking a position in <span
                       class="hero-emphasis-orange">product design or UX engineering.</span></h1>
@@ -56,14 +56,63 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
       </div>
     </div>
 
-    <div class="home-big-m">
+    <!-- <div class="home-big-m">
       <img class="word-01" src="<?= BASE_URL ?>images/munoz-logo-symbol-only-gray.svg" />
-    </div>
+    </div> -->
 
      <?php include ROOT_PATH . 'home/home-meshic-animation-01.php'; ?>
-
+<div class="home-hero-bg"></div>
   </section><!--home-hero-opener-->
 
+  <!-- <div class="floating-card"></div> -->
+
+
+
+  <style>
+/*
+    .statement-wrapper{
+          background-color: #131313e0 !important;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+          padding: 20px;
+          border-radius: 10px;
+    }
+*/
+
+  .floating-card{
+          z-index: 1000;  
+      width: 20%;
+      height: 50%;
+      position: fixed;
+      bottom: 5%;
+      right: 5%;
+      border-radius: 20px;
+
+
+
+      /* other styles */
+      background: rgb(0 0 0 / 30%);
+      backdrop-filter: blur(60px);
+        /* fallback for old browsers */
+        -webkit-backdrop-filter: blur(60px);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  }
+
+  .home-hero-bg{
+    /* background-image: url(home-bg-images/random-bg-img-02.jpg); */
+    /* background: url(home-bg-images/first-batch/random-bg-img-02.jpg) center / cover no-repeat; */
+    background: url(animations/meshic-30fps-100frames.gif) center / cover no-repeat;
+    opacity: 0.3;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 8%;
+    right: -20%;
+    /* border: 1px solid yellow; */
+    width: 100%;
+    height: 100%;
+  }
+
+
+  </style>
 
 
 

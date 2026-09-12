@@ -6,7 +6,7 @@ iFrame Only:  https://codyhouse.co/app/components/demo/demo-mega-site-navigation
 -->
 
       <!-- Begin: Mega Menu-->
-      <header class="mega-nav mega-nav--desktop@md position-relative js-mega-nav mega-nav--desktop backdrop-blur-10 m3-tweaks" data-hover="on" class="js" data-theme="dark">
+      <header class="mega-nav mega-nav--desktop@md position-relative js-mega-nav mega-nav--desktop backdrop-blur-10 m3-tweaks" class="js" data-theme="dark">
 
         <!--
         To activate hover again, add data-hover="on" in the header tag: 
@@ -122,13 +122,20 @@ iFrame Only:  https://codyhouse.co/app/components/demo/demo-mega-site-navigation
       </header>
       <!-- End: Mega Menu-->
 
+
+
 <div id="pagetop"></div>
 
 
 
 <style>
 
-
+header nav.navbar{
+      background-color: rgba(0, 0, 0, 0.3)!important;
+      backdrop-filter: blur(60px)!important;
+            -webkit-backdrop-filter: blur(60px)!important;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25)!important;
+}
 
 .image-wrapper{
 aspect-ratio: 2 / 1.5;
@@ -159,6 +166,23 @@ font-weight: 500!important;
 /* font-size: 115%!important; */
 }
 
+/*
+.mega-nav--desktop .mega-nav__sub-nav-wrapper,
+.mega-nav--desktop .mega-nav__search {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    height: 50vh;
+    max-height: calc(100vh - var(--mega-nav-height) - var(--mega-nav-offset-y, 0px));
+    overflow: auto;
+    border-top: 1px solid #424242;
+
+      background: rgb(0 0 0 / 30%);
+      backdrop-filter: blur(60px);
+            -webkit-backdrop-filter: blur(60px);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}  
+*/
 
 
 .mega-nav--desktop .mega-nav__sub-nav-wrapper,
@@ -166,15 +190,15 @@ font-weight: 500!important;
     position: absolute;
     top: 80px;
     right: 0;
-    /* 
-    width: 100%; 
-    box-shadow: var(--shadow-lg); */
     max-height: calc(100vh - var(--mega-nav-height) - var(--mega-nav-offset-y, 0px));
     overflow: auto;
-    background-color: #0d0d0de0 !important;
     border-top: 1px solid #424242;
-    
+    background-color: #131313e0 !important;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }  
+    
+
+ 
 
 
 .aligning-to-right{
@@ -200,6 +224,17 @@ max-width: 40%;
 .mega-nav--desktop .mega-nav__sub-nav {
 /* max-width: var(--mega-nav-content-max-width); */
 max-width: 100%;
+}
+
+.glass{
+    border-radius: 20px;
+    /* other styles */
+    background: rgba(39, 39, 39, 0.1);
+    backdrop-filter: blur(60px);
+     /* fallback for old browsers */
+        -webkit-backdrop-filter: blur(60px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }
 
 
