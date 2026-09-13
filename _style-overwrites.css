@@ -4659,7 +4659,7 @@ border:1px solid gray;
 .hero-statement h1,
 
 .hero-emphasis-orange{
-    font-size: 80px;
+    /* font-size: 80px; */
 }
 
 
@@ -4669,7 +4669,7 @@ border:1px solid gray;
 .hero-emphasis-orange{
 background-color: var(--brutalist-orange);
     color: #000000;
-    font-size: 85px;
+    /* font-size: 85px; */
     font-weight: 600;
 } 
 

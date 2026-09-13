@@ -139,39 +139,5 @@
     <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
     <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
 
-    <!-- Added this to see if I can make the anchors scroll smoothly. Not working, though
-    <script type="text/javascript" src="<?= BASE_URL ?>js/infinite-scroll.js"></script>
--->
-
-    <!-- revolution slider extensions (load below extensions JS files only on local file systems to make the slider work! The following part can be removed on server for on demand loading) -->
-    <!--<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>-->
-    <!-- setting -->
-
     
-
-        <script type="text/javascript" src="<?= BASE_URL ?>js/main.js"></script>
-
-
-        <!-- <script>
-        window.Userback = window.Userback || {};
-        Userback.access_token = "A-UXvuAoDuLdEYYIFOBCZig4DV2";
-        // identify your logged-in users (optional)
-        Userback.user_data = {
-        id: "123456", // example data
-        info: {
-        name: "someone", // example data
-        email: "someone@example.com" // example data
-        }
-        };
-        (function(d) {
-        var s = d.createElement('script');s.async = true;s.src = 'https://static.userback.io/widget/v1.js';(d.head || d.body).appendChild(s);
-        })(document);
-        </script> -->
+    <script type="text/javascript" src="<?= BASE_URL ?>js/main.js"></script>

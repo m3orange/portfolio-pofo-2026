@@ -34,7 +34,7 @@
                         <a data-toggle="collapse" href="#design1" class="collapsed" aria-expanded="false">
                            <div class="panel-title">
                               <h5>My favorite challenges involve turning complex data and workflows into intuitive experiences, always maintaining a relentless focus on real user needs and design heuristics. </h5>
-                              <span class="float-right"><i class="ti-angle-down"></i></span>
+                              <span class="float-right"><i class="ti-plus"></i></span>
                            </div>
                         </a>
                      </div>
@@ -43,10 +43,7 @@
                         <div class="panel-body">
                            <h6>
                               <ul>
-                                 <li>I have been recently focused on designing for enterprise-level SaaS platforms: creating seamless experiences across different channels and user types; managing design
-                                    systems and documentation that leads to adoption and tech debt reduction; devising
-                                    strategies that ensure scalable and future-proof environments capable of handling
-                                    growing business and technical demands.
+                                 <li>I have been recently focused on designing for enterprise-level SaaS platforms: creating seamless experiences across different channels and user types; managing design systems and documentation that leads to adoption and tech debt reduction; devising strategies that ensure scalable and future-proof environments capable of handling growing business and technical demands.
                                  </li>
                                  <li>I particularly enjoy owning a specfic product domain and working consistently with that same context (rather than constantly switching between projects for different products), as that constant gathering of knowledge about the user's goals as well as the jobs-to-be-done in each workflow, allows me to come up with richer, better-informed design decisions, as well as allowing me to proactively bring to product owners suggestions for new features that might not necessarily been in the pipeline already.</li>
                               </ul>
@@ -70,7 +67,7 @@
                         <a data-toggle="collapse" href="#design2" class="collapsed" aria-expanded="false">
                            <div class="panel-title">
                               <h5>I am experienced in the end-to-end UX process.</h5>
-                              <span class="float-right"><i class="ti-angle-down"></i></span>
+                              <span class="float-right"><i class="ti-plus"></i></span>
 
                            </div>
                         </a>
@@ -108,7 +105,7 @@
                            <div class="panel-title">
                               <h5>I thrive at the intersection of design and engineering; I'm always wearing
                                  my full-stack designer hat.</h5>
-                              <span class="float-right"><i class="ti-angle-down"></i></span>
+                              <span class="float-right"><i class="ti-plus"></i></span>
                            </div>
                         </a>
                      </div>

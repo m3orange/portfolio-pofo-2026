@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=5" />
 
-    <meta name="description" content=" ">
+    <meta name="description" content="">
     <meta name="keywords" content="">
 
     <link rel="shortcut icon" href="<?= BASE_URL ?>images/favicons/favicon.png">
@@ -59,6 +59,9 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+
+    <!--ERASE SOON-->
     <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=mail" />
 
@@ -74,46 +77,11 @@
     -->
 
     <link rel="stylesheet" href="<?= BASE_URL ?>__atyp-display.css" /> 
+    <link rel="stylesheet" href="<?= BASE_URL ?>___mega-menu-styles.css" /> 
     <link rel="stylesheet" href="<?= BASE_URL ?>_style-overwrites.css?v=1" />
     <link rel="stylesheet" href="<?= BASE_URL ?>__mobile-overwrites.css?v=1" />
 
-    <!-- BEGIN: Top bar gradient loader assets -->
-    <script src="<?= BASE_URL ?>testing-code/topbar-m3/jquery-3.5.1.min.js"></script>
-    <script src="<?= BASE_URL ?>testing-code/topbar-m3/prettify.min.js"></script>
-    <script src="<?= BASE_URL ?>testing-code/topbar-m3/topbar.js"></script>
 
-    <script>
-        $(function() {
-            prettyPrint()
-            function resetToDefaults() {
-                topbar.config({
-                autoRun      : true,
-                barThickness : 10,
-                barColors    : {
-                    '0'      : 'rgba(65,24,117,1.0)',
-                    '.25'    : 'rgba(82,37,138,1.0)',
-                    '.50'    : 'rgba(114,95,209,1.0)',
-                    '.75'    : 'rgba(42,181,232,1.0)',
-                    '1.0'    : 'rgba(56,255,255,1.0)'
-                },
-                shadowBlur   : 0,
-                shadowColor  : 'rgba(0,   0,   0,   .6)',
-                className    : 'topbar'
-                })
-            }
-
-            // Page load
-            resetToDefaults()
-            topbar.show()
-            setTimeout(function() {
-                $('#main_content').fadeIn('slow')
-                topbar.hide()
-            }, 1500)
-
-        })
-        </script>
-
-        <!-- END: Top bar gradient loader assets -->
-
+    <!--?php include ROOT_PATH . 'includes/loading-bar.php'; ?-->
 
 </head>

@@ -5,6 +5,14 @@ Demo:         https://codyhouse.co/ds/components/app/mega-site-navigation
 iFrame Only:  https://codyhouse.co/app/components/demo/demo-mega-site-navigation
 -->
 
+
+<style>
+    /* .mega-nav--desktop .mega-nav__icon-btns--mobile, .mega-nav--desktop .mega-nav__sub-nav-wrapper, .mega-nav--desktop .mega-nav__search, .mega-nav--desktop .mega-nav__label {
+    display: unset;
+} */
+</style>
+
+
       <!-- Begin: Mega Menu-->
       <header class="mega-nav mega-nav--desktop@md position-relative js-mega-nav mega-nav--desktop backdrop-blur-10 m3-tweaks" class="js" data-theme="dark">
 
@@ -21,26 +29,8 @@ iFrame Only:  https://codyhouse.co/app/components/demo/demo-mega-site-navigation
                     <img src="<?= BASE_URL ?>images/munoz-logo-horizontal-white-06.svg" data-rjs="<?= BASE_URL ?>images/munoz-logo-horizontal-white-06.svg" alt="Michelle Muñoz">
                 </a>
                 
-                <!-- 👇 icon buttons --mobile -->
+                <!-- 👇  Hamburger in mobile -->
                 <div class="mega-nav__icon-btns mega-nav__icon-btns--mobile">
-                    <a href="ADD LINK" class="mega-nav__icon-btn">
-                    <svg class="icon" viewBox="0 0 24 24">
-                        <title>Go to account settings</title>
-                        <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10"
-                        stroke-width="2">
-                        <circle cx="12" cy="6" r="4"></circle>
-                        <path d="M12 13a8 8 0 00-8 8h16a8 8 0 00-8-8z"></path>
-                        </g>
-                    </svg> </a>
-                    <button class="mega-nav__icon-btn mega-nav__icon-btn--search" aria-label="Toggle search"
-                    aria-controls="mega-nav-search"><svg class="icon" viewBox="0 0 24 24">
-                        <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10"
-                        stroke-width="2">
-                        <path d="M4.222 4.222l15.556 15.556"></path>
-                        <path d="M19.778 4.222L4.222 19.778"></path>
-                        <circle cx="9.5" cy="9.5" r="6.5"></circle>
-                        </g>
-                    </svg></button> 
                     <button class="mega-nav__icon-btn mega-nav__icon-btn--menu" aria-label="Toggle menu"
                     aria-controls="mega-nav-navigation"><svg class="icon" viewBox="0 0 24 24">
                         <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10"
@@ -51,32 +41,19 @@ iFrame Only:  https://codyhouse.co/app/components/demo/demo-mega-site-navigation
                         </g>
                     </svg></button>
                 </div><!--mega-nav__icon-btns mega-nav__icon-btns--mobile-->
-                
-                <!-- This is the hamburger in mobile -->   
-                <li class="mega-nav__item js-mega-nav__item"></li>
-                
+                        
             
                 <div class="mega-nav__nav js-mega-nav__nav" id="mega-nav-navigation" role="navigation" aria-label="Main">
                     <div class="mega-nav__nav-inner"  style="justify-content: flex-end!important;">
                         <ul class="mega-nav__items">
-                            <li class="mega-nav__label">Menu</li>
 
-                            <li class="mega-nav__label">Other</li>
 
-                            <!-- 👇 Single link -->
-                            <li class="mega-nav__item">
-                            <a href="ADD LINK" class="mega-nav__control">Technical Knowledge</a>
-                            </li>
-
-                            <!-- <li class="mega-nav__label">Other</li> -->
-
-                            <!-- 👇 Single link -->
-                            <li class="mega-nav__item">
-                            <a href="ADD LINK" class="mega-nav__control">Resume</a>
-                            </li>
+                            <!-- 👇 Single links -->
+                            <li class="mega-nav__item"><a href="<?= BASE_URL ?>about.php" class="mega-nav__control" title="Technical Knowledge">Technical Knowledge</a></li>
+                            <li class="mega-nav__item"><a href="<?= BASE_URL ?>resume.php" class="mega-nav__control" title="Resumé">Resumé</a></li>
+         
                                         
-                                        
-                            <!-- 👇 layout 3 -> gallery -->
+                            <!-- 👇 Mega Menu: Button-->
                             <li class="mega-nav__item js-mega-nav__item">
                             <button class="mega-nav__control js-mega-nav__control">Featured Projects 
                                 <i class="mega-nav__arrow-icon" aria-hidden="true">    
@@ -89,29 +66,17 @@ iFrame Only:  https://codyhouse.co/app/components/demo/demo-mega-site-navigation
                                 </svg>
                                 </i>
                             </button>
-
+                                <!-- Mega Menu: Dropdown -->
                                 <div class="mega-nav__sub-nav-wrapper">
-
-<div class="aligning-to-right">
-<div class="mega-nav__sub-nav mega-nav__sub-nav--layout-3">
-    <?php include ROOT_PATH . 'includes/global-nav-menu-card.php'; ?>
-
-
-    <?php include ROOT_PATH . 'includes/global-nav-menu-card-original.php'; ?>
-    <?php include ROOT_PATH . 'includes/global-nav-menu-card-original.php'; ?>
-    <?php include ROOT_PATH . 'includes/global-nav-menu-card-original.php'; ?>
-    <?php include ROOT_PATH . 'includes/global-nav-menu-card-original.php'; ?>
-</div><!-- End: mega-nav__sub-nav mega-nav__sub-nav--layout-3-->
-</div>
-
-
-
+                                    <div class="aligning-to-right">
+                                        <div class="mega-nav__sub-nav mega-nav__sub-nav--layout-3">
+                                            <?php include ROOT_PATH . 'includes/global-nav-menu-card.php'; ?>
+                                        </div>
+                                    </div>
                                 </div><!-- End: mega-nav__sub-nav-wrapper -->
-                            </li>
+                            </li><!--mega-nav__item js-mega-nav__item-->
+
                         </ul>
-
-
-
                     </div><!--mega-nav__nav-inner-->
                 </div><!--mega-nav__nav js-mega-nav__nav-->
             
@@ -126,117 +91,4 @@ iFrame Only:  https://codyhouse.co/app/components/demo/demo-mega-site-navigation
 
 <div id="pagetop"></div>
 
-
-
-<style>
-
-header nav.navbar{
-      background-color: rgba(0, 0, 0, 0.3)!important;
-      backdrop-filter: blur(60px)!important;
-            -webkit-backdrop-filter: blur(60px)!important;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25)!important;
-}
-
-.image-wrapper{
-aspect-ratio: 2 / 1.5;
-overflow: hidden;
-border-radius: 6px;
-}
-
-.image-wrapper img{
-
-}
-
-.card-info{
-font-size: 16px!important;
-font-weight: 500!important;
-line-height: 1.3em!important;
-  color: rgba(255,255,255,0.5);
-
-}
-
-.card-title{
-margin: 0 0 6px 0;
-}
-
-.card-title a{
-/* font-weight: 600!important; */
-font-weight: 500!important;
-    color: rgba(255,255,255,1);
-/* font-size: 115%!important; */
-}
-
-/*
-.mega-nav--desktop .mega-nav__sub-nav-wrapper,
-.mega-nav--desktop .mega-nav__search {
-    position: absolute;
-    top: 80px;
-    right: 0;
-    height: 50vh;
-    max-height: calc(100vh - var(--mega-nav-height) - var(--mega-nav-offset-y, 0px));
-    overflow: auto;
-    border-top: 1px solid #424242;
-
-      background: rgb(0 0 0 / 30%);
-      backdrop-filter: blur(60px);
-            -webkit-backdrop-filter: blur(60px);
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-}  
-*/
-
-
-.mega-nav--desktop .mega-nav__sub-nav-wrapper,
-.mega-nav--desktop .mega-nav__search {
-    position: absolute;
-    top: 80px;
-    right: 0;
-    max-height: calc(100vh - var(--mega-nav-height) - var(--mega-nav-offset-y, 0px));
-    overflow: auto;
-    border-top: 1px solid #424242;
-    background-color: #131313e0 !important;
-          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-}  
-    
-
- 
-
-
-.aligning-to-right{
-    display: flex!important;
-    flex-direction: row!important;
-    justify-content: flex-end!important;
-    width: 100%;
-    padding-left: 30%;
-
-}
-
-.mega-nav--desktop .mega-nav__sub-nav--layout-3 {
-display: grid;
-gap: 18px; /* Original was 18px */
-grid-template-columns: repeat(7, 1fr);
-max-width: 40%;
-/* gap: var(--space-sm); */
-
-
-
-}
-
-.mega-nav--desktop .mega-nav__sub-nav {
-/* max-width: var(--mega-nav-content-max-width); */
-max-width: 100%;
-}
-
-.glass{
-    border-radius: 20px;
-    /* other styles */
-    background: rgba(39, 39, 39, 0.1);
-    backdrop-filter: blur(60px);
-     /* fallback for old browsers */
-        -webkit-backdrop-filter: blur(60px);
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-}
-
-
-</style>
 
