@@ -3,7 +3,7 @@
     <section class="intro-info" style="padding: 100px 0;">
         <div class="container">
             <div class="row grid-lines">
-                <div class="col col-12 text-left">
+                <div class="col col-12 text-left p-0">
                     <div class="page-title font-weight-500">
                     <h3><?= $project['title'] ?></h3>
                     </div>

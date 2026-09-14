@@ -585,6 +585,8 @@ Usage: codyhouse.co/license
     display: none
 }
 
+/* Button appears from 1024px and down. */
+
 .mega-nav--desktop .mega-nav__logo {
     flex-shrink: 0;
     margin-right: var(--space-sm)
@@ -883,32 +885,50 @@ Usage: codyhouse.co/license
 
 @media (min-width: 32rem) {
     .mega-nav--desktop\@xs::before {
-        content: "desktop"
+        content: "desktop";
     }
+    /* .mega-nav__container{
+        border: 1px solid blue;
+    } */
 }
 
 @media (min-width: 48rem) {
     .mega-nav--desktop\@sm::before {
-        content: "desktop"
+        content: "desktop";
     }
+        /* .mega-nav__container{
+        border: 1px solid red;
+    } */
 }
 
 @media (min-width: 64rem) {
     .mega-nav--desktop\@md::before {
-        content: "desktop"
+        content: "desktop";
     }
+        /* .mega-nav__container{
+        border: 1px solid orange;
+    } */
+    
 }
 
 @media (min-width: 80rem) {
     .mega-nav--desktop\@lg::before {
         content: "desktop"
     }
+        /* .mega-nav__container{
+        border: 1px solid pink;
+    } */
 }
 
 @media (min-width: 90rem) {
     .mega-nav--desktop\@xl::before {
-        content: "desktop"
+        content: "desktop";
     }
+        /* .mega-nav__container{
+        border: 1px solid green;
+    } */
+
+
 }
 
 

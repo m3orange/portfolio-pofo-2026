@@ -4,7 +4,7 @@
 
 
 
- <div class="col col-6 col-xl-1 col-lg-2 col-md-3 col-sm-6">
+ <div class="col col-6 col-xl-1 col-lg-3 col-md-4 col-sm-6">
     <div class="mega-nav__card">
         <a href="<?= BASE_URL ?>projects/atlas-ui/index.php" class="block overflow-hidden"> 
             <figure class="image-wrapper"><img class="width-100%" src="<?= BASE_URL ?>mega-menu-codyhouse/card-thumbs/mega-menu-card-thumbs-01.jpg"></figure>
@@ -16,7 +16,7 @@
     </div> 
 </div>
 
- <div class="col col-6 col-xl-1 col-lg-2 col-md-3 col-sm-6">
+ <div class="col col-6 col-xl-1 col-lg-3 col-md-3 col-sm-6">
     <div class="mega-nav__card">
         <a href="<?= BASE_URL ?>projects/atlas-design-system/index.php" class="block overflow-hidden"> 
             <figure class="image-wrapper"><img class="width-100%" src="<?= BASE_URL ?>mega-menu-codyhouse/card-thumbs/mega-menu-card-thumbs-02.jpg"></figure>
@@ -28,7 +28,7 @@
     </div> 
 </div>
 
- <div class="col col-6 col-xl-1 col-lg-2 col-md-3 col-sm-6">
+ <div class="col col-6 col-xl-1 col-lg-3 col-md-3 col-sm-6">
     <div class="mega-nav__card">
         <a href="<?= BASE_URL ?>projects/admin/index.php" class="block overflow-hidden"> 
             <figure class="image-wrapper"><img class="width-100%" src="<?= BASE_URL ?>mega-menu-codyhouse/card-thumbs/mega-menu-card-thumbs-03.jpg"></figure>

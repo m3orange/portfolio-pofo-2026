@@ -55,7 +55,7 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
     </section>
 
 
-    <?php include ROOT_PATH . 'projects/admin/video-embed-var-02.php'; ?>
+    <!--?php include ROOT_PATH . 'projects/admin/video-embed-var-02.php'; ?>
 
 
     <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>

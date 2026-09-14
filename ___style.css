@@ -60,6 +60,8 @@ font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     --m3-orange: #FF5D00;
 
     --brutalist-orange: #F41800; 
+    --brutalist-orange:#f54500;
+    --brutalist-orange-darker: #f54500;
             /* --brutalist-orange: rgba(251,78,41,1.0);  */
 
     --text-highlight-01: #ffe318;

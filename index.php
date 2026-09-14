@@ -3,7 +3,7 @@
 
 <?php require_once('config.php') ?>
 
-<?php
+<!--?php
 require_once 'db-config.php';
 
 $pdo = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME . ';charset=utf8mb4', DB_USER, DB_PASS);
@@ -11,7 +11,7 @@ $pdo = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME . ';charset=utf8mb
 $stmt = $pdo->query('SELECT * FROM strengths ORDER BY sort_order ASC');
 $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-?>
+?-->
 
 
 <?php include ROOT_PATH . 'includes/header.php'; ?>
@@ -32,8 +32,7 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
               <div class="hero-statement">
                 <div class="col col-12 col-xxl-8 col-xl-10 col-lg-11 col-md-12 sm-margin-20px-bottom statement-wrapper">
                   <h1>I'm a senior product designer with a passion for <span class="hero-emphasis-orange">human-centered
-                      design, technology and usability.</span> I'm seeking a position in <span
-                      class="hero-emphasis-orange">product design or UX engineering.</span></h1>
+                      design, technology and usability.</span> I'm seeking a position in <span class="hero-emphasis-orange">product design or UX engineering.</span></h1>
                 </div>
               </div>
             </div>`
