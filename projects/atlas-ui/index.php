@@ -52,6 +52,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
                     </div>
                     <div class="control-area area-overlay">
                         <button id="play-pause-btn"><img src="<?= BASE_URL ?>images/video-controls/video-btn-pause.png"/></button>
+                        <div class="control-divider"></div>
                         <div class="view-larger-link">
                             <a href="" id="citybox-laptop-vimeo" target="_blank"> View in Vimeo <img src="<?= BASE_URL ?>images/arrow-view-website-black.svg" />
                             </a>

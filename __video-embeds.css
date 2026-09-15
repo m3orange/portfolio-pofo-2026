@@ -10,6 +10,11 @@ display: flex;
     width: 100%;
 }
 
+.all-white .view-larger-link a{
+    color: #FFF!important;
+
+}
+
 .control-area.area-overlay{
     position: absolute;
     bottom: 16px;
@@ -53,8 +58,19 @@ display: flex;
     font-weight: 500;
 }
 
+        control-divider{
+            display: none;
+        }
+
         .area-overlay .view-larger-link a{
             font-size: 14px;
+        }
+
+        .area-overlay .control-divider{
+            /* width: 11px; */
+            margin: 0 20px 0 10px;
+            height: 30px;
+            border-right: 1px solid #00000087;
         }
 
 .view-larger-link img{

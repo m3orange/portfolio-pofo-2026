@@ -1608,6 +1608,9 @@ input[type="checkbox"]:checked ~ label:before {
     align-items: flex-end;
     flex-direction: row;
 }
+.admin #block-intro-slider{
+    align-items: center!important;
+}
 
 
 .admin #block-intro-slider .col{
@@ -1851,6 +1854,11 @@ input[type="checkbox"]:checked ~ label:before {
 
 .idd .image-grid-discovery .gallery-item {
     background-color: transparent !important;
+}
+
+.space-scout .gallery-item{
+        display: flex;
+    justify-content: center;
 }
 
 .image-grid-discovery .row {

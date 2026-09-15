@@ -38,11 +38,24 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
      <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
     <!-- end header -->
 
-    <!-- start parallax hero section -->
     <section id="block-intro-slider">
-        <img src="<?= BASE_URL ?>projects/musicasa/assets/musicasa-fullwidth-02.png"/>    
+        <img src="<?= BASE_URL ?>projects/musicasa/assets/musicasa-fullwidth-02.png">    
     </section>
-    <!-- end parallax hero section -->
+
+
+
+<style>
+
+    #video-container-01 {
+        position: relative;
+        width: 100%;
+        height: fit-content;
+        overflow: hidden;
+        background-color: unset;
+        aspect-ratio: 2 / 1.2;
+    border-radius: 15px;
+    }
+</style>
 
 
     <!-- start product information section -->
@@ -109,11 +122,23 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
 
     <section class="fullwidth-musicasa-demo">
         <div class="container">
-            <div class="row">
-                <div class="col col-12 video-area">
-                    <video autoplay loop muted playsinline>
-                        <source src="<?= BASE_URL ?>projects/musicasa/assets/260519_1336-musicasa-demo-1000x622.mp4" type="video/mp4">  
-                    </video>
+            <div class="row" style="justify-content: center;">
+                <div class="col col-12 col-lg-10">
+                    <div id="video-container-01" class="admin-01">
+                        <video id="bg-video" autoplay="autoplay" muted="muted" loop="loop" playsinline 
+                        poster="musicasa-demo-poster">
+
+                            <!-- ADD THE MATCHING ID HERE and leave src empty -->
+                            <source id="musicasa-demo" src="" type="video/mp4" class="mp4-here" >
+                        </video>
+                    </div>
+                    <div class="control-area"><!-- area-overlay-->
+                        <button id="play-pause-btn"><img src="<?= BASE_URL ?>images/video-controls/video-btn-pause.png"/></button>
+                        <div class="view-larger-link">
+                            <a href="" id="musicasa-demo-vimeo" target="_blank"> View in Vimeo <img src="<?= BASE_URL ?>images/arrow-view-website-black.svg" />
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
