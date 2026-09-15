@@ -38,18 +38,30 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
      <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
     <!-- end header -->
 
+    <section id="block-intro-slider" class="p-0">
+        <div class="container">
+            <div class="row">
+                <div class="col col-12 col-lg-10 offset-lg-1">
+                    <div id="video-container-01" class="admin-01">
+                        <video id="bg-video" autoplay="autoplay" muted="muted" loop="loop" playsinline 
+                        poster="citybox-laptop-poster">
 
-    <section id="block-intro-slider" class="wow p-0 ">
-        <!-- <video autoplay loop muted playsinline class="hero-video-cb">
-            <source src="<?= BASE_URL ?>projects/atlas-ui/assets/cb-screens-in-laptop-260824_0245.mp4" type="video/mp4">  
-        </video> -->
-        <div class="row">
-            <div class="cb-screens-in-laptop-gif col">
-            <img src="<?= BASE_URL ?>projects/atlas-ui/assets/cb-screens-laptop-260824_0305-hbrake-wshare.gif"/>
+                            <!-- ADD THE MATCHING ID HERE and leave src empty -->
+                            <source id="citybox-laptop" src="" type="video/mp4" class="mp4-here" >
+                        </video>
+                    </div>
+                    <div class="control-area area-overlay">
+                        <button id="play-pause-btn"><img src="<?= BASE_URL ?>images/video-controls/video-btn-pause.png"/></button>
+                        <div class="view-larger-link">
+                            <a href="" id="citybox-laptop-vimeo" target="_blank"> View in Vimeo <img src="<?= BASE_URL ?>images/arrow-view-website-black.svg" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </div>
-    </section>
+    </section>  
+
  
     <!-- start product information section -->
 
@@ -128,22 +140,24 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
       </div>
     </div>
 
-    <section class="fullwidth-slider-01">
-        <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+    <!------------------------- CITYBOX UI ----------------------------->
+    
+    <section class="wow fadeIn">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-12 blog-post-content text-center text-md-center"
-                    style="padding-right: 0px; padding-left: 0px;">
+                <div class="col-12 blog-post-content text-center text-md-center">
+
                     <div class="swiper-full-screen swiper-cb-fullwidth-screens swiper-container white-move"
                         data-slider-options='{ 
-                    "loop": true, 
-                    "slidesPerView": "1", 
-                    "allowTouchMove":true, 
-                    "autoplay": false, 
-                    "keyboard": { "enabled": true, "onlyInViewport": true }, 
-                    "navigation": { "nextEl": ".swiper-button-next", 
-                    "prevEl": ".swiper-button-prev" }, 
-                    "pagination": { "el": ".swiper-pagination", "clickable": true } }'>
-
+                            "loop": true, 
+                            "slidesPerView": "1", 
+                            "allowTouchMove":true, 
+                            "autoplay": false, 
+                            "keyboard": { "enabled": true, "onlyInViewport": true }, 
+                            "navigation": { "nextEl": ".swiper-button-next", 
+                            "prevEl": ".swiper-button-prev" }, 
+                            "pagination": { "el": ".swiper-pagination", "clickable": true } }'>
+                        
                         <div class="swiper-wrapper">
                             <?php foreach ($slideshow as $img): ?>
                                 <div class="swiper-slide">
@@ -151,16 +165,18 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
                                 </div>
                             <?php endforeach; ?>
                         </div><!--swiper-wrapper-->
-                        <div
-                            class="swiper-pagination swiper-pagination-round swiper-pagination-white swiper-full-screen-pagination">
-                        </div>
-                        <div class="swiper-button-prev swiper-button-black-highlight"></div>
-                        <div class="swiper-button-next swiper-button-black-highlight"></div>
+
+                            <div class="swiper-pagination swiper-pagination-round swiper-pagination-white swiper-full-screen-pagination"></div>
+                            <div class="swiper-button-prev swiper-button-black-highlight"></div>
+                            <div class="swiper-button-next swiper-button-black-highlight"></div>
                     </div>
+
+                    <!-- If .swiper-slide disaligned again, adjust lateral padding in .citybox .swiper-slide -->
                 </div>
-            </div>
-        </div>
+            </div><!--row-->
+        </div><!--container-->
     </section>
+
   </div>
 
 

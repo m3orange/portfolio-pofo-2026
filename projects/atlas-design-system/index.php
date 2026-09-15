@@ -141,7 +141,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
       <div class="container">
         <div class="row" style="text-align: center !important;">
             <div class="col col-12 col-lg-10 offset-lg-1">
-            <img src="<?= BASE_URL ?>projects/atlas-design-system/assets/atlas-ds-microsite-walkthrough-1300px.gif"/>
+            <img src="https://m3orange.com/portfolio/portfolio-assets/videos/atlas-ds-microsite-walkthrough-1300px.gif"/>
             </div>
         </div>
         </div>

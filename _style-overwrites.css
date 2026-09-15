@@ -1582,29 +1582,36 @@ input[type="checkbox"]:checked ~ label:before {
 }
 
 .citybox #block-intro-slider{
-    height: 70vh;
+    height: 85vh;
+    background-color:#1a1d20 !important;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* padding: 80px; */
 }
 
-
-video {
+.citybox #block-intro-slider video {
     /* background-size: cover; */
     /* display: table-cell; */
     /* vertical-align: bottom; */
-    width: 80%!important;
+    width: 90%!important;
 }
 
-.citybox #block-intro-slider {
-    background-color: #000000!important;
-
-}
 
 .admin #block-intro-slider,
 .idd #block-intro-slider {
     background-color: #111111 !important;
-    height: 70vh;
+    height: 85vh;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+
+.admin #block-intro-slider .col{
+    padding: 0px!important;
 }
 
 @media (max-width: 991px) {
@@ -1873,7 +1880,7 @@ video {
 
 
 .fullwidth-slider-01 .cb-screens {
-    max-width: 90% !important;
+    width: 90% !important;
 }
 
 @media (max-width:767px){
@@ -1887,9 +1894,9 @@ video {
 }
 
 
-.citybox .fullwidth-slider-01.swiper-slide {
-    padding-left: 30px !important;
-    padding-right: 30px !important;
+.citybox .swiper-slide {
+ padding: 0 5%!important;
+
 }
 
 .fullwidth-slider-01.swiper-button-prev,

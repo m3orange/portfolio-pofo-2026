@@ -81,6 +81,11 @@
     <!-- start scroll to top -->
     <a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
     <!-- end scroll to top  -->
+
+    <!-- variables for videos' links -->
+    <script src="<?= BASE_URL ?>video-config.js"></script>
+
+
     <!-- javascript libraries -->
 
     <!--Begin: Mega Menu JS-->

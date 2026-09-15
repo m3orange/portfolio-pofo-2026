@@ -89,8 +89,8 @@ iFrame Only:  https://codyhouse.co/app/components/demo/demo-mega-site-navigation
       </header>
       <!-- End: Mega Menu-->
 
-        <?php include ROOT_PATH . 'includes/temp-handy-links.php'; ?>
+        <!--?php include ROOT_PATH . 'includes/temp-handy-links.php'; ?-->
 
-<div id="pagetop"></div>
+    <div id="pagetop"></div>
 
 

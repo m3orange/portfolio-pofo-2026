@@ -19,3 +19,21 @@
                 </div>
             </div>
         </section>
+
+        <!-- Handles the play/pause button in the video embeds. -->
+        <script>
+            const video = document.getElementById('bg-video');
+            const button = document.getElementById('play-pause-btn');
+
+            button.addEventListener('click', controlVideo)
+
+            function controlVideo() {
+                if (video.paused) {
+                video.play();
+                button.innerHTML = '<img src="<?= BASE_URL ?>images/video-controls/video-btn-pause.png"/>';
+                } else {
+                video.pause();
+                button.innerHTML = '<img src="<?= BASE_URL ?>images/video-controls/video-btn-play.png"/>';
+                }
+            }
+        </script>

@@ -28,11 +28,6 @@ $single   = getAssets($pdo, 3, 'single');
 $lightbox = getAssets($pdo, 3, 'lightbox');
 $slideshow = getAssets($pdo, 3, 'slideshow');
 
-$animation     = getAssets($pdo, 3, 'animation');
-
-
-
-
 ?>
 
 <?php include ROOT_PATH . 'includes/header.php'; ?>
@@ -41,174 +36,159 @@ $animation     = getAssets($pdo, 3, 'animation');
 <body class="admin">
 
 
-     <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
+    <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
 
+    <section id="block-intro-slider" class="p-0">
+        <div class="container">
+            <div class="row">
+                <div class="col col-12 col-lg-8 offset-lg-2">
+                    <div id="video-container-01" class="admin-01">
+                        <video id="bg-video" autoplay="autoplay" muted="muted" loop="loop" playsinline 
+                        poster="admin-demo-poster">
 
-
-     <!-- <section id="block-intro-slider" class="p-0">
-        <div class="container"></div>
-    </section> -->
-
-<!--
-    https://vimeo.com/1212013835
--->
-
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col col-12 col-lg-8 offset-lg-2">
-                <div id="video-container-01" class="admin-01">
-                    <video id="bg-video" autoplay="autoplay" muted="muted" loop="loop" playsinline poster="<?= BASE_URL ?>videos/admin-demo-loop-poster.jpg">
-                        <source src="<?= BASE_URL ?>videos/admin-demo-loop.mp4" type="video/mp4" class="mp4-here" >
-                    </video>
-                </div>
-                <div class="control-area">
-                    <button id="play-pause-btn"><img src="<?= BASE_URL ?>images/video-controls/video-btn-pause.png"/></button>
-                    <div class="view-larger-link">
-                        <a href="https://vimeo.com/1212013835" target="_blank"> 
-                            View larger <img src="<?= BASE_URL ?>images/arrow-view-website-black.svg" />
-                        </a>
+                            <!-- ADD THE MATCHING ID HERE and leave src empty -->
+                            <source id="admin-demo" src="" type="video/mp4" class="mp4-here" >
+                        </video>
+                    </div>
+                    <div class="control-area area-overlay">
+                        <button id="play-pause-btn"><img src="<?= BASE_URL ?>images/video-controls/video-btn-pause.png"/></button>
+                        <div class="view-larger-link">
+                            <a href="" id="admin-demo-vimeo" target="_blank"> View in Vimeo <img src="<?= BASE_URL ?>images/arrow-view-website-black.svg" />
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>  
-
-
+    </section>  
 
     <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
 
 
-
-
-  <div id="anchor-01" class="anchor-wrapper"><!---@@@@---| Anchor | ---@@@@-->
-    <div class="anchor-links">
-      <div class="row">
-        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
-          <h5>Discovery</h5><h6></h6>
-        </div>
-      </div>
-    </div>
-
-    <section class="image-grid-discovery">
-        <div class="container-fluid padding-five-lr md-padding-30px-lr">
-            <div class="row margin-40px-bottom">
-                <?php foreach ($grid as $img): ?>
-                <div class="col col-12 col-lg-4 col-md-6 col-sm-6 sm-margin-10px-bottom wow fadeIn">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?><?= $img['file_path'] ?>"></div>
-                </div>
-                <?php endforeach; ?>   
-                
-                <div class="col col-12 col-lg-8 col-md-6 col-sm-6 sm-margin-10px-bottom wow fadeIn">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/assets/diagrams-03.png" /></div>
-                </div>
-
-                <div class="col col-12 col-lg-4 col-md-6 col-sm-6 sm-margin-10px-bottom wow fadeIn">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/assets/diagrams-01.png" /></div>
-                </div>
+    <div id="anchor-01" class="anchor-wrapper"><!---@@@@---| Anchor | ---@@@@-->
+        <div class="anchor-links">
+        <div class="row">
+            <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
+            <h5>Discovery</h5><h6></h6>
             </div>
         </div>
-    </section>
-  </div>
+        </div>
 
+        <section class="image-grid-discovery">
+            <div class="container-fluid padding-five-lr md-padding-30px-lr">
+                <div class="row margin-40px-bottom">
+                    <?php foreach ($grid as $img): ?>
+                    <div class="col col-12 col-lg-4 col-md-6 col-sm-6 sm-margin-10px-bottom wow fadeIn">
+                        <div class="gallery-item"><img src="<?= BASE_URL ?><?= $img['file_path'] ?>"></div>
+                    </div>
+                    <?php endforeach; ?>   
+                    
+                    <div class="col col-12 col-lg-8 col-md-6 col-sm-6 sm-margin-10px-bottom wow fadeIn">
+                        <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/assets/diagrams-03.png" /></div>
+                    </div>
 
-
+                    <div class="col col-12 col-lg-4 col-md-6 col-sm-6 sm-margin-10px-bottom wow fadeIn">
+                        <div class="gallery-item"><img src="<?= BASE_URL ?>projects/admin/assets/diagrams-01.png" /></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <div id="anchor-02"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
 
-    <div class="anchor-links anchor-white">
-      <div class="row">
-        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
-          <h5>User Journey</h5><h6></h6>
+        <div class="anchor-links anchor-white">
+        <div class="row">
+            <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
+            <h5>User Journey</h5><h6></h6>
+            </div>
         </div>
-      </div>
-    </div>
+        </div>
 
-    <section class="admin-journey-fullwidth">
-        <div class="container-fluid padding-five-lr md-padding-30px-lr">
-            <div class="row margin-40px-top">
-                <div class="col col-12" data-wow-delay="0.4s">
-                    <div class="gallery-item"><img src="<?= BASE_URL ?>home/intro-examples-02.jpg"></div>
+        <section class="admin-journey-fullwidth">
+            <div class="container-fluid padding-five-lr md-padding-30px-lr">
+                <div class="row margin-40px-top">
+                    <div class="col col-12" data-wow-delay="0.4s">
+                        <div class="gallery-item"><img src="<?= BASE_URL ?>home/intro-examples-02.jpg"></div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-  </div>
-
-  <div id="anchor-03"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
-    <div class="anchor-links anchor-white">
-      <div class="row">
-        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
-          <h5>Prototyping</h5>
-          <h6></h6>
-        </div>
-      </div>
     </div>
 
-    <section class="wow fadeIn">
-        <div class="container-fluid padding-five-lr md-padding-30px-lr">
-            <div class="row mx-0" style="padding: 100px 0;">
-                <ul class="portfolio-grid work-3col hover-option2 gutter-large w-100">
-                    <li class="grid-sizer"></li>
-
-                    <li class="grid-item wow" data-wow-delay="0s"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/admin/assets/individual-wires/admin-indiv-wires-01.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
-                            <figure>
-                                <div class="portfolio-img bg-extra-dark-gray"><img src="<?= BASE_URL ?>projects/admin/assets/individual-wires/admin-indiv-wires-01.png" class="project-img-gallery" /></div>
-                                <figcaption>
-                                    <div class="portfolio-hover-main text-center">
-                                        <div class="portfolio-hover-box vertical-align-middle">
-                                            <div class="portfolio-hover-content position-relative">
-                                                <i class="ti-zoom-in text-white-2 fa-2x"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                    <li class="grid-item wow" data-wow-delay="0s"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/admin/assets/individual-wires/admin-indiv-wires-02.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
-                            <figure>
-                                <div class="portfolio-img bg-extra-dark-gray"><img src="<?= BASE_URL ?>projects/admin/assets/individual-wires/admin-indiv-wires-02.png" class="project-img-gallery" /></div>
-                                <figcaption>
-                                    <div class="portfolio-hover-main text-center">
-                                        <div class="portfolio-hover-box vertical-align-middle">
-                                            <div class="portfolio-hover-content position-relative">
-                                                <i class="ti-zoom-in text-white-2 fa-2x"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                    <li class="grid-item wow" data-wow-delay="0s"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/admin/assets/individual-wires/admin-indiv-wires-03.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
-                            <figure>
-                                <div class="portfolio-img bg-extra-dark-gray"><img src="<?= BASE_URL ?>projects/admin/assets/individual-wires/admin-indiv-wires-03.png" class="project-img-gallery" /></div>
-                                <figcaption>
-                                    <div class="portfolio-hover-main text-center">
-                                        <div class="portfolio-hover-box vertical-align-middle">
-                                            <div class="portfolio-hover-content position-relative">
-                                                <i class="ti-zoom-in text-white-2 fa-2x"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </li>
-
-
-                </ul>
+    <div id="anchor-03"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+        <div class="anchor-links anchor-white">
+        <div class="row">
+            <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
+            <h5>Prototyping</h5>
+            <h6></h6>
             </div>
         </div>
-    </section>
+        </div>
 
-  </div>
+        <section class="wow fadeIn">
+            <div class="container-fluid padding-five-lr md-padding-30px-lr">
+                <div class="row mx-0" style="padding: 100px 0;">
+                    <ul class="portfolio-grid work-3col hover-option2 gutter-large w-100">
+                        <li class="grid-sizer"></li>
+
+                        <li class="grid-item wow" data-wow-delay="0s"> <!--grid-item-double-->
+                            <a href="<?= BASE_URL ?>projects/admin/assets/individual-wires/admin-indiv-wires-01.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
+                                <figure>
+                                    <div class="portfolio-img bg-extra-dark-gray"><img src="<?= BASE_URL ?>projects/admin/assets/individual-wires/admin-indiv-wires-01.png" class="project-img-gallery" /></div>
+                                    <figcaption>
+                                        <div class="portfolio-hover-main text-center">
+                                            <div class="portfolio-hover-box vertical-align-middle">
+                                                <div class="portfolio-hover-content position-relative">
+                                                    <i class="ti-zoom-in text-white-2 fa-2x"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="grid-item wow" data-wow-delay="0s"> <!--grid-item-double-->
+                            <a href="<?= BASE_URL ?>projects/admin/assets/individual-wires/admin-indiv-wires-02.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
+                                <figure>
+                                    <div class="portfolio-img bg-extra-dark-gray"><img src="<?= BASE_URL ?>projects/admin/assets/individual-wires/admin-indiv-wires-02.png" class="project-img-gallery" /></div>
+                                    <figcaption>
+                                        <div class="portfolio-hover-main text-center">
+                                            <div class="portfolio-hover-box vertical-align-middle">
+                                                <div class="portfolio-hover-content position-relative">
+                                                    <i class="ti-zoom-in text-white-2 fa-2x"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="grid-item wow" data-wow-delay="0s"> <!--grid-item-double-->
+                            <a href="<?= BASE_URL ?>projects/admin/assets/individual-wires/admin-indiv-wires-03.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
+                                <figure>
+                                    <div class="portfolio-img bg-extra-dark-gray"><img src="<?= BASE_URL ?>projects/admin/assets/individual-wires/admin-indiv-wires-03.png" class="project-img-gallery" /></div>
+                                    <figcaption>
+                                        <div class="portfolio-hover-main text-center">
+                                            <div class="portfolio-hover-box vertical-align-middle">
+                                                <div class="portfolio-hover-content position-relative">
+                                                    <i class="ti-zoom-in text-white-2 fa-2x"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </div>
  
 
 
@@ -388,22 +368,7 @@ $animation     = getAssets($pdo, 3, 'animation');
     <!-- start footer -->
     <?php include ROOT_PATH . 'includes/global-footer.php'; ?>
 
-    <script>
-        const video = document.getElementById('bg-video');
-        const button = document.getElementById('play-pause-btn');
 
-        button.addEventListener('click', controlVideo)
-
-        function controlVideo() {
-            if (video.paused) {
-            video.play();
-            button.innerHTML = '<img src="<?= BASE_URL ?>images/video-controls/video-btn-pause.png"/>';
-            } else {
-            video.pause();
-            button.innerHTML = '<img src="<?= BASE_URL ?>images/video-controls/video-btn-play.png"/>';
-            }
-        }
-    </script>
 
 
 </body>
