@@ -71,12 +71,8 @@
     <!--[if IE]>
             <script src="js/html5shiv.js"></script>
         <![endif]-->
-    <!-- 
-        <link rel="stylesheet" href="<?= BASE_URL ?>_guides.css" />
-        <link rel="stylesheet" href="<?= BASE_URL ?>__delete-later.css?v=10" /> 
-    -->
 
-    <link rel="stylesheet" href="<?= BASE_URL ?>__atyp-display.css" /> 
+    <link rel="stylesheet" href="<?= BASE_URL ?>_atyp-display.css" /> 
     <link rel="stylesheet" href="<?= BASE_URL ?>___mega-menu-styles.css" /> 
     <link rel="stylesheet" href="<?= BASE_URL ?>_style-overwrites.css?v=1" />
     <link rel="stylesheet" href="<?= BASE_URL ?>__mobile-overwrites.css?v=1" />

@@ -6,6 +6,8 @@ iFrame Only:  https://codyhouse.co/app/components/demo/demo-mega-site-navigation
 -->
 
 
+
+
 <style>
     /* .mega-nav--desktop .mega-nav__icon-btns--mobile, .mega-nav--desktop .mega-nav__sub-nav-wrapper, .mega-nav--desktop .mega-nav__search, .mega-nav--desktop .mega-nav__label {
     display: unset;
@@ -87,7 +89,7 @@ iFrame Only:  https://codyhouse.co/app/components/demo/demo-mega-site-navigation
       </header>
       <!-- End: Mega Menu-->
 
-
+        <?php include ROOT_PATH . 'includes/temp-handy-links.php'; ?>
 
 <div id="pagetop"></div>
 

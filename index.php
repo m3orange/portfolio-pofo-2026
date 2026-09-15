@@ -20,6 +20,8 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
   <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
 
+
+
   <!-- This is opener 05--->
    
   <section id="home-hero-opener" class="p-0 full-screen position-relative wow color-around-svg"
@@ -64,7 +66,6 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
   </section><!--home-hero-opener-->
 
   <!-- <div class="floating-card"></div> -->
-
 
 
   <style>
@@ -113,7 +114,7 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
   </style>
 
-
+     <!--?php include ROOT_PATH . 'animations/ai-orb-casberry-redone.php'; ?-->
 
  <?php include ROOT_PATH . 'home/home-accordion-intro.php'; ?>
 
