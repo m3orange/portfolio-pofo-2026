@@ -1,0 +1,76 @@
+
+
+.control-area{
+display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0;
+    z-index: 100;
+    align-items: center;
+}
+
+#play-pause-btn {
+    height: 40px;
+    width: 80px;
+}
+
+#play-pause-btn img{
+    max-height: 100%;
+}
+
+.view-larger-link a{
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.view-larger-link img{
+    width: 15px;
+}
+
+/*
+
+<img src=“<?= BASE_URL ?>directory” />
+
+*/
+
+/* .view-larger-link::after{
+      content: url('../images/arrow-view-website-black.svg');
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 8px; 
+} */
+
+#video-container-01{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    background-color: #000;
+    aspect-ratio: 2 / 1.25;
+}
+
+#bg-video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0; /* Bring it above negative index so controls are clickable */
+    opacity: 1;
+    min-width: 100% !important;
+    object-fit: cover;
+}
+
+poster{
+    border: 2px solid green;
+}
+
+
+
+button {cursor: pointer;}
+
+

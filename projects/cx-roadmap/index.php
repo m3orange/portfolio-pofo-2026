@@ -246,7 +246,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     </div>
 
         <!--begin - image grid - from single-project-page-01-->
-        <section class="journey-map-fullwidth"">
+        <section class="journey-map-fullwidth">
             <div class="container-fluid padding-five-lr md-padding-30px-lr">
                 <div class="row">
                     <div class="col col-12 wow" data-wow-delay="0">

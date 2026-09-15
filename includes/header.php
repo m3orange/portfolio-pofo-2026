@@ -74,6 +74,10 @@
 
     <link rel="stylesheet" href="<?= BASE_URL ?>_atyp-display.css" /> 
     <link rel="stylesheet" href="<?= BASE_URL ?>___mega-menu-styles.css" /> 
+    <link rel="stylesheet" href="<?= BASE_URL ?>__video-embeds.css" /> 
+
+
+    
     <link rel="stylesheet" href="<?= BASE_URL ?>_style-overwrites.css?v=1" />
     <link rel="stylesheet" href="<?= BASE_URL ?>__mobile-overwrites.css?v=1" />
 

@@ -27,6 +27,12 @@ $grid     = getAssets($pdo, 3, 'grid');
 $single   = getAssets($pdo, 3, 'single');
 $lightbox = getAssets($pdo, 3, 'lightbox');
 $slideshow = getAssets($pdo, 3, 'slideshow');
+
+$animation     = getAssets($pdo, 3, 'animation');
+
+
+
+
 ?>
 
 <?php include ROOT_PATH . 'includes/header.php'; ?>
@@ -39,29 +45,44 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
 
 
 
-     <section id="block-intro-slider" class="p-0">
+     <!-- <section id="block-intro-slider" class="p-0">
+        <div class="container"></div>
+    </section> -->
 
-            <div class="container">
+<!--
+    https://vimeo.com/1212013835
+-->
+
+<section>
+    <div class="container">
         <div class="row">
-            <div class="col col-8 offset-2">
-                <video autoplay muted loop id="myVideo">
-                        <source src="https://framerusercontent.com/assets/CwBu0bv6ntKVD1GG71zV10BPXw.mp4" type="video/mp4">
-                        Your browser does not support HTML5 video.
+            <div class="col col-12 col-lg-8 offset-lg-2">
+                <div id="video-container-01" class="admin-01">
+                    <video id="bg-video" autoplay="autoplay" muted="muted" loop="loop" playsinline poster="<?= BASE_URL ?>videos/admin-demo-loop-poster.jpg">
+                        <source src="<?= BASE_URL ?>videos/admin-demo-loop.mp4" type="video/mp4" class="mp4-here" >
                     </video>
+                </div>
+                <div class="control-area">
+                    <button id="play-pause-btn"><img src="<?= BASE_URL ?>images/video-controls/video-btn-pause.png"/></button>
+                    <div class="view-larger-link">
+                        <a href="https://vimeo.com/1212013835" target="_blank"> 
+                            View larger <img src="<?= BASE_URL ?>images/arrow-view-website-black.svg" />
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+</section>  
 
-    </section>
-
-
-    <!--?php include ROOT_PATH . 'projects/admin/video-embed-var-02.php'; ?>
 
 
     <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
 
 
-  <div id="anchor-01" class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
+
+
+  <div id="anchor-01" class="anchor-wrapper"><!---@@@@---| Anchor | ---@@@@-->
     <div class="anchor-links">
       <div class="row">
         <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
@@ -341,25 +362,25 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
 
     <div id="anchor-06"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
 
-    <div class="anchor-links anchor-white">
-      <div class="row">
-        <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
-          <h5>Making a case for a full SAP integration</h5><h6></h6>
-        </div>
-      </div>
-    </div>
-
-    <section class="admin-journey-fullwidth">
-        <div class="container-fluid padding-five-lr md-padding-30px-lr">
-            <div class="row">
-                <div class="col col-12" data-wow-delay="0.4s">
-                    <img src="<?= BASE_URL ?>projects/admin/assets/admin-sap-presentation.png" />
-                </div>
+        <div class="anchor-links anchor-white">
+        <div class="row">
+            <div class="col col-12 col-xxl-9 col-xl-9 col-lg-11 col-md-12 anchor-links-content">
+            <h5>Making a case for a full SAP integration</h5><h6></h6>
             </div>
         </div>
-    </section>
+        </div>
 
-  </div>
+        <section class="admin-journey-fullwidth">
+            <div class="container-fluid padding-five-lr md-padding-30px-lr">
+                <div class="row">
+                    <div class="col col-12" data-wow-delay="0.4s">
+                        <img src="<?= BASE_URL ?>projects/admin/assets/admin-sap-presentation.png" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
 
 
     <?php include ROOT_PATH . 'includes/pagination-projects.php'; ?>
@@ -367,15 +388,22 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
     <!-- start footer -->
     <?php include ROOT_PATH . 'includes/global-footer.php'; ?>
 
-       <script>
-    const video = document.querySelector('#video01');
+    <script>
+        const video = document.getElementById('bg-video');
+        const button = document.getElementById('play-pause-btn');
 
-        video.play().then(function () {
-        // autoplay was successful!
-        }).catch(function (error) {
-        // do something if you want to handle or track this error
-        });
-   </script>
+        button.addEventListener('click', controlVideo)
+
+        function controlVideo() {
+            if (video.paused) {
+            video.play();
+            button.innerHTML = '<img src="<?= BASE_URL ?>images/video-controls/video-btn-pause.png"/>';
+            } else {
+            video.pause();
+            button.innerHTML = '<img src="<?= BASE_URL ?>images/video-controls/video-btn-play.png"/>';
+            }
+        }
+    </script>
 
 
 </body>
