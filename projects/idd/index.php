@@ -39,14 +39,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
      <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
     <!-- end header -->
 
-    <!-- start parallax hero section -->
-    <section id="block-intro-slider" class="fullwidth-idd-demo">
-        <video autoplay loop muted playsinline>
-            <source src="<?= BASE_URL ?>projects/idd/assets/idd-demo-loop.mp4" type="video/mp4">  
-        </video>  
-    </section>
-    <!-- end parallax hero section -->
-
+     <?php include ROOT_PATH . 'projects/videos/video-embed-idd.php'; ?>
 
     <!-- start product information section -->
     <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>

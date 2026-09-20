@@ -1901,10 +1901,10 @@ input[type="checkbox"]:checked ~ label:before {
     padding: 80px 0 130px 0 !important;
 }
 
-
-.citybox .swiper-slide {
+/* This is what should be changed to control size of slide but leaving arrow buttons to the edges.*/
+.citybox .swiper-slide,
+.usic .swiper-slide {
  padding: 0 5%!important;
-
 }
 
 .fullwidth-slider-01.swiper-button-prev,
@@ -1917,6 +1917,11 @@ input[type="checkbox"]:checked ~ label:before {
     background-color: unset !important;
     opacity: 0.75 !important;
 }
+
+
+.swiper-button-prev.swiper-button-black-highlight{margin: 0 0 0 -10px;}
+.swiper-button-next.swiper-button-black-highlight {margin: 0 -10px 0 0;}
+
 
 .fullwidth-slider-01.swiper-button-prev {
     /* margin: -15px 10px 0 0; */
@@ -4122,14 +4127,12 @@ nav.navbar.bootsnav li.dropdown .menu-back-div > ul {
 }
 
 
-
-
         @media (min-width: 993px) {
             .home #home-hero-opener {min-height: 1000px;}
             .home #anchor-01.anchor-wrapper {min-height: 300px;}
             .home #anchor-02.anchor-wrapper {min-height: 600px;}
             .home #anchor-03.anchor-wrapper {min-height: 1200px;}
-            .home #anchor-04.anchor-wrapper {min-height: 3000px;}
+            .home #anchor-04.anchor-wrapper {min-height: 2500px;}
             .home #anchor-04.anchor-wrapper .grid-item{min-height: 500px;}
         }
 

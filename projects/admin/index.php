@@ -38,29 +38,7 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
 
     <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
 
-    <section id="block-intro-slider" class="p-0">
-        <div class="container">
-            <div class="row">
-                <div class="col col-12 col-lg-8 offset-lg-2">
-                    <div id="video-container-01" class="admin-01">
-                        <video id="bg-video" autoplay="autoplay" muted="muted" loop="loop" playsinline 
-                        poster="admin-demo-poster">
-
-                            <!-- ADD THE MATCHING ID HERE and leave src empty -->
-                            <source id="admin-demo" src="" type="video/mp4" class="mp4-here" >
-                        </video>
-                    </div>
-                    <div class="control-area area-overlay">
-                        <button id="play-pause-btn"><img src="<?= BASE_URL ?>images/video-controls/video-btn-pause.png"/></button>
-                        <div class="view-larger-link">
-                            <a href="" id="admin-demo-vimeo" target="_blank"> View in Vimeo <img src="<?= BASE_URL ?>images/arrow-view-website-black.svg" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>  
+    <?php include ROOT_PATH . 'projects/videos/video-embed-admin.php'; ?>
 
     <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
 
@@ -219,6 +197,7 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
                             "navigation": { "nextEl": ".swiper-button-next", 
                             "prevEl": ".swiper-button-prev" }, 
                             "pagination": { "el": ".swiper-pagination", "clickable": true } }'>
+                        
                         <div class="swiper-wrapper">
 
                             <div class="swiper-slide"><img class="before-afters" src="<?= BASE_URL ?>projects/admin/assets/before-afters/before-after-01@0.5x.png"></div>
@@ -238,12 +217,20 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
         </div><!--container-->
     </section>
 
+
     <style>
-        .temp-color{
-            border: 1px solid pink;
+        
+        .swiper-button-prev.swiper-button-black-highlight{margin: 0 0 0 -10px;}
+
+        .swiper-button-next.swiper-button-black-highlight {margin: 0 -10px 0 0;}
+
+        /* This is what should be changed to control size of slide but leaving arrow buttons to the edges.*/
+        .admin .swiper-slide {
+        padding: 0 8%!important;
+
         }
+
     </style>
-    
 
     <section class="wow fadeIn">
         <div class="container-fluid padding-five-lr md-padding-30px-lr">

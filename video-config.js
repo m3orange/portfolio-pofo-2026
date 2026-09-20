@@ -1,5 +1,8 @@
 // Keep all your portfolio video URLs here in one central spot
 const videoLinks = {
+
+"home-hero-anim": "https://m3orange.com/portfolio/portfolio-assets/animations/260919-meshic-poly-anim-contrast.mp4",
+    
 "citybox-laptop": "https://m3orange.com/portfolio/portfolio-assets/videos/citybox-screens-in-laptop.mp4",
 "citybox-laptop-poster": "https://m3orange.com/portfolio/portfolio-assets/videos/citybox-screens-in-laptop-poster.jpg",
 "citybox-laptop-vimeo": "https://vimeo.com/1224453001",
@@ -31,18 +34,22 @@ const videoLinks = {
 "idd-demo-loop-poster": "https://m3orange.com/portfolio/portfolio-assets/videos/idd-demo-loop-poster.jpg",
 "idd-demo-loop-vimeo" :"https://vimeo.com/1224455244"
 };
+
+// JS that makes play/pause button work is in the pagination include
+
+
 // This automatically injects the links wherever they belong when a page loads
 document.addEventListener("DOMContentLoaded", () => {
-for (const [id, url] of Object.entries(videoLinks)) {
-const element = document.getElementById(id);
-if (element) {
-if (element.tagName === 'VIDEO' || element.tagName === 'SOURCE') {
-element.src = url;
-// Reloads the video player so it sees the new file path
-element.closest('video')?.load();
-} else if (element.tagName === 'A') {
-element.href = url;
-}
-}
-}
+    for (const [id, url] of Object.entries(videoLinks)) {
+    const element = document.getElementById(id);
+    if (element) {
+    if (element.tagName === 'VIDEO' || element.tagName === 'SOURCE') {
+    element.src = url;
+    // Reloads the video player so it sees the new file path
+    element.closest('video')?.load();
+    } else if (element.tagName === 'A') {
+    element.href = url;
+    }
+    }
+    }
 });

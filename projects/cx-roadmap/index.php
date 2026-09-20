@@ -270,11 +270,11 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
 
 
 
-        <section class="fullwidth-slider-01">
-        <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+        <section>
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-12 blog-post-content text-center text-md-center"
-                    style="padding-right: 0px; padding-left: 0px;">
+                <div class="col-12 blog-post-content text-center text-md-center p-0">
+
                     <div class="swiper-full-screen swiper-cb-fullwidth-screens swiper-container white-move"
                         data-slider-options='{ 
                     "loop": true, 
@@ -306,6 +306,21 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     </section>
 
     </div>
+
+
+    <style>
+        
+        .swiper-button-prev.swiper-button-black-highlight{margin: 0 0 0 -10px;}
+
+        .swiper-button-next.swiper-button-black-highlight {margin: 0 -10px 0 0;}
+
+        /* This is what should be changed to control size of slide but leaving arrow buttons to the edges.*/
+        .usic .swiper-slide {
+        padding: 0 5%!important;
+
+        }
+
+    </style>
 
 
   <div id="anchor-04" class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->

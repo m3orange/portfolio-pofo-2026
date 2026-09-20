@@ -103,22 +103,8 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
       </div>
     </div>
 
-    <section class="diagrams">
-        <div class="container padding-five-lr md-padding-30px-lr">
-            <div class="row">
-                <div class="col col-12 col-lg-8 offset-lg-2 wow">
-                    <div class="gallery-item">
-      
-                        <div style="padding:71.07% 0 0 0;position:relative;">
-                            <iframe class="vimeo-iframe" src="https://player.vimeo.com/video/1211997195?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1&amp;unmute_button=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Map Tools Demo">
-                            </iframe>
-                        </div>
-                        <script src="https://player.vimeo.com/api/player.js"></script>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include ROOT_PATH . 'projects/videos/video-embed-map-tools-01.php'; ?>
+
 </div>
 
 
@@ -131,17 +117,8 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
       </div>
     </div>
 
-    <section class="fullwidth-map-tools-animation">
-        <div class="container">
-            <div class="row">
-                <div class="col col-12 col-md-9 offset-md-2">
-                    <video autoplay loop muted playsinline class="hero-video-cb" poster="assets/both-demos-with-fading.png">
-                        <source src="<?= BASE_URL ?>projects/map-tools/assets/both-demos-with-fading.mp4" type="video/mp4">  
-                    </video>    
-                </div>  
-            </div>
-        </div>
-    </section>
+    <?php include ROOT_PATH . 'projects/videos/video-embed-map-tools-02.php'; ?>
+    
 </div>
 
     <?php include ROOT_PATH . 'includes/pagination-projects.php'; ?>

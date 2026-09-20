@@ -57,18 +57,17 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
       </div>
     </div>
 
-    <!-- <div class="home-big-m">
-      <img class="word-01" src="<?= BASE_URL ?>images/munoz-logo-symbol-only-gray.svg" />
-    </div> -->
+     <?php include ROOT_PATH . 'projects/videos/home-anim-meshic.php'; ?>
 
-     <?php include ROOT_PATH . 'home/home-meshic-animation-01.php'; ?>
-<div class="home-hero-bg"></div>
-  </section><!--home-hero-opener-->
+  </section>
 
-  <!-- <div class="floating-card"></div> -->
+
 
 
   <style>
+
+
+
 /*
     .statement-wrapper{
           background-color: #131313e0 !important;

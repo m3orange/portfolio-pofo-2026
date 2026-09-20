@@ -37,3 +37,20 @@
                 }
             }
         </script>
+
+        <script>
+            const video = document.getElementById('bg-video-02');
+            const button = document.getElementById('play-pause-btn-02');
+
+            button.addEventListener('click', controlVideo)
+
+            function controlVideo() {
+                if (video.paused) {
+                video.play();
+                button.innerHTML = '<img src="<?= BASE_URL ?>images/video-controls/video-btn-pause.png"/>';
+                } else {
+                video.pause();
+                button.innerHTML = '<img src="<?= BASE_URL ?>images/video-controls/video-btn-play.png"/>';
+                }
+            }
+        </script>
