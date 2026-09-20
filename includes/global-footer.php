@@ -141,8 +141,12 @@
     <!-- retina -->
     <script type="text/javascript" src="<?= BASE_URL ?>js/retina.min.js"></script>
     <!-- revolution -->
-    <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+
+    <!--
+    Soon eliminating these:
+        <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
     <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+    -->
 
     
     <script type="text/javascript" src="<?= BASE_URL ?>js/main.js"></script>

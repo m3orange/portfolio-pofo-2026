@@ -101,7 +101,7 @@ display: flex;
 }
 
 /* Making a second ID ---bg-video-02--- to be used for a second video embed in the same page. Each instance needs its own JS. */
-#bg-video, #bg-video-02{
+#bg-video{
     position: absolute;
     top: 50%;
     left: 50%;

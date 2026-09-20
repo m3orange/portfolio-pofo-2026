@@ -38,7 +38,7 @@
             }
         </script>
 
-        <script>
+        <!-- <script>
             const video = document.getElementById('bg-video-02');
             const button = document.getElementById('play-pause-btn-02');
 
@@ -53,4 +53,4 @@
                 button.innerHTML = '<img src="<?= BASE_URL ?>images/video-controls/video-btn-play.png"/>';
                 }
             }
-        </script>
+        </script> -->

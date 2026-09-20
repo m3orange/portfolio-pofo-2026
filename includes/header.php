@@ -18,10 +18,18 @@
     <link rel="apple-touch-icon" sizes="72x72" href="<?= BASE_URL ?>images/favicons/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="<?= BASE_URL ?>images/favicons/apple-touch-icon-114x114.png">
 
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=keyboard_double_arrow_right" />
+
+    <!--
+Cleaning up. Soon will eliminate these.
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <link rel="stylesheet" href="<?= BASE_URL ?>css/et-line-icons.css" />
+    <link rel="stylesheet" href="<?= BASE_URL ?>css/font-awesome.min.css" />
+    <link rel="stylesheet" href="<?= BASE_URL ?>css/swiper.min.css"/>
+    --->
 
     <!-- Begin: Mega Menu-->
     <link rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/reset.css">
@@ -35,9 +43,7 @@
 
     <link rel="stylesheet" href="<?= BASE_URL ?>css/animate.css" />
     <link rel="stylesheet" href="<?= BASE_URL ?>css/bootstrap.min.css" /> 
-    <link rel="stylesheet" href="<?= BASE_URL ?>css/et-line-icons.css" />
-    <link rel="stylesheet" href="<?= BASE_URL ?>css/font-awesome.min.css" />
-    <link rel="stylesheet" href="<?= BASE_URL ?>css/swiper.min.css"/>
+
     <link rel="stylesheet" href="<?= BASE_URL ?>css/justified-gallery.min.css"/>
     <link rel="stylesheet" href="<?= BASE_URL ?>css/magnific-popup.css" />
     <link rel="stylesheet" href="<?= BASE_URL ?>css/bootsnav.css"/>

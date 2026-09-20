@@ -1,4 +1,4 @@
-<!-- 260908_2111 - Index in current local repo that broke. -->
+<!-- 260920_0135-->
 
 
 <?php require_once('config.php') ?>
@@ -18,9 +18,6 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 <body class="home">
 
-  <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
-
-
 
   <!-- This is opener 05--->
    
@@ -37,7 +34,7 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
                       design, technology and usability.</span> I'm seeking a position in <span class="hero-emphasis-orange">product design or UX engineering.</span></h1>
                 </div>
               </div>
-            </div>`
+            </div>
           </div>
         </div>
       </div>
@@ -62,7 +59,11 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
   </section>
 
 
+<!--
+Add to video config;
 
+"home-hero-anim": "https://m3orange.com/portfolio/portfolio-assets/animations/260919-meshic-poly-anim-contrast.mp4",
+-->
 
   <style>
 

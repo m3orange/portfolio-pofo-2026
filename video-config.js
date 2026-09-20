@@ -1,8 +1,5 @@
 // Keep all your portfolio video URLs here in one central spot
 const videoLinks = {
-
-"home-hero-anim": "https://m3orange.com/portfolio/portfolio-assets/animations/260919-meshic-poly-anim-contrast.mp4",
-    
 "citybox-laptop": "https://m3orange.com/portfolio/portfolio-assets/videos/citybox-screens-in-laptop.mp4",
 "citybox-laptop-poster": "https://m3orange.com/portfolio/portfolio-assets/videos/citybox-screens-in-laptop-poster.jpg",
 "citybox-laptop-vimeo": "https://vimeo.com/1224453001",
@@ -32,7 +29,8 @@ const videoLinks = {
 "map-tools-demo-dark-vimeo" :"https://vimeo.com/1224471408",
 "idd-demo-loop": "https://m3orange.com/portfolio/portfolio-assets/videos/idd-demo-loop.mp4",
 "idd-demo-loop-poster": "https://m3orange.com/portfolio/portfolio-assets/videos/idd-demo-loop-poster.jpg",
-"idd-demo-loop-vimeo" :"https://vimeo.com/1224455244"
+"idd-demo-loop-vimeo" :"https://vimeo.com/1224455244",
+"home-hero-anim": "https://m3orange.com/portfolio/portfolio-assets/animations/260919-meshic-poly-anim-contrast.mp4"
 };
 
 // JS that makes play/pause button work is in the pagination include
