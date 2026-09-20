@@ -2098,12 +2098,12 @@ $(document).ready(function () {
         });
     }
 
-    /*==============================================================
-    //revolution Start -  home-creative-studio
-
-    M3 | Disabled 260920_1340 as it was triggering an error in inspect code .
-
-
+    /*==============================================================*/
+    //revolution Start 
+    /*==============================================================*/
+    /* ================================
+     home-creative-studio
+     ================================*/
     if ($("#rev_slider_151_1").revolution == undefined) {
         revslider_showDoubleJqueryError("#rev_slider_151_1");
     } else {
@@ -2192,12 +2192,9 @@ $(document).ready(function () {
         });
     }
 
-
-
-     // home-classic-web-agency
-    // M3 | Disabled 260920_1340 as it was triggering an error in inspect code .
-
-
+    /* ================================
+     home-classic-web-agency
+     ================================*/
     if ($("#rev_slider_1174_1").revolution == undefined) {
         revslider_showDoubleJqueryError("#rev_slider_1174_1");
     } else {
@@ -2239,10 +2236,9 @@ $(document).ready(function () {
         });
     }
 
-
-    // home-classic-corporate
-    // M3 | Disabled 260920_1340 as it was triggering an error in inspect code .
-
+    /* ================================
+     home-classic-corporate
+     ================================*/
     if ($("#rev_slider_1078_1").revolution == undefined) {
         revslider_showDoubleJqueryError("#rev_slider_1078_1");
     } else {
@@ -2343,10 +2339,9 @@ $(document).ready(function () {
         });
     }
 
-
-    // home-creative-minimalist-portfolio
-    // M3 | Disabled 260920_1340 as it was triggering an error in inspect code .
-
+    /* ================================
+     home-creative-minimalist-portfolio
+     ================================*/
 
     if ($("#rev_slider_26_1").revolution == undefined) {
         revslider_showDoubleJqueryError("#rev_slider_26_1");
@@ -2441,8 +2436,6 @@ $(document).ready(function () {
             }
         });
     }
-
-         ================================*/
 
     /*==============================================================*/
     //magnificPopup Start 

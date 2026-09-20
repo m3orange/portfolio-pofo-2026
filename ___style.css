@@ -34,7 +34,12 @@ CORRECT
     --alt-text:       "IBM Plex Mono", "SF Mono", "Consolas", ui-monospace!important; font-weight: 400!important;color: red!important;
     --haas-grotesk:   "Neue Haas Grotesk Display Pro", Neue Haas Grotesk Display Pro,  "Helvetica", Helvetica, sans-serif!important; 
                                                                     
-                                                
+    --query-guide-color-default: gray ;
+    --query-guide-color-01: #FF5D00;
+    --query-guide-color-02:blue;
+    --query-guide-color-03: red;
+        --query-guide-color-04: green;
+                                          
     
     /* 
 

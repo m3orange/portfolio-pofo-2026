@@ -1,5 +1,8 @@
 
 
+
+
+
 /*  Small */
 @media (max-width: 767px) {
 
@@ -123,3 +126,34 @@ BG      #002f43
     }
 }
 
+
+
+/* --------------------- SLIDER ---------------------*/
+
+
+        .usic .swiper-button-prev.swiper-button-black-highlight,
+        .citybox .swiper-button-prev.swiper-button-black-highlight,
+        .admin .swiper-button-prev.swiper-button-black-highlight{
+            margin: 0 0 0 -10px;
+            border-top: 6px solid orange;
+        }
+
+        .usic .swiper-button-next.swiper-button-black-highlight,
+        .citybox .swiper-button-next.swiper-button-black-highlight,
+        .admin  .swiper-button-next.swiper-button-black-highlight  {
+            margin: 0 -10px 0 0;
+          border-top: 6px solid orange;
+        }
+
+        /* This is what should be changed to control size of slide but leaving arrow buttons to the edges.*/
+        .usic .swiper-slide {
+        padding: 0 5%;
+        border: 2px solid green;
+        }
+
+                @media (max-width: 450px) {
+                .usic .swiper-slide {
+                    padding: 0 10%;
+                    border: 2px solid yellow;
+                    }
+                }

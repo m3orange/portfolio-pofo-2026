@@ -18,7 +18,10 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 <body class="home">
 
-
+    <!-- start header -->
+    <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
+    <!-- end header -->
+     
   <!-- This is opener 05--->
    
   <section id="home-hero-opener" class="p-0 full-screen position-relative wow color-around-svg"

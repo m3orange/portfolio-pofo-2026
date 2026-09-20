@@ -292,10 +292,9 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
     </div>
 
     <section>
-        <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-12 blog-post-content text-center text-md-center"
-                    style="padding-right: 0px; padding-left: 0px;">
+                <div class="col-12 blog-post-content text-center text-md-center p-0">
 
                     <div class="swiper-full-screen swiper-cb-fullwidth-screens swiper-container white-move"
                         data-slider-options='{ 

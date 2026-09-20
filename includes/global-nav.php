@@ -8,12 +8,7 @@ iFrame Only:  https://codyhouse.co/app/components/demo/demo-mega-site-navigation
 
 
 
-<style>
-    /* .mega-nav--desktop .mega-nav__icon-btns--mobile, .mega-nav--desktop .mega-nav__sub-nav-wrapper, .mega-nav--desktop .mega-nav__search, .mega-nav--desktop .mega-nav__label {
-    display: unset;
-} */
-</style>
-
+<?php include ROOT_PATH . 'delete-later/media-queries-guide.php'; ?>
 
       <!-- Begin: Mega Menu-->
       <header class="mega-nav mega-nav--desktop@md position-relative js-mega-nav mega-nav--desktop backdrop-blur-10 m3-tweaks" class="js" data-theme="dark">

@@ -1,4 +1,7 @@
 
+
+<?php include ROOT_PATH . 'delete-later/sticky-nav.php'; ?>
+
 <!-- start footer --> 
 <footer class="footer-strip-dark bg-extra-dark-gray padding-100px-top">
     <div class="container-fluid">
@@ -95,10 +98,8 @@
     <!--End: Mega Menu JS-->
 
     <!-- Begin: Animated Geography | Codepen -->
-    <script type="text/javascript" src="<?= BASE_URL ?>home/vectors/animated-geometry-script.js"></script>
     <!-- End: Animated Geography | Codepen -->
-     
-
+    
     <script type="text/javascript" src="<?= BASE_URL ?>js/jquery.js"></script>
     <script type="text/javascript" src="<?= BASE_URL ?>js/modernizr.js"></script>
     <script type="text/javascript" src="<?= BASE_URL ?>js/bootstrap.bundle.js"></script>

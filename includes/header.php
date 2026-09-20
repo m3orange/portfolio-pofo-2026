@@ -28,8 +28,9 @@ Cleaning up. Soon will eliminate these.
 
     <link rel="stylesheet" href="<?= BASE_URL ?>css/et-line-icons.css" />
     <link rel="stylesheet" href="<?= BASE_URL ?>css/font-awesome.min.css" />
+        --->
     <link rel="stylesheet" href="<?= BASE_URL ?>css/swiper.min.css"/>
-    --->
+
 
     <!-- Begin: Mega Menu-->
     <link rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/reset.css">
