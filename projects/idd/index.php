@@ -39,7 +39,15 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
      <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
     <!-- end header -->
 
-     <?php include ROOT_PATH . 'projects/videos/video-embed-idd.php'; ?>
+    <section id="block-intro-slider" class="p-0">
+        <div class="container">
+            <div class="row idd-hero-video">
+                <div class="col col-12 col-lg-8 offset-lg-2">
+                    <div class="video-pending">Pending</div>
+                </div>
+            </div>
+        </div>
+    </section>  
 
     <!-- start product information section -->
     <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>

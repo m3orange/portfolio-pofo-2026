@@ -1,0 +1,123 @@
+
+
+.control-area{
+display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0;
+    z-index: 1000;
+    align-items: center;
+    width: 100%;
+}
+
+.all-white .view-larger-link a{
+    color: #FFF!important;
+
+}
+
+.control-area.area-overlay{
+    position: absolute;
+    bottom: 16px;
+    right: 30px;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: fit-content;
+    padding: 8px;
+    margin: 0 !important;
+    border-radius: 8px;
+    border: 1px solid rgb(203 203 203 / 40%);
+    filter: blur(3px);
+        -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, .1));
+}
+
+#play-pause-btn,#play-pause-btn-02 {
+    height: 40px;
+    width: 40px;
+}
+
+.area-overlay #play-pause-btn,
+.area-overlay #play-pause-btn-02 {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+
+
+#play-pause-btn img,
+#play-pause-btn-02 img{
+    max-height: 100%;
+}
+
+.view-larger-link a{
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+        control-divider{
+            display: none;
+        }
+
+        .area-overlay .view-larger-link a{
+            font-size: 14px;
+        }
+
+        .area-overlay .control-divider{
+            /* width: 11px; */
+            margin: 0 20px 0 10px;
+            height: 30px;
+            border-right: 1px solid #00000087;
+        }
+
+.view-larger-link img{
+    width: 15px;
+}
+
+/*
+
+<img src=“<?= BASE_URL ?>directory” />
+
+*/
+
+/* .view-larger-link::after{
+      content: url('../images/arrow-view-website-black.svg');
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 8px; 
+} */
+
+#video-container-01{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    background-color: #000;
+    aspect-ratio: 2 / 1.25;
+}
+
+/* Making a second ID ---bg-video-02--- to be used for a second video embed in the same page. Each instance needs its own JS. */
+#bg-video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0; /* Bring it above negative index so controls are clickable */
+    opacity: 1;
+    min-width: 100% !important;
+    object-fit: cover;
+}
+
+poster{
+    border: 2px solid green;
+}
+
+
+
+button {cursor: pointer;}
+
+

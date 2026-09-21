@@ -17,7 +17,7 @@
                         <div class="footer-links">
                             <ul>
                             <li><a href="<?= BASE_URL ?>index.php" class="temp-links" title="Home">Home</a></li>
-                            <li><a href="<?= BASE_URL ?>about.php" class="temp-links" title="Tech Expertise">Tech Expertise</a></li>
+                            <li><a href="<?= BASE_URL ?>about.php" class="temp-links" title="Technical Knowledge">Technical Knowledge</a></li>
                             <li><a href="<?= BASE_URL ?>resume.php" class="temp-links" title="Resume">Resume</a></li>
                             </ul>
                         </div>

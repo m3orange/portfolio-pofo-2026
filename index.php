@@ -21,7 +21,7 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <!-- start header -->
     <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
     <!-- end header -->
-     
+
   <!-- This is opener 05--->
    
   <section id="home-hero-opener" class="p-0 full-screen position-relative wow color-around-svg"
@@ -62,6 +62,20 @@ $strengths = $stmt->fetchAll(PDO::FETCH_ASSOC);
   </section>
 
 
+  <!-- 
+  ====================== DELETE THESE CLASSES =====================
+  --->  
+  <style>
+    .row-for-hero-statement{
+    border: 1px solid yellow;
+}
+
+#home-hero-opener .container{
+  border: 1px solid green;
+}
+  </style>
+
+
 <!--
 Add to video config;
 
@@ -69,36 +83,9 @@ Add to video config;
 -->
 
   <style>
-
-
-
-/*
-    .statement-wrapper{
-          background-color: #131313e0 !important;
-          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-          padding: 20px;
-          border-radius: 10px;
-    }
-*/
-
-  .floating-card{
-          z-index: 1000;  
-      width: 20%;
-      height: 50%;
-      position: fixed;
-      bottom: 5%;
-      right: 5%;
-      border-radius: 20px;
-
-
-
-      /* other styles */
-      background: rgb(0 0 0 / 30%);
-      backdrop-filter: blur(60px);
-        /* fallback for old browsers */
-        -webkit-backdrop-filter: blur(60px);
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-  }
+.home #home-hero-opener{
+      background-color: #000 !important;
+}
 
   .home-hero-bg{
     /* background-image: url(home-bg-images/random-bg-img-02.jpg); */

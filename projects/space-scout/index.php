@@ -40,8 +40,15 @@ $parallax01 = getAssets($pdo, 8, 'parallax01');
      <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
     <!-- end header -->
 
-    <?php include ROOT_PATH . 'projects/videos/video-embed-space-scout-01.php'; ?>
-
+<section id="block-intro-slider" class="p-0">
+    <div class="container">
+        <div class="row space-scout-hero-video">
+            <div class="col col-12 col-lg-8 offset-lg-2">
+                <div class="video-pending">Pending</div>
+            </div>
+        </div>
+    </div>
+</section>  
 
     <style>
         .space-scout #block-intro-slider{
@@ -66,7 +73,15 @@ $parallax01 = getAssets($pdo, 8, 'parallax01');
       </div>
     </div>
 
-    <?php include ROOT_PATH . 'projects/videos/video-embed-space-scout-02.php'; ?>
+    <section>
+        <div class="container">
+            <div class="row space-scout-video-02">
+                <div class="col col-12 col-lg-8 offset-lg-2">
+                    <div class="video-pending">Pending</div>
+                </div>
+            </div>
+        </div>
+    </section>  
 
   </div>
 
@@ -84,7 +99,7 @@ $parallax01 = getAssets($pdo, 8, 'parallax01');
         <div class="container-fluid padding-five-lr md-padding-30px-lr">
             <div class="row">
                 <div class="col col-12" data-wow-delay="0.4s">
-                    <div class="gallery-item">
+                    <div class="gallery-item must-be-confidential remove-lightbox">
                         <img src="<?= BASE_URL ?>projects/space-scout/assets/sscout-discovery-for-parallax.png"></div>
                 </div>
             </div>
@@ -112,7 +127,7 @@ $parallax01 = getAssets($pdo, 8, 'parallax01');
                     <li class="grid-item wow fadeInUp" data-wow-delay="0s"> 
                         <a href="<?= BASE_URL ?>projects/space-scout/assets/sscout-discovery-01.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
                             <figure>
-                                <div class="portfolio-img bg-extra-dark-gray">
+                                <div class="portfolio-img bg-extra-dark-gray must-be-confidential remove-lightbox">
                                     <img src="<?= BASE_URL ?>projects/space-scout/assets/sscout-discovery-01.png" class="project-img-gallery" />
                                     <figcaption>
                                         <div class="portfolio-hover-main text-center"><div class="portfolio-hover-box vertical-align-middle">
@@ -127,7 +142,7 @@ $parallax01 = getAssets($pdo, 8, 'parallax01');
                     <li class="grid-item wow fadeInUp" data-wow-delay="0.2s"> 
                         <a href="<?= BASE_URL ?>projects/space-scout/assets/sscout-discovery-02.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
                             <figure>
-                                <div class="portfolio-img bg-extra-dark-gray">
+                                <div class="portfolio-img bg-extra-dark-gray must-be-confidential remove-lightbox">
                                     <img src="<?= BASE_URL ?>projects/space-scout/assets/sscout-discovery-02.png" class="project-img-gallery" />
                                     <figcaption>
                                         <div class="portfolio-hover-main text-center"><div class="portfolio-hover-box vertical-align-middle">
@@ -142,7 +157,7 @@ $parallax01 = getAssets($pdo, 8, 'parallax01');
                     <li class="grid-item wow fadeInUp" data-wow-delay="0.4s"> 
                         <a href="<?= BASE_URL ?>projects/space-scout/assets/sscout-discovery-03.png" data-group="two-columns-zoom-animation" class="lightbox-group-gallery-item">
                             <figure>
-                                <div class="portfolio-img bg-extra-dark-gray">
+                                 <div class="portfolio-img bg-extra-dark-gray must-be-confidential remove-lightbox">
                                     <img src="<?= BASE_URL ?>projects/space-scout/assets/sscout-discovery-03.png" class="project-img-gallery" />
                                     <figcaption>
                                         <div class="portfolio-hover-main text-center"><div class="portfolio-hover-box vertical-align-middle">

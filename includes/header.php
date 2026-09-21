@@ -84,9 +84,9 @@ Cleaning up. Soon will eliminate these.
     <link rel="stylesheet" href="<?= BASE_URL ?>__video-embeds.css" /> 
 
 
-    
-    <link rel="stylesheet" href="<?= BASE_URL ?>_style-overwrites.css?v=1" />
-    <link rel="stylesheet" href="<?= BASE_URL ?>__mobile-overwrites.css?v=1" />
+    <link rel="stylesheet" href="<?= BASE_URL ?>_guides-02.css?v=342" /> 
+    <link rel="stylesheet" href="<?= BASE_URL ?>_style-overwrites.css?v=2523" />
+    <link rel="stylesheet" href="<?= BASE_URL ?>__mobile-overwrites.css?v=524" />
 
 
     <!--?php include ROOT_PATH . 'includes/loading-bar.php'; ?-->

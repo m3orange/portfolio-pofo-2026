@@ -797,18 +797,7 @@ img.mfp-img {
 
 /*--------------- Home ------------------*/
 
-/* #home-hero-opener h1,
-#home-hero-opener h2,
-#home-hero-opener h3,
-#home-hero-opener h4,
-#home-hero-opener h5,
-#home-hero-opener h6 {
-    line-height: 1.1em;
-    font-family: var(--ibm-sans-headers-01) !important;
-    font-weight: 500!important;
 
-}
- */
 
 
 #home-hero-opener h2{line-height: 1.2em;}
@@ -852,11 +841,7 @@ H2      30
 
 add red
 
-*/    /* 
-
-    #home-hero-opener h1, .line-one .serif-emphasis {font-size: 70px;}
-    #home-hero-opener h2, .line-two .serif-emphasis {font-size: 55px;}
-*/
+*/  
 
 
 /* Extra Large / Large Desktops. */
@@ -906,46 +891,10 @@ add red
 }
 
 
-
-
-.resume #home-hero-opener   { background-color: #080e21; }
-.contact #home-hero-opener  { background-color: #080e21; }
-.about #home-hero-opener    { background-color: #451460; }
-
-
-#home-hero-opener .container-fluid {
-    width: 100%;
-    padding-right: 0px !important;
-    padding-left: 0px !important;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 #home-hero-opener .code-speak {
     font-family: var(--ibm-sans-body-01) !important;
     color: rgba(255, 255, 255, 0.7) !important;
     font-size: 16px;
-
-}
-
-
-
-
-
-#home-hero-opener .h-80 {
-    height: 80% !important;
-}
-
-#home-hero-opener .h-95 {
-    height: 95% !important;
-}
-
-#home-hero-opener .h-20 {
-    height: 20% !important;
-}
-
-#home-hero-opener .h-5 {
-    height: 5% !important;
 }
 
 
@@ -1001,27 +950,13 @@ add red
 /* No puedo hacer highlghts. Conflicto with panel toggle. */
 
 
-/* #home-hero-opener .col, #home-hero-opener .row {
-    border: 1px solid rgba(255, 255, 255, 0.2);
-} */
-
-
 #home-text-intro .row {
     display: flex !important;
     flex-direction: row !important;
 
 }
 
-.home .home-hero-area h3 {
-    font-family: var(--ibm-sans-headers-01) !important;
-    line-height: 1.1em;
-}
 
-.home .home-hero-area p,
-.home .home-hero-area h6 {
-    font-family: var(--ibm-sans-body-01) !important;
-    line-height: 1.1em;
-}
 
 #home-text-intro h6 {
     font-weight: 400 !important;
@@ -1242,13 +1177,6 @@ line-height: 1.2em !important;
 }
 
 
-#block-intro-slider {
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
-}
 
 .magnific-home-gallery li a {
     /* display: block;
@@ -1581,58 +1509,7 @@ input[type="checkbox"]:checked ~ label:before {
         width: 80%!important;
 }
 
-.citybox #block-intro-slider{
-    height: 85vh;
-    background-color:#1a1d20 !important;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-end;
-    /* padding: 80px; */
-}
 
-.citybox #block-intro-slider video {
-    /* background-size: cover; */
-    /* display: table-cell; */
-    /* vertical-align: bottom; */
-    width: 90%!important;
-}
-
-
-.admin #block-intro-slider,
-.idd #block-intro-slider {
-    background-color: #111111 !important;
-    height: 85vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    flex-direction: row;
-}
-.admin #block-intro-slider{
-    align-items: center!important;
-}
-
-
-.admin #block-intro-slider .col{
-    padding: 0px!important;
-}
-
-@media (max-width: 991px) {
-
-    .citybox #block-intro-slider,
-    .admin #block-intro-slider {
-        height: 40vh;
-    }
-}
-
-
-.admin #block-intro-slider video,
-.idd #block-intro-slider video {
-    /* height: 100% !important; */
-    max-width: 70% !important;
-    /* border: 3px solid red; */
-
-}
 
 
 .citybox #block-01 {
@@ -1735,7 +1612,7 @@ input[type="checkbox"]:checked ~ label:before {
     text-decoration: none!important; */
         letter-spacing: 0;
     text-transform: unset!important;
-    padding: 0px!important;
+    padding-left: 10px!important;
 
     
 
@@ -2731,18 +2608,7 @@ padding: 120px 80px;
     border-bottom: 3px solid rgba(0, 0, 0, 1) !important;
 }
 
-/* Multi-font variations for the type collage on the home page.*/
-/* 
-.mf-var-01 {color: var(--mf-tint-01) !important;}
-.mf-var-02 {color: var(--mf-tint-02) !important;}
-.mf-var-03 {color: var(--mf-tint-03) !important;}
 
-
-#home-hero-opener .mf-var-01,
-#home-hero-opener .mf-var-02,
-#home-hero-opener .mf-var-03 {
-  font-style: italic !important;
-} */
 
 .inline-emphasis-01 {
 font-style: italic !important;
@@ -2892,15 +2758,6 @@ font-style: italic !important;
 }
 
 
-.resume #home-hero-opener,
-.contact #home-hero-opener {
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    background-position-x: left;
-    /* background-position-y: 100px !important; */
-    height: 60vh !important;
-}
-
 .about .background-image-area{
     background: url(about/design-to-code-diagram-15pc-b+w.png) no-repeat;
     z-index: 0;
@@ -2915,11 +2772,6 @@ font-style: italic !important;
     opacity: 1;
 }
 
-
-.about #home-hero-opener{
-    background-repeat: no-repeat !important;
-    height: 60vh !important;
-}
 
 
 .resume .resume-tweaks{
@@ -2997,19 +2849,6 @@ font-style: italic !important;
 
 
 
-.home-hero-text-block {
-    /* display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-        padding: 30px; */
-        line-height: 1.3em;
-}
-
-.home-hero-text-block-02 h1{
-
-}
-
-
 
 .home-intro-container{
     height: 100%;
@@ -3048,11 +2887,11 @@ font-style: italic !important;
     z-index: 10;
 }
 
-#home-hero-opener .starburst-area {
+/* #home-hero-opener .starburst-area {
     margin: 0 10px 0 0 !important;
     width: fit-content;
     height: 50px;
-}
+} */
 
 .starburst-area img{
     max-height: 100%!important;
@@ -3119,31 +2958,6 @@ position: absolute;
 }
 
 
-/* .background-video-03{
-    position: absolute;
-    bottom:   -15%;
-    right:  -15%;
-    z-index: 0;
-    opacity: 1;
-
-}
-
-
-
-.background-video-03 video{
-    width: 100%!important;
-}
- */
-
-
-
-
-
-/* .background-video-02 img{
-    height: 200px;
-} */
-
-
 
 /* Styling for the content overlapping the video */
 .video-background-content {
@@ -3166,11 +2980,6 @@ position: absolute;
 
 .about-venn img{
     max-width: 80%;
-}
-
-
-.contact #home-hero-opener {
-    background: #000 url(images/m3-orange-bgs/zurich-airport.jpg);
 }
 
 
@@ -3998,10 +3807,6 @@ header nav.navbar{
                     margin-right: 0px;
                     }
 
-                .video-background-container, #home-hero-opener{
-                    /* height: 80vh; */
-                }
-
 
 
 
@@ -4436,8 +4241,6 @@ nav.navbar.bootsnav li.dropdown .menu-back-div > ul {
 
 .home #home-hero-opener {
     overflow: hidden !important;
-    /* background-color: #01344a !important; */
-    background-color: #000 !important;
 }
 
 .home .floating-blob{    

@@ -1,23 +1,58 @@
-    <section class="fullwidth-musicasa-demo">
-        <div class="container">
-            <div class="row" style="justify-content: center;">
-                <div class="col col-12 col-lg-10">
-                    <div id="video-container-01" class="admin-01">
-                        <video id="bg-video" autoplay="autoplay" muted="muted" loop="loop" playsinline 
-                        poster="musicasa-demo-poster">
 
-                            <!-- ADD THE MATCHING ID HERE and leave src empty -->
-                            <source id="musicasa-demo" src="" type="video/mp4" class="mp4-here" >
-                        </video>
-                    </div>
-                    <div class="control-area"><!-- area-overlay-->
-                        <button id="play-pause-btn"><img src="<?= BASE_URL ?>images/video-controls/video-btn-pause.png"/></button>
-                        <div class="view-larger-link">
-                            <a href="" id="musicasa-demo-vimeo" target="_blank"> View in Vimeo <img src="<?= BASE_URL ?>images/arrow-view-website-black.svg" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
+
+<section>
+    <div class="container">
+        <div class="row musicasa-hero-video">
+            <div class="col col-12 col-lg-8 offset-lg-2">
+                <div id="video-container"></div>
+                <video autoplay="autoplay" muted="muted" loop="loop" playsinline>
+                        <source src="https://m3orange.com/portfolio/portfolio-assets/videos/musicasa-demo-260519_1336.mp4" type="video/mp4">
+                </video>
             </div>
         </div>
-    </section>
+    </div>
+</section>  
+
+<style>
+
+        .musicasa-hero-video  #video-container{
+        width: 100%;
+        height: 100%;
+            /*  aspect-ratio: 2/1.2; Needs a height. Otherwise it's collapsed. */
+        background-color: transparent;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("https://m3orange.com/portfolio/portfolio-assets/videos/musicasa-demo-260519_1336.mp4");
+
+
+
+    }
+
+        video{
+        /* position: absolute; */
+            position: relative;
+        top: 0;
+        left: 0;
+        z-index: 5;
+        /* width: 100%;
+        height: 100%; It was stretching almost to viewport's edges. */ 
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+
+    }
+
+
+    .musicasa-hero-video video{
+        width: 100%;
+
+    }
+
+
+
+</style>

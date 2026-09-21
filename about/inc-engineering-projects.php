@@ -8,8 +8,8 @@
                 <!-- Left Block ---->
                 <div class="col col-12 col-xl-7 col-lg-6 text-center sm-margin-35px-bottom wow animate__fadeIn"
                     style="visibility: visible; animation-name: fadeIn;">
-                    <video autoplay loop muted playsinline class="hero-video-cb">
-                        <source src="<?= BASE_URL ?>projects/design-to-code/working-in-vuetify.mp4" type="video/mp4">
+                    <video autoplay loop muted playsinline class="hero-video-cb must-be-confidential">
+                        <source src="http://www.m3orange.com/portfolio/portfolio-assets/videos/about/working-in-vuetify.mp4" type="video/mp4">
                     </video>
 
 
@@ -53,7 +53,7 @@
             <div class="col-12 col-xl-7 col-lg-6 text-center sm-margin-35px-bottom wow animate__fadeIn"
                 style="visibility: visible; animation-name: fadeIn;">
                 <video autoplay loop muted playsinline class="hero-video-cb">
-                    <source src="<?= BASE_URL ?>projects/design-to-code/backlight-demo.mp4" type="video/mp4">
+                    <source src="http://www.m3orange.com/portfolio/portfolio-assets/videos/about/backlight-demo.mp4" type="video/mp4">
                 </video>
                 <!-- <div class="captions">Backlight repo integrated with Storybook</div> -->
             </div>
@@ -70,8 +70,8 @@
             <!-- Left Block ---->
             <div class="col-12 col-xl-7 col-lg-6 text-center sm-margin-35px-bottom wow animate__fadeIn"
                 style="visibility: visible; animation-name: fadeIn;">
-                <video autoplay loop muted playsinline class="hero-video-cb">
-                    <source src="<?= BASE_URL ?>projects/design-to-code/vantor-vuetify-poc.mp4" type="video/mp4">
+                <video autoplay loop muted playsinline class="hero-video-cb must-be-confidential">
+                    <source src="http://www.m3orange.com/portfolio/portfolio-assets/videos/about/vantor-vuetify-poc.mp4" type="video/mp4">
                 </video>
             </div>
 
@@ -106,11 +106,11 @@
                     <li class="grid-sizer"></li>
 
                     <li class="grid-item grid-item-double wow"> <!--grid-item-double-->
-                        <a href="<?= BASE_URL ?>projects/design-to-code/45-days-milestone-roadmap@0.5x.png"
+                        <a href="<?= BASE_URL ?>about/45-days-milestone-roadmap@0.5x.png"
                             class="lightbox-group-gallery-item">
                             <figure>
-                                <div class="portfolio-img bg-extra-dark-gray">
-                                    <img src="<?= BASE_URL ?>projects/design-to-code/45-days-milestone-roadmap@0.5x-thumb.png"
+                                <div class="portfolio-img bg-extra-dark-gray must-be-confidential">
+                                    <img src="<?= BASE_URL ?>about/45-days-milestone-roadmap@0.5x-thumb.png"
                                         class="project-img-gallery" />
                                 </div>
                                 <figcaption>

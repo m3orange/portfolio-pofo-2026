@@ -1,0 +1,22 @@
+      
+      
+      
+      
+      .must-be-confidential{
+        border: 2px solid aqua;
+      }
+
+      .remove-lightbox{
+
+      }
+
+       .remove-lightbox::before{
+content: 'Remove lightbox view';
+    color: #000000;
+    background-color: rgb(3 255 255);
+    padding: 10px 10px;
+    position: relative;
+    /* top: -10px; */
+    z-index: 10000;
+    font-size: 14px;
+       }
