@@ -1,6 +1,6 @@
 
 
-<?php include ROOT_PATH . 'delete-later/sticky-nav.php'; ?>
+
 
 <!-- start footer --> 
 <footer class="footer-strip-dark bg-extra-dark-gray padding-100px-top">

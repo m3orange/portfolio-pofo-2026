@@ -7,17 +7,14 @@ iFrame Only:  https://codyhouse.co/app/components/demo/demo-mega-site-navigation
 
 
 
+        <?php include ROOT_PATH . 'includes/media-queries-guide.php'; ?>
 
-<?php include ROOT_PATH . 'delete-later/media-queries-guide.php'; ?>
-
-      <!-- Begin: Mega Menu-->
+     
       <header class="mega-nav mega-nav--desktop@md position-relative js-mega-nav mega-nav--desktop backdrop-blur-10 m3-tweaks" class="js" data-theme="dark">
-
         <!--
         To activate hover again, add data-hover="on" in the header tag: 
         <header class="mega-nav mega-nav--desktop@md position-relative js-mega-nav mega-nav--desktop m3-tweaks" data-hover="on" class="js" data-theme="dark"></header>
         -->
-
         <nav class="navbar bg-transparent navbar-top navbar-transparent-no-sticky full-width-pull-menu white-link no-transition">
             <div class="mega-nav__container">
             

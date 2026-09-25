@@ -16,7 +16,7 @@
     <link rel="shortcut icon" href="<?= BASE_URL ?>images/favicons/favicon.png">
     <link rel="apple-touch-icon" href="<?= BASE_URL ?>images/favicons/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="72x72" href="<?= BASE_URL ?>images/favicons/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="<?= BASE_URL ?>images/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="<?= BASE_URL ?>images/favicons/apple-touch-icon-114x114.png">    
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
@@ -34,6 +34,7 @@ Cleaning up. Soon will eliminate these.
 
     <!-- Begin: Mega Menu-->
     <link rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/reset.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/typography.css">
     <link id="cd-base-part-1" rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/icons.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/mega-site-navigation.css">
     <noscript><link rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/mega-site-navigation-downloaded.css"></noscript>
@@ -79,14 +80,16 @@ Cleaning up. Soon will eliminate these.
             <script src="js/html5shiv.js"></script>
         <![endif]-->
 
-    <link rel="stylesheet" href="<?= BASE_URL ?>_atyp-display.css" /> 
-    <link rel="stylesheet" href="<?= BASE_URL ?>___mega-menu-styles.css" /> 
-    <link rel="stylesheet" href="<?= BASE_URL ?>__video-embeds.css" /> 
+    <link rel="stylesheet" href="<?= BASE_URL ?>_atyp-display.css?v=0818" /> 
+    <link rel="stylesheet" href="<?= BASE_URL ?>___mega-menu-styles.css?v=0818" /> 
+    <link rel="stylesheet" href="<?= BASE_URL ?>__video-embeds.css?v=0818" /> 
 
-
-    <link rel="stylesheet" href="<?= BASE_URL ?>_guides-02.css?v=342" /> 
-    <link rel="stylesheet" href="<?= BASE_URL ?>_style-overwrites.css?v=2523" />
-    <link rel="stylesheet" href="<?= BASE_URL ?>__mobile-overwrites.css?v=524" />
+<!-- 
+    <link rel="stylesheet" href="<?= BASE_URL ?>_guides-02.css?v=0818" /> 
+-->
+    
+    <link rel="stylesheet" href="<?= BASE_URL ?>_style-overwrites.css?v=0818" />
+    <link rel="stylesheet" href="<?= BASE_URL ?>__mobile-overwrites.css?v=0818" />
 
 
     <!--?php include ROOT_PATH . 'includes/loading-bar.php'; ?-->

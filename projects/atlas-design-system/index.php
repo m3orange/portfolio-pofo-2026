@@ -93,6 +93,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     </section>
   </div>
 
+  
 
   <div id="anchor-02"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
     <div class="anchor-links">

@@ -18,9 +18,6 @@ const videoLinks = {
 "space-scout-cityscapes": "https://m3orange.com/portfolio/portfolio-assets/videos/space-scout-city-sequence.mp4",
 "space-scout-cityscapes-poster": "https://m3orange.com/portfolio/portfolio-assets/videos/space-scout-city-sequence-poster.png",
 "space-scout-cityscapes-vimeo" :"https://vimeo.com/1224471912",
-"space-scout-walkthrough": "https://m3orange.com/portfolio/portfolio-assets/videos/space-scout-walkthrough.mp4",
-"space-scout-walkthrough-poster": "https://m3orange.com/portfolio/portfolio-assets/videos/space-scout-walkthrough-poster.jpg",
-"space-scout-walkthrough-vimeo":  "NEED TO RECORD AGAIN",
 "map-tools-demo-light": "https://m3orange.com/portfolio/portfolio-assets/videos/map-tools-demo-light.mp4",
 "map-tools-demo-light-poster": "https://m3orange.com/portfolio/portfolio-assets/videos/map-tools-demo-light-poster.jpg",
 "map-tools-demo-light-vimeo" :"https://vimeo.com/1224455245",
@@ -34,6 +31,12 @@ const videoLinks = {
 };
 
 // JS that makes play/pause button work is in the pagination include
+
+// Add these:
+
+// "space-scout-walkthrough": "https://m3orange.com/portfolio/portfolio-assets/videos/space-scout-walkthrough.mp4",
+// "space-scout-walkthrough-poster": "https://m3orange.com/portfolio/portfolio-assets/videos/space-scout-walkthrough-poster.jpg",
+// "space-scout-walkthrough-vimeo":  "NEED TO RECORD AGAIN",
 
 
 // This automatically injects the links wherever they belong when a page loads

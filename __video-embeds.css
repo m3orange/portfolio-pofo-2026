@@ -37,7 +37,7 @@ align-items: center;
     padding: 0px!important;
 }
 
-.admin #block-intro-slider video { max-width: 70% !important;}
+/* .admin #block-intro-slider video { max-width: 70% !important;} */
 
 
 
@@ -46,15 +46,14 @@ align-items: center;
     height: 70vh;
 }
 
-
-.citybox #block-intro-slider{
-    height: 80vh;
-    background-color: #0f1645!important;
+.citybox #block-intro-slider {
+    height: 85vh;
+    background-color: #0d1445!important;
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
-
+    justify-content: flex-end;
+    /* padding: 80px; */
 }
 
             @media (max-width: 991px) {

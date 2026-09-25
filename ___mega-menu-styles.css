@@ -69,38 +69,33 @@ font-weight: 500!important;
 
  
 
-/*
+/* Original Dropdown: */
 
-Original Dropdown:
-
-
-
-/*
 .mega-nav--desktop .mega-nav__sub-nav--layout-3 {
 display: grid;
 gap: 18px;
 grid-template-columns: repeat(8, 1fr);
 max-width: 50%;
-
-}
-*/
-
-
-
-.mega-nav--desktop .mega-nav__sub-nav--layout-3{
-    display: flex!important;
-    flex-direction: row!important;
 }
 
-.mega-nav--mobile .mega-nav__sub-nav--layout-3{
-    padding-top: var(--space-md);
-    display: flex!important;
-    flex-direction: row!important;
-    gap: var(--space-md);
-    /* grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)) 
-   auto add new cols  */
-}
-*/
+
+        /*
+
+        .mega-nav--desktop .mega-nav__sub-nav--layout-3{
+            display: flex!important;
+            flex-direction: row!important;
+        }
+
+        .mega-nav--mobile .mega-nav__sub-nav--layout-3{
+            padding-top: var(--space-md);
+            display: flex!important;
+            flex-direction: row!important;
+            gap: var(--space-md);
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)) 
+        auto add new cols  
+        }
+        */
+
 
 .mega-nav--desktop .mega-nav__sub-nav {
 /* max-width: var(--mega-nav-content-max-width); */

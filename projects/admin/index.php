@@ -41,6 +41,7 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
     <?php include ROOT_PATH . 'projects/videos/video-embed-admin.php'; ?>
 
     <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
+    
 
 
     <div id="anchor-01" class="anchor-wrapper"><!---@@@@---| Anchor | ---@@@@-->
