@@ -20,13 +20,13 @@
     <section class="wow fadeIn section-with-border-top">
       <div class="container">
         <div class="row">
-          <div class="col col-12 col-lg-4 section-divider-numbered-02" style="flex-direction: column;">
+          <div class="col col-12 col-xl-4 col-lg-12 section-divider-numbered-02" style="flex-direction: column;">
             <div class="big-number">02</div>
             <div class="big-section-title">
               <h4>Where I Shine</h4>
             </div>
           </div>
-          <div class="col col-12 col-lg-8 p-0">
+          <div class="col col-12 col-xl-8 col-lg-12 p-0">
             <div class="home-strong-areas-tabs tab-content">
               <div id="tab3_sec1" class="tab-pane active show ">
                 <div class="col col-12 wow fadeIn" data-wow-delay="0s">

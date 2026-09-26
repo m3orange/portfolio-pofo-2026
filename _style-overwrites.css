@@ -5,6 +5,9 @@
 260908_2237 - All fixed. Continuing.
 */
 
+
+
+
 @charset "utf-8";
 
 /* Extra Large / Large Desktops. */
@@ -176,6 +179,40 @@ header nav.navbar-default, nav.navbar.bootsnav {
 }
     ----*/
 
+
+
+    /* 
+   Setup:
+    https://developers.google.com/fonts/docs/material_icons#setup_method_1_using_via_google_fonts
+
+    Search icons:
+    https://fonts.google.com/icons
+
+    */
+    .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+        /* Support for all WebKit browsers. */
+        -webkit-font-smoothing: antialiased;
+        /* Support for Safari and Chrome. */
+        text-rendering: optimizeLegibility;
+
+        /* Support for Firefox. */
+        -moz-osx-font-smoothing: grayscale;
+
+        /* Support for IE. */
+        font-feature-settings: 'liga';
+    }
 
 
 header nav.navbar-default,

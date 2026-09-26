@@ -35,23 +35,13 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
 
 <body class="idd">
 
-    <!-- start header -->
+
      <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
-    <!-- end header -->
 
-    <section id="block-intro-slider" class="p-0">
-        <div class="container">
-            <div class="row idd-hero-video">
-                <div class="col col-12 col-lg-8 offset-lg-2">
-                    <div class="video-pending">Pending</div>
-                </div>
-            </div>
-        </div>
-    </section>  
+    <?php include ROOT_PATH . 'projects/videos/video-embed-idd.php'; ?>
 
-    <!-- start product information section -->
     <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
-    <!-- end product information section -->
+
 
 
   <div id="anchor-01"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->

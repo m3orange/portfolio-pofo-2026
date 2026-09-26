@@ -3,6 +3,9 @@ const videoLinks = {
 "citybox-laptop": "https://m3orange.com/portfolio/portfolio-assets/videos/citybox-screens-in-laptop.mp4",
 "citybox-laptop-poster": "https://m3orange.com/portfolio/portfolio-assets/videos/citybox-screens-in-laptop-poster.jpg",
 "citybox-laptop-vimeo": "https://vimeo.com/1224453001",
+"atlas-ui-animation": "http://www.m3orange.com/portfolio/portfolio-assets/videos/atlas-ui-animation.mp4",
+"atlas-ui-animation-poster": "https://m3orange.com/portfolio/portfolio-assets/videos/atlas-ui-animation-poster.jpg",
+"atlas-ui-animation-vimeo": "https://vimeo.com/1230289562",
 "citybox-microsite": "https://m3orange.com/portfolio/portfolio-assets/videos/atlas-ds-microsite-walkthrough-1300px.gif",
 // Poster: Null
 // Vimeo link: Null

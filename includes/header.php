@@ -7,6 +7,7 @@
     <!-- title -->
     <title>Michelle Muñoz | Senior Product Designer in San Juan, Puerto Rico. | UX/UI + UX Engineering</title>
     <meta charset="utf-8">
+    <meta name="robots" content="noindex">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=5" />
 
@@ -23,7 +24,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=keyboard_double_arrow_right" />
 
     <!--
-Cleaning up. Soon will eliminate these.
+    Cleaning up. Soon will eliminate these.
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
     <link rel="stylesheet" href="<?= BASE_URL ?>css/et-line-icons.css" />
@@ -84,9 +85,11 @@ Cleaning up. Soon will eliminate these.
     <link rel="stylesheet" href="<?= BASE_URL ?>___mega-menu-styles.css?v=0818" /> 
     <link rel="stylesheet" href="<?= BASE_URL ?>__video-embeds.css?v=0818" /> 
 
-<!-- 
+
+    <script src="<?= BASE_URL ?>js/email-obfuscation.js" defer></script>
+    <!-- 
     <link rel="stylesheet" href="<?= BASE_URL ?>_guides-02.css?v=0818" /> 
--->
+    -->
     
     <link rel="stylesheet" href="<?= BASE_URL ?>_style-overwrites.css?v=0818" />
     <link rel="stylesheet" href="<?= BASE_URL ?>__mobile-overwrites.css?v=0818" />

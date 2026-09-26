@@ -17,7 +17,22 @@
 
     <div class="home-grid-top">
       <div class="text-block-01">M. Architecture • MFA Design</div>
-      <div class="text-block-02">hello@michellemunoz.info</div>
+      <div class="text-block-02">
+        <a href="#Contact" rel="nofollow ugc">hello@michellemunoz.design</a>
+<script>
+    function OpenMail()
+  {
+     var name = "hello";
+     var at = "@";
+     var domain = "michellemunoz";
+     var dot = ".";
+     var tld = "design";
+     var address = name + at + domain + dot + tld;
+     location.href = "mailto:" + address;
+  }
+</script>
+
+      </div>
     </div>
 
     <div class="home-grid-bottom">
