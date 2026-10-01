@@ -80,6 +80,10 @@
     </script>
 
 
+<!-- Used by preline mega menu
+   <script src="<?= BASE_URL ?>preline-mega-menu/hs-unavailable-color-themes.js"></script>
+  <script src="<?= BASE_URL ?>preline-mega-menu/rendered.js"></script>
+-->
 
     <!-- start scroll to top -->
     <a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>

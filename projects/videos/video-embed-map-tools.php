@@ -76,4 +76,8 @@
   .map-tools-hero-video-02  #video-container{
     background-image: url("https://m3orange.com/portfolio/portfolio-assets/videos/map-tools-demo-dark.webm"); 
   }
+
+.all-video-items video{
+    aspect-ratio: 3 / 2.1;
+  }
 </style>

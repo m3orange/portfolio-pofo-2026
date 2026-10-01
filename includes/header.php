@@ -61,7 +61,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>     
 
 
-<!-- Needed by Bootstrap tooltips - End -->
+    <!-- Needed by preline mega menu-->
+
+  <link rel="stylesheet" href="<?= BASE_URL ?>preline-mega-menu/main.min.css">
+
+
+
+
+    <!-- Needed by Bootstrap tooltips - End -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

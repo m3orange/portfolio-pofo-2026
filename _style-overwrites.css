@@ -3293,6 +3293,10 @@ position: absolute;
     color: #000 !important;
 }
 
+.rsm-item-bullets ul{
+    list-style-type: disc;
+}
+
 
 
 

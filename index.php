@@ -8,8 +8,9 @@
 <body class="home">
 
 
-    <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
+    <!--?php include ROOT_PATH . 'includes/preline-mega-menu.php'; ?-->
 
+    <?php include ROOT_PATH . 'includes/global-nav.php'; ?>
 
     <?php include ROOT_PATH . 'home/home-hero-opener-with-video.php'; ?>
 
