@@ -40,6 +40,12 @@
     <link rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/mega-site-navigation.css">
     <noscript><link rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/mega-site-navigation-downloaded.css"></noscript>
 
+
+
+    <link rel="stylesheet" href="<?= BASE_URL ?>side-nav-toc/site.css" />
+    <script src="<?= BASE_URL ?>side-nav-toc/script.js" defer></script>
+
+
     <!-- 260908_2223 - This is the file that was breaking index. Cannot place it after Pofo's main CSS files, or otherwise the util.css replaces Pofo's.-->
     <link id="cd-cdf-util" rel="stylesheet" href="<?= BASE_URL ?>mega-menu-codyhouse/util.css">
     <!-- End: Mega Menu-->
@@ -93,8 +99,9 @@
     <link rel="stylesheet" href="<?= BASE_URL ?>__video-embeds.css?v=0818" /> 
 
 
-    <script src="<?= BASE_URL ?>js/email-obfuscation.js" defer></script>
+
     <!-- 
+        <script src="<?= BASE_URL ?>js/email-obfuscation.js" defer></script>
     <link rel="stylesheet" href="<?= BASE_URL ?>_guides-02.css?v=0818" /> 
     -->
     

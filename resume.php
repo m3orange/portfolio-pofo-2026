@@ -37,6 +37,8 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     </section>
 
+    
+
 <div id="anchor-00" class="anchor-wrapper">
     <section id="resume-01" class="wow fadeIn section-with-border-top">
         <div class="container">
@@ -277,6 +279,7 @@ $education = $stmt->fetchAll(PDO::FETCH_ASSOC);
         </div>
     </section>
 </div>
+
 
 <div id="anchor-02" class="anchor-wrapper">
     <section id="resume-02" class="wow fadeIn section-with-border-top">

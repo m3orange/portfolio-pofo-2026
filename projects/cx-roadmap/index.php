@@ -52,6 +52,7 @@ $slideshow = getAssets($pdo, 1, 'slideshow');
     <?php include ROOT_PATH . 'projects/description-intro-global.php'; ?>
     <!-- end product information section -->
 
+    
 
   <div id="anchor-01" class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
     <div class="anchor-links"><!--anchor-white anchor-no-border-->

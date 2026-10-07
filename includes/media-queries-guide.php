@@ -1,3 +1,5 @@
+<!-- Media queries widget ----- Begin ------>
+
 
 <div class="media-queries-object">
     <div class="media-queries-guide"></div>
@@ -127,3 +129,6 @@ Vertical is Orange
 
 
 </style>
+
+
+<!-- Media queries widget ----- End ------>

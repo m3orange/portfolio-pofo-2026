@@ -7,7 +7,7 @@ iFrame Only:  https://codyhouse.co/app/components/demo/demo-mega-site-navigation
 
 
 
-        <?php include ROOT_PATH . 'includes/media-queries-guide.php'; ?>
+        <!--?php include ROOT_PATH . 'includes/media-queries-guide.php'; ?-->
 
      
       <header class="mega-nav mega-nav--desktop@md position-relative js-mega-nav mega-nav--desktop backdrop-blur-10 m3-tweaks" class="js" data-theme="dark">
@@ -62,11 +62,11 @@ iFrame Only:  https://codyhouse.co/app/components/demo/demo-mega-site-navigation
                             </button>
                                 <!-- Mega Menu: Dropdown -->
                                 <div class="mega-nav__sub-nav-wrapper">
-                                    <div class="aligning-to-right">
+
                                         <div class="mega-nav__sub-nav mega-nav__sub-nav--layout-3">
                                             <?php include ROOT_PATH . 'includes/global-nav-menu-card.php'; ?>
                                         </div>
-                                    </div>
+
                                 </div><!-- End: mega-nav__sub-nav-wrapper -->
                             </li><!--mega-nav__item js-mega-nav__item-->
 

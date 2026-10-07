@@ -1,0 +1,1420 @@
+/* ==========================================================================
+   Curtis Floth — site stylesheet
+
+   One file, in four parts:
+
+     0. Fonts       Self-hosted @font-face declarations. No third-party font
+                    CDN is contacted at page load (GDPR: no visitor IP leaves
+                    the origin). Files live in assets/fonts/.
+     1. Theme       Palette primitives and the semantic tokens built from
+                    them. The only place raw colour values appear.
+     2. Foundation  Reset, type scale, spacing, base elements, then every
+                    component: header, hero, bento grids, lightbox, footer.
+     3. Case study  Content styles scoped to the article body.
+
+   Parts 2 and 3 reach for colour only through the tokens in part 1 — there
+   should be no raw hex below the theme block. Values trace to
+   "design colors.md".
+   ========================================================================== */
+
+/* ==========================================================================
+   0. FONTS
+   Mona Sans and Plus Jakarta Sans, self-hosted from assets/fonts/ as variable
+   woff2. Latin and Latin Extended only; the Vietnamese and Cyrillic subsets
+   Google serves are not shipped. Axes match the original Google Fonts request:
+   Mona Sans wdth 75-125 / wght 200-900, Plus Jakarta Sans wght 300-800, both
+   with a true italic. Regenerate by re-downloading from Google Fonts, not by
+   hand-editing the src paths.
+   ========================================================================== */
+
+
+
+
+/* Text link with animated underline */
+.link-arrow {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-8);
+  font-weight: var(--weight-semibold);
+  font-size: var(--text-body-sm);
+  color: var(--accent-text);
+  text-decoration: none;
+  padding-block: var(--space-4);
+  position: relative;
+}
+.link-arrow::after {
+  content: "";
+  position: absolute;
+  left: 0; bottom: 0;
+  width: 100%; height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform var(--dur-mid) var(--ease-out);
+}
+.link-arrow:hover::after { transform: scaleX(1); transform-origin: left; }
+.link-arrow svg { transition: transform var(--dur-mid) var(--ease-out); }
+.link-arrow:hover svg { transform: translateX(4px); }
+
+/* --- Header --------------------------------------------------------------- */
+
+.header {
+  position: fixed;
+  inset-block-start: 0;
+  inset-inline: 0;
+  z-index: var(--z-header);
+  /* Blur is always on, the way BetterUp's header behaves — only the tint and
+     the bottom rule change once you leave the hero. */
+  -webkit-backdrop-filter: blur(7.5px);
+  backdrop-filter: blur(7.5px);
+  transition:
+    background-color var(--dur-mid) var(--ease-out),
+    border-color var(--dur-mid) var(--ease-out);
+  border-bottom: 1px solid transparent;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-24);
+  min-height: var(--header-h);
+}
+
+/* Over the dark hero, before scroll. The bottom rule uses the same colour as
+   the hero panel's right edge so the two read as one frame. */
+.header[data-state="top"] {
+  background: var(--header-bg-top);
+  border-bottom-color: var(--hero-panel-border);
+}
+.header[data-state="top"] .header__link,
+.header[data-state="top"] .wordmark,
+.header[data-state="top"] .nav__toggle {
+  color: var(--hero-text);
+}
+/* Over the hero the base hover fill (--surface-hover, a near-white neutral)
+   would put white text on a white pill. Drop the fill and mark hover with an
+   inset ring instead — inset so it costs no layout, unlike a real border on an
+   element that has none at rest. */
+.header[data-state="top"] .header__link:hover {
+  color: var(--hero-heading);
+  background: transparent;
+  box-shadow: inset 0 0 0 1px var(--header-cta-border);
+}
+
+/* After scroll */
+.header[data-state="scrolled"] {
+  background: var(--header-bg);
+  border-bottom-color: var(--border-subtle);
+  -webkit-backdrop-filter: saturate(180%) blur(14px);
+  backdrop-filter: saturate(180%) blur(14px);
+}
+
+/* Without backdrop-filter the top state would be a bare transparent strip over
+   the photograph, so fall back to an opaque bar. */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .header[data-state="top"] { background: var(--header-bg-top-solid); }
+}
+
+
+
+/* --- Featured design work --------------------------------------------------
+   A two-up strip of framed screens that open in the lightbox. It reuses the
+   case study figure's 12px mat and hairline deliberately: an image should read
+   as the same object here as it does inside an article, so the only difference
+   is that these sit in a grid instead of a text column.
+
+   The zoom affordance — the corner badge and the button wrapping the image —
+   is not styled here. site.js wraps any figure[data-zoom] in .figure__zoom,
+   which already carries it, so this block only owns the frame and the grid.
+   -------------------------------------------------------------------------- */
+
+.featured__grid {
+  display: grid;
+  gap: var(--space-40);
+}
+
+/* Two-up from 768px. Below that the screens are stacked at full width — these
+   are dense dashboards, and half a phone's width renders them unreadable,
+   which defeats the point of showing them without a click. */
+@media (min-width: 768px) {
+  .featured__grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Matches .prose figure, minus its margin-block: the grid gap owns the spacing
+   between these, so the figure must not add its own. */
+.featured__figure {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 12px;
+  border: 1px solid var(--border-subtle);
+  border-radius: 0;
+  background: transparent;
+  transition: border-color var(--dur-fast) var(--ease-out);
+}
+
+/* The frame picks up the same accent edge the zoom badge does, so hovering
+   anywhere over the figure signals the whole thing is one target. */
+.featured__figure:hover,
+.featured__figure:focus-within {
+  border-color: var(--border-strong);
+}
+
+.featured__figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 0;
+  border-radius: 0;
+}
+
+.featured__caption {
+  margin-top: var(--space-16);
+  font-size: var(--text-label);
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+/* The screen's name, set in the ink token so the caption reads as a label
+   followed by its explanation rather than one undifferentiated grey run.
+   Deliberately inline, not a block: the lightbox reads the figcaption with
+   textContent, so a stacked label would run straight into the sentence under
+   it once enlarged. The em dash in the markup is what separates the two, and
+   it has to be real text for that reason — not a ::before on this rule. */
+.featured__caption strong {
+  font-weight: var(--weight-semibold);
+  color: var(--text-heading);
+}
+
+/* --- Bento lattice -------------------------------------------------------- */
+
+/* Rules are drawn as cell borders rather than as coloured grid gaps. A gap-based
+   lattice paints the container colour into empty grid areas, so a row that is
+   not completely filled — 4 cards in a 3-up grid, 5 in a 2-up — shows a solid
+   block where a cell should be. Each cell owning its own top and left rule
+   means a ragged last row just ends, which is what a template needs. */
+.bento {
+  display: grid;
+  border-block: 1px solid var(--border-subtle);
+}
+
+.bento__cell {
+  /* Held in a variable because the work cards' image bleed has to cancel this
+     exact value with negative margins — one source, so they cannot drift. */
+  --cell-pad: clamp(1.75rem, 1.1rem + 2.2vw, 2.75rem);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: var(--cell-pad);
+  transition: background-color var(--dur-mid) var(--ease-out);
+}
+
+/* Single column: every cell after the first gets a rule above it. */
+.bento__cell + .bento__cell { border-top: 1px solid var(--border-subtle); }
+
+/* --- Case study cells ----------------------------------------------------- */
+
+/* Every cell is identical, so the section takes 2, 4, 6 or more without any
+   per-card classes. These blocks only set the column count — the cards carry
+   no hairlines, so there is no nth-child border maths to keep in step. */
+@media (min-width: 640px) {
+  .bento--work { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 980px) {
+  .bento--work { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* --- Case studies as cards -------------------------------------------------
+   Each cell is a white card with its image bleeding to the top and side edges
+   and the copy padded below. The image sits in a .work-cell__figure wrapper
+   that escapes the cell's padding with negative margins. */
+
+/* The cards sit in the same hairline lattice as the other bento sections, but
+   closed on all four sides: the grid draws the box, each cell draws the rule
+   above it and to its left. Only the column count changes per breakpoint, so
+   each block restates the nth-child maths from scratch rather than layering
+   onto the last — the resets below are what keep 2-up rules out of the 3-up
+   lattice, since a min-width query never stops matching. */
+.bento--work {
+  /* The inset between a cell's rules and the card sitting in it. */
+  --work-frame: var(--space-20);
+  border: 1px solid var(--border-subtle);
+  gap: 0;
+}
+
+/* Cancels the single-column sibling rule above. Same specificity, so this has
+   to stay below it. */
+.bento--work > .bento__cell { border: 0; }
+
+/* The cell is a frame, not the card: it owns the lattice rules and holds the
+   card off them by --work-frame, and .work-cell inside it carries the surface,
+   the padding and the hover. This is why the rules cannot ride the article —
+   a card inset from the cell edge would draw them short of its neighbours'
+   and the lattice would not meet. --cell-pad is left alone so it still means
+   "the card's inner padding", which is what the image bleed cancels. */
+.bento--work > .bento__cell { padding: var(--work-frame); }
+
+/* One column: every card after the first takes a rule above it. */
+.bento--work > .bento__cell + .bento__cell { border-top: 1px solid var(--border-subtle); }
+
+/* Two columns: rules above from row 2 on, rules left down the second column. */
+@media (min-width: 640px) {
+  .bento--work > .bento__cell + .bento__cell { border-top: 0; }
+  .bento--work > .bento__cell:nth-child(n + 3) { border-top: 1px solid var(--border-subtle); }
+  .bento--work > .bento__cell:nth-child(2n) { border-left: 1px solid var(--border-subtle); }
+}
+
+/* Three columns: row 2 starts at the fourth card, and every card outside the
+   first column carries its own left rule. */
+@media (min-width: 980px) {
+  .bento--work > .bento__cell:nth-child(n + 3) { border-top: 0; }
+  .bento--work > .bento__cell:nth-child(n + 4) { border-top: 1px solid var(--border-subtle); }
+  .bento--work > .bento__cell:nth-child(2n) { border-left: 0; }
+  .bento--work > .bento__cell:not(:nth-child(3n + 1)) { border-left: 1px solid var(--border-subtle); }
+}
+
+.bento--work .work-cell {
+  /* The card's own box. It used to be the grid item itself, so it inherited
+     these from .bento__cell; inside a frame it has to state them. The title
+     link's ::after covers the card, so position:relative anchors it here
+     rather than to the frame, and flex:1 fills the cell so every card in a row
+     ends level regardless of how long its copy runs. */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: var(--cell-pad);
+  /* Flat navy wash over every image. The set is a mixed bag — near-black
+     renders beside bright UI screenshots — and a low-alpha dark tint pulls the
+     light ones down hard while barely moving the dark ones, which is what
+     makes the row read as a group. Raise for more, 0 to switch off. */
+  --media-wash: rgba(10, 13, 34, 0.14);
+  /* Hover pulls the wash almost off, so the image brightens into focus. */
+  --media-wash-hover: rgba(10, 13, 34, 0.05);
+  /* Lightest accent tint. --navy-100 was the brighter alternative but drops
+     the 12px stat labels to 3.31:1; this holds them at 4.76:1. */
+  --card-hover-bg: var(--accent-soft);
+  /* The tint is a background *image* layer, not a background-color, so it can
+     wipe: background-size is animatable where a colour is not, and a background
+     layer paints behind every child for free — a pseudo-element would need
+     z-index juggling on content that is mostly unpositioned. Sized to nothing
+     and pinned to the bottom edge, so hover grows it upward. */
+  background-color: var(--surface-raised);
+  background-image: linear-gradient(var(--card-hover-bg), var(--card-hover-bg));
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 100% 0;
+  overflow: hidden;
+  /* The wipe is all this element times. [data-reveal] sits on the frame around
+     it now, so the reveal's own transition shorthand can no longer land here
+     and clobber this one — which is what used to make the tint snap. */
+  transition: background-size var(--dur-mid) var(--ease-out);
+}
+
+/* Swap these two for `background-size: 100% 100%` at rest and a plain
+   background-color transition if the wipe ever reads as too much. */
+.bento--work .work-cell:hover,
+.bento--work .work-cell:focus-within {
+  background-size: 100% 100%;
+}
+
+/* Touches top, left and right; only the bottom keeps its gap to the copy.
+   Auto width plus negative inline margins is enough — no width calc, since the
+   wrapper stretches to the cell's content box and the margins push it out past
+   the padding from there. */
+.bento--work .work-cell__figure {
+  position: relative;
+  /* Clips the hover scale below. */
+  overflow: hidden;
+  margin-top: calc(-1 * var(--cell-pad));
+  margin-inline: calc(-1 * var(--cell-pad));
+  margin-bottom: var(--cell-pad);
+}
+
+/* The wash rides the wrapper rather than the card, so inset:0 tracks the image
+   at whatever aspect-ratio the base rule sets, and the card's own ::after stays
+   free. An <img> cannot carry a pseudo-element itself, which is the reason the
+   wrapper exists at all. */
+.bento--work .work-cell__figure::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--media-wash);
+  transition: background-color var(--dur-mid) var(--ease-out);
+  /* This paints over the title link's full-cell ::after, so clicks have to be
+     let through rather than swallowed. */
+  pointer-events: none;
+}
+
+/* Card hover. The arrow rules below already grow its underline and nudge its
+   chevron; the card itself carries the image scale and the wash lift.
+   focus-within keeps it reachable from the keyboard. */
+.bento--work .work-cell:hover .work-cell__media,
+.bento--work .work-cell:focus-within .work-cell__media {
+  transform: scale(1.04);
+}
+
+.bento--work .work-cell:hover .work-cell__figure::after,
+.bento--work .work-cell:focus-within .work-cell__figure::after {
+  background: var(--media-wash-hover);
+}
+
+/* The global reduced-motion block only zeroes durations, so the scale would
+   still land as an instant jump. Drop it outright, and let the wash and the
+   arrow carry the affordance on their own. */
+@media (prefers-reduced-motion: reduce) {
+  .bento--work .work-cell:hover .work-cell__media,
+  .bento--work .work-cell:focus-within .work-cell__media {
+    transform: none;
+  }
+}
+
+/* Title / subtitle. Both spans are required on every card — the h3 is the
+   whole heading and the two spans are its halves:
+
+     <h3 class="work-cell__title"><a href="...">
+       <span class="work-cell__name">Site Sentry</span>
+       <span class="work-cell__subtitle">validating a new ...</span>
+     </a></h3>
+
+   Omitting the subtitle does not fall back to anything; the card just renders
+   a bare name with no deck under it. */
+.bento--work .work-cell__title a { display: block; }
+.bento--work .work-cell__name { display: block; }
+
+.bento--work .work-cell__subtitle {
+  display: block;
+  margin-top: var(--space-8);
+  /* --text-h3 is clamp(step-2 -> step-3); --text-lead is clamp(step-1 ->
+     step-2), so it lands exactly one rung below the title at both ends of the
+     fluid range rather than only at one width. */
+  font-size: var(--text-lead);
+  /* The title is semibold, so dropping to regular carries the hierarchy at a
+     size gap this small — and keeps the pair reading as one heading. */
+  font-weight: var(--weight-regular);
+  line-height: 1.25;
+  letter-spacing: -0.008em;
+}
+
+/* One accent in an otherwise all-grey section, borrowing the pullquote's
+   language: the stats group's first rule, accented for its first 40px.
+   Anchored to the element that owns the border so it cannot drift. */
+.bento--work .work-cell__stat:first-child { position: relative; }
+.bento--work .work-cell__stat:first-child::before {
+  content: "";
+  position: absolute;
+  inset-block-start: -1px;
+  inset-inline-start: 0;
+  width: 2.5rem;
+  height: 1px;
+  background: var(--accent);
+}
+
+/* The title link covers the whole cell, so the "Read More" affordance is a
+   decorative span that has to react to the cell's hover, not its own. */
+.work-cell:hover .link-arrow::after { transform: scaleX(1); transform-origin: left; }
+.work-cell:hover .link-arrow svg { transform: translateX(4px); }
+
+/* A fixed ratio rather than the file's own, so swapping in images of different
+   dimensions can never leave the cells uneven — and it reserves the space up
+   front, so there is no shift as they load. */
+.work-cell__media {
+  /* display:block kills the inline descender space that would otherwise show
+     as a sliver of wrapper below the image — which the wash would then cover. */
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: var(--surface-sunken);
+  transition: transform var(--dur-slow) var(--ease-out);
+}
+
+.work-cell__title { margin-bottom: var(--space-16); }
+
+.work-cell__title a { text-decoration: none; color: inherit; }
+.work-cell__title a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.work-cell__body {
+  color: var(--text-muted);
+  font-size: var(--text-body-sm);
+  line-height: 1.7;
+  margin-bottom: var(--space-16);
+  max-width: 62ch;
+}
+
+/* One stat per row. Side-by-side columns forced long labels into three or four
+   cramped lines; a row lets the label wrap across the full cell width while the
+   value stays pinned right on the first line. */
+.work-cell__stats {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: var(--space-24);
+  padding-top: var(--space-8);
+}
+
+.work-cell__stat {
+  display: flex;
+  /* Centre, not baseline. Baseline pins the label's *first* line to the value's
+     only line, so the moment either side wraps the other hangs off the top —
+     most visibly when a two-line label sits beside a one-line figure. The two
+     are different sizes and different faces, so there is no shared baseline
+     worth preserving; what reads as aligned here is the pair centred on each
+     other. */
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-20);
+  padding-block: var(--space-12);
+  border-top: 1px solid var(--border-subtle);
+}
+
+.work-cell__stat dt {
+  font-size: var(--text-micro);   /* was 11px, off-ladder */
+  font-weight: var(--weight-semibold);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  line-height: 1.45;
+  min-width: 0;
+}
+
+/* Two things have to hold at once, and they pull against each other.
+
+   The figure must never wrap. Labels here run to 39 characters, so if the value
+   can shrink the flex algorithm hands the label its preferred width and breaks
+   "1.2M+" across two lines. Hence `flex-shrink: 0` — the value keeps its own
+   text width and the label, which is 12px and wraps gracefully, gives ground
+   first. That is the right order: a label reads fine on two lines, a display
+   figure does not.
+
+   But an over-long value must not crush the label to nothing either, which is
+   what plain `flex: none` allowed. `max-width` bounds it: under the cap the
+   value sits at its content width on one line, and only a value past the cap
+   wraps, inside its own column. The stat-value budget in AGENTS.md is what
+   keeps a value under the cap in the first place; this is the backstop. */
+.work-cell__stat dd {
+  margin: 0;
+  flex: 0 0 auto;
+  max-width: 60%;
+  text-align: right;
+  overflow-wrap: break-word;
+  font-family: var(--font-heading);
+  font-variation-settings: "wdth" var(--wdth-heading);
+  font-stretch: 87.5%;
+  font-size: var(--step-2);       /* was 26px, off-ladder */
+  font-weight: var(--weight-semibold);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--text-heading);
+  font-variant-numeric: tabular-nums;
+}
+
+/* --- AI section (always dark) --------------------------------------------- */
+
+.band-dark {
+  position: relative;
+  background: var(--dark-band-bg);
+  color: var(--on-dark-body);
+  overflow: hidden;
+  isolation: isolate;
+}
+
+/* The artwork covers the whole band, anchored bottom-right so the corner it is
+   composed around stays put and the crop comes off the top and left, which are
+   near-flat navy. It rides a layer of its own because opacity cannot be applied
+   to a background image on its own — set on the section it would take the copy
+   down with it. The band already carries `isolation: isolate`, so the negative
+   z-index stays inside the section instead of falling behind the page. */
+.band-dark::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: url("../ai_enabled_background.jpg") no-repeat right bottom / cover;
+  opacity: 0.36;
+  pointer-events: none;
+}
+
+.band-dark h2, .band-dark h3, .band-dark h4 { color: var(--on-dark-heading); }
+.band-dark .lead { color: var(--on-dark-body); }
+.band-dark .rule { background: var(--on-dark-border); }
+
+/* The rules close the group rather than each column: one across the top and one
+   across the bottom, so at 3-up they run the full width instead of breaking
+   into three short segments over the column gaps. The items keep their own
+   padding-top, which is what holds them off the top rule.
+
+   The blur is the reason the artwork can sit at full strength behind this band
+   — it softens the mesh where the copy runs without touching the corner the
+   image is composed around, which stays sharp outside the grid. */
+.ai__grid {
+  display: grid;
+  gap: var(--space-40);
+  margin-top: var(--space-64);
+  padding-inline: var(--space-32);
+  padding-bottom: var(--space-48);
+  border-block: 1px solid var(--on-dark-border);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+}
+
+@media (min-width: 900px) {
+  .ai__grid { grid-template-columns: repeat(3, 1fr); gap: var(--space-32); }
+}
+
+.ai__item {
+  padding-top: var(--space-32);
+}
+
+.ai__icon {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border-radius: 0;
+  background: var(--on-dark-surface);
+  border: 1px solid var(--on-dark-border);
+  color: var(--on-dark-accent);
+  margin-bottom: var(--space-24);
+}
+
+.ai__item h3 { margin-bottom: var(--space-16); }
+
+.ai__item p {
+  color: var(--on-dark-muted);
+  font-size: var(--text-body-sm);
+  line-height: 1.7;
+}
+
+/* The closing line is capped at 40ch, so a border-top on it only ever spanned
+   40ch. The rule lives on .ai__grid above instead, where it runs the full
+   container width. */
+.ai__closer {
+  margin-top: var(--space-48);
+  font-size: var(--text-lead);   /* one step down from h3 */
+  font-family: var(--font-heading);
+  font-variation-settings: "wdth" var(--wdth-heading);
+  font-stretch: 87.5%;
+  font-weight: var(--weight-semibold);
+  line-height: 1.25;
+  letter-spacing: -0.012em;
+  color: var(--on-dark-heading);
+  max-width: 40ch;
+}
+
+/* --- Process (sticky) ----------------------------------------------------- */
+
+.process__layout {
+  display: grid;
+  gap: var(--space-48);
+}
+
+@media (min-width: 1024px) {
+  .process__layout {
+    grid-template-columns: minmax(0, 380px) minmax(0, 1fr);
+    gap: var(--space-96);
+    align-items: start;
+  }
+  .process__aside {
+    position: sticky;
+    top: calc(var(--header-h) + var(--space-64));
+  }
+}
+
+.process__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.process__step {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--space-20);
+  padding-block: var(--space-32);
+  border-top: 1px solid var(--border-subtle);
+}
+.process__step:last-child { border-bottom: 1px solid var(--border-subtle); }
+
+@media (min-width: 640px) {
+  .process__step { gap: var(--space-40); padding-block: var(--space-40); }
+}
+
+.process__num {
+  font-family: var(--font-heading);
+  font-variation-settings: "wdth" var(--wdth-heading);
+  font-stretch: 87.5%;
+  font-size: var(--text-body);    /* was 16px, off-ladder */
+  font-weight: var(--weight-semibold);
+  color: var(--accent-text);
+  font-variant-numeric: tabular-nums;
+  padding-top: 0.35em;
+  min-width: 2.5ch;
+}
+
+.process__step h3 { margin-bottom: var(--space-12); }
+
+.process__step p {
+  color: var(--text-muted);
+  font-size: var(--text-body-sm);
+  line-height: 1.7;
+  max-width: 56ch;
+}
+
+/* --- Moments -------------------------------------------------------------- */
+
+@media (min-width: 760px) {
+  .bento--moments { grid-template-columns: repeat(2, 1fr); }
+  .bento--moments > .bento__cell { border-top: 0; }
+  .bento--moments > .bento__cell:nth-child(n + 3) { border-top: 1px solid var(--border-subtle); }
+  .bento--moments > .bento__cell:not(:nth-child(2n + 1)) { border-left: 1px solid var(--border-subtle); }
+}
+
+/* --- Testimonials --------------------------------------------------------- */
+
+@media (min-width: 900px) {
+  .bento--quotes { grid-template-columns: repeat(2, 1fr); }
+  .bento--quotes > .bento__cell { border-top: 0; }
+  .bento--quotes > .bento__cell:nth-child(n + 3) { border-top: 1px solid var(--border-subtle); }
+  .bento--quotes > .bento__cell:not(:nth-child(2n + 1)) { border-left: 1px solid var(--border-subtle); }
+}
+
+/* Each cell carries one accent from the palette. The colour appears three ways:
+   the oversized index, a rule along the top edge, and a wash on hover — so the
+   section gains colour without breaking the hairline language. */
+.moment-cell { --moment-accent: var(--accent); }
+.bento--moments > .moment-cell:nth-child(4n + 1) { --moment-accent: var(--moment-1); }
+.bento--moments > .moment-cell:nth-child(4n + 2) { --moment-accent: var(--moment-2); }
+.bento--moments > .moment-cell:nth-child(4n + 3) { --moment-accent: var(--moment-3); }
+.bento--moments > .moment-cell:nth-child(4n + 4) { --moment-accent: var(--moment-4); }
+
+/* Sits at -1px so it covers the cell's own hairline rather than doubling it.
+   At rest it is a short tick; on hover it runs the full width. */
+.moment-cell::before {
+  content: "";
+  position: absolute;
+  inset-block-start: -1px;
+  inset-inline-start: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--moment-accent);
+  transform: scaleX(0.09);
+  transform-origin: left;
+  transition: transform var(--dur-slow) var(--ease-out);
+}
+
+.moment-cell:hover::before { transform: scaleX(1); }
+.moment-cell:hover { background: var(--moment-wash); }
+
+/* Scoped through the parent on purpose: the index is a <p>, so the plain
+   .moment-cell__index class would lose to .moment-cell p below. */
+.moment-cell .moment-cell__index {
+  position: absolute;
+  inset-block-start: clamp(1.25rem, 0.8rem + 1.6vw, 2rem);
+  inset-inline-end: clamp(1.25rem, 0.8rem + 1.6vw, 2rem);
+  margin: 0;
+  font-family: var(--font-heading);
+  font-variation-settings: "wdth" var(--wdth-heading);
+  font-stretch: 87.5%;
+  font-size: var(--text-stat);    /* was 44->68px, off-ladder */
+  font-weight: var(--weight-bold);
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: var(--moment-accent);
+  opacity: 0.18;
+  font-variant-numeric: tabular-nums;
+  pointer-events: none;
+  transition: opacity var(--dur-mid) var(--ease-out);
+}
+
+.moment-cell:hover .moment-cell__index { opacity: 0.32; }
+
+/* Body copy only — the index is positioned out of flow above. */
+.moment-cell p:not(.moment-cell__index) { margin-top: 0; }
+
+/* Keep the heading clear of the numeral in the corner. */
+.moment-cell h3 {
+  margin-bottom: var(--space-16);
+  padding-inline-end: clamp(3rem, 2rem + 4vw, 5rem);
+}
+
+.moment-cell p {
+  color: var(--text-muted);
+  font-size: var(--text-body-sm);
+  line-height: 1.7;
+  max-width: 56ch;
+}
+
+/* --- Testimonials --------------------------------------------------------- */
+
+/* Editorial, not a card: the quote sets in the heading face against the page
+   itself, with the same hairline rules the rest of the page uses. No fill, no
+   radius, no oversized quote glyph, no circular avatar. */
+.quote {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote blockquote {
+  font-family: var(--font-heading);
+  font-variation-settings: "wdth" var(--wdth-heading);
+  font-stretch: 87.5%;
+  font-size: var(--text-lead);   /* one step down from h3 */
+  line-height: 1.42;
+  letter-spacing: -0.01em;
+  color: var(--text-heading);
+  font-weight: var(--weight-medium);
+  text-wrap: pretty;
+  margin-bottom: var(--space-40);
+  flex: 1;
+}
+
+.quote blockquote::before { content: "\201C"; }
+.quote blockquote::after { content: "\201D"; }
+
+.quote__person {
+  display: flex;
+  align-items: center;
+  gap: var(--space-16);
+  padding-top: var(--space-20);
+  border-top: 1px solid var(--border-strong);
+}
+
+.quote__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  object-fit: cover;
+  flex: none;
+  background: var(--surface-sunken);
+  filter: grayscale(1);
+}
+
+.quote__name {
+  font-weight: var(--weight-semibold);
+  color: var(--text-heading);
+  font-size: var(--text-body-sm);
+  line-height: 1.4;
+}
+
+.quote__role {
+  font-size: var(--text-label);
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+/* --- Career timeline ------------------------------------------------------ */
+
+.career__layout {
+  display: grid;
+  gap: var(--space-48);
+}
+
+@media (min-width: 1024px) {
+  .career__layout {
+    grid-template-columns: minmax(0, 380px) minmax(0, 1fr);
+    gap: var(--space-96);
+    align-items: start;
+  }
+  .career__aside { position: sticky; top: calc(var(--header-h) + var(--space-64)); }
+}
+
+.career__intro {
+  color: var(--text-muted);
+  font-size: var(--text-body-sm);
+  line-height: 1.75;
+  margin-top: var(--space-24);
+}
+
+.career__list { list-style: none; }
+
+.role {
+  display: grid;
+  gap: var(--space-8);
+  padding-block: var(--space-32);
+  border-top: 1px solid var(--border-subtle);
+  position: relative;
+}
+.role:last-child { border-bottom: 1px solid var(--border-subtle); }
+
+@media (min-width: 768px) {
+  .role {
+    grid-template-columns: minmax(0, 1fr) auto;
+    column-gap: var(--space-32);
+    align-items: baseline;
+  }
+  .role__desc { grid-column: 1 / -1; }
+}
+
+.role__title {
+  font-family: var(--font-heading);
+  font-variation-settings: "wdth" var(--wdth-heading);
+  font-stretch: 87.5%;
+  font-size: var(--text-h4);
+  font-weight: var(--weight-semibold);
+  color: var(--text-heading);
+  line-height: 1.3;
+  letter-spacing: -0.008em;
+}
+
+.role__dates {
+  font-size: var(--text-label);
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.role__desc {
+  color: var(--text-muted);
+  font-size: var(--text-body-sm);
+  line-height: 1.7;
+  max-width: 72ch;
+  margin-top: var(--space-8);
+}
+
+
+
+/* --- Case study page ------------------------------------------------------ */
+
+.progress {
+  position: fixed;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  height: 2px;
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: var(--accent-gradient);
+  z-index: calc(var(--z-header) + 1);
+  pointer-events: none;
+}
+
+.cs-hero {
+  position: relative;
+  padding-top: calc(var(--header-h) + var(--space-80));
+  padding-bottom: var(--space-64);
+  background: var(--dark-band-bg);
+  color: var(--on-dark-body);
+  overflow: hidden;
+  isolation: isolate;
+}
+
+
+.cs-hero__crumbs {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+  font-size: var(--text-label);
+  color: var(--on-dark-muted);
+  margin-bottom: var(--space-32);
+}
+.cs-hero__crumbs a { color: var(--on-dark-muted); text-decoration: none; }
+.cs-hero__crumbs a:hover { color: var(--on-dark-accent); }
+
+.cs-hero__title {
+  font-size: var(--text-h2);   /* one step down from h1 */
+  color: var(--on-dark-heading);
+  letter-spacing: -0.028em;
+  line-height: 1.05;
+  max-width: 20ch;
+  margin-bottom: var(--space-32);
+}
+
+/* Title / subtitle, matching the case study cards on the index. Both spans are
+   required — omitting the subtitle renders a bare name with no deck under it.
+   --text-h2 is clamp(step-3 -> step-6) and --text-h2-sub is clamp(step-2 ->
+   step-5), so the subtitle sits exactly one rung below the title at both ends
+   of the fluid range rather than only at one width. */
+.cs-hero__name { display: block; }
+
+.cs-hero__subtitle {
+  display: block;
+  margin-top: var(--space-12);
+  font-size: var(--text-h2-sub);
+  /* The title is semibold, so dropping to regular carries the hierarchy at a
+     size gap this small — and keeps the pair reading as one heading. */
+  font-weight: var(--weight-regular);
+  /* Both eased off the title's settings, which are tuned for the larger size. */
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.cs-hero__deck {
+  font-size: var(--text-h4);   /* one step down from lead */
+  line-height: 1.6;
+  color: var(--on-dark-body);
+  max-width: 62ch;
+}
+
+.cs-stats {
+  display: grid;
+  gap: var(--space-32);
+  margin-top: var(--space-64);
+  padding-top: var(--space-40);
+  border-top: 1px solid var(--on-dark-border);
+}
+
+@media (min-width: 768px) {
+  .cs-stats { grid-template-columns: repeat(3, 1fr); gap: var(--space-40); }
+}
+
+.cs-stats__value {
+  font-family: var(--font-heading);
+  font-variation-settings: "wdth" var(--wdth-heading);
+  font-stretch: 87.5%;
+  /* One rung under h2 — the same pair of steps .prose h2 uses. The two never
+     appear together, so sharing the rung costs no hierarchy. */
+  font-size: var(--text-h2-sub);
+  font-weight: var(--weight-semibold);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--on-dark-heading);
+  font-variant-numeric: tabular-nums;
+  margin-bottom: var(--space-12);
+}
+
+.cs-stats__label {
+  font-size: var(--text-body-sm);
+  color: var(--on-dark-muted);
+  line-height: 1.5;
+  max-width: 26ch;
+}
+
+
+
+
+/* Article body */
+.cs-body {
+  display: grid;
+  gap: var(--space-48);
+}
+
+@media (min-width: 1024px) {
+  .cs-body {
+    grid-template-columns: minmax(0, 220px) minmax(0, 1fr);
+    gap: var(--space-80);
+    align-items: start;
+  }
+  .cs-toc { position: sticky; top: calc(var(--header-h) + var(--space-48)); }
+}
+
+.cs-toc__title {
+  font-size: var(--text-label);
+  font-weight: var(--weight-semibold);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: var(--space-20);
+  font-family: var(--font-body);
+  font-stretch: normal;
+  font-variation-settings: normal;
+}
+
+.cs-toc__list { list-style: none; display: flex; flex-direction: column; gap: var(--space-4); }
+
+.cs-toc__list a {
+  display: block;
+  padding: var(--space-8) 0 var(--space-8) var(--space-16);
+  border-left: 2px solid var(--border-subtle);
+  font-size: var(--text-body-sm);
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color var(--dur-fast) var(--ease-out), border-color var(--dur-fast) var(--ease-out);
+}
+.cs-toc__list a:hover,
+.cs-toc__list a[aria-current="true"] {
+  color: var(--text-heading);
+  border-left-color: var(--accent);
+}
+
+.prose { max-width: 72ch; }
+
+.prose > * + * { margin-top: var(--space-24); }
+
+.prose h2 {
+  /* One rung under the case-study hero title, which holds --text-h2. */
+  font-size: var(--text-h2-sub);
+  margin-top: var(--space-80);
+  margin-bottom: var(--space-32);
+  scroll-margin-top: calc(var(--header-h) + var(--space-32));
+}
+
+/* Rungs below the section heading, for depth inside a section. Each one is a
+   step down the declared type scale and a step down the spacing scale, so the
+   gap above a heading always says how deep it sits before you read a word of
+   it. Family, weight, and colour come from the global h1–h6 rule; only size,
+   rhythm, and line-height change here.
+
+   Only <h2> reaches the table of contents (build_toc in render.py scans h2 and
+   nothing else), so these are subheads within a section, never a substitute for
+   the section heading itself.
+
+   The global rule sets line-height 1.08, which is right for display sizes and
+   too tight further down the ladder, so each rung loosens it. */
+.prose h3 {
+  font-size: var(--text-h3);
+  line-height: 1.15;
+  margin-top: var(--space-48);
+  margin-bottom: var(--space-16);
+  scroll-margin-top: calc(var(--header-h) + var(--space-32));
+}
+
+.prose h4 {
+  font-size: var(--text-h4);
+  line-height: 1.25;
+  margin-top: var(--space-40);
+  margin-bottom: var(--space-16);
+  scroll-margin-top: calc(var(--header-h) + var(--space-32));
+}
+
+/* --text-body: the same size as the copy it introduces. The heading face and
+   --weight-semibold carry the distinction, which is what keeps a fifth rung
+   from competing with the fourth. */
+.prose h5 {
+  font-size: var(--text-body);
+  line-height: 1.35;
+  margin-top: var(--space-32);
+  margin-bottom: var(--space-16);
+  scroll-margin-top: calc(var(--header-h) + var(--space-32));
+}
+
+/* The last rung goes small and uppercase rather than smaller-still sentence
+   case, which would read as fine print instead of a heading. Same treatment as
+   .cs-toc__title and the footer column headings, so it is the site's existing
+   label idiom rather than a sixth invention. The global -0.018em tracking is
+   for lowercase display type; uppercase at this size needs the opposite. */
+.prose h6 {
+  font-size: var(--text-label);
+  line-height: 1.4;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-top: var(--space-32);
+  margin-bottom: var(--space-16);
+  scroll-margin-top: calc(var(--header-h) + var(--space-32));
+}
+
+/* A heading binds to what it introduces. Without this, `.prose > * + *` puts
+   --space-24 above the next block and margin collapsing hands it the larger
+   value, so the heading would float mid-gap. h2 is left out: its --space-32
+   already wins the collapse. Placed after the rungs above so that a heading
+   stacked directly under another heading takes the tighter --space-16 too. */
+.prose h3 + *,
+.prose h4 + *,
+.prose h5 + *,
+.prose h6 + * { margin-top: var(--space-16); }
+
+.prose > :is(h2, h3, h4, h5, h6):first-child { margin-top: 0; }
+
+.prose p {
+  color: var(--text-body-color);
+  line-height: 1.75;
+  font-size: var(--text-body);
+}
+
+/* Content links. --accent is the declared token for links (DESIGN.md), and the
+   thickness is set explicitly because the browser default scales with the font:
+   left alone it renders heavy inside .callout, which is 20px semibold in the
+   heading face. :focus-visible is deliberately absent — the global rule near
+   the top of this file already outlines every focusable element. */
+.prose a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+
+/* Browsers restrict :visited to colour for privacy, so the read state has to be
+   carried by colour alone. --accent-strong is a step darker, not a new hue. */
+.prose a:visited {
+  color: var(--accent-strong);
+}
+
+/* Hover moves the underline rather than the colour, so it reads identically on
+   a visited and an unvisited link instead of fighting the state above. */
+.prose a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.prose a:active {
+  color: var(--accent-strong);
+}
+
+/* Keeps the tint, drops the rounded-box-with-a-fat-left-bar pattern. The
+   accent reads as a hairline across the top and a short tick beneath the
+   statement — the same two marks the pull quote and the moment cells use, so
+   this belongs to the page instead of sitting on top of it.
+
+   An unclassed <blockquote> in body content gets the same treatment, so a
+   markdown `>` block needs no wrapper div to look right. `:not([class])` keeps
+   this off the page-level pull quote (.pullquote__inner), which sits outside
+   .prose anyway and carries its own styling. */
+.prose .callout,
+.prose blockquote:not([class]) {
+  margin-block: var(--space-40);
+  padding: var(--space-32);
+  border: 0;
+  border-top: 1px solid var(--accent);
+  border-radius: 0;
+  background: var(--accent-soft);
+}
+
+.prose .callout::after,
+.prose blockquote:not([class])::after {
+  content: "";
+  display: block;
+  width: 56px;
+  height: 1px;
+  margin-top: var(--space-24);
+  background: var(--accent);
+}
+
+/* --weight-regular, not semibold: the statement is set in the heading face at
+   --text-h4, which already lifts it off the surrounding paragraphs. Setting the
+   whole block bold flattens it, so the emphasis the author actually marked in
+   the markdown has nothing to stand out against. <strong> keeps the global
+   semibold (see `strong` near the top of this file), so **bold** in the source
+   reads as bold on the page.
+
+   The <blockquote> element is styled directly as well as its <p>, so a block
+   whose text isn't wrapped in a paragraph still gets the type treatment. */
+.prose .callout p,
+.prose blockquote:not([class]),
+.prose blockquote:not([class]) p {
+  font-family: var(--font-heading);
+  font-variation-settings: "wdth" var(--wdth-heading);
+  font-stretch: 87.5%;
+  font-size: var(--text-h4);
+  font-weight: var(--weight-regular);
+  line-height: 1.4;
+  letter-spacing: -0.008em;
+  color: var(--text-heading);
+}
+
+/* `.prose > * + *` only reaches direct children, so a second paragraph inside
+   the block needs its own spacing rule. */
+.prose blockquote:not([class]) p + p { margin-top: var(--space-16); }
+
+/* Plain lists in prose — the default when no class is applied. */
+.prose ul:not([class]),
+.prose ol:not([class]) {
+  margin-block: var(--space-24);
+  padding-left: var(--space-24);
+  color: var(--text-body-color);
+  line-height: 1.75;
+}
+.prose ul:not([class]) { list-style: disc; }
+.prose ol:not([class]) { list-style: decimal; }
+.prose ul:not([class]) li + li,
+.prose ol:not([class]) li + li { margin-top: var(--space-8); }
+
+/* Opt-in treatment: one bordered group rather than a stack of separate boxes.
+   The container draws the outline; items are divided by a single hairline
+   each, so the set reads as one object however many entries it holds. */
+.prose .highlighted {
+  list-style: none;
+  margin-block: var(--space-32);
+  padding: var(--space-20);
+  border: 1px solid var(--border-subtle);
+  background: transparent;
+}
+
+/* The marker hangs in the left gutter and the text flows normally beside it.
+
+   This was `display: grid` with `grid-template-columns: auto 1fr`, which works
+   only while an item holds one unbroken run of text. A grid container turns each
+   child into a grid item, so `<li><strong>Lead.</strong> Then the rest.</li>`
+   produces three: the ::before, the <strong>, and an anonymous item for the text
+   after it. Auto-placement put that third item in column 1, whose `auto` width
+   then grew to fit a whole sentence — which is what shoved the bold run far to
+   the right and dropped the remaining text onto its own line. Taking the marker
+   out of flow makes the item immune to whatever inline markup it carries. */
+.prose .highlighted li {
+  position: relative;
+  padding-left: calc(15px + var(--space-16));
+  font-size: var(--text-body-sm);
+  line-height: 1.6;
+  color: var(--text-body-color);
+}
+
+/* No dividing rule — the group is held together by the outer border alone, so
+   the items space rather than separate. */
+.prose .highlighted li + li { margin-top: var(--space-16); }
+
+/* Arrow marker, drawn as a mask so it takes its colour from the accent token.
+   0.24em down from the top of the item, the same optical offset the grid gave
+   it, so the arrow still centres on the first line rather than its cap height. */
+.prose .highlighted li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.24em;
+  width: 15px;
+  height: 15px;
+  background: var(--accent);
+  -webkit-mask: var(--icon-arrow-right) center / contain no-repeat;
+  mask: var(--icon-arrow-right) center / contain no-repeat;
+}
+
+/* The frame moves to the figure so the image sits in a 12px mat rather than
+   carrying the border itself. Square, like everything else on the page. */
+.prose figure {
+  margin-block: var(--space-48);
+  padding: 12px;
+  border: 1px solid var(--border-subtle);
+  border-radius: 0;
+  background: transparent;
+}
+
+.prose figure img {
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+}
+
+.prose figcaption {
+  margin-top: var(--space-16);
+  font-size: var(--text-label);
+  line-height: 1.6;
+  color: var(--text-muted);
+  max-width: 62ch;
+}
+
+.cs-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-8);
+  margin-top: var(--space-64);
+  padding-top: var(--space-32);
+  border-top: 1px solid var(--border-subtle);
+}
+
+.cs-tag {
+  padding: var(--space-4) var(--space-12);
+  border-radius: 0;
+  border: none;
+  background: var(--neutral-100);
+  font-size: var(--text-label);
+  font-weight: var(--weight-semibold);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.cs-back { margin-top: var(--space-40); }
+
+/* --- Scroll reveal -------------------------------------------------------- */
+
+/* Both hidden states are gated on .js, which an inline script in <head> sets.
+   Without scripting the content renders in place instead of staying at
+   opacity 0 forever. */
+
+.js [data-reveal] {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity var(--dur-slow) var(--ease-out),
+    transform var(--dur-slow) var(--ease-out);
+  transition-delay: var(--reveal-delay, 0ms);
+  will-change: opacity, transform;
+}
+
+.js [data-reveal].is-revealed {
+  opacity: 1;
+  transform: none;
+}
+
+/* Hero copy enters on load rather than on scroll */
+.js [data-hero-in] {
+  opacity: 0;
+  transform: translateY(24px);
+  animation: hero-in 900ms var(--ease-out) forwards;
+  animation-delay: var(--reveal-delay, 0ms);
+}
+
+@keyframes hero-in {
+  to { opacity: 1; transform: none; }
+}
+
+/* --- Reduced motion ------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .js [data-reveal],
+  .js [data-hero-in] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .hero__media img { animation: none; transform: scale(1.02); }
+  .progress { display: none; }
+}
+
+/* --- Zoomable figures ------------------------------------------------------
+   The in-page figure is unchanged — same 8px mat, same hairline. The script
+   wraps the image in a button and drops a corner badge on it, so the only
+   difference at rest is the affordance telling you it opens. */
+
+.figure__zoom {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: none;
+  cursor: zoom-in;
+  min-height: 0;          /* the .btn floor must not apply here */
+  border-radius: 0;
+}
+
+/* Two pseudo-elements: ::before is the badge box, ::after is the mark. Split
+   this way so the icon can be a mask and take its colour from the accent token
+   rather than having a colour baked into the SVG. */
+.figure__zoom::before,
+.figure__zoom::after {
+  content: "";
+  position: absolute;
+  inset-block-end: var(--space-8);
+  inset-inline-end: var(--space-8);
+  width: 30px;
+  height: 30px;
+  pointer-events: none;
+}
+
+.figure__zoom::before {
+  background: var(--surface-page);
+  border: 1px solid var(--border-strong);
+  opacity: 0.9;
+  transition:
+    border-color var(--dur-fast) var(--ease-out),
+    background-color var(--dur-fast) var(--ease-out);
+}
+
+.figure__zoom::after {
+  background: var(--accent);
+  -webkit-mask: var(--icon-expand) center / 15px 15px no-repeat;
+  mask: var(--icon-expand) center / 15px 15px no-repeat;
+}
+
+.figure__zoom:hover::before,
+.figure__zoom:focus-visible::before {
+  border-color: var(--accent);
+  background: var(--surface-raised);
+}

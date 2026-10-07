@@ -327,6 +327,8 @@ $slideshow = getAssets($pdo, 3, 'slideshow');
 
   </div>
 
+
+
     <div id="anchor-06"class="anchor-wrapper"><!--@@@@---| Anchor | ---@@@@-->
 
         <div class="anchor-links anchor-white">

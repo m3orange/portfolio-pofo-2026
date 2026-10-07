@@ -109,7 +109,7 @@
         <div class="row">
             <div class="col col-12 col-xl-6">
                 <div class="category">Proficiency In</div>
-                                <div class="category-intro">Areas & software I have worked with extensively and feel very confident in </div>
+                    <div class="category-intro">Areas & software I have worked with extensively and feel very confident in </div>
 
                 <div class="software-fluency">General</div>
                 <ul>
@@ -132,7 +132,7 @@
                 <ul>
                     <li>VS Code, Jira, Github</li>
                     <li>Languages | HTML, Bootstrap, CSS, SCSS, Vanilla Javascript</li>
-                    <li>Frameworks| React, Vue, Vuetify, Material, Material UI, Tailwind</li>
+                    <li>Frameworks| React, Vuetify, Material, Material UI</li>
                 </ul>
             </div>
             <div class="col col-12 col-xl-6">

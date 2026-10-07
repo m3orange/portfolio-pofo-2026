@@ -59,27 +59,6 @@
 
 
 
-    <script>
-
-        // Select all links with a hash (#)
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-            e.preventDefault(); // Prevent default instant jump
-
-            const targetId = this.getAttribute('href');
-            const targetElement = document.querySelector(targetId);
-
-            if (targetElement) {
-            targetElement.scrollIntoView({
-            behavior: 'smooth' // Triggers the smooth animation
-        });
-        }
-    });
-    });
-
-    </script>
-
-
 <!-- Used by preline mega menu
    <script src="<?= BASE_URL ?>preline-mega-menu/hs-unavailable-color-themes.js"></script>
   <script src="<?= BASE_URL ?>preline-mega-menu/rendered.js"></script>
@@ -101,8 +80,8 @@
     <script src="<?= BASE_URL ?>mega-menu-codyhouse/mega-site-navigation.min.js"></script>
     <!--End: Mega Menu JS-->
 
-    <!-- Begin: Animated Geography | Codepen -->
-    <!-- End: Animated Geography | Codepen -->
+
+    <script type="text/javascript" src="<?= BASE_URL ?>js/theme-vendors.min.js"></script>
     
     <script type="text/javascript" src="<?= BASE_URL ?>js/jquery.js"></script>
     <script type="text/javascript" src="<?= BASE_URL ?>js/modernizr.js"></script>
