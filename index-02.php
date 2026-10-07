@@ -186,8 +186,8 @@
 
 
 
+  <?php include_once("home/home-project-grid.php"); ?>
 
-      <!--?php include_once("home/home-project-grid.php"); ?-->
 
 
   <!-- start footer -->
