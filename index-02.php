@@ -127,55 +127,160 @@
         scroll-behavior: auto;
       }
     }
-    .curtis-imported-block{border: 8px solid purple;background-color: #80008029;}
-    .curtis-toc {background-color:#aefab9;}
+
+section.ux-phases-section { 
+  overflow: visible; 
+  overflow-x: clip; 
+  background-color: #222;
+
+}  
+
+.ux-phases-section section{
+  padding: 0px!important;
+}
+
+    /* A: simplest 
+section.curtis-imported-block { overflow: visible; }
+*/
+
+/* B: keeps horizontal clipping, still allows sticky 
+section.curtis-imported-block { overflow: visible; overflow-x: clip; }  
+*/
+
+.ux-phases-section .cs-toc { 
+  /* top: 128px;  */
+  top: 60px;
+/* background-color:rgba(255,255,255,0.5); 
+  border-radius: 8px;  */
+  padding: 20px 20px 20px 120px;
+  /* box-shadow: 0px 0px 10px rgba(0,0,0,0.2); */
+}
+
+.each-ux-phase-container{
+  background-color: rgba(255,255,255,0.05);
+  /* border: 1px solid rgba(255,255,255,0.6); */
+  margin-bottom: 100px;
+  padding: 20px 40px;
+
+}
+
+.each-ux-phase-container .swiper-slide{
+  display: flex;
+  justify-content: center;
+  padding: 2% 5%;
+}
+
+/* .each-ux-phase-container .swiper-slide img{
+  max-width: 90%;
+} */
+
+.each-ux-phase-container h5{
+      margin: 0 !important;
+    color: #FFF;
+    font-weight: 400 !important;
+    line-height: 1.25em !important;
+    font-family: var(--alt-text-2) !important;
+    padding: 2px 0;
+    line-height: 1.3em;
+
+}
+
+.ux-phase-title-area{
+ /* background-color: rgba(255,255,255,0.05); */
+    margin-bottom: 20px;
+    padding: 12px 0 0 10px;
+
+}
+
+.cs-toc__list {
+    
+    gap: 4px;
+}
+
+.cs-toc__list a {
+    display: block;
+    padding: 8px 0 8px 16px;
+    border-left: 2px solid rgba(255,255,255,0.3);
+    font-size: 16px;
+    color: rgba(255,255,255,0.85);
+    text-decoration: none;
+    /* transition: color var(--dur-fast) var(--ease-out), border-color var(--dur-fast) var(--ease-out); */
+ transition: color 160ms cubic-bezier(0.16, 1, 0.3, 1), border-color 160ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+
+
+.cs-toc__list a:hover,
+.cs-toc__list a:active{ color: #FFF!important;}
+
+.cs-toc__list a:hover, .cs-toc__list a[aria-current="true"] {
+    color: rgba(255,255,255,1);
+    border-left-color: #FFFFFF;
+}
+
   </style>
 
 
-
-   <section class="curtis-imported-block">
+   <section class="ux-phases-section wow fadeIn">
           <!-- <div class="progress" data-progress="" aria-hidden="true" style="transform: scaleX(0);"></div> -->
-        <div class="container">
+        <div class="container-fluid">
+
+<div class="container">
+        <div class="row">
+            <div class="col col-12 section-divider-numbered-02 p-0" style="flex-direction: column; justify-content: space-between;">
+                <div class="row" style="flex-direction: column; column-gap: 20px; margin-left: 0px; margin-right: 0px;">
+                    <div class="big-number text-white">03</div>
+                    <div class="big-section-title text-white">
+                        <h4 class="text-white">Add title and some intro</h4></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
           <div class="row">
-            <div class="col col-12 col-lg-2">
+            <div class="col col-12 col-lg-3">
               <aside class="cs-toc curtis-toc" data-toc="" aria-label="On this page">
-                <p class="cs-toc__title">On this page</p>
+                <!-- <p class="cs-toc__title">On this page</p> -->
                 <ul class="cs-toc__list">
-                <li><a href="#area-01" aria-current="true">Area 1</a></li>
-                <li><a href="#area-02">Area 2</a></li>
-                <li><a href="#area-03">Area 3</a></li>
-                <li><a href="#area-04">Area 4</a></li>
+                  <li><a href="#area-01" aria-current="true">Research & Discovery</a></li>
+                  <li><a href="#area-02">Ideation & Definition</a></li>
+                  <li><a href="#area-03">Analysis & Synthesis</a></li>
+                  <li><a href="#area-04">Prototyping & Testing</a></li>
+                  <li><a href="#area-05">Final Design & Handoff</a></li>
                 </ul>
               </aside>
             </div>
 
-            <div class="col col-12 col-lg-10">
-
-                      <div class="">
-
-                        <h2 id="area-01">Area 1</h2>
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar, quam sed mollis elementum, nisi magna faucibus odio, nec sodales nunc nunc sed mi. Vestibulum massa arcu, efficitur in semper ut, tempus id risus. Aenean sed neque turpis. Nam metus dolor, facilisis nec commodo vitae, dignissim placerat sapien. Aliquam ac bibendum turpis. Donec vel pharetra tellus, facilisis egestas dolor. Fusce bibendum felis ut tempor blandit. Sed sagittis venenatis dui id semper. Suspendisse nec blandit lorem. Nam a lacus pretium, lacinia nunc non, dignissim ligula. Phasellus tincidunt lacinia leo, ut semper ligula sodales ultricies. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin non quam id ante faucibus condimentum non at libero. Ut sit amet odio id magna dignissim ornare. Curabitur non ex purus. Duis pretium eros in turpis finibus, id scelerisque tortor interdum. Nunc ac varius augue. Nulla augue nunc, faucibus at justo id, consequat sollicitudin eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar, quam sed mollis elementum, nisi magna faucibus odio, nec sodales nunc nunc sed mi. Vestibulum massa arcu, efficitur in semper ut, tempus id risus. Aenean sed neque turpis. Nam metus dolor, facilisis nec commodo vitae, dignissim placerat sapien. Aliquam ac bibendum turpis. Donec vel pharetra tellus, facilisis egestas dolor. Fusce bibendum felis ut tempor blandit. Sed sagittis venenatis dui id semper. Suspendisse nec blandit lorem. Nam a lacus pretium, lacinia nunc non, dignissim ligula. Phasellus tincidunt lacinia leo, ut semper ligula sodales ultricies. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin non quam id ante faucibus condimentum non at libero. Ut sit amet odio id magna dignissim ornare. Curabitur non ex purus. Duis pretium eros in turpis finibus, id scelerisque tortor interdum. Nunc ac varius augue. Nulla augue nunc, faucibus at justo id, consequat sollicitudin eros.
-                          </p>
+            <div class="col col-12 col-lg-9">
 
 
-                        <h2 id="area-02">Area 2</h2>
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar, quam sed mollis elementum, nisi magna faucibus odio, nec sodales nunc nunc sed mi. Vestibulum massa arcu, efficitur in semper ut, tempus id risus. Aenean sed neque turpis. Nam metus dolor, facilisis nec commodo vitae, dignissim placerat sapien. Aliquam ac bibendum turpis. Donec vel pharetra tellus, facilisis egestas dolor. Fusce bibendum felis ut tempor blandit. Sed sagittis venenatis dui id semper. Suspendisse nec blandit lorem. Nam a lacus pretium, lacinia nunc non, dignissim ligula. Phasellus tincidunt lacinia leo, ut semper ligula sodales ultricies. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin non quam id ante faucibus condimentum non at libero. Ut sit amet odio id magna dignissim ornare. Curabitur non ex purus. Duis pretium eros in turpis finibus, id scelerisque tortor interdum. Nunc ac varius augue. Nulla augue nunc, faucibus at justo id, consequat sollicitudin eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar, quam sed mollis elementum, nisi magna faucibus odio, nec sodales nunc nunc sed mi. Vestibulum massa arcu, efficitur in semper ut, tempus id risus. Aenean sed neque turpis. Nam metus dolor, facilisis nec commodo vitae, dignissim placerat sapien. Aliquam ac bibendum turpis. Donec vel pharetra tellus, facilisis egestas dolor. Fusce bibendum felis ut tempor blandit. Sed sagittis venenatis dui id semper. Suspendisse nec blandit lorem. Nam a lacus pretium, lacinia nunc non, dignissim ligula. Phasellus tincidunt lacinia leo, ut semper ligula sodales ultricies. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin non quam id ante faucibus condimentum non at libero. Ut sit amet odio id magna dignissim ornare. Curabitur non ex purus. Duis pretium eros in turpis finibus, id scelerisque tortor interdum. Nunc ac varius augue. Nulla augue nunc, faucibus at justo id, consequat sollicitudin eros.
-                          </p>
+
+<div class="each-ux-phase-container" id="area-01">
+  <div class="ux-phase-title-area"><h5>Research & Discovery</h5></div>
+  <?php include ROOT_PATH . 'includes/temp-ux-slider.php'; ?>
+</div>
+                        
+<div class="each-ux-phase-container" id="area-02">
+  <div class="ux-phase-title-area"><h5>Ideation & Definition</h5></div>
+  <?php include ROOT_PATH . 'includes/temp-ux-slider-02.php'; ?>
+</div>
 
 
-                        <h2 id="area-03">Area 3</h2>
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar, quam sed mollis elementum, nisi magna faucibus odio, nec sodales nunc nunc sed mi. Vestibulum massa arcu, efficitur in semper ut, tempus id risus. Aenean sed neque turpis. Nam metus dolor, facilisis nec commodo vitae, dignissim placerat sapien. Aliquam ac bibendum turpis. Donec vel pharetra tellus, facilisis egestas dolor. Fusce bibendum felis ut tempor blandit. Sed sagittis venenatis dui id semper. Suspendisse nec blandit lorem. Nam a lacus pretium, lacinia nunc non, dignissim ligula. Phasellus tincidunt lacinia leo, ut semper ligula sodales ultricies. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin non quam id ante faucibus condimentum non at libero. Ut sit amet odio id magna dignissim ornare. Curabitur non ex purus. Duis pretium eros in turpis finibus, id scelerisque tortor interdum. Nunc ac varius augue. Nulla augue nunc, faucibus at justo id, consequat sollicitudin eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar, quam sed mollis elementum, nisi magna faucibus odio, nec sodales nunc nunc sed mi. Vestibulum massa arcu, efficitur in semper ut, tempus id risus. Aenean sed neque turpis. Nam metus dolor, facilisis nec commodo vitae, dignissim placerat sapien. Aliquam ac bibendum turpis. Donec vel pharetra tellus, facilisis egestas dolor. Fusce bibendum felis ut tempor blandit. Sed sagittis venenatis dui id semper. Suspendisse nec blandit lorem. Nam a lacus pretium, lacinia nunc non, dignissim ligula. Phasellus tincidunt lacinia leo, ut semper ligula sodales ultricies. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin non quam id ante faucibus condimentum non at libero. Ut sit amet odio id magna dignissim ornare. Curabitur non ex purus. Duis pretium eros in turpis finibus, id scelerisque tortor interdum. Nunc ac varius augue. Nulla augue nunc, faucibus at justo id, consequat sollicitudin eros.
-                          </p>
+<div class="each-ux-phase-container" id="area-03">
+  <div class="ux-phase-title-area"><h5>Analysis & Synthesis</h5></div>
+  <?php include ROOT_PATH . 'includes/temp-ux-slider.php'; ?>
+</div>
+                        
+<div class="each-ux-phase-container" id="area-04">
+  <div class="ux-phase-title-area"><h5>Prototyping & Testing</h5></div>
+    <?php include ROOT_PATH . 'includes/temp-ux-slider-02.php'; ?>
+</div>                     
 
-                        <h2 id="area-04">Area 4</h2>
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar, quam sed mollis elementum, nisi magna faucibus odio, nec sodales nunc nunc sed mi. Vestibulum massa arcu, efficitur in semper ut, tempus id risus. Aenean sed neque turpis. Nam metus dolor, facilisis nec commodo vitae, dignissim placerat sapien. Aliquam ac bibendum turpis. Donec vel pharetra tellus, facilisis egestas dolor. Fusce bibendum felis ut tempor blandit. Sed sagittis venenatis dui id semper. Suspendisse nec blandit lorem. Nam a lacus pretium, lacinia nunc non, dignissim ligula. Phasellus tincidunt lacinia leo, ut semper ligula sodales ultricies. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin non quam id ante faucibus condimentum non at libero. Ut sit amet odio id magna dignissim ornare. Curabitur non ex purus. Duis pretium eros in turpis finibus, id scelerisque tortor interdum. Nunc ac varius augue. Nulla augue nunc, faucibus at justo id, consequat sollicitudin eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar, quam sed mollis elementum, nisi magna faucibus odio, nec sodales nunc nunc sed mi. Vestibulum massa arcu, efficitur in semper ut, tempus id risus. Aenean sed neque turpis. Nam metus dolor, facilisis nec commodo vitae, dignissim placerat sapien. Aliquam ac bibendum turpis. Donec vel pharetra tellus, facilisis egestas dolor. Fusce bibendum felis ut tempor blandit. Sed sagittis venenatis dui id semper. Suspendisse nec blandit lorem. Nam a lacus pretium, lacinia nunc non, dignissim ligula. Phasellus tincidunt lacinia leo, ut semper ligula sodales ultricies. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin non quam id ante faucibus condimentum non at libero. Ut sit amet odio id magna dignissim ornare. Curabitur non ex purus. Duis pretium eros in turpis finibus, id scelerisque tortor interdum. Nunc ac varius augue. Nulla augue nunc, faucibus at justo id, consequat sollicitudin eros.
-                          </p>
-
-                      </div>
+<div class="each-ux-phase-container" id="area-05">
+  <div class="ux-phase-title-area"><h5>Final Design & Handoff</h5></div>
+<?php include ROOT_PATH . 'includes/temp-ux-slider.php'; ?>
+</div> 
 
             </div>
             

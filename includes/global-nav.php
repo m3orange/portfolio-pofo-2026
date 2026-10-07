@@ -7,7 +7,7 @@ iFrame Only:  https://codyhouse.co/app/components/demo/demo-mega-site-navigation
 
 
 
-        <!--?php include ROOT_PATH . 'includes/media-queries-guide.php'; ?-->
+        <?php include ROOT_PATH . 'includes/media-queries-guide.php'; ?>
 
      
       <header class="mega-nav mega-nav--desktop@md position-relative js-mega-nav mega-nav--desktop backdrop-blur-10 m3-tweaks" class="js" data-theme="dark">
