@@ -7,7 +7,7 @@ iFrame Only:  https://codyhouse.co/app/components/demo/demo-mega-site-navigation
 
 
 
-        <?php include ROOT_PATH . 'includes/media-queries-guide.php'; ?>
+        <!--?php include ROOT_PATH . 'includes/media-queries-guide.php'; ?-->
 
      
       <header class="mega-nav mega-nav--desktop@md position-relative js-mega-nav mega-nav--desktop backdrop-blur-10 m3-tweaks" class="js" data-theme="dark">
@@ -43,7 +43,7 @@ iFrame Only:  https://codyhouse.co/app/components/demo/demo-mega-site-navigation
 
 
                             <!-- 👇 Single links -->
-                            <li class="mega-nav__item"><a href="<?= BASE_URL ?>about.php" class="mega-nav__control" title="Technical Knowledge">Technical Knowledge</a></li>
+                            <li class="mega-nav__item"><a href="<?= BASE_URL ?>about.php" class="mega-nav__control" title="Design<>Code">Design<>Code</a></li>
                             <li class="mega-nav__item"><a href="<?= BASE_URL ?>resume.php" class="mega-nav__control" title="Resumé">Resumé</a></li>
          
                                         
@@ -64,10 +64,9 @@ iFrame Only:  https://codyhouse.co/app/components/demo/demo-mega-site-navigation
                                 <div class="mega-nav__sub-nav-wrapper">
 
                                         <div class="mega-nav__sub-nav mega-nav__sub-nav--layout-3">
-                                            <?php include ROOT_PATH . 'includes/global-nav-menu-card.php'; ?>
+                                            <?php include ROOT_PATH . 'includes/global-nav-menu-card-02.php'; ?>
                                         </div>
-
-                                </div><!-- End: mega-nav__sub-nav-wrapper -->
+                                </div>
                             </li><!--mega-nav__item js-mega-nav__item-->
 
                         </ul>

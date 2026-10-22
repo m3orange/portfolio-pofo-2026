@@ -43,9 +43,8 @@
                         <div class="panel-body">
                            <h6>
                               <ul>
-                                 <li>I have been recently focused on designing for enterprise-level SaaS platforms: creating seamless experiences across different channels and user types; managing design systems and documentation that leads to adoption and tech debt reduction; devising strategies that ensure scalable and future-proof environments capable of handling growing business and technical demands.
+                                 <li>I have been focused on designing for enterprise-level SaaS platforms: creating seamless experiences across different channels and user types; managing design systems and documentation that leads to adoption and tech debt reduction; devising strategies that ensure scalable and future-proof environments capable of handling growing business and technical demands.
                                  </li>
-                                 <li>I particularly enjoy owning a specfic product domain and working consistently with that same context (rather than constantly switching between projects for different products), as that constant gathering of knowledge about the user's goals as well as the jobs-to-be-done in each workflow, allows me to come up with richer, better-informed design decisions, as well as allowing me to proactively bring to product owners suggestions for new features that might not necessarily been in the pipeline already.</li>
                               </ul>
                            </h6>
                            <div class="row intro-examples intro-example-01">

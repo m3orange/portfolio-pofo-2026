@@ -3954,8 +3954,8 @@ nav.navbar.bootsnav li.dropdown .menu-back-div > ul {
             .home #anchor-01.anchor-wrapper {min-height: 300px;}
             .home #anchor-02.anchor-wrapper {min-height: 600px;}
             .home #anchor-03.anchor-wrapper {min-height: 1200px;}
-            .home #anchor-04.anchor-wrapper {min-height: 2500px;}
-            .home #anchor-04.anchor-wrapper .grid-item{min-height: 500px;}
+            .home #anchor-05.anchor-wrapper {min-height: 2500px;}
+            .home #anchor-05.anchor-wrapper .grid-item{min-height: 500px;}
         }
 
         @media (min-width: 993px) {

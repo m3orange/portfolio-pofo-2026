@@ -58,6 +58,7 @@
     <link rel="stylesheet" href="<?= BASE_URL ?>css/bootsnav.css"/>
     <link rel="stylesheet" href="<?= BASE_URL ?>css/font-icons.min.css"/>
     <!-- Keep higher than overwrites or it breaks-->
+    <link rel="stylesheet" href="<?= BASE_URL ?>_guides-02.css" /> 
     <link rel="stylesheet" href="<?= BASE_URL ?>___style.css" /> 
         
 

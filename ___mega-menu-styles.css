@@ -203,3 +203,19 @@ justify-content: center;
     max-width: 90%;
 }
 
+.mega-nav__item a:hover {
+    border-bottom: 0!important;
+}
+
+.mega-nav__card img{
+    opacity: .5;
+}
+
+.mega-nav__card img:hover {
+    opacity: 1;
+
+}
+
+.mega-nav__card img {
+    transition: opacity 0.2s;
+}

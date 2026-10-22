@@ -92,32 +92,6 @@
 
                 <!-- start portfolio-item item -->
                 <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0.4s">
-                  <a href="<?= BASE_URL ?>projects/space-scout/index.php">
-                    <figure>
-                      <div class="portfolio-img bg-deep-pink"><img
-                          src="<?= BASE_URL ?>projects/home-projects/home-space-scout.png" alt="" />
-                      </div>
-                      <figcaption>
-                        <div class="portfolio-hover-main text-left">
-                          <div class="portfolio-hover-box align-bottom featured-work-thumbs">
-                            <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
-                              <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2">
-                              </div>
-                              <span
-                                class="line-height-normal text-white-2 margin-5px-bottom d-block featured-work-title">In
-                                Situ</span>
-                              <p>Film location application</p>
-                            </div>
-                          </div>
-                        </div>
-                      </figcaption>
-                    </figure>
-                  </a>
-                </li>
-                <!-- end portfolio item -->
-
-                <!-- start portfolio-item item -->
-                <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0.4s">
                   <a href="<?= BASE_URL ?>projects/musicasa/index.php">
                     <figure>
                       <div class="portfolio-img bg-deep-pink"><img

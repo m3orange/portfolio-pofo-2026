@@ -117,10 +117,244 @@
   </div>
 
 
+<style>
+  #home-ux-process-timeline{
+    background-color: #4A4A4A;
+  }
+
+  .my-process-intro{
+    color: #FFF;
+    font-size: 21px;
+    line-height: 1.3em;
+    font-family: var(--ibm-sans-body-01)
+    }
+
+  .my-process-intro h6{
+    font-size: 1.6em;
+    font-family: var(--archivo-headers-01);
+    line-height: 1.2em;
+    padding-right: 50px;
+    font-weight: 500 !important;
+    font-family: var(--alt-text-2)!important;
+  }
 
 
 
-  <?php include_once("home/home-project-grid.php"); ?>
+  
+</style>
+
+
+  <div id="anchor-04" class="anchor-wrapper">
+    <section id="home-ux-process-timeline" class="wow padding-90px-top md-padding-50px-top sm-padding-30px-top section-with-border-top">
+      <!-- start filter content -->
+      <div class="container-fluid padding-five-lr md-padding-30px-lr my-process-intro">
+        <div class="row" style="row-gap:40px;">
+          <div class="col col-12 col-lg-4 section-divider-numbered-02 p-0">
+            <div class="big-number text-white">03</div>
+            <div class="big-section-title">
+              <h4 class="text-white">My Process</h4>
+            </div>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-12 col-xxl-3 col-xl-3 col-lg-12 p-0" style="display: flex; flex-direction: column; justify-content: center;">
+            <div class="topic-cards padding-50px-right">
+            <h6 class="font-weight-700 alt-font-2 margin-10px-bottom">
+              Vestibulum ante ipsum primis in faucibus orci luctus 
+            </h6>
+
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar, quam sed mollis elementum, nisi magna faucibus odio, nec sodales nunc nunc sed mi. Vestibulum massa arcu, efficitur in semper ut, tempus id risus. 
+            </div>
+          </div>
+          <div class="col-12 col-xxl-9 col-xl-9 col-lg-12 px-3">
+  <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1238139494?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=0&amp;muted=1&amp;loop=1" frameborder="0" allow="fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="UX Process"></iframe></div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
+          </div>
+
+        </div>
+      </div>
+      <!-- end filter content -->
+    </section>
+  </div>
+
+    <div id="anchor-05" class="anchor-wrapper">
+    <section id="home-projects-grid-01"
+      class="wow fadeIn padding-90px-top md-padding-50px-top sm-padding-30px-top section-with-border-top">
+      <!-- start filter content -->
+      <div class="container-fluid padding-five-lr md-padding-30px-lr">
+        <div class="row" style="row-gap:40px;">
+          <div class="col col-12 col-lg-4 section-divider-numbered-02 p-0">
+            <div class="big-number text-white">04</div>
+            <div class="big-section-title">
+              <h4 class="text-white">Featured Work</h4>
+            </div>
+          </div>
+          <div class="col-12 px-3 p-md-0">
+            <div class="filter-content overflow-hidden">
+              <ul class="portfolio-grid work-2col hover-option2 gutter-medium">
+                <li class="grid-sizer"></li>
+                <!-- start portfolio item -->
+                <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0.2s">
+                  <a href="<?= BASE_URL ?>projects/atlas-design-system/index.php">
+                    <figure>
+                      <div class="portfolio-img bg-deep-pink"><img src="<?= BASE_URL ?>projects/home-projects/home-atlas.png" alt="" />
+                      </div>
+                      <figcaption>
+                        <div class="portfolio-hover-main text-left">
+                          <div class="portfolio-hover-box align-bottom featured-work-thumbs">
+                            <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                              <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2">
+                              </div>
+                              <span
+                                class="line-height-normal text-white-2 margin-5px-bottom d-block featured-work-title">Atlas</span>
+                              <p>Design system for a geospatial imagery application</p>
+                            </div>
+                          </div>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </a>
+                </li>
+                <!-- end portfolio item -->
+
+
+                <!-- start portfolio item -->
+                <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0.2s">
+                  <a href="<?= BASE_URL ?>projects/admin/index.php">
+                    <figure>
+                      <div class="portfolio-img bg-deep-pink"><img
+                          src="<?= BASE_URL ?>projects/home-projects/home-admin.png" alt="" />
+                      </div>
+                      <figcaption>
+                        <div class="portfolio-hover-main text-left">
+                          <div class="portfolio-hover-box align-bottom featured-work-thumbs">
+                            <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                              <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2">
+                              </div>
+                              <span
+                                class="line-height-normal text-white-2 margin-5px-bottom d-block featured-work-title">Admin
+                                Module</span>
+                              <p>Account & user management module for a geospatial insight platform</p>
+                            </div>
+                          </div>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </a>
+                </li>
+                <!-- end portfolio item -->
+
+                <!-- start portfolio-item item -->
+                <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0.4s">
+                  <a href="<?= BASE_URL ?>projects/atlas-ui/index.php">
+                    <figure>
+                      <div class="portfolio-img bg-deep-pink"><img
+                          src="<?= BASE_URL ?>projects/home-projects/home-citybox-ui.png" alt="" /></div>
+                      <figcaption>
+                        <div class="portfolio-hover-main text-left">
+                          <div class="portfolio-hover-box align-bottom featured-work-thumbs">
+                            <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                              <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2">
+                              </div>
+                              <span
+                                class="line-height-normal text-white-2 margin-5px-bottom d-block featured-work-title">Atlas
+                                UI</span>
+                              <p>UI redesign for a geospatial visualization and analytics tool </p>
+                            </div>
+                          </div>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </a>
+                </li>
+                <!-- end portfolio item -->
+
+                <!-- start portfolio-item item -->
+                <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0.4s">
+                  <a href="<?= BASE_URL ?>projects/musicasa/index.php">
+                    <figure>
+                      <div class="portfolio-img bg-deep-pink"><img
+                          src="<?= BASE_URL ?>projects/home-projects/home-musicasa.png" alt="" />
+                      </div>
+                      <figcaption>
+                        <div class="portfolio-hover-main text-left">
+                          <div class="portfolio-hover-box align-bottom featured-work-thumbs">
+                            <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                              <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2">
+                              </div>
+                              <span
+                                class="line-height-normal text-white-2 margin-5px-bottom d-block featured-work-title">Musicasa</span>
+                              <p>Marketplace connecting emerging musicians with home concerts
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </a>
+                </li>
+                <!-- end portfolio item -->
+
+                <!-- start portfolio item -->
+                <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0.6s">
+                  <a href="<?= BASE_URL ?>projects/map-tools/index.php">
+                    <figure>
+                      <div class="portfolio-img bg-deep-pink"><img
+                          src="<?= BASE_URL ?>projects/home-projects/home-map-tools.png" alt="" />
+                      </div>
+                      <figcaption>
+                        <div class="portfolio-hover-main text-left">
+                          <div class="portfolio-hover-box align-bottom featured-work-thumbs">
+                            <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                              <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2">
+                              </div>
+                              <span
+                                class="line-height-normal text-white-2 margin-5px-bottom d-block featured-work-title">Map
+                                Tools</span>
+                              <p>Ideal state visualization for satellite imagery visualization
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </a>
+                </li>
+                <!-- end portfolio item -->
+
+                <!-- start portfolio item -->
+                <li class="grid-item wow fadeIn last-paragraph-no-margin" data-wow-delay="0.6s">
+                  <a href="<?= BASE_URL ?>projects/idd/index.php">
+                    <figure>
+                      <div class="portfolio-img bg-deep-pink"><img
+                          src="<?= BASE_URL ?>projects/home-projects/home-idd.png" alt="" /></div>
+                      <figcaption>
+                        <div class="portfolio-hover-main text-left">
+                          <div class="portfolio-hover-box align-bottom featured-work-thumbs">
+                            <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                              <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2">
+                              </div>
+                              <span
+                                class="line-height-normal text-white-2 margin-5px-bottom d-block featured-work-title">IDD</span>
+                              <p>Incident management platform</p>
+                            </div>
+                          </div>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </a>
+                </li>
+                <!-- end portfolio item -->
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end filter content -->
+    </section>
+  </div>
 
   <!-- start footer -->
   <?php include_once("includes/global-footer.php"); ?>

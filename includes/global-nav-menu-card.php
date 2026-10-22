@@ -66,7 +66,7 @@
     </div> 
 </div>
 
- <div class="col col-6 col-xl-1 col-lg-2 col-md-3 col-sm-4">
+ <!-- <div class="col col-6 col-xl-1 col-lg-2 col-md-3 col-sm-4">
     <div class="mega-nav__card">
         <a href="<?= BASE_URL ?>projects/space-scout/index.php" class="block overflow-hidden card-thumb"> 
             <figure class="image-wrapper"><img class="width-100%" src="<?= BASE_URL ?>mega-menu-codyhouse/card-thumbs/mega-menu-card-thumbs-06.jpg"></figure>
@@ -76,7 +76,7 @@
             Mega_menu_snippet     
         </div>
     </div> 
-</div>
+</div> -->
 
  <div class="col col-6 col-xl-1 col-lg-2 col-md-3 col-sm-4">
     <div class="mega-nav__card">

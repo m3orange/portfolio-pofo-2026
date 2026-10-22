@@ -17,7 +17,7 @@
                         <div class="footer-links">
                             <ul>
                             <li><a href="<?= BASE_URL ?>index.php" class="temp-links" title="Home">Home</a></li>
-                            <li><a href="<?= BASE_URL ?>about.php" class="temp-links" title="Technical Knowledge">Technical Knowledge</a></li>
+                            <li><a href="<?= BASE_URL ?>about.php" class="temp-links" title="Design<>Code">Design<>Code</a></li>
                             <li><a href="<?= BASE_URL ?>resume.php" class="temp-links" title="Resume">Resume</a></li>
                             </ul>
                         </div>
@@ -26,13 +26,12 @@
                             <li><a class="temp-links" href="<?= BASE_URL ?>projects/atlas-ui/index.php" title="Atlas UI">Atlas UI</a></li>
                             <li><a class="temp-links" href="<?= BASE_URL ?>projects/atlas-design-system/index.php" title="Atlas Design System">Atlas Design System</a></li>
                             <li><a class="temp-links" href="<?= BASE_URL ?>projects/admin/index.php" title="Admin Platform">Admin Platform</a></li>
-                            <li><a class="temp-links" href="<?= BASE_URL ?>projects/musicasa/index.php" title="Musicasa">Musicasa</a></li>
+
                             </ul>  
                         </div>
                         <div class="footer-links">
                             <ul>
-                            <li><a class="temp-links" href="<?= BASE_URL ?>projects/cx-roadmap/index.php" title="CX Roadmap">USIC</a></li>
-                            <li><a class="temp-links" href="<?= BASE_URL ?>projects/space-scout/index.php" title="In Situ">In Situ</a></li>
+                            <li><a class="temp-links" href="<?= BASE_URL ?>projects/musicasa/index.php" title="Musicasa">Musicasa</a></li>
                             <li><a class="temp-links" href="<?= BASE_URL ?>projects/map-tools/index.php" title="Map Tools">Map Tools</a></li>
                             <li><a class="temp-links" href="<?= BASE_URL ?>projects/idd/index.php" title="IDD">IDD</a></li>
                             </ul> 

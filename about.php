@@ -18,8 +18,7 @@
                     <h1><span class="hero-emphasis-orange">I'm fluent in code.</span></h1>
                 </div>
                 <div class="col col-12 col-md-5 d-flex flex-column"> <!--text-left text-md-start justify-content-center -->
-                      <img src="<?= BASE_URL ?>about/brad-frost-tweet-03.png" style="max-width: 90%;">
-                </div>
+Add                </div>
 
           </div>
         </div>
@@ -81,7 +80,7 @@
             <div class="big-number">01</div>
             <div class="big-section-title"><h4>I'm a full-stack designer.</h4></div>
         </div>
-            <!-- <img src="<?= BASE_URL ?>about/brad-frost-tweet-03.png" style="max-width: 90%;"> -->
+            <img src="<?= BASE_URL ?>about/brad-frost-tweet-03.png" style="max-width: 90%;">
     </div>
 
     <div class="col col-12 col-lg-8">
@@ -101,7 +100,7 @@
             </div>
             <div class="col col-12 col-lg-4">
                 <div class="i-built-this-website">
-                    <p>I coded this website myself. I used an existing template and built over it using the this stack: PHP, CSS, Javascript, Bootstrap, SQL with PHPMyAdmin & Strapi</p>
+                    <p>I built this website myself. I built it over a template and using this stack: PHP, CSS, Javascript, Bootstrap, SQL with PHPMyAdmin & Strapi</p>
                 </div>
             </div>
 
@@ -160,42 +159,6 @@
 
     <?php include ROOT_PATH . 'about/inc-engineering-projects.php'; ?>
 </div>
-
-    <script>
-        async function loadWorkExperience() {
-            const res = await fetch('/api/work-experience.php');
-            const jobs = await res.json();
-
-            const container = document.getElementById('work-experience-list');
-
-            container.innerHTML = jobs.map(job => `
-            <div class="row rsm-item-header">
-                <div class="col col-12 col-lg-7 col-md-12 p-0">
-                    <h6>${job.company}, ${job.job_title}</h6>
-                </div>
-                <div class="col col-12 col-lg-5 col-md-12 p-0 rsm-city-date">
-                    ${job.city} <span class="divider">|</span> ${job.date_start} – ${job.date_end ?? 'Present'}
-                </div>
-            </div>
-
-            <div class="row rsm-item-details">
-                <div class="col col-12">
-                    <div class="rsm-item-intro font-weight-500">
-                        ${job.intro ?? ''}
-                    </div>
-                    ${job.bullets && job.bullets.length ? `
-                    <div class="rsm-item-bullets">
-                        <ul>
-                            ${job.bullets.map(b => `<li>${b}</li>`).join('')}
-                        </ul>
-                    </div>` : ''}
-                </div>
-            </div>
-        `).join('');
-        }
-
-        loadWorkExperience();
-    </script>
 
     <!-- start footer -->
     <?php include ROOT_PATH . 'includes/global-footer.php'; ?>
